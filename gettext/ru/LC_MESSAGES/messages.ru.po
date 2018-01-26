@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Runalyze\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-08 11:26+0200\n"
+"POT-Creation-Date: 2018-01-26 23:40+0100\n"
 "PO-Revision-Date: 2017-03-07 09:16+0000\n"
 "Last-Translator: Michael Pohl <michael@mipapo.de>\n"
 "Language-Team: Russian <https://translate.runalyze.com/projects/runalyze/"
@@ -45,32 +45,26 @@ msgstr "(первый %u%%)"
 #: inc/core/View/Window/Laps/Table.php:141
 #: inc/core/View/Leaflet/Activity.php:218 inc/core/Activity/Distance.php:80
 #: inc/core/Dataset/Keys/Distance.php:49
-#: inc/training/search/class.SearchFormular.php:168
-#: inc/training/schemes/scheme.Training.php:37
-#: inc/training/schemes/scheme.Training.php:176
-#: inc/training/class.TrainingFormular.php:470
+#: inc/training/search/class.SearchFormular.php:183
 #: inc/training/view/section/table/class.TableLapsComputed.php:63
 #: inc/training/view/section/table/class.TableZonesAbstract.php:105
 #: inc/training/view/section/table/class.TableSwimLane.php:40
-#: inc/import/class.MultiImporterFormular.php:85
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:286
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:473
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:389
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:399
 msgid "Distance"
 msgstr "Дистанция"
 
 #: inc/core/View/Splits/Table.php:155
 #: inc/core/View/Activity/Plot/Series/TimeSeries.php:37
 #: inc/core/View/Window/Laps/Table.php:142
-#: inc/core/View/Leaflet/Activity.php:219 inc/core/Dataset/Keys/Daytime.php:52
-#: inc/html/formular/class.FormularInputDayAndDaytime.php:109
-#: inc/training/class.TrainingFormular.php:469
+#: inc/core/View/Leaflet/Activity.php:219 inc/core/Dataset/Keys/Daytime.php:53
 #: inc/training/view/section/class.SectionOverviewRow.php:52
 #: inc/training/view/section/table/class.TableLapsComputed.php:64
 #: inc/training/view/section/table/class.TableZonesAbstract.php:104
 #: inc/training/view/section/table/class.TableSwimLane.php:41
 #: inc/training/view/section/class.SectionCompositeRow.php:84
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:390
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:400
 msgid "Time"
 msgstr "Время"
 
@@ -78,14 +72,13 @@ msgstr "Время"
 #: inc/core/View/Activity/Box/PaceAlternative.php:37
 #: inc/core/View/Activity/Plot/Series/Pace.php:73
 #: inc/core/View/Window/Laps/Table.php:146 inc/core/Dataset/Keys/Pace.php:56
-#: inc/training/search/class.SearchFormular.php:176
+#: inc/training/search/class.SearchFormular.php:191
 #: inc/training/search/class.FormularSelectSearchSort.php:38
-#: inc/training/schemes/scheme.Training.php:212
 #: inc/training/view/section/table/class.TableLapsComputed.php:65
 #: inc/training/view/section/table/class.TableZonesHeartrate.php:22
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:288
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:292
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:392
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:402
 msgid "Pace"
 msgstr "Темп"
 
@@ -110,7 +103,7 @@ msgstr "Средняя (итого)"
 msgid "1st/2nd Half"
 msgstr "1-я/2-я половина"
 
-#: inc/core/View/Activity/Dataview.php:334
+#: inc/core/View/Activity/Dataview.php:335
 #: inc/core/Dataset/Keys/FitHrvAnalysis.php:44
 msgid "HRV score"
 msgstr "HRV результат"
@@ -122,6 +115,13 @@ msgstr "Количество шагов"
 #: inc/core/View/Activity/Box/TotalCadence.php:30
 msgid "Total cadence"
 msgstr "Общий каденс"
+
+#: inc/core/View/Activity/Box/FlightTime.php:14
+#: inc/core/Dataset/Keys/FlightTime.php:21
+#: inc/training/search/class.FormularSelectSearchSort.php:57
+#, fuzzy
+msgid "Flight time"
+msgstr "Тихий ветер"
 
 #: inc/core/View/Activity/Box/MaximalHeartRateInPercent.php:64
 msgid "This value exceeds your entered maximal heart rate."
@@ -151,7 +151,7 @@ msgstr "Высота +/-"
 #: inc/training/view/section/table/class.TableZonesPace.php:35
 #: inc/training/view/section/class.SectionCompositeRow.php:160
 #: inc/training/view/section/class.SectionCompositeRow.php:163
-#: inc/training/view/class.ElevationInfo.php:146
+#: inc/training/view/class.ElevationInfo.php:131
 #: plugin/RunalyzePluginStat_Wetter/MinMaxTableForEquipment.php:95
 #: plugin/RunalyzePluginStat_Wetter/MinMaxTableForEquipment.php:98
 #: plugin/RunalyzePluginStat_Wetter/MinMaxTableForEquipment.php:101
@@ -169,15 +169,14 @@ msgstr "сред."
 #: inc/core/View/Activity/Box/Gradient.php:26
 #: inc/core/View/Activity/Plot/Series/Gradient.php:54
 #: inc/core/Dataset/Keys/Gradient.php:45
-#: inc/training/search/class.SearchFormular.php:173
+#: inc/training/search/class.SearchFormular.php:188
 #: inc/training/search/class.FormularSelectSearchSort.php:41
-#: inc/training/view/class.ElevationInfo.php:146
+#: inc/training/view/class.ElevationInfo.php:131
 msgid "Gradient"
 msgstr "Градиент"
 
 #: inc/core/View/Activity/Box/RPE.php:30 inc/core/Dataset/Keys/RPE.php:52
-#: inc/training/search/class.SearchFormular.php:196
-#: inc/training/schemes/scheme.Training.php:385
+#: inc/training/search/class.SearchFormular.php:211
 msgid "RPE"
 msgstr "RPE"
 
@@ -191,14 +190,13 @@ msgstr "макс."
 #: inc/core/View/Activity/Box/MaximalHeartRate.php:48
 #: inc/core/Dataset/Keys/HeartrateAverage.php:44
 #: inc/core/Dataset/Keys/HeartrateMaximum.php:44
-#: inc/training/class.TrainingFormular.php:471
 #: inc/training/view/section/class.SectionOverviewRow.php:55
 #: inc/training/view/section/class.SectionOverviewRow.php:56
 #: inc/training/view/section/class.SectionHeartrateRow.php:52
 #: inc/training/view/section/class.SectionHeartrateRow.php:55
 #: inc/training/view/section/class.SectionCompositeRow.php:160
 #: inc/training/view/section/class.SectionCompositeRow.php:163
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:393
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:403
 msgid "Heart rate"
 msgstr "ЧСС"
 
@@ -207,14 +205,26 @@ msgstr "ЧСС"
 msgid "Speed"
 msgstr "Скорость"
 
+#: inc/core/View/Activity/Box/Trimp.php:14 inc/core/Dataset/Keys/Trimp.php:44
+#: inc/core/Configuration/Category/Trimp.php:96
+#: inc/training/search/class.SearchFormular.php:207
+#: inc/draw/class.PlotSumData.php:221 inc/draw/class.PlotSumData.php:226
+msgid "TRIMP"
+msgstr "TRIMP"
+
+#: inc/core/View/Activity/Box/FlightRatio.php:16
+#: inc/core/Dataset/Keys/FlightRatio.php:21
+#: inc/training/search/class.FormularSelectSearchSort.php:58
+#, fuzzy
+msgid "Flight ratio"
+msgstr "Тихий ветер"
+
 #: inc/core/View/Activity/Plot/Series/Temperature.php:40
 #: inc/core/Activity/Temperature.php:60
 #: inc/core/Dataset/Keys/Temperature.php:44
 #: inc/core/Dataset/Keys/Weather.php:73
-#: inc/training/search/class.SearchFormular.php:198
-#: inc/training/schemes/scheme.Training.php:470
-#: inc/training/class.TrainingFormular.php:477
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:205
+#: inc/training/search/class.SearchFormular.php:213
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:209
 msgid "Temperature"
 msgstr "Температура"
 
@@ -226,8 +236,8 @@ msgstr "ЧСС"
 #: inc/core/View/Window/Laps/Table.php:275
 #: inc/core/Activity/VerticalRatio.php:48
 #: inc/core/Dataset/Keys/VerticalRatio.php:44
-#: inc/training/search/class.SearchFormular.php:193
-#: inc/training/view/section/class.SectionRunningDynamicsRow.php:51
+#: inc/training/search/class.SearchFormular.php:208
+#: inc/training/view/section/class.SectionRunningDynamicsRow.php:39
 msgid "Vertical ratio"
 msgstr "Верт. коэффициент"
 
@@ -236,12 +246,52 @@ msgstr "Верт. коэффициент"
 msgid "Moving average"
 msgstr "Скользящее среднее"
 
+#: inc/core/View/Activity/Plot/Series/BrakingGs.php:28
+#: inc/core/Dataset/Keys/AverageBrakingGs.php:21
+#: inc/training/search/class.FormularSelectSearchSort.php:61
+#: inc/training/search/class.FormularSelectSearchSort.php:62
+#: inc/training/view/section/class.SectionRunScribeDataRow.php:36
+#, fuzzy
+msgid "Braking Gs"
+msgstr "Велосипед"
+
+#: inc/core/View/Activity/Plot/Series/BrakingGs.php:28
+#: inc/core/View/Activity/Plot/Series/ImpactGs.php:28
+#: inc/core/View/Activity/Plot/Series/PronationExcursion.php:28
+#: inc/core/View/Activity/Plot/Series/FootstrikeType.php:28
+#: inc/training/search/class.FormularSelectSearchSort.php:59
+#: inc/training/search/class.FormularSelectSearchSort.php:61
+#: inc/training/search/class.FormularSelectSearchSort.php:63
+#: inc/training/search/class.FormularSelectSearchSort.php:65
+#: inc/training/view/section/class.SectionRunScribeDataRow.php:10
+#: inc/training/view/section/class.SectionRunScribeDataRow.php:13
+#: inc/training/view/section/class.SectionRunScribeDataRow.php:16
+#: inc/training/view/section/class.SectionRunScribeDataRow.php:19
+msgid "left"
+msgstr ""
+
+#: inc/core/View/Activity/Plot/Series/BrakingGs.php:28
+#: inc/core/View/Activity/Plot/Series/ImpactGs.php:28
+#: inc/core/View/Activity/Plot/Series/PronationExcursion.php:28
+#: inc/core/View/Activity/Plot/Series/FootstrikeType.php:28
+#: inc/training/search/class.FormularSelectSearchSort.php:60
+#: inc/training/search/class.FormularSelectSearchSort.php:62
+#: inc/training/search/class.FormularSelectSearchSort.php:64
+#: inc/training/search/class.FormularSelectSearchSort.php:66
+#: inc/training/view/section/class.SectionRunScribeDataRow.php:11
+#: inc/training/view/section/class.SectionRunScribeDataRow.php:14
+#: inc/training/view/section/class.SectionRunScribeDataRow.php:17
+#: inc/training/view/section/class.SectionRunScribeDataRow.php:20
+#, fuzzy
+msgid "right"
+msgstr "Легкая"
+
 #: inc/core/View/Activity/Plot/Series/StrideLength.php:54
 #: inc/core/View/Window/Laps/Table.php:277
 #: inc/core/Activity/StrideLength.php:58
 #: inc/core/Dataset/Keys/StrideLength.php:44
-#: inc/training/search/class.SearchFormular.php:181
-#: inc/training/view/section/class.SectionRunningDynamicsRow.php:48
+#: inc/training/search/class.SearchFormular.php:196
+#: inc/training/view/section/class.SectionRunningDynamicsRow.php:36
 msgid "Stride length"
 msgstr "Длина шага"
 
@@ -249,31 +299,55 @@ msgstr "Длина шага"
 msgid "Grade adjusted pace"
 msgstr ""
 
+#: inc/core/View/Activity/Plot/Series/ImpactGs.php:28
+#: inc/core/Dataset/Keys/AverageImpactGs.php:21
+#: inc/training/search/class.FormularSelectSearchSort.php:59
+#: inc/training/search/class.FormularSelectSearchSort.php:60
+#: inc/training/view/section/class.SectionRunScribeDataRow.php:31
+msgid "Impact Gs"
+msgstr ""
+
 #: inc/core/View/Activity/Plot/Series/Stroke.php:62
 #: inc/training/view/section/class.SectionSwimLaneRow.php:29
 msgid "Stroke"
 msgstr "Гребок"
 
+#: inc/core/View/Activity/Plot/Series/PronationExcursion.php:28
+#: inc/core/Dataset/Keys/AveragePronationExcursion.php:21
+#: inc/training/search/class.FormularSelectSearchSort.php:65
+#: inc/training/search/class.FormularSelectSearchSort.php:66
+#: inc/training/view/section/class.SectionRunScribeDataRow.php:19
+#: inc/training/view/section/class.SectionRunScribeDataRow.php:20
+#: inc/training/view/section/class.SectionRunScribeDataRow.php:46
+msgid "Pronation excursion"
+msgstr ""
+
+#: inc/core/View/Activity/Plot/Series/FootstrikeType.php:28
+#: inc/training/view/section/class.SectionRunScribeDataRow.php:16
+#: inc/training/view/section/class.SectionRunScribeDataRow.php:17
+#: inc/training/view/section/class.SectionRunScribeDataRow.php:41
+msgid "Footstrike"
+msgstr ""
+
 #: inc/core/View/Activity/Plot/Series/Swolf.php:63
 #: inc/core/View/Activity/Plot/Series/Swolfcycles.php:62
 #: inc/core/Dataset/Keys/Swolf.php:44
 #: inc/training/view/section/table/class.TableSwimLane.php:42
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:159
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:163
 msgid "Swolf"
 msgstr "SWOLF"
 
 #: inc/core/View/Activity/Plot/Series/Elevation.php:81
 #: inc/core/Activity/Elevation.php:58 inc/core/Dataset/Keys/Elevation.php:44
-#: inc/training/search/class.SearchFormular.php:169
-#: inc/training/schemes/scheme.Training.php:223
-#: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:28
+#: inc/training/search/class.SearchFormular.php:184
+#: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:23
 msgid "Elevation"
 msgstr "Высота"
 
 #: inc/core/View/Activity/Plot/Series/GroundContactBalance.php:58
 #: inc/core/View/Window/Laps/Table.php:271
 #: inc/core/Dataset/Keys/GroundcontactBalance.php:44
-#: inc/training/view/section/class.SectionRunningDynamicsRow.php:67
+#: inc/training/view/section/class.SectionRunningDynamicsRow.php:55
 msgid "Ground contact balance"
 msgstr "Баланс контакта с землей"
 
@@ -285,30 +359,26 @@ msgid "R-R interval"
 msgstr "R-R интервал"
 
 #: inc/core/View/Activity/Plot/Series/GroundContact.php:40
-#: inc/training/search/class.SearchFormular.php:197
-#: inc/training/view/section/class.SectionRunningDynamicsRow.php:62
-#: inc/training/view/section/class.SectionRunningDynamicsRow.php:108
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:177
+#: inc/training/search/class.SearchFormular.php:212
+#: inc/training/view/section/class.SectionRunningDynamicsRow.php:50
+#: inc/training/view/section/class.SectionRunningDynamicsRow.php:82
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:181
 msgid "Ground contact"
 msgstr "Контакт с землей"
 
 #: inc/core/View/Activity/Plot/Series/Power.php:38
 #: inc/core/View/Window/Laps/Table.php:281 inc/core/Dataset/Keys/Power.php:44
-#: inc/training/search/class.SearchFormular.php:185
-#: inc/training/schemes/scheme.Training.php:419
-#: inc/training/class.TrainingFormular.php:476
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:132
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:140
+#: inc/training/search/class.SearchFormular.php:200
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:144
 msgid "Power"
 msgstr "Мощность"
 
 #: inc/core/View/Activity/Plot/Series/VerticalOscillation.php:41
 #: inc/core/View/Window/Laps/Table.php:273
 #: inc/core/Dataset/Keys/VerticalOscillation.php:44
-#: inc/training/search/class.SearchFormular.php:189
-#: inc/training/class.TrainingFormular.php:473
-#: inc/training/view/section/class.SectionRunningDynamicsRow.php:102
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:180
+#: inc/training/search/class.SearchFormular.php:204
+#: inc/training/view/section/class.SectionRunningDynamicsRow.php:76
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:184
 msgid "Vertical oscillation"
 msgstr "Верт. колебания"
 
@@ -319,8 +389,6 @@ msgstr "Разница"
 
 #: inc/core/View/Activity/Plot/Series/Smo2.php:34
 #: inc/core/View/Activity/Plot/Series/Smo2.php:37
-#: inc/training/class.TrainingFormular.php:478
-#: inc/training/class.TrainingFormular.php:479
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:78
 msgid "SmO2"
 msgstr ""
@@ -330,7 +398,7 @@ msgid "Original data"
 msgstr "Исходные данные"
 
 #: inc/core/View/Activity/Plot/ElevationAlgorithms.php:95
-#: inc/training/view/class.ElevationInfo.php:206
+#: inc/training/view/class.ElevationInfo.php:191
 msgid "Threshold"
 msgstr "Порог"
 
@@ -348,7 +416,7 @@ msgid "No GPS-data available. Can\\'t compute laps."
 msgstr "Нет GPS-данных. Невозможно рассчитать круги."
 
 #: inc/core/View/Activity/Plot/Laps.php:121 inc/core/View/Plot/Series.php:160
-#: inc/draw/class.PlotSumData.php:633
+#: inc/draw/class.PlotSumData.php:666
 msgid "avg:"
 msgstr "сред:"
 
@@ -364,18 +432,6 @@ msgstr "Указано кругов"
 #: inc/core/View/Activity/Plot/LapsManual.php:38
 msgid "There are no manual laps."
 msgstr "Нет в ручную созданных кругов."
-
-#: inc/core/View/Activity/Preview.php:131
-msgid "Heartrate data available"
-msgstr "Доступны данные о ЧСС"
-
-#: inc/core/View/Activity/Preview.php:145
-msgid "Lap data available"
-msgstr "Доступны данные об этапах"
-
-#: inc/core/View/Activity/Preview.php:159
-msgid "Route data available"
-msgstr "Доступны данные о маршруте"
 
 #: inc/core/View/Window/Laps/Form.php:41
 msgid "Calculate laps"
@@ -462,10 +518,7 @@ msgstr "Показать рассчитанные круги"
 msgid "Show manual laps"
 msgstr "Показать созданные в ручную круги"
 
-#: inc/core/View/Window/Laps/Table.php:125 inc/data/class.Splits.php:431
-#: inc/training/schemes/scheme.Training.php:44
-#: inc/training/schemes/scheme.Training.php:578
-#: inc/training/formular/class.TrainingInputSplits.php:27
+#: inc/core/View/Window/Laps/Table.php:125
 #: inc/training/view/section/class.SectionLaps.php:20
 msgid "Laps"
 msgstr "Этапы"
@@ -476,9 +529,7 @@ msgstr "Этап"
 
 #: inc/core/View/Window/Laps/Table.php:144
 #: inc/core/Dataset/Keys/Duration.php:54
-#: inc/training/search/class.SearchFormular.php:172
-#: inc/training/schemes/scheme.Training.php:188
-#: inc/import/class.MultiImporterFormular.php:85
+#: inc/training/search/class.SearchFormular.php:187
 msgid "Duration"
 msgstr "Длительность"
 
@@ -492,7 +543,7 @@ msgstr "Изм."
 #: inc/core/Dataset/Keys/HeartrateAverage.php:53
 #: inc/core/Dataset/Keys/HeartrateMaximum.php:53
 #: inc/training/view/section/table/class.TableZonesPace.php:35
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:393
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:403
 msgid "HR"
 msgstr "ЧСС"
 
@@ -502,15 +553,12 @@ msgstr "высота"
 
 #: inc/core/View/Window/Laps/Table.php:267 inc/core/Dataset/Keys/Cadence.php:44
 #: inc/core/Data/Cadence/General.php:22
-#: inc/training/search/class.SearchFormular.php:177
-#: inc/training/schemes/scheme.Training.php:407
-#: inc/training/class.TrainingFormular.php:472
+#: inc/training/search/class.SearchFormular.php:192
 msgid "Cadence"
 msgstr "Каденс"
 
 #: inc/core/View/Window/Laps/Table.php:269
 #: inc/core/Dataset/Keys/Groundcontact.php:44
-#: inc/training/class.TrainingFormular.php:475
 msgid "Ground contact time"
 msgstr "Время контакта с землей"
 
@@ -572,7 +620,7 @@ msgid "There was a problem trying to show the map."
 msgstr "Возникла проблема при импорте файла."
 
 #: inc/core/Activity/PerformanceCondition.php:58
-#: inc/training/search/class.SearchFormular.php:204
+#: inc/training/search/class.SearchFormular.php:219
 msgid "Performance condition"
 msgstr "Состояние формы"
 
@@ -639,15 +687,14 @@ msgstr ""
 "восстановления."
 
 #: inc/core/Activity/Weight.php:72
-#: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:99
-#: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:136
+#: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:100
+#: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:146
 #: plugin/RunalyzePluginPanel_Sportler/Plot.gewicht.php:40
 msgid "Weight"
 msgstr "Вес"
 
 #: inc/core/Activity/Energy.php:59 inc/core/Dataset/Keys/Energy.php:45
-#: inc/training/search/class.SearchFormular.php:200
-#: inc/training/schemes/scheme.Training.php:247
+#: inc/training/search/class.SearchFormular.php:215
 msgid "Energy"
 msgstr ""
 
@@ -656,13 +703,12 @@ msgid "Groundcontact balance"
 msgstr "Распределение времени контакта с землей"
 
 #: inc/core/Activity/PoolLength.php:58
-#: inc/training/schemes/scheme.Training.php:884
 msgid "Pool length"
 msgstr "Длина бассейна"
 
 #: inc/core/Activity/TrainingEffect.php:53
 #: inc/core/Dataset/Keys/FitTrainingEffect.php:43
-#: inc/training/search/class.SearchFormular.php:205
+#: inc/training/search/class.SearchFormular.php:220
 msgid "Training Effect"
 msgstr "Нагрузка"
 
@@ -952,9 +998,8 @@ msgid "Main Equipment"
 msgstr "Основное снаряжение"
 
 #: inc/core/Dataset/Keys/MainEquipment.php:44
-#: inc/training/search/class.SearchFormular.php:161
-#: inc/training/class.TrainingFormular.php:374
-#: inc/tpl/tpl.Frontend.header.php:86
+#: inc/training/search/class.SearchFormular.php:176
+#: inc/tpl/tpl.Frontend.header.php:108
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:145
 #: plugin/RunalyzePluginPanel_Equipment/class.RunalyzePluginPanel_Equipment.php:29
 msgid "Equipment"
@@ -966,18 +1011,22 @@ msgid ""
 "configuration. Equipment objects of this type will be shown with their names."
 msgstr ""
 
+#: inc/core/Dataset/Keys/AveragePronationExcursion.php:26
+#, fuzzy
+msgid "Pronation"
+msgstr "Длительность"
+
 #: inc/core/Dataset/Keys/Humidity.php:43 inc/core/Dataset/Keys/Weather.php:77
 #: inc/core/Data/Weather/Humidity.php:58
-#: inc/training/search/class.SearchFormular.php:206
-#: inc/training/schemes/scheme.Training.php:495
+#: inc/training/search/class.SearchFormular.php:221
 msgid "Humidity"
 msgstr "Влажность"
 
-#: inc/core/Dataset/Keys/Daytime.php:43
+#: inc/core/Dataset/Keys/Daytime.php:44
 msgid "Daytime"
 msgstr "Время"
 
-#: inc/core/Dataset/Keys/Daytime.php:61
+#: inc/core/Dataset/Keys/Daytime.php:70
 msgid "Exact daytime of the activity. (the date itself is always shown)"
 msgstr ""
 "Отображать время начала тренировки (дата тренировки указывается всегда)"
@@ -985,6 +1034,38 @@ msgstr ""
 #: inc/core/Dataset/Keys/Energy.php:54
 msgid ""
 "Energy values are taken from your device or calculated by a simple formula."
+msgstr ""
+
+#: inc/core/Dataset/Keys/Tools.php:52
+#: inc/training/view/class.TrainingView.php:137
+#: inc/tpl/tpl.Frontend.header.php:115
+msgid "Tools"
+msgstr "Инструменты"
+
+#: inc/core/Dataset/Keys/Tools.php:114 inc/core/Dataset/Keys/Tools.php:135
+#: inc/training/view/class.TrainingView.php:111
+#, fuzzy
+msgid "Analyze splits"
+msgstr "Анализ"
+
+#: inc/core/Dataset/Keys/Tools.php:118 inc/core/Dataset/Keys/Tools.php:136
+#, fuzzy
+msgid "Elevation info"
+msgstr "Высота"
+
+#: inc/core/Dataset/Keys/Tools.php:119 inc/core/Dataset/Keys/Tools.php:137
+#: inc/training/view/class.TrainingView.php:123
+#, fuzzy
+msgid "Climb score"
+msgstr "HRV результат"
+
+#: inc/core/Dataset/Keys/Tools.php:122 inc/core/Dataset/Keys/Tools.php:138
+#, fuzzy
+msgid "Time series"
+msgstr "Интервал дат"
+
+#: inc/core/Dataset/Keys/Tools.php:123 inc/core/Dataset/Keys/Tools.php:139
+msgid "Sub segments"
 msgstr ""
 
 #: inc/core/Dataset/Keys/PercentageHilly.php:21
@@ -997,9 +1078,7 @@ msgid "Hilly"
 msgstr ""
 
 #: inc/core/Dataset/Keys/Sport.php:53
-#: inc/training/search/class.SearchFormular.php:122
-#: inc/training/schemes/scheme.Training.php:25
-#: inc/training/schemes/scheme.Training.php:86
+#: inc/training/search/class.SearchFormular.php:137
 msgid "Sport"
 msgstr "Вид спорта"
 
@@ -1028,8 +1107,7 @@ msgid "Ground contact time balance measures your running symmetry."
 msgstr ""
 
 #: inc/core/Dataset/Keys/Title.php:46
-#: inc/training/search/class.SearchFormular.php:174
-#: inc/training/schemes/scheme.Training.php:588
+#: inc/training/search/class.SearchFormular.php:189
 msgid "Title"
 msgstr "Заголовок"
 
@@ -1056,13 +1134,11 @@ msgstr "Давление"
 
 #: inc/core/Dataset/Keys/AirPressure.php:52
 #: inc/core/Dataset/Keys/Weather.php:81 inc/core/Data/Weather/Pressure.php:58
-#: inc/training/search/class.SearchFormular.php:210
-#: inc/training/schemes/scheme.Training.php:507
+#: inc/training/search/class.SearchFormular.php:225
 msgid "Pressure"
 msgstr "Давление"
 
 #: inc/core/Dataset/Keys/FitHrvAnalysis.php:53
-#: inc/training/class.TrainingFormular.php:507
 msgid "HRV"
 msgstr "HRV"
 
@@ -1091,39 +1167,38 @@ msgstr ""
 msgid "Setting"
 msgstr "Настройки"
 
-#: inc/core/Dataset/Keys/Setting.php:101 inc/core/Dataset/Keys/Setting.php:118
+#: inc/core/Dataset/Keys/Setting.php:112 inc/core/Dataset/Keys/Setting.php:129
 msgid "Edit"
 msgstr "Редактировать"
 
-#: inc/core/Dataset/Keys/Setting.php:103
+#: inc/core/Dataset/Keys/Setting.php:114
 #: inc/training/view/class.TrainingView.php:167
 msgid "Do you really want to delete this activity?"
 msgstr "Вы действительно хотите удалить эту тренировку?"
 
-#: inc/core/Dataset/Keys/Setting.php:103 inc/core/Dataset/Keys/Setting.php:120
+#: inc/core/Dataset/Keys/Setting.php:114 inc/core/Dataset/Keys/Setting.php:131
 #: inc/training/view/class.TrainingView.php:167
 msgid "Delete activity"
 msgstr "Удалить тренировку"
 
-#: inc/core/Dataset/Keys/Setting.php:105 inc/core/Dataset/Keys/Setting.php:122
+#: inc/core/Dataset/Keys/Setting.php:116 inc/core/Dataset/Keys/Setting.php:133
 #: inc/core/Dataset/Keys/SharedLink.php:44
 #: inc/training/view/class.TrainingView.php:71
-#: inc/system/class.SharedLinker.php:42
 msgid "Public link"
 msgstr "Публичная ссылка"
 
-#: inc/core/Dataset/Keys/Setting.php:135
+#: inc/core/Dataset/Keys/Setting.php:146
 #: inc/training/view/class.TrainingView.php:150
 msgid "Make private"
 msgstr "Сделать личным"
 
-#: inc/core/Dataset/Keys/Setting.php:138
+#: inc/core/Dataset/Keys/Setting.php:149
 #: inc/training/view/class.TrainingView.php:153
 msgid "Make public"
 msgstr "Разрешить общий доступ"
 
 #: inc/core/Dataset/Keys/ClimbScore.php:21
-#: inc/training/search/class.SearchFormular.php:212
+#: inc/training/search/class.SearchFormular.php:227
 #: inc/training/view/section/class.SectionRouteRowElevation.php:74
 msgid "Climb Score"
 msgstr ""
@@ -1134,7 +1209,6 @@ msgid "CS"
 msgstr "Ю"
 
 #: inc/core/Dataset/Keys/ElapsedTime.php:44
-#: inc/training/schemes/scheme.Training.php:200
 #: inc/training/view/section/class.SectionOverviewRow.php:53
 #: inc/training/view/section/class.SectionCompositeRow.php:99
 msgid "Elapsed time"
@@ -1147,12 +1221,11 @@ msgid ""
 msgstr "Общее время - время между началом и концом тренировки, включая паузы."
 
 #: inc/core/Dataset/Keys/Type.php:43
-#: inc/training/schemes/scheme.Training.php:98
 msgid "Activity type"
 msgstr "Вид тренировки"
 
 #: inc/core/Dataset/Keys/Type.php:52
-#: inc/training/search/class.SearchFormular.php:159
+#: inc/training/search/class.SearchFormular.php:174
 #: inc/training/view/section/table/class.TableSwimLane.php:44
 #: inc/system/config/class.ConfigTabPlugins.php:187
 msgid "Type"
@@ -1179,19 +1252,17 @@ msgstr ""
 "(перегрузка), помогает оценить влияние аэробных упражнений на Ваш организм."
 
 #: inc/core/Dataset/Keys/TotalStrokes.php:44
-#: inc/training/schemes/scheme.Training.php:863
 msgid "Total strokes"
 msgstr "Всего гребков"
 
 #: inc/core/Dataset/Keys/TotalStrokes.php:53
 #: inc/training/view/section/table/class.TableSwimLane.php:43
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:153
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:157
 msgid "Strokes"
 msgstr "Гребков"
 
 #: inc/core/Dataset/Keys/Tags.php:46
-#: inc/training/class.TrainingFormular.php:343
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:291
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:295
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:149
 msgid "Tags"
 msgstr "Теги"
@@ -1239,8 +1310,7 @@ msgid "Groundcontact"
 msgstr ""
 
 #: inc/core/Dataset/Keys/Route.php:69
-#: inc/training/search/class.SearchFormular.php:170
-#: inc/training/schemes/scheme.Training.php:566
+#: inc/training/search/class.SearchFormular.php:185
 msgid "Route"
 msgstr "Маршрут"
 
@@ -1272,51 +1342,56 @@ msgid "Your placements at races"
 msgstr "Категории инвентаря"
 
 #: inc/core/Dataset/Keys/RaceResult.php:127
-#: inc/core/Dataset/Keys/RaceResult.php:175
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:382
+#: inc/core/Dataset/Keys/RaceResult.php:178
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:386
 msgid "Official distance"
 msgstr "Официальная дистанция"
 
 #: inc/core/Dataset/Keys/RaceResult.php:128
-#: inc/core/Dataset/Keys/RaceResult.php:176
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:383
+#: inc/core/Dataset/Keys/RaceResult.php:179
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:387
 msgid "Official time"
 msgstr "Официальное время"
 
 #: inc/core/Dataset/Keys/RaceResult.php:131
-#: inc/core/Dataset/Keys/RaceResult.php:177 inc/html/class.HTML.php:81
-#: inc/html/class.HTML.php:107 inc/draw/class.PlotSumData.php:186
-#: inc/draw/class.PlotSumData.php:192
+#: inc/core/Dataset/Keys/RaceResult.php:180 inc/html/class.HTML.php:81
+#: inc/html/class.HTML.php:107 inc/draw/class.PlotSumData.php:201
+#: inc/draw/class.PlotSumData.php:207
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:259
 #: plugin/RunalyzePluginStat_Trainingszeiten/class.RunalyzePluginStat_Trainingszeiten.php:70
 msgid "Total"
 msgstr "Всего"
 
 #: inc/core/Dataset/Keys/RaceResult.php:135
-#: inc/core/Dataset/Keys/RaceResult.php:178
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:396
+#: inc/core/Dataset/Keys/RaceResult.php:181
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:406
 msgid "Age group"
 msgstr ""
 
 #: inc/core/Dataset/Keys/RaceResult.php:139
-#: inc/core/Dataset/Keys/RaceResult.php:179
+#: inc/core/Dataset/Keys/RaceResult.php:182
 msgid "Gender"
 msgstr "Пол"
 
-#: inc/core/Dataset/Keys/RaceResult.php:160
+#: inc/core/Dataset/Keys/RaceResult.php:163
 #, fuzzy
 msgid "Race name"
 msgstr "Зоны темпа"
 
+#: inc/core/Dataset/Keys/AverageFootstrikeType.php:21
+#: inc/training/search/class.FormularSelectSearchSort.php:63
+#: inc/training/search/class.FormularSelectSearchSort.php:64
+msgid "Footstrike type"
+msgstr ""
+
 #: inc/core/Dataset/Keys/TrainingPartner.php:46
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:303
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:307
 #: plugin/RunalyzePluginStat_Trainingspartner/class.RunalyzePluginStat_Trainingspartner.php:36
 msgid "Training partner"
 msgstr "Партнеры"
 
 #: inc/core/Dataset/Keys/TrainingPartner.php:55
-#: inc/training/search/class.SearchFormular.php:178
-#: inc/training/schemes/scheme.Training.php:598
+#: inc/training/search/class.SearchFormular.php:193
 msgid "Partner"
 msgstr "Партнер"
 
@@ -1325,16 +1400,6 @@ msgstr "Партнер"
 msgid "Training partner are automatically cut after %u characters."
 msgstr "Партнеры по тренировки автоматически обрежутся после %u символов."
 
-#: inc/core/Dataset/Keys/Trimp.php:44
-#: inc/core/Configuration/Category/Trimp.php:96
-#: inc/training/search/class.SearchFormular.php:192
-#: inc/training/view/section/class.SectionOverviewRow.php:59
-#: inc/training/view/section/class.SectionHeartrateRow.php:79
-#: inc/training/view/section/class.SectionCompositeRow.php:187
-#: inc/draw/class.PlotSumData.php:206 inc/draw/class.PlotSumData.php:211
-msgid "TRIMP"
-msgstr "TRIMP"
-
 #: inc/core/Dataset/Keys/Trimp.php:54
 msgid ""
 "Trimp values are colored based on their value, slightly transparent for low "
@@ -1342,15 +1407,14 @@ msgid ""
 msgstr ""
 
 #: inc/core/Dataset/Keys/Weather.php:43
-#: inc/training/search/class.SearchFormular.php:160
-#: inc/training/schemes/scheme.Training.php:483
+#: inc/training/search/class.SearchFormular.php:175
 #: plugin/RunalyzePluginStat_Wetter/class.RunalyzePluginStat_Wetter.php:30
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:394
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:404
 msgid "Weather"
 msgstr "Погода"
 
 #: inc/core/Dataset/Keys/Weather.php:85 inc/core/Data/Weather/WindSpeed.php:63
-#: inc/training/search/class.SearchFormular.php:202
+#: inc/training/search/class.SearchFormular.php:217
 msgid "Wind Speed"
 msgstr "Скорость ветра"
 
@@ -1373,7 +1437,7 @@ msgstr ""
 "вариабельности сердечного ритма сразу после окончания тренировки."
 
 #: inc/core/Configuration/Category/General.php:194
-#: inc/tpl/tpl.Frontend.header.php:82
+#: inc/tpl/tpl.Frontend.header.php:104
 #: inc/system/config/class.ConfigTabGeneral.php:20
 msgid "General settings"
 msgstr "Общие параметры"
@@ -1495,36 +1559,33 @@ msgstr "Добавьте для каждого метра спуска X мет�
 msgid "VO<sub>2</sub>max shape"
 msgstr ""
 
-#: inc/core/Configuration/Category/Privacy.php:91
-#: inc/training/schemes/scheme.Training.php:70
+#: inc/core/Configuration/Category/Privacy.php:82
 msgid "Privacy"
 msgstr "Конфиденциальность"
 
-#: inc/core/Configuration/Category/Privacy.php:94
-msgid "Publish activities"
-msgstr "Опубликовать тренировки"
+#: inc/core/Configuration/Category/Privacy.php:84
+msgid ""
+"You can define the default privacy of new activities by sport type in the "
+"associated sport configuration."
+msgstr ""
 
-#: inc/core/Configuration/Category/Privacy.php:95
-msgid "Automatically mark every activity after its creation as public."
-msgstr "Автоматически отметить каждую созданную тренировку публичной."
-
-#: inc/core/Configuration/Category/Privacy.php:99
+#: inc/core/Configuration/Category/Privacy.php:88
 #, fuzzy
 msgid "Public athlete page: active"
 msgstr "Публичный список: активен"
 
-#: inc/core/Configuration/Category/Privacy.php:100
+#: inc/core/Configuration/Category/Privacy.php:89
 msgid "If activated: Everyone can see a list of all your (public) activities."
 msgstr ""
 "Если активно: Каждый может просмотреть список всех ваших (публичных) "
 "тренировок."
 
-#: inc/core/Configuration/Category/Privacy.php:104
+#: inc/core/Configuration/Category/Privacy.php:93
 #, fuzzy
 msgid "Public athlete page: private workouts"
 msgstr "Публичный список: частные тренировки"
 
-#: inc/core/Configuration/Category/Privacy.php:105
+#: inc/core/Configuration/Category/Privacy.php:94
 msgid ""
 "If activated: Display a summary for each private activity in the public "
 "activity list."
@@ -1532,37 +1593,24 @@ msgstr ""
 "Если активно: Отобразить общую информацию для каждой частной тренировки в "
 "публичном списке тренировок."
 
-#: inc/core/Configuration/Category/Privacy.php:109
+#: inc/core/Configuration/Category/Privacy.php:98
 #, fuzzy
 msgid "Public athlete page: general statistics"
 msgstr "Публичный список: общая статистика"
 
-#: inc/core/Configuration/Category/Privacy.php:110
+#: inc/core/Configuration/Category/Privacy.php:99
 msgid "Show some general statistics above the activity list"
 msgstr "Отображает некоторую общую статистику поверх списка тренировок"
 
-#: inc/core/Configuration/Category/Privacy.php:114
+#: inc/core/Configuration/Category/Privacy.php:103
 #, fuzzy
-msgid "Public activity view: show map"
+msgid "Public activities: show map"
 msgstr "Публичный просмотр: показать карту"
 
-#: inc/core/Configuration/Category/Privacy.php:115
-msgid "You can hide the map for the public view"
+#: inc/core/Configuration/Category/Privacy.php:104
+#, fuzzy
+msgid "You can hide the map for public activities"
 msgstr "Вы можете скрыть карту для публичного просмотра"
-
-#: inc/core/Configuration/Category/Misc.php:46
-#: inc/training/schemes/scheme.Training.php:50
-#: inc/training/view/section/class.SectionMiscellaneous.php:34 dashboard.php:42
-msgid "Miscellaneous"
-msgstr "Прочее"
-
-#: inc/core/Configuration/Category/Misc.php:48
-msgid "Search: results per page"
-msgstr "Поиск: количество результатов на страницу"
-
-#: inc/core/Configuration/Category/Misc.php:49
-msgid "Number of results displayed on each page."
-msgstr "Количество результатов, отображаемых на каждой странице."
 
 #: inc/core/Configuration/Category/BasicEndurance.php:101
 #: inc/core/Configuration/Category/BasicEndurance.php:149
@@ -1622,87 +1670,87 @@ msgstr "Дизайн"
 msgid "Background image"
 msgstr "Фоновое изображение"
 
-#: inc/core/Configuration/Category/ActivityView.php:310
+#: inc/core/Configuration/Category/ActivityView.php:299
 msgid "Activity view"
 msgstr "Просмотр тренировок"
 
-#: inc/core/Configuration/Category/ActivityView.php:313
+#: inc/core/Configuration/Category/ActivityView.php:302
 msgid "Number of decimals"
 msgstr "Количество десятичных знаков"
 
-#: inc/core/Configuration/Category/ActivityView.php:317
+#: inc/core/Configuration/Category/ActivityView.php:306
 msgid "Activity view: show rows in full height"
 msgstr "Показывать все строки развернуто"
 
-#: inc/core/Configuration/Category/ActivityView.php:318
+#: inc/core/Configuration/Category/ActivityView.php:307
 msgid "By default e.g. lap data will be scrollable and not shown completely."
 msgstr ""
 "При включении опции, например, данные об этапах показываются полностью, при "
 "отключении - прокручиваются."
 
-#: inc/core/Configuration/Category/ActivityView.php:334
+#: inc/core/Configuration/Category/ActivityView.php:323
 msgid "Plots: combination"
 msgstr "Графики: отображение данных"
 
-#: inc/core/Configuration/Category/ActivityView.php:338
+#: inc/core/Configuration/Category/ActivityView.php:327
 msgid "Plots: precision"
 msgstr "Графики: точность"
 
-#: inc/core/Configuration/Category/ActivityView.php:339
+#: inc/core/Configuration/Category/ActivityView.php:328
 msgid "How many data points should be plotted?"
 msgstr "Сколько точек на графике должно быть нанесено?"
 
-#: inc/core/Configuration/Category/ActivityView.php:343
+#: inc/core/Configuration/Category/ActivityView.php:332
 msgid "Plots: smooth curves"
 msgstr "Графики: сглаживание участков"
 
-#: inc/core/Configuration/Category/ActivityView.php:347
+#: inc/core/Configuration/Category/ActivityView.php:336
 msgid "Plots: use time as x-axis"
 msgstr "Графики: использовать время по оси x"
 
-#: inc/core/Configuration/Category/ActivityView.php:351
+#: inc/core/Configuration/Category/ActivityView.php:340
 msgid "Pace plot: y-axis minimum"
 msgstr "График темпа: минимальное значение по оси Y"
 
-#: inc/core/Configuration/Category/ActivityView.php:352
+#: inc/core/Configuration/Category/ActivityView.php:341
 msgid "Data points below this limit will be ignored. (only for min/km)"
 msgstr ""
 "Значения ниже указанного предела не будут отображаться (только для мин/км)"
 
-#: inc/core/Configuration/Category/ActivityView.php:356
+#: inc/core/Configuration/Category/ActivityView.php:345
 msgid "Pace plot: y-axis maximum"
 msgstr "График темпа: максимальное значение по оси Y"
 
-#: inc/core/Configuration/Category/ActivityView.php:357
+#: inc/core/Configuration/Category/ActivityView.php:346
 msgid "Data points above this limit will be ignored. (only for min/km)"
 msgstr ""
 "Значения выше указанного предела не будут отображаться (только для мин/км)"
 
-#: inc/core/Configuration/Category/ActivityView.php:361
+#: inc/core/Configuration/Category/ActivityView.php:350
 msgid "Pace plot: y-axis scale type"
 msgstr "График темпа: вид оси Y"
 
-#: inc/core/Configuration/Category/ActivityView.php:362
+#: inc/core/Configuration/Category/ActivityView.php:351
 msgid "Scale type that will be used to show pace on y-axis."
 msgstr "Тип шкалы, которая будет использоваться для показа темпа на оси Y."
 
-#: inc/core/Configuration/Category/ActivityView.php:366
+#: inc/core/Configuration/Category/ActivityView.php:355
 msgid "Pace plot: Ignore outliers"
 msgstr "График темпа: Игнорировать выпадающие"
 
-#: inc/core/Configuration/Category/ActivityView.php:367
+#: inc/core/Configuration/Category/ActivityView.php:356
 msgid "Try to ignore outliers in the pace plot."
 msgstr "Постараться игнорировать выпадающие данные из графика темпа."
 
-#: inc/core/Configuration/Category/ActivityView.php:371
+#: inc/core/Configuration/Category/ActivityView.php:360
 msgid "Splits plot: use zero as axis minimum"
 msgstr "График интервалов: ноль в качестве минимума оси координат"
 
-#: inc/core/Configuration/Category/ActivityView.php:381
+#: inc/core/Configuration/Category/ActivityView.php:370
 msgid "Map: interrupt route"
 msgstr "Карта: прервать маршрут"
 
-#: inc/core/Configuration/Category/ActivityView.php:382
+#: inc/core/Configuration/Category/ActivityView.php:371
 msgid ""
 "The gps path can be interrupted in case of <em>interruptions</em> (e.g. by "
 "car/train/...).Finding these interruptions is not easy. You can define up to "
@@ -1713,108 +1761,92 @@ msgstr ""
 "поезд/...). Поиск этих помех непрост. Вы можете выбрать до какой дистанции "
 "(в секундах среднего темпа) можно срезать данные."
 
-#: inc/core/Configuration/Category/ActivityView.php:388
+#: inc/core/Configuration/Category/ActivityView.php:377
 msgid "Map: precision"
 msgstr "Карта: точность (сколько точек отображать)"
 
-#: inc/core/Configuration/Category/ActivityView.php:389
+#: inc/core/Configuration/Category/ActivityView.php:378
 msgid "How many data points shoud be displayed?"
 msgstr "Какое количество точек необходимо отображать на карте?"
 
-#: inc/core/Configuration/Category/ActivityView.php:393
-msgid "Map: line color"
-msgstr "Карта: цвет линии маршрута"
-
-#: inc/core/Configuration/Category/ActivityView.php:394
-msgid "as hexadecimal rgb (e.g. #ff5500)"
-msgstr "введите в формате RGB (например:  #ff5500)"
-
-#: inc/core/Configuration/Category/ActivityView.php:398
+#: inc/core/Configuration/Category/ActivityView.php:382
 msgid "Map: show map first"
 msgstr "Карта: показывать карту сверху"
 
-#: inc/core/Configuration/Category/ActivityView.php:399
+#: inc/core/Configuration/Category/ActivityView.php:383
 msgid "show map before plots"
 msgstr "показывать карту перед графиками"
 
-#: inc/core/Configuration/Category/ActivityView.php:403
+#: inc/core/Configuration/Category/ActivityView.php:387
 msgid "Map: zoom on scroll"
 msgstr "Карта: масштабировать колесом мыши"
 
-#: inc/core/Configuration/Category/ActivityView.php:413
+#: inc/core/Configuration/Category/ActivityView.php:397
 msgid "Elevation: smoothing"
 msgstr "Высота: сглаживание"
 
-#: inc/core/Configuration/Category/ActivityView.php:414
+#: inc/core/Configuration/Category/ActivityView.php:398
 msgid "Choose the algorithm to smooth the elevation data"
 msgstr "Выберите алгоритм для сглаживания высоты"
 
-#: inc/core/Configuration/Category/ActivityView.php:418
+#: inc/core/Configuration/Category/ActivityView.php:402
 msgid "Elevation: threshold"
 msgstr "Высота: порог"
 
-#: inc/core/Configuration/Category/ActivityView.php:419
+#: inc/core/Configuration/Category/ActivityView.php:403
 msgid "Threshold for the smoothing algorithm"
 msgstr "Порог для алгоритма сглаживания"
 
-#: inc/core/Configuration/Category/ActivityForm.php:195
+#: inc/core/Configuration/Category/ActivityForm.php:186
 msgid "Activity form"
 msgstr "Загрузка тренировок"
 
-#: inc/core/Configuration/Category/ActivityForm.php:198
+#: inc/core/Configuration/Category/ActivityForm.php:189
 msgid "Default window"
 msgstr "Окно загрузки по умолчанию"
 
-#: inc/core/Configuration/Category/ActivityForm.php:202
+#: inc/core/Configuration/Category/ActivityForm.php:193
 #, fuzzy
 msgid "Calculate energy"
 msgstr "Расчитывать мощность"
 
-#: inc/core/Configuration/Category/ActivityForm.php:203
+#: inc/core/Configuration/Category/ActivityForm.php:194
 #, fuzzy
 msgid "Recalculate energy after changing duration by hand"
 msgstr "Пересчитать калории после ручного изменения длительности тренировки"
 
-#: inc/core/Configuration/Category/ActivityForm.php:207
-msgid "Calculate power"
-msgstr "Расчитывать мощность"
-
-#: inc/core/Configuration/Category/ActivityForm.php:208
-msgid "Calculate power by speed and grade for cycling"
-msgstr "Расчитывать мощность при занятиях велоспортом"
-
-#: inc/core/Configuration/Category/ActivityForm.php:212
+#: inc/core/Configuration/Category/ActivityForm.php:198
 msgid "Detect pauses"
 msgstr "Обнаружить паузы"
 
-#: inc/core/Configuration/Category/ActivityForm.php:213
+#: inc/core/Configuration/Category/ActivityForm.php:199
 msgid "Detect pauses (distance not increasing) when importing training"
 msgstr "Обнаружить паузы (когда дистанция не растет) при импорте тренировки"
 
-#: inc/core/Configuration/Category/ActivityForm.php:229
+#: inc/core/Configuration/Category/ActivityForm.php:215
 msgid "Automatically load weather conditions"
 msgstr "Загружать погодные условия"
 
-#: inc/core/Configuration/Category/ActivityForm.php:230
+#: inc/core/Configuration/Category/ActivityForm.php:216
 msgid "via openweathermap.org"
 msgstr "С сайта openweathermap.org"
 
-#: inc/core/Configuration/Category/ActivityForm.php:234
+#: inc/core/Configuration/Category/ActivityForm.php:220
 msgid "for weather: Location"
 msgstr "Погода: ваше месторасположение"
 
-#: inc/core/Configuration/Category/ActivityForm.php:235
+#: inc/core/Configuration/Category/ActivityForm.php:221
 msgid ""
 "For loading weather data from openweathermap.org<br>e.g. <em>Berlin, de</em>"
 msgstr ""
 "Для загрузки данных о погоде с сайта openweathermap.org <br>, например, "
 "<em>Berlin, de</em>"
 
-#: inc/core/Configuration/Category/ActivityForm.php:246
+#: inc/core/Configuration/Category/ActivityForm.php:232
 msgid "Automatically correct elevation data"
 msgstr "Исправлять данные о высоте"
 
-#: inc/core/Configuration/Category/ActivityForm.php:247
+#: inc/core/Configuration/Category/ActivityForm.php:233
 msgid ""
 "Instead of using gps-elevation a correction via external services is "
 "possible."
@@ -1822,16 +1854,16 @@ msgstr ""
 "Вместо использования данных о высоте с вашего gps устройства возможна "
 "коррекция через внешние сервисы."
 
-#: inc/core/Configuration/Category/ActivityForm.php:257
+#: inc/core/Configuration/Category/ActivityForm.php:243
 #, fuzzy
 msgid "Sort: sports"
 msgstr "Сортировка: виды спорта"
 
-#: inc/core/Configuration/Category/ActivityForm.php:261
+#: inc/core/Configuration/Category/ActivityForm.php:247
 msgid "Sort: activity types"
 msgstr "Сортировка: виды тренировок"
 
-#: inc/core/Configuration/Category/ActivityForm.php:265
+#: inc/core/Configuration/Category/ActivityForm.php:251
 msgid "Sort: equipment"
 msgstr "Сортировка: инвентарь"
 
@@ -1887,33 +1919,47 @@ msgstr "Максимальный CTL"
 msgid "Maximal ATL"
 msgstr "Максимальный ATL"
 
-#: inc/core/Configuration/Category/DataBrowser.php:86
+#: inc/core/Configuration/Category/DataBrowser.php:96
 msgid "Calendar view"
 msgstr "Просмотр календаря"
 
-#: inc/core/Configuration/Category/DataBrowser.php:89
+#: inc/core/Configuration/Category/DataBrowser.php:99
 msgid "Calendar: mode"
 msgstr "Календарь: вид"
 
-#: inc/core/Configuration/Category/DataBrowser.php:90
+#: inc/core/Configuration/Category/DataBrowser.php:100
 msgid "Default mode for the calendar"
 msgstr "Отображение календаря по умолчанию"
 
-#: inc/core/Configuration/Category/DataBrowser.php:94
+#: inc/core/Configuration/Category/DataBrowser.php:104
 msgid "Calendar: show labels for dataset"
 msgstr "Календарь: показать маркеры для данных"
 
-#: inc/core/Configuration/Category/DataBrowser.php:98
+#: inc/core/Configuration/Category/DataBrowser.php:108
 msgid "Calendar: show days with activities only"
 msgstr "Календарь: показать только дни с тренировками"
 
-#: inc/core/Configuration/Category/DataBrowser.php:102
+#: inc/core/Configuration/Category/DataBrowser.php:112
 msgid "Calendar: create button"
 msgstr "Календарь: создать кнопку"
 
-#: inc/core/Configuration/Category/DataBrowser.php:103
+#: inc/core/Configuration/Category/DataBrowser.php:113
 msgid "Add a link for every day to create a new activity."
 msgstr "Добавить ссылку для каждого дня для создания новой тренировки."
+
+#: inc/core/Configuration/Category/DataBrowser.php:117
+#: inc/class.DataBrowser.php:290
+msgid "Calendar"
+msgstr "Календарь"
+
+#: inc/core/Configuration/Category/DataBrowser.php:117
+#, fuzzy
+msgid "reverse order"
+msgstr "обратная линейная"
+
+#: inc/core/Configuration/Category/DataBrowser.php:118
+msgid "Show days in reverse orders"
+msgstr ""
 
 #: inc/core/Configuration/Messages.php:26
 msgid "Database cleanup"
@@ -2023,7 +2069,7 @@ msgstr ""
 
 #: inc/core/Data/Weather/Condition.php:117
 #: inc/core/Data/Weather/BeaufortScale.php:145
-#: inc/data/class.SportFactory.php:175
+#: inc/data/class.SportFactory.php:133
 msgid "unknown"
 msgstr "неизвестно"
 
@@ -2221,15 +2267,25 @@ msgstr "Назад"
 msgid "Breast"
 msgstr "На груди"
 
-#: inc/core/Profile/View/DataBrowserRowProfile.php:26
+#: inc/core/Profile/View/DatasetPrivacyProfile.php:24
+#, fuzzy
+msgid "private"
+msgstr "Сделать личным"
+
+#: inc/core/Profile/View/DatasetPrivacyProfile.php:26
+#, fuzzy
+msgid "public"
+msgstr "Публичные"
+
+#: inc/core/Profile/View/DataBrowserRowProfile.php:27
 msgid "complete row"
 msgstr "полностью"
 
-#: inc/core/Profile/View/DataBrowserRowProfile.php:28
+#: inc/core/Profile/View/DataBrowserRowProfile.php:29
 msgid "only icon"
 msgstr "только значок"
 
-#: inc/core/Profile/View/DataBrowserRowProfile.php:30
+#: inc/core/Profile/View/DataBrowserRowProfile.php:31
 #, fuzzy
 msgid "Inherit from sport"
 msgstr "Сортировка: виды спорта"
@@ -2412,15 +2468,15 @@ msgstr "максимум 750 точек"
 msgid "max. 1000 data points"
 msgstr "максимум 1000 точек"
 
-#: inc/core/Parameter/Application/DatabaseOrder.php:39
+#: inc/core/Parameter/Application/DatabaseOrder.php:44
 msgid "id (oldest first)"
 msgstr "ид (сначала старейшие)"
 
-#: inc/core/Parameter/Application/DatabaseOrder.php:40
+#: inc/core/Parameter/Application/DatabaseOrder.php:45
 msgid "id (latest first)"
 msgstr "ид (сначала новейшие)"
 
-#: inc/core/Parameter/Application/DatabaseOrder.php:41
+#: inc/core/Parameter/Application/DatabaseOrder.php:46
 msgid "alphabetical"
 msgstr "по алфавиту"
 
@@ -2593,23 +2649,21 @@ msgstr "Google+"
 msgid "Facebook"
 msgstr "Фэйсбук"
 
-#: inc/class.DataBrowserShared.php:120 inc/class.DataBrowser.php:296
+#: inc/class.DataBrowserShared.php:120 inc/class.DataBrowser.php:298
 msgid "Activity per month"
 msgstr "Тренировки за месяц"
 
-#: inc/class.DataBrowserShared.php:128 inc/class.DataBrowser.php:304
+#: inc/class.DataBrowserShared.php:128 inc/class.DataBrowser.php:306
 msgid "Activity per week"
 msgstr "Тренировки за неделю"
 
-#: inc/data/class.Splits.php:171
-#: inc/training/formular/class.TrainingInputSplits.php:71
+#: inc/data/class.Splits.php:162
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:430
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:443
 msgid "in"
 msgstr "в"
 
-#: inc/data/class.Splits.php:171
-#: inc/training/formular/class.TrainingInputSplits.php:132
+#: inc/data/class.Splits.php:162
 msgid "Resting"
 msgstr "Отдых"
 
@@ -2617,7 +2671,7 @@ msgstr "Отдых"
 msgid "previous"
 msgstr "предыдущая"
 
-#: inc/html/class.Ajax.php:439 inc/class.DataBrowser.php:262
+#: inc/html/class.Ajax.php:439 inc/class.DataBrowser.php:264
 msgid "next"
 msgstr "следующая"
 
@@ -2631,72 +2685,17 @@ msgstr "Конец"
 msgid "per page"
 msgstr "на страницу"
 
-#: inc/html/formular/class.StandardFormular.php:145
-msgid "Submit"
-msgstr "Отправить"
-
-#: inc/html/formular/class.StandardFormular.php:148
-msgid "Create"
-msgstr "Создать"
-
-#: inc/html/formular/class.StandardFormular.php:151
-#: inc/plugin/config/class.PluginConfigurationWindow.php:123
-#: inc/system/config/class.ConfigTab.php:100
-msgid "Save"
-msgstr "Сохранить"
-
-#: inc/html/formular/class.FormularValueParser.php:240
-msgid "The field can not be left empty."
-msgstr "Поле не может быть оставлено пустым."
-
-#: inc/html/formular/class.FormularValueParser.php:264
-msgid "Please enter a number."
-msgstr "Пожалуйста, введите номер."
-
-#: inc/html/formular/class.FormularValueParser.php:270
-msgid "This value is too large."
-msgstr "Значение слишком большое."
-
-#: inc/html/formular/class.FormularValueParser.php:274
-msgid "This value is too small."
-msgstr "Значение слишком маленькое."
-
-#: inc/html/formular/class.FormularValueParser.php:315
-msgid "The value is too large."
-msgstr "Значение слишком большое."
-
-#: inc/html/formular/class.FormularValueParser.php:352
+#: inc/html/formular/class.FormularValueParser.php:113
 msgid "The date could not be parsed."
 msgstr "Дата не может быть обработана."
 
-#: inc/html/formular/class.FormularValueParser.php:356
+#: inc/html/formular/class.FormularValueParser.php:117
 msgid "The date must not be in the future."
 msgstr "Дата не может быть в будущем."
 
-#: inc/html/formular/class.FormularValueParser.php:389
-msgid "The time could not be read."
-msgstr "Не удается прочитать время."
-
-#: inc/html/formular/class.FormularValueParser.php:418
-#: inc/html/formular/class.FormularValueParser.php:453
+#: inc/html/formular/class.FormularValueParser.php:144
 msgid "You have to enter a time."
 msgstr "Необходимо ввести длительность тренировки."
-
-#: inc/html/formular/class.FormularInputDayAndDaytime.php:111
-#: inc/training/search/class.FormularSelectSearchSort.php:35
-#: inc/training/schemes/scheme.Training.php:110
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:102
-#: inc/import/class.MultiImporterFormular.php:85
-#: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:294
-#: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:472
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:387
-msgid "Date"
-msgstr "Дата"
-
-#: inc/html/formular/class.FormularInputDayAndDaytime.php:115
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:105
-msgid "Time of day"
-msgstr "Время"
 
 #: inc/html/formular/class.FormularField.php:214
 msgid "Your input is not allowed."
@@ -2721,7 +2720,7 @@ msgid "The plugin is deactivated."
 msgstr "Плагин отключен."
 
 #: inc/plugin/config/class.PluginConfigurationWindow.php:114
-#: inc/tpl/tpl.Frontend.header.php:79
+#: inc/tpl/tpl.Frontend.header.php:101
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:133
 #: src/CoreBundle/Controller/PluginController.php:38
 msgid "Configuration"
@@ -2730,6 +2729,11 @@ msgstr "Настройки"
 #: inc/plugin/config/class.PluginConfigurationWindow.php:117
 msgid "There are no settings."
 msgstr "Нет настроек."
+
+#: inc/plugin/config/class.PluginConfigurationWindow.php:123
+#: inc/system/config/class.ConfigTab.php:100
+msgid "Save"
+msgstr "Сохранить"
 
 #: inc/plugin/config/class.PluginConfigurationWindow.php:135
 msgid "Activate plugin"
@@ -2760,20 +2764,20 @@ msgid "All"
 msgstr "Все"
 
 #: inc/plugin/class.PluginStat.php:284 inc/plugin/class.PluginStat.php:303
-#: inc/draw/class.PlotSumData.php:248 inc/draw/class.PlotSumData.php:256
+#: inc/draw/class.PlotSumData.php:264 inc/draw/class.PlotSumData.php:272
 #: plugin/RunalyzePluginStat_Statistiken/class.SummaryTableMonths.php:57
 msgid "Last 6 months"
 msgstr "За  6 месяцев"
 
 #: inc/plugin/class.PluginStat.php:285 inc/plugin/class.PluginStat.php:305
-#: inc/draw/class.PlotSumData.php:250 inc/draw/class.PlotSumData.php:257
+#: inc/draw/class.PlotSumData.php:266 inc/draw/class.PlotSumData.php:273
 #: plugin/RunalyzePluginStat_Statistiken/class.SummaryTableMonths.php:63
 msgid "Last 12 months"
 msgstr "За 12 месяцев"
 
 #: inc/plugin/class.PluginStat.php:339
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:568
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:359
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:369
 msgid "In total"
 msgstr "Итого"
 
@@ -2781,7 +2785,7 @@ msgstr "Итого"
 msgid "Install plugin"
 msgstr "Установить плагин"
 
-#: inc/plugin/class.Plugin.php:399
+#: inc/plugin/class.Plugin.php:398
 msgid "Year on year"
 msgstr "За все время"
 
@@ -2798,41 +2802,49 @@ msgstr "За все время"
 msgid "No data available."
 msgstr "Нет данных."
 
-#: inc/training/search/class.SearchFormular.php:60
+#: inc/training/search/class.SearchFormular.php:61
 msgid "Search activities"
 msgstr "Поиск по тренировкам"
 
-#: inc/training/search/class.SearchFormular.php:73
+#: inc/training/search/class.SearchFormular.php:74
+#: inc/tpl/tpl.Frontend.header.php:128
 msgid "Search"
 msgstr "Поиск"
 
-#: inc/training/search/class.SearchFormular.php:90
+#: inc/training/search/class.SearchFormular.php:91
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:334
 msgid "Time range"
 msgstr "Интервал дат"
 
-#: inc/training/search/class.SearchFormular.php:98
+#: inc/training/search/class.SearchFormular.php:99
 msgid "Sorting"
 msgstr "Сортировка"
 
-#: inc/training/search/class.SearchFormular.php:107
+#: inc/training/search/class.SearchFormular.php:108
 msgid "Send to multi editor"
 msgstr "Загрузить в редактор"
 
-#: inc/training/search/class.SearchFormular.php:108
+#: inc/training/search/class.SearchFormular.php:109
 #, php-format
 msgid "Our multi editor is limited to a maximum of %d activities."
 msgstr "Наш редактор ограничен %d тренировками."
 
-#: inc/training/search/class.SearchFormular.php:126
+#: inc/training/search/class.SearchFormular.php:122
+#, fuzzy
+msgid "Results per page"
+msgstr "Поиск: количество результатов на страницу"
+
+#: inc/training/search/class.SearchFormular.php:141
+#: src/CoreBundle/Form/Tools/TrendAnalysis/TrendAnalysisType.php:84
+#: src/CoreBundle/Form/Tools/Anova/AnovaType.php:91
 msgid "Choose sport(s)"
 msgstr "Выберите вид(ы) спорта"
 
-#: inc/training/search/class.SearchFormular.php:136
+#: inc/training/search/class.SearchFormular.php:151
 msgid "all"
 msgstr "все"
 
-#: inc/training/search/class.SearchFormular.php:138
+#: inc/training/search/class.SearchFormular.php:153
 #: plugin/RunalyzePluginStat_Wetter/class.RunalyzePluginStat_Wetter.php:54
 #: plugin/RunalyzePluginStat_Wetter/class.RunalyzePluginStat_Wetter.php:166
 #: plugin/RunalyzePluginStat_Wetter/class.RunalyzePluginStat_Wetter.php:167
@@ -2842,78 +2854,75 @@ msgstr "все"
 msgid "none"
 msgstr "нет"
 
-#: inc/training/search/class.SearchFormular.php:147
-#: inc/training/schemes/scheme.Training.php:57
-#: inc/training/schemes/scheme.Training.php:608
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:396
+#: inc/training/search/class.SearchFormular.php:162
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:400
 msgid "Notes"
 msgstr "Примечания"
 
-#: inc/training/search/class.SearchFormular.php:159
+#: inc/training/search/class.SearchFormular.php:174
+#: src/CoreBundle/Form/Tools/TrendAnalysis/TrendAnalysisType.php:101
+#: src/CoreBundle/Form/Tools/Anova/AnovaType.php:108
 msgid "Choose activity type(s)"
 msgstr "Выберите вид тренировки"
 
-#: inc/training/search/class.SearchFormular.php:160
+#: inc/training/search/class.SearchFormular.php:175
 msgid "Choose weather conditions"
 msgstr "Выберите погодные условия"
 
-#: inc/training/search/class.SearchFormular.php:161
+#: inc/training/search/class.SearchFormular.php:176
 msgid "Choose equipment"
 msgstr "Выберите инвентарь"
 
-#: inc/training/search/class.SearchFormular.php:162
+#: inc/training/search/class.SearchFormular.php:177
 #: plugin/RunalyzePluginStat_Tag/class.RunalyzePluginStat_Tag.php:123
 msgid "Tag"
 msgstr "Тег"
 
-#: inc/training/search/class.SearchFormular.php:162
+#: inc/training/search/class.SearchFormular.php:177
 msgid "Choose tag"
 msgstr "Выберите тег"
 
-#: inc/training/search/class.SearchFormular.php:180
-#: inc/training/schemes/scheme.Training.php:260
+#: inc/training/search/class.SearchFormular.php:195
 msgid "avg. HR"
 msgstr "сред.ЧСС"
 
-#: inc/training/search/class.SearchFormular.php:182
+#: inc/training/search/class.SearchFormular.php:197
 msgid "Is public"
 msgstr "Публичный"
 
-#: inc/training/search/class.SearchFormular.php:184
-#: inc/training/schemes/scheme.Training.php:271
+#: inc/training/search/class.SearchFormular.php:199
 msgid "max. HR"
 msgstr "Макс.ЧСС"
 
-#: inc/training/search/class.SearchFormular.php:186
+#: inc/training/search/class.SearchFormular.php:201
 msgid "Is race"
 msgstr "Соревнование"
 
-#: inc/training/search/class.SearchFormular.php:190
+#: inc/training/search/class.SearchFormular.php:205
 msgid "Uses VO<sub>2</sub>max"
 msgstr ""
 
-#: inc/training/search/class.SearchFormular.php:194
-#: inc/training/schemes/scheme.Training.php:163
+#: inc/training/search/class.SearchFormular.php:209
 msgid "Track"
 msgstr "Трек"
 
-#: inc/training/search/class.SearchFormular.php:201
+#: inc/training/search/class.SearchFormular.php:216
 msgid "Ground Contact Balance"
 msgstr "Баланс контакта с землей"
 
-#: inc/training/search/class.SearchFormular.php:213
+#: inc/training/search/class.SearchFormular.php:228
 msgid "Percentage Hilly"
 msgstr ""
 
-#: inc/training/search/class.SearchFormular.php:313
+#: inc/training/search/class.SearchFormular.php:328
 msgid "Yes"
 msgstr "Да"
 
-#: inc/training/search/class.SearchFormular.php:314
+#: inc/training/search/class.SearchFormular.php:329
 msgid "No"
 msgstr "Нет"
 
-#: inc/training/search/class.SearchResults.php:681
+#: inc/training/search/class.SearchResults.php:697
 #, php-format
 msgid "Found %s activities"
 msgstr "Найдено %s тренировок"
@@ -2925,243 +2934,35 @@ msgstr "Найдено %s тренировок"
 msgid "to"
 msgstr "до"
 
-#: inc/training/search/class.FormularSelectSearchSort.php:66
-#: inc/training/schemes/scheme.Training.php:519
+#: inc/training/search/class.FormularSelectSearchSort.php:35
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:102
+#: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:294
+#: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:472
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:397
+msgid "Date"
+msgstr "Дата"
+
+#: inc/training/search/class.FormularSelectSearchSort.php:76
 msgid "Wind speed"
 msgstr "Скорость ветра"
 
-#: inc/training/search/class.FormularSelectSearchSort.php:67
+#: inc/training/search/class.FormularSelectSearchSort.php:77
 msgid "Wind direction"
 msgstr "Направление ветра"
 
-#: inc/training/search/class.FormularSelectSearchSort.php:73
+#: inc/training/search/class.FormularSelectSearchSort.php:83
 msgid "descending"
 msgstr "по убыванию"
 
-#: inc/training/search/class.FormularSelectSearchSort.php:73
+#: inc/training/search/class.FormularSelectSearchSort.php:83
 msgid "ascending"
 msgstr "по возрастанию"
-
-#: inc/training/schemes/scheme.Training.php:31
-msgid "General information"
-msgstr "Общая информация"
-
-#: inc/training/schemes/scheme.Training.php:64
-msgid "Weather conditions"
-msgstr "Погода"
-
-#: inc/training/schemes/scheme.Training.php:151
-msgid "Public"
-msgstr "Публичные"
-
-#: inc/training/schemes/scheme.Training.php:152
-msgid "Public activities will be visible for everybody."
-msgstr "Публичные тренировки будут видны всем."
-
-#: inc/training/schemes/scheme.Training.php:164
-msgid ""
-"This field is only meant for official track races such that distances can be "
-"shown correctly, e.g. as 10.000m. Use tags for all other purposes."
-msgstr ""
-"Это поле предназначено только для официальных результатов дистанций которые "
-"могут отображены точно, например 10.000 м. Используйте таги для других целей."
-
-#: inc/training/schemes/scheme.Training.php:224
-msgid "Will be calculated afterwards from the activity's elevation profile."
-msgstr "Будет расчитано позже исходя из профиля высоты тренировки."
-
-#: inc/training/schemes/scheme.Training.php:248
-msgid ""
-"This value will be calculated automatically from duration and sport settings "
-"(if activated in your configuration) only if you change the duration or the "
-"type of sport."
-msgstr ""
-"Это значение будет рассчитано автоматически исходя из длительности и "
-"настроек для вида спорта (если включено в настройках) только если вы "
-"измените длительность или тип спорта."
-
-#: inc/training/schemes/scheme.Training.php:312
-msgid "VO2max for shape"
-msgstr "Форма VO2max"
-
-#: inc/training/schemes/scheme.Training.php:313
-msgid ""
-"VO2max values are estimated from your ratio of heart rate and pace. You can "
-"exclude single activities from the calculation of your form and should do so "
-"if it's heart rate data are not reliable (e.g. a lot of stops, walking "
-"breaks, ...)."
-msgstr ""
-"VO2max рассчитаны исходя из отношения ЧСС к темпу. Вы можете исключить "
-"единичные тренировки из расчета формы и стоило бы это сделать если данные "
-"ЧСС ненадежны (например много остановок, перерывов на шаг и тд)."
-
-#: inc/training/schemes/scheme.Training.php:407
-msgid "Cadence (Running)"
-msgstr "Каденс (Бег)"
-
-#: inc/training/schemes/scheme.Training.php:409
-msgid ""
-"Unit is always - also for running - <em>rpm</em>, i.e. rounds (or steps with "
-"one foot) per minute,"
-msgstr ""
-"Единица всегда - также и для бега - <em>об/м</em>, т.е. число оборотов (или "
-"шагов одной ногой) в минуту,"
-
-#: inc/training/schemes/scheme.Training.php:532
-msgid "Wind degrees"
-msgstr "Направление ветра"
-
-#: inc/training/schemes/scheme.Training.php:555
-msgid "Night"
-msgstr "Ночь"
-
-#: inc/training/schemes/scheme.Training.php:873
-#: inc/training/view/section/class.SectionSwimLaneRow.php:31
-msgid "SWOLF"
-msgstr "SWOLF"
-
-#: inc/training/class.TrainingFormular.php:107
-msgid "Save and continue"
-msgstr "Сохранить и продолжить"
-
-#: inc/training/class.TrainingFormular.php:112
-msgid "It seems that you already have imported this activity"
-msgstr "Вы уже загружали эту тренировку"
-
-#: inc/training/class.TrainingFormular.php:233
-msgid "The activity has been successfully created."
-msgstr "Тренировка создана."
-
-#: inc/training/class.TrainingFormular.php:268
-msgid ""
-"Race results are treated in a special way to show your personal bests and "
-"are independent of the chosen activity type."
-msgstr ""
-"Результаты соревнований специально обработаны так, чтобы показать лучшие "
-"результаты и независимы от выбранного типа тренировки."
-
-#: inc/training/class.TrainingFormular.php:269
-msgid ""
-"You can add some details (your placement etc.) in the 'Race result' plugin "
-"afterwards."
-msgstr ""
-"Вы можете добавить немного детальной информации (место и тд) позже в плагине "
-"\"Результат соревнования\"."
-
-#: inc/training/class.TrainingFormular.php:271
-#: src/CoreBundle/Component/Account/Registration.php:176
-msgid "Race"
-msgstr "Соревнование"
-
-#: inc/training/class.TrainingFormular.php:359
-msgid "Choose tags"
-msgstr "Выберите теги"
-
-#: inc/training/class.TrainingFormular.php:444
-msgid "Remove data series"
-msgstr "Удалить данные"
-
-#: inc/training/class.TrainingFormular.php:445
-msgid ""
-"You may want to remove a data series if a sensor, e.g. your heart rate "
-"strap, produced unusable data."
-msgstr ""
-"Вы можете пожелать удалить данные с некоторых датчиков, например пульс с "
-"нестабильно работающего нагрудного ремня."
-
-#: inc/training/class.TrainingFormular.php:446
-msgid "Attention: This operation cannot be undone."
-msgstr "Внимание: Это действие не может быть отменено."
-
-#: inc/training/class.TrainingFormular.php:474
-msgid "Ground contact time balance"
-msgstr "Баланс времени контакта с землей"
-
-#: inc/training/class.TrainingFormular.php:480
-#: inc/training/class.TrainingFormular.php:481
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:78
-#, fuzzy
-msgid "THb"
-msgstr "Чт"
-
-#: inc/training/class.TrainingFormular.php:492
-msgid "Original elevation"
-msgstr "Оригинальная высота"
-
-#: inc/training/class.TrainingFormular.php:493
-msgid "Corrected elevation"
-msgstr "Скорректированная высота"
-
-#: inc/training/class.TrainingFormular.php:497
-msgid "GPS path"
-msgstr "GPS маршрут"
-
-#: inc/training/class.TrainingFormular.php:521
-msgid "Use elevation correction"
-msgstr "Использовать коррекцию высоты"
-
-#: inc/training/class.TrainingFormular.php:525
-msgid "Correct elevation data"
-msgstr "Верные данные высоты"
-
-#: inc/training/class.TrainingFormular.php:530
-msgid ""
-"Elevation data via GPS is very inaccurate. Therefore you can correct it via "
-"some satellite data."
-msgstr ""
-"Данные о  высоте, полученные с помощью GPS, являются очень неточными. "
-"Поэтому вы можете их скорректировать."
-
-#: inc/training/formular/class.TrainingSelectType.php:24
-msgid "select type"
-msgstr "выберите"
-
-#: inc/training/formular/class.TrainingInputSplits.php:49
-msgid "add new lap"
-msgstr "добавить новый этап"
-
-#: inc/training/formular/class.TrainingInputSplits.php:52
-msgid "round for 100m"
-msgstr "округлить до 100м"
-
-#: inc/training/formular/class.TrainingInputSplits.php:55
-msgid "apply as total distance"
-msgstr "применить в качестве всей дистанции"
-
-#: inc/training/formular/class.TrainingInputSplits.php:56
-msgid "all active"
-msgstr "все активные"
-
-#: inc/training/formular/class.TrainingInputSplits.php:56
-msgid "all resting"
-msgstr "все отдыхи"
-
-#: inc/training/formular/class.TrainingInputSplits.php:57
-msgid "alternating:"
-msgstr "или:"
-
-#: inc/training/formular/class.TrainingInputSplits.php:57
-msgid "first resting"
-msgstr "первый отдых"
-
-#: inc/training/formular/class.TrainingInputSplits.php:58
-msgid "first active"
-msgstr "первый активный"
-
-#: inc/training/formular/class.TrainingInputSplits.php:94
-msgid "Defining some laps as 'resting' will hide them in the respective plot."
-msgstr ""
-"Обозначив некоторые круги как \"отдых\" скроет их с соответсвующего графика."
-
-#: inc/training/formular/class.TrainingInputSplits.php:132
-msgid "Active"
-msgstr "Активные"
 
 #: inc/training/view/section/class.SectionComposite.php:17
 msgid "Composite data"
 msgstr "Общие данные"
 
-#: inc/training/view/section/class.SectionRunningDynamicsRow.php:57
+#: inc/training/view/section/class.SectionRunningDynamicsRow.php:45
 msgid "Oscillation"
 msgstr "Колебания"
 
@@ -3208,7 +3009,7 @@ msgstr "Обзор"
 msgid "Course"
 msgstr "Маршрут"
 
-#: inc/training/view/section/class.SectionRouteRowElevation.php:107
+#: inc/training/view/section/class.SectionRouteRowElevation.php:106
 msgid "Climb Score view"
 msgstr ""
 
@@ -3267,6 +3068,10 @@ msgstr "Вариабельность сердечного ритма"
 msgid "Lanes"
 msgstr "Дорожек"
 
+#: inc/training/view/section/class.SectionMiscellaneous.php:34 dashboard.php:42
+msgid "Miscellaneous"
+msgstr "Прочее"
+
 #: inc/training/view/section/table/class.TableLapsComputed.php:66
 msgid "bpm"
 msgstr "уд/м"
@@ -3300,10 +3105,6 @@ msgstr "Зоны ЧСС"
 msgid "More about VO<sub>2</sub>max calculation"
 msgstr "Подробнее о расчете VO<sub>2</sub>max"
 
-#: inc/training/view/section/class.SectionCompositeRow.php:186
-msgid "Calories"
-msgstr "Калории"
-
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:58
 msgid "Additional notes"
 msgstr "Примечания"
@@ -3320,62 +3121,80 @@ msgstr "График мощности"
 msgid "Temperature plot"
 msgstr "График температуры"
 
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:202
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:78
+#, fuzzy
+msgid "THb"
+msgstr "Чт"
+
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:105
+msgid "Time of day"
+msgstr "Время"
+
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:143
+#, fuzzy
+msgid "This value has been calculated."
+msgstr "Плагин был удален."
+
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:206
 msgid "Weather condition"
 msgstr "Погода"
 
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:371
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:422
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:375
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:432
 msgid "Age standard"
 msgstr ""
 
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:372
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:423
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:376
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:433
 msgid "Open standard"
 msgstr ""
 
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:373
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:424
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:377
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:434
 #, php-format
 msgid "via tables by %s"
 msgstr ""
 
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:380
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:384
 msgid "Race Result"
 msgstr "Результат соревнования"
 
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:384
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:391
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:388
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:401
 msgid "Age grade"
 msgstr ""
 
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:385
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:389
 msgid "Place overall"
 msgstr "Место в общем зачете"
 
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:386
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:390
 msgid "Place age group"
 msgstr "Место в возрастной группе"
 
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:387
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:391
 msgid "Place gender"
 msgstr "Место по половому признаку"
 
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:407
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:411
 #, php-format
 msgid "Source of weather data: %s"
 msgstr "Данные погоды от: %s"
 
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:423
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:427
 #, php-format
 msgid ""
 "You created this training on <strong>%s</strong> at <strong>%s</strong>."
 msgstr "Вы создали эту тренировку <strong>%s</strong> в <strong>%s</strong>."
 
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:430
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:434
 #, php-format
 msgid "Last modification on <strong>%s</strong> at <strong>%s</strong>."
 msgstr "Последнее изменение <strong>%s</strong> в <strong>%s</strong>."
+
+#: inc/training/view/section/class.SectionSwimLaneRow.php:31
+msgid "SWOLF"
+msgstr "SWOLF"
 
 #: inc/training/view/section/class.SectionSwimLaneRow.php:33
 msgid "SWOLFcycles"
@@ -3385,36 +3204,47 @@ msgstr "SWOLF циклов"
 msgid "Elevation data"
 msgstr "Данные высоты"
 
-#: inc/training/view/class.ElevationInfo.php:113
+#: inc/training/view/section/class.SectionRunScribeDataRow.php:10
+#: inc/training/view/section/class.SectionRunScribeDataRow.php:11
+msgid "Impact"
+msgstr ""
+
+#: inc/training/view/section/class.SectionRunScribeDataRow.php:13
+#: inc/training/view/section/class.SectionRunScribeDataRow.php:14
+#, fuzzy
+msgid "Braking"
+msgstr "Велосипед"
+
+#: inc/training/view/class.ElevationInfo.php:98
 #, php-format
 msgid "Elevation calculation for: %s"
 msgstr "Расчет высоты для: %s"
 
-#: inc/training/view/class.ElevationInfo.php:122
+#: inc/training/view/class.ElevationInfo.php:107
 msgid "apply data"
 msgstr "ввести данные"
 
-#: inc/training/view/class.ElevationInfo.php:127
+#: inc/training/view/class.ElevationInfo.php:112
 msgid "General data"
 msgstr "Общие данные"
 
-#: inc/training/view/class.ElevationInfo.php:130
+#: inc/training/view/class.ElevationInfo.php:115
 msgid "manual value"
 msgstr "заданное значение"
 
-#: inc/training/view/class.ElevationInfo.php:130
+#: inc/training/view/class.ElevationInfo.php:115
 msgid "If you did not insert a value by hand, this value has been calculated."
 msgstr "Если вы не введете значение вручную, это значение будет рассчитано."
 
-#: inc/training/view/class.ElevationInfo.php:134
+#: inc/training/view/class.ElevationInfo.php:119
 msgid "Lowest point"
 msgstr "Наименьшее значение"
 
-#: inc/training/view/class.ElevationInfo.php:138
+#: inc/training/view/class.ElevationInfo.php:123
 msgid "calculated value"
 msgstr "вычисленное значение"
 
-#: inc/training/view/class.ElevationInfo.php:138
+#: inc/training/view/class.ElevationInfo.php:123
 msgid ""
 "This value is calculated with your current configuration. The saved value "
 "may be outdated."
@@ -3422,70 +3252,69 @@ msgstr ""
 "Это значение вычисляется на основании ваших текущих настроек. Сохраненное "
 "значение может быть устаревшим."
 
-#: inc/training/view/class.ElevationInfo.php:142
+#: inc/training/view/class.ElevationInfo.php:127
 msgid "Highest point"
 msgstr "Наивысшее значение"
 
-#: inc/training/view/class.ElevationInfo.php:150
+#: inc/training/view/class.ElevationInfo.php:135
 msgid "Up/Down"
 msgstr "+/-"
 
-#: inc/training/view/class.ElevationInfo.php:166
+#: inc/training/view/class.ElevationInfo.php:151
 msgid "You can choose the algorithm and threshold in the configuration window."
 msgstr "Вы можете выбрать алгоритм и границы в разделе настроек."
 
-#: inc/training/view/class.ElevationInfo.php:168
+#: inc/training/view/class.ElevationInfo.php:153
 msgid "Elevation data for different algorithms/thresholds"
 msgstr "Данные о высоте, рассчитанные на основании различных алгоритмов"
 
-#: inc/training/view/class.ElevationInfo.php:181
+#: inc/training/view/class.ElevationInfo.php:166
 msgid ""
 "Elevation data for different algorithms/thresholds (based on original data)"
 msgstr ""
 "Данные о высоте, рассчитанные на основании различных алгоритмов (на "
 "основании исходных данных)"
 
-#: inc/training/view/class.ElevationInfo.php:244
+#: inc/training/view/class.ElevationInfo.php:229
 msgid "Elevation correction"
 msgstr "Корректировка высоты"
 
-#: inc/training/view/class.ElevationInfo.php:248
-#: src/CoreBundle/Controller/ActivityController.php:256
+#: inc/training/view/class.ElevationInfo.php:233
 msgid "Elevation data has been corrected."
 msgstr "Данные о высоте скорректированы."
 
-#: inc/training/view/class.ElevationInfo.php:251
+#: inc/training/view/class.ElevationInfo.php:236
 msgid "Elevation data has not been corrected."
 msgstr "Данные о высоте не скорректированы."
 
-#: inc/training/view/class.ElevationInfo.php:252
+#: inc/training/view/class.ElevationInfo.php:237
 msgid "correct now"
 msgstr "скорректировать"
 
-#: inc/training/view/class.ElevationInfo.php:272
-#: inc/training/view/class.ElevationInfo.php:273
-#: inc/training/view/class.ElevationInfo.php:274
+#: inc/training/view/class.ElevationInfo.php:257
+#: inc/training/view/class.ElevationInfo.php:258
+#: inc/training/view/class.ElevationInfo.php:259
 #, php-format
 msgid "correct again using %s"
 msgstr "скорректировать с использованием %s"
 
-#: inc/training/view/class.ElevationInfo.php:272
+#: inc/training/view/class.ElevationInfo.php:257
 msgid "srtm files"
 msgstr "srtm файлы"
 
-#: inc/training/view/class.ElevationInfo.php:275
+#: inc/training/view/class.ElevationInfo.php:260
 msgid "remove corrected elevation data"
 msgstr "удалить скорректированные данные высоты"
 
-#: inc/training/view/class.ElevationInfo.php:286
+#: inc/training/view/class.ElevationInfo.php:271
 msgid "Compare algorithms"
 msgstr "Сравнение алгоритмов расчета высоты"
 
-#: inc/training/view/class.ElevationInfo.php:297
+#: inc/training/view/class.ElevationInfo.php:282
 msgid "Note for elevation data"
 msgstr "О корректировке высоты"
 
-#: inc/training/view/class.ElevationInfo.php:301
+#: inc/training/view/class.ElevationInfo.php:286
 msgid ""
 "The calculation of elevation data is very difficult - there is not one "
 "single solution. Bad gps data can be corrected via srtm-data but these are "
@@ -3500,6 +3329,15 @@ msgstr ""
 "платформа использует свой алгоритм определения высоты (для подъемов и "
 "спусков). Мы даем вам возможность выбрать используемый алгоритм и порог, для "
 "того, чтобы данные соответствовали вашему личному опыту."
+
+#: inc/training/view/class.ElevationInfo.php:297
+msgid "Problem"
+msgstr ""
+
+#: inc/training/view/class.ElevationInfo.php:300
+#, fuzzy
+msgid "No elevation data available."
+msgstr "Нет данных."
 
 #: inc/training/view/class.TrainingView.php:60
 msgid "Show week"
@@ -3518,19 +3356,9 @@ msgstr "Экспорт"
 msgid "as %s"
 msgstr "как %s"
 
-#: inc/training/view/class.TrainingView.php:111
-#, fuzzy
-msgid "Analyze splits"
-msgstr "Анализ"
-
 #: inc/training/view/class.TrainingView.php:115
 msgid "Show VO<sub>2</sub>max calculation"
 msgstr "Подробнее о расчете VO<sub>2</sub>max"
-
-#: inc/training/view/class.TrainingView.php:123
-#, fuzzy
-msgid "Climb score"
-msgstr "HRV результат"
 
 #: inc/training/view/class.TrainingView.php:127
 msgid "Analyze time series"
@@ -3539,11 +3367,6 @@ msgstr ""
 #: inc/training/view/class.TrainingView.php:131
 msgid "Find best sub segments"
 msgstr ""
-
-#: inc/training/view/class.TrainingView.php:137
-#: inc/tpl/tpl.Frontend.header.php:93
-msgid "Tools"
-msgstr "Инструменты"
 
 #: inc/training/view/class.TrainingView.php:158
 msgid "Edit race result"
@@ -3557,164 +3380,9 @@ msgstr "Добавить результат соревнования"
 msgid "Edit activity"
 msgstr "Редактировать тренировку"
 
-#: inc/import/class.MultiImporterFormular.php:58
-msgid "Choose activities"
-msgstr "Выберите тренировки"
-
-#: inc/import/class.MultiImporterFormular.php:63
-msgid "Import selected activities"
-msgstr "Загрузить выбранные"
-
-#: inc/import/class.MultiImporterFormular.php:80
-#, php-format
-msgid "Found %s activities."
-msgstr "Найдено тренировок: %s ."
-
-#: inc/import/class.MultiImporterFormular.php:82
-msgid "Found <strong>one</strong> duplicate activity."
-msgid_plural "Found duplicate activities."
-msgstr[0] "Найдена <strong>одна</strong> повторяющаяся тренировки."
-msgstr[1] "Найдены повторяющиеся тренировки."
-msgstr[2] "Найдены повторяющиеся тренировки."
-
-#: inc/import/class.MultiImporterFormular.php:85
-msgid "Import"
-msgstr "Загрузить"
-
-#: inc/import/class.MultiImporterFormular.php:150
-msgid "Show multi editor afterwards"
-msgstr "Запустить редактор после загрузки"
-
-#: inc/import/class.ImporterWindowTabUpload.php:38
-msgid "Upload"
-msgstr "Загрузка"
-
-#: inc/import/class.MultiImporter.php:84
-msgid "The activities have been successfully imported."
-msgstr "Тренировка была успешно импортирована."
-
-#: inc/import/class.ImporterWindowTabCommunicator.php:26
-msgid "Garmin Communicator"
-msgstr "Гармин Коммуникатор"
-
-#: inc/import/class.ImporterWindowTabFormular.php:45
-msgid "Form"
-msgstr "Ввод вручную"
-
-#: inc/import/class.ImporterWindow.php:220
+#: inc/import/class.ImporterWindow.php:22
 msgid "Add workout"
 msgstr "Загрузить"
-
-#: inc/import/filetypes/class.ImporterFiletypeXML.php:59
-#: inc/import/filetypes/class.ImporterFiletypeCSV.php:50
-#: inc/import/filetypes/class.ImporterFiletypeKML.php:64
-#, php-format
-msgid "%s-files are supported from: %s"
-msgstr "%s-файлы поддерживаются устройствами: %s"
-
-#: inc/import/filetypes/class.ImporterFiletypeHRM.php:6
-msgid "hrm- and gpx-files with the same name will be automatically combined."
-msgstr ""
-"hrm- и gpx-файлы с одинаковыми именами будут автоматически объединены ."
-
-#: inc/import/filetypes/class.ImporterFiletypeAbstract.php:75
-msgid "No activities could be found."
-msgstr "Тренировки не найдены."
-
-#: inc/import/filetypes/class.ImporterFiletypeAbstract.php:98
-msgid ""
-"There is no parser in ImporterFiletype. Maybe this filetype is not supported."
-msgstr ""
-"Нет парсера в ImporterFiletype. Возможно, этот тип файла не поддерживается."
-
-#: inc/import/filetypes/class.ImporterFiletypeAbstract.php:162
-#, php-format
-msgid "This file is not supported. Supported producers of %s-files: %s."
-msgstr "Этот файл не поддерживается. Поддерживаемые производители %s-файл: %s."
-
-#: inc/import/tpl/tpl.Importer.garminCommunicator.php:10
-msgid "Move your mouse here to start loading the communicator."
-msgstr "Наведите указатель мыши сюда, чтобы начать загрузку коммуникатора."
-
-#: inc/import/tpl/tpl.Importer.garminCommunicator.php:25
-#, php-format
-msgid ""
-"Due to security reasons browser manufacturers will drop support for plugins "
-"like the Garmin Communicator. A <a href=\"%s\">reinstall</a> may work, but "
-"we have documented an alternative way to import the original files at %s. "
-msgstr ""
-"Из-за соображений безопасности производители браузеров откажутся от "
-"поддержки плагинов, таких как Garmin Communicator. <a href=\"%s"
-"\">Переустановка</a> может работать, но мы описали альтернативный способ "
-"импортировать исходные файлы в %s. "
-
-#: inc/import/tpl/tpl.Importer.upload.php:2
-msgid "Upload file"
-msgstr "Загрузить файл"
-
-#: inc/import/tpl/tpl.Importer.upload.php:39
-msgid "There were problems while uploading."
-msgstr "При загрузке возникли проблемы."
-
-#: inc/import/tpl/tpl.Importer.upload.php:54
-msgid "Your browser does not seem to support this uploader, see"
-msgstr "Ваш браузер не поддерживает этот загрузчик, см"
-
-#: inc/import/tpl/tpl.Importer.upload.php:62
-#, fuzzy
-msgid "Table showing included data by filetype"
-msgstr "Таблица содержит данные файла в зависимости типа файла"
-
-#: inc/import/tpl/tpl.Importer.upload.php:63
-msgid "Supported file extensions:"
-msgstr "Поддерживаются следующие файлы:"
-
-#: inc/import/tpl/tpl.Importer.upload.php:68
-msgid "Supported file size:"
-msgstr "Максимальный размер файла:"
-
-#: inc/import/class.MultiEditor.php:46
-msgid "No activities for editing were set."
-msgstr "Не выбраны тренировки для редактирования."
-
-#: inc/import/class.MultiEditor.php:59
-msgid "Multi editor"
-msgstr "Редактор"
-
-#: inc/import/class.ImporterFactory.php:316
-#: inc/import/class.ImporterFactory.php:344
-msgid "This file format is not supported."
-msgstr "Этот формат файла не поддерживается."
-
-#: inc/import/class.ImporterFactory.php:323
-#, fuzzy
-msgid "The file could not be saved."
-msgstr "Не удается прочитать время."
-
-#: inc/import/class.ImporterFactory.php:332
-msgid "There was a problem while importing the file."
-msgstr "Возникла проблема при импорте файла."
-
-#: inc/import/class.ImporterFactory.php:337
-#, fuzzy
-msgid "There are some unexpected contents in the file."
-msgstr "В этом файле <strong>%s</strong> тренировок."
-
-#: inc/import/class.ImporterFactory.php:338
-#, php-format
-msgid "Please mail the file to %s."
-msgstr "Пожалуйста, отправьте файл на %s."
-
-#: inc/import/class.ImporterFactory.php:341
-#, fuzzy
-msgid ""
-"There was an installation specific problem. Please contact the administrator."
-msgstr ""
-"Невозможно отправить ссылку. Пожалуйста, обратитесь к администратору сайта."
-
-#: inc/import/class.ImporterFactory.php:349
-msgid "Please add the following information"
-msgstr "Пожалуйста, добавьте следующую информацию"
 
 #: inc/tpl/tpl.DataBrowser.php:20
 msgid "Choose a date ..."
@@ -3760,128 +3428,150 @@ msgstr "Показать"
 msgid "There are no activities for this time range."
 msgstr ""
 
-#: inc/tpl/tpl.Frontend.header.php:38 inc/tpl/tpl.Frontend.header.php:40
+#: inc/tpl/tpl.Frontend.header.php:41 inc/tpl/tpl.Frontend.header.php:43
 #, fuzzy
 msgid "Public athlete page"
 msgstr "Публичный список: активен"
 
-#: inc/tpl/tpl.Frontend.header.php:40
+#: inc/tpl/tpl.Frontend.header.php:43
 #, fuzzy
 msgid "Your public athlete page is deactivated."
 msgstr "Публичный список: активен"
 
-#: inc/tpl/tpl.Frontend.header.php:44
+#: inc/tpl/tpl.Frontend.header.php:47
 #, fuzzy
 msgid "Account settings"
 msgstr "Общие параметры"
 
-#: inc/tpl/tpl.Frontend.header.php:45
+#: inc/tpl/tpl.Frontend.header.php:48
+#, fuzzy
+msgid "Privacy settings"
+msgstr "Общие параметры"
+
+#: inc/tpl/tpl.Frontend.header.php:49
 msgid "Logout"
 msgstr "Выход"
 
-#: inc/tpl/tpl.Frontend.header.php:54
-#, fuzzy
-msgid "No new notifications"
-msgstr "Уведомления"
+#: inc/tpl/tpl.Frontend.header.php:58
+msgid "Glossary"
+msgstr ""
 
 #: inc/tpl/tpl.Frontend.header.php:59
+msgid "Documentation"
+msgstr "Документация"
+
+#: inc/tpl/tpl.Frontend.header.php:62
+#, fuzzy
+msgid "Feedback"
+msgstr "предыдущая"
+
+#: inc/tpl/tpl.Frontend.header.php:64
+msgid "Forum"
+msgstr "Форум"
+
+#: inc/tpl/tpl.Frontend.header.php:65
+msgid "Blog"
+msgstr ""
+
+#: inc/tpl/tpl.Frontend.header.php:67
+msgid "About us"
+msgstr ""
+
+#: inc/tpl/tpl.Frontend.header.php:76
 #, fuzzy
 msgid "Show all notifications"
 msgstr "Уведомления"
 
-#: inc/tpl/tpl.Frontend.header.php:70
+#: inc/tpl/tpl.Frontend.header.php:78
+#, fuzzy
+msgid "No new notifications"
+msgstr "Уведомления"
+
+#: inc/tpl/tpl.Frontend.header.php:92
 #, fuzzy
 msgid "Activity upload"
 msgstr "Вид тренировки"
 
-#: inc/tpl/tpl.Frontend.header.php:71
+#: inc/tpl/tpl.Frontend.header.php:93
 #, fuzzy
 msgid "Manual activity"
 msgstr "Удалить тренировку"
 
-#: inc/tpl/tpl.Frontend.header.php:72
+#: inc/tpl/tpl.Frontend.header.php:94
 #, fuzzy
 msgid "New equipment"
 msgstr "Выберите инвентарь"
 
-#: inc/tpl/tpl.Frontend.header.php:73
+#: inc/tpl/tpl.Frontend.header.php:95
 #, fuzzy
 msgid "New body values"
 msgstr "Добавить данные"
 
-#: inc/tpl/tpl.Frontend.header.php:83
+#: inc/tpl/tpl.Frontend.header.php:105
 #: inc/system/config/class.ConfigTabPlugins.php:17
 msgid "Plugins"
 msgstr "Плагины"
 
-#: inc/tpl/tpl.Frontend.header.php:84
+#: inc/tpl/tpl.Frontend.header.php:106
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:134
 msgid "Dataset"
 msgstr "Данные"
 
-#: inc/tpl/tpl.Frontend.header.php:85
+#: inc/tpl/tpl.Frontend.header.php:107
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:137
 #: plugin/RunalyzePluginPanel_Sports/class.RunalyzePluginPanel_Sports.php:12
 msgid "Sports"
 msgstr "Виды спорта"
 
-#: inc/tpl/tpl.Frontend.header.php:87
+#: inc/tpl/tpl.Frontend.header.php:109
 #, fuzzy
 msgid "Activity tags"
 msgstr "Виды тренировок"
 
-#: inc/tpl/tpl.Frontend.header.php:96
+#: inc/tpl/tpl.Frontend.header.php:118
 #, fuzzy
 msgid "Trend analysis"
 msgstr "Теги"
 
-#: inc/tpl/tpl.Frontend.header.php:97
+#: inc/tpl/tpl.Frontend.header.php:119
 msgid "ANOVA"
 msgstr ""
 
-#: inc/tpl/tpl.Frontend.header.php:98
+#: inc/tpl/tpl.Frontend.header.php:120
 #, fuzzy
 msgid "Analyze your VO2max"
 msgstr "Анализ VDOT"
 
-#: inc/tpl/tpl.Frontend.header.php:99
+#: inc/tpl/tpl.Frontend.header.php:121
 #, fuzzy
 msgid "Running tables"
 msgstr "Показатели бега"
 
-#: inc/tpl/tpl.Frontend.header.php:100
+#: inc/tpl/tpl.Frontend.header.php:122
 msgid "Poster generator"
 msgstr ""
 
-#: inc/tpl/tpl.Frontend.header.php:102
+#: inc/tpl/tpl.Frontend.header.php:124
 msgid "More"
 msgstr ""
 
-#: inc/tpl/tpl.Frontend.header.php:106
-msgid "Help"
-msgstr "Помощь"
-
-#: inc/class.DataBrowser.php:214
+#: inc/class.DataBrowser.php:217
 msgid "week"
 msgstr "неделя"
 
-#: inc/class.DataBrowser.php:252
+#: inc/class.DataBrowser.php:254
 msgid "back"
 msgstr "предыдущая"
 
-#: inc/class.DataBrowser.php:270
+#: inc/class.DataBrowser.php:272
 msgid "today"
 msgstr "сегодня"
 
-#: inc/class.DataBrowser.php:280
+#: inc/class.DataBrowser.php:282
 msgid "Reload current datasheet"
 msgstr "Перезагрузить текущую таблицу"
 
-#: inc/class.DataBrowser.php:288
-msgid "Calendar"
-msgstr "Календарь"
-
-#: inc/class.DataBrowser.php:320
+#: inc/class.DataBrowser.php:322
 msgid "Search for an activity"
 msgstr "Поиск по тренировкам"
 
@@ -3889,49 +3579,54 @@ msgstr "Поиск по тренировкам"
 msgid "Monthly chart:"
 msgstr "По месяцам:"
 
-#: inc/draw/class.PlotSumData.php:188 inc/draw/class.PlotSumData.php:193
+#: inc/draw/class.PlotSumData.php:203 inc/draw/class.PlotSumData.php:208
 msgid "By type"
 msgstr "Видам тренировки"
 
-#: inc/draw/class.PlotSumData.php:204 inc/draw/class.PlotSumData.php:210
+#: inc/draw/class.PlotSumData.php:219 inc/draw/class.PlotSumData.php:225
 msgid "Distance/Duration"
 msgstr "Расстояние/Продолжительность"
 
-#: inc/draw/class.PlotSumData.php:223 inc/draw/class.PlotSumData.php:225
+#: inc/draw/class.PlotSumData.php:238 inc/draw/class.PlotSumData.php:240
 msgid "All sports"
 msgstr ""
 
-#: inc/draw/class.PlotSumData.php:303
+#: inc/draw/class.PlotSumData.php:241
+#, fuzzy
+msgid "Main sports"
+msgstr "Любимый вид спорта"
+
+#: inc/draw/class.PlotSumData.php:319
 msgid "last 6 months"
 msgstr "за 6 месяцев"
 
-#: inc/draw/class.PlotSumData.php:305
+#: inc/draw/class.PlotSumData.php:321
 msgid "last 12 months"
 msgstr "за 12 месяцев"
 
-#: inc/draw/class.PlotSumData.php:382
+#: inc/draw/class.PlotSumData.php:398
 msgid "There are no data for this timerange."
 msgstr ""
 
-#: inc/draw/class.PlotSumData.php:551
+#: inc/draw/class.PlotSumData.php:584
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:361
 msgid "without"
 msgstr "не указано"
 
-#: inc/draw/class.PlotSumData.php:586
+#: inc/draw/class.PlotSumData.php:619
 #, fuzzy
 msgid "Races"
 msgstr "Результат соревнования"
 
-#: inc/draw/class.PlotSumData.php:587
+#: inc/draw/class.PlotSumData.php:620
 msgid "Training"
 msgstr "Тренировки"
 
-#: inc/draw/class.PlotSumData.php:612
+#: inc/draw/class.PlotSumData.php:645
 msgid "target:"
 msgstr ""
 
-#: inc/draw/class.PlotSumData.php:664
+#: inc/draw/class.PlotSumData.php:697
 #, fuzzy
 msgid "Target is based on current marathon shape calculations."
 msgstr "Цель и средние значения рассчитаны на основе выносливости."
@@ -4020,19 +3715,13 @@ msgstr "Плагин"
 msgid "The settings have been saved."
 msgstr "Настройки сохранены."
 
-#: inc/system/class.SharedLinker.php:70
+#: inc/system/class.SharedLinker.php:61
 msgid ""
 "You can activate your public athlete page at <em>Configuration->Privacy</em>"
 msgstr ""
 
-#: inc/system/class.SharedLinker.php:72
+#: inc/system/class.SharedLinker.php:63
 msgid "Your public athlete page"
-msgstr ""
-
-#: inc/system/class.Filesystem.php:243
-#, php-format
-msgid ""
-"The directory <strong>%s</strong> is not writable. <em>(chmod = %s)</em>"
 msgstr ""
 
 #: src/CoreBundle/Component/Tool/DatabaseCleanup/JobLoop.php:50
@@ -4124,22 +3813,23 @@ msgid "Relation: tag to activities"
 msgstr "Зависимость: теги от тренировок"
 
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:151
+#: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:104
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:52
 msgid "Race results"
 msgstr "Результаты соревнования"
 
 #: src/CoreBundle/Component/Account/Registration.php:90
-#: src/CoreBundle/Component/Account/Registration.php:212
+#: src/CoreBundle/Component/Account/Registration.php:214
 msgid "Shoes"
 msgstr "Обувь"
 
 #: src/CoreBundle/Component/Account/Registration.php:91
-#: src/CoreBundle/Component/Account/Registration.php:211
+#: src/CoreBundle/Component/Account/Registration.php:213
 msgid "Clothes"
 msgstr "Одежда"
 
 #: src/CoreBundle/Component/Account/Registration.php:92
-#: src/CoreBundle/Component/Account/Registration.php:213
+#: src/CoreBundle/Component/Account/Registration.php:215
 msgid "Bikes"
 msgstr "Велосипеды"
 
@@ -4192,6 +3882,10 @@ msgid "TR"
 msgstr "TR"
 
 #: src/CoreBundle/Component/Account/Registration.php:176
+msgid "Race"
+msgstr "Соревнование"
+
+#: src/CoreBundle/Component/Account/Registration.php:176
 #, fuzzy
 msgid "RC"
 msgstr "RC"
@@ -4223,35 +3917,35 @@ msgstr "Разминка"
 msgid "WU"
 msgstr "WU"
 
-#: src/CoreBundle/Component/Account/Registration.php:223
+#: src/CoreBundle/Component/Account/Registration.php:225
 msgid "long sleeve"
 msgstr "с длинными рукавами"
 
-#: src/CoreBundle/Component/Account/Registration.php:223
+#: src/CoreBundle/Component/Account/Registration.php:225
 msgid "T-shirt"
 msgstr "Футболка"
 
-#: src/CoreBundle/Component/Account/Registration.php:223
+#: src/CoreBundle/Component/Account/Registration.php:225
 msgid "singlet"
 msgstr "майка"
 
-#: src/CoreBundle/Component/Account/Registration.php:223
+#: src/CoreBundle/Component/Account/Registration.php:225
 msgid "jacket"
 msgstr "куртка"
 
-#: src/CoreBundle/Component/Account/Registration.php:223
+#: src/CoreBundle/Component/Account/Registration.php:225
 msgid "long pants"
 msgstr "длинные штаны"
 
-#: src/CoreBundle/Component/Account/Registration.php:223
+#: src/CoreBundle/Component/Account/Registration.php:225
 msgid "shorts"
 msgstr "шорты"
 
-#: src/CoreBundle/Component/Account/Registration.php:223
+#: src/CoreBundle/Component/Account/Registration.php:225
 msgid "gloves"
 msgstr "перчатки"
 
-#: src/CoreBundle/Component/Account/Registration.php:223
+#: src/CoreBundle/Component/Account/Registration.php:225
 msgid "hat"
 msgstr "шляпа"
 
@@ -4275,7 +3969,7 @@ msgstr "вернуться к списку"
 msgid "Something went wrong ..."
 msgstr "Что-то пошло не так ..."
 
-#: src/CoreBundle/Controller/CallController.php:130
+#: src/CoreBundle/Controller/CallController.php:117
 msgid "Search for activities"
 msgstr "Поиск по тренировкам"
 
@@ -4283,25 +3977,17 @@ msgstr "Поиск по тренировкам"
 msgid "The plugin could not be found."
 msgstr "Плагин не может быть найден."
 
-#: src/CoreBundle/Controller/Settings/SettingsController.php:221
+#: src/CoreBundle/Controller/Settings/SettingsController.php:222
 msgid "race"
 msgstr ""
 
-#: src/CoreBundle/Controller/Settings/SettingsController.php:259
+#: src/CoreBundle/Controller/Settings/SettingsController.php:260
 msgid "Test activity"
 msgstr ""
 
-#: src/CoreBundle/Controller/Settings/SettingsController.php:261
+#: src/CoreBundle/Controller/Settings/SettingsController.php:262
 msgid "Great run!"
 msgstr ""
-
-#: src/CoreBundle/Controller/ActivityController.php:254
-msgid "Corrected elevation data has been removed."
-msgstr "Скорректированные данные о высоте были удалены."
-
-#: src/CoreBundle/Controller/ActivityController.php:269
-msgid "Elevation data could not be retrieved."
-msgstr "Невозможно получить данные о высоте."
 
 #: dashboard.php:79
 msgid ""
@@ -4514,15 +4200,15 @@ msgstr "Все тренировочные недели %s"
 #: plugin/RunalyzePluginStat_Strecken/class.RunalyzePluginStat_Strecken.php:312
 #: plugin/RunalyzePluginStat_Rekorde/class.RunalyzePluginStat_Rekorde.php:58
 #: plugin/RunalyzePluginPanel_Rechenspiele/window.plot.php:21
-#: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:66
+#: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:44
 msgid "All years"
 msgstr "За все время"
 
-#: plugin/RunalyzePluginStat_Statistiken/class.SummaryTableAllYears.php:60
+#: plugin/RunalyzePluginStat_Statistiken/class.SummaryTableAllYears.php:65
 msgid "/week"
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Statistiken/class.SummaryTableAllYears.php:61
+#: plugin/RunalyzePluginStat_Statistiken/class.SummaryTableAllYears.php:66
 msgid "/month"
 msgstr ""
 
@@ -4779,23 +4465,29 @@ msgstr ""
 "дистанции (только для расчетов по Джеку Дэниэлсу)."
 
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:104
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:216
+#, fuzzy
+msgid "Performance chart"
+msgstr "Состояние формы"
+
+#: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:105
 msgid "Show prognosis trend"
 msgstr "Показать прогноз"
 
-#: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:105
+#: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:106
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:491
 msgid "Prognosis calculator"
 msgstr "Калькулятор прогнозов"
 
-#: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:123
+#: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:124
 msgid "Prognoses can't be calculated."
 msgstr "Прогноз не может быть расчитан."
 
-#: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:127
+#: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:128
 msgid "There are not enough results for good predictions."
 msgstr "Для точного прогноза недостаточно данных."
 
-#: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:217
+#: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:218
 #, php-format
 msgid "<small>from</small> %s <small>to</small> <strong>%s</strong>"
 msgstr "<small>от</small> %s <small>до</small> <strong>%s</strong>"
@@ -4927,39 +4619,39 @@ msgstr "Добавить данные"
 msgid "Show table"
 msgstr "Показать таблицу"
 
-#: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:89
+#: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:90
 msgid "Enter maximal HR"
 msgstr "Введите максимальную ЧСС"
 
-#: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:89
+#: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:90
 msgid "Otherwise calculations will be wrong"
 msgstr "Иначе расчеты будут неправильными"
 
-#: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:101
+#: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:102
 #: plugin/RunalyzePluginPanel_Sportler/Plot.gewicht.php:41
 msgid "Resting HR"
 msgstr "ЧСС покоя"
 
-#: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:102
+#: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:103
 msgid "Maximal HR"
 msgstr "Макс. ЧСС"
 
-#: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:114
+#: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:116
 #: plugin/RunalyzePluginPanel_Sportler/Plot.analyse.php:42
 msgid "Fat"
 msgstr "Жир"
 
-#: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:115
+#: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:119
 #: plugin/RunalyzePluginPanel_Sportler/Plot.analyse.php:43
 msgid "Water"
 msgstr "Вода"
 
-#: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:116
+#: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:122
 #: plugin/RunalyzePluginPanel_Sportler/Plot.analyse.php:44
 msgid "Muscles"
 msgstr "Мышцы"
 
-#: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:137
+#: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:147
 msgid "Other values"
 msgstr "Прочие"
 
@@ -5203,8 +4895,9 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:184
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:343
-msgid "Actual Training Load"
-msgstr ""
+#, fuzzy
+msgid "Acute Training Load"
+msgstr "Показывать: баллы"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:194
 msgid "Fitness&nbsp;level"
@@ -5262,7 +4955,7 @@ msgid "Training strain<br><small>of your last seven days</small>"
 msgstr ""
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:332
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:388
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:398
 msgid "Name"
 msgstr "Имя"
 
@@ -5494,88 +5187,88 @@ msgstr ""
 msgid "There are no races."
 msgstr "Вы не участвовали в соревнованиях."
 
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:205
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:209
 msgid ""
 "This list shows all distances selected for yearly comparison or with at "
 "least two results."
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:206
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:210
 msgid ""
 "Distances have to match exactly, especially 21.10 km and 42.20 km for "
 "(half-)marathons."
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:239
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:249
 msgid "There are no race results for the given distances."
 msgstr "Вы не участвовали в соревнованиях на указанных дистанциях."
 
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:263
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:273
 msgid "Results trend"
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:354
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:364
 msgid ""
 "This includes races of all distances, not only those selected for yearly "
 "comparison."
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:380
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:390
 msgid "Official distance & time"
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:381
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:391
 msgid "Activity details"
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:382
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:392
 msgid "Placement"
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:391
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:401
 msgid ""
 "Your result in proportion to the world best performance in your age/gender."
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:395
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:405
 msgid "Overall"
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:396
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:406
 msgid "AG"
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:397
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:407
 msgid "male/female"
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:397
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:407
 msgid "M/F"
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:466
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:476
 msgid ""
 "You can mark any activity as race by checking the respective checkbox in the "
 "activity's form."
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:488
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:498
 msgid "Weather statistics"
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:504
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:514
 msgid "Edit the activity"
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:518
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:528
 msgid "Edit the race result details"
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:534
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:544
 msgid "Fun race | Click to mark this activity as a 'normal race'."
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:538
+#: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:548
 msgid "Race | Click to mark this activity as a 'fun race'."
 msgstr ""
 
@@ -5687,33 +5380,383 @@ msgstr "Выберите тэг."
 msgid "No activities found."
 msgstr "Тренировок не найдено."
 
-#: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:36
+#: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:27
 msgid "Your steepest activities and an overview of your cumulated elevation."
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:92
-#: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:128
-#: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:156
+#: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:62
+#: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:136
 msgid "No routes found."
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:124
+#: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:91
+#: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:99
 msgid "Most elevation"
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:152
+#: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:92
+#: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:110
 msgid "Steepest routes"
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:193
+#: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:93
+#: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:119
+#, fuzzy
+msgid "Highest Climb Score"
+msgstr "HRV результат"
+
+#: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:176
 msgid "unlabeled"
 msgstr ""
 
+#~ msgid "Heartrate data available"
+#~ msgstr "Доступны данные о ЧСС"
+
+#~ msgid "Lap data available"
+#~ msgstr "Доступны данные об этапах"
+
+#~ msgid "Route data available"
+#~ msgstr "Доступны данные о маршруте"
+
+#~ msgid "Publish activities"
+#~ msgstr "Опубликовать тренировки"
+
+#~ msgid "Automatically mark every activity after its creation as public."
+#~ msgstr "Автоматически отметить каждую созданную тренировку публичной."
+
+#~ msgid "Number of results displayed on each page."
+#~ msgstr "Количество результатов, отображаемых на каждой странице."
+
+#~ msgid "Map: line color"
+#~ msgstr "Карта: цвет линии маршрута"
+
+#~ msgid "as hexadecimal rgb (e.g. #ff5500)"
+#~ msgstr "введите в формате RGB (например:  #ff5500)"
+
+#~ msgid "Calculate power"
+#~ msgstr "Расчитывать мощность"
+
+#~ msgid "Calculate power by speed and grade for cycling"
+#~ msgstr "Расчитывать мощность при занятиях велоспортом"
+
+#~ msgid "Submit"
+#~ msgstr "Отправить"
+
+#~ msgid "Create"
+#~ msgstr "Создать"
+
+#~ msgid "The field can not be left empty."
+#~ msgstr "Поле не может быть оставлено пустым."
+
+#~ msgid "Please enter a number."
+#~ msgstr "Пожалуйста, введите номер."
+
+#~ msgid "This value is too large."
+#~ msgstr "Значение слишком большое."
+
+#~ msgid "This value is too small."
+#~ msgstr "Значение слишком маленькое."
+
+#~ msgid "The value is too large."
+#~ msgstr "Значение слишком большое."
+
+#~ msgid "The time could not be read."
+#~ msgstr "Не удается прочитать время."
+
+#~ msgid "General information"
+#~ msgstr "Общая информация"
+
+#~ msgid "Weather conditions"
+#~ msgstr "Погода"
+
+#~ msgid "Public activities will be visible for everybody."
+#~ msgstr "Публичные тренировки будут видны всем."
+
+#~ msgid ""
+#~ "This field is only meant for official track races such that distances can "
+#~ "be shown correctly, e.g. as 10.000m. Use tags for all other purposes."
+#~ msgstr ""
+#~ "Это поле предназначено только для официальных результатов дистанций "
+#~ "которые могут отображены точно, например 10.000 м. Используйте таги для "
+#~ "других целей."
+
+#~ msgid "Will be calculated afterwards from the activity's elevation profile."
+#~ msgstr "Будет расчитано позже исходя из профиля высоты тренировки."
+
+#~ msgid ""
+#~ "This value will be calculated automatically from duration and sport "
+#~ "settings (if activated in your configuration) only if you change the "
+#~ "duration or the type of sport."
+#~ msgstr ""
+#~ "Это значение будет рассчитано автоматически исходя из длительности и "
+#~ "настроек для вида спорта (если включено в настройках) только если вы "
+#~ "измените длительность или тип спорта."
+
+#~ msgid "VO2max for shape"
+#~ msgstr "Форма VO2max"
+
+#~ msgid ""
+#~ "VO2max values are estimated from your ratio of heart rate and pace. You "
+#~ "can exclude single activities from the calculation of your form and "
+#~ "should do so if it's heart rate data are not reliable (e.g. a lot of "
+#~ "stops, walking breaks, ...)."
+#~ msgstr ""
+#~ "VO2max рассчитаны исходя из отношения ЧСС к темпу. Вы можете исключить "
+#~ "единичные тренировки из расчета формы и стоило бы это сделать если данные "
+#~ "ЧСС ненадежны (например много остановок, перерывов на шаг и тд)."
+
+#~ msgid "Cadence (Running)"
+#~ msgstr "Каденс (Бег)"
+
+#~ msgid ""
+#~ "Unit is always - also for running - <em>rpm</em>, i.e. rounds (or steps "
+#~ "with one foot) per minute,"
+#~ msgstr ""
+#~ "Единица всегда - также и для бега - <em>об/м</em>, т.е. число оборотов "
+#~ "(или шагов одной ногой) в минуту,"
+
+#~ msgid "Wind degrees"
+#~ msgstr "Направление ветра"
+
+#~ msgid "Night"
+#~ msgstr "Ночь"
+
+#~ msgid "Save and continue"
+#~ msgstr "Сохранить и продолжить"
+
+#~ msgid "It seems that you already have imported this activity"
+#~ msgstr "Вы уже загружали эту тренировку"
+
+#~ msgid "The activity has been successfully created."
+#~ msgstr "Тренировка создана."
+
+#~ msgid ""
+#~ "Race results are treated in a special way to show your personal bests and "
+#~ "are independent of the chosen activity type."
+#~ msgstr ""
+#~ "Результаты соревнований специально обработаны так, чтобы показать лучшие "
+#~ "результаты и независимы от выбранного типа тренировки."
+
+#~ msgid ""
+#~ "You can add some details (your placement etc.) in the 'Race result' "
+#~ "plugin afterwards."
+#~ msgstr ""
+#~ "Вы можете добавить немного детальной информации (место и тд) позже в "
+#~ "плагине \"Результат соревнования\"."
+
+#~ msgid "Choose tags"
+#~ msgstr "Выберите теги"
+
+#~ msgid "Remove data series"
+#~ msgstr "Удалить данные"
+
+#~ msgid ""
+#~ "You may want to remove a data series if a sensor, e.g. your heart rate "
+#~ "strap, produced unusable data."
+#~ msgstr ""
+#~ "Вы можете пожелать удалить данные с некоторых датчиков, например пульс с "
+#~ "нестабильно работающего нагрудного ремня."
+
+#~ msgid "Attention: This operation cannot be undone."
+#~ msgstr "Внимание: Это действие не может быть отменено."
+
+#~ msgid "Ground contact time balance"
+#~ msgstr "Баланс времени контакта с землей"
+
+#~ msgid "Original elevation"
+#~ msgstr "Оригинальная высота"
+
+#~ msgid "Corrected elevation"
+#~ msgstr "Скорректированная высота"
+
+#~ msgid "GPS path"
+#~ msgstr "GPS маршрут"
+
+#~ msgid "Use elevation correction"
+#~ msgstr "Использовать коррекцию высоты"
+
+#~ msgid "Correct elevation data"
+#~ msgstr "Верные данные высоты"
+
+#~ msgid ""
+#~ "Elevation data via GPS is very inaccurate. Therefore you can correct it "
+#~ "via some satellite data."
+#~ msgstr ""
+#~ "Данные о  высоте, полученные с помощью GPS, являются очень неточными. "
+#~ "Поэтому вы можете их скорректировать."
+
+#~ msgid "select type"
+#~ msgstr "выберите"
+
+#~ msgid "add new lap"
+#~ msgstr "добавить новый этап"
+
+#~ msgid "round for 100m"
+#~ msgstr "округлить до 100м"
+
+#~ msgid "apply as total distance"
+#~ msgstr "применить в качестве всей дистанции"
+
+#~ msgid "all active"
+#~ msgstr "все активные"
+
+#~ msgid "all resting"
+#~ msgstr "все отдыхи"
+
+#~ msgid "alternating:"
+#~ msgstr "или:"
+
+#~ msgid "first resting"
+#~ msgstr "первый отдых"
+
+#~ msgid "first active"
+#~ msgstr "первый активный"
+
+#~ msgid ""
+#~ "Defining some laps as 'resting' will hide them in the respective plot."
+#~ msgstr ""
+#~ "Обозначив некоторые круги как \"отдых\" скроет их с соответсвующего "
+#~ "графика."
+
+#~ msgid "Active"
+#~ msgstr "Активные"
+
+#~ msgid "Calories"
+#~ msgstr "Калории"
+
+#~ msgid "Choose activities"
+#~ msgstr "Выберите тренировки"
+
+#~ msgid "Import selected activities"
+#~ msgstr "Загрузить выбранные"
+
+#~ msgid "Found %s activities."
+#~ msgstr "Найдено тренировок: %s ."
+
+#~ msgid "Found <strong>one</strong> duplicate activity."
+#~ msgid_plural "Found duplicate activities."
+#~ msgstr[0] "Найдена <strong>одна</strong> повторяющаяся тренировки."
+#~ msgstr[1] "Найдены повторяющиеся тренировки."
+#~ msgstr[2] "Найдены повторяющиеся тренировки."
+
+#~ msgid "Import"
+#~ msgstr "Загрузить"
+
+#~ msgid "Show multi editor afterwards"
+#~ msgstr "Запустить редактор после загрузки"
+
+#~ msgid "Upload"
+#~ msgstr "Загрузка"
+
+#~ msgid "The activities have been successfully imported."
+#~ msgstr "Тренировка была успешно импортирована."
+
+#~ msgid "Garmin Communicator"
+#~ msgstr "Гармин Коммуникатор"
+
+#~ msgid "Form"
+#~ msgstr "Ввод вручную"
+
+#~ msgid "%s-files are supported from: %s"
+#~ msgstr "%s-файлы поддерживаются устройствами: %s"
+
+#~ msgid ""
+#~ "hrm- and gpx-files with the same name will be automatically combined."
+#~ msgstr ""
+#~ "hrm- и gpx-файлы с одинаковыми именами будут автоматически объединены ."
+
+#~ msgid "No activities could be found."
+#~ msgstr "Тренировки не найдены."
+
+#~ msgid ""
+#~ "There is no parser in ImporterFiletype. Maybe this filetype is not "
+#~ "supported."
+#~ msgstr ""
+#~ "Нет парсера в ImporterFiletype. Возможно, этот тип файла не "
+#~ "поддерживается."
+
+#~ msgid "This file is not supported. Supported producers of %s-files: %s."
+#~ msgstr ""
+#~ "Этот файл не поддерживается. Поддерживаемые производители %s-файл: %s."
+
+#~ msgid "Move your mouse here to start loading the communicator."
+#~ msgstr "Наведите указатель мыши сюда, чтобы начать загрузку коммуникатора."
+
+#~ msgid ""
+#~ "Due to security reasons browser manufacturers will drop support for "
+#~ "plugins like the Garmin Communicator. A <a href=\"%s\">reinstall</a> may "
+#~ "work, but we have documented an alternative way to import the original "
+#~ "files at %s. "
+#~ msgstr ""
+#~ "Из-за соображений безопасности производители браузеров откажутся от "
+#~ "поддержки плагинов, таких как Garmin Communicator. <a href=\"%s"
+#~ "\">Переустановка</a> может работать, но мы описали альтернативный способ "
+#~ "импортировать исходные файлы в %s. "
+
+#~ msgid "Upload file"
+#~ msgstr "Загрузить файл"
+
+#~ msgid "There were problems while uploading."
+#~ msgstr "При загрузке возникли проблемы."
+
+#~ msgid "Your browser does not seem to support this uploader, see"
+#~ msgstr "Ваш браузер не поддерживает этот загрузчик, см"
+
+#, fuzzy
+#~ msgid "Table showing included data by filetype"
+#~ msgstr "Таблица содержит данные файла в зависимости типа файла"
+
+#~ msgid "Supported file extensions:"
+#~ msgstr "Поддерживаются следующие файлы:"
+
+#~ msgid "Supported file size:"
+#~ msgstr "Максимальный размер файла:"
+
+#~ msgid "No activities for editing were set."
+#~ msgstr "Не выбраны тренировки для редактирования."
+
+#~ msgid "Multi editor"
+#~ msgstr "Редактор"
+
+#~ msgid "This file format is not supported."
+#~ msgstr "Этот формат файла не поддерживается."
+
+#, fuzzy
+#~ msgid "The file could not be saved."
+#~ msgstr "Не удается прочитать время."
+
+#~ msgid "There was a problem while importing the file."
+#~ msgstr "Возникла проблема при импорте файла."
+
+#, fuzzy
+#~ msgid "There are some unexpected contents in the file."
+#~ msgstr "В этом файле <strong>%s</strong> тренировок."
+
+#~ msgid "Please mail the file to %s."
+#~ msgstr "Пожалуйста, отправьте файл на %s."
+
+#, fuzzy
+#~ msgid ""
+#~ "There was an installation specific problem. Please contact the "
+#~ "administrator."
+#~ msgstr ""
+#~ "Невозможно отправить ссылку. Пожалуйста, обратитесь к администратору "
+#~ "сайта."
+
+#~ msgid "Please add the following information"
+#~ msgstr "Пожалуйста, добавьте следующую информацию"
+
+#~ msgid "Help"
+#~ msgstr "Помощь"
+
+#~ msgid "Corrected elevation data has been removed."
+#~ msgstr "Скорректированные данные о высоте были удалены."
+
+#~ msgid "Elevation data could not be retrieved."
+#~ msgstr "Невозможно получить данные о высоте."
+
 #~ msgid "Uninstall"
 #~ msgstr "Удаление"
-
-#~ msgid "The plugin has been uninstalled."
-#~ msgstr "Плагин был удален."
 
 #~ msgid "There was a problem, the plugin could not be uninstalled."
 #~ msgstr "Возникла проблема, плагин не может быть удален."
@@ -6582,9 +6625,6 @@ msgstr ""
 #~ "проблемы или пожелания, пожалуйста, свяжитесь с нашей командой. Runalyze "
 #~ "-  It's near and dear to us"
 
-#~ msgid "Forum"
-#~ msgstr "Форум"
-
 #, fuzzy
 #~ msgid "Create an account"
 #~ msgstr "Создать эккаунт"
@@ -6699,9 +6739,6 @@ msgstr ""
 #~ "In general most questions, problems and ideas are more appropriate to ask "
 #~ "in the forum."
 #~ msgstr "Вопросы, проблемы и идеи можно обсудить на нашем форуме."
-
-#~ msgid "Documentation"
-#~ msgstr "Документация"
 
 #, fuzzy
 #~ msgid "Translation"
