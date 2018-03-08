@@ -5,8 +5,8 @@ msgstr ""
 "Project-Id-Version: Runalyze\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-01-26 23:40+0100\n"
-"PO-Revision-Date: 2018-01-27 11:46+0000\n"
-"Last-Translator: Michael Pohl <michael@mipapo.de>\n"
+"PO-Revision-Date: 2018-03-08 20:22+0000\n"
+"Last-Translator: Korbinian <paul.smecker@gmail.com>\n"
 "Language-Team: German <https://translate.runalyze.com/projects/runalyze"
 "/runalyze-master-po/de/>\n"
 "Language: de\n"
@@ -1014,9 +1014,8 @@ msgstr ""
 "angezeigt."
 
 #: inc/core/Dataset/Keys/AveragePronationExcursion.php:26
-#, fuzzy
 msgid "Pronation"
-msgstr "Dauer"
+msgstr "Pronation"
 
 #: inc/core/Dataset/Keys/Humidity.php:43 inc/core/Dataset/Keys/Weather.php:77
 #: inc/core/Data/Weather/Humidity.php:58
@@ -3469,9 +3468,8 @@ msgid "Documentation"
 msgstr "Dokumentation"
 
 #: inc/tpl/tpl.Frontend.header.php:62
-#, fuzzy
 msgid "Feedback"
-msgstr "zurück"
+msgstr "Rückmeldung"
 
 #: inc/tpl/tpl.Frontend.header.php:64
 msgid "Forum"
