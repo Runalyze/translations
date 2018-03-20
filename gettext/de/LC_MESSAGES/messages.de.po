@@ -5,8 +5,8 @@ msgstr ""
 "Project-Id-Version: Runalyze\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-01-26 23:40+0100\n"
-"PO-Revision-Date: 2018-03-08 20:22+0000\n"
-"Last-Translator: Korbinian <paul.smecker@gmail.com>\n"
+"PO-Revision-Date: 2018-03-20 19:43+0000\n"
+"Last-Translator: anonymous <>\n"
 "Language-Team: German <https://translate.runalyze.com/projects/runalyze"
 "/runalyze-master-po/de/>\n"
 "Language: de\n"
@@ -280,9 +280,8 @@ msgstr "links"
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:14
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:17
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:20
-#, fuzzy
 msgid "right"
-msgstr "leicht"
+msgstr "rechts"
 
 #: inc/core/View/Activity/Plot/Series/StrideLength.php:54
 #: inc/core/View/Window/Laps/Table.php:277
