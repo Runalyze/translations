@@ -5,16 +5,16 @@ msgstr ""
 "Project-Id-Version: Runalyze\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-01-26 23:40+0100\n"
-"PO-Revision-Date: 2018-03-20 19:43+0000\n"
-"Last-Translator: anonymous <>\n"
-"Language-Team: German <https://translate.runalyze.com/projects/runalyze"
-"/runalyze-master-po/de/>\n"
+"PO-Revision-Date: 2018-03-23 14:44+0000\n"
+"Last-Translator: Korbinian <paul.smecker@gmail.com>\n"
+"Language-Team: German <https://translate.runalyze.com/projects/runalyze/"
+"runalyze-master-po/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.15\n"
+"X-Generator: Weblate 2.20-dev\n"
 "X-Poedit-KeywordsList: __;_ne;_n;_e\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -1566,12 +1566,12 @@ msgid "Privacy"
 msgstr "Privatsphäre"
 
 #: inc/core/Configuration/Category/Privacy.php:84
-#, fuzzy
 msgid ""
 "You can define the default privacy of new activities by sport type in the "
 "associated sport configuration."
 msgstr ""
-"Du kannst den Trainingstyp für Wettkämpfe in deiner Konfiguration anpassen."
+"Du kannst die Sichtbarkeit neuer Aktivitäten pro Sportart in den "
+"Einstellungen jeder Sportart festlegen."
 
 #: inc/core/Configuration/Category/Privacy.php:88
 msgid "Public athlete page: active"
@@ -1955,9 +1955,8 @@ msgid "Calendar"
 msgstr "Kalender"
 
 #: inc/core/Configuration/Category/DataBrowser.php:117
-#, fuzzy
 msgid "reverse order"
-msgstr "umgekehrt linear"
+msgstr "umgekehrt sortiert"
 
 #: inc/core/Configuration/Category/DataBrowser.php:118
 msgid "Show days in reverse orders"
@@ -3131,9 +3130,8 @@ msgid "Time of day"
 msgstr "Uhrzeit"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:143
-#, fuzzy
 msgid "This value has been calculated."
-msgstr "Das Plugin wurde erfolgreich deinstalliert."
+msgstr "Dieser Wert wurde berechnet."
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:206
 msgid "Weather condition"
