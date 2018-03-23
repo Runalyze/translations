@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Runalyze\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-01-26 23:40+0100\n"
-"PO-Revision-Date: 2018-03-23 14:44+0000\n"
+"PO-Revision-Date: 2018-03-24 18:34+0000\n"
 "Last-Translator: Korbinian <paul.smecker@gmail.com>\n"
 "Language-Team: German <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/de/>\n"
@@ -3448,9 +3448,8 @@ msgid "Account settings"
 msgstr "Kontoeinstellungen"
 
 #: inc/tpl/tpl.Frontend.header.php:48
-#, fuzzy
 msgid "Privacy settings"
-msgstr "Allgemeine Einstellungen"
+msgstr "Privatsphäreneinstellugen"
 
 #: inc/tpl/tpl.Frontend.header.php:49
 msgid "Logout"
@@ -4458,9 +4457,8 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:104
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:216
-#, fuzzy
 msgid "Performance chart"
-msgstr "Performance condition"
+msgstr "Leistungsauswertung"
 
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:105
 msgid "Show prognosis trend"
