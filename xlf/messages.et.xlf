@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
   <file date="2018-03-25T15:20:21Z" source-language="en" target-language="et" datatype="plaintext" original="not.available">
     <header>
@@ -1294,9 +1294,9 @@
         <target>Gimmick</target>
         <jms:reference-file line="44">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7427cf697be16a4ec1d916910128a59d920125e7" resname="Glossary">
+      <trans-unit id="7427cf697be16a4ec1d916910128a59d920125e7" resname="Glossary" approved="no">
         <source>Glossary</source>
-        <target>Glossary</target>
+        <target state="translated">Sõnastik</target>
         <jms:reference-file line="22">/Resources/views/static/help.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="43cd45e70a501b1e73f02f896774373acd1452a5" resname="Go back to RUNALYZE">
