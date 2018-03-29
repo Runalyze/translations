@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-03-25 15:21+0200\n"
 "PO-Revision-Date: 2018-03-31 20:06+0000\n"
-"Last-Translator: anonymous <>\n"
+"Last-Translator: Olivier Raggi <olivier@raggi.fr>\n"
 "Language-Team: French <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/fr/>\n"
 "Language: fr\n"
@@ -3030,7 +3030,7 @@ msgstr "Course"
 
 #: inc/training/view/section/class.SectionRouteRowElevation.php:106
 msgid "Climb Score view"
-msgstr ""
+msgstr "Vue Score de montée"
 
 #: inc/training/view/section/class.SectionRouteRowElevation.php:110
 #: inc/training/view/section/class.SectionCompositeRow.php:232
@@ -5491,7 +5491,7 @@ msgstr "Analyse par mot-clé"
 
 #: plugin/RunalyzePluginStat_Tag/class.RunalyzePluginStat_Tag.php:37
 msgid "How often have you tagged your activities with tag x?"
-msgstr "Combien de fois avez-vous assigné le mot-clé x à une activité?"
+msgstr "Combien de fois avez-vous tagué vos activités avec le tag x?"
 
 #: plugin/RunalyzePluginStat_Tag/class.RunalyzePluginStat_Tag.php:51
 msgid "Tag to analyze"
