@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
   <file date="2018-03-25T15:20:25Z" source-language="en" target-language="fr" datatype="plaintext" original="not.available">
     <header>
@@ -38,9 +38,9 @@
         <target>#{deviceCount} appareil(s) trouvé(s)</target>
         <jms:reference-file line="61">/Resources/views/import/garmin_communicator.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="04e4ab1f101e58c92753f1c92a2622b76f703616" resname="%s-files are supported from: %s">
+      <trans-unit id="04e4ab1f101e58c92753f1c92a2622b76f703616" resname="%s-files are supported from: %s" approved="no">
         <source>%s-files are supported from: %s</source>
-        <target>%s-files are supported from: %s</target>
+        <target state="translated">%s-fichiers sont supportés de: %s</target>
         <jms:reference-file line="81">/Resources/views/activity/import_upload.html.twig</jms:reference-file>
         <jms:reference-file line="87">/Resources/views/activity/import_upload.html.twig</jms:reference-file>
         <jms:reference-file line="97">/Resources/views/activity/import_upload.html.twig</jms:reference-file>
@@ -50,9 +50,9 @@
         <target>-</target>
         <jms:reference-file line="17">/../src/CoreBundle/Form/Type/RpeType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="550f492da73d1ba82d45e078e42d1bd48fe924fc" resname="&lt;b&gt;%s&lt;/b&gt; would like permissions to access your RUNALYZE account">
+      <trans-unit id="550f492da73d1ba82d45e078e42d1bd48fe924fc" resname="&lt;b&gt;%s&lt;/b&gt; would like permissions to access your RUNALYZE account" approved="no">
         <source><![CDATA[<b>%s</b> would like permissions to access your RUNALYZE account]]></source>
-        <target state="new"><![CDATA[<b>%s</b> would like permissions to access your RUNALYZE account]]></target>
+        <target state="translated">&lt;b&gt;%s&lt;/b&gt; aimeraient avoir la permission d'accéder au votre compte RUNALYZE</target>
         <jms:reference-file line="9">/Resources/FOSOAuthServerBundle/views/Authorize/authorize_content.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="04bbd88ceca64ef98a75c389a443bddfcbda86fc" resname="&lt;strong&gt;%VO2max%/Time (Shape):&lt;/strong&gt; by your shape at that time&lt;br&gt;&#10;                The time is the prognosis by Runalyze.">
@@ -83,9 +83,9 @@
         <target>Un mail de confirmation a été envoyé.</target>
         <jms:reference-file line="9">/Resources/views/settings/account-delete.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="81f0c595d53b607bbd725cdc69cbe1ea2998d201" resname="A link for changing your password will be sent via email.">
+      <trans-unit id="81f0c595d53b607bbd725cdc69cbe1ea2998d201" resname="A link for changing your password will be sent via email." approved="no">
         <source>A link for changing your password will be sent via email.</source>
-        <target>Un courriel va vous être envoyé afin de modifier votre mot de passe.</target>
+        <target state="translated">Un courriel vous sera envoyé afin de modifier votre mot de passe.</target>
         <jms:reference-file line="9">/Resources/views/account/recover/form_send_mail.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="98ef99583e33f19cd030340de9c2a3bb45420b9b" resname="ANOVA">
