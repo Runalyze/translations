@@ -3,10 +3,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Runalyze\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-03-25 15:21+0200\n"
-"PO-Revision-Date: 2018-03-24 18:34+0000\n"
-"Last-Translator: Korbinian <paul.smecker@gmail.com>\n"
+"PO-Revision-Date: 2018-04-11 19:45+0000\n"
+"Last-Translator: Lars R. <lars-mail@web.de>\n"
 "Language-Team: German <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/de/>\n"
 "Language: de\n"
@@ -118,9 +118,8 @@ msgstr "Absolute Kadenz"
 #: inc/core/View/Activity/Box/FlightTime.php:14
 #: inc/core/Dataset/Keys/FlightTime.php:21
 #: inc/training/search/class.FormularSelectSearchSort.php:57
-#, fuzzy
 msgid "Flight time"
-msgstr "leiser Zug"
+msgstr "Flugzeit"
 
 #: inc/core/View/Activity/Box/MaximalHeartRateInPercent.php:64
 msgid "This value exceeds your entered maximal heart rate."
@@ -214,9 +213,8 @@ msgstr "TRIMP"
 #: inc/core/View/Activity/Box/FlightRatio.php:16
 #: inc/core/Dataset/Keys/FlightRatio.php:21
 #: inc/training/search/class.FormularSelectSearchSort.php:58
-#, fuzzy
 msgid "Flight ratio"
-msgstr "leiser Zug"
+msgstr "Flugzeitverhältnis"
 
 #: inc/core/View/Activity/Plot/Series/Temperature.php:40
 #: inc/core/Activity/Temperature.php:60
@@ -249,9 +247,8 @@ msgstr "Gleitender Mittelwert"
 #: inc/training/search/class.FormularSelectSearchSort.php:61
 #: inc/training/search/class.FormularSelectSearchSort.php:62
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:69
-#, fuzzy
 msgid "Braking Gs"
-msgstr "Radfahren"
+msgstr "Bremskraft in G"
 
 #: inc/core/View/Activity/Plot/Series/BrakingGs.php:28
 #: inc/core/View/Activity/Plot/Series/ImpactGs.php:28
@@ -1605,7 +1602,6 @@ msgid "Public activities: show map"
 msgstr "Öffentliche Trainingsansicht: Karte anzeigen"
 
 #: inc/core/Configuration/Category/Privacy.php:104
-#, fuzzy
 msgid "You can hide the map for public activities"
 msgstr "Die Karte kann bei öffentlichen Trainings versteckt werden"
 
@@ -2271,12 +2267,10 @@ msgid "Breast"
 msgstr "Brust"
 
 #: inc/core/Profile/View/DatasetPrivacyProfile.php:24
-#, fuzzy
 msgid "private"
 msgstr "Privat schalten"
 
 #: inc/core/Profile/View/DatasetPrivacyProfile.php:26
-#, fuzzy
 msgid "public"
 msgstr "Öffentlich"
 
@@ -2826,7 +2820,6 @@ msgid "Our multi editor is limited to a maximum of %d activities."
 msgstr "Der Multi-Editor ist auf maximal %d Aktivitäten begrenzt."
 
 #: inc/training/search/class.SearchFormular.php:122
-#, fuzzy
 msgid "Results per page"
 msgstr "Suchergebnisse pro Seite"
 
@@ -3349,7 +3342,6 @@ msgid "Problem"
 msgstr "Problem"
 
 #: inc/training/view/class.ElevationInfo.php:300
-#, fuzzy
 msgid "No elevation data available."
 msgstr "Keine Daten verfügbar."
 
@@ -3481,7 +3473,6 @@ msgid "All sports"
 msgstr "Alle Sportarten"
 
 #: inc/draw/class.PlotSumData.php:241
-#, fuzzy
 msgid "Main sports"
 msgstr "Hauptsportart"
 
