@@ -8,10 +8,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-03-25 15:21+0200\n"
-"PO-Revision-Date: 2017-03-01 13:41+0000\n"
-"Last-Translator: Antonio <celeritas@libero.it>\n"
+"PO-Revision-Date: 2018-04-11 19:46+0000\n"
+"Last-Translator: Lars R. <lars-mail@web.de>\n"
 "Language-Team: English <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/en/>\n"
 "Language: en\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.11\n"
+"X-Generator: Weblate 2.20-dev\n"
 
 #: inc/core/View/RaceResult/Dataview.php:91
 #, php-format
@@ -130,7 +130,7 @@ msgstr "This value exceeds your entered maximal heart rate."
 
 #: inc/core/View/Activity/Box/MaximalHeartRateInPercent.php:65
 msgid "Please adjust your maximal heart rate."
-msgstr ""
+msgstr "Please adjust your maximal heart rate."
 
 #: inc/core/View/Activity/Box/ElevationUpDown.php:35
 msgid "Elevation up/down"
