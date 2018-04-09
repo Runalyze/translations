@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-03-25 15:21+0200\n"
 "PO-Revision-Date: 2018-04-11 19:45+0000\n"
-"Last-Translator: Lars R. <lars-mail@web.de>\n"
+"Last-Translator: Michael Pohl <michael@mipapo.de>\n"
 "Language-Team: German <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/de/>\n"
 "Language: de\n"
@@ -1045,9 +1045,8 @@ msgid "Analyze splits"
 msgstr "Analysiere die Runden"
 
 #: inc/core/Dataset/Keys/Tools.php:118 inc/core/Dataset/Keys/Tools.php:136
-#, fuzzy
 msgid "Elevation info"
-msgstr "Höhenmeter"
+msgstr "Höhenmeterinformation"
 
 #: inc/core/Dataset/Keys/Tools.php:119 inc/core/Dataset/Keys/Tools.php:137
 #: inc/training/view/class.TrainingView.php:123
