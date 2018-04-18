@@ -3,10 +3,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Runalyze\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-03-25 15:21+0200\n"
-"PO-Revision-Date: 2017-09-30 20:41+0000\n"
-"Last-Translator: anonymous <>\n"
+"PO-Revision-Date: 2018-04-20 11:56+0000\n"
+"Last-Translator: Daniel Piñeiro Santos <danips@gmail.com>\n"
 "Language-Team: Spanish <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/es/>\n"
 "Language: es\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.15\n"
+"X-Generator: Weblate 2.20-dev\n"
 "X-Poedit-KeywordsList: __;_ne;_n;_e\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -266,7 +266,7 @@ msgstr "Ciclismo"
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:16
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:19
 msgid "left"
-msgstr ""
+msgstr "izquierda"
 
 #: inc/core/View/Activity/Plot/Series/BrakingGs.php:28
 #: inc/core/View/Activity/Plot/Series/ImpactGs.php:28
@@ -389,7 +389,7 @@ msgstr "Diferencia"
 #: inc/core/View/Activity/Plot/Series/Smo2.php:37
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:78
 msgid "SmO2"
-msgstr ""
+msgstr "SmO2"
 
 #: inc/core/View/Activity/Plot/ElevationAlgorithms.php:82
 msgid "Original data"
