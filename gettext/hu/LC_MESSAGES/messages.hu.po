@@ -3,10 +3,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Runalyze\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-03-25 15:21+0200\n"
-"PO-Revision-Date: 2017-04-25 11:36+0000\n"
-"Last-Translator: Péter Tóth <kiszeko@freemail.hu>\n"
+"PO-Revision-Date: 2018-04-20 11:55+0000\n"
+"Last-Translator: Krisztian Farkas <rogermap@gmail.com>\n"
 "Language-Team: Hungarian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/hu/>\n"
 "Language: hu\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.11\n"
+"X-Generator: Weblate 2.20-dev\n"
 "X-Poedit-KeywordsList: __;_ne;_n;_e\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -88,15 +88,15 @@ msgstr ""
 #: inc/core/View/Splits/Table.php:230
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:175
 msgid "Goal"
-msgstr ""
+msgstr "Cél"
 
 #: inc/core/View/Splits/Table.php:243
 msgid "Average (active)"
-msgstr ""
+msgstr "Átlag (aktív)"
 
 #: inc/core/View/Splits/Table.php:251
 msgid "Average (total)"
-msgstr ""
+msgstr "Átlag (teljes)"
 
 #: inc/core/View/Splits/Table.php:266
 msgid "1st/2nd Half"
