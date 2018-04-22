@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: mail@runalyze.com\n"
-"POT-Creation-Date: 2018-03-25 15:21+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-22 14:28+0200\n"
 "PO-Revision-Date: 2018-04-11 19:46+0000\n"
 "Last-Translator: Lars R. <lars-mail@web.de>\n"
 "Language-Team: English <https://translate.runalyze.com/projects/runalyze/"
@@ -558,11 +558,21 @@ msgstr "Cadence"
 msgid "Ground contact time"
 msgstr "Ground contact time"
 
-#: inc/core/View/Window/Laps/Table.php:292
+#: inc/core/View/Window/Laps/Table.php:310
 msgid "Average"
 msgstr "Average"
 
-#: inc/core/View/Window/Laps/Table.php:317
+#: inc/core/View/Window/Laps/Table.php:315
+#, fuzzy
+msgid "active"
+msgstr "Active"
+
+#: inc/core/View/Window/Laps/Table.php:315
+#, fuzzy
+msgid "inactive"
+msgstr "Active"
+
+#: inc/core/View/Window/Laps/Table.php:377
 msgid "Show inactive splits"
 msgstr "Show inactive splits"
 
@@ -3272,7 +3282,6 @@ msgstr "correct now"
 
 #: inc/training/view/class.ElevationInfo.php:257
 #: inc/training/view/class.ElevationInfo.php:258
-#: inc/training/view/class.ElevationInfo.php:259
 #, php-format
 msgid "correct again using %s"
 msgstr "correct again using %s"
@@ -3281,19 +3290,19 @@ msgstr "correct again using %s"
 msgid "srtm files"
 msgstr "srtm files"
 
-#: inc/training/view/class.ElevationInfo.php:260
+#: inc/training/view/class.ElevationInfo.php:259
 msgid "remove corrected elevation data"
 msgstr "remove corrected elevation data"
 
-#: inc/training/view/class.ElevationInfo.php:271
+#: inc/training/view/class.ElevationInfo.php:270
 msgid "Compare algorithms"
 msgstr "Compare algorithms"
 
-#: inc/training/view/class.ElevationInfo.php:282
+#: inc/training/view/class.ElevationInfo.php:281
 msgid "Note for elevation data"
 msgstr "Note for elevation data"
 
-#: inc/training/view/class.ElevationInfo.php:286
+#: inc/training/view/class.ElevationInfo.php:285
 msgid ""
 "The calculation of elevation data is very difficult - there is not one "
 "single solution. Bad gps data can be corrected via srtm-data but these are "
@@ -3309,11 +3318,11 @@ msgstr ""
 "value (for up-/downwards). We give you therefore the possibility to choose "
 "algorithm and threshold such that the values fit your experience."
 
-#: inc/training/view/class.ElevationInfo.php:297
+#: inc/training/view/class.ElevationInfo.php:296
 msgid "Problem"
 msgstr "Problem"
 
-#: inc/training/view/class.ElevationInfo.php:300
+#: inc/training/view/class.ElevationInfo.php:299
 #, fuzzy
 msgid "No elevation data available."
 msgstr "No data available."
@@ -3857,18 +3866,18 @@ msgid "Your public athlete page is deactivated."
 msgstr "Your public athlete page"
 
 #: dashboard.php:52
-msgid "Apps"
-msgstr ""
-
-#: dashboard.php:53
 #, fuzzy
 msgid "Account settings"
 msgstr "Check settings"
 
-#: dashboard.php:54
+#: dashboard.php:53
 #, fuzzy
 msgid "Privacy settings"
 msgstr "General settings"
+
+#: dashboard.php:54
+msgid "Apps"
+msgstr ""
 
 #: dashboard.php:55
 msgid "Logout"
@@ -5612,9 +5621,6 @@ msgstr "unlabeled"
 #~ "Defining some laps as 'resting' will hide them in the respective plot."
 #~ msgstr ""
 #~ "Defining some laps as 'resting' will hide them in the respective plot."
-
-#~ msgid "Active"
-#~ msgstr "Active"
 
 #~ msgid "Calories"
 #~ msgstr "Calories"

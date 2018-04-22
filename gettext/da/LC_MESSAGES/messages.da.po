@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Runalyze\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-25 15:21+0200\n"
+"POT-Creation-Date: 2018-04-22 14:28+0200\n"
 "PO-Revision-Date: 2017-03-07 09:20+0000\n"
 "Last-Translator: Michael Pohl <michael@mipapo.de>\n"
 "Language-Team: Danish <https://translate.runalyze.com/projects/runalyze/"
@@ -549,11 +549,21 @@ msgstr "Kadence"
 msgid "Ground contact time"
 msgstr "Jordkontakt tid"
 
-#: inc/core/View/Window/Laps/Table.php:292
+#: inc/core/View/Window/Laps/Table.php:310
 msgid "Average"
 msgstr "Gennemsnit"
 
-#: inc/core/View/Window/Laps/Table.php:317
+#: inc/core/View/Window/Laps/Table.php:315
+#, fuzzy
+msgid "active"
+msgstr "Aktiv"
+
+#: inc/core/View/Window/Laps/Table.php:315
+#, fuzzy
+msgid "inactive"
+msgstr "Aktiv"
+
+#: inc/core/View/Window/Laps/Table.php:377
 msgid "Show inactive splits"
 msgstr ""
 
@@ -3218,7 +3228,6 @@ msgstr "korriger nu"
 
 #: inc/training/view/class.ElevationInfo.php:257
 #: inc/training/view/class.ElevationInfo.php:258
-#: inc/training/view/class.ElevationInfo.php:259
 #, php-format
 msgid "correct again using %s"
 msgstr "korriger igen med %s"
@@ -3227,19 +3236,19 @@ msgstr "korriger igen med %s"
 msgid "srtm files"
 msgstr "srtm filer"
 
-#: inc/training/view/class.ElevationInfo.php:260
+#: inc/training/view/class.ElevationInfo.php:259
 msgid "remove corrected elevation data"
 msgstr "fjern korrigerede højdedata"
 
-#: inc/training/view/class.ElevationInfo.php:271
+#: inc/training/view/class.ElevationInfo.php:270
 msgid "Compare algorithms"
 msgstr "Sammenlign algoritmer"
 
-#: inc/training/view/class.ElevationInfo.php:282
+#: inc/training/view/class.ElevationInfo.php:281
 msgid "Note for elevation data"
 msgstr "Nota for højde data"
 
-#: inc/training/view/class.ElevationInfo.php:286
+#: inc/training/view/class.ElevationInfo.php:285
 msgid ""
 "The calculation of elevation data is very difficult - there is not one "
 "single solution. Bad gps data can be corrected via srtm-data but these are "
@@ -3255,11 +3264,11 @@ msgstr ""
 "nedstigning). Derfor giver vi dig mulighed for at vælge algoritme og "
 "grænseværdi, så værdien kan tilpasses dine erfaringer."
 
-#: inc/training/view/class.ElevationInfo.php:297
+#: inc/training/view/class.ElevationInfo.php:296
 msgid "Problem"
 msgstr ""
 
-#: inc/training/view/class.ElevationInfo.php:300
+#: inc/training/view/class.ElevationInfo.php:299
 #, fuzzy
 msgid "No elevation data available."
 msgstr "Ingen anstrengelse"
@@ -3801,18 +3810,18 @@ msgid "Your public athlete page is deactivated."
 msgstr "Offentlig liste: aktiv"
 
 #: dashboard.php:52
-msgid "Apps"
-msgstr ""
-
-#: dashboard.php:53
 #, fuzzy
 msgid "Account settings"
 msgstr "Kontroller indstillinger"
 
-#: dashboard.php:54
+#: dashboard.php:53
 #, fuzzy
 msgid "Privacy settings"
 msgstr "Generelle indstillinger"
+
+#: dashboard.php:54
+msgid "Apps"
+msgstr ""
 
 #: dashboard.php:55
 msgid "Logout"
@@ -5521,9 +5530,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Ved at definere nogle omgange som 'hvilende' vil de blive skjult i den "
 #~ "respektive graf."
-
-#~ msgid "Active"
-#~ msgstr "Aktiv"
 
 #~ msgid "Calories"
 #~ msgstr "Kalorier"

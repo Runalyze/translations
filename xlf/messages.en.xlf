@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
-  <file date="2018-03-25T15:20:57Z" source-language="en" target-language="en" datatype="plaintext" original="not.available">
+  <file date="2018-04-22T14:28:38Z" source-language="en" target-language="en" datatype="plaintext" original="not.available">
     <header>
       <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
@@ -45,9 +45,9 @@
       <trans-unit id="04e4ab1f101e58c92753f1c92a2622b76f703616" resname="%s-files are supported from: %s">
         <source>%s-files are supported from: %s</source>
         <target>%s-files are supported from: %s</target>
-        <jms:reference-file line="81">/Resources/views/activity/import_upload.html.twig</jms:reference-file>
-        <jms:reference-file line="87">/Resources/views/activity/import_upload.html.twig</jms:reference-file>
-        <jms:reference-file line="97">/Resources/views/activity/import_upload.html.twig</jms:reference-file>
+        <jms:reference-file line="83">/Resources/views/activity/import_upload.html.twig</jms:reference-file>
+        <jms:reference-file line="89">/Resources/views/activity/import_upload.html.twig</jms:reference-file>
+        <jms:reference-file line="99">/Resources/views/activity/import_upload.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="3bc15c8aae3e4124dd409035f32ea2fd6835efc9" resname="-">
         <source>-</source>
@@ -57,7 +57,7 @@
       <trans-unit id="550f492da73d1ba82d45e078e42d1bd48fe924fc" resname="&lt;b&gt;%s&lt;/b&gt; would like permissions to access your RUNALYZE account">
         <source><![CDATA[<b>%s</b> would like permissions to access your RUNALYZE account]]></source>
         <target><![CDATA[<b>%s</b> would like permissions to access your RUNALYZE account]]></target>
-        <jms:reference-file line="9">/Resources/FOSOAuthServerBundle/views/Authorize/authorize_content.html.twig</jms:reference-file>
+        <jms:reference-file line="12">/Resources/FOSOAuthServerBundle/views/Authorize/authorize_content.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="04bbd88ceca64ef98a75c389a443bddfcbda86fc" resname="&lt;strong&gt;%VO2max%/Time (Shape):&lt;/strong&gt; by your shape at that time&lt;br&gt;&#10;                The time is the prognosis by Runalyze.">
         <source><![CDATA[<strong>%VO2max%/Time (Shape):</strong> by your shape at that time<br>
@@ -271,6 +271,11 @@
         <target>Add weather data</target>
         <jms:reference-file line="150">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="b227a084b96eb37971f4d177915bd60ed66fdbd8" resname="Added on">
+        <source>Added on</source>
+        <target>Added on</target>
+        <jms:reference-file line="28">/Resources/views/settings/app.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="0ed93a174f252621e99c5a70ead71cab1a298dfd" resname="Age standard">
         <source>Age standard</source>
         <target>Age standard</target>
@@ -387,12 +392,12 @@
       <trans-unit id="1fb59f64f769747f2aed3d8adf523e4d6debc1ef" resname="Authorize application">
         <source>Authorize application</source>
         <target>Authorize application</target>
-        <jms:reference-file line="8">/Resources/FOSOAuthServerBundle/views/Authorize/authorize_content.html.twig</jms:reference-file>
+        <jms:reference-file line="10">/Resources/FOSOAuthServerBundle/views/Authorize/authorize_content.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="f8f5117038c185bf68b0bd33b349f9405e133955" resname="Available exports">
         <source>Available exports</source>
         <target>Available exports</target>
-        <jms:reference-file line="58">/Resources/views/tools/backup/export.html.twig</jms:reference-file>
+        <jms:reference-file line="52">/Resources/views/tools/backup/export.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="15f86c051ecf0b64e5f8cdc8c689552f42595942" resname="Average">
         <source>Average</source>
@@ -409,16 +414,15 @@
         <target>Background</target>
         <jms:reference-file line="93">/../src/CoreBundle/Form/Tools/PosterType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="8455da42a371935e274af8072f087a92a90b52a7" resname="Backup of the complete database -&#10;                        This file can be imported manually with e.g. PHPMyAdmin into any database.&lt;br /&gt;&#10;                        This is recommended to create a backup copy or to import your data into a new installation.&#10;                        ">
-        <source><![CDATA[Backup of the complete database -
-                        This file can be imported manually with e.g. PHPMyAdmin into any database.<br />
-                        This is recommended to create a backup copy or to import your data into a new installation.
-                        ]]></source>
-        <target><![CDATA[Backup of the complete database -
-                        This file can be imported manually with e.g. PHPMyAdmin into any database.<br />
-                        This is recommended to create a backup copy or to import your data into a new installation.
-                        ]]></target>
-        <jms:reference-file line="37">/Resources/views/tools/backup/export.html.twig</jms:reference-file>
+      <trans-unit id="8ccdd411a4e10ff9400a171b54c3ffe617fc249e" resname="Backup in easy readable format">
+        <source>Backup in easy readable format</source>
+        <target>Backup in easy readable format</target>
+        <jms:reference-file line="28">/Resources/views/tools/backup/export.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9f6b23eaf9e83d0ccc263846d533d8bb81c13386" resname="Backup of the complete database in MySQL format">
+        <source>Backup of the complete database in MySQL format</source>
+        <target>Backup of the complete database in MySQL format</target>
+        <jms:reference-file line="34">/Resources/views/tools/backup/export.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="51b7a940a499a28bd39293a1fdd7dfebfe9a8662" resname="Backup your data">
         <source>Backup your data</source>
@@ -672,6 +676,11 @@
         <target>Connect</target>
         <jms:reference-file line="41">/Resources/views/import/garmin_communicator.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="8f5e8efc6c27da74c6d2fce0dad216c525167c93" resname="Connected apps">
+        <source>Connected apps</source>
+        <target>Connected apps</target>
+        <jms:reference-file line="16">/Resources/views/settings/app.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="f26abb5b1a196c3919c851df34f421c069e42852" resname="Connected devices">
         <source>Connected devices</source>
         <target>Connected devices</target>
@@ -778,6 +787,11 @@
         <target>Danger zone</target>
         <jms:reference-file line="3">/Resources/views/_macro/form.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="61534a81a114ead07b6aaa7eafae777835f43ce4" resname="Data export">
+        <source>Data export</source>
+        <target>Data export</target>
+        <jms:reference-file line="61">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="28d138800a45ecbb1695a0aba0ce72b3b1d2199c" resname="Data selection">
         <source>Data selection</source>
         <target>Data selection</target>
@@ -793,24 +807,18 @@
         <source>Database cleanup</source>
         <target>Database cleanup</target>
         <jms:reference-file line="5">/Resources/views/tools/database_cleanup/base.html.twig</jms:reference-file>
-        <jms:reference-file line="79">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
+        <jms:reference-file line="70">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="c559392123a83b8b4ddb420a39d10f12a051904a" resname="Database export">
         <source>Database export</source>
         <target>Database export</target>
+        <jms:reference-file line="43">/Resources/views/settings/account.html.twig</jms:reference-file>
         <jms:reference-file line="5">/Resources/views/tools/backup/base.html.twig</jms:reference-file>
-        <jms:reference-file line="61">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="e6deed0e6c30a94c1260099b126c0ef69a1a400c" resname="Database import">
         <source>Database import</source>
         <target>Database import</target>
         <jms:reference-file line="5">/Resources/views/tools/backup/base_import.html.twig</jms:reference-file>
-        <jms:reference-file line="70">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
-      </trans-unit>
-      <trans-unit id="e8bbe711ac8a3b9663481af2ae6772980dfed632" resname="Database import/export">
-        <source>Database import/export</source>
-        <target>Database import/export</target>
-        <jms:reference-file line="43">/Resources/views/settings/account.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1052689464e38f5066d86e3788d5e61cde890281" resname="Dataset">
         <source>Dataset</source>
@@ -907,6 +915,11 @@
         <target>Deletion request of your RUNALYZE account</target>
         <jms:reference-file line="109">/../src/CoreBundle/Services/AccountMailer.php</jms:reference-file>
       </trans-unit>
+      <trans-unit id="55f8ebc805e65b5b71ddafdae390e3be2bcd69af" resname="Description">
+        <source>Description</source>
+        <target>Description</target>
+        <jms:reference-file line="68">/Resources/views/settings/app.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="dc3decbb93847518f1a049dcf49d0d7c6560bcc6" resname="Details">
         <source>Details</source>
         <target>Details</target>
@@ -957,6 +970,11 @@
         <target>Do you really want to delete your account, %username%?</target>
         <jms:reference-file line="5">/Resources/views/account/delete/please_confirm.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="278bb896678d8b6dec997bd586db094ccc51d52d" resname="Do you really want to remove this?">
+        <source>Do you really want to remove this?</source>
+        <target>Do you really want to remove this?</target>
+        <jms:reference-file line="44">/Resources/views/settings/app.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="68a4194227be4ab74bc3d32363417c0fc1f30055" resname="Docs">
         <source>Docs</source>
         <target>Docs</target>
@@ -979,7 +997,7 @@
         <target xml:space="preserve">Due to performance reasons, some statistics are saved in the database.
                         You can trigger a recalculation if you think they are wrong.
                         In addition, values for elevation, TRIMP and %VO2max% can be recalculated.</target>
-        <jms:reference-file line="81">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
+        <jms:reference-file line="72">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="75ebedaffb4aa6157c7cebe699e447963b5bd177" resname="Due to security reasons browser manufacturers will drop support for plugins like the Garmin Communicator. A &lt;a href=&quot;%s%&quot;&gt;reinstall&lt;/a&gt; may work, but we have documented an alternative way to import the original files at %b%.">
         <source><![CDATA[Due to security reasons browser manufacturers will drop support for plugins like the Garmin Communicator. A <a href="%s%">reinstall</a> may work, but we have documented an alternative way to import the original files at %b%.]]></source>
@@ -1742,7 +1760,7 @@
         <source>Multi editor</source>
         <target>Multi editor</target>
         <jms:reference-file line="6">/Resources/views/activity/multi_editor_navigation.html.twig</jms:reference-file>
-        <jms:reference-file line="89">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
+        <jms:reference-file line="80">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="2921fe0bb0fce754ac58926cf174169d3c1e03a6" resname="Multiple Choice">
         <source>Multiple Choice</source>
@@ -1773,6 +1791,8 @@
         <jms:reference-file line="26">/Resources/views/my/equipment/category/table.html.twig</jms:reference-file>
         <jms:reference-file line="68">/Resources/views/my/equipment/form-category.html.twig</jms:reference-file>
         <jms:reference-file line="16">/Resources/views/my/equipment/overview.html.twig</jms:reference-file>
+        <jms:reference-file line="25">/Resources/views/settings/app.html.twig</jms:reference-file>
+        <jms:reference-file line="65">/Resources/views/settings/app.html.twig</jms:reference-file>
         <jms:reference-file line="124">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
         <jms:reference-file line="15">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
@@ -1922,6 +1942,12 @@
         <source>Old password</source>
         <target>Old password</target>
         <jms:reference-file line="21">/../src/CoreBundle/Form/Settings/ChangePasswordType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d0e687b079fb70f2208d1f8d2c75d64d74925496" resname="Operator">
+        <source>Operator</source>
+        <target>Operator</target>
+        <jms:reference-file line="27">/Resources/views/settings/app.html.twig</jms:reference-file>
+        <jms:reference-file line="67">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1d75774c0f96b6ee44eb6643c9fea71b50b90ea8" resname="Order">
         <source>Order</source>
@@ -2087,17 +2113,6 @@
         <source>Portable backup (*.json.gz)</source>
         <target>Portable backup (*.json.gz)</target>
         <jms:reference-file line="17">/../src/CoreBundle/Form/Tools/BackupExportType.php</jms:reference-file>
-      </trans-unit>
-      <trans-unit id="a4d09c4f9aa43a74568ce89aa2810af8cdc394bb" resname="Portable backup of your configuration and data -&#10;                        This file can be imported into any other installation, using this plugin.&lt;br /&gt;&#10;                        This way you can transfer your data from to local to an online installation and back.&#10;                        ">
-        <source><![CDATA[Portable backup of your configuration and data -
-                        This file can be imported into any other installation, using this plugin.<br />
-                        This way you can transfer your data from to local to an online installation and back.
-                        ]]></source>
-        <target><![CDATA[Portable backup of your configuration and data -
-                        This file can be imported into any other installation, using this plugin.<br />
-                        This way you can transfer your data from to local to an online installation and back.
-                        ]]></target>
-        <jms:reference-file line="28">/Resources/views/tools/backup/export.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="cf1c85adba548e8d681255278976584a7e4a44de" resname="Position">
         <source>Position</source>
@@ -2318,10 +2333,20 @@
         <target>Remember me</target>
         <jms:reference-file line="19">/Resources/views/login/form.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="e963907dac5cd5c017869b4c96c18021c9bd058b" resname="Remove">
+        <source>Remove</source>
+        <target>Remove</target>
+        <jms:reference-file line="44">/Resources/views/settings/app.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="51daaecafcd288a24d18949f5c3ac96972840e43" resname="Remove all weather data">
         <source>Remove all weather data</source>
         <target>Remove all weather data</target>
         <jms:reference-file line="151">/Resources/views/activity/form.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7312a31a2c880f2d456663b6f91ad6da980b3a5e" resname="Remove connection">
+        <source>Remove connection</source>
+        <target>Remove connection</target>
+        <jms:reference-file line="29">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="f3c519b57ea1e4f9a3d32f51bcf082e3edec886a" resname="Remove data series">
         <source>Remove data series</source>
@@ -2427,7 +2452,7 @@
       <trans-unit id="699164b70f9ed83be338015145262ce9d2814faa" resname="SQL-format">
         <source>SQL-format</source>
         <target>SQL-format</target>
-        <jms:reference-file line="35">/Resources/views/tools/backup/export.html.twig</jms:reference-file>
+        <jms:reference-file line="32">/Resources/views/tools/backup/export.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="cb836b5ea5300a2914ec85fbe15ba3c2456c9beb" resname="Saturated hemoglobin">
         <source>Saturated hemoglobin</source>
@@ -2701,15 +2726,20 @@
         <target>Support</target>
         <jms:reference-file line="8">/Resources/views/static/help.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="39d5bff319cc5c15e2fd69f0f4f08fd99d85e69f" resname="Supported apps">
+        <source>Supported apps</source>
+        <target>Supported apps</target>
+        <jms:reference-file line="53">/Resources/views/settings/app.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="c2e3464e3e2954f6c67c23a2e753e72ce42873be" resname="Supported file extensions">
         <source>Supported file extensions</source>
         <target>Supported file extensions</target>
-        <jms:reference-file line="79">/Resources/views/activity/import_upload.html.twig</jms:reference-file>
+        <jms:reference-file line="81">/Resources/views/activity/import_upload.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="4187e165032d12db72ad915dd5988d63a6efa157" resname="Supported file size:">
         <source>Supported file size:</source>
         <target>Supported file size:</target>
-        <jms:reference-file line="103">/Resources/views/activity/import_upload.html.twig</jms:reference-file>
+        <jms:reference-file line="105">/Resources/views/activity/import_upload.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="474c100ec318748e00ad01805517a714d20d1e52" resname="TRIMP">
         <source>TRIMP</source>
@@ -2977,6 +3007,11 @@
         <target>This correction method is currently unused.</target>
         <jms:reference-file line="93">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="9df44da1f23d6cfd974ec5804862bf48d54a439c" resname="This feature is still in beta phase">
+        <source>This feature is still in beta phase</source>
+        <target>This feature is still in beta phase</target>
+        <jms:reference-file line="11">/Resources/views/settings/app.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="414bdd61d7140f3d6eb536c84f4fd68d6837b63e" resname="This is your main sport.">
         <source>This is your main sport.</source>
         <target>This is your main sport.</target>
@@ -3017,17 +3052,12 @@
                 At the moment it's not possible to edit multiple activities with only one form.</source>
         <target xml:space="preserve">This tool allows you to edit multiple activities one after another.
                 At the moment it's not possible to edit multiple activities with only one form.</target>
-        <jms:reference-file line="91">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
+        <jms:reference-file line="82">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="16e59bb04fa9297cedece962102621e7f291b7bc" resname="This tool allows you to export your complete data as sql dump or json dump that can be imported into any RUNALYZE installation.">
-        <source>This tool allows you to export your complete data as sql dump or json dump that can be imported into any RUNALYZE installation.</source>
-        <target>This tool allows you to export your complete data as sql dump or json dump that can be imported into any RUNALYZE installation.</target>
+      <trans-unit id="3f737239f19ca153738108b657483e42bb150bc9" resname="This tool allows you to export your complete data as sql dump or json dump.">
+        <source>This tool allows you to export your complete data as sql dump or json dump.</source>
+        <target>This tool allows you to export your complete data as sql dump or json dump.</target>
         <jms:reference-file line="63">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
-      </trans-unit>
-      <trans-unit id="e7feb9b7c846cfac20e38a5b483a8ebd98231754" resname="This tool allows you to import an existing json dump of any other RUNALYZE installation.">
-        <source>This tool allows you to import an existing json dump of any other RUNALYZE installation.</source>
-        <target>This tool allows you to import an existing json dump of any other RUNALYZE installation.</target>
-        <jms:reference-file line="72">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="d1c0ea3c33ebb4d469fdf942621c45e76b1cf558" resname="This tool is not available for this activity.">
         <source>This tool is not available for this activity.</source>
@@ -3301,10 +3331,20 @@
         <target>We are happy to hear your thoughts and ideas about our service. We will review every feedback and discuss topics internally.</target>
         <jms:reference-file line="12">/Resources/views/feedback.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="bbbff8cf8603a8b44bf126217cf6ca8f8dc98ea7" resname="We don't support any app yet">
+        <source>We don't support any app yet</source>
+        <target>We don't support any app yet</target>
+        <jms:reference-file line="60">/Resources/views/settings/app.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="97286a2b91d94c57dcdfee7525a87c54bdbd02b7" resname="We give our best to make Runalyze as good as possible for you. - Therefore we would be interested in your suggestions for improvement.">
         <source>We give our best to make Runalyze as good as possible for you. - Therefore we would be interested in your suggestions for improvement.</source>
         <target>We give our best to make Runalyze as good as possible for you. - Therefore we would be interested in your suggestions for improvement.</target>
         <jms:reference-file line="13">/Resources/views/static/help.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9efaa21f3fcbff8fbd84f62e80386f3957207163" resname="We recommend the file formats FIT or TCX">
+        <source>We recommend the file formats FIT or TCX</source>
+        <target>We recommend the file formats FIT or TCX</target>
+        <jms:reference-file line="78">/Resources/views/activity/import_upload.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="bc66077ae6e84c6025965c3ccfd4000938d9d58d" resname="We use two decimals for convenient reasons.&lt;br&gt;Marathon: 42.20 km&lt;br&gt;Half marathon: 21.10 km">
         <source><![CDATA[We use two decimals for convenient reasons.<br>Marathon: 42.20 km<br>Half marathon: 21.10 km]]></source>
@@ -3321,6 +3361,11 @@
         <target>We will resume normal operations as soon as possible.</target>
         <jms:reference-file line="9">/Resources/views/maintenance.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="de335fb3773bd4e42d6ad16c2ddb458bb8ee6679" resname="We will support more apps soon">
+        <source>We will support more apps soon</source>
+        <target>We will support more apps soon</target>
+        <jms:reference-file line="57">/Resources/views/settings/app.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="284af3e8882bbc45760521be2f100a2d104ff5d8" resname="Weather">
         <source>Weather</source>
         <target>Weather</target>
@@ -3332,7 +3377,8 @@
       <trans-unit id="2e8a57cc5c472f4ac3b071979a38e80db7e59e87" resname="Website">
         <source>Website</source>
         <target>Website</target>
-        <jms:reference-file line="18">/Resources/views/settings/app.html.twig</jms:reference-file>
+        <jms:reference-file line="26">/Resources/views/settings/app.html.twig</jms:reference-file>
+        <jms:reference-file line="66">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="f82be68a7fb4e7dec88f27463de94ad355242ee5" resname="Week">
         <source>Week</source>
@@ -3460,7 +3506,7 @@
       <trans-unit id="1351461b5a1f8399ab32e521424b69fdb7e6415b" resname="You can revoke the permissions at any time in your RUNALYZE settings.">
         <source>You can revoke the permissions at any time in your RUNALYZE settings.</source>
         <target>You can revoke the permissions at any time in your RUNALYZE settings.</target>
-        <jms:reference-file line="24">/Resources/FOSOAuthServerBundle/views/Authorize/authorize_content.html.twig</jms:reference-file>
+        <jms:reference-file line="28">/Resources/FOSOAuthServerBundle/views/Authorize/authorize_content.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="8a13e6ca8824f60d77c470e9a6c3c2e925d069a0" resname="You can select multiple objects for an activity">
         <source>You can select multiple objects for an activity</source>
@@ -3504,7 +3550,7 @@
       <trans-unit id="58861c01e754722311116ab82bb61f3ca0d496d7" resname="You don't have any apps associated with your account.">
         <source>You don't have any apps associated with your account.</source>
         <target>You don't have any apps associated with your account.</target>
-        <jms:reference-file line="12">/Resources/views/settings/app.html.twig</jms:reference-file>
+        <jms:reference-file line="20">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="68cde17ce53f23a49f91c8da4f94274a53ba55c1" resname="You don't have any equipment so far.">
         <source>You don't have any equipment so far.</source>
@@ -3827,7 +3873,7 @@
       <trans-unit id="bbf96d5eac7d8a6c284064549786e15237971e2a" resname="hrm- and gpx-files with the same name will be automatically combined.">
         <source>hrm- and gpx-files with the same name will be automatically combined.</source>
         <target>hrm- and gpx-files with the same name will be automatically combined.</target>
-        <jms:reference-file line="86">/Resources/views/activity/import_upload.html.twig</jms:reference-file>
+        <jms:reference-file line="88">/Resources/views/activity/import_upload.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="42c56bc5361d5f4c2466fa3b86f821af0c9886f3" resname="i.e. 50% quantile">
         <source>i.e. 50% quantile</source>

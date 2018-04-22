@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-25 15:21+0200\n"
+"POT-Creation-Date: 2018-04-22 14:28+0200\n"
 "PO-Revision-Date: 2017-03-08 08:39+0000\n"
 "Last-Translator: Michael Pohl <michael@mipapo.de>\n"
 "Language-Team: Finnish <https://translate.runalyze.com/projects/runalyze/"
@@ -557,11 +557,21 @@ msgstr "Askeltahti"
 msgid "Ground contact time"
 msgstr "Maakontaktin aika"
 
-#: inc/core/View/Window/Laps/Table.php:292
+#: inc/core/View/Window/Laps/Table.php:310
 msgid "Average"
 msgstr "Keskiarvo"
 
-#: inc/core/View/Window/Laps/Table.php:317
+#: inc/core/View/Window/Laps/Table.php:315
+#, fuzzy
+msgid "active"
+msgstr "Aktiivinen"
+
+#: inc/core/View/Window/Laps/Table.php:315
+#, fuzzy
+msgid "inactive"
+msgstr "Aktiivinen"
+
+#: inc/core/View/Window/Laps/Table.php:377
 msgid "Show inactive splits"
 msgstr ""
 
@@ -3262,7 +3272,6 @@ msgstr "korjaa nyt"
 
 #: inc/training/view/class.ElevationInfo.php:257
 #: inc/training/view/class.ElevationInfo.php:258
-#: inc/training/view/class.ElevationInfo.php:259
 #, php-format
 msgid "correct again using %s"
 msgstr "korjaa uudelleen käyttämällä %s"
@@ -3271,20 +3280,20 @@ msgstr "korjaa uudelleen käyttämällä %s"
 msgid "srtm files"
 msgstr "strm -tiedostot"
 
-#: inc/training/view/class.ElevationInfo.php:260
+#: inc/training/view/class.ElevationInfo.php:259
 msgid "remove corrected elevation data"
 msgstr "poista korjatut korkeustiedot"
 
-#: inc/training/view/class.ElevationInfo.php:271
+#: inc/training/view/class.ElevationInfo.php:270
 msgid "Compare algorithms"
 msgstr "Vertaa algoritmeja"
 
-#: inc/training/view/class.ElevationInfo.php:282
+#: inc/training/view/class.ElevationInfo.php:281
 #, fuzzy
 msgid "Note for elevation data"
 msgstr "Huomioi korkeustiedoista"
 
-#: inc/training/view/class.ElevationInfo.php:286
+#: inc/training/view/class.ElevationInfo.php:285
 msgid ""
 "The calculation of elevation data is very difficult - there is not one "
 "single solution. Bad gps data can be corrected via srtm-data but these are "
@@ -3300,11 +3309,11 @@ msgstr ""
 "laskentaan. Siksi annamme mahdollisuuden valita laskentakaavan ja "
 "käytettävät raja-arvot."
 
-#: inc/training/view/class.ElevationInfo.php:297
+#: inc/training/view/class.ElevationInfo.php:296
 msgid "Problem"
 msgstr "Ongelma"
 
-#: inc/training/view/class.ElevationInfo.php:300
+#: inc/training/view/class.ElevationInfo.php:299
 #, fuzzy
 msgid "No elevation data available."
 msgstr "Ei tietoja saatavilla"
@@ -3850,18 +3859,18 @@ msgid "Your public athlete page is deactivated."
 msgstr "Julkinen lista: käytössä"
 
 #: dashboard.php:52
-msgid "Apps"
-msgstr ""
-
-#: dashboard.php:53
 #, fuzzy
 msgid "Account settings"
 msgstr "Yleiset asetukset"
 
-#: dashboard.php:54
+#: dashboard.php:53
 #, fuzzy
 msgid "Privacy settings"
 msgstr "Yleiset asetukset"
+
+#: dashboard.php:54
+msgid "Apps"
+msgstr ""
 
 #: dashboard.php:55
 msgid "Logout"
@@ -5585,9 +5594,6 @@ msgstr ""
 #~ "Defining some laps as 'resting' will hide them in the respective plot."
 #~ msgstr ""
 #~ "Kierroksien määritteleminen 'levoksi' piilottaa ne kierrostaulukoista."
-
-#~ msgid "Active"
-#~ msgstr "Aktiivinen"
 
 #~ msgid "Calories"
 #~ msgstr "Kalorit"

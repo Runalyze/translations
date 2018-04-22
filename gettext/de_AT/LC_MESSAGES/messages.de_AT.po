@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-25 15:21+0200\n"
+"POT-Creation-Date: 2018-04-22 14:28+0200\n"
 "PO-Revision-Date: 2015-07-13 20:47+0200\n"
 "Last-Translator: Christoph <christoph@grabmer.at>\n"
 "Language-Team: Austrian German <http://translate.runalyze.de/projects/"
@@ -559,11 +559,21 @@ msgstr "Trittfrequenz"
 msgid "Ground contact time"
 msgstr "Bodenkontaktzeit"
 
-#: inc/core/View/Window/Laps/Table.php:292
+#: inc/core/View/Window/Laps/Table.php:310
 msgid "Average"
 msgstr ""
 
-#: inc/core/View/Window/Laps/Table.php:317
+#: inc/core/View/Window/Laps/Table.php:315
+#, fuzzy
+msgid "active"
+msgstr "Aktiv"
+
+#: inc/core/View/Window/Laps/Table.php:315
+#, fuzzy
+msgid "inactive"
+msgstr "Aktiv"
+
+#: inc/core/View/Window/Laps/Table.php:377
 msgid "Show inactive splits"
 msgstr ""
 
@@ -3243,7 +3253,6 @@ msgstr "korregiers jetzt"
 
 #: inc/training/view/class.ElevationInfo.php:257
 #: inc/training/view/class.ElevationInfo.php:258
-#: inc/training/view/class.ElevationInfo.php:259
 #, php-format
 msgid "correct again using %s"
 msgstr ""
@@ -3252,20 +3261,20 @@ msgstr ""
 msgid "srtm files"
 msgstr ""
 
-#: inc/training/view/class.ElevationInfo.php:260
+#: inc/training/view/class.ElevationInfo.php:259
 #, fuzzy
 msgid "remove corrected elevation data"
 msgstr "Korrigier de Höhenmeter"
 
-#: inc/training/view/class.ElevationInfo.php:271
+#: inc/training/view/class.ElevationInfo.php:270
 msgid "Compare algorithms"
 msgstr "Vergleichsalgorithmus"
 
-#: inc/training/view/class.ElevationInfo.php:282
+#: inc/training/view/class.ElevationInfo.php:281
 msgid "Note for elevation data"
 msgstr "Notiz fia Höhendaten"
 
-#: inc/training/view/class.ElevationInfo.php:286
+#: inc/training/view/class.ElevationInfo.php:285
 msgid ""
 "The calculation of elevation data is very difficult - there is not one "
 "single solution. Bad gps data can be corrected via srtm-data but these are "
@@ -3280,11 +3289,11 @@ msgstr ""
 "Plattform ah nu an eigene Algorithmus zum ausrechnen. Wir gebn daher dia die "
 "Möglichkeit zum Auswählen welche Möglichkeit du nutzn willst."
 
-#: inc/training/view/class.ElevationInfo.php:297
+#: inc/training/view/class.ElevationInfo.php:296
 msgid "Problem"
 msgstr ""
 
-#: inc/training/view/class.ElevationInfo.php:300
+#: inc/training/view/class.ElevationInfo.php:299
 #, fuzzy
 msgid "No elevation data available."
 msgstr "Notiz fia Höhendaten"
@@ -3830,18 +3839,18 @@ msgid "Your public athlete page is deactivated."
 msgstr "Öffentliche Auflistung: aktiv"
 
 #: dashboard.php:52
-msgid "Apps"
-msgstr ""
-
-#: dashboard.php:53
 #, fuzzy
 msgid "Account settings"
 msgstr "oigemeine Einstellungen"
 
-#: dashboard.php:54
+#: dashboard.php:53
 #, fuzzy
 msgid "Privacy settings"
 msgstr "oigemeine Einstellungen"
+
+#: dashboard.php:54
+msgid "Apps"
+msgstr ""
 
 #: dashboard.php:55
 msgid "Logout"
@@ -5490,9 +5499,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "first active"
 #~ msgstr "olle aktiv"
-
-#~ msgid "Active"
-#~ msgstr "Aktiv"
 
 #~ msgid "Calories"
 #~ msgstr "Kalorien"
