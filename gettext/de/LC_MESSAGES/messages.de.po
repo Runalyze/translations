@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Runalyze\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-04-22 14:28+0200\n"
-"PO-Revision-Date: 2018-04-23 05:59+0000\n"
+"PO-Revision-Date: 2018-04-24 09:58+0000\n"
 "Last-Translator: Michael Pohl <michael@mipapo.de>\n"
 "Language-Team: German <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/de/>\n"
@@ -4004,7 +4004,7 @@ msgstr "Hilfe und Support"
 
 #: dashboard.php:228
 msgid "Donate &amp; Support the project"
-msgstr ""
+msgstr "Spende &amp; unterstütze so das Projekt"
 
 #: dashboard.php:229
 #, fuzzy
@@ -4013,7 +4013,7 @@ msgstr "Übersetzungen"
 
 #: dashboard.php:231
 msgid "Statement of Privacy"
-msgstr ""
+msgstr "Datenschutzerklärung"
 
 #: dashboard.php:232
 #, fuzzy
@@ -4022,7 +4022,7 @@ msgstr "Nutzungsbeginn"
 
 #: dashboard.php:233
 msgid "Imprint"
-msgstr ""
+msgstr "Impressum"
 
 #: plugin/RunalyzePluginStat_Wetter/MinMaxTableForEquipment.php:94
 #: plugin/RunalyzePluginStat_Wetter/MinMaxTableForEquipment.php:97
