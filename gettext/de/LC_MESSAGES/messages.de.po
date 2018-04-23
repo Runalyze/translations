@@ -3,9 +3,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Runalyze\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-04-22 14:28+0200\n"
-"PO-Revision-Date: 2018-04-11 19:45+0000\n"
+"PO-Revision-Date: 2018-04-23 05:57+0000\n"
 "Last-Translator: Michael Pohl <michael@mipapo.de>\n"
 "Language-Team: German <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/de/>\n"
@@ -3220,7 +3220,7 @@ msgstr ""
 
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:55
 msgid "Mid-foot"
-msgstr ""
+msgstr "Mittelfuß"
 
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:55
 msgid "Heel"
@@ -3903,7 +3903,7 @@ msgstr "Privatsphäreneinstellugen"
 
 #: dashboard.php:54
 msgid "Apps"
-msgstr ""
+msgstr "Apps"
 
 #: dashboard.php:55
 msgid "Logout"
