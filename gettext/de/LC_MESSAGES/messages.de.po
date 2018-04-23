@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Runalyze\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-04-22 14:28+0200\n"
-"PO-Revision-Date: 2018-04-23 05:57+0000\n"
+"PO-Revision-Date: 2018-04-23 05:59+0000\n"
 "Last-Translator: Michael Pohl <michael@mipapo.de>\n"
 "Language-Team: German <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/de/>\n"
@@ -3931,7 +3931,7 @@ msgstr "Blog"
 
 #: dashboard.php:72
 msgid "Shop"
-msgstr ""
+msgstr "Shop"
 
 #: dashboard.php:74
 msgid "About us"
