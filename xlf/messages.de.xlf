@@ -264,14 +264,14 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Wetterdaten hinzufügen</target>
         <jms:reference-file line="151">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="b227a084b96eb37971f4d177915bd60ed66fdbd8" resname="Added on">
+      <trans-unit id="b227a084b96eb37971f4d177915bd60ed66fdbd8" resname="Added on" approved="no">
         <source>Added on</source>
-        <target>Added on</target>
+        <target state="translated">Hinzugefügt am</target>
         <jms:reference-file line="28">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="85b3a5c4dcfb41489f509825fbf742323b1ac4e8" resname="Affiliate links">
+      <trans-unit id="85b3a5c4dcfb41489f509825fbf742323b1ac4e8" resname="Affiliate links" approved="no">
         <source>Affiliate links</source>
-        <target state="new">Affiliate links</target>
+        <target state="translated">Affiliate-Links</target>
         <jms:reference-file line="25">/Resources/views/static/donate.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="0ed93a174f252621e99c5a70ead71cab1a298dfd" resname="Age standard">
@@ -392,9 +392,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Anwendung autorisieren</target>
         <jms:reference-file line="10">/Resources/FOSOAuthServerBundle/views/Authorize/authorize_content.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="060ca2eab30f61d1b721f30690e877987ef6781b" resname="Automatic Sync">
+      <trans-unit id="060ca2eab30f61d1b721f30690e877987ef6781b" resname="Automatic Sync" approved="no">
         <source>Automatic Sync</source>
-        <target state="new">Automatic Sync</target>
+        <target state="translated">Automatische Synchronisation</target>
         <jms:reference-file line="8">/Resources/views/activity/form.html.twig</jms:reference-file>
         <jms:reference-file line="7">/Resources/views/activity/import_garmin_communicator.html.twig</jms:reference-file>
         <jms:reference-file line="14">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
@@ -422,14 +422,14 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Hintergrund</target>
         <jms:reference-file line="93">/../src/CoreBundle/Form/Tools/PosterType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="8ccdd411a4e10ff9400a171b54c3ffe617fc249e" resname="Backup in easy readable format">
+      <trans-unit id="8ccdd411a4e10ff9400a171b54c3ffe617fc249e" resname="Backup in easy readable format" approved="no">
         <source>Backup in easy readable format</source>
-        <target>Backup in easy readable format</target>
+        <target state="translated">Backup im leicht lesbaren Format</target>
         <jms:reference-file line="28">/Resources/views/tools/backup/export.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="9f6b23eaf9e83d0ccc263846d533d8bb81c13386" resname="Backup of the complete database in MySQL format">
+      <trans-unit id="9f6b23eaf9e83d0ccc263846d533d8bb81c13386" resname="Backup of the complete database in MySQL format" approved="no">
         <source>Backup of the complete database in MySQL format</source>
-        <target>Backup of the complete database in MySQL format</target>
+        <target state="translated">Backup einer kompletten Daten im MySQL Format</target>
         <jms:reference-file line="34">/Resources/views/tools/backup/export.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="51b7a940a499a28bd39293a1fdd7dfebfe9a8662" resname="Backup your data">
@@ -507,9 +507,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Geräte durchsuchen</target>
         <jms:reference-file line="52">/Resources/views/import/garmin_communicator.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="8344ef002cf693e2a3816b5e924314ad63e905ad" resname="But we will need some more time for them.">
+      <trans-unit id="8344ef002cf693e2a3816b5e924314ad63e905ad" resname="But we will need some more time for them." approved="no">
         <source>But we will need some more time for them.</source>
-        <target state="new">But we will need some more time for them.</target>
+        <target state="translated">Aber dafür brauchen wir noch etwas Zeit.</target>
         <jms:reference-file line="47">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="87dc57e8714a62b1a86beffe3809c7bbcd86b0e1" resname="By athletes for athletes">
@@ -689,14 +689,14 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Verbinden</target>
         <jms:reference-file line="41">/Resources/views/import/garmin_communicator.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="d5a191ae22ef19c0d9ede8a3a52f9e086a2c7ade" resname="Connect with Garmin">
+      <trans-unit id="d5a191ae22ef19c0d9ede8a3a52f9e086a2c7ade" resname="Connect with Garmin" approved="no">
         <source>Connect with Garmin</source>
-        <target state="new">Connect with Garmin</target>
+        <target state="translated">Mit Garmin verbinden</target>
         <jms:reference-file line="33">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="8f5e8efc6c27da74c6d2fce0dad216c525167c93" resname="Connected apps">
+      <trans-unit id="8f5e8efc6c27da74c6d2fce0dad216c525167c93" resname="Connected apps" approved="no">
         <source>Connected apps</source>
-        <target>Connected apps</target>
+        <target state="translated">Verbundene Anwendungen</target>
         <jms:reference-file line="16">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="f26abb5b1a196c3919c851df34f421c069e42852" resname="Connected devices">
@@ -704,9 +704,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Verbundene Geräte</target>
         <jms:reference-file line="51">/Resources/views/import/garmin_communicator.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2cf609bdd619b0602ef60ac91802b677ad77549a" resname="Consider a donation to RUNALYZE">
+      <trans-unit id="2cf609bdd619b0602ef60ac91802b677ad77549a" resname="Consider a donation to RUNALYZE" approved="no">
         <source>Consider a donation to RUNALYZE</source>
-        <target state="new">Consider a donation to RUNALYZE</target>
+        <target state="translated">Unterstütze Runalyze</target>
         <jms:reference-file line="5">/Resources/views/static/donate.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="fac0cdf818027aec5512aae94d98912275d40a4f" resname="Correct elevation data">
@@ -884,9 +884,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Standardprivatsphäreneinstellungen für alle neu erstellen Aktvitäten dieser Sportart.</target>
         <jms:reference-file line="48">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="ed984ce26086e81b8e5ce7a23ae5baa88ce01006" resname="Default race type">
+      <trans-unit id="ed984ce26086e81b8e5ce7a23ae5baa88ce01006" resname="Default race type" approved="no">
         <source>Default race type</source>
-        <target state="new">Default race type</target>
+        <target state="translated">Standart Wettkampftrainingstyp</target>
         <jms:reference-file line="187">/../src/CoreBundle/Form/Settings/SportType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="aaae84143938ffb5470678a0f315970f6a4fa81d" resname="Definitions for training paces vary a lot, depending on which philosophy one looks at.&#10;            This table specifies paces at various percentages of %vVO2max%, which equals approximately the maximal pace for 11 minutes.&#10;        ">
@@ -1002,9 +1002,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Möchtest Du wirklich deinen Account löschen, %username%?</target>
         <jms:reference-file line="5">/Resources/views/account/delete/please_confirm.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="278bb896678d8b6dec997bd586db094ccc51d52d" resname="Do you really want to remove this?">
+      <trans-unit id="278bb896678d8b6dec997bd586db094ccc51d52d" resname="Do you really want to remove this?" approved="no">
         <source>Do you really want to remove this?</source>
-        <target>Do you really want to remove this?</target>
+        <target state="translated">Möchtest du dies wirklich entfernen?</target>
         <jms:reference-file line="44">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="68a4194227be4ab74bc3d32363417c0fc1f30055" resname="Docs">
