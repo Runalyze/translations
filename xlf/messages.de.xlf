@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
   <file date="2018-05-17T16:05:45Z" source-language="en" target-language="de" datatype="plaintext" original="not.available">
     <header>
@@ -50,9 +50,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>-</target>
         <jms:reference-file line="17">/../src/CoreBundle/Form/Type/RpeType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="550f492da73d1ba82d45e078e42d1bd48fe924fc" resname="&lt;b&gt;%s&lt;/b&gt; would like permissions to access your RUNALYZE account">
+      <trans-unit id="550f492da73d1ba82d45e078e42d1bd48fe924fc" resname="&lt;b&gt;%s&lt;/b&gt; would like permissions to access your RUNALYZE account" approved="no">
         <source><![CDATA[<b>%s</b> would like permissions to access your RUNALYZE account]]></source>
-        <target><![CDATA[<b>%s</b> would like permissions to access your RUNALYZE account]]></target>
+        <target state="translated">&lt;b&gt;%s&lt;/b&gt; möchte Zugriffsrechte auf deinen RUNALYZE-Account haben</target>
         <jms:reference-file line="12">/Resources/FOSOAuthServerBundle/views/Authorize/authorize_content.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="04bbd88ceca64ef98a75c389a443bddfcbda86fc" resname="&lt;strong&gt;%VO2max%/Time (Shape):&lt;/strong&gt; by your shape at that time&lt;br&gt;&#10;                The time is the prognosis by Runalyze.">
