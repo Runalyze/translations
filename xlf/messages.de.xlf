@@ -3060,12 +3060,12 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="9df44da1f23d6cfd974ec5804862bf48d54a439c" resname="This feature is still in beta phase" approved="no">
         <source>This feature is still in beta phase</source>
-        <target state="translated">Dieses Feature is noch</target>
+        <target state="translated">Diese Funktion befindet sich noch in der Beta-Phase.</target>
         <jms:reference-file line="11">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="c59b624220c94870574049cd1ffaa49bad967745" resname="This is your default race type.">
+      <trans-unit id="c59b624220c94870574049cd1ffaa49bad967745" resname="This is your default race type." approved="no">
         <source>This is your default race type.</source>
-        <target state="new">This is your default race type.</target>
+        <target state="translated">Dies ist dein Standard Wettkampftrainingstyp.</target>
         <jms:reference-file line="30">/Resources/views/settings/sport/form-type.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="414bdd61d7140f3d6eb536c84f4fd68d6837b63e" resname="This is your main sport.">
@@ -3393,9 +3393,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Wir freuen uns deine Gedanken und Ideen über unseren Service zu hören.  Wir werden jedes Feedback lesen und intern über die Themen reden.</target>
         <jms:reference-file line="12">/Resources/views/feedback.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="bbbff8cf8603a8b44bf126217cf6ca8f8dc98ea7" resname="We don't support any app yet">
+      <trans-unit id="bbbff8cf8603a8b44bf126217cf6ca8f8dc98ea7" resname="We don't support any app yet" approved="no">
         <source>We don't support any app yet</source>
-        <target>We don't support any app yet</target>
+        <target state="translated">Wir unterstützen noch keine App bisher.</target>
         <jms:reference-file line="60">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="97286a2b91d94c57dcdfee7525a87c54bdbd02b7" resname="We give our best to make Runalyze as good as possible for you. - Therefore we would be interested in your suggestions for improvement.">
@@ -3403,19 +3403,19 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Wir wollen Runalyze für Dich so gut wie möglich machen. Dazu müssen wir aber wissen, was für Verbesserungsvorschläge und Wünsche du hast.</target>
         <jms:reference-file line="13">/Resources/views/static/help.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="440aa5cf3100adfbd29b3600a47013e01a7552fc" resname="We had to pay a high one-time fee (5000$) to Garmin for this feature. If you are satisfied with this feature please consider &lt;a class=&quot;window&quot; href=&quot;https://runalyze.com/donate&quot;&gt;a donation&lt;/a&gt;. Thank you.">
+      <trans-unit id="440aa5cf3100adfbd29b3600a47013e01a7552fc" resname="We had to pay a high one-time fee (5000$) to Garmin for this feature. If you are satisfied with this feature please consider &lt;a class=&quot;window&quot; href=&quot;https://runalyze.com/donate&quot;&gt;a donation&lt;/a&gt;. Thank you." approved="no">
         <source><![CDATA[We had to pay a high one-time fee (5000$) to Garmin for this feature. If you are satisfied with this feature please consider <a class="window" href="https://runalyze.com/donate">a donation</a>. Thank you.]]></source>
-        <target state="new"><![CDATA[We had to pay a high one-time fee (5000$) to Garmin for this feature. If you are satisfied with this feature please consider <a class="window" href="https://runalyze.com/donate">a donation</a>. Thank you.]]></target>
+        <target state="translated">Wir mussten eine hohe einmalige Gebühr (5000$) an Garmin zahlen. Wenn du mit dieser Funktion zufrieden bist, dann schaue doch, wie du uns &lt;a class="window" href="https://runalyze.com/donate"&gt;unterstützen&lt;/a&gt; kannst. Vielen Dank!</target>
         <jms:reference-file line="39">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="9efaa21f3fcbff8fbd84f62e80386f3957207163" resname="We recommend the file formats FIT or TCX">
+      <trans-unit id="9efaa21f3fcbff8fbd84f62e80386f3957207163" resname="We recommend the file formats FIT or TCX" approved="no">
         <source>We recommend the file formats FIT or TCX</source>
-        <target>We recommend the file formats FIT or TCX</target>
+        <target state="translated">Wir empfehlen die Dateiformate FIT oder TCX</target>
         <jms:reference-file line="79">/Resources/views/activity/import_upload.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="5a8b962a27a1ae0345b71c48f62e7eb88b4095c5" resname="We spend our leisure time to make RUNALYZE as good as possible and we still have tons of great ideas, but time is scarce and after a hard training we first need some fruits or a smoothie.">
+      <trans-unit id="5a8b962a27a1ae0345b71c48f62e7eb88b4095c5" resname="We spend our leisure time to make RUNALYZE as good as possible and we still have tons of great ideas, but time is scarce and after a hard training we first need some fruits or a smoothie." approved="no">
         <source>We spend our leisure time to make RUNALYZE as good as possible and we still have tons of great ideas, but time is scarce and after a hard training we first need some fruits or a smoothie.</source>
-        <target state="new">We spend our leisure time to make RUNALYZE as good as possible and we still have tons of great ideas, but time is scarce and after a hard training we first need some fruits or a smoothie.</target>
+        <target state="translated">Wir verbringen einen Großteil unsere Freizeit damit, RUNALYZE so gut wie möglich zu machen und haben immer noch jede Menge gute Ideen, aber die Zeit ist knapp und nach einem harten Training brauchen auch wir erst mal ein paar Früchte oder einen Smoothie.</target>
         <jms:reference-file line="9">/Resources/views/static/donate.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="bc66077ae6e84c6025965c3ccfd4000938d9d58d" resname="We use two decimals for convenient reasons.&lt;br&gt;Marathon: 42.20 km&lt;br&gt;Half marathon: 21.10 km">
@@ -3433,9 +3433,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Wir werden im Normalbetrieb so bald wie möglich fortsetzen.</target>
         <jms:reference-file line="9">/Resources/views/maintenance.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="de335fb3773bd4e42d6ad16c2ddb458bb8ee6679" resname="We will support more apps soon">
+      <trans-unit id="de335fb3773bd4e42d6ad16c2ddb458bb8ee6679" resname="We will support more apps soon" approved="no">
         <source>We will support more apps soon</source>
-        <target>We will support more apps soon</target>
+        <target state="translated">Wir werden bald mehr Apps unterstützen</target>
         <jms:reference-file line="57">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="284af3e8882bbc45760521be2f100a2d104ff5d8" resname="Weather">
@@ -3573,9 +3573,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Du kannst Runalyze jetzt benutzen.</target>
         <jms:reference-file line="14">/Resources/views/account/activate/success.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="1351461b5a1f8399ab32e521424b69fdb7e6415b" resname="You can revoke the permissions at any time in your RUNALYZE settings.">
+      <trans-unit id="1351461b5a1f8399ab32e521424b69fdb7e6415b" resname="You can revoke the permissions at any time in your RUNALYZE settings." approved="no">
         <source>You can revoke the permissions at any time in your RUNALYZE settings.</source>
-        <target>You can revoke the permissions at any time in your RUNALYZE settings.</target>
+        <target state="translated">Du kannst die Berechtigungen jederzeit in deinen RUNALYZE-Einstellungen widerrufen.</target>
         <jms:reference-file line="28">/Resources/FOSOAuthServerBundle/views/Authorize/authorize_content.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="8a13e6ca8824f60d77c470e9a6c3c2e925d069a0" resname="You can select multiple objects for an activity">
@@ -3590,9 +3590,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target><![CDATA[Du kannst auswählen, welche Werte in der Trainingsübersicht angezeigt werden.<br>Dies hat keinen Einfluss auf die Ansicht einzelner Aktivitäten, das Formular oder einzelne Module.]]></target>
         <jms:reference-file line="14">/Resources/views/settings/dataset.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2ccd9916879c8b06aba06ebef115176bde47242b" resname="You can still manually use the respective checkbox in the activity form.">
+      <trans-unit id="2ccd9916879c8b06aba06ebef115176bde47242b" resname="You can still manually use the respective checkbox in the activity form." approved="no">
         <source>You can still manually use the respective checkbox in the activity form.</source>
-        <target state="new">You can still manually use the respective checkbox in the activity form.</target>
+        <target state="translated">Du kannst  können das entsprechende Ankreuzfeld im Aktivitätsformular weiterhin manuell verwenden.</target>
         <jms:reference-file line="55">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="fc775f6ada63fa3d193130405bef5adf9d026265" resname="You can support the development of RUNALYZE with every financial contribution — We highly appreciate every grant.">
