@@ -3171,9 +3171,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <jms:reference-file line="32">/Resources/views/mail/account/registration.html.twig</jms:reference-file>
         <jms:reference-file line="12">/Resources/views/register/mail_delivered.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="8f91bcf6d2d6040050ecc946bdf8d15f163dc8dd" resname="To start the initial sync you need to track at least one new activity at Garmin. Afterwards Garmin will send us the last 30 days of activities. This can take some time (hours up to one day).">
+      <trans-unit id="8f91bcf6d2d6040050ecc946bdf8d15f163dc8dd" resname="To start the initial sync you need to track at least one new activity at Garmin. Afterwards Garmin will send us the last 30 days of activities. This can take some time (hours up to one day)." approved="no">
         <source>To start the initial sync you need to track at least one new activity at Garmin. Afterwards Garmin will send us the last 30 days of activities. This can take some time (hours up to one day).</source>
-        <target state="new">To start the initial sync you need to track at least one new activity at Garmin. Afterwards Garmin will send us the last 30 days of activities. This can take some time (hours up to one day).</target>
+        <target state="translated">Um die initiale Synchronisation zu starten, musst du mindestens eine neue Aktivität bei Garmin aufzeichnen. Danach sendet uns Garmin deine Aktivitäten der letzten 30 Tage. Dies kann einige Zeit in Anspruch nehmen (einige Stunden bis hin zu einem Tag).</target>
         <jms:reference-file line="43">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="bb43c1d8b7f1a7d79ff87743ad55f61859179bb4" resname="Tool not available">
@@ -3592,17 +3592,17 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="2ccd9916879c8b06aba06ebef115176bde47242b" resname="You can still manually use the respective checkbox in the activity form." approved="no">
         <source>You can still manually use the respective checkbox in the activity form.</source>
-        <target state="translated">Du kannst  können das entsprechende Ankreuzfeld im Aktivitätsformular weiterhin manuell verwenden.</target>
+        <target state="translated">Du kannst die Checkbox im Aktivitätsformular weiterhin manuell nutzen.</target>
         <jms:reference-file line="55">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="fc775f6ada63fa3d193130405bef5adf9d026265" resname="You can support the development of RUNALYZE with every financial contribution — We highly appreciate every grant.">
+      <trans-unit id="fc775f6ada63fa3d193130405bef5adf9d026265" resname="You can support the development of RUNALYZE with every financial contribution — We highly appreciate every grant." approved="no">
         <source>You can support the development of RUNALYZE with every financial contribution — We highly appreciate every grant.</source>
-        <target state="new">You can support the development of RUNALYZE with every financial contribution — We highly appreciate every grant.</target>
+        <target state="translated">Mit jedem finanziellen Beitrag kannst du RUNALYZE unterstützen - wir freuen uns über jeden Unterstützung.</target>
         <jms:reference-file line="10">/Resources/views/static/donate.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7cf01aa2f05ae0a1ed203906322017bb242f80ed" resname="You can support us directly via Paypal">
+      <trans-unit id="7cf01aa2f05ae0a1ed203906322017bb242f80ed" resname="You can support us directly via Paypal" approved="no">
         <source>You can support us directly via Paypal</source>
-        <target state="new">You can support us directly via Paypal</target>
+        <target state="translated">Du kannst uns direkt über Paypal unterstützen.</target>
         <jms:reference-file line="14">/Resources/views/static/donate.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="653ed74d4c654ec310986c20faf5a4bbb19de0c0" resname="You can use the %linkStart%database cleanup%linkEnd% to recalculate the value.">
@@ -3630,9 +3630,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Du hast bisher keine Aktivität mit Tags versehen.</target>
         <jms:reference-file line="38">/Resources/views/settings/tag/overview.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="58861c01e754722311116ab82bb61f3ca0d496d7" resname="You don't have any apps associated with your account.">
+      <trans-unit id="58861c01e754722311116ab82bb61f3ca0d496d7" resname="You don't have any apps associated with your account." approved="no">
         <source>You don't have any apps associated with your account.</source>
-        <target>You don't have any apps associated with your account.</target>
+        <target state="translated">Du hast noch keine Anwendungen mit deinem Konto verknüpft.</target>
         <jms:reference-file line="20">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="68cde17ce53f23a49f91c8da4f94274a53ba55c1" resname="You don't have any equipment so far.">
@@ -3725,9 +3725,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Dein Account wurde gelöscht.</target>
         <jms:reference-file line="5">/Resources/views/account/delete/success.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="39d8da41e3bfc167e8fd723027b45b58c3faed94" resname="Your account is now connected to Garmin Connect and activities will be synchronized.">
+      <trans-unit id="39d8da41e3bfc167e8fd723027b45b58c3faed94" resname="Your account is now connected to Garmin Connect and activities will be synchronized." approved="no">
         <source>Your account is now connected to Garmin Connect and activities will be synchronized.</source>
-        <target state="new">Your account is now connected to Garmin Connect and activities will be synchronized.</target>
+        <target state="translated">Dein Konto ist nun mit Garmin Connect verbunden und die Aktivitäten werden synchronisiert.</target>
         <jms:reference-file line="28">/../src/CoreBundle/Component/Notifications/Message/OAuthGarminConnectConnectedMessage.php</jms:reference-file>
         <jms:reference-file line="20">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
       </trans-unit>
