@@ -394,7 +394,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="060ca2eab30f61d1b721f30690e877987ef6781b" resname="Automatic Sync" approved="no">
         <source>Automatic Sync</source>
-        <target state="translated">Automatische Synchronisation</target>
+        <target state="translated">Synchronisation</target>
         <jms:reference-file line="8">/Resources/views/activity/form.html.twig</jms:reference-file>
         <jms:reference-file line="7">/Resources/views/activity/import_garmin_communicator.html.twig</jms:reference-file>
         <jms:reference-file line="14">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
@@ -1452,9 +1452,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Hügelig</target>
         <jms:reference-file line="52">/Resources/views/activity/tool/climb_score.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2284d040f5091f510de37a154536196310f9c02d" resname="Hint">
+      <trans-unit id="2284d040f5091f510de37a154536196310f9c02d" resname="Hint" approved="no">
         <source>Hint</source>
-        <target state="new">Hint</target>
+        <target state="translated">Hinweis</target>
         <jms:reference-file line="30">/Resources/views/settings/sport/form-type.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="f6df823a92ae084d3d771a05c34bf34424d741c4" resname="How sad, that you've decided to delete your account.&lt;br&gt;&#10;            Your account will be deleted as soon as you click on the confirmation link in your mail.">
@@ -1806,9 +1806,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Weitere</target>
         <jms:reference-file line="90">/Resources/views/base_logged_in.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="141c78db05718f5ffbaaf063a87cb875c7ef61a5" resname="More automatic sync options with Polar, TomTom and more will follow.">
+      <trans-unit id="141c78db05718f5ffbaaf063a87cb875c7ef61a5" resname="More automatic sync options with Polar, TomTom and more will follow." approved="no">
         <source>More automatic sync options with Polar, TomTom and more will follow.</source>
-        <target state="new">More automatic sync options with Polar, TomTom and more will follow.</target>
+        <target state="translated">Weitere automatische Synchronisationsoptionen mit Polar, TomTom und anderen werden folgen.</target>
         <jms:reference-file line="46">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="74cba9f182ea20ad83b8428d9365dd11a4428ec2" resname="Multi editor">
