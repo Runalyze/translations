@@ -1495,9 +1495,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <jms:reference-file line="18">/Resources/views/mail/account/recoverPassword.html.twig</jms:reference-file>
         <jms:reference-file line="24">/Resources/views/mail/account/registration.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="1837c484afb310300c040d3f5ebb38268d87e918" resname="If you choose this activity type it will automatically be marked as a race.">
+      <trans-unit id="1837c484afb310300c040d3f5ebb38268d87e918" resname="If you choose this activity type it will automatically be marked as a race." approved="no">
         <source>If you choose this activity type it will automatically be marked as a race.</source>
-        <target state="new">If you choose this activity type it will automatically be marked as a race.</target>
+        <target state="translated">Die Aktivität wird automatisch als Wettkampf markiert, wenn dieser Typ ausgewählt wird.</target>
         <jms:reference-file line="54">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
         <jms:reference-file line="31">/Resources/views/settings/sport/form-type.html.twig</jms:reference-file>
       </trans-unit>
@@ -1516,9 +1516,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Du solltest den Veranstaltungsnamen immer ohne die Veranstaltungsnummer und Jahresangabe eintragen.</target>
         <jms:reference-file line="14">/Resources/views/my/raceresult/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="a0ece67c227c88a33050357219165e21dc7e277e" resname="If you shop via Amazon you can use the following affiliate link. We get a pro-rata commission but the price remains the same for you.">
+      <trans-unit id="a0ece67c227c88a33050357219165e21dc7e277e" resname="If you shop via Amazon you can use the following affiliate link. We get a pro-rata commission but the price remains the same for you." approved="no">
         <source>If you shop via Amazon you can use the following affiliate link. We get a pro-rata commission but the price remains the same for you.</source>
-        <target state="new">If you shop via Amazon you can use the following affiliate link. We get a pro-rata commission but the price remains the same for you.</target>
+        <target state="translated">Wenn du über Amazon einkaufst, kannst du den folgenden Affiliate-Link nutzen. Wir erhalten eine Werbekostenerstattung, für dich bleibt der Preis aber der gleiche.</target>
         <jms:reference-file line="26">/Resources/views/static/donate.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1bee50d5c852cd41b4ad1ba2b896c01a0bc21c60" resname="If you turn off our mail notification you will not be informed about new features and changes at RUNALYZE">
@@ -1526,9 +1526,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Wenn du die E-Mail-Benachrichtigungen abbestellst, wirst du zukünftig nicht über neue Features und sonstige Änderungen bei RUNALYZE informiert werden.</target>
         <jms:reference-file line="8">/Resources/views/account/unsubscribe_info.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="3a475dd14ef6c1f9c4c3b5d15c5d9f7e5dc7b04c" resname="If your RUNALYZE account is connected to Garmin, all future activities and those of the last thirty days will be transferred.">
+      <trans-unit id="3a475dd14ef6c1f9c4c3b5d15c5d9f7e5dc7b04c" resname="If your RUNALYZE account is connected to Garmin, all future activities and those of the last thirty days will be transferred." approved="no">
         <source>If your RUNALYZE account is connected to Garmin, all future activities and those of the last thirty days will be transferred.</source>
-        <target state="new">If your RUNALYZE account is connected to Garmin, all future activities and those of the last thirty days will be transferred.</target>
+        <target state="translated">Wenn dein RUNALYZE-Account mit Garmin verbunden ist, werden alle zukünftigen Aktivitäten und einmal die Aktivitäten der letzten 30 Tage übertragen.</target>
         <jms:reference-file line="42">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="55a22e4c4815e7a6f655008a7679fd00b6271087" resname="Impact Gs">
@@ -1584,9 +1584,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Die meisten Fragen, Probleme und Ideen sind im Forum am Besten aufgehoben.</target>
         <jms:reference-file line="14">/Resources/views/static/help.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="154e6769e34a4364abdc7b8cca3c3de6cb10da19" resname="In the future we will provide more widgets, which can be included on your website, blog or board signatures">
+      <trans-unit id="154e6769e34a4364abdc7b8cca3c3de6cb10da19" resname="In the future we will provide more widgets, which can be included on your website, blog or board signatures" approved="no">
         <source>In the future we will provide more widgets, which can be included on your website, blog or board signatures</source>
-        <target>In the future we will provide more widgets, which can be included on your website, blog or board signatures</target>
+        <target state="translated">Zukünftig werden wir mehr Widgets zur Verfügung stellen, die auf deiner Website, im Blog oder in der Forumssignatur verwendet werden können.</target>
         <jms:reference-file line="62">/Resources/views/settings/privacy.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="68d71b3c12159ba11a1a8b433401182bfd1b8a15" resname="Index to categorize climbs by Dutch cycling magazine fiets.">
@@ -2086,9 +2086,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <jms:reference-file line="6">/Resources/views/account/recover/base.html.twig</jms:reference-file>
         <jms:reference-file line="6">/Resources/views/account/recover/success.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="69aa69b4bbf38e5fae11b6fa1cff9e18bb7002b8" resname="Performance chart">
+      <trans-unit id="69aa69b4bbf38e5fae11b6fa1cff9e18bb7002b8" resname="Performance chart" approved="no">
         <source>Performance chart</source>
-        <target>Performance chart</target>
+        <target state="translated">Performance-Diagramm</target>
         <jms:reference-file line="7">/Resources/views/my/raceresult/performance_chart.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="77064d5265236e0ac252f3fc4a5ba7b274b6a583" resname="Phone" approved="no">
@@ -2248,9 +2248,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Problem</target>
         <jms:reference-file line="32">/Resources/TwigBundle/views/Exception/error.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="b1fa0a56916060ec0ed9bd583350f0550fa9d1b6" resname="Pronation excursion">
+      <trans-unit id="b1fa0a56916060ec0ed9bd583350f0550fa9d1b6" resname="Pronation excursion" approved="no">
         <source>Pronation excursion</source>
-        <target>Pronation excursion</target>
+        <target state="translated">Pronationswinkel</target>
         <jms:reference-file line="196">/Resources/views/activity/tool/time_series_statistics.html.twig</jms:reference-file>
         <jms:reference-file line="199">/Resources/views/activity/tool/time_series_statistics.html.twig</jms:reference-file>
       </trans-unit>
@@ -3038,9 +3038,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <jms:reference-file line="260">/Resources/views/tools/trend-analysis/base.html.twig</jms:reference-file>
         <jms:reference-file line="265">/Resources/views/tools/trend-analysis/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="60bfac38170c8f751ad286754ce50a1460bd2fb1" resname="There were problems while uploading.">
+      <trans-unit id="60bfac38170c8f751ad286754ce50a1460bd2fb1" resname="There were problems while uploading." approved="no">
         <source>There were problems while uploading.</source>
-        <target>Es gab ein Problem während des Uploads</target>
+        <target state="translated">Es gab ein Problem während des Uploads.</target>
         <jms:reference-file line="57">/Resources/views/activity/import_upload.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="fa49a9dd7b8e7bc63fc42ae92e42ecfb6bef0067" resname="These recalculations are only needed if you changed the corresponding settings.">
@@ -3110,9 +3110,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
                 Im Augenblick ist es nicht möglich mehrere Aktivitäten gleichzeitig zu bearbeiten.</target>
         <jms:reference-file line="82">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="3f737239f19ca153738108b657483e42bb150bc9" resname="This tool allows you to export your complete data as sql dump or json dump.">
+      <trans-unit id="3f737239f19ca153738108b657483e42bb150bc9" resname="This tool allows you to export your complete data as sql dump or json dump." approved="no">
         <source>This tool allows you to export your complete data as sql dump or json dump.</source>
-        <target>This tool allows you to export your complete data as sql dump or json dump.</target>
+        <target state="translated">Dieses Tool erlaubt es dir, all deine Daten als json-Datei zu exportieren.</target>
         <jms:reference-file line="63">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="d1c0ea3c33ebb4d469fdf942621c45e76b1cf558" resname="This tool is not available for this activity.">
