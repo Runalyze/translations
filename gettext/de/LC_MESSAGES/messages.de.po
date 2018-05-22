@@ -3,10 +3,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Runalyze\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-05-22 09:31+0200\n"
-"PO-Revision-Date: 2018-04-24 09:58+0000\n"
-"Last-Translator: Michael Pohl <michael@mipapo.de>\n"
+"PO-Revision-Date: 2018-05-22 08:20+0000\n"
+"Last-Translator: Hannes <mail@laufhannes.de>\n"
 "Language-Team: German <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/de/>\n"
 "Language: de\n"
@@ -179,7 +179,6 @@ msgstr ""
 "Konfiguration.</em>"
 
 #: dashboard.php:226
-#, fuzzy
 msgid "Help and support"
 msgstr "Hilfe und Support"
 
@@ -188,7 +187,6 @@ msgid "Donate &amp; Support the project"
 msgstr "Spende &amp; unterstütze so das Projekt"
 
 #: dashboard.php:229
-#, fuzzy
 msgid "Translations"
 msgstr "Übersetzungen"
 
@@ -197,21 +195,19 @@ msgid "Statement of Privacy"
 msgstr "Datenschutzerklärung"
 
 #: dashboard.php:232
-#, fuzzy
 msgid "Terms of use"
-msgstr "Nutzungsbeginn"
+msgstr "Nutzungsbedingungen"
 
 #: dashboard.php:233
 msgid "Imprint"
 msgstr "Impressum"
 
 #: inc/system/class.SharedLinker.php:61
-#, fuzzy
 msgid ""
 "You can activate your public athlete page in your <em>Privacy->Settings</em>"
 msgstr ""
-"Du kannst deine öffentliche Athletenseite unter <em>Konfiguration -> "
-"Privatsphäre</em> aktivieren"
+"Du kannst deine öffentliche Athletenseite in den "
+"<em>Privatsphäreneinstellungen</em> aktivieren"
 
 #: inc/system/class.SharedLinker.php:63
 msgid "Your public athlete page"
@@ -656,7 +652,7 @@ msgstr ""
 #: inc/training/search/class.FormularSelectSearchSort.php:66
 #: inc/training/search/class.FormularSelectSearchSort.php:67
 msgid "Pronation excursion"
-msgstr ""
+msgstr "Pronationswinkel"
 
 #: inc/core/Dataset/Keys/AveragePronationExcursion.php:27
 msgid "Pronation"
@@ -1075,14 +1071,12 @@ msgid "Climb score"
 msgstr "Climb Score"
 
 #: inc/core/Dataset/Keys/Tools.php:122 inc/core/Dataset/Keys/Tools.php:138
-#, fuzzy
 msgid "Time series"
-msgstr "Analysiere die Zeitreihen"
+msgstr "Zeitreihen"
 
 #: inc/core/Dataset/Keys/Tools.php:123 inc/core/Dataset/Keys/Tools.php:139
-#, fuzzy
 msgid "Sub segments"
-msgstr "Finde die besten Teilsegmente"
+msgstr "Beste Teilsegmente"
 
 #: inc/core/Dataset/Keys/Splits.php:46
 msgid "Splits"
@@ -1172,7 +1166,7 @@ msgstr ""
 #: inc/training/search/class.FormularSelectSearchSort.php:64
 #: inc/training/search/class.FormularSelectSearchSort.php:65
 msgid "Footstrike type"
-msgstr ""
+msgstr "Fußaufsatz"
 
 #: inc/core/Dataset/Keys/Wind.php:44 inc/core/View/Icon/WindIcon.php:66
 msgid "Wind"
@@ -1373,7 +1367,7 @@ msgstr "Schwimmen"
 
 #: inc/core/Profile/Sport/InlineSkating.php:24
 msgid "Inline skating"
-msgstr ""
+msgstr "Inlineskaten"
 
 #: inc/core/Profile/Sport/Rowing.php:24
 msgid "Rowing"
@@ -1381,28 +1375,28 @@ msgstr "Rudern"
 
 #: inc/core/Profile/Sport/Kitesurfing.php:24
 msgid "Kite surfing"
-msgstr ""
+msgstr "Kitesurfen"
 
 #: inc/core/Profile/Sport/AlpineSkiing.php:24
 msgid "Alpine skiing"
-msgstr ""
+msgstr "Skifahren"
 
 #: inc/core/Profile/Sport/Kayaking.php:24
-#, fuzzy
 msgid "Kayaking"
-msgstr "Radfahren"
+msgstr "Kajakfahren"
 
 #: inc/core/Profile/Sport/Hiking.php:24
 msgid "Hiking"
 msgstr "Wandern"
 
 #: inc/core/Profile/Sport/IndoorCycling.php:24
+#, fuzzy
 msgid "Indoor cycling"
-msgstr ""
+msgstr "Spinning"
 
 #: inc/core/Profile/Sport/Windsurfing.php:24
 msgid "Windsurfing"
-msgstr ""
+msgstr "Windsurfen"
 
 #: inc/core/Profile/Sport/Generic.php:26
 msgid "Generic"
@@ -1410,7 +1404,7 @@ msgstr "Allgemein"
 
 #: inc/core/Profile/Sport/CrossCountrySkiing.php:24
 msgid "Cross-country skiing"
-msgstr ""
+msgstr "Skilanglauf"
 
 #: inc/core/Profile/Athlete/Gender.php:27
 msgid "not set"
@@ -1833,7 +1827,6 @@ msgid "Show some general statistics above the activity list"
 msgstr "Zeige allgemeine Statistiken oberhalb der Trainingsliste"
 
 #: inc/core/Configuration/Category/Privacy.php:103
-#, fuzzy
 msgid "Public activities: show map"
 msgstr "Öffentliche Trainingsansicht: Karte anzeigen"
 
@@ -2595,7 +2588,7 @@ msgstr "Gleitender Mittelwert"
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:17
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:74
 msgid "Footstrike"
-msgstr ""
+msgstr "Fußaufsatz"
 
 #: inc/core/View/Activity/Plot/Series/Stroke.php:62
 #: inc/training/view/section/class.SectionSwimLaneRow.php:29
@@ -2659,14 +2652,12 @@ msgid "Average"
 msgstr "Durchschnitt"
 
 #: inc/core/View/Window/Laps/Table.php:315
-#, fuzzy
 msgid "active"
 msgstr "Aktiv"
 
 #: inc/core/View/Window/Laps/Table.php:315
-#, fuzzy
 msgid "inactive"
-msgstr "Aktiv"
+msgstr "Inaktiv"
 
 #: inc/core/View/Window/Laps/Table.php:377
 msgid "Show inactive splits"
@@ -3180,7 +3171,7 @@ msgstr "Mehr über die VO<sub>2</sub>max Schätzung"
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:10
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:11
 msgid "Impact"
-msgstr ""
+msgstr "Impact"
 
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:13
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:14
