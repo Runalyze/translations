@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Runalyze\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-05-22 09:31+0200\n"
-"PO-Revision-Date: 2018-05-22 08:20+0000\n"
+"PO-Revision-Date: 2018-05-22 08:30+0000\n"
 "Last-Translator: Hannes <mail@laufhannes.de>\n"
 "Language-Team: German <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/de/>\n"
@@ -1063,7 +1063,7 @@ msgstr "Analysiere die Runden"
 
 #: inc/core/Dataset/Keys/Tools.php:118 inc/core/Dataset/Keys/Tools.php:136
 msgid "Elevation info"
-msgstr "Höhenmeterinformation"
+msgstr "Höhenmeter-Details"
 
 #: inc/core/Dataset/Keys/Tools.php:119 inc/core/Dataset/Keys/Tools.php:137
 #: inc/training/view/class.TrainingView.php:123
@@ -1390,9 +1390,8 @@ msgid "Hiking"
 msgstr "Wandern"
 
 #: inc/core/Profile/Sport/IndoorCycling.php:24
-#, fuzzy
 msgid "Indoor cycling"
-msgstr "Spinning"
+msgstr "Indoor cycling"
 
 #: inc/core/Profile/Sport/Windsurfing.php:24
 msgid "Windsurfing"
@@ -3175,13 +3174,12 @@ msgstr "Impact"
 
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:13
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:14
-#, fuzzy
 msgid "Braking"
-msgstr "Radfahren"
+msgstr "Braking"
 
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:55
 msgid "Fore-foot"
-msgstr ""
+msgstr "Vorfuß"
 
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:55
 msgid "Mid-foot"
@@ -3189,7 +3187,7 @@ msgstr "Mittelfuß"
 
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:55
 msgid "Heel"
-msgstr ""
+msgstr "Ferse"
 
 #: inc/training/view/section/class.SectionRouteOnlyMap.php:17
 #: inc/training/view/section/class.SectionCompositeRow.php:219
@@ -3609,9 +3607,8 @@ msgid "Found %s activities"
 msgstr "Es wurden %s Trainings gefunden"
 
 #: inc/training/search/class.FormularSelectSearchSort.php:36
-#, fuzzy
 msgid "Creation date"
-msgstr "Höhendaten"
+msgstr "Erstelldatum"
 
 #: inc/training/search/class.FormularSelectSearchSort.php:77
 msgid "Wind speed"
@@ -4117,9 +4114,8 @@ msgstr "Müdigkeit"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:184
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:343
-#, fuzzy
 msgid "Acute Training Load"
-msgstr "Müdigkeit"
+msgstr "Acute Training Load"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:194
 msgid "Fitness&nbsp;level"
@@ -4601,9 +4597,8 @@ msgstr "steilste Strecke"
 
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:93
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:119
-#, fuzzy
 msgid "Highest Climb Score"
-msgstr "Climb Score"
+msgstr "Höchster Climb Score"
 
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:176
 msgid "unlabeled"
