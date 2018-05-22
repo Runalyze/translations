@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Runalyze\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-05-22 09:31+0200\n"
-"PO-Revision-Date: 2018-05-22 08:30+0000\n"
+"PO-Revision-Date: 2018-05-22 09:45+0000\n"
 "Last-Translator: Hannes <mail@laufhannes.de>\n"
 "Language-Team: German <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/de/>\n"
@@ -1063,7 +1063,7 @@ msgstr "Analysiere die Runden"
 
 #: inc/core/Dataset/Keys/Tools.php:118 inc/core/Dataset/Keys/Tools.php:136
 msgid "Elevation info"
-msgstr "Höhenmeter-Details"
+msgstr "Höhenmeterinformationen"
 
 #: inc/core/Dataset/Keys/Tools.php:119 inc/core/Dataset/Keys/Tools.php:137
 #: inc/training/view/class.TrainingView.php:123
