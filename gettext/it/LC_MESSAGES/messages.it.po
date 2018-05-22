@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Runalyze\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-17 16:08+0200\n"
+"POT-Creation-Date: 2018-05-22 09:31+0200\n"
 "PO-Revision-Date: 2017-03-07 09:09+0000\n"
 "Last-Translator: Michael Pohl <michael@mipapo.de>\n"
 "Language-Team: Italian <https://translate.runalyze.com/projects/runalyze/"
@@ -1395,17 +1395,46 @@ msgstr "Corsa"
 msgid "Swimming"
 msgstr "Nuoto"
 
+#: inc/core/Profile/Sport/InlineSkating.php:24
+msgid "Inline skating"
+msgstr ""
+
 #: inc/core/Profile/Sport/Rowing.php:24
 msgid "Rowing"
 msgstr "Canottaggio"
+
+#: inc/core/Profile/Sport/Kitesurfing.php:24
+msgid "Kite surfing"
+msgstr ""
+
+#: inc/core/Profile/Sport/AlpineSkiing.php:24
+msgid "Alpine skiing"
+msgstr ""
+
+#: inc/core/Profile/Sport/Kayaking.php:24
+#, fuzzy
+msgid "Kayaking"
+msgstr "Bici"
 
 #: inc/core/Profile/Sport/Hiking.php:24
 msgid "Hiking"
 msgstr "Escursionismo"
 
+#: inc/core/Profile/Sport/IndoorCycling.php:24
+msgid "Indoor cycling"
+msgstr ""
+
+#: inc/core/Profile/Sport/Windsurfing.php:24
+msgid "Windsurfing"
+msgstr ""
+
 #: inc/core/Profile/Sport/Generic.php:26
 msgid "Generic"
 msgstr "Generico"
+
+#: inc/core/Profile/Sport/CrossCountrySkiing.php:24
+msgid "Cross-country skiing"
+msgstr ""
 
 #: inc/core/Profile/Athlete/Gender.php:27
 msgid "not set"
