@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-22 09:31+0200\n"
+"POT-Creation-Date: 2018-05-24 14:39+0200\n"
 "PO-Revision-Date: 2017-03-07 09:11+0000\n"
 "Last-Translator: Michael Pohl <michael@mipapo.de>\n"
 "Language-Team: Catalan <https://translate.runalyze.com/projects/runalyze/"
@@ -115,7 +115,7 @@ msgid "Configuration"
 msgstr "Configuració"
 
 #: dashboard.php:111 inc/system/config/class.ConfigTabGeneral.php:20
-#: inc/core/Configuration/Category/General.php:194
+#: inc/core/Configuration/Category/General.php:213
 msgid "General settings"
 msgstr "Configuració general"
 
@@ -1383,13 +1383,12 @@ msgid "Cycling"
 msgstr ""
 
 #: inc/core/Profile/Sport/Running.php:24
-#: src/CoreBundle/Component/Account/Registration.php:141
-#: src/CoreBundle/Component/Account/Registration.php:198
+#: src/CoreBundle/Component/Account/Registration.php:204
+#: tests/CoreBundle/Component/Account/RegistrationTest.php:61
 msgid "Running"
 msgstr "córrer"
 
 #: inc/core/Profile/Sport/Swimming.php:24
-#: src/CoreBundle/Component/Account/Registration.php:142
 msgid "Swimming"
 msgstr "Natació"
 
@@ -1420,6 +1419,11 @@ msgstr "Ciclisme"
 msgid "Hiking"
 msgstr "Ciclisme"
 
+#: inc/core/Profile/Sport/FlexibilityTraining.php:24
+#, fuzzy
+msgid "Flexibility training"
+msgstr "Llista pública d'entrenaments"
+
 #: inc/core/Profile/Sport/IndoorCycling.php:24
 msgid "Indoor cycling"
 msgstr ""
@@ -1427,6 +1431,11 @@ msgstr ""
 #: inc/core/Profile/Sport/Windsurfing.php:24
 msgid "Windsurfing"
 msgstr ""
+
+#: inc/core/Profile/Sport/StrengthTraining.php:24
+#, fuzzy
+msgid "Strength training"
+msgstr "Entrenament d'intervals"
 
 #: inc/core/Profile/Sport/Generic.php:26
 msgid "Generic"
@@ -2165,15 +2174,15 @@ msgstr "Elevació: llindar"
 msgid "Threshold for the smoothing algorithm"
 msgstr "Llindar per l'algoritme que suavitza les dades"
 
-#: inc/core/Configuration/Category/General.php:197
+#: inc/core/Configuration/Category/General.php:216
 msgid "Beginning of the week"
 msgstr "Inici de la setmana"
 
-#: inc/core/Configuration/Category/General.php:201
+#: inc/core/Configuration/Category/General.php:220
 msgid "Unit system for distances"
 msgstr "Unitats per distància"
 
-#: inc/core/Configuration/Category/General.php:202
+#: inc/core/Configuration/Category/General.php:221
 msgid ""
 "Changing the unit system for distances does not change pace units. You have "
 "to adjust them in sports configuration."
@@ -2182,26 +2191,30 @@ msgstr ""
 "unitats de ritme d'entrenament. S'han de canviar aquestes explícitament a la "
 "configuració de tipus d'esport."
 
-#: inc/core/Configuration/Category/General.php:206
+#: inc/core/Configuration/Category/General.php:225
 msgid "Weight unit"
 msgstr "Unitat de pes"
 
-#: inc/core/Configuration/Category/General.php:210
+#: inc/core/Configuration/Category/General.php:229
 #, fuzzy
 msgid "Energy unit"
 msgstr "Unitat de pes"
 
-#: inc/core/Configuration/Category/General.php:214
+#: inc/core/Configuration/Category/General.php:233
 msgid "Temperature unit"
 msgstr "Unitat de temperatura"
 
-#: inc/core/Configuration/Category/General.php:218
+#: inc/core/Configuration/Category/General.php:237
 msgid "Heart rate unit"
 msgstr "Unitats del ritme cardíac"
 
-#: inc/core/Configuration/Category/General.php:222
+#: inc/core/Configuration/Category/General.php:241
 msgid "Main sport"
 msgstr "Esport principal"
+
+#: inc/core/Configuration/Category/General.php:245
+msgid "Synchronisation Fallback Sport"
+msgstr ""
 
 #: inc/core/Parameter/Application/DatabaseOrder.php:44
 msgid "id (oldest first)"
@@ -5356,7 +5369,7 @@ msgstr "Excel·lent cursa!"
 msgid "Search for activities"
 msgstr "Busqui entrenaments"
 
-#: src/CoreBundle/Controller/AbstractPluginsAwareController.php:59
+#: src/CoreBundle/Controller/AbstractPluginsAwareController.php:60
 msgid "The plugin could not be found."
 msgstr "No s'ha pogut trobar el plugin."
 
@@ -5466,129 +5479,128 @@ msgstr "Relació: equipament per activitats"
 msgid "Relation: tag to activities"
 msgstr "Relació: dia per activitats"
 
-#: src/CoreBundle/Component/Account/Registration.php:90
-#: src/CoreBundle/Component/Account/Registration.php:222
+#: src/CoreBundle/Component/Account/Registration.php:91
+#: src/CoreBundle/Component/Account/Registration.php:231
 msgid "Shoes"
 msgstr "Sabatilles"
 
-#: src/CoreBundle/Component/Account/Registration.php:91
-#: src/CoreBundle/Component/Account/Registration.php:221
+#: src/CoreBundle/Component/Account/Registration.php:92
+#: src/CoreBundle/Component/Account/Registration.php:230
 msgid "Clothes"
 msgstr "Roba"
 
-#: src/CoreBundle/Component/Account/Registration.php:92
-#: src/CoreBundle/Component/Account/Registration.php:223
+#: src/CoreBundle/Component/Account/Registration.php:93
+#: src/CoreBundle/Component/Account/Registration.php:232
 msgid "Bikes"
 msgstr ""
 
-#: src/CoreBundle/Component/Account/Registration.php:143
-msgid "Biking"
-msgstr "Ciclisme"
-
-#: src/CoreBundle/Component/Account/Registration.php:144
-msgid "Gymnastics"
-msgstr "Gimnàstica"
-
-#: src/CoreBundle/Component/Account/Registration.php:145
+#: src/CoreBundle/Component/Account/Registration.php:147
+#: tests/CoreBundle/Component/Account/RegistrationTest.php:69
 msgid "Other"
 msgstr "D'altres"
 
-#: src/CoreBundle/Component/Account/Registration.php:172
+#: src/CoreBundle/Component/Account/Registration.php:178
 msgid "Jogging"
 msgstr "Córrer suau"
 
-#: src/CoreBundle/Component/Account/Registration.php:172
+#: src/CoreBundle/Component/Account/Registration.php:178
 msgid "JOG"
 msgstr "JOG"
 
-#: src/CoreBundle/Component/Account/Registration.php:173
+#: src/CoreBundle/Component/Account/Registration.php:179
 msgid "Fartlek"
 msgstr "Fartlek"
 
-#: src/CoreBundle/Component/Account/Registration.php:173
+#: src/CoreBundle/Component/Account/Registration.php:179
 msgid "FL"
 msgstr "FL"
 
-#: src/CoreBundle/Component/Account/Registration.php:174
+#: src/CoreBundle/Component/Account/Registration.php:180
 msgid "Interval training"
 msgstr "Entrenament d'intervals"
 
-#: src/CoreBundle/Component/Account/Registration.php:174
+#: src/CoreBundle/Component/Account/Registration.php:180
 msgid "IT"
 msgstr "IT"
 
-#: src/CoreBundle/Component/Account/Registration.php:175
+#: src/CoreBundle/Component/Account/Registration.php:181
 msgid "Tempo Run"
 msgstr "Cursa a tempo"
 
-#: src/CoreBundle/Component/Account/Registration.php:175
+#: src/CoreBundle/Component/Account/Registration.php:181
 msgid "TR"
 msgstr "TR"
 
-#: src/CoreBundle/Component/Account/Registration.php:176
-#: src/CoreBundle/Component/Account/Registration.php:196
+#: src/CoreBundle/Component/Account/Registration.php:182
+#: src/CoreBundle/Component/Account/Registration.php:202
 msgid "Race"
 msgstr "Cursa"
 
-#: src/CoreBundle/Component/Account/Registration.php:176
+#: src/CoreBundle/Component/Account/Registration.php:182
 msgid "RC"
 msgstr "RC"
 
-#: src/CoreBundle/Component/Account/Registration.php:177
+#: src/CoreBundle/Component/Account/Registration.php:183
 msgid "Regeneration Run"
 msgstr "Cursa de regeneració"
 
-#: src/CoreBundle/Component/Account/Registration.php:177
+#: src/CoreBundle/Component/Account/Registration.php:183
 msgid "RG"
 msgstr "RG"
 
-#: src/CoreBundle/Component/Account/Registration.php:178
+#: src/CoreBundle/Component/Account/Registration.php:184
 msgid "Long Slow Distance"
 msgstr "Tirada llarga"
 
-#: src/CoreBundle/Component/Account/Registration.php:178
+#: src/CoreBundle/Component/Account/Registration.php:184
 msgid "LSD"
 msgstr "LSD"
 
-#: src/CoreBundle/Component/Account/Registration.php:179
+#: src/CoreBundle/Component/Account/Registration.php:185
 msgid "Warm-up"
 msgstr "Escalfament"
 
-#: src/CoreBundle/Component/Account/Registration.php:179
+#: src/CoreBundle/Component/Account/Registration.php:185
 msgid "WU"
 msgstr "WU"
 
-#: src/CoreBundle/Component/Account/Registration.php:233
+#: src/CoreBundle/Component/Account/Registration.php:242
 msgid "long sleeve"
 msgstr "Màniga llarga"
 
-#: src/CoreBundle/Component/Account/Registration.php:233
+#: src/CoreBundle/Component/Account/Registration.php:242
 msgid "T-shirt"
 msgstr "Màniga curta"
 
-#: src/CoreBundle/Component/Account/Registration.php:233
+#: src/CoreBundle/Component/Account/Registration.php:242
 msgid "singlet"
 msgstr "samarreta"
 
-#: src/CoreBundle/Component/Account/Registration.php:233
+#: src/CoreBundle/Component/Account/Registration.php:242
 msgid "jacket"
 msgstr "Jaqueta"
 
-#: src/CoreBundle/Component/Account/Registration.php:233
+#: src/CoreBundle/Component/Account/Registration.php:242
 msgid "long pants"
 msgstr "Malles"
 
-#: src/CoreBundle/Component/Account/Registration.php:233
+#: src/CoreBundle/Component/Account/Registration.php:242
 msgid "shorts"
 msgstr "Pantalons curts"
 
-#: src/CoreBundle/Component/Account/Registration.php:233
+#: src/CoreBundle/Component/Account/Registration.php:242
 msgid "gloves"
 msgstr "Guants"
 
-#: src/CoreBundle/Component/Account/Registration.php:233
+#: src/CoreBundle/Component/Account/Registration.php:242
 msgid "hat"
 msgstr "gorra"
+
+#~ msgid "Biking"
+#~ msgstr "Ciclisme"
+
+#~ msgid "Gymnastics"
+#~ msgstr "Gimnàstica"
 
 #~ msgid "Heartrate data available"
 #~ msgstr "Dades del pols disponibles"
@@ -6247,9 +6259,6 @@ msgstr "gorra"
 
 #~ msgid "Public training view of <strong>%s</strong>"
 #~ msgstr "Entrenament públic de <strong>%s</strong>"
-
-#~ msgid "Public training view"
-#~ msgstr "Llista pública d'entrenaments"
 
 #~ msgid "VDOT"
 #~ msgstr "VDOT"

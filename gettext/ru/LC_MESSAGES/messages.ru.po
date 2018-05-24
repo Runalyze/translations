@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Runalyze\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-22 09:31+0200\n"
+"POT-Creation-Date: 2018-05-24 14:39+0200\n"
 "PO-Revision-Date: 2018-03-20 04:58+0000\n"
 "Last-Translator: Prokhor Shuchalov <p@shuchalov.ru>\n"
 "Language-Team: Russian <https://translate.runalyze.com/projects/runalyze/"
@@ -114,7 +114,7 @@ msgid "Configuration"
 msgstr "Настройки"
 
 #: dashboard.php:111 inc/system/config/class.ConfigTabGeneral.php:20
-#: inc/core/Configuration/Category/General.php:194
+#: inc/core/Configuration/Category/General.php:213
 msgid "General settings"
 msgstr "Общие параметры"
 
@@ -1370,13 +1370,12 @@ msgid "Cycling"
 msgstr ""
 
 #: inc/core/Profile/Sport/Running.php:24
-#: src/CoreBundle/Component/Account/Registration.php:141
-#: src/CoreBundle/Component/Account/Registration.php:198
+#: src/CoreBundle/Component/Account/Registration.php:204
+#: tests/CoreBundle/Component/Account/RegistrationTest.php:61
 msgid "Running"
 msgstr "Бег"
 
 #: inc/core/Profile/Sport/Swimming.php:24
-#: src/CoreBundle/Component/Account/Registration.php:142
 msgid "Swimming"
 msgstr "Плаванье"
 
@@ -1407,6 +1406,10 @@ msgstr "Велосипед"
 msgid "Hiking"
 msgstr "Велосипед"
 
+#: inc/core/Profile/Sport/FlexibilityTraining.php:24
+msgid "Flexibility training"
+msgstr ""
+
 #: inc/core/Profile/Sport/IndoorCycling.php:24
 msgid "Indoor cycling"
 msgstr ""
@@ -1414,6 +1417,11 @@ msgstr ""
 #: inc/core/Profile/Sport/Windsurfing.php:24
 msgid "Windsurfing"
 msgstr ""
+
+#: inc/core/Profile/Sport/StrengthTraining.php:24
+#, fuzzy
+msgid "Strength training"
+msgstr "Интервальная тренировка"
 
 #: inc/core/Profile/Sport/Generic.php:26
 msgid "Generic"
@@ -2137,15 +2145,15 @@ msgstr "Высота: порог"
 msgid "Threshold for the smoothing algorithm"
 msgstr "Порог для алгоритма сглаживания"
 
-#: inc/core/Configuration/Category/General.php:197
+#: inc/core/Configuration/Category/General.php:216
 msgid "Beginning of the week"
 msgstr "Первый день недели"
 
-#: inc/core/Configuration/Category/General.php:201
+#: inc/core/Configuration/Category/General.php:220
 msgid "Unit system for distances"
 msgstr "Система единиц измерения расстояний"
 
-#: inc/core/Configuration/Category/General.php:202
+#: inc/core/Configuration/Category/General.php:221
 msgid ""
 "Changing the unit system for distances does not change pace units. You have "
 "to adjust them in sports configuration."
@@ -2154,26 +2162,30 @@ msgstr ""
 "измерения темпа. Настройте систему единиц измерения темпа в соответствующем "
 "разделе."
 
-#: inc/core/Configuration/Category/General.php:206
+#: inc/core/Configuration/Category/General.php:225
 msgid "Weight unit"
 msgstr "Система единиц измерения веса"
 
-#: inc/core/Configuration/Category/General.php:210
+#: inc/core/Configuration/Category/General.php:229
 #, fuzzy
 msgid "Energy unit"
 msgstr "Система единиц измерения веса"
 
-#: inc/core/Configuration/Category/General.php:214
+#: inc/core/Configuration/Category/General.php:233
 msgid "Temperature unit"
 msgstr "Система единиц измерения температуры"
 
-#: inc/core/Configuration/Category/General.php:218
+#: inc/core/Configuration/Category/General.php:237
 msgid "Heart rate unit"
 msgstr "Режим отображения ЧСС"
 
-#: inc/core/Configuration/Category/General.php:222
+#: inc/core/Configuration/Category/General.php:241
 msgid "Main sport"
 msgstr "Любимый вид спорта"
+
+#: inc/core/Configuration/Category/General.php:245
+msgid "Synchronisation Fallback Sport"
+msgstr ""
 
 #: inc/core/Parameter/Application/DatabaseOrder.php:44
 msgid "id (oldest first)"
@@ -5262,7 +5274,7 @@ msgstr ""
 msgid "Search for activities"
 msgstr "Поиск по тренировкам"
 
-#: src/CoreBundle/Controller/AbstractPluginsAwareController.php:59
+#: src/CoreBundle/Controller/AbstractPluginsAwareController.php:60
 msgid "The plugin could not be found."
 msgstr "Плагин не может быть найден."
 
@@ -5369,137 +5381,136 @@ msgstr "Зависимость: снаряжение от тренировок"
 msgid "Relation: tag to activities"
 msgstr "Зависимость: теги от тренировок"
 
-#: src/CoreBundle/Component/Account/Registration.php:90
-#: src/CoreBundle/Component/Account/Registration.php:222
+#: src/CoreBundle/Component/Account/Registration.php:91
+#: src/CoreBundle/Component/Account/Registration.php:231
 msgid "Shoes"
 msgstr "Обувь"
 
-#: src/CoreBundle/Component/Account/Registration.php:91
-#: src/CoreBundle/Component/Account/Registration.php:221
+#: src/CoreBundle/Component/Account/Registration.php:92
+#: src/CoreBundle/Component/Account/Registration.php:230
 msgid "Clothes"
 msgstr "Одежда"
 
-#: src/CoreBundle/Component/Account/Registration.php:92
-#: src/CoreBundle/Component/Account/Registration.php:223
+#: src/CoreBundle/Component/Account/Registration.php:93
+#: src/CoreBundle/Component/Account/Registration.php:232
 msgid "Bikes"
 msgstr "Велосипеды"
 
-#: src/CoreBundle/Component/Account/Registration.php:143
-msgid "Biking"
-msgstr "Велосипед"
-
-#: src/CoreBundle/Component/Account/Registration.php:144
-msgid "Gymnastics"
-msgstr "Гимнастика"
-
-#: src/CoreBundle/Component/Account/Registration.php:145
+#: src/CoreBundle/Component/Account/Registration.php:147
+#: tests/CoreBundle/Component/Account/RegistrationTest.php:69
 msgid "Other"
 msgstr "Другое"
 
-#: src/CoreBundle/Component/Account/Registration.php:172
+#: src/CoreBundle/Component/Account/Registration.php:178
 msgid "Jogging"
 msgstr "Джоггинг"
 
-#: src/CoreBundle/Component/Account/Registration.php:172
+#: src/CoreBundle/Component/Account/Registration.php:178
 #, fuzzy
 msgid "JOG"
 msgstr "JOG"
 
-#: src/CoreBundle/Component/Account/Registration.php:173
+#: src/CoreBundle/Component/Account/Registration.php:179
 msgid "Fartlek"
 msgstr "Фартлек"
 
-#: src/CoreBundle/Component/Account/Registration.php:173
+#: src/CoreBundle/Component/Account/Registration.php:179
 #, fuzzy
 msgid "FL"
 msgstr "FL"
 
-#: src/CoreBundle/Component/Account/Registration.php:174
+#: src/CoreBundle/Component/Account/Registration.php:180
 msgid "Interval training"
 msgstr "Интервальная тренировка"
 
-#: src/CoreBundle/Component/Account/Registration.php:174
+#: src/CoreBundle/Component/Account/Registration.php:180
 #, fuzzy
 msgid "IT"
 msgstr "IT"
 
-#: src/CoreBundle/Component/Account/Registration.php:175
+#: src/CoreBundle/Component/Account/Registration.php:181
 msgid "Tempo Run"
 msgstr "Темповый бег"
 
-#: src/CoreBundle/Component/Account/Registration.php:175
+#: src/CoreBundle/Component/Account/Registration.php:181
 #, fuzzy
 msgid "TR"
 msgstr "TR"
 
-#: src/CoreBundle/Component/Account/Registration.php:176
-#: src/CoreBundle/Component/Account/Registration.php:196
+#: src/CoreBundle/Component/Account/Registration.php:182
+#: src/CoreBundle/Component/Account/Registration.php:202
 msgid "Race"
 msgstr "Соревнование"
 
-#: src/CoreBundle/Component/Account/Registration.php:176
+#: src/CoreBundle/Component/Account/Registration.php:182
 #, fuzzy
 msgid "RC"
 msgstr "RC"
 
-#: src/CoreBundle/Component/Account/Registration.php:177
+#: src/CoreBundle/Component/Account/Registration.php:183
 msgid "Regeneration Run"
 msgstr "Восстановительный бег"
 
-#: src/CoreBundle/Component/Account/Registration.php:177
+#: src/CoreBundle/Component/Account/Registration.php:183
 #, fuzzy
 msgid "RG"
 msgstr "RG"
 
-#: src/CoreBundle/Component/Account/Registration.php:178
+#: src/CoreBundle/Component/Account/Registration.php:184
 msgid "Long Slow Distance"
 msgstr "Длинная медленная дистанция"
 
-#: src/CoreBundle/Component/Account/Registration.php:178
+#: src/CoreBundle/Component/Account/Registration.php:184
 #, fuzzy
 msgid "LSD"
 msgstr "LSD"
 
-#: src/CoreBundle/Component/Account/Registration.php:179
+#: src/CoreBundle/Component/Account/Registration.php:185
 msgid "Warm-up"
 msgstr "Разминка"
 
-#: src/CoreBundle/Component/Account/Registration.php:179
+#: src/CoreBundle/Component/Account/Registration.php:185
 #, fuzzy
 msgid "WU"
 msgstr "WU"
 
-#: src/CoreBundle/Component/Account/Registration.php:233
+#: src/CoreBundle/Component/Account/Registration.php:242
 msgid "long sleeve"
 msgstr "с длинными рукавами"
 
-#: src/CoreBundle/Component/Account/Registration.php:233
+#: src/CoreBundle/Component/Account/Registration.php:242
 msgid "T-shirt"
 msgstr "Футболка"
 
-#: src/CoreBundle/Component/Account/Registration.php:233
+#: src/CoreBundle/Component/Account/Registration.php:242
 msgid "singlet"
 msgstr "майка"
 
-#: src/CoreBundle/Component/Account/Registration.php:233
+#: src/CoreBundle/Component/Account/Registration.php:242
 msgid "jacket"
 msgstr "куртка"
 
-#: src/CoreBundle/Component/Account/Registration.php:233
+#: src/CoreBundle/Component/Account/Registration.php:242
 msgid "long pants"
 msgstr "длинные штаны"
 
-#: src/CoreBundle/Component/Account/Registration.php:233
+#: src/CoreBundle/Component/Account/Registration.php:242
 msgid "shorts"
 msgstr "шорты"
 
-#: src/CoreBundle/Component/Account/Registration.php:233
+#: src/CoreBundle/Component/Account/Registration.php:242
 msgid "gloves"
 msgstr "перчатки"
 
-#: src/CoreBundle/Component/Account/Registration.php:233
+#: src/CoreBundle/Component/Account/Registration.php:242
 msgid "hat"
 msgstr "шляпа"
+
+#~ msgid "Biking"
+#~ msgstr "Велосипед"
+
+#~ msgid "Gymnastics"
+#~ msgstr "Гимнастика"
 
 #~ msgid "Heartrate data available"
 #~ msgstr "Доступны данные о ЧСС"

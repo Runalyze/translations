@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-22 09:31+0200\n"
+"POT-Creation-Date: 2018-05-24 14:39+0200\n"
 "PO-Revision-Date: 2017-03-08 08:39+0000\n"
 "Last-Translator: Michael Pohl <michael@mipapo.de>\n"
 "Language-Team: Finnish <https://translate.runalyze.com/projects/runalyze/"
@@ -114,7 +114,7 @@ msgid "Configuration"
 msgstr "Asetukset"
 
 #: dashboard.php:111 inc/system/config/class.ConfigTabGeneral.php:20
-#: inc/core/Configuration/Category/General.php:194
+#: inc/core/Configuration/Category/General.php:213
 msgid "General settings"
 msgstr "Yleiset asetukset"
 
@@ -1328,13 +1328,12 @@ msgid "Cycling"
 msgstr ""
 
 #: inc/core/Profile/Sport/Running.php:24
-#: src/CoreBundle/Component/Account/Registration.php:141
-#: src/CoreBundle/Component/Account/Registration.php:198
+#: src/CoreBundle/Component/Account/Registration.php:204
+#: tests/CoreBundle/Component/Account/RegistrationTest.php:61
 msgid "Running"
 msgstr "Juoksu"
 
 #: inc/core/Profile/Sport/Swimming.php:24
-#: src/CoreBundle/Component/Account/Registration.php:142
 msgid "Swimming"
 msgstr "Uinti"
 
@@ -1365,6 +1364,11 @@ msgstr "Pyöräily"
 msgid "Hiking"
 msgstr "Pyöräily"
 
+#: inc/core/Profile/Sport/FlexibilityTraining.php:24
+#, fuzzy
+msgid "Flexibility training"
+msgstr "Julkinen liikuntapäiväkirja"
+
 #: inc/core/Profile/Sport/IndoorCycling.php:24
 msgid "Indoor cycling"
 msgstr ""
@@ -1372,6 +1376,11 @@ msgstr ""
 #: inc/core/Profile/Sport/Windsurfing.php:24
 msgid "Windsurfing"
 msgstr ""
+
+#: inc/core/Profile/Sport/StrengthTraining.php:24
+#, fuzzy
+msgid "Strength training"
+msgstr "Intervalli harjoitus"
 
 #: inc/core/Profile/Sport/Generic.php:26
 msgid "Generic"
@@ -2089,15 +2098,15 @@ msgstr "Korkeustiedot: raja-arvo"
 msgid "Threshold for the smoothing algorithm"
 msgstr "Raja-arvo tasoituksen laskentakaavalle"
 
-#: inc/core/Configuration/Category/General.php:197
+#: inc/core/Configuration/Category/General.php:216
 msgid "Beginning of the week"
 msgstr "Viikon alku"
 
-#: inc/core/Configuration/Category/General.php:201
+#: inc/core/Configuration/Category/General.php:220
 msgid "Unit system for distances"
 msgstr "Mittayksikkö etäisyyksille"
 
-#: inc/core/Configuration/Category/General.php:202
+#: inc/core/Configuration/Category/General.php:221
 #, fuzzy
 msgid ""
 "Changing the unit system for distances does not change pace units. You have "
@@ -2106,26 +2115,30 @@ msgstr ""
 "Mittayksikön vaihtaminen etäisyyksille ei muuta vauhtitietojen "
 "mittayksiköitä. Muokkaa niitä urheiluasetuksissa."
 
-#: inc/core/Configuration/Category/General.php:206
+#: inc/core/Configuration/Category/General.php:225
 msgid "Weight unit"
 msgstr "Painoyksikkö"
 
-#: inc/core/Configuration/Category/General.php:210
+#: inc/core/Configuration/Category/General.php:229
 #, fuzzy
 msgid "Energy unit"
 msgstr "Painoyksikkö"
 
-#: inc/core/Configuration/Category/General.php:214
+#: inc/core/Configuration/Category/General.php:233
 msgid "Temperature unit"
 msgstr "Lämpötilan mittayksikkö"
 
-#: inc/core/Configuration/Category/General.php:218
+#: inc/core/Configuration/Category/General.php:237
 msgid "Heart rate unit"
 msgstr "Sykkeen mittayksikkö"
 
-#: inc/core/Configuration/Category/General.php:222
+#: inc/core/Configuration/Category/General.php:241
 msgid "Main sport"
 msgstr "Pääurheilulaji"
+
+#: inc/core/Configuration/Category/General.php:245
+msgid "Synchronisation Fallback Sport"
+msgstr ""
 
 #: inc/core/Parameter/Application/DatabaseOrder.php:44
 msgid "id (oldest first)"
@@ -5199,7 +5212,7 @@ msgstr ""
 msgid "Search for activities"
 msgstr "Hae aktiviteettia"
 
-#: src/CoreBundle/Controller/AbstractPluginsAwareController.php:59
+#: src/CoreBundle/Controller/AbstractPluginsAwareController.php:60
 msgid "The plugin could not be found."
 msgstr "Liitännäistä ei löytynyt."
 
@@ -5305,129 +5318,128 @@ msgstr ""
 msgid "Relation: tag to activities"
 msgstr ""
 
-#: src/CoreBundle/Component/Account/Registration.php:90
-#: src/CoreBundle/Component/Account/Registration.php:222
+#: src/CoreBundle/Component/Account/Registration.php:91
+#: src/CoreBundle/Component/Account/Registration.php:231
 msgid "Shoes"
 msgstr "Kengät"
 
-#: src/CoreBundle/Component/Account/Registration.php:91
-#: src/CoreBundle/Component/Account/Registration.php:221
+#: src/CoreBundle/Component/Account/Registration.php:92
+#: src/CoreBundle/Component/Account/Registration.php:230
 msgid "Clothes"
 msgstr "Vaatteet"
 
-#: src/CoreBundle/Component/Account/Registration.php:92
-#: src/CoreBundle/Component/Account/Registration.php:223
+#: src/CoreBundle/Component/Account/Registration.php:93
+#: src/CoreBundle/Component/Account/Registration.php:232
 msgid "Bikes"
 msgstr ""
 
-#: src/CoreBundle/Component/Account/Registration.php:143
-msgid "Biking"
-msgstr "Pyöräily"
-
-#: src/CoreBundle/Component/Account/Registration.php:144
-msgid "Gymnastics"
-msgstr "Voimistelu"
-
-#: src/CoreBundle/Component/Account/Registration.php:145
+#: src/CoreBundle/Component/Account/Registration.php:147
+#: tests/CoreBundle/Component/Account/RegistrationTest.php:69
 msgid "Other"
 msgstr "Muu"
 
-#: src/CoreBundle/Component/Account/Registration.php:172
+#: src/CoreBundle/Component/Account/Registration.php:178
 msgid "Jogging"
 msgstr "Lenkkeily"
 
-#: src/CoreBundle/Component/Account/Registration.php:172
+#: src/CoreBundle/Component/Account/Registration.php:178
 msgid "JOG"
 msgstr "LE"
 
-#: src/CoreBundle/Component/Account/Registration.php:173
+#: src/CoreBundle/Component/Account/Registration.php:179
 msgid "Fartlek"
 msgstr "Vauhtileikittely"
 
-#: src/CoreBundle/Component/Account/Registration.php:173
+#: src/CoreBundle/Component/Account/Registration.php:179
 msgid "FL"
 msgstr "VL"
 
-#: src/CoreBundle/Component/Account/Registration.php:174
+#: src/CoreBundle/Component/Account/Registration.php:180
 msgid "Interval training"
 msgstr "Intervalli harjoitus"
 
-#: src/CoreBundle/Component/Account/Registration.php:174
+#: src/CoreBundle/Component/Account/Registration.php:180
 msgid "IT"
 msgstr "IH"
 
-#: src/CoreBundle/Component/Account/Registration.php:175
+#: src/CoreBundle/Component/Account/Registration.php:181
 msgid "Tempo Run"
 msgstr "Vauhtijuoksu"
 
-#: src/CoreBundle/Component/Account/Registration.php:175
+#: src/CoreBundle/Component/Account/Registration.php:181
 msgid "TR"
 msgstr "VJ"
 
-#: src/CoreBundle/Component/Account/Registration.php:176
-#: src/CoreBundle/Component/Account/Registration.php:196
+#: src/CoreBundle/Component/Account/Registration.php:182
+#: src/CoreBundle/Component/Account/Registration.php:202
 msgid "Race"
 msgstr "Kilpailu"
 
-#: src/CoreBundle/Component/Account/Registration.php:176
+#: src/CoreBundle/Component/Account/Registration.php:182
 msgid "RC"
 msgstr "KL"
 
-#: src/CoreBundle/Component/Account/Registration.php:177
+#: src/CoreBundle/Component/Account/Registration.php:183
 msgid "Regeneration Run"
 msgstr "Palutumis juoksu"
 
-#: src/CoreBundle/Component/Account/Registration.php:177
+#: src/CoreBundle/Component/Account/Registration.php:183
 msgid "RG"
 msgstr "PJ"
 
-#: src/CoreBundle/Component/Account/Registration.php:178
+#: src/CoreBundle/Component/Account/Registration.php:184
 msgid "Long Slow Distance"
 msgstr "Hidas pitkä juoksu"
 
-#: src/CoreBundle/Component/Account/Registration.php:178
+#: src/CoreBundle/Component/Account/Registration.php:184
 msgid "LSD"
 msgstr "PH"
 
-#: src/CoreBundle/Component/Account/Registration.php:179
+#: src/CoreBundle/Component/Account/Registration.php:185
 msgid "Warm-up"
 msgstr "Lämmittely"
 
-#: src/CoreBundle/Component/Account/Registration.php:179
+#: src/CoreBundle/Component/Account/Registration.php:185
 msgid "WU"
 msgstr "LÄ"
 
-#: src/CoreBundle/Component/Account/Registration.php:233
+#: src/CoreBundle/Component/Account/Registration.php:242
 msgid "long sleeve"
 msgstr ""
 
-#: src/CoreBundle/Component/Account/Registration.php:233
+#: src/CoreBundle/Component/Account/Registration.php:242
 msgid "T-shirt"
 msgstr ""
 
-#: src/CoreBundle/Component/Account/Registration.php:233
+#: src/CoreBundle/Component/Account/Registration.php:242
 msgid "singlet"
 msgstr ""
 
-#: src/CoreBundle/Component/Account/Registration.php:233
+#: src/CoreBundle/Component/Account/Registration.php:242
 msgid "jacket"
 msgstr ""
 
-#: src/CoreBundle/Component/Account/Registration.php:233
+#: src/CoreBundle/Component/Account/Registration.php:242
 msgid "long pants"
 msgstr ""
 
-#: src/CoreBundle/Component/Account/Registration.php:233
+#: src/CoreBundle/Component/Account/Registration.php:242
 msgid "shorts"
 msgstr ""
 
-#: src/CoreBundle/Component/Account/Registration.php:233
+#: src/CoreBundle/Component/Account/Registration.php:242
 msgid "gloves"
 msgstr ""
 
-#: src/CoreBundle/Component/Account/Registration.php:233
+#: src/CoreBundle/Component/Account/Registration.php:242
 msgid "hat"
 msgstr ""
+
+#~ msgid "Biking"
+#~ msgstr "Pyöräily"
+
+#~ msgid "Gymnastics"
+#~ msgstr "Voimistelu"
 
 #~ msgid "Publish activities"
 #~ msgstr "Julkiset aktiviteetit"
@@ -5722,9 +5734,6 @@ msgstr ""
 
 #~ msgid "Public training view of <strong>%s</strong>"
 #~ msgstr "Käyttän <strong>%s</strong> julkinen liikuntapäiväkirja"
-
-#~ msgid "Public training view"
-#~ msgstr "Julkinen liikuntapäiväkirja"
 
 #~ msgid "VDOT"
 #~ msgstr "VDOT"
