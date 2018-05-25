@@ -3,10 +3,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Runalyze\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-05-24 14:39+0200\n"
-"PO-Revision-Date: 2018-05-22 09:45+0000\n"
-"Last-Translator: Hannes <mail@laufhannes.de>\n"
+"PO-Revision-Date: 2018-05-25 11:02+0000\n"
+"Last-Translator: Michael Pohl <michael@mipapo.de>\n"
 "Language-Team: German <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/de/>\n"
 "Language: de\n"
@@ -1404,7 +1404,7 @@ msgstr "Windsurfen"
 #: inc/core/Profile/Sport/StrengthTraining.php:24
 #, fuzzy
 msgid "Strength training"
-msgstr "Intervalltraining"
+msgstr "Krafttraining"
 
 #: inc/core/Profile/Sport/Generic.php:26
 msgid "Generic"
@@ -2163,7 +2163,7 @@ msgstr "Hauptsportart"
 
 #: inc/core/Configuration/Category/General.php:245
 msgid "Synchronisation Fallback Sport"
-msgstr ""
+msgstr "Synchronisationsfallbacksportart"
 
 #: inc/core/Parameter/Application/DatabaseOrder.php:44
 msgid "id (oldest first)"
