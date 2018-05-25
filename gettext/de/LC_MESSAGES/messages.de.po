@@ -1389,9 +1389,8 @@ msgid "Hiking"
 msgstr "Wandern"
 
 #: inc/core/Profile/Sport/FlexibilityTraining.php:24
-#, fuzzy
 msgid "Flexibility training"
-msgstr "Öffentliche Trainingsliste"
+msgstr "Beweglichkeitstraining"
 
 #: inc/core/Profile/Sport/IndoorCycling.php:24
 msgid "Indoor cycling"
@@ -1402,7 +1401,6 @@ msgid "Windsurfing"
 msgstr "Windsurfen"
 
 #: inc/core/Profile/Sport/StrengthTraining.php:24
-#, fuzzy
 msgid "Strength training"
 msgstr "Krafttraining"
 
