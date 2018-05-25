@@ -898,9 +898,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Die Standardkonfiguration wurde wiederhergestellt!</target>
         <jms:reference-file line="53">/../src/CoreBundle/Controller/Settings/SettingsController.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="45f8f1c383a839408b19d0aeeab6bef449e056fb" resname="Default privacy">
+      <trans-unit id="45f8f1c383a839408b19d0aeeab6bef449e056fb" resname="Default privacy" approved="no">
         <source>Default privacy</source>
-        <target>Default privacy</target>
+        <target state="translated">Standard Privatsphäre</target>
         <jms:reference-file line="110">/../src/CoreBundle/Form/Settings/SportType.php</jms:reference-file>
         <jms:reference-file line="18">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
@@ -1971,9 +1971,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Es sind keine Wetterdaten vorhanden</target>
         <jms:reference-file line="156">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6eef6648406c333a4035cd5e60d0bf2ecf2606d7" resname="None">
+      <trans-unit id="6eef6648406c333a4035cd5e60d0bf2ecf2606d7" resname="None" approved="no">
         <source>None</source>
-        <target>None</target>
+        <target state="translated">Keiner</target>
         <jms:reference-file line="174">/../src/CoreBundle/Form/Settings/SportType.php</jms:reference-file>
         <jms:reference-file line="186">/../src/CoreBundle/Form/Settings/SportType.php</jms:reference-file>
       </trans-unit>
@@ -2273,14 +2273,14 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Bisher generierte Poster</target>
         <jms:reference-file line="54">/Resources/views/tools/poster.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="cf01481f626d5127ec7732fcbdb29504f08abefd" resname="Privacy">
+      <trans-unit id="cf01481f626d5127ec7732fcbdb29504f08abefd" resname="Privacy" approved="no">
         <source>Privacy</source>
-        <target>Privacy</target>
+        <target state="translated">Privatsphäre</target>
         <jms:reference-file line="28">/Resources/views/legal/imprint.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="ea5b9cc183107f03fc615a803211ab88a5e7fd3b" resname="Privacy settings">
+      <trans-unit id="ea5b9cc183107f03fc615a803211ab88a5e7fd3b" resname="Privacy settings" approved="no">
         <source>Privacy settings</source>
-        <target>Privatsphäre</target>
+        <target state="translated">Privatsphäreneinstellugen</target>
         <jms:reference-file line="31">/Resources/views/base_logged_in.twig</jms:reference-file>
         <jms:reference-file line="5">/Resources/views/settings/privacy.html.twig</jms:reference-file>
       </trans-unit>
@@ -2830,9 +2830,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Starte die Installation von RUNALYZE</target>
         <jms:reference-file line="14">/Resources/views/system/install.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="17dceb68020f6f60a42c24de2b4ee17f2e49e23e" resname="Statement of Privacy">
+      <trans-unit id="17dceb68020f6f60a42c24de2b4ee17f2e49e23e" resname="Statement of Privacy" approved="no">
         <source>Statement of Privacy</source>
-        <target>Statement of Privacy</target>
+        <target state="translated">Datenschutzerklärung</target>
         <jms:reference-file line="9">/Resources/views/footer.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="2086b21f8f49274138c38d476bee317a84a8aecc" resname="Statistics">
@@ -3671,9 +3671,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Du kannst jede beliebige Sportart definieren, aber für die Synchronisation und Vergleiche sollte die Sportart einer vorgegebenen Sportart zugeordnet werden. Diese Zuordnung wird zum Setzen der richtigen Sportart beim Import verwendet.</target>
         <jms:reference-file line="35">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2a3bed8d61c1c67bf86e97ae720eb926fa36b6fd" resname="You can define the default privacy of new activities by sport type in the associated sport configuration.">
+      <trans-unit id="2a3bed8d61c1c67bf86e97ae720eb926fa36b6fd" resname="You can define the default privacy of new activities by sport type in the associated sport configuration." approved="no">
         <source>You can define the default privacy of new activities by sport type in the associated sport configuration.</source>
-        <target>Du kannst die Standardprivatsphäreneinstellungen von neuen Aktivitäten je Sportart in der zugehörigen Sportkonfiguration festlegen.</target>
+        <target state="translated">Du kannst die Standardeinstellungen der Privatsphäre von neuen Aktivitäten je Sportart in der zugehörigen Sportkonfiguration festlegen.</target>
         <jms:reference-file line="34">/Resources/views/settings/privacy.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="e656cf23968829caaaf06281696a8b26d60f6577" resname="You can group your sports into 'main' and 'alternative' ones.&#10;                For some analyses 'alternative' types are grouped together whereas 'main' types are always shown standalone from each other.">
@@ -4220,9 +4220,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>weiter</target>
         <jms:reference-file line="7">/Resources/views/_macro/tablesorter.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="71f8e7976e4cbc4561c9d62fb283e7f788202acb" resname="none">
+      <trans-unit id="71f8e7976e4cbc4561c9d62fb283e7f788202acb" resname="none" approved="no">
         <source>none</source>
-        <target>none</target>
+        <target state="translated">keine</target>
         <jms:reference-file line="63">/Resources/views/tools/anova/base.html.twig</jms:reference-file>
         <jms:reference-file line="75">/Resources/views/tools/anova/base.html.twig</jms:reference-file>
         <jms:reference-file line="62">/Resources/views/tools/trend-analysis/base.html.twig</jms:reference-file>
@@ -4264,9 +4264,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>vorherige</target>
         <jms:reference-file line="5">/Resources/views/_macro/tablesorter.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e80721793c24ae14edfca9b26ad406a9815cd3ff" resname="private">
+      <trans-unit id="e80721793c24ae14edfca9b26ad406a9815cd3ff" resname="private" approved="no">
         <source>private</source>
-        <target>private</target>
+        <target state="translated">privat</target>
         <jms:reference-file line="112">/../src/CoreBundle/Form/Settings/SportType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="61c9b2b17db77a27841bbeeabff923448b0f6388" resname="public">
