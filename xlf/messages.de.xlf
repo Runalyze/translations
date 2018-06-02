@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
   <file date="2018-06-02T14:15:46Z" source-language="en" target-language="de" datatype="plaintext" original="not.available">
     <header>
@@ -214,9 +214,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Neuen Eintrag hinzufügen</target>
         <jms:reference-file line="9">/Resources/views/my/body-values/table.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7f7393582f2cbc4ad58e444d6f4e54d1d3710b69" resname="Add a zone">
+      <trans-unit id="7f7393582f2cbc4ad58e444d6f4e54d1d3710b69" resname="Add a zone" approved="no">
         <source>Add a zone</source>
-        <target state="new">Add a zone</target>
+        <target state="translated">Zone hinzufügen</target>
         <jms:reference-file line="61">/Resources/views/settings/sport/form-zone.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="63b759a297289f9025ddd5d3f3f1c124e2c72258" resname="Add activity">
