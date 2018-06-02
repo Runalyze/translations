@@ -3639,9 +3639,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Widgets</target>
         <jms:reference-file line="43">/Resources/views/settings/privacy.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="ac298b6ed81ec13aadd8aefae369a27cc3024488" resname="Will be calculated afterwards from the activity's elevation profile.">
+      <trans-unit id="ac298b6ed81ec13aadd8aefae369a27cc3024488" resname="Will be calculated afterwards from the activity's elevation profile." approved="no">
         <source>Will be calculated afterwards from the activity's elevation profile.</source>
-        <target>Will be calculated afterwards from the activity's elevation profile.</target>
+        <target state="translated">Wird anschließend aus dem Höhenprofil der Aktivität berechnet.</target>
         <jms:reference-file line="69">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="bb74815c6b0beb6dd119fc7dc4ccda65706922f0" resname="Wind degrees">
@@ -3676,9 +3676,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <jms:reference-file line="54">/../src/CoreBundle/Form/Settings/AccountType.php</jms:reference-file>
         <jms:reference-file line="61">/../src/CoreBundle/Form/Settings/AccountType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="be543145a0a636eba462cebeb353771fb69c7e89" resname="Yes! I would like to receive updates about RUNALYZE via Mail">
+      <trans-unit id="be543145a0a636eba462cebeb353771fb69c7e89" resname="Yes! I would like to receive updates about RUNALYZE via Mail" approved="no">
         <source>Yes! I would like to receive updates about RUNALYZE via Mail</source>
-        <target>Yes! I would like to receive updates about RUNALYZE via Mail</target>
+        <target state="translated">Ja! Ich möchte über Updates von RUNALYZE via Mail informiert werden</target>
         <jms:reference-file line="43">/../src/CoreBundle/Form/RegistrationType.php</jms:reference-file>
         <jms:reference-file line="32">/Resources/views/register/form.html.twig</jms:reference-file>
       </trans-unit>
@@ -3824,14 +3824,14 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Die automatische Berechnung des Energieumsatzes ist in deinen Einstellungen deaktiviert.</target>
         <jms:reference-file line="77">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="16c73ecb7321560d538be3dd7493504e45965d29" resname="You have successfully subscribed">
+      <trans-unit id="16c73ecb7321560d538be3dd7493504e45965d29" resname="You have successfully subscribed" approved="no">
         <source>You have successfully subscribed</source>
-        <target>You have successfully subscribed</target>
+        <target state="translated">Sie haben sich erfolgreich angemeldet</target>
         <jms:reference-file line="6">/Resources/views/account/subscribe_success.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="1ff6894eeba0f94a67959646db8713cf46ebf154" resname="You have successfully subscribed again to all notifications by RUNALYZE">
+      <trans-unit id="1ff6894eeba0f94a67959646db8713cf46ebf154" resname="You have successfully subscribed again to all notifications by RUNALYZE" approved="no">
         <source>You have successfully subscribed again to all notifications by RUNALYZE</source>
-        <target>You have successfully subscribed again to all notifications by RUNALYZE</target>
+        <target state="translated">Sie haben alle Benachrichtigungen von RUNALYZE wieder erfolgreich abonniert.</target>
         <jms:reference-file line="8">/Resources/views/account/subscribe_success.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="0a8893c2610dafde57fc95703bbfac82a0fab3bd" resname="You have successfully unsubscribed">
@@ -3993,14 +3993,14 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Deine Sportarten</target>
         <jms:reference-file line="5">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2ce13558625eef80d444917755ec98696fc8614c" resname="Zone settings">
+      <trans-unit id="2ce13558625eef80d444917755ec98696fc8614c" resname="Zone settings" approved="no">
         <source>Zone settings</source>
-        <target state="new">Zone settings</target>
+        <target state="translated">Zoneneinstellungen</target>
         <jms:reference-file line="11">/Resources/views/settings/sport/form-zone.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="182e2eb72d8d50f09d8ef665942c0cc3845e6f5b" resname="Zones">
+      <trans-unit id="182e2eb72d8d50f09d8ef665942c0cc3845e6f5b" resname="Zones" approved="no">
         <source>Zones</source>
-        <target state="new">Zones</target>
+        <target state="translated">Zonen</target>
         <jms:reference-file line="18">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="5695f686b22368b7aa96013b0b4f26420471f8fc" resname="add new lap">
