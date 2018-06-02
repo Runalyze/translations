@@ -299,9 +299,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Bei einem (erneuten) Import von Aktivitäten und dem Überschreiben aller Aktivitäten werden alle geteilten Links ungültig!</target>
         <jms:reference-file line="57">/Resources/views/tools/backup/upload_form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="dfad56f1a7c083f38a7027a88daabd5dc2861039" resname="All sports">
+      <trans-unit id="dfad56f1a7c083f38a7027a88daabd5dc2861039" resname="All sports" approved="no">
         <source>All sports</source>
-        <target state="new">All sports</target>
+        <target state="translated">Alle Sportarten</target>
         <jms:reference-file line="23">/Resources/views/settings/sport/form-zone.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="b38fac0e113cd25464e6f39ac61bdfcefee80c7e" resname="Allow access for support">
