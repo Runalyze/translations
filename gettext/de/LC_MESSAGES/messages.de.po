@@ -3,9 +3,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Runalyze\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-05-25 11:02+0000\n"
+"PO-Revision-Date: 2018-06-02 14:53+0000\n"
 "Last-Translator: Michael Pohl <michael@mipapo.de>\n"
 "Language-Team: German <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/de/>\n"
@@ -3174,9 +3174,8 @@ msgstr "Pacediagramm"
 #: inc/training/view/section/class.SectionCompositeRow.php:58
 #: inc/training/view/section/class.SectionPowerRow.php:17
 #: inc/training/view/section/class.SectionHeartrateRow.php:28
-#, fuzzy
 msgid "Configure your zones"
-msgstr "Konfiguration"
+msgstr "Konfiguriere deine Zonen"
 
 #: inc/training/view/section/class.SectionPaceRow.php:32
 #: inc/training/view/section/class.SectionCompositeRow.php:52
@@ -3361,16 +3360,12 @@ msgid "Power plot"
 msgstr "Leistung"
 
 #: inc/training/view/section/class.SectionPowerRow.php:19
-#, fuzzy
 msgid "Power zones"
-msgstr "Pacezonen"
+msgstr "Leistungszonen"
 
 #: inc/training/view/section/class.SectionPowerRow.php:47
-#, fuzzy
 msgid "Based on your current weight"
-msgstr ""
-"Empfohlene Trainingsgeschwindigkeiten auf Basis deines derzeitigen VDOT "
-"anzeigen"
+msgstr "Basierend auf deinem aktuellen Gewicht"
 
 #: inc/training/view/section/class.SectionPowerRow.php:48
 msgid "Specific power"
@@ -3459,9 +3454,8 @@ msgid "Anomalies"
 msgstr "Anomalien"
 
 #: inc/training/view/section/class.SectionPower.php:14
-#, fuzzy
 msgid "Power data"
-msgstr "Pace"
+msgstr "Leistungsdaten"
 
 #: inc/training/view/section/class.SectionRouteRowElevation.php:106
 msgid "Climb Score view"
