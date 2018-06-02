@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Runalyze\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-25 15:51+0200\n"
+"POT-Creation-Date: 2018-06-02 14:20+0200\n"
 "PO-Revision-Date: 2017-03-07 09:20+0000\n"
 "Last-Translator: Michael Pohl <michael@mipapo.de>\n"
 "Language-Team: Swedish <https://translate.runalyze.com/projects/runalyze/"
@@ -331,7 +331,7 @@ msgstr ""
 
 #: inc/plugin/class.PluginStat.php:348
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:369
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:568
+#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:595
 msgid "In total"
 msgstr ""
 
@@ -382,7 +382,7 @@ msgstr ""
 #: plugin/RunalyzePluginPanel_Prognose/Plot.Form.php:202
 #: plugin/RunalyzePluginPanel_Sportler/Plot.gewicht.php:65
 #: plugin/RunalyzePluginPanel_Sportler/Plot.analyse.php:64
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:216
+#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:245
 msgid "No data available."
 msgstr ""
 
@@ -432,7 +432,7 @@ msgstr ""
 #: inc/core/Dataset/Keys/RaceResult.php:180 inc/draw/class.PlotSumData.php:201
 #: inc/draw/class.PlotSumData.php:207
 #: plugin/RunalyzePluginStat_Trainingszeiten/class.RunalyzePluginStat_Trainingszeiten.php:70
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:259
+#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:288
 #, fuzzy
 msgid "Total"
 msgstr "totalt"
@@ -588,7 +588,6 @@ msgstr ""
 #: inc/core/View/Activity/Plot/Series/VerticalOscillation.php:41
 #: inc/core/View/Window/Laps/Table.php:273
 #: inc/training/view/section/class.SectionRunningDynamicsRow.php:76
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:184
 #: inc/training/search/class.SearchFormular.php:204
 msgid "Vertical oscillation"
 msgstr "vertikal svängning"
@@ -671,14 +670,14 @@ msgstr ""
 
 #: inc/core/Dataset/Keys/RaceResult.php:127
 #: inc/core/Dataset/Keys/RaceResult.php:178
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:396
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:363
 #, fuzzy
 msgid "Official distance"
 msgstr "manuella rundor"
 
 #: inc/core/Dataset/Keys/RaceResult.php:128
 #: inc/core/Dataset/Keys/RaceResult.php:179
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:397
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:364
 msgid "Official time"
 msgstr ""
 
@@ -767,11 +766,13 @@ msgstr ""
 #: inc/core/View/Window/Laps/Table.php:148
 #: inc/training/view/section/class.SectionCompositeRow.php:160
 #: inc/training/view/section/class.SectionCompositeRow.php:163
+#: inc/training/view/section/class.SectionPowerRow.php:55
 #: inc/training/view/section/class.SectionHeartrateRow.php:52
 #: inc/training/view/section/class.SectionHeartrateRow.php:55
+#: inc/training/view/section/table/class.TableZonesPower.php:12
 #: inc/training/view/section/table/class.TableLapsComputed.php:66
-#: inc/training/view/section/table/class.TableZonesPace.php:35
-#: inc/training/view/section/table/class.TableZonesHeartrate.php:22
+#: inc/training/view/section/table/class.TableZonesPace.php:31
+#: inc/training/view/section/table/class.TableZonesHeartrate.php:23
 #: inc/training/view/section/class.SectionOverviewRow.php:55
 #: inc/training/view/section/class.SectionHRVRow.php:45
 #: inc/training/view/class.ElevationInfo.php:131
@@ -792,11 +793,13 @@ msgstr "snittpuls"
 
 #: inc/core/Dataset/Keys/HeartrateAverage.php:44
 #: inc/core/Dataset/Keys/HeartrateMaximum.php:44
+#: inc/core/Profile/Sport/Zones/HeartRate.php:21
 #: inc/core/View/Activity/Box/MaximalHeartRate.php:48
 #: inc/training/view/section/class.SectionCompositeRow.php:160
 #: inc/training/view/section/class.SectionCompositeRow.php:163
 #: inc/training/view/section/class.SectionHeartrateRow.php:52
 #: inc/training/view/section/class.SectionHeartrateRow.php:55
+#: inc/training/view/section/table/class.TableZonesPower.php:12
 #: inc/training/view/section/class.SectionOverviewRow.php:55
 #: inc/training/view/section/class.SectionOverviewRow.php:56
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:403
@@ -807,18 +810,19 @@ msgstr ""
 #: inc/core/Dataset/Keys/HeartrateMaximum.php:53
 #: inc/core/View/Window/Laps/Table.php:148
 #: inc/core/View/Window/Laps/Table.php:149
-#: inc/training/view/section/table/class.TableZonesPace.php:35
+#: inc/training/view/section/table/class.TableZonesPace.php:31
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:403
 msgid "HR"
 msgstr "HF"
 
-#: inc/core/Dataset/Keys/Pace.php:56 inc/core/View/Splits/Table.php:156
+#: inc/core/Dataset/Keys/Pace.php:56 inc/core/Profile/Sport/Zones/Pace.php:22
+#: inc/core/View/Splits/Table.php:156
 #: inc/core/View/Activity/Plot/Series/Pace.php:73
 #: inc/core/View/Activity/Box/Pace.php:28
 #: inc/core/View/Activity/Box/PaceAlternative.php:37
 #: inc/core/View/Window/Laps/Table.php:146
 #: inc/training/view/section/table/class.TableLapsComputed.php:65
-#: inc/training/view/section/table/class.TableZonesHeartrate.php:22
+#: inc/training/view/section/table/class.TableZonesHeartrate.php:23
 #: inc/training/search/class.FormularSelectSearchSort.php:39
 #: inc/training/search/class.SearchFormular.php:191
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:402
@@ -870,7 +874,7 @@ msgid "Your complete equipment is shown as icon with tooltip."
 msgstr ""
 
 #: inc/core/Dataset/Keys/TrainingPartner.php:46
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:307
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:275
 #: plugin/RunalyzePluginStat_Trainingspartner/class.RunalyzePluginStat_Trainingspartner.php:36
 msgid "Training partner"
 msgstr "träningskompis"
@@ -896,7 +900,7 @@ msgstr "väder"
 #: inc/core/Dataset/Keys/Temperature.php:44
 #: inc/core/Activity/Temperature.php:60
 #: inc/core/View/Activity/Plot/Series/Temperature.php:40
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:209
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:177
 #: inc/training/search/class.SearchFormular.php:213
 msgid "Temperature"
 msgstr "temperatur"
@@ -910,10 +914,11 @@ msgstr ""
 msgid "Wind Degree"
 msgstr ""
 
-#: inc/core/Dataset/Keys/Power.php:44
+#: inc/core/Dataset/Keys/Power.php:44 inc/core/Profile/Sport/Zones/Power.php:21
 #: inc/core/View/Activity/Plot/Series/Power.php:38
 #: inc/core/View/Window/Laps/Table.php:281
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:144
+#: inc/training/view/section/class.SectionPowerRow.php:55
+#: inc/training/view/section/class.SectionPowerRow.php:61
 #: inc/training/search/class.SearchFormular.php:200
 msgid "Power"
 msgstr "effekt"
@@ -963,7 +968,7 @@ msgid ""
 msgstr ""
 
 #: inc/core/Dataset/Keys/Tags.php:46
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:295
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:263
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:149
 msgid "Tags"
 msgstr ""
@@ -992,7 +997,7 @@ msgid "Total strokes"
 msgstr ""
 
 #: inc/core/Dataset/Keys/TotalStrokes.php:53
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:157
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:141
 #: inc/training/view/section/table/class.TableSwimLane.php:43
 msgid "Strokes"
 msgstr "tak"
@@ -1127,7 +1132,7 @@ msgstr ""
 #: inc/core/Dataset/Keys/Swolf.php:44
 #: inc/core/View/Activity/Plot/Series/Swolfcycles.php:62
 #: inc/core/View/Activity/Plot/Series/Swolf.php:63
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:163
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:147
 #: inc/training/view/section/table/class.TableSwimLane.php:42
 msgid "Swolf"
 msgstr "Swolf"
@@ -1156,6 +1161,7 @@ msgstr ""
 #: inc/core/Dataset/Keys/HeartrateMaximum.php:44
 #: inc/core/View/Activity/Box/MaximalHeartRate.php:48
 #: inc/core/View/Window/Laps/Table.php:149
+#: inc/training/view/section/class.SectionPowerRow.php:61
 #: inc/training/view/section/class.SectionOverviewRow.php:56
 msgid "max."
 msgstr ""
@@ -1319,17 +1325,17 @@ msgstr ""
 msgid "Main Sport"
 msgstr "sporter"
 
-#: inc/core/Profile/Sport/Cycling.php:24
+#: inc/core/Profile/Sport/Cycling.php:26
 msgid "Cycling"
 msgstr ""
 
-#: inc/core/Profile/Sport/Running.php:24
+#: inc/core/Profile/Sport/Running.php:26
 #: src/CoreBundle/Component/Account/Registration.php:204
 #: tests/CoreBundle/Component/Account/RegistrationTest.php:61
 msgid "Running"
 msgstr ""
 
-#: inc/core/Profile/Sport/Swimming.php:24
+#: inc/core/Profile/Sport/Swimming.php:26
 msgid "Swimming"
 msgstr ""
 
@@ -2499,7 +2505,6 @@ msgstr ""
 #: inc/core/View/Activity/Plot/Series/GroundContact.php:40
 #: inc/training/view/section/class.SectionRunningDynamicsRow.php:50
 #: inc/training/view/section/class.SectionRunningDynamicsRow.php:82
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:181
 #: inc/training/search/class.SearchFormular.php:212
 msgid "Ground contact"
 msgstr "jordkontakt"
@@ -2514,7 +2519,7 @@ msgstr ""
 
 #: inc/core/View/Activity/Plot/Series/Smo2.php:34
 #: inc/core/View/Activity/Plot/Series/Smo2.php:37
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:78
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:73
 msgid "SmO2"
 msgstr ""
 
@@ -3060,7 +3065,7 @@ msgid "There are no data for this timerange."
 msgstr ""
 
 #: inc/draw/class.PlotSumData.php:584
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:361
+#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:389
 msgid "without"
 msgstr ""
 
@@ -3090,9 +3095,13 @@ msgid "Pace plot"
 msgstr "tempodiagram"
 
 #: inc/training/view/section/class.SectionPaceRow.php:30
+#: inc/training/view/section/class.SectionCompositeRow.php:50
+#: inc/training/view/section/class.SectionCompositeRow.php:58
+#: inc/training/view/section/class.SectionPowerRow.php:17
 #: inc/training/view/section/class.SectionHeartrateRow.php:28
-msgid "You'll be soon able to configure your own zones."
-msgstr "Snart kommer det att vara möjligt att konfigurera egna zoner."
+#, fuzzy
+msgid "Configure your zones"
+msgstr "Konfiguration"
 
 #: inc/training/view/section/class.SectionPaceRow.php:32
 #: inc/training/view/section/class.SectionCompositeRow.php:52
@@ -3139,11 +3148,6 @@ msgstr "vertikal svängningsrörelse graf"
 #: inc/training/view/section/class.SectionCompositeRow.php:45
 msgid "Composite plot"
 msgstr "sammensatt graf"
-
-#: inc/training/view/section/class.SectionCompositeRow.php:50
-#: inc/training/view/section/class.SectionCompositeRow.php:58
-msgid "You will be soon able to configure your own zones."
-msgstr "Snart kommer du att kunna konfigurera egna zoner."
 
 #: inc/training/view/section/class.SectionCompositeRow.php:60
 msgid "Heart rate zones"
@@ -3196,18 +3200,14 @@ msgid "Cadence plot"
 msgstr "frekvensdiagram"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:67
-msgid "Power plot"
-msgstr "effekt"
-
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:72
 msgid "Temperature plot"
 msgstr "temperaturdiagram"
 
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:78
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:73
 msgid "THb"
 msgstr ""
 
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:102
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:97
 #: inc/training/search/class.FormularSelectSearchSort.php:35
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:472
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:397
@@ -3215,70 +3215,65 @@ msgstr ""
 msgid "Date"
 msgstr "datum"
 
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:105
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:100
 msgid "Time of day"
 msgstr "tid på dagen"
 
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:143
-#, fuzzy
-msgid "This value has been calculated."
-msgstr "Värdet är för stort."
-
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:206
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:174
 msgid "Weather condition"
 msgstr "Väderförhållandena"
 
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:385
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:352
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:432
 msgid "Age standard"
 msgstr ""
 
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:386
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:353
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:433
 msgid "Open standard"
 msgstr ""
 
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:387
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:354
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:434
 #, php-format
 msgid "via tables by %s"
 msgstr ""
 
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:394
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:361
 #, fuzzy
 msgid "Race Result"
 msgstr "tempodiagram"
 
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:398
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:365
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:401
 msgid "Age grade"
 msgstr ""
 
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:399
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:366
 #, fuzzy
 msgid "Place overall"
 msgstr "temposoner"
 
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:400
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:367
 msgid "Place age group"
 msgstr ""
 
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:401
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:368
 #, fuzzy
 msgid "Place gender"
 msgstr "temposoner"
 
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:410
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:377
 #: inc/training/search/class.SearchFormular.php:162
 msgid "Notes"
 msgstr "anteckningar"
 
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:421
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:388
 #, php-format
 msgid "Source of weather data: %s"
 msgstr ""
 
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:437
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:404
 #, php-format
 msgid ""
 "You created this training on <strong>%s</strong> at <strong>%s</strong>."
@@ -3286,11 +3281,42 @@ msgstr ""
 "du har upprättad träningen den <strong>%s</strong> klockan <strong>%s</"
 "strong>."
 
-#: inc/training/view/section/class.SectionMiscellaneousRow.php:444
+#: inc/training/view/section/class.SectionMiscellaneousRow.php:411
 #, php-format
 msgid "Last modification on <strong>%s</strong> at <strong>%s</strong>."
 msgstr ""
 "senaste ändringen gjorde <strong>%s</strong> klockan <strong>%s</strong>."
+
+#: inc/training/view/section/class.SectionPowerRow.php:9
+msgid "Power plot"
+msgstr "effekt"
+
+#: inc/training/view/section/class.SectionPowerRow.php:19
+#, fuzzy
+msgid "Power zones"
+msgstr "temposoner"
+
+#: inc/training/view/section/class.SectionPowerRow.php:47
+msgid "Based on your current weight"
+msgstr ""
+
+#: inc/training/view/section/class.SectionPowerRow.php:48
+msgid "Specific power"
+msgstr ""
+
+#: inc/training/view/section/class.SectionPowerRow.php:54
+#, fuzzy
+msgid "This value has been calculated."
+msgstr "Värdet är för stort."
+
+#: inc/training/view/section/class.SectionPowerRow.php:74
+#, fuzzy
+msgid "Running Effectiveness"
+msgstr "lopps øvningär"
+
+#: inc/training/view/section/class.SectionPowerRow.php:80
+msgid "Efficiency Index"
+msgstr ""
 
 #: inc/training/view/section/class.SectionPace.php:17
 msgid "Pace data"
@@ -3334,10 +3360,6 @@ msgstr ""
 msgid "elev."
 msgstr "höjdökning"
 
-#: inc/training/view/section/table/class.TableZonesPace.php:54
-msgid "faster"
-msgstr "snabbare"
-
 #: inc/training/view/section/class.SectionOverview.php:17
 msgid "Overview"
 msgstr "översikt"
@@ -3367,6 +3389,11 @@ msgstr "Pointcare graf"
 #: inc/training/view/section/class.SectionHRVRow.php:52
 msgid "Anomalies"
 msgstr ""
+
+#: inc/training/view/section/class.SectionPower.php:14
+#, fuzzy
+msgid "Power data"
+msgstr "fart"
 
 #: inc/training/view/section/class.SectionRouteRowElevation.php:106
 msgid "Climb Score view"
@@ -3532,8 +3559,6 @@ msgstr ""
 
 #: inc/training/search/class.FormularInputSearchTimeRange.php:34
 #: plugin/RunalyzePluginStat_Wetter/MinMaxTableForEquipment.php:119
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:439
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:499
 msgid "to"
 msgstr "att"
 
@@ -5031,99 +5056,60 @@ msgstr ""
 msgid "/month"
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:68
+#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:76
 msgid "Analysis"
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:76
+#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:84
 msgid ""
 "Analyze your training (only running) by means of pace, heart rate and "
 "different types."
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:84
+#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:92
 msgid "Analyze types"
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:85
+#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:93
 msgid "Analyze pace zones"
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:86
+#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:94
 msgid "Analyze heart rate zones"
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:87
-msgid "Lowest heart rate zone"
-msgstr ""
-
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:87
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:88
-msgid "[%HFmax]"
-msgstr ""
-
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:88
-msgid "Heart rate zone: Increment"
-msgstr ""
-
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:89
-msgid "Lowest pace zone"
-msgstr ""
-
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:89
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:90
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:91
-msgid "[s/km]"
-msgstr ""
-
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:90
-msgid "Highest pace zone"
-msgstr ""
-
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:91
-msgid "Pace zone: Increment"
-msgstr ""
-
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:114
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:129
+#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:134
+#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:149
 msgid "in percent"
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:117
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:130
+#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:137
+#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:150
 msgid "by distance"
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:122
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:131
+#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:142
+#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:151
 msgid "by time"
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:143
+#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:164
 msgid "The values consider only the average data fields of your activities."
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:206
+#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:235
 msgid "There is no data for this sport."
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:375
+#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:403
 msgid "Training types"
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:435
-msgid "faster than"
-msgstr ""
-
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:437
-msgid "up to"
-msgstr ""
-
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:444
+#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:452
 msgid "Pace Zones"
 msgstr ""
 
-#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:505
+#: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:517
 msgid "Heart Rate Zones"
 msgstr ""
 
@@ -5143,7 +5129,7 @@ msgstr ""
 msgid "Search for activities"
 msgstr "Sök efter aktiviteter"
 
-#: src/CoreBundle/Controller/AbstractPluginsAwareController.php:60
+#: src/CoreBundle/Controller/AbstractPluginsAwareController.php:61
 msgid "The plugin could not be found."
 msgstr ""
 
@@ -5366,6 +5352,15 @@ msgstr ""
 #: src/CoreBundle/Component/Account/Registration.php:242
 msgid "hat"
 msgstr ""
+
+#~ msgid "You'll be soon able to configure your own zones."
+#~ msgstr "Snart kommer det att vara möjligt att konfigurera egna zoner."
+
+#~ msgid "You will be soon able to configure your own zones."
+#~ msgstr "Snart kommer du att kunna konfigurera egna zoner."
+
+#~ msgid "faster"
+#~ msgstr "snabbare"
 
 #~ msgid "Submit"
 #~ msgstr "Lämna"

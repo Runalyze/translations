@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
-  <file date="2018-05-25T15:52:37Z" source-language="en" target-language="bg" datatype="plaintext" original="not.available">
+  <file date="2018-06-02T14:15:31Z" source-language="en" target-language="bg" datatype="plaintext" original="not.available">
     <header>
       <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
@@ -206,17 +206,22 @@
       <trans-unit id="b246cc25fa3a8aa8d3326072271bac67481af0f1" resname="Add &quot;%s&quot;">
         <source>Add "%s"</source>
         <target>Add "%s"</target>
-        <jms:reference-file line="71">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
+        <jms:reference-file line="91">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="def652f5e60bc33af9e11cbaf6bf4f5add906012" resname="Add a custom sport">
         <source>Add a custom sport</source>
         <target>Add a custom sport</target>
-        <jms:reference-file line="77">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
+        <jms:reference-file line="97">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="5b7e8ae468adcb49e7cfb046df10789548d89864" resname="Add a new entry">
         <source>Add a new entry</source>
         <target>Add a new entry</target>
         <jms:reference-file line="9">/Resources/views/my/body-values/table.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7f7393582f2cbc4ad58e444d6f4e54d1d3710b69" resname="Add a zone">
+        <source>Add a zone</source>
+        <target state="new">Add a zone</target>
+        <jms:reference-file line="61">/Resources/views/settings/sport/form-zone.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="63b759a297289f9025ddd5d3f3f1c124e2c72258" resname="Add activity">
         <source>Add activity</source>
@@ -261,7 +266,7 @@
         <source>Add new sport</source>
         <target>Add new sport</target>
         <jms:reference-file line="14">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
-        <jms:reference-file line="59">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
+        <jms:reference-file line="79">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="875e19d453a0708f1fabc24489eca58421f0d512" resname="Add weather data">
         <source>Add weather data</source>
@@ -297,6 +302,11 @@
         <source>All shared links will be invalid if you (re-)import activities and overwrite all existing activities!</source>
         <target>All shared links will be invalid if you (re-)import activities and overwrite all existing activities!</target>
         <jms:reference-file line="57">/Resources/views/tools/backup/upload_form.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="dfad56f1a7c083f38a7027a88daabd5dc2861039" resname="All sports">
+        <source>All sports</source>
+        <target state="new">All sports</target>
+        <jms:reference-file line="23">/Resources/views/settings/sport/form-zone.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="b38fac0e113cd25464e6f39ac61bdfcefee80c7e" resname="Allow access for support">
         <source>Allow access for support</source>
@@ -418,12 +428,12 @@
       </trans-unit>
       <trans-unit id="58e201b40653c645d927308a87a9cd3c619ec168" resname="Average energy turnover in kilocalories per hour">
         <source>Average energy turnover in kilocalories per hour</source>
-        <target state="new">Average energy turnover in kilocalories per hour</target>
+        <target>Average energy turnover in kilocalories per hour</target>
         <jms:reference-file line="70">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="be2d8ef406c4520bfc582a85493d1a240d8939a7" resname="Average heart rate (used for calculation of TRIMP)">
         <source>Average heart rate (used for calculation of TRIMP)</source>
-        <target state="new">Average heart rate (used for calculation of TRIMP)</target>
+        <target>Average heart rate (used for calculation of TRIMP)</target>
         <jms:reference-file line="22">/Resources/views/settings/sport/form-type.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="f5ddda878100628b602c3fc855a3774b4f3c5bc8" resname="Average heart rate will be used as fallback for calculations like TRIMP if no heart rate data is available.">
@@ -552,7 +562,7 @@
         <jms:reference-file line="134">/../src/CoreBundle/Form/Settings/SportType.php</jms:reference-file>
         <jms:reference-file line="69">/../src/CoreBundle/Form/Settings/SportTypeType.php</jms:reference-file>
         <jms:reference-file line="136">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
-        <jms:reference-file line="19">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
+        <jms:reference-file line="22">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="77dfd2135f4db726c47299bb55be26f7f4525a46" resname="Cancel">
         <source>Cancel</source>
@@ -608,7 +618,7 @@
       </trans-unit>
       <trans-unit id="45b9ce6e2d695ff2c034093f4531d40c366e7b04" resname="Choose an option">
         <source>Choose an option</source>
-        <target state="new">Choose an option</target>
+        <target>Choose an option</target>
         <jms:reference-file line="64">/../src/CoreBundle/Form/Tools/PosterType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="1dba7dd902a8d18d0072fe747078f61d341624ba" resname="Choose postertype(s)">
@@ -628,12 +638,12 @@
       </trans-unit>
       <trans-unit id="2e467a9356f191ce9ef5942588c4cc7a53ca2aff" resname="Choose sport(s)">
         <source>Choose sport(s)</source>
-        <target state="new">Choose sport(s)</target>
+        <target>Choose sport(s)</target>
         <jms:reference-file line="90">/../src/CoreBundle/Form/EquipmentCategoryType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="2b49897d5d1be328d37f28e0aba2328510ecddab" resname="Choose tag(s)">
         <source>Choose tag(s)</source>
-        <target state="new">Choose tag(s)</target>
+        <target>Choose tag(s)</target>
         <jms:reference-file line="232">/../src/CoreBundle/Form/ActivityType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="7653de6e384e9cb663ae64974403b72ac85790ad" resname="Choose the correct type for the equipment">
@@ -906,7 +916,7 @@
         <source>Default privacy</source>
         <target>Default privacy</target>
         <jms:reference-file line="110">/../src/CoreBundle/Form/Settings/SportType.php</jms:reference-file>
-        <jms:reference-file line="18">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
+        <jms:reference-file line="21">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="a54ee46a423126edefebe7a306f4ce3d6e1bdee2" resname="Default privacy setting for all new created activities of this sport type.">
         <source>Default privacy setting for all new created activities of this sport type.</source>
@@ -918,9 +928,14 @@
         <target>Default race type</target>
         <jms:reference-file line="187">/../src/CoreBundle/Form/Settings/SportType.php</jms:reference-file>
       </trans-unit>
+      <trans-unit id="faf49b1e2de23a37f81b54ab6186d82c1089207a" resname="Default zones">
+        <source>Default zones</source>
+        <target state="new">Default zones</target>
+        <jms:reference-file line="65">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="1cf6934a3e6a8d1d7daddb24f229e4c35ec88aab" resname="Defining some laps as 'resting' will hide them in the respective plot.">
         <source>Defining some laps as 'resting' will hide them in the respective plot.</source>
-        <target state="new">Defining some laps as 'resting' will hide them in the respective plot.</target>
+        <target>Defining some laps as 'resting' will hide them in the respective plot.</target>
         <jms:reference-file line="85">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="aaae84143938ffb5470678a0f315970f6a4fa81d" resname="Definitions for training paces vary a lot, depending on which philosophy one looks at.&#10;            This table specifies paces at various percentages of %vVO2max%, which equals approximately the maximal pace for 11 minutes.&#10;        ">
@@ -940,7 +955,7 @@
         <jms:reference-file line="36">/Resources/views/my/equipment/overview.html.twig</jms:reference-file>
         <jms:reference-file line="47">/Resources/views/my/raceresult/form.html.twig</jms:reference-file>
         <jms:reference-file line="155">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
-        <jms:reference-file line="46">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
+        <jms:reference-file line="56">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
         <jms:reference-file line="33">/Resources/views/settings/tag/overview.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1753c2061c676db8dd89101b51b92f09a277f51c" resname="Delete account">
@@ -1029,7 +1044,7 @@
         <jms:reference-file line="86">/Resources/views/my/equipment/form-category.html.twig</jms:reference-file>
         <jms:reference-file line="36">/Resources/views/my/equipment/overview.html.twig</jms:reference-file>
         <jms:reference-file line="155">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
-        <jms:reference-file line="46">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
+        <jms:reference-file line="56">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
         <jms:reference-file line="33">/Resources/views/settings/tag/overview.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="51bc1f0e92209ab0230bc2d56dd1c10e7da9c502" resname="Do you really want to delete your account, %username%?">
@@ -1121,6 +1136,24 @@
         <source>Edit equipment category</source>
         <target>Edit equipment category</target>
         <jms:reference-file line="10">/Resources/views/my/equipment/form-category.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="2f826a820f0dc0bfa61205380302fe06f9cee750" resname="Edit heart rate zones">
+        <source>Edit heart rate zones</source>
+        <target state="new">Edit heart rate zones</target>
+        <jms:reference-file line="44">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
+        <jms:reference-file line="68">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7e4e33d16920925cacb37d791953d21ae3526d5c" resname="Edit pace zones">
+        <source>Edit pace zones</source>
+        <target state="new">Edit pace zones</target>
+        <jms:reference-file line="45">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
+        <jms:reference-file line="69">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="37f901626bb09d63386a91a7d9ca405ca9dfc2b7" resname="Edit power zones">
+        <source>Edit power zones</source>
+        <target state="new">Edit power zones</target>
+        <jms:reference-file line="46">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
+        <jms:reference-file line="70">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="92249a649c72ec9e0b7ae989222b96cdab34f515" resname="Edit sport">
         <source>Edit sport</source>
@@ -1258,7 +1291,7 @@
       </trans-unit>
       <trans-unit id="361a82465491c9161713f597566a3f42e5734e1b" resname="File format">
         <source>File format</source>
-        <target state="new">File format</target>
+        <target>File format</target>
         <jms:reference-file line="15">/../src/CoreBundle/Form/Tools/BackupExportType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="bc66390c1f12928a247c55e56647aa0b22153bb0" resname="Find your training paces in min/km for given VO2max values.">
@@ -1656,8 +1689,9 @@
         <target>Invalid token.</target>
         <jms:reference-file line="150">/../src/CoreBundle/Controller/My/EquipmentController.php</jms:reference-file>
         <jms:reference-file line="239">/../src/CoreBundle/Controller/My/EquipmentController.php</jms:reference-file>
-        <jms:reference-file line="128">/../src/CoreBundle/Controller/Settings/SportController.php</jms:reference-file>
-        <jms:reference-file line="220">/../src/CoreBundle/Controller/Settings/SportController.php</jms:reference-file>
+        <jms:reference-file line="142">/../src/CoreBundle/Controller/Settings/SportController.php</jms:reference-file>
+        <jms:reference-file line="293">/../src/CoreBundle/Controller/Settings/SportController.php</jms:reference-file>
+        <jms:reference-file line="387">/../src/CoreBundle/Controller/Settings/SportController.php</jms:reference-file>
         <jms:reference-file line="77">/../src/CoreBundle/Controller/Settings/TagsController.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="0b97ca90664eebd4d7a8b89fe93ca9680c0221ba" resname="It seems that you already have imported this activity">
@@ -1768,7 +1802,7 @@
       <trans-unit id="836d8d3284bd1ea477546465fbb8d5409fa3ba3b" resname="Main sport">
         <source>Main sport</source>
         <target>Main sport</target>
-        <jms:reference-file line="16">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
+        <jms:reference-file line="19">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="a728b4ef9485dbbe84331d5c654cb9e7c744859e" resname="Main values">
         <source>Main values</source>
@@ -1834,7 +1868,7 @@
       </trans-unit>
       <trans-unit id="09a105ca0b894e5f8858bda4d60223581f270739" resname="Mode for displaying activities in calendar">
         <source>Mode for displaying activities in calendar</source>
-        <target state="new">Mode for displaying activities in calendar</target>
+        <target>Mode for displaying activities in calendar</target>
         <jms:reference-file line="96">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
         <jms:reference-file line="24">/Resources/views/settings/sport/form-type.html.twig</jms:reference-file>
       </trans-unit>
@@ -1897,7 +1931,8 @@
         <jms:reference-file line="25">/Resources/views/settings/app.html.twig</jms:reference-file>
         <jms:reference-file line="65">/Resources/views/settings/app.html.twig</jms:reference-file>
         <jms:reference-file line="132">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
-        <jms:reference-file line="15">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
+        <jms:reference-file line="30">/Resources/views/settings/sport/form-zone.html.twig</jms:reference-file>
+        <jms:reference-file line="16">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="d4d943b071a08916b403952ac8b6818a6510e335" resname="New body values">
         <source>New body values</source>
@@ -2029,12 +2064,12 @@
       <trans-unit id="56471a7ed0249ecb3f26afccf53d36397be796de" resname="Object cannot be deleted.">
         <source>Object cannot be deleted.</source>
         <target>Object cannot be deleted.</target>
-        <jms:reference-file line="144">/../src/CoreBundle/Controller/Settings/SportController.php</jms:reference-file>
-        <jms:reference-file line="234">/../src/CoreBundle/Controller/Settings/SportController.php</jms:reference-file>
+        <jms:reference-file line="309">/../src/CoreBundle/Controller/Settings/SportController.php</jms:reference-file>
+        <jms:reference-file line="401">/../src/CoreBundle/Controller/Settings/SportController.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="75b08673fead6db6910f48d09c649372e869879b" resname="Objects of main equipment type can be shown in the activity overview.">
         <source>Objects of main equipment type can be shown in the activity overview.</source>
-        <target state="new">Objects of main equipment type can be shown in the activity overview.</target>
+        <target>Objects of main equipment type can be shown in the activity overview.</target>
         <jms:reference-file line="99">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="abffb03580df0114b369bfe21b0017e6289e6062" resname="Objects will be displayed as inactive as soon as they have reached their end date.">
@@ -2248,7 +2283,7 @@
       </trans-unit>
       <trans-unit id="fa3a426b921fd47bc5ade4b57bf320043d0f7eea" resname="Power is recorded or calculated.">
         <source>Power is recorded or calculated.</source>
-        <target state="new">Power is recorded or calculated.</target>
+        <target>Power is recorded or calculated.</target>
         <jms:reference-file line="86">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="4eb004caa682a0a83804b6fb256eac0d8a9930ac" resname="Predict results on different distances for a given VO2max.">
@@ -2329,7 +2364,7 @@
       </trans-unit>
       <trans-unit id="3b60b51f6d17ccbdddd06dd4533b90fe0f58a9af" resname="Public activities will be visible for everybody.">
         <source>Public activities will be visible for everybody.</source>
-        <target state="new">Public activities will be visible for everybody.</target>
+        <target>Public activities will be visible for everybody.</target>
         <jms:reference-file line="47">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="cc811067aa252195bf88d9e7c0d64aad7314eb45" resname="Public athlete page">
@@ -2352,7 +2387,7 @@
       </trans-unit>
       <trans-unit id="a63e29df702686274e3e04f7d1306df0a66079bb" resname="Quality sessions will be emphasized in your calendar.">
         <source>Quality sessions will be emphasized in your calendar.</source>
-        <target state="new">Quality sessions will be emphasized in your calendar.</target>
+        <target>Quality sessions will be emphasized in your calendar.</target>
         <jms:reference-file line="23">/Resources/views/settings/sport/form-type.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="a666c9c3f8450ab58c1399b5dd51e18f6dd80748" resname="Quartiles">
@@ -2394,12 +2429,17 @@
       </trans-unit>
       <trans-unit id="84262fdebe4521c934ddedb00a12ee2e77f8e9b6" resname="Race results are treated in a special way to show your personal bests and are independent of the chosen activity type. You can add some details below.">
         <source>Race results are treated in a special way to show your personal bests and are independent of the chosen activity type. You can add some details below.</source>
-        <target state="new">Race results are treated in a special way to show your personal bests and are independent of the chosen activity type. You can add some details below.</target>
+        <target>Race results are treated in a special way to show your personal bests and are independent of the chosen activity type. You can add some details below.</target>
         <jms:reference-file line="46">/Resources/views/activity/form.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a16c5bbe4bf996740f257aa1e81bd57e4c52c8dd" resname="Range">
+        <source>Range</source>
+        <target state="new">Range</target>
+        <jms:reference-file line="31">/Resources/views/settings/sport/form-zone.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="ea241b14f6a9bfe4f60bef8df5b30e3b31ba755e" resname="Rating of Perceived Exertion or Borg scale, a scale devised to show perceived exertion during exercise">
         <source>Rating of Perceived Exertion or Borg scale, a scale devised to show perceived exertion during exercise</source>
-        <target state="new">Rating of Perceived Exertion or Borg scale, a scale devised to show perceived exertion during exercise</target>
+        <target>Rating of Perceived Exertion or Borg scale, a scale devised to show perceived exertion during exercise</target>
         <jms:reference-file line="129">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="18a351960abfe39eda2ecdcaaf9988397aaf6630" resname="Recalculate TRIMP values">
@@ -2563,7 +2603,7 @@
       <trans-unit id="ee3b27686ec124209239ea39434572c1355622b8" resname="Runalyze offers default configurations for common types of sport. This mapping is required to recognize the correct type of sport when syncing activities. You can still adjust all settings.">
         <source>Runalyze offers default configurations for common types of sport. This mapping is required to recognize the correct type of sport when syncing activities. You can still adjust all settings.</source>
         <target>Runalyze offers default configurations for common types of sport. This mapping is required to recognize the correct type of sport when syncing activities. You can still adjust all settings.</target>
-        <jms:reference-file line="65">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
+        <jms:reference-file line="85">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="73989d9c59264da08a15dba21c7d58237a91f08f" resname="Running">
         <source>Running</source>
@@ -2603,6 +2643,7 @@
         <jms:reference-file line="64">/Resources/views/settings/account.html.twig</jms:reference-file>
         <jms:reference-file line="94">/Resources/views/settings/dataset.html.twig</jms:reference-file>
         <jms:reference-file line="66">/Resources/views/settings/privacy.html.twig</jms:reference-file>
+        <jms:reference-file line="71">/Resources/views/settings/sport/form-zone.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="3b033f4c0bb998c03df5cc509c9d51edc69a3fbb" resname="Save and continue">
         <source>Save and continue</source>
@@ -2614,7 +2655,7 @@
         <source>Search activities</source>
         <target>Search activities</target>
         <jms:reference-file line="146">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
-        <jms:reference-file line="34">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
+        <jms:reference-file line="37">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
         <jms:reference-file line="29">/Resources/views/settings/tag/overview.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="81c52c528b6e6ff9f4f1c8db649d9254c3e15d13" resname="Search for decives">
@@ -2774,7 +2815,7 @@
         <source>Speed unit</source>
         <target>Speed unit</target>
         <jms:reference-file line="129">/../src/CoreBundle/Form/Settings/SportType.php</jms:reference-file>
-        <jms:reference-file line="17">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
+        <jms:reference-file line="20">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1855c2e357023dd4f4d4eb827506658f22907ca7" resname="Sport">
         <source>Sport</source>
@@ -2786,12 +2827,12 @@
       <trans-unit id="306b55e69e834296580113e664804f7121f68f7f" resname="Sport cannot be deleted.">
         <source>Sport cannot be deleted.</source>
         <target>Sport cannot be deleted.</target>
-        <jms:reference-file line="44">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
-        <jms:reference-file line="48">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
+        <jms:reference-file line="54">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
+        <jms:reference-file line="58">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="d5cfccfc2f15461d881722495a9093e1c074ed0c" resname="Sport is performed outdoor: activate route, weather, ...">
         <source>Sport is performed outdoor: activate route, weather, ...</source>
-        <target state="new">Sport is performed outdoor: activate route, weather, ...</target>
+        <target>Sport is performed outdoor: activate route, weather, ...</target>
         <jms:reference-file line="87">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="d2083144287f7ba2705f28f6694122d1eb0b7d1f" resname="Sport relevance">
@@ -2863,7 +2904,7 @@
       </trans-unit>
       <trans-unit id="fd5766a19d61d974ecb08f61728d5081d354e730" resname="Subscribe failure">
         <source>Subscribe failure</source>
-        <target state="new">Subscribe failure</target>
+        <target>Subscribe failure</target>
         <jms:reference-file line="6">/Resources/views/account/subscribe_failure.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="f32d5a3b17e614297417cc279a7ec1cd02274d65" resname="Support">
@@ -2913,7 +2954,7 @@
       </trans-unit>
       <trans-unit id="28a77a3fda3cf84999df4daf902b1fe9f72999e0" resname="Take a look at our privacy policy.">
         <source>Take a look at our privacy policy.</source>
-        <target state="new">Take a look at our privacy policy.</target>
+        <target>Take a look at our privacy policy.</target>
         <jms:reference-file line="39">/Resources/views/register/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="cbd7668f12692a2f8853cd747d8a8f490bc7ab04" resname="Tax identification number">
@@ -2934,7 +2975,7 @@
       </trans-unit>
       <trans-unit id="6b50e31a7e1337db9ecb0e2fcb6e65ca27f57df5" resname="Thank you">
         <source>Thank you</source>
-        <target state="new">Thank you</target>
+        <target>Thank you</target>
         <jms:reference-file line="8">/Resources/views/account/subscribe_success.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="08cbfac1e2545912621d38d233987530cdf47555" resname="Thanks for sharing your thoughts!">
@@ -3048,8 +3089,9 @@
         <source>The object has been deleted.</source>
         <target>The object has been deleted.</target>
         <jms:reference-file line="252">/../src/CoreBundle/Controller/My/EquipmentController.php</jms:reference-file>
-        <jms:reference-file line="142">/../src/CoreBundle/Controller/Settings/SportController.php</jms:reference-file>
-        <jms:reference-file line="232">/../src/CoreBundle/Controller/Settings/SportController.php</jms:reference-file>
+        <jms:reference-file line="148">/../src/CoreBundle/Controller/Settings/SportController.php</jms:reference-file>
+        <jms:reference-file line="307">/../src/CoreBundle/Controller/Settings/SportController.php</jms:reference-file>
+        <jms:reference-file line="399">/../src/CoreBundle/Controller/Settings/SportController.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="08663189f24692053b4262ce69bf52c84df09948" resname="The plug-in was not unlocked successfully.">
         <source>The plug-in was not unlocked successfully.</source>
@@ -3152,6 +3194,11 @@
         <target>These recalculations are only needed if you changed the corresponding settings.</target>
         <jms:reference-file line="60">/Resources/views/tools/database_cleanup/form.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="5fdecd9eda9f0ddb1b311af01ac6c50f66b903b1" resname="These zones are valid for:">
+        <source>These zones are valid for:</source>
+        <target state="new">These zones are valid for:</target>
+        <jms:reference-file line="22">/Resources/views/settings/sport/form-zone.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="e28e6cc0bb36b28f539e3ff5b5fcd86d07fb96fa" resname="This action can't be undone.">
         <source>This action can't be undone.</source>
         <target>This action can't be undone.</target>
@@ -3169,7 +3216,7 @@
       </trans-unit>
       <trans-unit id="f242d0bc8f5c2c8a9e12b737e533464fb9d7670f" resname="This field is only meant for official track races such that distances can be shown correctly, e.g. as 10.000m. Use tags for all other purposes.">
         <source>This field is only meant for official track races such that distances can be shown correctly, e.g. as 10.000m. Use tags for all other purposes.</source>
-        <target state="new">This field is only meant for official track races such that distances can be shown correctly, e.g. as 10.000m. Use tags for all other purposes.</target>
+        <target>This field is only meant for official track races such that distances can be shown correctly, e.g. as 10.000m. Use tags for all other purposes.</target>
         <jms:reference-file line="67">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="c59b624220c94870574049cd1ffaa49bad967745" resname="This is your default race type.">
@@ -3180,7 +3227,7 @@
       <trans-unit id="414bdd61d7140f3d6eb536c84f4fd68d6837b63e" resname="This is your main sport.">
         <source>This is your main sport.</source>
         <target>This is your main sport.</target>
-        <jms:reference-file line="44">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
+        <jms:reference-file line="54">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="ff3cf6c5a9404adfdfe68c9da50055dc65af8ad7" resname="This list shows all your activity tags.">
         <source>This list shows all your activity tags.</source>
@@ -3231,7 +3278,7 @@
       </trans-unit>
       <trans-unit id="c72a3322d54986e46904c80eacd1ec14b159d9a6" resname="This value will be calculated automatically from duration and sport settings (if activated in your configuration) only if you change the duration or the type of sport.">
         <source>This value will be calculated automatically from duration and sport settings (if activated in your configuration) only if you change the duration or the type of sport.</source>
-        <target state="new">This value will be calculated automatically from duration and sport settings (if activated in your configuration) only if you change the duration or the type of sport.</target>
+        <target>This value will be calculated automatically from duration and sport settings (if activated in your configuration) only if you change the duration or the type of sport.</target>
         <jms:reference-file line="57">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="de63de8d63f7347ac7991ba168ac2e2215cb7ed3" resname="This way of presentation allows to compare not only average values (e.g. pace over months) but deviations and outliers between different groupings.">
@@ -3474,12 +3521,12 @@
       </trans-unit>
       <trans-unit id="649bb32fed71b0bbdb59f89caec3c3330dfeb93e" resname="Value to group by">
         <source>Value to group by</source>
-        <target state="new">Value to group by</target>
+        <target>Value to group by</target>
         <jms:reference-file line="123">/../src/CoreBundle/Form/Tools/Anova/AnovaType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="688af560a060d5a3851f6891266594068ec88074" resname="Value to look at">
         <source>Value to look at</source>
-        <target state="new">Value to look at</target>
+        <target>Value to look at</target>
         <jms:reference-file line="137">/../src/CoreBundle/Form/Tools/Anova/AnovaType.php</jms:reference-file>
         <jms:reference-file line="116">/../src/CoreBundle/Form/Tools/TrendAnalysis/TrendAnalysisType.php</jms:reference-file>
       </trans-unit>
@@ -3606,7 +3653,7 @@
       </trans-unit>
       <trans-unit id="ac298b6ed81ec13aadd8aefae369a27cc3024488" resname="Will be calculated afterwards from the activity's elevation profile.">
         <source>Will be calculated afterwards from the activity's elevation profile.</source>
-        <target state="new">Will be calculated afterwards from the activity's elevation profile.</target>
+        <target>Will be calculated afterwards from the activity's elevation profile.</target>
         <jms:reference-file line="69">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="bb74815c6b0beb6dd119fc7dc4ccda65706922f0" resname="Wind degrees">
@@ -3643,7 +3690,7 @@
       </trans-unit>
       <trans-unit id="be543145a0a636eba462cebeb353771fb69c7e89" resname="Yes! I would like to receive updates about RUNALYZE via Mail">
         <source>Yes! I would like to receive updates about RUNALYZE via Mail</source>
-        <target state="new">Yes! I would like to receive updates about RUNALYZE via Mail</target>
+        <target>Yes! I would like to receive updates about RUNALYZE via Mail</target>
         <jms:reference-file line="43">/../src/CoreBundle/Form/RegistrationType.php</jms:reference-file>
         <jms:reference-file line="32">/Resources/views/register/form.html.twig</jms:reference-file>
       </trans-unit>
@@ -3783,10 +3830,10 @@
       <trans-unit id="c68ed288b5e76e90c37763dec184be248ed8a2b1" resname="You have activities associated with this type.">
         <source>You have activities associated with this type.</source>
         <target>You have activities associated with this type.</target>
-        <jms:reference-file line="144">/../src/CoreBundle/Controller/Settings/SportController.php</jms:reference-file>
-        <jms:reference-file line="234">/../src/CoreBundle/Controller/Settings/SportController.php</jms:reference-file>
+        <jms:reference-file line="309">/../src/CoreBundle/Controller/Settings/SportController.php</jms:reference-file>
+        <jms:reference-file line="401">/../src/CoreBundle/Controller/Settings/SportController.php</jms:reference-file>
         <jms:reference-file line="157">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
-        <jms:reference-file line="48">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
+        <jms:reference-file line="58">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="120303dea28db66866fffd533f95bcd74ef20f9a" resname="You have deactivated automatic calculation of energy turnover in your settings.">
         <source>You have deactivated automatic calculation of energy turnover in your settings.</source>
@@ -3795,12 +3842,12 @@
       </trans-unit>
       <trans-unit id="16c73ecb7321560d538be3dd7493504e45965d29" resname="You have successfully subscribed">
         <source>You have successfully subscribed</source>
-        <target state="new">You have successfully subscribed</target>
+        <target>You have successfully subscribed</target>
         <jms:reference-file line="6">/Resources/views/account/subscribe_success.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1ff6894eeba0f94a67959646db8713cf46ebf154" resname="You have successfully subscribed again to all notifications by RUNALYZE">
         <source>You have successfully subscribed again to all notifications by RUNALYZE</source>
-        <target state="new">You have successfully subscribed again to all notifications by RUNALYZE</target>
+        <target>You have successfully subscribed again to all notifications by RUNALYZE</target>
         <jms:reference-file line="8">/Resources/views/account/subscribe_success.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="0a8893c2610dafde57fc95703bbfac82a0fab3bd" resname="You have successfully unsubscribed">
@@ -3962,6 +4009,16 @@
         <target>Your sports</target>
         <jms:reference-file line="5">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="2ce13558625eef80d444917755ec98696fc8614c" resname="Zone settings">
+        <source>Zone settings</source>
+        <target state="new">Zone settings</target>
+        <jms:reference-file line="11">/Resources/views/settings/sport/form-zone.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="182e2eb72d8d50f09d8ef665942c0cc3845e6f5b" resname="Zones">
+        <source>Zones</source>
+        <target state="new">Zones</target>
+        <jms:reference-file line="18">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="5695f686b22368b7aa96013b0b4f26420471f8fc" resname="add new lap">
         <source>add new lap</source>
         <target>add new lap</target>
@@ -4041,6 +4098,7 @@
         <jms:reference-file line="174">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
         <jms:reference-file line="50">/Resources/views/settings/sport/form-type.html.twig</jms:reference-file>
         <jms:reference-file line="52">/Resources/views/settings/sport/form-type.html.twig</jms:reference-file>
+        <jms:reference-file line="194">/Resources/views/settings/sport/form-zone.html.twig</jms:reference-file>
         <jms:reference-file line="38">/Resources/views/settings/tag/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="a77e8ac7d28985989bf64d2b7b8d6739178fd3e3" resname="by&amp;nbsp;HR">
@@ -4330,6 +4388,8 @@
       <trans-unit id="4374aaee247fb237ce6c97d5c8d64bbe474d16de" resname="to">
         <source>to</source>
         <target>to</target>
+        <jms:reference-file line="41">/Resources/views/settings/sport/form-zone.html.twig</jms:reference-file>
+        <jms:reference-file line="51">/Resources/views/settings/sport/form-zone.html.twig</jms:reference-file>
         <jms:reference-file line="23">/Resources/views/tools/anova/base.html.twig</jms:reference-file>
         <jms:reference-file line="23">/Resources/views/tools/trend-analysis/base.html.twig</jms:reference-file>
       </trans-unit>
