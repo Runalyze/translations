@@ -422,14 +422,14 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Durchschnitt</target>
         <jms:reference-file line="224">/Resources/views/tools/trend-analysis/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="58e201b40653c645d927308a87a9cd3c619ec168" resname="Average energy turnover in kilocalories per hour">
+      <trans-unit id="58e201b40653c645d927308a87a9cd3c619ec168" resname="Average energy turnover in kilocalories per hour" approved="no">
         <source>Average energy turnover in kilocalories per hour</source>
-        <target>Average energy turnover in kilocalories per hour</target>
+        <target state="translated">Durchschnittlicher Energieumsatz in Kilokalorien pro Stunde</target>
         <jms:reference-file line="70">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="be2d8ef406c4520bfc582a85493d1a240d8939a7" resname="Average heart rate (used for calculation of TRIMP)">
+      <trans-unit id="be2d8ef406c4520bfc582a85493d1a240d8939a7" resname="Average heart rate (used for calculation of TRIMP)" approved="no">
         <source>Average heart rate (used for calculation of TRIMP)</source>
-        <target>Average heart rate (used for calculation of TRIMP)</target>
+        <target state="translated">Durchschnittliche Herzfrequenz (zur Berechnung von TRIMP)</target>
         <jms:reference-file line="22">/Resources/views/settings/sport/form-type.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="f5ddda878100628b602c3fc855a3774b4f3c5bc8" resname="Average heart rate will be used as fallback for calculations like TRIMP if no heart rate data is available.">
@@ -612,9 +612,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Aktivtäten auswählen</target>
         <jms:reference-file line="23">/Resources/views/activity/multi_importer.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="45b9ce6e2d695ff2c034093f4531d40c366e7b04" resname="Choose an option">
+      <trans-unit id="45b9ce6e2d695ff2c034093f4531d40c366e7b04" resname="Choose an option" approved="no">
         <source>Choose an option</source>
-        <target>Choose an option</target>
+        <target state="translated">Wähle eine Option</target>
         <jms:reference-file line="64">/../src/CoreBundle/Form/Tools/PosterType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="1dba7dd902a8d18d0072fe747078f61d341624ba" resname="Choose postertype(s)">
@@ -632,14 +632,14 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Sportart auswählen</target>
         <jms:reference-file line="25">/Resources/views/tools/poster.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2e467a9356f191ce9ef5942588c4cc7a53ca2aff" resname="Choose sport(s)">
+      <trans-unit id="2e467a9356f191ce9ef5942588c4cc7a53ca2aff" resname="Choose sport(s)" approved="no">
         <source>Choose sport(s)</source>
-        <target>Choose sport(s)</target>
+        <target state="translated">Sportart(en) auswählen</target>
         <jms:reference-file line="90">/../src/CoreBundle/Form/EquipmentCategoryType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2b49897d5d1be328d37f28e0aba2328510ecddab" resname="Choose tag(s)">
+      <trans-unit id="2b49897d5d1be328d37f28e0aba2328510ecddab" resname="Choose tag(s)" approved="no">
         <source>Choose tag(s)</source>
-        <target>Choose tag(s)</target>
+        <target state="translated">Tag(s) auswählen</target>
         <jms:reference-file line="232">/../src/CoreBundle/Form/ActivityType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="7653de6e384e9cb663ae64974403b72ac85790ad" resname="Choose the correct type for the equipment">
@@ -924,9 +924,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Standard Wettkampftrainingstyp</target>
         <jms:reference-file line="187">/../src/CoreBundle/Form/Settings/SportType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="faf49b1e2de23a37f81b54ab6186d82c1089207a" resname="Default zones">
+      <trans-unit id="faf49b1e2de23a37f81b54ab6186d82c1089207a" resname="Default zones" approved="no">
         <source>Default zones</source>
-        <target state="new">Default zones</target>
+        <target state="translated">Standardzonen</target>
         <jms:reference-file line="65">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1cf6934a3e6a8d1d7daddb24f229e4c35ec88aab" resname="Defining some laps as 'resting' will hide them in the respective plot.">
