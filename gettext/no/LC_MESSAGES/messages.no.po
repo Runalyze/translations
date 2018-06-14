@@ -8,268 +8,274 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2018-06-14 18:57+0000\n"
+"Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
+"Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
+"runalyze-master-po/no/>\n"
 "Language: no\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.20-dev\n"
 
 #: dashboard.php:46 dashboard.php:48
 msgid "Public athlete page"
-msgstr ""
+msgstr "Offentlig utøverside"
 
 #: dashboard.php:48
 msgid "Your public athlete page is deactivated."
-msgstr ""
+msgstr "Din offentlige utøverside er deaktivert."
 
 #: dashboard.php:52
 msgid "Account settings"
-msgstr ""
+msgstr "Kontoinnstillinger"
 
 #: dashboard.php:53
 msgid "Privacy settings"
-msgstr ""
+msgstr "Personverninnstillinger"
 
 #: dashboard.php:54
 msgid "Apps"
-msgstr ""
+msgstr "Applikasjoner"
 
 #: dashboard.php:55
 msgid "Logout"
-msgstr ""
+msgstr "Logg ut"
 
 #: dashboard.php:64 dashboard.php:225
 msgid "Glossary"
-msgstr ""
+msgstr "Ordliste"
 
 #: dashboard.php:65
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentasjon"
 
 #: dashboard.php:68
 msgid "Feedback"
-msgstr ""
+msgstr "Tilbakemelding"
 
 #: dashboard.php:70 dashboard.php:227
 msgid "Forum"
-msgstr ""
+msgstr "Forum"
 
 #: dashboard.php:71 dashboard.php:230
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: dashboard.php:72
 msgid "Shop"
-msgstr ""
+msgstr "Butikk"
 
 #: dashboard.php:74
 msgid "About us"
-msgstr ""
+msgstr "Om oss"
 
 #: dashboard.php:83
 msgid "Show all notifications"
-msgstr ""
+msgstr "Vis alle varsler"
 
 #: dashboard.php:85
 msgid "No new notifications"
-msgstr ""
+msgstr "Ingen nye varsler"
 
 #: dashboard.php:99
 msgid "Activity upload"
-msgstr ""
+msgstr "Last opp aktivitet"
 
 #: dashboard.php:100
 msgid "Manual activity"
-msgstr ""
+msgstr "Manuell aktivitet"
 
 #: dashboard.php:101
 msgid "New equipment"
-msgstr ""
+msgstr "Nytt utstyr"
 
 #: dashboard.php:102
 msgid "New body values"
-msgstr ""
+msgstr "Nye kroppsverdier"
 
 #: dashboard.php:108 inc/plugin/config/class.PluginConfigurationWindow.php:114
 #: src/CoreBundle/Controller/PluginController.php:38
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:133
 msgid "Configuration"
-msgstr ""
+msgstr "Konfigurasjon"
 
 #: dashboard.php:111 inc/system/config/class.ConfigTabGeneral.php:20
 #: inc/core/Configuration/Category/General.php:213
 msgid "General settings"
-msgstr ""
+msgstr "Generelle innstillinger"
 
 #: dashboard.php:112 inc/system/config/class.ConfigTabPlugins.php:17
 msgid "Plugins"
-msgstr ""
+msgstr "Tillegg"
 
 #: dashboard.php:113
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:134
 msgid "Dataset"
-msgstr ""
+msgstr "Datasett"
 
 #: dashboard.php:114
 #: plugin/RunalyzePluginPanel_Sports/class.RunalyzePluginPanel_Sports.php:12
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:137
 msgid "Sports"
-msgstr ""
+msgstr "Sport"
 
 #: dashboard.php:115 inc/core/Dataset/Keys/MainEquipment.php:44
 #: inc/training/search/class.SearchFormular.php:176
 #: plugin/RunalyzePluginPanel_Equipment/class.RunalyzePluginPanel_Equipment.php:29
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:145
 msgid "Equipment"
-msgstr ""
+msgstr "Utstyr"
 
 #: dashboard.php:116
 msgid "Activity tags"
-msgstr ""
+msgstr "Aktivitetsmerker"
 
 #: dashboard.php:122 inc/core/Dataset/Keys/Tools.php:52
 #: inc/training/view/class.TrainingView.php:137
 msgid "Tools"
-msgstr ""
+msgstr "Verktøy"
 
 #: dashboard.php:125
 msgid "Trend analysis"
-msgstr ""
+msgstr "Trendanalyse"
 
 #: dashboard.php:126
 msgid "ANOVA"
-msgstr ""
+msgstr "ANOVA"
 
 #: dashboard.php:127
 msgid "Analyze your VO2max"
-msgstr ""
+msgstr "Analyser ditt VO2max"
 
 #: dashboard.php:128
 msgid "Running tables"
-msgstr ""
+msgstr "Løpstabeller"
 
 #: dashboard.php:129
 msgid "Poster generator"
-msgstr ""
+msgstr "Plakatgenerator"
 
 #: dashboard.php:131
 msgid "More"
-msgstr ""
+msgstr "Mer"
 
 #: dashboard.php:135 inc/training/search/class.SearchFormular.php:74
 msgid "Search"
-msgstr ""
+msgstr "Søk"
 
 #: dashboard.php:166
 #: inc/training/view/section/class.SectionMiscellaneous.php:34
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Diverse"
 
 #: dashboard.php:203
 msgid ""
 "<em>There are no statistics available. Activate a plugin in your "
 "configuration.</em>"
 msgstr ""
+"<em>Det er ingen statistikk tilgjengelig. Aktiver et tillegg i din "
+"konfigurasjon. </em>"
 
 #: dashboard.php:226
 msgid "Help and support"
-msgstr ""
+msgstr "Hjelp og støtte"
 
 #: dashboard.php:228
 msgid "Donate &amp; Support the project"
-msgstr ""
+msgstr "Donere &amp; Støtt prosjektet"
 
 #: dashboard.php:229
 msgid "Translations"
-msgstr ""
+msgstr "Oversettelser"
 
 #: dashboard.php:231
 msgid "Statement of Privacy"
-msgstr ""
+msgstr "Personvernerklæring"
 
 #: dashboard.php:232
 msgid "Terms of use"
-msgstr ""
+msgstr "Vilkår for bruk"
 
 #: dashboard.php:233
 msgid "Imprint"
-msgstr ""
+msgstr "Merkenavn"
 
 #: inc/system/class.SharedLinker.php:61
 msgid ""
 "You can activate your public athlete page in your <em>Privacy->Settings</em>"
 msgstr ""
+"Du kan aktivere din offentlige utøverside i dine "
+"<em>personverninnstillinger</em>"
 
 #: inc/system/class.SharedLinker.php:63
 msgid "Your public athlete page"
-msgstr ""
+msgstr "Din offentlige utøverside"
 
 #: inc/system/config/class.ConfigTabPlugins.php:32
 msgid "Panels"
-msgstr ""
+msgstr "Paneler"
 
 #: inc/system/config/class.ConfigTabPlugins.php:33
 msgid "Panels are small statistics always shown on the right side."
-msgstr ""
+msgstr "Paneler er små oversikter over statistikk, alltid vist på høyre side."
 
 #: inc/system/config/class.ConfigTabPlugins.php:37
 #: inc/plugin/class.PluginType.php:50
 #: plugin/RunalyzePluginStat_Statistiken/class.RunalyzePluginStat_Statistiken.php:38
 msgid "Statistics"
-msgstr ""
+msgstr "Statistikker"
 
 #: inc/system/config/class.ConfigTabPlugins.php:38
 msgid "Normal statistics are shown below the activitiy log."
-msgstr ""
+msgstr "Ordinære statistikker er vist nedenfor aktivitetsloggen."
 
 #: inc/system/config/class.ConfigTabPlugins.php:41
 msgid "Install a new plugin"
-msgstr ""
+msgstr "Installer et nytt tillegg"
 
 #: inc/system/config/class.ConfigTabPlugins.php:42
 msgid "New plugins can be installed here."
-msgstr ""
+msgstr "Nye tillegg kan bli installert her."
 
 #: inc/system/config/class.ConfigTabPlugins.php:63
 msgid "No plugins available."
-msgstr ""
+msgstr "Ingen tillegg er tilgjengelig."
 
 #: inc/system/config/class.ConfigTabPlugins.php:71
 msgid "Mode"
-msgstr ""
+msgstr "Modus"
 
 #: inc/system/config/class.ConfigTabPlugins.php:72
 msgid "Order"
-msgstr ""
+msgstr "Rekkefølge"
 
 #: inc/system/config/class.ConfigTabPlugins.php:84
 msgid "The plugin cannot be found."
-msgstr ""
+msgstr "Tillegget ble ikke funnet."
 
 #: inc/system/config/class.ConfigTabPlugins.php:93
 msgid "enabled"
-msgstr ""
+msgstr "aktivert"
 
 #: inc/system/config/class.ConfigTabPlugins.php:94
 msgid "hidden*"
-msgstr ""
+msgstr "skjult*"
 
 #: inc/system/config/class.ConfigTabPlugins.php:95
 msgid "not enabled"
-msgstr ""
+msgstr "ikke aktivert"
 
 #: inc/system/config/class.ConfigTabPlugins.php:133
 msgid "* Hidden plugins only show their headings."
-msgstr ""
+msgstr "* Skjulte tillegg viser bare overskriften sin."
 
 #: inc/system/config/class.ConfigTabPlugins.php:136
 msgid "* Hidden plugins are grouped as 'Miscellaneous'."
-msgstr ""
+msgstr "* Skjulte tillegg er gruppert som 'Diverse'"
 
 #: inc/system/config/class.ConfigTabPlugins.php:179
 msgid "There are no new plugins to install."
