@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-14 22:38+0000\n"
+"PO-Revision-Date: 2018-06-15 11:47+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -275,7 +275,7 @@ msgstr "* Skjulte tillegg viser bare overskriften sin."
 
 #: inc/system/config/class.ConfigTabPlugins.php:136
 msgid "* Hidden plugins are grouped as 'Miscellaneous'."
-msgstr "* Skjulte tillegg er gruppert som 'Diverse'"
+msgstr "* Skjulte tillegg er gruppert som 'Diverse'."
 
 #: inc/system/config/class.ConfigTabPlugins.php:179
 msgid "There are no new plugins to install."
@@ -345,7 +345,7 @@ msgstr "tilbake til oversikt"
 #: inc/plugin/config/class.PluginConfigurationWindow.php:75
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:136
 msgid "Plugin configuration"
-msgstr "Tilleggskonfigurasjon"
+msgstr "Tilleggs-konfigurasjon"
 
 #: inc/plugin/config/class.PluginConfigurationWindow.php:99
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:337
@@ -407,7 +407,7 @@ msgstr "Idag"
 
 #: inc/class.DataBrowser.php:282
 msgid "Reload current datasheet"
-msgstr "Last på nytt gjeldende dataark"
+msgstr "Oppfrisk gjeldende dataark"
 
 #: inc/class.DataBrowser.php:290
 #: inc/core/Configuration/Category/DataBrowser.php:117
@@ -521,18 +521,18 @@ msgstr "Distanse"
 #: inc/core/Dataset/Keys/Groundcontact.php:44
 #: inc/core/View/Window/Laps/Table.php:269
 msgid "Ground contact time"
-msgstr ""
+msgstr "Tid bakkekontakt"
 
 #: inc/core/Dataset/Keys/Groundcontact.php:53
 msgid "Groundcontact"
-msgstr ""
+msgstr "Bakkekontakt"
 
 #: inc/core/Dataset/Keys/VO2maxValue.php:36
 #: inc/training/view/section/class.SectionPaceRow.php:74
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:164
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:419
 msgid "Effective VO<sub>2</sub>max"
-msgstr ""
+msgstr "Effektiv VO<sub>2</sub>max"
 
 #: inc/core/Dataset/Keys/VO2maxValue.php:55
 msgid ""
@@ -554,7 +554,7 @@ msgstr ""
 #: inc/core/Dataset/Keys/FitPerformanceConditionStart.php:31
 #: inc/core/Dataset/Keys/FitHrvAnalysis.php:44
 msgid "(by file)"
-msgstr ""
+msgstr "(i fil)"
 
 #: inc/core/Dataset/Keys/FitPerformanceCondition.php:52
 #: inc/core/Activity/PerformanceCondition.php:67
@@ -571,7 +571,7 @@ msgstr ""
 
 #: inc/core/Dataset/Keys/FitPerformanceConditionEnd.php:31
 msgid "at the end"
-msgstr ""
+msgstr "ved slutten"
 
 #: inc/core/Dataset/Keys/FitPerformanceConditionEnd.php:40
 msgid "PC End"
@@ -583,26 +583,27 @@ msgstr ""
 #: inc/training/view/section/class.SectionRunningDynamicsRow.php:76
 #: inc/training/search/class.SearchFormular.php:204
 msgid "Vertical oscillation"
-msgstr ""
+msgstr "Vertikal oscillering"
 
 #: inc/core/Dataset/Keys/VerticalOscillation.php:53
 msgid ""
 "Vertical oscillation is your vertical motion of your torso measured in "
 "centimeters"
 msgstr ""
+"Vertikal oscillering er vertikal bevegelse av torsoet ditt, målt i centimeter"
 
 #: inc/core/Dataset/Keys/FlightTime.php:21
 #: inc/core/View/Activity/Box/FlightTime.php:14
 #: inc/training/search/class.FormularSelectSearchSort.php:58
 msgid "Flight time"
-msgstr ""
+msgstr "Svevetid"
 
 #: inc/core/Dataset/Keys/GroundcontactBalance.php:44
 #: inc/core/View/Activity/Plot/Series/GroundContactBalance.php:58
 #: inc/core/View/Window/Laps/Table.php:271
 #: inc/training/view/section/class.SectionRunningDynamicsRow.php:55
 msgid "Ground contact balance"
-msgstr ""
+msgstr "Bakkekontakt balanse"
 
 #: inc/core/Dataset/Keys/GroundcontactBalance.php:53
 msgid "GCB"
@@ -610,30 +611,32 @@ msgstr ""
 
 #: inc/core/Dataset/Keys/GroundcontactBalance.php:62
 msgid "Ground contact time balance measures your running symmetry."
-msgstr ""
+msgstr "Bakkekontakt tid og balanse måler symmetrien i løpingen din."
 
 #: inc/core/Dataset/Keys/Title.php:46
 #: inc/training/search/class.SearchFormular.php:189
 msgid "Title"
-msgstr ""
+msgstr "Tittel"
 
 #: inc/core/Dataset/Keys/Title.php:56
 #, php-format
 msgid "Titles are automatically cut after %u characters."
-msgstr ""
+msgstr "Titler er automatisk kuttet etter %u bokstaver."
 
 #: inc/core/Dataset/Keys/FitVO2maxEstimate.php:53
 msgid "(file)"
-msgstr ""
+msgstr "(fil)"
 
 #: inc/core/Dataset/Keys/FitVO2maxEstimate.php:62
 msgid "Garmin's newer devices have an integrated VO2max estimation."
-msgstr ""
+msgstr "Garmins nyere enheter har integrert estimering av VO2max."
 
 #: inc/core/Dataset/Keys/FitVO2maxEstimate.php:63
 msgid ""
 "This value refers to your estimated VO2max at the start of the activity."
 msgstr ""
+"Denne verdien refererer til ditt estimerte VO2max ved begynnelsen av "
+"aktiviteten."
 
 #: inc/core/Dataset/Keys/AveragePronationExcursion.php:22
 #: inc/core/View/Activity/Plot/Series/PronationExcursion.php:28
@@ -643,56 +646,56 @@ msgstr ""
 #: inc/training/search/class.FormularSelectSearchSort.php:66
 #: inc/training/search/class.FormularSelectSearchSort.php:67
 msgid "Pronation excursion"
-msgstr ""
+msgstr "Pronasjonsbevegelse"
 
 #: inc/core/Dataset/Keys/AveragePronationExcursion.php:27
 msgid "Pronation"
-msgstr ""
+msgstr "Pronasjon"
 
 #: inc/core/Dataset/Keys/RaceResult.php:40
 msgid "Race result"
-msgstr ""
+msgstr "Løpsresultat"
 
 #: inc/core/Dataset/Keys/RaceResult.php:88
 msgid "Your placements at races"
-msgstr ""
+msgstr "Din plassering i løpet"
 
 #: inc/core/Dataset/Keys/RaceResult.php:127
 #: inc/core/Dataset/Keys/RaceResult.php:178
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:363
 msgid "Official distance"
-msgstr ""
+msgstr "Offisiell distanse"
 
 #: inc/core/Dataset/Keys/RaceResult.php:128
 #: inc/core/Dataset/Keys/RaceResult.php:179
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:364
 msgid "Official time"
-msgstr ""
+msgstr "Offisiell tid"
 
 #: inc/core/Dataset/Keys/RaceResult.php:135
 #: inc/core/Dataset/Keys/RaceResult.php:181
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:406
 msgid "Age group"
-msgstr ""
+msgstr "Aldersgruppe"
 
 #: inc/core/Dataset/Keys/RaceResult.php:139
 #: inc/core/Dataset/Keys/RaceResult.php:182
 msgid "Gender"
-msgstr ""
+msgstr "Kjønn"
 
 #: inc/core/Dataset/Keys/RaceResult.php:163
 msgid "Race name"
-msgstr ""
+msgstr "Løpsnavn"
 
 #: inc/core/Dataset/Keys/AirPressure.php:43
 msgid "Air pressure"
-msgstr ""
+msgstr "Lufttrykk"
 
 #: inc/core/Dataset/Keys/AirPressure.php:52
 #: inc/core/Dataset/Keys/Weather.php:81 inc/core/Data/Weather/Pressure.php:58
 #: inc/training/search/class.SearchFormular.php:225
 msgid "Pressure"
-msgstr ""
+msgstr "Trykk"
 
 #: inc/core/Dataset/Keys/AverageBrakingGs.php:22
 #: inc/core/View/Activity/Plot/Series/BrakingGs.php:28
@@ -708,41 +711,47 @@ msgstr ""
 #: inc/draw/class.PlotSumData.php:226
 #: inc/training/search/class.SearchFormular.php:207
 msgid "TRIMP"
-msgstr ""
+msgstr "TRIMP"
 
 #: inc/core/Dataset/Keys/Trimp.php:54
 msgid ""
 "Trimp values are colored based on their value, slightly transparent for low "
 "values and dark red for high values."
 msgstr ""
+"TRIMP-verdier er fargegradert basert på verdi, delvis gjennomsiktig for lave "
+"verdier og mørk rød for høye verdier."
 
 #: inc/core/Dataset/Keys/Energy.php:45 inc/core/Activity/Energy.php:59
 #: inc/training/search/class.SearchFormular.php:215
 msgid "Energy"
-msgstr ""
+msgstr "Energi"
 
 #: inc/core/Dataset/Keys/Energy.php:54
 msgid ""
 "Energy values are taken from your device or calculated by a simple formula."
 msgstr ""
+"Verdier for energi er hentet fra din enhet eller kalkulert med en enkel "
+"kalkulasjon."
 
 #: inc/core/Dataset/Keys/ElapsedTime.php:44
 #: inc/training/view/section/class.SectionCompositeRow.php:99
 #: inc/training/view/section/class.SectionOverviewRow.php:53
 msgid "Elapsed time"
-msgstr ""
+msgstr "Forløpt tid"
 
 #: inc/core/Dataset/Keys/ElapsedTime.php:53
 msgid ""
 "Elapsed time is the difference between end and start of your activity "
 "including pauses."
 msgstr ""
+"Forløpt tid er forskjellen mellom slutt og start av aktiviteten din "
+"inkludert pauser."
 
 #: inc/core/Dataset/Keys/FlightRatio.php:21
 #: inc/core/View/Activity/Box/FlightRatio.php:16
 #: inc/training/search/class.FormularSelectSearchSort.php:59
 msgid "Flight ratio"
-msgstr ""
+msgstr "Sveverate"
 
 #: inc/core/Dataset/Keys/HeartrateAverage.php:44
 #: inc/core/Dataset/Keys/HeartrateAverage.php:53
@@ -790,7 +799,7 @@ msgstr ""
 #: inc/training/view/section/class.SectionOverviewRow.php:56
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:403
 msgid "Heart rate"
-msgstr ""
+msgstr "Hjertefrekvens"
 
 #: inc/core/Dataset/Keys/HeartrateAverage.php:53
 #: inc/core/Dataset/Keys/HeartrateMaximum.php:53
@@ -799,7 +808,7 @@ msgstr ""
 #: inc/training/view/section/table/class.TableZonesPace.php:31
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:403
 msgid "HR"
-msgstr ""
+msgstr "HF"
 
 #: inc/core/Dataset/Keys/Pace.php:56 inc/core/Profile/Sport/Zones/Pace.php:22
 #: inc/core/View/Splits/Table.php:156
@@ -815,17 +824,17 @@ msgstr ""
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:265
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:269
 msgid "Pace"
-msgstr ""
+msgstr "Tempo"
 
 #: inc/core/Dataset/Keys/FitTrainingEffect.php:43
 #: inc/core/Activity/TrainingEffect.php:53
 #: inc/training/search/class.SearchFormular.php:220
 msgid "Training Effect"
-msgstr ""
+msgstr "Treningseffekt"
 
 #: inc/core/Dataset/Keys/FitTrainingEffect.php:52
 msgid "TE"
-msgstr ""
+msgstr "TE"
 
 #: inc/core/Dataset/Keys/FitTrainingEffect.php:62
 msgid ""
