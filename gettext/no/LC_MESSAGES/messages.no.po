@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-14 18:57+0000\n"
+"PO-Revision-Date: 2018-06-14 19:03+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -279,64 +279,64 @@ msgstr "* Skjulte tillegg er gruppert som 'Diverse'"
 
 #: inc/system/config/class.ConfigTabPlugins.php:179
 msgid "There are no new plugins to install."
-msgstr ""
+msgstr "Det er ingen nye tillegg å installere."
 
 #: inc/system/config/class.ConfigTabPlugins.php:186
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:135
 msgid "Plugin"
-msgstr ""
+msgstr "Tillegg"
 
 #: inc/system/config/class.ConfigTabPlugins.php:187
 #: inc/core/Dataset/Keys/Type.php:52
 #: inc/training/view/section/table/class.TableSwimLane.php:44
 #: inc/training/search/class.SearchFormular.php:174
 msgid "Type"
-msgstr ""
+msgstr "Type"
 
 #: inc/system/config/class.ConfigTabs.php:74
 msgid "The settings have been saved."
-msgstr ""
+msgstr "Innstillingene har blitt lagret."
 
 #: inc/system/config/class.ConfigTab.php:100
 #: inc/plugin/config/class.PluginConfigurationWindow.php:123
 msgid "Save"
-msgstr ""
+msgstr "Lagre"
 
 #: inc/plugin/class.Plugin.php:398
 msgid "Year on year"
-msgstr ""
+msgstr "År på år"
 
 #: inc/plugin/class.PluginInstaller.php:74
 msgid "Install plugin"
-msgstr ""
+msgstr "Installer tillegg"
 
 #: inc/plugin/class.PluginStat.php:268 inc/plugin/class.PluginStat.php:325
 #: inc/training/view/class.TrainingViewSectionTabbedPlot.php:63
 #: plugin/RunalyzePluginStat_Strecken/class.RunalyzePluginStat_Strecken.php:295
 msgid "All"
-msgstr ""
+msgstr "Alle"
 
 #: inc/plugin/class.PluginStat.php:293 inc/plugin/class.PluginStat.php:312
 #: inc/draw/class.PlotSumData.php:264 inc/draw/class.PlotSumData.php:272
 #: plugin/RunalyzePluginStat_Statistiken/class.SummaryTableMonths.php:57
 msgid "Last 6 months"
-msgstr ""
+msgstr "Siste 6 måneder"
 
 #: inc/plugin/class.PluginStat.php:294 inc/plugin/class.PluginStat.php:314
 #: inc/draw/class.PlotSumData.php:266 inc/draw/class.PlotSumData.php:273
 #: plugin/RunalyzePluginStat_Statistiken/class.SummaryTableMonths.php:63
 msgid "Last 12 months"
-msgstr ""
+msgstr "Siste 12 måneder"
 
 #: inc/plugin/class.PluginStat.php:348
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:369
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:595
 msgid "In total"
-msgstr ""
+msgstr "Totalt"
 
 #: inc/plugin/class.PluginType.php:46
 msgid "Panel"
-msgstr ""
+msgstr "Panel"
 
 #: inc/plugin/config/class.PluginConfigurationWindow.php:69
 msgid "back to overview"
