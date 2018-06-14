@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-14 19:03+0000\n"
+"PO-Revision-Date: 2018-06-14 22:38+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -132,7 +132,7 @@ msgstr "Utstyr"
 
 #: dashboard.php:116
 msgid "Activity tags"
-msgstr "Aktivitetsmerker"
+msgstr "Aktivitetsmerkelapper"
 
 #: dashboard.php:122 inc/core/Dataset/Keys/Tools.php:52
 #: inc/training/view/class.TrainingView.php:137
@@ -340,37 +340,37 @@ msgstr "Panel"
 
 #: inc/plugin/config/class.PluginConfigurationWindow.php:69
 msgid "back to overview"
-msgstr ""
+msgstr "tilbake til oversikt"
 
 #: inc/plugin/config/class.PluginConfigurationWindow.php:75
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:136
 msgid "Plugin configuration"
-msgstr ""
+msgstr "Tilleggskonfigurasjon"
 
 #: inc/plugin/config/class.PluginConfigurationWindow.php:99
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:337
 msgid "Description"
-msgstr ""
+msgstr "Beskrivelse"
 
 #: inc/plugin/config/class.PluginConfigurationWindow.php:103
 msgid "The plugin is deactivated."
-msgstr ""
+msgstr "Tillegget har blitt deaktivert."
 
 #: inc/plugin/config/class.PluginConfigurationWindow.php:117
 msgid "There are no settings."
-msgstr ""
+msgstr "Det er ikke noen innstillinger."
 
 #: inc/plugin/config/class.PluginConfigurationWindow.php:135
 msgid "Activate plugin"
-msgstr ""
+msgstr "Aktiver tillegg"
 
 #: inc/plugin/config/class.PluginConfigurationWindow.php:136
 msgid "Deactivate plugin"
-msgstr ""
+msgstr "Deaktiver tillegg"
 
 #: inc/plugin/config/class.PluginConfigurationWindow.php:138
 msgid "Activation"
-msgstr ""
+msgstr "Aktivering"
 
 #: inc/class.FrontendSharedStatistics.php:20
 #: plugin/RunalyzePluginStat_Trainingszeiten/Plot.Daytime.php:79
@@ -383,48 +383,48 @@ msgstr ""
 #: plugin/RunalyzePluginPanel_Sportler/Plot.analyse.php:64
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:245
 msgid "No data available."
-msgstr ""
+msgstr "Ingen data tilgjengelig."
 
 #: inc/import/class.ImporterWindow.php:22
 msgid "Add workout"
-msgstr ""
+msgstr "Legg til aktivitet"
 
 #: inc/class.DataBrowser.php:217
 msgid "week"
-msgstr ""
+msgstr "uke"
 
 #: inc/class.DataBrowser.php:254
 msgid "back"
-msgstr ""
+msgstr "tilbake"
 
 #: inc/class.DataBrowser.php:264 inc/html/class.Ajax.php:439
 msgid "next"
-msgstr ""
+msgstr "neste"
 
 #: inc/class.DataBrowser.php:272
 msgid "today"
-msgstr ""
+msgstr "Idag"
 
 #: inc/class.DataBrowser.php:282
 msgid "Reload current datasheet"
-msgstr ""
+msgstr "Last på nytt gjeldende dataark"
 
 #: inc/class.DataBrowser.php:290
 #: inc/core/Configuration/Category/DataBrowser.php:117
 msgid "Calendar"
-msgstr ""
+msgstr "Kalender"
 
 #: inc/class.DataBrowser.php:298 inc/class.DataBrowserShared.php:120
 msgid "Activity per month"
-msgstr ""
+msgstr "Aktivitet per måned"
 
 #: inc/class.DataBrowser.php:306 inc/class.DataBrowserShared.php:128
 msgid "Activity per week"
-msgstr ""
+msgstr "Aktivitet per uke"
 
 #: inc/class.DataBrowser.php:322
 msgid "Search for an activity"
-msgstr ""
+msgstr "Søk etter en aktivitet"
 
 #: inc/html/class.HTML.php:81 inc/html/class.HTML.php:107
 #: inc/core/Dataset/Keys/RaceResult.php:131
@@ -433,75 +433,75 @@ msgstr ""
 #: plugin/RunalyzePluginStat_Trainingszeiten/class.RunalyzePluginStat_Trainingszeiten.php:70
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:288
 msgid "Total"
-msgstr ""
+msgstr "Totalt"
 
 #: inc/html/class.Ajax.php:436 inc/core/View/Leaflet/Activity.php:265
 msgid "Start"
-msgstr ""
+msgstr "Start"
 
 #: inc/html/class.Ajax.php:437
 msgid "previous"
-msgstr ""
+msgstr "forrige"
 
 #: inc/html/class.Ajax.php:440
 msgid "End"
-msgstr ""
+msgstr "Siste"
 
 #: inc/html/class.Ajax.php:443 inc/html/class.Ajax.php:444
 #: inc/html/class.Ajax.php:445 inc/html/class.Ajax.php:446
 #: inc/html/class.Ajax.php:447
 msgid "per page"
-msgstr ""
+msgstr "per side"
 
 #: inc/html/formular/class.FormularField.php:214
 msgid "Your input is not allowed."
-msgstr ""
+msgstr "Inndataen din er ikke tillatt."
 
 #: inc/html/formular/class.FormularValueParser.php:113
 msgid "The date could not be parsed."
-msgstr ""
+msgstr "Datoen kunne ikke forstås."
 
 #: inc/html/formular/class.FormularValueParser.php:117
 msgid "The date must not be in the future."
-msgstr ""
+msgstr "Datoen kan ikke være fremtidig."
 
 #: inc/html/formular/class.FormularValueParser.php:144
 msgid "You have to enter a time."
-msgstr ""
+msgstr "Du må fylle inn en tid."
 
 #: inc/core/Dataset/Keys/Setting.php:52
 msgid "Setting"
-msgstr ""
+msgstr "Innstillinger"
 
 #: inc/core/Dataset/Keys/Setting.php:112 inc/core/Dataset/Keys/Setting.php:129
 msgid "Edit"
-msgstr ""
+msgstr "Editer"
 
 #: inc/core/Dataset/Keys/Setting.php:114
 #: inc/training/view/class.TrainingView.php:167
 msgid "Do you really want to delete this activity?"
-msgstr ""
+msgstr "Vil du virkelig slette denne aktiviteten?"
 
 #: inc/core/Dataset/Keys/Setting.php:114 inc/core/Dataset/Keys/Setting.php:131
 #: inc/training/view/class.TrainingView.php:167
 msgid "Delete activity"
-msgstr ""
+msgstr "Slett aktivitet"
 
 #: inc/core/Dataset/Keys/Setting.php:116 inc/core/Dataset/Keys/Setting.php:133
 #: inc/core/Dataset/Keys/SharedLink.php:44
 #: inc/training/view/class.TrainingView.php:71
 msgid "Public link"
-msgstr ""
+msgstr "Offentlig link"
 
 #: inc/core/Dataset/Keys/Setting.php:146
 #: inc/training/view/class.TrainingView.php:150
 msgid "Make private"
-msgstr ""
+msgstr "Gjør privat"
 
 #: inc/core/Dataset/Keys/Setting.php:149
 #: inc/training/view/class.TrainingView.php:153
 msgid "Make public"
-msgstr ""
+msgstr "Gjør offentlig"
 
 #: inc/core/Dataset/Keys/Distance.php:49 inc/core/Activity/Distance.php:80
 #: inc/core/View/Splits/Table.php:154
@@ -516,7 +516,7 @@ msgstr ""
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:399
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:263
 msgid "Distance"
-msgstr ""
+msgstr "Distanse"
 
 #: inc/core/Dataset/Keys/Groundcontact.php:44
 #: inc/core/View/Window/Laps/Table.php:269
