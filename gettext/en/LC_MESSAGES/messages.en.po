@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-14 18:46+0000\n"
+"PO-Revision-Date: 2018-06-18 13:52+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: English <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/en/>\n"
@@ -239,7 +239,7 @@ msgstr "Panels"
 
 #: inc/system/config/class.ConfigTabPlugins.php:33
 msgid "Panels are small statistics always shown on the right side."
-msgstr "Paneler er små statistikker alltid vist på høyre side."
+msgstr "Panels are small statistics always shown on the right side."
 
 #: inc/system/config/class.ConfigTabPlugins.php:37
 #: inc/plugin/class.PluginType.php:50
