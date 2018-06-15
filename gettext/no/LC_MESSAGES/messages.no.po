@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-15 15:43+0000\n"
+"PO-Revision-Date: 2018-06-15 15:47+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -887,14 +887,14 @@ msgstr "Partner"
 #: inc/core/Dataset/Keys/TrainingPartner.php:65
 #, php-format
 msgid "Training partner are automatically cut after %u characters."
-msgstr ""
+msgstr "Treningspartner er automatisk kuttet etter %u bokstaver."
 
 #: inc/core/Dataset/Keys/Weather.php:43
 #: inc/training/search/class.SearchFormular.php:175
 #: plugin/RunalyzePluginStat_Wetter/class.RunalyzePluginStat_Wetter.php:30
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:404
 msgid "Weather"
-msgstr ""
+msgstr "Vær"
 
 #: inc/core/Dataset/Keys/Weather.php:73
 #: inc/core/Dataset/Keys/Temperature.php:44
@@ -903,16 +903,16 @@ msgstr ""
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:177
 #: inc/training/search/class.SearchFormular.php:213
 msgid "Temperature"
-msgstr ""
+msgstr "Temperatur"
 
 #: inc/core/Dataset/Keys/Weather.php:85 inc/core/Data/Weather/WindSpeed.php:63
 #: inc/training/search/class.SearchFormular.php:217
 msgid "Wind Speed"
-msgstr ""
+msgstr "Vindhastighet"
 
 #: inc/core/Dataset/Keys/Weather.php:89 inc/core/Data/Weather/WindDegree.php:58
 msgid "Wind Degree"
-msgstr ""
+msgstr "Vindretning"
 
 #: inc/core/Dataset/Keys/Power.php:44 inc/core/Profile/Sport/Zones/Power.php:21
 #: inc/core/View/Activity/Plot/Series/Power.php:38
