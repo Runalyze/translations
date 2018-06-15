@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-15 15:55+0000\n"
+"PO-Revision-Date: 2018-06-15 15:59+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -1019,19 +1019,21 @@ msgstr "Sportsikonet er vist."
 
 #: inc/core/Dataset/Keys/Type.php:43
 msgid "Activity type"
-msgstr "Akti"
+msgstr "Aktivitetstype"
 
 #: inc/core/Dataset/Keys/Type.php:62
 msgid ""
 "The activity type is shown with its abbreviation. It is bold if the type is "
 "marked as quality session."
 msgstr ""
+"Aktivitetstype er vist med ens forkortelse. Den er uthevet hvis typen er "
+"markert som en kvalitetsøvelse."
 
 #: inc/core/Dataset/Keys/Duration.php:54
 #: inc/core/View/Window/Laps/Table.php:144
 #: inc/training/search/class.SearchFormular.php:187
 msgid "Duration"
-msgstr ""
+msgstr "Varighet"
 
 #: inc/core/Dataset/Keys/StrideLength.php:44
 #: inc/core/Activity/StrideLength.php:58
@@ -1040,43 +1042,45 @@ msgstr ""
 #: inc/training/view/section/class.SectionRunningDynamicsRow.php:36
 #: inc/training/search/class.SearchFormular.php:196
 msgid "Stride length"
-msgstr ""
+msgstr "Steglengde"
 
 #: inc/core/Dataset/Keys/MainEquipment.php:35
 msgid "Main Equipment"
-msgstr ""
+msgstr "Hovedutstyr"
 
 #: inc/core/Dataset/Keys/MainEquipment.php:53
 msgid ""
 "You can choose a main equipment type for each sport in your sport "
 "configuration. Equipment objects of this type will be shown with their names."
 msgstr ""
+"Du kan velge en type for hovedutstyr for hver sport i din konfigurasjon. "
+"Utstyrsenheter av denne typen vil bli vist med navn."
 
 #: inc/core/Dataset/Keys/Tools.php:114 inc/core/Dataset/Keys/Tools.php:135
 #: inc/training/view/class.TrainingView.php:111
 msgid "Analyze splits"
-msgstr ""
+msgstr "Analyser splitt"
 
 #: inc/core/Dataset/Keys/Tools.php:118 inc/core/Dataset/Keys/Tools.php:136
 msgid "Elevation info"
-msgstr ""
+msgstr "Elevasjonsinformasjon"
 
 #: inc/core/Dataset/Keys/Tools.php:119 inc/core/Dataset/Keys/Tools.php:137
 #: inc/training/view/class.TrainingView.php:123
 msgid "Climb score"
-msgstr ""
+msgstr "Klatrepoeng"
 
 #: inc/core/Dataset/Keys/Tools.php:122 inc/core/Dataset/Keys/Tools.php:138
 msgid "Time series"
-msgstr ""
+msgstr "Tidsserier"
 
 #: inc/core/Dataset/Keys/Tools.php:123 inc/core/Dataset/Keys/Tools.php:139
 msgid "Sub segments"
-msgstr ""
+msgstr "Segmenter"
 
 #: inc/core/Dataset/Keys/Splits.php:46
 msgid "Splits"
-msgstr ""
+msgstr "Delavstander"
 
 #: inc/core/Dataset/Keys/Splits.php:56
 msgid ""
