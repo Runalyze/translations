@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-15 16:25+0000\n"
+"PO-Revision-Date: 2018-06-15 16:35+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -1152,13 +1152,15 @@ msgstr ""
 #: inc/core/Dataset/Keys/FitRecoveryTime.php:43
 #: inc/core/Dataset/Keys/FitRecoveryTime.php:52
 msgid "Recovery time"
-msgstr ""
+msgstr "Restitusjonstid"
 
 #: inc/core/Dataset/Keys/FitRecoveryTime.php:62
 msgid ""
 "Garmin calculates a suggested recovery time based on your heart rate "
 "variability right after the end of your activity."
 msgstr ""
+"Garmin kalkulerer foreslått restitusjonstid basert på din hjertefrekvens-"
+"variabilitet rett etter slutten av din aktivitet."
 
 #: inc/core/Dataset/Keys/AverageFootstrikeType.php:22
 #: inc/training/search/class.FormularSelectSearchSort.php:64
@@ -1168,7 +1170,7 @@ msgstr ""
 
 #: inc/core/Dataset/Keys/Wind.php:44 inc/core/View/Icon/WindIcon.php:66
 msgid "Wind"
-msgstr ""
+msgstr "Vind"
 
 #: inc/core/Dataset/Keys/HeartrateMaximum.php:44
 #: inc/core/View/Activity/Box/MaximalHeartRate.php:48
@@ -1176,12 +1178,12 @@ msgstr ""
 #: inc/training/view/section/class.SectionPowerRow.php:61
 #: inc/training/view/section/class.SectionOverviewRow.php:56
 msgid "max."
-msgstr ""
+msgstr "maks"
 
 #: inc/core/Dataset/Keys/RPE.php:52 inc/core/View/Activity/Box/RPE.php:30
 #: inc/training/search/class.SearchFormular.php:211
 msgid "RPE"
-msgstr ""
+msgstr "RPE"
 
 #: inc/core/Dataset/Keys/RPE.php:61
 msgid ""
@@ -1194,10 +1196,12 @@ msgid ""
 "You can decide for each activity whether it is visible for everybody or not. "
 "If it is public a linked icon is shown."
 msgstr ""
+"Du kan velge for hver aktivitet om den skal være synlig for alle eller ikke. "
+"Hvis den er offentlig vises et link-ikon."
 
 #: inc/core/Dataset/Keys/Daytime.php:44
 msgid "Daytime"
-msgstr ""
+msgstr "Tidspunkt"
 
 #: inc/core/Dataset/Keys/Daytime.php:53 inc/core/View/Splits/Table.php:155
 #: inc/core/View/Activity/Plot/Series/TimeSeries.php:37
@@ -1210,15 +1214,15 @@ msgstr ""
 #: inc/training/view/section/class.SectionOverviewRow.php:52
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:400
 msgid "Time"
-msgstr ""
+msgstr "Tid"
 
 #: inc/core/Dataset/Keys/Daytime.php:70
 msgid "Exact daytime of the activity. (the date itself is always shown)"
-msgstr ""
+msgstr "Eksakt tidspunkt for aktiviteten. (datoen er alltid vist)"
 
 #: inc/core/Dataset/Keys/FitPerformanceConditionStart.php:31
 msgid "at start"
-msgstr ""
+msgstr "ved starten"
 
 #: inc/core/Dataset/Keys/FitPerformanceConditionStart.php:40
 msgid "PC start"
@@ -1231,11 +1235,12 @@ msgstr ""
 #: inc/training/view/section/class.SectionRunningDynamicsRow.php:39
 #: inc/training/search/class.SearchFormular.php:208
 msgid "Vertical ratio"
-msgstr ""
+msgstr "Vertikal ratio"
 
 #: inc/core/Dataset/Keys/VerticalRatio.php:53
 msgid "Vertical ratio is the ratio of vertical oscillation to stride length."
 msgstr ""
+"Vertikal ratio er forholdet mellom vertikal oscillering og skrittlengde."
 
 #: inc/core/Dataset/Keys/FitHrvAnalysis.php:44
 #: inc/core/View/Activity/Dataview.php:335
@@ -1256,22 +1261,22 @@ msgstr ""
 
 #: inc/core/Activity/GroundcontactBalance.php:48
 msgid "Groundcontact balance"
-msgstr ""
+msgstr "Bakkekontakt balanse"
 
 #: inc/core/Activity/PoolLength.php:58
 msgid "Pool length"
-msgstr ""
+msgstr "Bassenglengde"
 
 #: inc/core/Activity/Weight.php:72
 #: plugin/RunalyzePluginPanel_Sportler/Plot.gewicht.php:40
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:100
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:146
 msgid "Weight"
-msgstr ""
+msgstr "Vekt"
 
 #: inc/core/Activity/TrainingEffectLevel.php:68
 msgid "Easy"
-msgstr ""
+msgstr "Lett"
 
 #: inc/core/Activity/TrainingEffectLevel.php:70
 msgid "Maintaining workout"
@@ -1283,17 +1288,17 @@ msgstr ""
 
 #: inc/core/Activity/TrainingEffectLevel.php:74
 msgid "Highly Improving"
-msgstr ""
+msgstr "Høy forbedring"
 
 #: inc/core/Activity/TrainingEffectLevel.php:76
 msgid "Overreaching"
-msgstr ""
+msgstr "Overanstrengelse"
 
 #: inc/core/Activity/TrainingEffectLevel.php:92
 msgid ""
 "Helps recovery (short activities). Improves endurance with longer activities "
 "(more than 40 minutes)."
-msgstr ""
+msgstr "Hjelper restitusjon (kort aktivitet). Øker ut"
 
 #: inc/core/Activity/TrainingEffectLevel.php:94
 msgid "Maintains your aerobic fitness."
