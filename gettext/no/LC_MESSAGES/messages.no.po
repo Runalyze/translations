@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-15 19:49+0000\n"
+"PO-Revision-Date: 2018-06-15 19:56+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -1819,43 +1819,43 @@ msgstr "Viser noen generelle statikker over aktivitetslisten"
 
 #: inc/core/Configuration/Category/Privacy.php:103
 msgid "Public activities: show map"
-msgstr ""
+msgstr "Offentlig utøverside: Vis kart"
 
 #: inc/core/Configuration/Category/Privacy.php:104
 msgid "You can hide the map for public activities"
-msgstr ""
+msgstr "Du kan skjule kartet for offentlige aktiviteter"
 
 #: inc/core/Configuration/Category/ActivityForm.php:186
 msgid "Activity form"
-msgstr ""
+msgstr "Aktivitetsskjema"
 
 #: inc/core/Configuration/Category/ActivityForm.php:189
 msgid "Default window"
-msgstr ""
+msgstr "Standardvindu"
 
 #: inc/core/Configuration/Category/ActivityForm.php:193
 msgid "Calculate energy"
-msgstr ""
+msgstr "Kalkuler energi"
 
 #: inc/core/Configuration/Category/ActivityForm.php:194
 msgid "Recalculate energy after changing duration by hand"
-msgstr ""
+msgstr "Rekalkuler energi etter endring av varighet gjort for hånd"
 
 #: inc/core/Configuration/Category/ActivityForm.php:198
 msgid "Detect pauses"
-msgstr ""
+msgstr "Oppdag pauser"
 
 #: inc/core/Configuration/Category/ActivityForm.php:199
 msgid "Detect pauses (distance not increasing) when importing training"
-msgstr ""
+msgstr "Oppdager pauser (distansen øker ikke) under import av aktiviteter"
 
 #: inc/core/Configuration/Category/ActivityForm.php:215
 msgid "Automatically load weather conditions"
-msgstr ""
+msgstr "Automatisk last inn værforhold"
 
 #: inc/core/Configuration/Category/ActivityForm.php:216
 msgid "via openweathermap.org"
-msgstr ""
+msgstr "via openweathermap.org"
 
 #: inc/core/Configuration/Category/ActivityForm.php:220
 msgid "for weather: Location"
