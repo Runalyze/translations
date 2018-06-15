@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-15 18:48+0000\n"
+"PO-Revision-Date: 2018-06-15 19:32+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -1373,264 +1373,265 @@ msgstr "Kite surfing"
 
 #: inc/core/Profile/Sport/AlpineSkiing.php:24
 msgid "Alpine skiing"
-msgstr ""
+msgstr "Alpint"
 
 #: inc/core/Profile/Sport/Kayaking.php:24
 msgid "Kayaking"
-msgstr ""
+msgstr "Kajakk"
 
 #: inc/core/Profile/Sport/Hiking.php:24
 msgid "Hiking"
-msgstr ""
+msgstr "Fottur"
 
 #: inc/core/Profile/Sport/FlexibilityTraining.php:24
 msgid "Flexibility training"
-msgstr ""
+msgstr "Smidighetstrening"
 
 #: inc/core/Profile/Sport/IndoorCycling.php:24
 msgid "Indoor cycling"
-msgstr ""
+msgstr "Innendørs sykling"
 
 #: inc/core/Profile/Sport/Windsurfing.php:24
 msgid "Windsurfing"
-msgstr ""
+msgstr "Vindsurfing"
 
 #: inc/core/Profile/Sport/StrengthTraining.php:24
 msgid "Strength training"
-msgstr ""
+msgstr "Styrketrening"
 
 #: inc/core/Profile/Sport/Generic.php:26
 msgid "Generic"
-msgstr ""
+msgstr "Generell"
 
 #: inc/core/Profile/Sport/CrossCountrySkiing.php:24
 msgid "Cross-country skiing"
-msgstr ""
+msgstr "Langrenn"
 
 #: inc/core/Profile/Athlete/Gender.php:27
 msgid "not set"
-msgstr ""
+msgstr "Ikke angitt"
 
 #: inc/core/Profile/Athlete/Gender.php:29
 msgid "male"
-msgstr ""
+msgstr "mann"
 
 #: inc/core/Profile/Athlete/Gender.php:31
 msgid "female"
-msgstr ""
+msgstr "kvinne"
 
 #: inc/core/Profile/View/DataBrowserRowProfile.php:27
 msgid "complete row"
-msgstr ""
+msgstr "komplett rad"
 
 #: inc/core/Profile/View/DataBrowserRowProfile.php:29
 msgid "only icon"
-msgstr ""
+msgstr "kun ikoner"
 
 #: inc/core/Profile/View/DataBrowserRowProfile.php:31
 msgid "Inherit from sport"
-msgstr ""
+msgstr "Arve fra sport"
 
 #: inc/core/Profile/View/DatasetPrivacyProfile.php:24
 msgid "private"
-msgstr ""
+msgstr "privat"
 
 #: inc/core/Profile/View/DatasetPrivacyProfile.php:26
 msgid "public"
-msgstr ""
+msgstr "offentlig"
 
 #: inc/core/Util/Time.php:89 inc/tpl/tpl.DataBrowser.php:28
 msgid "Sun"
-msgstr ""
+msgstr "Søn"
 
 #: inc/core/Util/Time.php:89 inc/core/Parameter/Application/WeekStart.php:51
 #: inc/tpl/tpl.DataBrowser.php:26
 msgid "Sunday"
-msgstr ""
+msgstr "Søndag"
 
 #: inc/core/Util/Time.php:90 inc/tpl/tpl.DataBrowser.php:28
 msgid "Mon"
-msgstr ""
+msgstr "Man"
 
 #: inc/core/Util/Time.php:90 inc/core/Parameter/Application/WeekStart.php:48
 #: inc/tpl/tpl.DataBrowser.php:26
 msgid "Monday"
-msgstr ""
+msgstr "Mandag"
 
 #: inc/core/Util/Time.php:91 inc/tpl/tpl.DataBrowser.php:28
 msgid "Tue"
-msgstr ""
+msgstr "Tir"
 
 #: inc/core/Util/Time.php:91 inc/tpl/tpl.DataBrowser.php:26
 msgid "Tuesday"
-msgstr ""
+msgstr "Tirsdag"
 
 #: inc/core/Util/Time.php:92 inc/tpl/tpl.DataBrowser.php:28
 msgid "Wed"
-msgstr ""
+msgstr "Ons"
 
 #: inc/core/Util/Time.php:92 inc/tpl/tpl.DataBrowser.php:26
 msgid "Wednesday"
-msgstr ""
+msgstr "Onsdag"
 
 #: inc/core/Util/Time.php:93 inc/tpl/tpl.DataBrowser.php:28
 msgid "Thu"
-msgstr ""
+msgstr "Tor"
 
 #: inc/core/Util/Time.php:93 inc/tpl/tpl.DataBrowser.php:26
 msgid "Thursday"
-msgstr ""
+msgstr "Torsdag"
 
 #: inc/core/Util/Time.php:94 inc/tpl/tpl.DataBrowser.php:28
 msgid "Fri"
-msgstr ""
+msgstr "Fre"
 
 #: inc/core/Util/Time.php:94 inc/tpl/tpl.DataBrowser.php:26
 msgid "Friday"
-msgstr ""
+msgstr "Fredag"
 
 #: inc/core/Util/Time.php:96 inc/tpl/tpl.DataBrowser.php:28
 msgid "Sat"
-msgstr ""
+msgstr "Lør"
 
 #: inc/core/Util/Time.php:96 inc/tpl/tpl.DataBrowser.php:26
 msgid "Saturday"
-msgstr ""
+msgstr "Lørdag"
 
 #: inc/core/Util/Time.php:109 inc/draw/class.Plot.php:406
 #: inc/tpl/tpl.DataBrowser.php:31
 msgid "Jan"
-msgstr ""
+msgstr "Jan"
 
 #: inc/core/Util/Time.php:109 inc/tpl/tpl.DataBrowser.php:29
 #: src/CoreBundle/Component/Tool/Anova/QueryGroup/Month.php:32
 msgid "January"
-msgstr ""
+msgstr "Januar"
 
 #: inc/core/Util/Time.php:110 inc/draw/class.Plot.php:407
 #: inc/tpl/tpl.DataBrowser.php:31
 msgid "Feb"
-msgstr ""
+msgstr "Feb"
 
 #: inc/core/Util/Time.php:110 inc/tpl/tpl.DataBrowser.php:29
 #: src/CoreBundle/Component/Tool/Anova/QueryGroup/Month.php:33
 msgid "February"
-msgstr ""
+msgstr "Februar"
 
 #: inc/core/Util/Time.php:111 inc/draw/class.Plot.php:408
 #: inc/tpl/tpl.DataBrowser.php:31
 msgid "Mar"
-msgstr ""
+msgstr "Mar"
 
 #: inc/core/Util/Time.php:111 inc/tpl/tpl.DataBrowser.php:29
 #: src/CoreBundle/Component/Tool/Anova/QueryGroup/Month.php:34
 msgid "March"
-msgstr ""
+msgstr "Mars"
 
 #: inc/core/Util/Time.php:112 inc/draw/class.Plot.php:409
 #: inc/tpl/tpl.DataBrowser.php:31
 msgid "Apr"
-msgstr ""
+msgstr "Apr"
 
 #: inc/core/Util/Time.php:112 inc/tpl/tpl.DataBrowser.php:29
 #: src/CoreBundle/Component/Tool/Anova/QueryGroup/Month.php:35
 msgid "April"
-msgstr ""
+msgstr "April"
 
 #: inc/core/Util/Time.php:113 inc/draw/class.Plot.php:410
 #: inc/tpl/tpl.DataBrowser.php:29 inc/tpl/tpl.DataBrowser.php:31
 #: src/CoreBundle/Component/Tool/Anova/QueryGroup/Month.php:36
 msgid "May"
-msgstr ""
+msgstr "Mai"
 
 #: inc/core/Util/Time.php:114 inc/draw/class.Plot.php:411
 #: inc/tpl/tpl.DataBrowser.php:31
 msgid "Jun"
-msgstr ""
+msgstr "Jun"
 
 #: inc/core/Util/Time.php:114 inc/tpl/tpl.DataBrowser.php:29
 #: src/CoreBundle/Component/Tool/Anova/QueryGroup/Month.php:37
 msgid "June"
-msgstr ""
+msgstr "Juni"
 
 #: inc/core/Util/Time.php:115 inc/draw/class.Plot.php:412
 #: inc/tpl/tpl.DataBrowser.php:31
 msgid "Jul"
-msgstr ""
+msgstr "Jul"
 
 #: inc/core/Util/Time.php:115 inc/tpl/tpl.DataBrowser.php:30
 #: src/CoreBundle/Component/Tool/Anova/QueryGroup/Month.php:38
 msgid "July"
-msgstr ""
+msgstr "Juli"
 
 #: inc/core/Util/Time.php:116 inc/draw/class.Plot.php:413
 #: inc/tpl/tpl.DataBrowser.php:31
 msgid "Aug"
-msgstr ""
+msgstr "Aug"
 
 #: inc/core/Util/Time.php:116 inc/tpl/tpl.DataBrowser.php:30
 #: src/CoreBundle/Component/Tool/Anova/QueryGroup/Month.php:39
 msgid "August"
-msgstr ""
+msgstr "August"
 
 #: inc/core/Util/Time.php:117 inc/draw/class.Plot.php:414
 #: inc/tpl/tpl.DataBrowser.php:31
 msgid "Sep"
-msgstr ""
+msgstr "Sep"
 
 #: inc/core/Util/Time.php:117 inc/tpl/tpl.DataBrowser.php:30
 #: src/CoreBundle/Component/Tool/Anova/QueryGroup/Month.php:40
 msgid "September"
-msgstr ""
+msgstr "September"
 
 #: inc/core/Util/Time.php:118 inc/draw/class.Plot.php:415
 #: inc/tpl/tpl.DataBrowser.php:31
 msgid "Oct"
-msgstr ""
+msgstr "Okt"
 
 #: inc/core/Util/Time.php:118 inc/tpl/tpl.DataBrowser.php:30
 #: src/CoreBundle/Component/Tool/Anova/QueryGroup/Month.php:41
 msgid "October"
-msgstr ""
+msgstr "Oktober"
 
 #: inc/core/Util/Time.php:119 inc/draw/class.Plot.php:416
 #: inc/tpl/tpl.DataBrowser.php:31
 msgid "Nov"
-msgstr ""
+msgstr "Nov"
 
 #: inc/core/Util/Time.php:119 inc/tpl/tpl.DataBrowser.php:30
 #: src/CoreBundle/Component/Tool/Anova/QueryGroup/Month.php:42
+#, fuzzy
 msgid "November"
-msgstr ""
+msgstr "November"
 
 #: inc/core/Util/Time.php:121 inc/draw/class.Plot.php:417
 #: inc/tpl/tpl.DataBrowser.php:31
 msgid "Dec"
-msgstr ""
+msgstr "Des"
 
 #: inc/core/Util/Time.php:121 inc/tpl/tpl.DataBrowser.php:30
 #: src/CoreBundle/Component/Tool/Anova/QueryGroup/Month.php:43
 msgid "December"
-msgstr ""
+msgstr "Desember"
 
 #: inc/core/Configuration/Messages.php:26
 msgid "Database cleanup"
-msgstr ""
+msgstr "Database oppfrisking"
 
 #: inc/core/Configuration/Messages.php:27
 #, php-format
 msgid "You can now use the %s to recalculate the concerning values."
-msgstr ""
+msgstr "Du kan nå bruke %s for å rekalkulere de gjeldende verdier."
 
 #: inc/core/Configuration/Messages.php:34
 msgid "sports configuration"
-msgstr ""
+msgstr "Sportskonfigurasjon"
 
 #: inc/core/Configuration/Messages.php:37
 #, php-format
 msgid ""
 "You may want to adjust pace units in %s. They are not changed automatically."
-msgstr ""
+msgstr "Du vil kanskje endre tempo-enhet i %s. De er ikke endret automatisk."
 
 #: inc/core/Configuration/Messages.php:49
 #: src/CoreBundle/Component/Tool/DatabaseCleanup/Job.php:76
@@ -1638,34 +1639,35 @@ msgstr ""
 msgid ""
 "%s has been recalculated. New value: <strong>%s</strong> (old value: %s)"
 msgstr ""
+"%s har blitt rekalkulert. Ny verdi: <strong>%s</strong> (gammel verdi: %s)"
 
 #: inc/core/Configuration/Category/Design.php:57
 msgid "Design"
-msgstr ""
+msgstr "Design"
 
 #: inc/core/Configuration/Category/Design.php:59
 msgid "Background image"
-msgstr ""
+msgstr "Bakgrunnsbilde"
 
 #: inc/core/Configuration/Category/Trimp.php:99
 msgid "Days for ATL"
-msgstr ""
+msgstr "Dager for ATL"
 
 #: inc/core/Configuration/Category/Trimp.php:100
 msgid "Number of days for ATL time constant"
-msgstr ""
+msgstr "Antall dager for ATL tidskonstant"
 
 #: inc/core/Configuration/Category/Trimp.php:104
 msgid "Days for CTL"
-msgstr ""
+msgstr "Dager for CTL"
 
 #: inc/core/Configuration/Category/Trimp.php:105
 msgid "Number of days for CTL time constant"
-msgstr ""
+msgstr "Antall dager for CTL tidskonstant"
 
 #: inc/core/Configuration/Category/Trimp.php:109
 msgid "Show ATL/CTL in percent of your maximum"
-msgstr ""
+msgstr "Vis ATL/CTL i prosent av ditt maksimum"
 
 #: inc/core/Configuration/Category/Trimp.php:110
 msgid ""
@@ -1676,35 +1678,37 @@ msgstr ""
 
 #: inc/core/Configuration/Category/Trimp.php:116
 msgid "Show TSB in percent of ATL/CTL"
-msgstr ""
+msgstr "Vis TSB in prosent av ATL/CTL"
 
 #: inc/core/Configuration/Category/Trimp.php:117
 msgid ""
 "The scale of TSB values depends on your ATL/CTL. You can display TSB as "
 "percentage of your current ATL/CTL to keep consistency."
 msgstr ""
+"Skalaen til TSB verdier avhenger av din ATL/CTL. Du kan vise TSB som prosent "
+"av din gjeldende ATL/CTL for å bevare konsistens."
 
 #: inc/core/Configuration/Category/Trimp.php:141
 #: src/CoreBundle/Component/Tool/DatabaseCleanup/JobGeneral.php:122
 msgid "Maximal CTL"
-msgstr ""
+msgstr "Maksimal CTL"
 
 #: inc/core/Configuration/Category/Trimp.php:142
 #: src/CoreBundle/Component/Tool/DatabaseCleanup/JobGeneral.php:123
 msgid "Maximal ATL"
-msgstr ""
+msgstr "Maksimal ATL"
 
 #: inc/core/Configuration/Category/VO2max.php:121
 msgid "VO<sub>2</sub>max estimation"
-msgstr ""
+msgstr "VO<sub>2</sub>max estimering"
 
 #: inc/core/Configuration/Category/VO2max.php:124
 msgid "Time constant length for VO<sub>2</sub>max"
-msgstr ""
+msgstr "Tidskonstants lenge for VO<sub>2</sub>max"
 
 #: inc/core/Configuration/Category/VO2max.php:125
 msgid "Time constant length for VO<sub>2</sub>max rolling average"
-msgstr ""
+msgstr "Tidskonstants lenge for VO<sub>2</sub>max rullende gjennomsnitt."
 
 #: inc/core/Configuration/Category/VO2max.php:129
 msgid "Manual correction factor"
