@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-15 18:32+0000\n"
+"PO-Revision-Date: 2018-06-15 18:48+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -1191,7 +1191,7 @@ msgid ""
 "perceived exertion during exercise"
 msgstr ""
 "Gradering av følt utmattelse eller Borg skala, en skala utarbeidet for å "
-"vise  følt belastning gjennom en aktivitet."
+"vise følt belastning gjennom en aktivitet."
 
 #: inc/core/Dataset/Keys/SharedLink.php:63
 msgid ""
@@ -1228,7 +1228,7 @@ msgstr "ved starten"
 
 #: inc/core/Dataset/Keys/FitPerformanceConditionStart.php:40
 msgid "PC start"
-msgstr ""
+msgstr "PT start"
 
 #: inc/core/Dataset/Keys/VerticalRatio.php:44
 #: inc/core/Activity/VerticalRatio.php:48
@@ -1247,11 +1247,11 @@ msgstr ""
 #: inc/core/Dataset/Keys/FitHrvAnalysis.php:44
 #: inc/core/View/Activity/Dataview.php:335
 msgid "HRV score"
-msgstr ""
+msgstr "HRV poeng"
 
 #: inc/core/Dataset/Keys/FitHrvAnalysis.php:53
 msgid "HRV"
-msgstr ""
+msgstr "HRV"
 
 #: inc/core/Dataset/Keys/FitHrvAnalysis.php:63
 msgid ""
@@ -1282,11 +1282,11 @@ msgstr "Lett"
 
 #: inc/core/Activity/TrainingEffectLevel.php:70
 msgid "Maintaining workout"
-msgstr ""
+msgstr "Vedlikeholdstrening"
 
 #: inc/core/Activity/TrainingEffectLevel.php:72
 msgid "Improving Fitness"
-msgstr ""
+msgstr "Forbedre kondisjon"
 
 #: inc/core/Activity/TrainingEffectLevel.php:74
 msgid "Highly Improving"
@@ -1306,64 +1306,70 @@ msgstr ""
 
 #: inc/core/Activity/TrainingEffectLevel.php:94
 msgid "Maintains your aerobic fitness."
-msgstr ""
+msgstr "Vedlikeholder din aerobiske kondisjon."
 
 #: inc/core/Activity/TrainingEffectLevel.php:96
 msgid ""
 "Improves your aerobic fitness if repeated as part of your weekly training "
 "program."
 msgstr ""
+"Forbedrer din aerobiske kondisjon hvis gjentatt som en del av ditt ukentlige "
+"treningsprogram."
 
 #: inc/core/Activity/TrainingEffectLevel.php:98
 msgid ""
 "Highly improves your aerobic fitness if repeated 1-2 times per week with "
 "adequate recovery time."
 msgstr ""
+"Høy forbedring av din aerobiske kondisjon hvis gjentatt 1-2 ganger per uke "
+"med adekvat restitusjonstid."
 
 #: inc/core/Activity/TrainingEffectLevel.php:100
 msgid ""
 "Causes temporary overload with high improvement. Train up to this number "
 "with extreme care. Requires additional recovery days."
 msgstr ""
+"Forårsaker midlertidig overanstrengelse med høy forbedring. Tren opp til "
+"dette tallet med stor forsiktighet. Krever ekstra restitusjonsdager."
 
 #: inc/core/Activity/PerformanceCondition.php:58
 #: inc/training/search/class.SearchFormular.php:219
 msgid "Performance condition"
-msgstr ""
+msgstr "Prestasjonstilstand"
 
 #: inc/core/Profile/Sport/Settings/SportRelevanceProfile.php:24
 msgid "Alternative sport"
-msgstr ""
+msgstr "Alternativ sport"
 
 #: inc/core/Profile/Sport/Settings/SportRelevanceProfile.php:26
 msgid "Main Sport"
-msgstr ""
+msgstr "Hovedsport"
 
 #: inc/core/Profile/Sport/Cycling.php:26
 msgid "Cycling"
-msgstr ""
+msgstr "Sykling"
 
 #: inc/core/Profile/Sport/Running.php:26
 #: src/CoreBundle/Component/Account/Registration.php:204
 #: tests/CoreBundle/Component/Account/RegistrationTest.php:61
 msgid "Running"
-msgstr ""
+msgstr "Løping"
 
 #: inc/core/Profile/Sport/Swimming.php:26
 msgid "Swimming"
-msgstr ""
+msgstr "Svømming"
 
 #: inc/core/Profile/Sport/InlineSkating.php:24
 msgid "Inline skating"
-msgstr ""
+msgstr "Inline skøyter"
 
 #: inc/core/Profile/Sport/Rowing.php:24
 msgid "Rowing"
-msgstr ""
+msgstr "Roing"
 
 #: inc/core/Profile/Sport/Kitesurfing.php:24
 msgid "Kite surfing"
-msgstr ""
+msgstr "Kite surfing"
 
 #: inc/core/Profile/Sport/AlpineSkiing.php:24
 msgid "Alpine skiing"
