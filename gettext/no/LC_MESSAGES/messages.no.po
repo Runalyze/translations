@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-15 19:56+0000\n"
+"PO-Revision-Date: 2018-06-15 22:15+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -540,8 +540,7 @@ msgid ""
 "slightly transparent if it is not used for your VO<sub>2</sub>max shape."
 msgstr ""
 "Estimert VO<sub>2</sub>max basert på tempo og hjertefrekvens. Verdien er "
-"delvis gjennomsiktig hvis den ikke er brukt for ditt VO<sub>2</sub>max "
-"profil."
+"delvis gjennomsiktig hvis den ikke er brukt for din VO<sub>2</sub>max form."
 
 #: inc/core/Dataset/Keys/FitPerformanceCondition.php:43
 #: inc/core/Dataset/Keys/FitPerformanceConditionEnd.php:31
@@ -969,7 +968,7 @@ msgid ""
 "lower:"
 msgstr ""
 "Hver VO<sub>2</sub>max-verdi av en aktivitet er markert med en pil som viser "
-"om verdien er (mye) høyere enn ditt aktuelle nivå, lik eller (mye) lavere:"
+"om verdien er (mye) høyere enn ditt aktuelle form, lik eller (mye) lavere:"
 
 #: inc/core/Dataset/Keys/Tags.php:46
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:263
@@ -1191,7 +1190,7 @@ msgid ""
 "perceived exertion during exercise"
 msgstr ""
 "Gradering av følt utmattelse eller Borg skala, en skala utarbeidet for å "
-"vise følt belastning gjennom en aktivitet."
+"vise følt belastning gjennom en aktivitet"
 
 #: inc/core/Dataset/Keys/SharedLink.php:63
 msgid ""
@@ -1600,7 +1599,6 @@ msgstr "Nov"
 
 #: inc/core/Util/Time.php:119 inc/tpl/tpl.DataBrowser.php:30
 #: src/CoreBundle/Component/Tool/Anova/QueryGroup/Month.php:42
-#, fuzzy
 msgid "November"
 msgstr "November"
 
@@ -1762,7 +1760,7 @@ msgstr "Legg til for hvert meter oppstigning X meter til distansen."
 #: inc/core/Configuration/Category/VO2max.php:146
 #: inc/core/Configuration/Category/VO2max.php:152
 msgid "Only for VO2max estimation"
-msgstr "Kun for VO2max estimering."
+msgstr "Kun for VO2max estimering"
 
 #: inc/core/Configuration/Category/VO2max.php:151
 msgid "Correction per negative elevation"
@@ -1770,7 +1768,7 @@ msgstr "Korreksjon per negativ elevasjon"
 
 #: inc/core/Configuration/Category/VO2max.php:152
 msgid "Add for each meter downwards X meter to the distance."
-msgstr "Legg til for hvert meter nedstigning X meter til distansen"
+msgstr "Legg til for hvert meter nedstigning X meter til distansen."
 
 #: inc/core/Configuration/Category/VO2max.php:169
 #: src/CoreBundle/Component/Tool/DatabaseCleanup/JobGeneral.php:88
@@ -1859,22 +1857,24 @@ msgstr "via openweathermap.org"
 
 #: inc/core/Configuration/Category/ActivityForm.php:220
 msgid "for weather: Location"
-msgstr ""
+msgstr "for vær: Lokasjon"
 
 #: inc/core/Configuration/Category/ActivityForm.php:221
 msgid ""
 "For loading weather data from openweathermap.org<br>e.g. <em>Berlin, de</em>"
-msgstr ""
+msgstr "For å laste værdata fra openweathermap.org<br>f.eks.<em>Berlin, de</em>"
 
 #: inc/core/Configuration/Category/ActivityForm.php:232
 msgid "Automatically correct elevation data"
-msgstr ""
+msgstr "Automatisk korriger elevasjonsdata"
 
 #: inc/core/Configuration/Category/ActivityForm.php:233
 msgid ""
 "Instead of using gps-elevation a correction via external services is "
 "possible."
 msgstr ""
+"Istedet for å bruke gps-elevasjon er det mulig å bruke en korreksjon via "
+"ekstern tjeneste."
 
 #: inc/core/Configuration/Category/ActivityForm.php:243
 msgid "Sort: sports"
@@ -1895,7 +1895,7 @@ msgstr ""
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:505
 #: src/CoreBundle/Component/Tool/DatabaseCleanup/JobGeneral.php:105
 msgid "Marathon shape"
-msgstr ""
+msgstr "Maratonform"
 
 #: inc/core/Configuration/Category/BasicEndurance.php:103
 msgid "Minimal distance for longjogs"
@@ -3102,7 +3102,7 @@ msgstr ""
 
 #: inc/draw/class.PlotSumData.php:697
 msgid "Target is based on current marathon shape calculations."
-msgstr ""
+msgstr "Mål er basert på kalkulasjon for gjeldene matatonform."
 
 #: inc/draw/class.PlotWeekSumData.php:55
 msgid "Weekly chart:"
@@ -3966,7 +3966,7 @@ msgstr ""
 #: plugin/RunalyzePluginPanel_Rechenspiele/window.plot.php:64
 #: plugin/RunalyzePluginPanel_Rechenspiele/Plot.Form.php:249
 msgid "Shape"
-msgstr ""
+msgstr "Form"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/Plot.Form.php:188
 msgid "Fitness (CTL)"
@@ -3978,7 +3978,7 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/Plot.Form.php:247
 msgid "Shape for all years"
-msgstr ""
+msgstr "Form for alle år"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/window.php:2
 msgid "Explanation: How are these experimental values calculated?"
@@ -3993,6 +3993,8 @@ msgid ""
 "Calculate experimental values as shape and fatigue based on TRIMP, marathon "
 "shape and your VO<sub>2</sub>max shape."
 msgstr ""
+"Kalkuler eksperimentelle verdier om form og utmattelse basert på TRIMP, "
+"maratonform og din VO<sub>2</sub>max-form."
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:47
 msgid "Show: ATL/CTL/TSB"
@@ -4012,7 +4014,7 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:55
 msgid "Show: VO<sub>2</sub>max shape"
-msgstr ""
+msgstr "Show: VO<sub>2</sub>max-form"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:56
 msgid "Predict current effective VO<sub>2</sub>max"
@@ -4020,15 +4022,15 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:59
 msgid "Show: Marathon shape"
-msgstr ""
+msgstr "Show: Maratonform"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:60
 msgid "Guess current marathon shape"
-msgstr ""
+msgstr "Gjett aktuell maratonform"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:78
 msgid "Show shape"
-msgstr ""
+msgstr "Vis form"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:79
 msgid "Show training paces"
@@ -4183,11 +4185,13 @@ msgid ""
 "The VO<sub>2</sub>max shape is calculated as the average, weighted by time, "
 "of estimated VO<sub>2</sub>max values of your activities in the last %s days."
 msgstr ""
+"VO<sub>2</sub>max-formen er kalkulert som et gjennomsnitt, vektet med tid, a "
+"estimert VO<sub>2</sub>max-verdier av dine aktiviteter siste %s dager."
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:421
 #, php-format
 msgid "Your current VO<sub>2</sub>max shape: <strong>%s</strong><br>&nbsp;"
-msgstr ""
+msgstr "Din aktulle VO<sub>2</sub>max-form: <strong>%s</strong><br>&nbsp;"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:423
 msgid ""
@@ -4248,6 +4252,8 @@ msgid ""
 "<br>The target is derived from the possible marathon time based on your "
 "current shape."
 msgstr ""
+"Din maratonform er basert på dine ukentlige kilometere og dine langløp.<br>"
+"Målet er utledet fra en mulig maratontid basert på din nåværende form."
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:514
 msgid ""
@@ -4262,6 +4268,9 @@ msgid ""
 "own attempt to adjust the prognosis for long distances based on your current "
 "endurance."
 msgstr ""
+"Maratonform er <strong>ikke</strong> vitenskapelig basert.<br>Det er vårt "
+"forsøk på å tilpasse prognosen for lange distanser basert på din nåværende "
+"utholdenhet."
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:528
 msgid ""
@@ -4680,7 +4689,7 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Prognose/Plot.Form.php:185
 msgid "Prognosis with marathon shape"
-msgstr ""
+msgstr "Prognose med maratonform"
 
 #: plugin/RunalyzePluginPanel_Prognose/Plot.Form.php:186
 msgid "Result"
@@ -4696,7 +4705,7 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:94
 msgid "Your current marathon shape:"
-msgstr ""
+msgstr "Din nåværende maratonform:"
 
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:96
 #, php-format
@@ -4749,11 +4758,11 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:372
 msgid "Use Marathon Shape"
-msgstr ""
+msgstr "Bruk maratonform"
 
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:377
 msgid "Marathon Shape"
-msgstr ""
+msgstr "Maratonform"
 
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:390
 msgid "Best result"
@@ -4812,6 +4821,8 @@ msgid ""
 "The VO2max model is the only one which considers your current shape. The "
 "other models are based on your previous race results."
 msgstr ""
+"VO[sub]2[/sub]max-modellen er den eneste som tar i betraktning din nåværende "
+"form. De andre modellene er basert på dine tidligere løpsresultater."
 
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:76
 msgid "Distances to predict"
@@ -4823,13 +4834,15 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:87
 msgid "Use marathon shape"
-msgstr ""
+msgstr "Bruk maratonform"
 
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:87
 msgid ""
 "Use marathon shape factor to adapt prognosis for long distances (VO2max "
 "only)."
 msgstr ""
+"Bruk faktor for maratonform for å tilpasse prognose for lange distanser (kun "
+"VO[sub]2[/sub]max)"
 
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:105
 msgid "Show prognosis trend"
