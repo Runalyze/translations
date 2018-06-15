@@ -1133,11 +1133,13 @@ msgstr "Vindavkjøling"
 msgid ""
 "Windchill is the perceived air temperature felt by the body on exposed skin "
 "due to the flow of air."
-msgstr "Vindavkjøling er den følte"
+msgstr ""
+"Vindavkjøling er den følte lufttemperaturen følt på kroppen med eksponert "
+"hud, forårsaket av luftstrøm."
 
 #: inc/core/Dataset/Keys/Temperature.php:53
 msgid "Temp."
-msgstr ""
+msgstr "Temp."
 
 #: inc/core/Dataset/Keys/Swolf.php:44
 #: inc/core/View/Activity/Plot/Series/Swolfcycles.php:62
