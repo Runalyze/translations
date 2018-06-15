@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-15 19:43+0000\n"
+"PO-Revision-Date: 2018-06-15 19:49+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -1775,43 +1775,47 @@ msgstr "Legg til for hvert meter nedstigning X meter til distansen"
 #: inc/core/Configuration/Category/VO2max.php:169
 #: src/CoreBundle/Component/Tool/DatabaseCleanup/JobGeneral.php:88
 msgid "VO<sub>2</sub>max shape"
-msgstr ""
+msgstr "VO<sub>2</sub>max form"
 
 #: inc/core/Configuration/Category/Privacy.php:82
 msgid "Privacy"
-msgstr ""
+msgstr "Personvern"
 
 #: inc/core/Configuration/Category/Privacy.php:84
 msgid ""
 "You can define the default privacy of new activities by sport type in the "
 "associated sport configuration."
 msgstr ""
+"Du kan definere standard personvern for nye aktiviteter etter sportstype i "
+"tilknyttet sportskonfigurasjon."
 
 #: inc/core/Configuration/Category/Privacy.php:88
 msgid "Public athlete page: active"
-msgstr ""
+msgstr "Offentlig utøverside: aktiv"
 
 #: inc/core/Configuration/Category/Privacy.php:89
 msgid "If activated: Everyone can see a list of all your (public) activities."
-msgstr ""
+msgstr "Hvis aktiv: alle kan se en liste av alle dine (offentlige) aktiviteter."
 
 #: inc/core/Configuration/Category/Privacy.php:93
 msgid "Public athlete page: private workouts"
-msgstr ""
+msgstr "Offentlig utøverside: private aktiviteter"
 
 #: inc/core/Configuration/Category/Privacy.php:94
 msgid ""
 "If activated: Display a summary for each private activity in the public "
 "activity list."
 msgstr ""
+"Hvis aktiv: Vis en oppsummering for hver privat aktivitet i den offentlige "
+"aktivitetslista."
 
 #: inc/core/Configuration/Category/Privacy.php:98
 msgid "Public athlete page: general statistics"
-msgstr ""
+msgstr "Offentlig utøverside: generell statistikk"
 
 #: inc/core/Configuration/Category/Privacy.php:99
 msgid "Show some general statistics above the activity list"
-msgstr ""
+msgstr "Viser noen generelle statikker over aktivitetslisten"
 
 #: inc/core/Configuration/Category/Privacy.php:103
 msgid "Public activities: show map"
