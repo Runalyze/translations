@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-15 15:52+0000\n"
+"PO-Revision-Date: 2018-06-15 15:55+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -984,7 +984,7 @@ msgstr "Merkelapper"
 #: inc/training/search/class.FormularSelectSearchSort.php:42
 #: inc/training/search/class.SearchFormular.php:188
 msgid "Gradient"
-msgstr "Gradering"
+msgstr "Stigningsgrad"
 
 #: inc/core/Dataset/Keys/Gradient.php:54
 msgid "Grad."
@@ -995,29 +995,31 @@ msgid ""
 "The gradient describes the ratio of elevation gain (or less) and distance. "
 "Dividing total elevation by total distance gives this value."
 msgstr ""
+"Stigningsgraden beskriver forholdet med elevasjonsøkning (eller senking) og "
+"avstand. Verdien er gitt ved å dividere total elevasjon med total distanse."
 
 #: inc/core/Dataset/Keys/TotalStrokes.php:44
 msgid "Total strokes"
-msgstr ""
+msgstr "Totalt slag"
 
 #: inc/core/Dataset/Keys/TotalStrokes.php:53
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:141
 #: inc/training/view/section/table/class.TableSwimLane.php:43
 msgid "Strokes"
-msgstr ""
+msgstr "Slag"
 
 #: inc/core/Dataset/Keys/Sport.php:53
 #: inc/training/search/class.SearchFormular.php:137
 msgid "Sport"
-msgstr ""
+msgstr "Sport"
 
 #: inc/core/Dataset/Keys/Sport.php:71
 msgid "The sports icon is shown."
-msgstr ""
+msgstr "Sportsikonet er vist."
 
 #: inc/core/Dataset/Keys/Type.php:43
 msgid "Activity type"
-msgstr ""
+msgstr "Akti"
 
 #: inc/core/Dataset/Keys/Type.php:62
 msgid ""
