@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-15 11:47+0000\n"
+"PO-Revision-Date: 2018-06-15 15:43+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -539,12 +539,15 @@ msgid ""
 "Estimated VO<sub>2</sub>max based on pace and heart rate. The value is "
 "slightly transparent if it is not used for your VO<sub>2</sub>max shape."
 msgstr ""
+"Estimert VO<sub>2</sub>max basert på tempo og hjertefrekvens. Verdien er "
+"delvis gjennomsiktig hvis den ikke er brukt for ditt VO<sub>2</sub>max "
+"profil."
 
 #: inc/core/Dataset/Keys/FitPerformanceCondition.php:43
 #: inc/core/Dataset/Keys/FitPerformanceConditionEnd.php:31
 #: inc/core/Dataset/Keys/FitPerformanceConditionStart.php:31
 msgid "Performance Condition"
-msgstr ""
+msgstr "Prestasjonstilstand"
 
 #: inc/core/Dataset/Keys/FitPerformanceCondition.php:43
 #: inc/core/Dataset/Keys/FitPerformanceConditionEnd.php:31
@@ -568,6 +571,8 @@ msgid ""
 "The performance condition is an assessment, detected by some Garmin devices, "
 "of your ability to perform compared to your average fitness level."
 msgstr ""
+"Prestasjonstilstand er en betraktning, oppfattet av noen Garmin-enheter, av "
+"din evne til å prestere sammenlignet med ditt gjennomsnittlige treningsnivå."
 
 #: inc/core/Dataset/Keys/FitPerformanceConditionEnd.php:31
 msgid "at the end"
@@ -841,12 +846,14 @@ msgid ""
 "Training Effect is an indicator between 1.0 (easy) and 5.0 (overreaching) to "
 "rate the impact of aerobic exercise on your body."
 msgstr ""
+"Treningseffekt er en indikator mellom 1.0 (lett) og 5.0 (overtrening) for å "
+"gradere påvirkningen av aerobisk trening på kroppen din."
 
 #: inc/core/Dataset/Keys/ClimbScore.php:21
 #: inc/training/view/section/class.SectionRouteRowElevation.php:74
 #: inc/training/search/class.SearchFormular.php:227
 msgid "Climb Score"
-msgstr ""
+msgstr "Klatrepoeng"
 
 #: inc/core/Dataset/Keys/ClimbScore.php:26
 msgid "CS"
@@ -856,26 +863,26 @@ msgstr ""
 #: inc/core/Data/Weather/Humidity.php:58
 #: inc/training/search/class.SearchFormular.php:221
 msgid "Humidity"
-msgstr ""
+msgstr "Luftfuktighet"
 
 #: inc/core/Dataset/Keys/CompleteEquipment.php:34
 msgid "Complete equipment"
-msgstr ""
+msgstr "Fullstendig utstyr"
 
 #: inc/core/Dataset/Keys/CompleteEquipment.php:52
 msgid "Your complete equipment is shown as icon with tooltip."
-msgstr ""
+msgstr "Ditt komplette utstyr er vist som et ikon med verktøytips."
 
 #: inc/core/Dataset/Keys/TrainingPartner.php:46
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:275
 #: plugin/RunalyzePluginStat_Trainingspartner/class.RunalyzePluginStat_Trainingspartner.php:36
 msgid "Training partner"
-msgstr ""
+msgstr "Treningspartner"
 
 #: inc/core/Dataset/Keys/TrainingPartner.php:55
 #: inc/training/search/class.SearchFormular.php:193
 msgid "Partner"
-msgstr ""
+msgstr "Partner"
 
 #: inc/core/Dataset/Keys/TrainingPartner.php:65
 #, php-format
