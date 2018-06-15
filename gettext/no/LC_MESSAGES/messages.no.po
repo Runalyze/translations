@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-15 16:13+0000\n"
+"PO-Revision-Date: 2018-06-15 16:25+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -1108,32 +1108,32 @@ msgid ""
 "Calculated value for total elevation, i.e. maximum of total ascent or "
 "descent."
 msgstr ""
-"Kalkulert verdi for total elevasjon (maksimal oppstigning og nedstigning)"
+"Kalkulert verdi for total elevasjon (maksimal oppstigning og nedstigning)."
 
 #: inc/core/Dataset/Keys/Cadence.php:44 inc/core/View/Window/Laps/Table.php:267
 #: inc/core/Data/Cadence/General.php:22
 #: inc/training/search/class.SearchFormular.php:192
 msgid "Cadence"
-msgstr ""
+msgstr "Tråkk"
 
 #: inc/core/Dataset/Keys/PercentageHilly.php:21
 #: inc/training/view/section/class.SectionRouteRowElevation.php:80
 msgid "Percentage hilly"
-msgstr ""
+msgstr "Prosentvis kupert"
 
 #: inc/core/Dataset/Keys/PercentageHilly.php:26
 msgid "Hilly"
-msgstr ""
+msgstr "Kupert"
 
 #: inc/core/Dataset/Keys/WindChill.php:43
 msgid "Windchill"
-msgstr ""
+msgstr "Vindavkjøling"
 
 #: inc/core/Dataset/Keys/WindChill.php:53
 msgid ""
 "Windchill is the perceived air temperature felt by the body on exposed skin "
 "due to the flow of air."
-msgstr ""
+msgstr "Vindavkjøling er den følte"
 
 #: inc/core/Dataset/Keys/Temperature.php:53
 msgid "Temp."
