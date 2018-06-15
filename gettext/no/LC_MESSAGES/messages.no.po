@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-15 16:35+0000\n"
+"PO-Revision-Date: 2018-06-15 18:28+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -562,7 +562,7 @@ msgstr "(i fil)"
 #: inc/core/Dataset/Keys/FitPerformanceCondition.php:52
 #: inc/core/Activity/PerformanceCondition.php:67
 msgid "PC"
-msgstr ""
+msgstr "PT"
 
 #: inc/core/Dataset/Keys/FitPerformanceCondition.php:62
 #: inc/core/Dataset/Keys/FitPerformanceConditionEnd.php:50
@@ -580,7 +580,7 @@ msgstr "ved slutten"
 
 #: inc/core/Dataset/Keys/FitPerformanceConditionEnd.php:40
 msgid "PC End"
-msgstr ""
+msgstr "PT slutt"
 
 #: inc/core/Dataset/Keys/VerticalOscillation.php:44
 #: inc/core/View/Activity/Plot/Series/VerticalOscillation.php:41
@@ -612,7 +612,7 @@ msgstr "Bakkekontakt balanse"
 
 #: inc/core/Dataset/Keys/GroundcontactBalance.php:53
 msgid "GCB"
-msgstr ""
+msgstr "GCB"
 
 #: inc/core/Dataset/Keys/GroundcontactBalance.php:62
 msgid "Ground contact time balance measures your running symmetry."
@@ -857,7 +857,7 @@ msgstr "Klatrepoeng"
 
 #: inc/core/Dataset/Keys/ClimbScore.php:26
 msgid "CS"
-msgstr ""
+msgstr "KP"
 
 #: inc/core/Dataset/Keys/Humidity.php:43 inc/core/Dataset/Keys/Weather.php:77
 #: inc/core/Data/Weather/Humidity.php:58
@@ -940,7 +940,7 @@ msgstr "Varmeindeks"
 
 #: inc/core/Dataset/Keys/HeatIndex.php:53
 msgid "HI"
-msgstr ""
+msgstr "VI"
 
 #: inc/core/Dataset/Keys/HeatIndex.php:63
 msgid ""
@@ -988,7 +988,7 @@ msgstr "Stigningsgrad"
 
 #: inc/core/Dataset/Keys/Gradient.php:54
 msgid "Grad."
-msgstr ""
+msgstr "Grad."
 
 #: inc/core/Dataset/Keys/Gradient.php:63
 msgid ""
@@ -1147,7 +1147,7 @@ msgstr "Temp."
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:147
 #: inc/training/view/section/table/class.TableSwimLane.php:42
 msgid "Swolf"
-msgstr ""
+msgstr "Swolf"
 
 #: inc/core/Dataset/Keys/FitRecoveryTime.php:43
 #: inc/core/Dataset/Keys/FitRecoveryTime.php:52
@@ -1298,7 +1298,9 @@ msgstr "Overanstrengelse"
 msgid ""
 "Helps recovery (short activities). Improves endurance with longer activities "
 "(more than 40 minutes)."
-msgstr "Hjelper restitusjon (kort aktivitet). Øker ut"
+msgstr ""
+"Hjelper restitusjon (kort aktivitet). Øker utholdenhet med lengre "
+"aktiviteter (mer enn 40 minutt)."
 
 #: inc/core/Activity/TrainingEffectLevel.php:94
 msgid "Maintains your aerobic fitness."
@@ -5299,8 +5301,8 @@ msgstr ""
 
 #: src/CoreBundle/Component/Account/Registration.php:242
 msgid "gloves"
-msgstr ""
+msgstr "hansker"
 
 #: src/CoreBundle/Component/Account/Registration.php:242
 msgid "hat"
-msgstr ""
+msgstr "hodeplagg"
