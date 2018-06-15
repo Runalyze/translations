@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-15 19:32+0000\n"
+"PO-Revision-Date: 2018-06-15 19:42+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -1708,55 +1708,61 @@ msgstr "Tidskonstants lenge for VO<sub>2</sub>max"
 
 #: inc/core/Configuration/Category/VO2max.php:125
 msgid "Time constant length for VO<sub>2</sub>max rolling average"
-msgstr "Tidskonstants lenge for VO<sub>2</sub>max rullende gjennomsnitt."
+msgstr "Tidskonstants lenge for VO<sub>2</sub>max rullende gjennomsnitt"
 
 #: inc/core/Configuration/Category/VO2max.php:129
 msgid "Manual correction factor"
-msgstr ""
+msgstr "Manuel korreksjonsfaktor"
 
 #: inc/core/Configuration/Category/VO2max.php:130
 msgid ""
 "Manual correction factor (e.g. 0.9), if the automatic factor does not fit. "
 "Can be left empty."
 msgstr ""
+"Manuel korreksjonsfaltor (f.eks. 0.9), hvis den automatiske faktoren ikke "
+"passer. Kan være tom."
 
 #: inc/core/Configuration/Category/VO2max.php:131
 #, php-format
 msgid "Value must be between %s and %s."
-msgstr ""
+msgstr "Verdien må være mellom %s og %s."
 
 #: inc/core/Configuration/Category/VO2max.php:135
 msgid "Use fixed VO<sub>2</sub>max value"
-msgstr ""
+msgstr "Bruk fiksert VO<sub>2</sub>max verdi"
 
 #: inc/core/Configuration/Category/VO2max.php:136
 msgid ""
 "Fixed VO<sub>2</sub>max value (e.g. 55), if the estimation does not fit. Can "
 "be left empty."
 msgstr ""
+"Fiksert VO<sub>2</sub>max verdi (f.eks. 55), hvis estimering ikke passer. "
+"Kan være tom."
 
 #: inc/core/Configuration/Category/VO2max.php:140
 msgid "Adapt for elevation"
-msgstr ""
+msgstr "Tilpass for elevasjon"
 
 #: inc/core/Configuration/Category/VO2max.php:141
 msgid ""
 "The distance can be corrected by a formula from Peter Greif to adapt for "
 "elevation."
 msgstr ""
+"Distansen kan bli korrigert med en formel av Peter Greif for å tilpasse for "
+"elevasjon."
 
 #: inc/core/Configuration/Category/VO2max.php:145
 msgid "Correction per positive elevation"
-msgstr ""
+msgstr "Korreksjon per positiv elevasjon"
 
 #: inc/core/Configuration/Category/VO2max.php:146
 msgid "Add for each meter upwards X meter to the distance."
-msgstr ""
+msgstr "Legg til for hvert meter oppstigning X meter til distansen."
 
 #: inc/core/Configuration/Category/VO2max.php:146
 #: inc/core/Configuration/Category/VO2max.php:152
 msgid "Only for VO2max estimation"
-msgstr ""
+msgstr "Kun for VO2max estimering."
 
 #: inc/core/Configuration/Category/VO2max.php:151
 msgid "Correction per negative elevation"
