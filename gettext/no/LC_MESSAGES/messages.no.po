@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-16 06:37+0000\n"
+"PO-Revision-Date: 2018-06-16 06:38+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -4294,11 +4294,11 @@ msgstr "Summer dine merkelapper for valgt sport."
 
 #: plugin/RunalyzePluginPanel_TagsSummary/class.RunalyzePluginPanel_TagsSummary.php:57
 msgid "Sport to summarise tags for"
-msgstr "Sport for å summere merkelapper for"
+msgstr "Sport å summere merkelapper for"
 
 #: plugin/RunalyzePluginPanel_TagsSummary/class.RunalyzePluginPanel_TagsSummary.php:68
 msgid "Show tags for this period of months"
-msgstr "Vis merkelapperfor denne perioden avmåneder"
+msgstr "Vis merkelapperfor denne perioden av måneder"
 
 #: plugin/RunalyzePluginPanel_TagsSummary/class.RunalyzePluginPanel_TagsSummary.php:114
 msgid "months"
@@ -4310,7 +4310,7 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_TagsSummary/class.RunalyzePluginPanel_TagsSummary.php:176
 msgid "You don't have any tags for this sport or timescale."
-msgstr ""
+msgstr "Du har ingen merkelapper for denne sporten eller tidsperioden"
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:40
 msgid "Goals"
