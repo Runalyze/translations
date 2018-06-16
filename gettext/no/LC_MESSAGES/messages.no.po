@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-16 06:38+0000\n"
+"PO-Revision-Date: 2018-06-16 18:58+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -707,7 +707,7 @@ msgstr "Trykk"
 #: inc/training/search/class.FormularSelectSearchSort.php:62
 #: inc/training/search/class.FormularSelectSearchSort.php:63
 msgid "Braking Gs"
-msgstr ""
+msgstr "Bremse G"
 
 #: inc/core/Dataset/Keys/Trimp.php:44
 #: inc/core/Configuration/Category/Trimp.php:96
@@ -788,7 +788,7 @@ msgstr "Sveverate"
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:184
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:195
 msgid "avg."
-msgstr ""
+msgstr "gjsn."
 
 #: inc/core/Dataset/Keys/HeartrateAverage.php:44
 #: inc/core/Dataset/Keys/HeartrateMaximum.php:44
@@ -955,7 +955,7 @@ msgstr ""
 #: inc/training/search/class.FormularSelectSearchSort.php:60
 #: inc/training/search/class.FormularSelectSearchSort.php:61
 msgid "Impact Gs"
-msgstr ""
+msgstr "Støt G"
 
 #: inc/core/Dataset/Keys/VO2maxIcon.php:36
 msgid "Effective VO<sub>2</sub>max icon"
@@ -1259,6 +1259,10 @@ msgid ""
 "a colored marker, green for low values and red for high values. Garmin shows "
 "this value as recovery status."
 msgstr ""
+"Garmin kalkuler HRV poeng de første 12 minuttene av hver aktivitet. Verdien -"
+" sannsynlig restitusjonstid i minutter - er vist som en farget markør, grønn "
+"for lave verdier og rød for høye verdier. Garmin viser dette som "
+"restitusjonsstatus."
 
 #: inc/core/Activity/GroundcontactBalance.php:48
 msgid "Groundcontact balance"
@@ -1673,6 +1677,9 @@ msgid ""
 "lead to wrong assumptions if you were overtrained. Deactivate this option in "
 "that case."
 msgstr ""
+"Som standard er ATL/CTL skalert basert på ditt historiske maksimum. Dette "
+"kan lede til feile antagelser hvis du har vært overtrent. Deaktiver dette "
+"valget hvis så er tilfelle."
 
 #: inc/core/Configuration/Category/Trimp.php:116
 msgid "Show TSB in percent of ATL/CTL"
@@ -1878,15 +1885,15 @@ msgstr ""
 
 #: inc/core/Configuration/Category/ActivityForm.php:243
 msgid "Sort: sports"
-msgstr ""
+msgstr "Sorter: sport"
 
 #: inc/core/Configuration/Category/ActivityForm.php:247
 msgid "Sort: activity types"
-msgstr ""
+msgstr "Sorter: aktivitetstype"
 
 #: inc/core/Configuration/Category/ActivityForm.php:251
 msgid "Sort: equipment"
-msgstr ""
+msgstr "Sorter: utstyr"
 
 #: inc/core/Configuration/Category/BasicEndurance.php:101
 #: inc/core/Configuration/Category/BasicEndurance.php:149
@@ -1899,71 +1906,73 @@ msgstr "Maratonform"
 
 #: inc/core/Configuration/Category/BasicEndurance.php:103
 msgid "Minimal distance for longjogs"
-msgstr ""
+msgstr "Minste distanse for langløp"
 
 #: inc/core/Configuration/Category/BasicEndurance.php:104
 msgid "Every run above this distance will be rated."
-msgstr ""
+msgstr "Hvert løp over denne distansen vil bli vurdert."
 
 #: inc/core/Configuration/Category/BasicEndurance.php:108
 msgid "Days for longjogs"
-msgstr ""
+msgstr "Dager for å telle langløp"
 
 #: inc/core/Configuration/Category/BasicEndurance.php:109
 msgid "Number of days to look at for longjog goal."
-msgstr ""
+msgstr "Antall dager tilbake det skal sees etter langløp."
 
 #: inc/core/Configuration/Category/BasicEndurance.php:112
 msgid "Days for week kilometer"
-msgstr ""
+msgstr "Dager for å telle ukentlige kilometer"
 
 #: inc/core/Configuration/Category/BasicEndurance.php:113
 msgid "Number of days to look at for weekly kilometer goal."
-msgstr ""
+msgstr "Antall dager tilbake det skal sees etter ukentlige kilometer."
 
 #: inc/core/Configuration/Category/BasicEndurance.php:116
 msgid "Days for week kilometer (minimum)"
-msgstr ""
+msgstr "Dager for å telle ukentlige kilometer (minimum)"
 
 #: inc/core/Configuration/Category/BasicEndurance.php:117
 msgid "This value will be used if not enough data is available."
-msgstr ""
+msgstr "Hvis ikke det er nok data tilgjengelig vil denne verdien bli brukt."
 
 #: inc/core/Configuration/Category/BasicEndurance.php:120
 msgid "Factor for week kilometers"
-msgstr ""
+msgstr "Faktor for ukentlige kilometer"
 
 #: inc/core/Configuration/Category/BasicEndurance.php:121
 msgid "Percentage as value between 0.00 and 1.00."
 msgstr ""
+"Prosentverdi som verdi mellom 0.00 og 1.00 for hvor mye ukentlige kilometer "
+"skal vektes i forhold til langløp."
 
 #: inc/core/Configuration/Category/DataBrowser.php:96
 msgid "Calendar view"
-msgstr ""
+msgstr "Kalendervisning"
 
 #: inc/core/Configuration/Category/DataBrowser.php:99
 msgid "Calendar: mode"
-msgstr ""
+msgstr "Kalender: modus"
 
 #: inc/core/Configuration/Category/DataBrowser.php:100
 msgid "Default mode for the calendar"
-msgstr ""
+msgstr "Standardmodus for kalenderen"
 
 #: inc/core/Configuration/Category/DataBrowser.php:104
 msgid "Calendar: show labels for dataset"
-msgstr ""
+msgstr "Kalender: Vis etiketter for datasett"
 
 #: inc/core/Configuration/Category/DataBrowser.php:108
 msgid "Calendar: show days with activities only"
-msgstr ""
+msgstr "Kalender: Vis kun dager med aktiviteter"
 
 #: inc/core/Configuration/Category/DataBrowser.php:112
 msgid "Calendar: create button"
-msgstr ""
+msgstr "Kalender: ny-knapp"
 
 #: inc/core/Configuration/Category/DataBrowser.php:113
 msgid "Add a link for every day to create a new activity."
-msgstr ""
+msgstr "Legg til en link for hver dag for å legge til en ny aktivitet"
 
 #: inc/core/Configuration/Category/DataBrowser.php:117
 msgid "reverse order"
@@ -4310,7 +4319,7 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_TagsSummary/class.RunalyzePluginPanel_TagsSummary.php:176
 msgid "You don't have any tags for this sport or timescale."
-msgstr "Du har ingen merkelapper for denne sporten eller tidsperioden"
+msgstr "Du har ingen merkelapper for denne sporten eller tidsperioden."
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:40
 msgid "Goals"
@@ -4515,19 +4524,19 @@ msgstr ""
 
 #: plugin/RunalyzePluginStat_Tag/class.RunalyzePluginStat_Tag.php:29
 msgid "Tag analysis"
-msgstr ""
+msgstr "Merkelappanalyse"
 
 #: plugin/RunalyzePluginStat_Tag/class.RunalyzePluginStat_Tag.php:37
 msgid "How often have you tagged your activities with tag x?"
-msgstr ""
+msgstr "Hvor ofte har du merket dine aktiviteter med merkelappen X?"
 
 #: plugin/RunalyzePluginStat_Tag/class.RunalyzePluginStat_Tag.php:51
 msgid "Tag to analyze"
-msgstr ""
+msgstr "Merkelapp som skal analyseres"
 
 #: plugin/RunalyzePluginStat_Tag/class.RunalyzePluginStat_Tag.php:113
 msgid "Please choose a tag."
-msgstr ""
+msgstr "Venligst velg en merkelapp."
 
 #: plugin/RunalyzePluginStat_Tag/class.RunalyzePluginStat_Tag.php:129
 msgid "No activities found."
@@ -4894,6 +4903,8 @@ msgid ""
 "Show body values: weight, resting heart rate and values like fat-, water- "
 "and muscles-percentage."
 msgstr ""
+"Vis kroppsverdier: vekt, hvilepuls og verdier som fett-, vann og "
+"muskelprosenter."
 
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:51
 msgid "Desired body weight"
@@ -5226,7 +5237,7 @@ msgstr ""
 
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:150
 msgid "Relation: tag to activities"
-msgstr ""
+msgstr "Relasjon: merkelapp til aktiviteter"
 
 #: src/CoreBundle/Component/Account/Registration.php:91
 #: src/CoreBundle/Component/Account/Registration.php:231
