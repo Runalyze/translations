@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-17 12:55+0000\n"
+"PO-Revision-Date: 2018-06-17 16:31+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -2101,81 +2101,83 @@ msgstr "Velg en algoritme for å glatte elevasjonsdata"
 
 #: inc/core/Configuration/Category/ActivityView.php:402
 msgid "Elevation: threshold"
-msgstr "Elevasjon: filter"
+msgstr "Elevasjon: terskel"
 
 #: inc/core/Configuration/Category/ActivityView.php:403
 msgid "Threshold for the smoothing algorithm"
-msgstr ""
+msgstr "Terskel for glatting"
 
 #: inc/core/Configuration/Category/General.php:216
 msgid "Beginning of the week"
-msgstr ""
+msgstr "Begynnelse av uke"
 
 #: inc/core/Configuration/Category/General.php:220
 msgid "Unit system for distances"
-msgstr ""
+msgstr "Enhet for distanser"
 
 #: inc/core/Configuration/Category/General.php:221
 msgid ""
 "Changing the unit system for distances does not change pace units. You have "
 "to adjust them in sports configuration."
 msgstr ""
+"Endring av enhet for distanser endrer ikke enhet for tempo. Du må endre dem "
+"i sportskonfigurasjonen."
 
 #: inc/core/Configuration/Category/General.php:225
 msgid "Weight unit"
-msgstr ""
+msgstr "Vektenhet"
 
 #: inc/core/Configuration/Category/General.php:229
 msgid "Energy unit"
-msgstr ""
+msgstr "Energienhet"
 
 #: inc/core/Configuration/Category/General.php:233
 msgid "Temperature unit"
-msgstr ""
+msgstr "Temperaturenhet"
 
 #: inc/core/Configuration/Category/General.php:237
 msgid "Heart rate unit"
-msgstr ""
+msgstr "Hjertefrekvens enhet"
 
 #: inc/core/Configuration/Category/General.php:241
 msgid "Main sport"
-msgstr ""
+msgstr "Hovedsport"
 
 #: inc/core/Configuration/Category/General.php:245
 msgid "Synchronisation Fallback Sport"
-msgstr ""
+msgstr "Synkronisering standardsport"
 
 #: inc/core/Parameter/Application/DatabaseOrder.php:44
 msgid "id (oldest first)"
-msgstr ""
+msgstr "id (eldste først)"
 
 #: inc/core/Parameter/Application/DatabaseOrder.php:45
 msgid "id (latest first)"
-msgstr ""
+msgstr "id (nyeste først)"
 
 #: inc/core/Parameter/Application/DatabaseOrder.php:46
 msgid "alphabetical"
-msgstr ""
+msgstr "alfabetisk"
 
 #: inc/core/Parameter/Application/PaceAxisLimit.php:28
 msgid "automatic"
-msgstr ""
+msgstr "automatisk"
 
 #: inc/core/Parameter/Application/DataBrowserMode.php:33
 msgid "Week view"
-msgstr ""
+msgstr "Ukevisning"
 
 #: inc/core/Parameter/Application/DataBrowserMode.php:34
 msgid "Month view"
-msgstr ""
+msgstr "Månedsvisning"
 
 #: inc/core/Parameter/Application/EnergyUnit.php:36
 msgid "Kilocalories"
-msgstr ""
+msgstr "Kilokalorier"
 
 #: inc/core/Parameter/Application/EnergyUnit.php:37
 msgid "Kilojoules"
-msgstr ""
+msgstr "Kilojoules"
 
 #: inc/core/Parameter/Application/ElevationMethod.php:45
 msgid "no smoothing"
