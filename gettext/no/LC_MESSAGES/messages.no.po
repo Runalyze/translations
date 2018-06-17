@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-17 17:19+0000\n"
+"PO-Revision-Date: 2018-06-17 17:31+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -2314,99 +2314,99 @@ msgstr "et datapunkt hver 500m"
 
 #: inc/core/Parameter/Application/ActivityPlotPrecision.php:25
 msgid "max. 50 data points"
-msgstr "max 50 datapunkter"
+msgstr "maksimalt 50 datapunkter"
 
 #: inc/core/Parameter/Application/ActivityPlotPrecision.php:26
 msgid "max. 100 data points"
-msgstr ""
+msgstr "maksimalt 100 datapunkter"
 
 #: inc/core/Parameter/Application/ActivityPlotPrecision.php:27
 msgid "max. 200 data points (recommended)"
-msgstr ""
+msgstr "maksimalt 200 datapunkter (anbefalt)"
 
 #: inc/core/Parameter/Application/ActivityPlotPrecision.php:28
 msgid "max. 300 data points"
-msgstr ""
+msgstr "maksimalt 300 datapunkter"
 
 #: inc/core/Parameter/Application/ActivityPlotPrecision.php:29
 msgid "max. 400 data points"
-msgstr ""
+msgstr "maksimalt 400 datapunkter"
 
 #: inc/core/Parameter/Application/ActivityPlotPrecision.php:30
 msgid "max. 500 data points"
-msgstr ""
+msgstr "maksimalt 500 datapunkter"
 
 #: inc/core/Parameter/Application/ActivityPlotPrecision.php:31
 msgid "max. 750 data points"
-msgstr ""
+msgstr "maksimalt 750 datapunkter"
 
 #: inc/core/Parameter/Application/ActivityPlotPrecision.php:32
 msgid "max. 1000 data points"
-msgstr ""
+msgstr "maksimalt 100 datapunkter"
 
 #: inc/core/Parameter/Application/WeightUnit.php:40
 msgid "kilograms"
-msgstr ""
+msgstr "kilogram"
 
 #: inc/core/Parameter/Application/WeightUnit.php:41
 msgid "pounds"
-msgstr ""
+msgstr "pund"
 
 #: inc/core/Parameter/Application/WeightUnit.php:42
 msgid "stones"
-msgstr ""
+msgstr "stone"
 
 #: inc/core/Parameter/Application/PaceAxisType.php:16
 msgid "linear"
-msgstr ""
+msgstr "lineær"
 
 #: inc/core/Parameter/Application/PaceAxisType.php:17
 msgid "reversed linear"
-msgstr ""
+msgstr "omvendt lineær"
 
 #: inc/core/Parameter/Application/PaceAxisType.php:18
 msgid "as speed"
-msgstr ""
+msgstr "som hastighet"
 
 #: inc/core/Parameter/Application/DistanceUnitSystem.php:94
 msgid "Metric units"
-msgstr ""
+msgstr "Metriske enheter"
 
 #: inc/core/Parameter/Application/DistanceUnitSystem.php:95
 msgid "Imperial units"
-msgstr ""
+msgstr "Imperiske enheter"
 
 #: inc/core/Export/Share/Twitter.php:55
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 #: inc/core/Export/Share/Html.php:45
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 #: inc/core/Export/Share/Html.php:55 inc/core/Export/Share/IFrame.php:82
 msgid "Code"
-msgstr ""
+msgstr "Kode"
 
 #: inc/core/Export/Share/Html.php:59 inc/core/Export/Share/IFrame.php:86
 msgid "HTML-Code"
-msgstr ""
+msgstr "HTML-kode"
 
 #: inc/core/Export/Share/Html.php:61 inc/core/Export/Share/IFrame.php:93
 msgid "Add this code to your blog/website."
-msgstr ""
+msgstr "Legg denne koden til bloggen/hjemmesiden din."
 
 #: inc/core/Export/Share/Html.php:63 inc/core/Export/Share/IFrame.php:111
 msgid "Preview"
-msgstr ""
+msgstr "Forhåndsvisning"
 
 #: inc/core/Export/Share/Html.php:67
 msgid "Your training is private: There is no link included."
-msgstr ""
+msgstr "Aktiviteten din er privat: Det er ingen link inkludert."
 
 #: inc/core/Export/Share/Facebook.php:73
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: inc/core/Export/Share/GooglePlus.php:49
 msgid "Google+"
