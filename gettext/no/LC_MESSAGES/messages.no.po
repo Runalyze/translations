@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-17 17:39+0000\n"
+"PO-Revision-Date: 2018-06-17 17:51+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -2442,60 +2442,62 @@ msgstr "Jeg gjorde sport: "
 
 #: inc/core/Export/Share/AbstractSharer.php:45
 msgid " in "
-msgstr " inn "
+msgstr " i "
 
 #: inc/core/Export/Share/AbstractSharer.php:89
 msgid "Runalyze is running on a local server."
-msgstr ""
+msgstr "Runalyze kjører på en lokal server."
 
 #: inc/core/Export/Share/AbstractSharer.php:90
 msgid ""
 "Linking your activity in a social network does not make sense - nobody will "
 "be able to see your activity."
 msgstr ""
+"Linke til dine aktiviteter i sosiale medier gir ikke mening - ingen vil "
+"kunne se dine aktiviteter."
 
 #: inc/core/View/Splits/Table.php:157
 msgid "diff"
-msgstr ""
+msgstr "forskjell"
 
 #: inc/core/View/Splits/Table.php:230
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:175
 msgid "Goal"
-msgstr ""
+msgstr "Mål"
 
 #: inc/core/View/Splits/Table.php:243
 msgid "Average (active)"
-msgstr ""
+msgstr "Gjennomsnitt (aktive)"
 
 #: inc/core/View/Splits/Table.php:251
 msgid "Average (total)"
-msgstr ""
+msgstr "Gjennomsnitt (total)"
 
 #: inc/core/View/Splits/Table.php:266
 msgid "1st/2nd Half"
-msgstr ""
+msgstr "1./2. halvdel"
 
 #: inc/core/View/Activity/Plot/LapsComputed.php:26
 #: inc/training/view/section/class.SectionLaps.php:27
 msgid "Computed Laps"
-msgstr ""
+msgstr "Beregnede runder"
 
 #: inc/core/View/Activity/Plot/LapsComputed.php:35
 msgid "No GPS-data available. Can\\'t compute laps."
-msgstr ""
+msgstr "Ingen GPS-data er tilgjengelig. Kan ikke beregne runder."
 
 #: inc/core/View/Activity/Plot/ElevationAlgorithms.php:82
 msgid "Original data"
-msgstr ""
+msgstr "Originaldata"
 
 #: inc/core/View/Activity/Plot/ElevationAlgorithms.php:95
 #: inc/training/view/class.ElevationInfo.php:191
 msgid "Threshold"
-msgstr ""
+msgstr "Terskel"
 
 #: inc/core/View/Activity/Plot/ElevationAlgorithms.php:107
 msgid "Douglas-Peucker"
-msgstr ""
+msgstr "Douglas-Peucker"
 
 #: inc/core/View/Activity/Plot/HRVPoincare.php:50
 #: inc/core/View/Activity/Plot/HRVPoincare.php:59
