@@ -2201,11 +2201,12 @@ msgstr "Garmin-Communicator"
 
 #: inc/core/Parameter/Application/ActivityCreationMode.php:41
 msgid "Standard form"
-msgstr ""
+msgstr "Hovedskjema"
 
 #: inc/core/Parameter/Application/TemperatureUnit.php:35
+#, fuzzy
 msgid "Celsius (°C)"
-msgstr ""
+msgstr "Celsius (°C)"
 
 #: inc/core/Parameter/Application/TemperatureUnit.php:36
 msgid "Fahrenheit (°F)"
