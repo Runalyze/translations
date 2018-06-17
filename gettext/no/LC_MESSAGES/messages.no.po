@@ -2204,7 +2204,6 @@ msgid "Standard form"
 msgstr "Hovedskjema"
 
 #: inc/core/Parameter/Application/TemperatureUnit.php:35
-#, fuzzy
 msgid "Celsius (°C)"
 msgstr "Celsius (°C)"
 
