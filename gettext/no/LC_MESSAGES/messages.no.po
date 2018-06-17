@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-17 17:54+0000\n"
+"PO-Revision-Date: 2018-06-17 18:14+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -2573,7 +2573,7 @@ msgstr "SmO2"
 
 #: inc/core/View/Activity/Plot/Series/PaceCumulativeAverage.php:50
 msgid "Moving average"
-msgstr ""
+msgstr "Glidende gjennomsnitt"
 
 #: inc/core/View/Activity/Plot/Series/FootstrikeType.php:28
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:16
@@ -2585,79 +2585,79 @@ msgstr ""
 #: inc/core/View/Activity/Plot/Series/Stroke.php:62
 #: inc/training/view/section/class.SectionSwimLaneRow.php:29
 msgid "Stroke"
-msgstr ""
+msgstr "Slag"
 
 #: inc/core/View/Activity/Plot/LapsManual.php:27
 #: inc/training/view/section/class.SectionLaps.php:23
 msgid "Manual Laps"
-msgstr ""
+msgstr "Manuelle runder"
 
 #: inc/core/View/Activity/Plot/LapsManual.php:38
 msgid "There are no manual laps."
-msgstr ""
+msgstr "Det er ingen manuelle runder."
 
 #: inc/core/View/Activity/Box/Pace.php:28
 #: inc/core/View/Activity/Box/Speed.php:37
 msgid "Speed"
-msgstr ""
+msgstr "Hastighet"
 
 #: inc/core/View/Activity/Box/ElevationUpDown.php:35
 msgid "Elevation up/down"
-msgstr ""
+msgstr "Elevasjon opp/ned"
 
 #: inc/core/View/Activity/Box/MaximalHeartRateInPercent.php:64
 msgid "This value exceeds your entered maximal heart rate."
-msgstr ""
+msgstr "Verdien er høyere enn din angitte maksimale hjertefrekvens."
 
 #: inc/core/View/Activity/Box/MaximalHeartRateInPercent.php:65
 msgid "Please adjust your maximal heart rate."
-msgstr ""
+msgstr "Vennligst juster din maksimale hjertefrekvens."
 
 #: inc/core/View/Activity/Box/TotalCadence.php:28
 msgid "Number of steps"
-msgstr ""
+msgstr "Antall steg"
 
 #: inc/core/View/Activity/Box/TotalCadence.php:30
 msgid "Total cadence"
-msgstr ""
+msgstr "Totalt tråkk"
 
 #: inc/core/View/Window/Laps/Table.php:125
 #: inc/training/view/section/class.SectionLaps.php:20
 msgid "Laps"
-msgstr ""
+msgstr "Runder"
 
 #: inc/core/View/Window/Laps/Table.php:143
 msgid "Lap"
-msgstr ""
+msgstr "Runde"
 
 #: inc/core/View/Window/Laps/Table.php:145
 #: inc/core/View/Window/Laps/Table.php:147
 msgid "Diff."
-msgstr ""
+msgstr "Forskjell."
 
 #: inc/core/View/Window/Laps/Table.php:150
 msgid "elevation"
-msgstr ""
+msgstr "elevasjon"
 
 #: inc/core/View/Window/Laps/Table.php:310
 msgid "Average"
-msgstr ""
+msgstr "Gjennomsnitt"
 
 #: inc/core/View/Window/Laps/Table.php:315
 msgid "active"
-msgstr ""
+msgstr "aktive"
 
 #: inc/core/View/Window/Laps/Table.php:315
 msgid "inactive"
-msgstr ""
+msgstr "ikke -aktive"
 
 #: inc/core/View/Window/Laps/Table.php:377
 msgid "Show inactive splits"
-msgstr ""
+msgstr "Vis ikke-aktive deler"
 
 #: inc/core/View/Window/Laps/Form.php:41
 msgid "Calculate laps"
-msgstr ""
+msgstr "Beregnede runder"
 
 #: inc/core/View/Window/Laps/Form.php:56 inc/core/View/Window/Laps/Form.php:67
 msgid "Lap every ..."
