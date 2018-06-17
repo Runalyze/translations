@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-17 18:39+0000\n"
+"PO-Revision-Date: 2018-06-18 05:20+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -1158,7 +1158,7 @@ msgid ""
 "Garmin calculates a suggested recovery time based on your heart rate "
 "variability right after the end of your activity."
 msgstr ""
-"Garmin kalkulerer foreslått restitusjonstid basert på din hjertefrekvens-"
+"Garmin beregner foreslått restitusjonstid basert på din hjertefrekvens-"
 "variabilitet rett etter slutten av din aktivitet."
 
 #: inc/core/Dataset/Keys/AverageFootstrikeType.php:22
@@ -1259,7 +1259,7 @@ msgid ""
 "a colored marker, green for low values and red for high values. Garmin shows "
 "this value as recovery status."
 msgstr ""
-"Garmin kalkuler HRV poeng de første 12 minuttene av hver aktivitet. Verdien -"
+"Garmin beregner HRV poeng de første 12 minuttene av hver aktivitet. Verdien -"
 " sannsynlig restitusjonstid i minutter - er vist som en farget markør, grønn "
 "for lave verdier og rød for høye verdier. Garmin viser dette som "
 "restitusjonsstatus."
@@ -2045,7 +2045,7 @@ msgstr "Hvilken skalering som vil bli brukt for å vise tempo på y-akse."
 
 #: inc/core/Configuration/Category/ActivityView.php:355
 msgid "Pace plot: Ignore outliers"
-msgstr "Tempoplott: ignorer avvikende punkter"
+msgstr "Tempoplott: Ignorer avvikende punkter"
 
 #: inc/core/Configuration/Category/ActivityView.php:356
 msgid "Try to ignore outliers in the pace plot."
@@ -2217,7 +2217,7 @@ msgstr "absoluttverdi"
 
 #: inc/core/Parameter/Application/HeartRateUnit.php:40
 msgid "&#37; HRmax"
-msgstr "&#37; HFmax"
+msgstr "&#37; HFmaks"
 
 #: inc/core/Parameter/Application/HeartRateUnit.php:41
 msgid "&#37; HRreserve"
@@ -2513,7 +2513,7 @@ msgstr "Ingen plott tilgjengelig."
 #: inc/core/View/Activity/Plot/Laps.php:121 inc/core/View/Plot/Series.php:160
 #: inc/draw/class.PlotSumData.php:666
 msgid "avg:"
-msgstr "Gjsn:"
+msgstr "gjsn:"
 
 #: inc/core/View/Activity/Plot/Series/BrakingGs.php:28
 #: inc/core/View/Activity/Plot/Series/PronationExcursion.php:28
@@ -2729,47 +2729,47 @@ msgstr "La runde-distanse være tom for å bruke dine manuelle runder."
 
 #: inc/core/View/Window/Laps/Form.php:153
 msgid "Show calculated laps"
-msgstr "Vis beregnede runder."
+msgstr "Vis beregnede runder"
 
 #: inc/core/View/Window/Laps/Form.php:154
 msgid "Show manual laps"
-msgstr ""
+msgstr "Vis manuelle runder"
 
 #: inc/core/View/Leaflet/Activity.php:239
 #, php-format
 msgid "<strong>%s. %s</strong> in %s"
-msgstr ""
+msgstr "<strong>%s. %s</strong> på %s"
 
 #: inc/core/View/Leaflet/Activity.php:240
 #: inc/core/View/Leaflet/Activity.php:270
 #: inc/core/View/Leaflet/Activity.php:354
 #, php-format
 msgid "<strong>Time:</strong> %s"
-msgstr ""
+msgstr "<strong>Tid:</strong> %s"
 
 #: inc/core/View/Leaflet/Activity.php:269
 #, php-format
 msgid "<strong>Total:</strong> %s"
-msgstr ""
+msgstr "<strong>Totalt:</strong> %s"
 
 #: inc/core/View/Leaflet/Activity.php:352
 #, php-format
 msgid "<strong>Pause</strong> of %s"
-msgstr ""
+msgstr "<strong>Pause</strong> i %s"
 
 #: inc/core/View/Leaflet/Activity.php:353
 #, php-format
 msgid "<strong>Distance:</strong> %s"
-msgstr ""
+msgstr "<strong>Distanse:</strong> %s"
 
 #: inc/core/View/Leaflet/Activity.php:357
 msgid "<strong>Heart rate:</strong>"
-msgstr ""
+msgstr "<strong>Hjertefrekvens:</strong>"
 
 #: inc/core/View/Leaflet/Activity.php:357
 #, php-format
 msgid "%s to %s"
-msgstr ""
+msgstr "%s til %s"
 
 #: inc/core/View/Leaflet/Map.php:139
 msgid "There was a problem trying to show the map."
@@ -3471,16 +3471,16 @@ msgstr ""
 
 #: inc/training/view/class.ElevationInfo.php:151
 msgid "You can choose the algorithm and threshold in the configuration window."
-msgstr ""
+msgstr "Du kan velge algoritme og terskel i konfigurasjonsvinduet."
 
 #: inc/training/view/class.ElevationInfo.php:153
 msgid "Elevation data for different algorithms/thresholds"
-msgstr ""
+msgstr "Elevasjonsdata for ulike algoritmer/terskler"
 
 #: inc/training/view/class.ElevationInfo.php:166
 msgid ""
 "Elevation data for different algorithms/thresholds (based on original data)"
-msgstr ""
+msgstr "Elevasjonsdata for ulike algoritmer/terskler (basert på originaldata)"
 
 #: inc/training/view/class.ElevationInfo.php:229
 msgid "Elevation correction"
@@ -3529,6 +3529,12 @@ msgid ""
 "value (for up-/downwards). We give you therefore the possibility to choose "
 "algorithm and threshold such that the values fit your experience."
 msgstr ""
+"Beregning av elevasjonsdata er veldig utfordrende - det er ikke en enkelt "
+"løsning. Dårlig GPS-data kan bli korrigert via srtm-data, men disse er kun "
+"tilgjengelig i et 90x90m grid og ikke alltid presise. I tillegg, hvert "
+"system bruker en egen algoritme for å bestemme elevasjonsverdien (for opp-/"
+"nedstigning). Vi gir deg derfor muligheten til å velge algoritme og terskel "
+"så verdien skal passe din erfaring."
 
 #: inc/training/view/class.ElevationInfo.php:296
 msgid "Problem"
@@ -3680,7 +3686,7 @@ msgstr "Velg merkelapp"
 
 #: inc/training/search/class.SearchFormular.php:195
 msgid "avg. HR"
-msgstr ""
+msgstr "gjsn. HF"
 
 #: inc/training/search/class.SearchFormular.php:197
 msgid "Is public"
@@ -3688,7 +3694,7 @@ msgstr ""
 
 #: inc/training/search/class.SearchFormular.php:199
 msgid "max. HR"
-msgstr ""
+msgstr "maks HF"
 
 #: inc/training/search/class.SearchFormular.php:201
 msgid "Is race"
@@ -4027,7 +4033,7 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:48
 msgid "Show actual/chronical training load and stress balance (based on TRIMP)"
-msgstr ""
+msgstr "Vis aktuell/kronisk treningslast og stressbalanse (basert på TRIMP)"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:51
 msgid "Show: Monotony/TS"
@@ -4094,7 +4100,7 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:195
 msgid "Chronic Training Load"
-msgstr ""
+msgstr "Kronisk treningslast"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:203
 #, php-format
@@ -4169,7 +4175,7 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:352
 msgid "Chronical Training Load"
-msgstr ""
+msgstr "Kronisk treningslast"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:357
 msgid "Training impulse over a long period"
@@ -4201,6 +4207,9 @@ msgid ""
 "fellrnr.com/wiki/Modeling_Human_Performance#The_TSB_Formulas\">Modeling "
 "Human Performance</a> on fellrnr.com"
 msgstr ""
+"se <a href=\"http://fellrnr.com/wiki/TRIMP\">TRIMP</a> og <a href=\""
+"http://fellrnr.com/wiki/Modeling_Human_Performance#The_TSB_Formulas\">"
+"Modeling Human Performance</a> på fellrnr.com"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:395
 #, php-format
@@ -4892,7 +4901,7 @@ msgstr ""
 #: plugin/RunalyzePluginPanel_Sportler/Plot.gewicht.php:41
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:102
 msgid "Resting HR"
-msgstr ""
+msgstr "Hvilepuls"
 
 #: plugin/RunalyzePluginPanel_Sportler/Plot.analyse.php:42
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:116
@@ -4948,7 +4957,7 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:90
 msgid "Enter maximal HR"
-msgstr ""
+msgstr "Oppgi maksimal puls"
 
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:90
 msgid "Otherwise calculations will be wrong"
@@ -4956,7 +4965,7 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:103
 msgid "Maximal HR"
-msgstr ""
+msgstr "Maksimal puls"
 
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:147
 msgid "Other values"
@@ -5237,7 +5246,7 @@ msgstr ""
 
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:144
 msgid "HRV data"
-msgstr ""
+msgstr "HRV data"
 
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:146
 msgid "Equipment types"
