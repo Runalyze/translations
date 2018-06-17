@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-17 17:51+0000\n"
+"PO-Revision-Date: 2018-06-17 17:54+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -2504,16 +2504,16 @@ msgstr "Douglas-Peucker"
 #: inc/core/View/Activity/Plot/Series/HRV.php:90
 #: inc/training/view/section/class.SectionHRVRow.php:45
 msgid "R-R interval"
-msgstr ""
+msgstr "R-R intervall"
 
 #: inc/core/View/Activity/Plot/ActivityPlot.php:82
 msgid "No plot available."
-msgstr ""
+msgstr "Ingen plott tilgjengelig."
 
 #: inc/core/View/Activity/Plot/Laps.php:121 inc/core/View/Plot/Series.php:160
 #: inc/draw/class.PlotSumData.php:666
 msgid "avg:"
-msgstr ""
+msgstr "Gjsn:"
 
 #: inc/core/View/Activity/Plot/Series/BrakingGs.php:28
 #: inc/core/View/Activity/Plot/Series/PronationExcursion.php:28
@@ -2528,7 +2528,7 @@ msgstr ""
 #: inc/training/search/class.FormularSelectSearchSort.php:64
 #: inc/training/search/class.FormularSelectSearchSort.php:66
 msgid "left"
-msgstr ""
+msgstr "venstre"
 
 #: inc/core/View/Activity/Plot/Series/BrakingGs.php:28
 #: inc/core/View/Activity/Plot/Series/PronationExcursion.php:28
@@ -2543,33 +2543,33 @@ msgstr ""
 #: inc/training/search/class.FormularSelectSearchSort.php:65
 #: inc/training/search/class.FormularSelectSearchSort.php:67
 msgid "right"
-msgstr ""
+msgstr "høyre"
 
 #: inc/core/View/Activity/Plot/Series/HRVdifferencesWithoutAnomalies.php:55
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:267
 msgid "Difference"
-msgstr ""
+msgstr "Forskjell"
 
 #: inc/core/View/Activity/Plot/Series/GroundContact.php:40
 #: inc/training/view/section/class.SectionRunningDynamicsRow.php:50
 #: inc/training/view/section/class.SectionRunningDynamicsRow.php:82
 #: inc/training/search/class.SearchFormular.php:212
 msgid "Ground contact"
-msgstr ""
+msgstr "Bakkekontakt"
 
 #: inc/core/View/Activity/Plot/Series/Heartrate.php:56
 msgid "Heartrate"
-msgstr ""
+msgstr "Hjertefrekvens"
 
 #: inc/core/View/Activity/Plot/Series/GradeAdjustedPace.php:35
 msgid "Grade adjusted pace"
-msgstr ""
+msgstr "Helningsjustert tempo"
 
 #: inc/core/View/Activity/Plot/Series/Smo2.php:34
 #: inc/core/View/Activity/Plot/Series/Smo2.php:37
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:73
 msgid "SmO2"
-msgstr ""
+msgstr "SmO2"
 
 #: inc/core/View/Activity/Plot/Series/PaceCumulativeAverage.php:50
 msgid "Moving average"
