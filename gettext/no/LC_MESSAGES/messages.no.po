@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-17 18:14+0000\n"
+"PO-Revision-Date: 2018-06-17 18:22+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -2657,57 +2657,61 @@ msgstr "Vis ikke-aktive deler"
 
 #: inc/core/View/Window/Laps/Form.php:41
 msgid "Calculate laps"
-msgstr "Beregnede runder"
+msgstr "Beregne runder"
 
 #: inc/core/View/Window/Laps/Form.php:56 inc/core/View/Window/Laps/Form.php:67
 msgid "Lap every ..."
-msgstr ""
+msgstr "Runde hver ..."
 
 #: inc/core/View/Window/Laps/Form.php:56
 msgid "Distance, after which a new lap should start"
-msgstr ""
+msgstr "Distanse som en ny runde skal starte etter"
 
 #: inc/core/View/Window/Laps/Form.php:67 inc/core/View/Window/Laps/Form.php:79
 #: inc/core/View/Window/Laps/Form.php:82 inc/core/View/Window/Laps/Form.php:93
 #: inc/core/View/Window/Laps/Form.php:96 inc/core/View/Window/Laps/Form.php:118
 msgid "or"
-msgstr ""
+msgstr "eller"
 
 #: inc/core/View/Window/Laps/Form.php:67
 msgid "Time, after which a new lap should start"
-msgstr ""
+msgstr "Tid som en ny runde skal starte etter"
 
 #: inc/core/View/Window/Laps/Form.php:79
 msgid "Manual distances"
-msgstr ""
+msgstr "Manuelle distanser"
 
 #: inc/core/View/Window/Laps/Form.php:80
 msgid ""
 "List with all distances, comma seperated. Put \"+\" at the beginning to "
 "treat distances as intervals."
 msgstr ""
+"Liste med alle distanser, komma-separert. Putt \"+\" ved begynnelsen for å "
+"behandle distanser som intervall."
 
 #: inc/core/View/Window/Laps/Form.php:82 inc/core/View/Window/Laps/Form.php:96
 msgid "e.g."
-msgstr ""
+msgstr "f.eks."
 
 #: inc/core/View/Window/Laps/Form.php:93
 msgid "Manual times"
-msgstr ""
+msgstr "Manuelle tider"
 
 #: inc/core/View/Window/Laps/Form.php:94
 msgid ""
 "List with all times, comma seperated. Put \"+\" at the beginning to treat "
 "times as intervals."
 msgstr ""
+"Liste med alle tider, komma-separert. Putt \"+\" ved begynnelsen for å "
+"behandle tider som intervall."
 
 #: inc/core/View/Window/Laps/Form.php:106
 msgid "Lap time goal"
-msgstr ""
+msgstr "Rundetid mål"
 
 #: inc/core/View/Window/Laps/Form.php:118
 msgid "Pace goal"
-msgstr ""
+msgstr "Tempomål"
 
 #: inc/core/View/Window/Laps/Form.php:129
 msgid ""
