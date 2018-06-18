@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-18 06:04+0000\n"
+"PO-Revision-Date: 2018-06-18 06:39+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -407,7 +407,7 @@ msgstr "Idag"
 
 #: inc/class.DataBrowser.php:282
 msgid "Reload current datasheet"
-msgstr "Oppfrisk gjeldende dataark"
+msgstr "Oppfrisk nåværende dataark"
 
 #: inc/class.DataBrowser.php:290
 #: inc/core/Configuration/Category/DataBrowser.php:117
@@ -539,8 +539,8 @@ msgid ""
 "Estimated VO<sub>2</sub>max based on pace and heart rate. The value is "
 "slightly transparent if it is not used for your VO<sub>2</sub>max shape."
 msgstr ""
-"Estimert VO<sub>2</sub>max basert på tempo og hjertefrekvens. Verdien er "
-"delvis gjennomsiktig hvis den ikke er brukt for din VO<sub>2</sub>max form."
+"Estimert VO<sub>2</sub>max basert på tempo og puls. Verdien er delvis "
+"gjennomsiktig hvis den ikke er brukt for din VO<sub>2</sub>max form."
 
 #: inc/core/Dataset/Keys/FitPerformanceCondition.php:43
 #: inc/core/Dataset/Keys/FitPerformanceConditionEnd.php:31
@@ -803,7 +803,7 @@ msgstr "gjsn."
 #: inc/training/view/section/class.SectionOverviewRow.php:56
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:403
 msgid "Heart rate"
-msgstr "Hjertefrekvens"
+msgstr "Puls"
 
 #: inc/core/Dataset/Keys/HeartrateAverage.php:53
 #: inc/core/Dataset/Keys/HeartrateMaximum.php:53
@@ -1158,8 +1158,8 @@ msgid ""
 "Garmin calculates a suggested recovery time based on your heart rate "
 "variability right after the end of your activity."
 msgstr ""
-"Garmin beregner foreslått restitusjonstid basert på din hjertefrekvens-"
-"variabilitet rett etter slutten av din aktivitet."
+"Garmin beregner foreslått restitusjonstid basert på din pulsvariabilitet "
+"rett etter slutten av din aktivitet."
 
 #: inc/core/Dataset/Keys/AverageFootstrikeType.php:22
 #: inc/training/search/class.FormularSelectSearchSort.php:64
@@ -1691,7 +1691,7 @@ msgid ""
 "percentage of your current ATL/CTL to keep consistency."
 msgstr ""
 "Skalaen til TSB verdier avhenger av din ATL/CTL. Du kan vise TSB som prosent "
-"av din gjeldende ATL/CTL for å bevare konsistens."
+"av din nåværende ATL/CTL for å bevare konsistens."
 
 #: inc/core/Configuration/Category/Trimp.php:141
 #: src/CoreBundle/Component/Tool/DatabaseCleanup/JobGeneral.php:122
@@ -2137,7 +2137,7 @@ msgstr "Temperaturenhet"
 
 #: inc/core/Configuration/Category/General.php:237
 msgid "Heart rate unit"
-msgstr "Hjertefrekvens enhet"
+msgstr "Pulsenhet"
 
 #: inc/core/Configuration/Category/General.php:241
 msgid "Main sport"
@@ -2229,11 +2229,11 @@ msgstr "alle separert"
 
 #: inc/core/Parameter/Application/ActivityPlotMode.php:40
 msgid "Pace / Heart rate"
-msgstr "Tempo / hjertefrekvens"
+msgstr "Tempo / Puls"
 
 #: inc/core/Parameter/Application/ActivityPlotMode.php:41
 msgid "Pace / Heart rate / Elevation"
-msgstr "Tempo / hjertefrekvens / elevasjon"
+msgstr "Tempo / Puls / elevasjon"
 
 #: inc/core/Parameter/Application/ActivityRoutePrivacy.php:39
 #: inc/core/Parameter/Application/ActivityRouteBreak.php:27
@@ -2607,11 +2607,11 @@ msgstr "Elevasjon opp/ned"
 
 #: inc/core/View/Activity/Box/MaximalHeartRateInPercent.php:64
 msgid "This value exceeds your entered maximal heart rate."
-msgstr "Verdien er høyere enn din angitte maksimale hjertefrekvens."
+msgstr "Verdien er høyere enn din angitte maksimale puls."
 
 #: inc/core/View/Activity/Box/MaximalHeartRateInPercent.php:65
 msgid "Please adjust your maximal heart rate."
-msgstr "Vennligst juster din maksimale hjertefrekvens."
+msgstr "Vennligst juster din maksimale puls."
 
 #: inc/core/View/Activity/Box/TotalCadence.php:28
 msgid "Number of steps"
@@ -2764,7 +2764,7 @@ msgstr "<strong>Distanse:</strong> %s"
 
 #: inc/core/View/Leaflet/Activity.php:357
 msgid "<strong>Heart rate:</strong>"
-msgstr "<strong>Hjertefrekvens:</strong>"
+msgstr "<strong>Puls:</strong>"
 
 #: inc/core/View/Leaflet/Activity.php:357
 #, php-format
@@ -3127,7 +3127,7 @@ msgstr ""
 
 #: inc/draw/class.PlotSumData.php:697
 msgid "Target is based on current marathon shape calculations."
-msgstr "Mål er basert på kalkulasjon for gjeldene matatonform."
+msgstr "Mål er basert på beregning for nåværende matatonform."
 
 #: inc/draw/class.PlotWeekSumData.php:55
 msgid "Weekly chart:"
@@ -3334,7 +3334,7 @@ msgstr "Effektsoner"
 
 #: inc/training/view/section/class.SectionPowerRow.php:47
 msgid "Based on your current weight"
-msgstr "Basert på din gjeldende vekt"
+msgstr "Basert på din nåværende vekt"
 
 #: inc/training/view/section/class.SectionPowerRow.php:48
 msgid "Specific power"
@@ -3379,7 +3379,7 @@ msgstr "Sammensatte data"
 
 #: inc/training/view/section/class.SectionHRV.php:18
 msgid "Heart rate variability"
-msgstr "Hjertefrekvens variabilitet"
+msgstr "Pulsvariabilitet"
 
 #: inc/training/view/section/table/class.TableZonesAbstract.php:102
 msgid "Zone"
@@ -3395,15 +3395,15 @@ msgstr "elev."
 
 #: inc/training/view/section/class.SectionOverview.php:17
 msgid "Overview"
-msgstr ""
+msgstr "Oversikt"
 
 #: inc/training/view/section/class.SectionHeartrate.php:17
 msgid "Heartrate data"
-msgstr ""
+msgstr "Pulsdata"
 
 #: inc/training/view/section/class.SectionRunningDynamics.php:20
 msgid "Running Dynamics"
-msgstr ""
+msgstr "Løpsdynamikk"
 
 #: inc/training/view/section/class.SectionHRVRow.php:30
 msgid "R-R intervals"
@@ -3463,6 +3463,8 @@ msgid ""
 "This value is calculated with your current configuration. The saved value "
 "may be outdated."
 msgstr ""
+"Denne verdien er beregnet med dine nåværende konfigurasjoner. Den lagrede "
+"verdien kan være utdatert."
 
 #: inc/training/view/class.ElevationInfo.php:127
 msgid "Highest point"
@@ -4052,7 +4054,7 @@ msgstr "Show: VO<sub>2</sub>max-form"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:56
 msgid "Predict current effective VO<sub>2</sub>max"
-msgstr ""
+msgstr "Forutse nåværende effektiv VO<sub>2</sub>maks"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:59
 msgid "Show: Marathon shape"
@@ -4060,7 +4062,7 @@ msgstr "Show: Maratonform"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:60
 msgid "Guess current marathon shape"
-msgstr "Gjett aktuell maratonform"
+msgstr "Gjett nåværende maratonform"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:78
 msgid "Show shape"
@@ -4186,7 +4188,7 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:364
 msgid "Current impulse<br>positive: recovery<br>negative: hard training"
-msgstr ""
+msgstr "Nåværende impuls<br>positiv: restitusjon<br>negative: hard trening"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:371
 msgid ""
@@ -4231,7 +4233,7 @@ msgstr ""
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:421
 #, php-format
 msgid "Your current VO<sub>2</sub>max shape: <strong>%s</strong><br>&nbsp;"
-msgstr "Din aktulle VO<sub>2</sub>max-form: <strong>%s</strong><br>&nbsp;"
+msgstr "Din nåværende VO<sub>2</sub>maks-form: <strong>%s</strong><br>&nbsp;"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:423
 msgid ""
@@ -4245,11 +4247,11 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:446
 msgid "Current Effective VO<sub>2</sub>max"
-msgstr ""
+msgstr "Nåværende effektiv VO<sub>2</sub>maks"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:446
 msgid "based on heart rate"
-msgstr ""
+msgstr "basert på puls"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:449
 msgid "Target kilometer per week"
@@ -4316,10 +4318,12 @@ msgstr ""
 msgid ""
 "There are no current activities with an estimated VO<sub>2</sub>max value."
 msgstr ""
+"Det er ikke noen nåværende aktiviteter med en estimert VO<sub>2</sub>maks-"
+"verdi."
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:529
 msgid "VO<sub>2</sub>max can only be estimated for runs with heart rate data."
-msgstr ""
+msgstr "VO<sub>2</sub>maks kan kun bli estimert for løp med pulsdata."
 
 #: plugin/RunalyzePluginPanel_TagsSummary/class.RunalyzePluginPanel_TagsSummary.php:33
 msgid "Tags summary"
@@ -4358,6 +4362,8 @@ msgid ""
 "Set your own goals for different time ranges and compare your current "
 "performance with them."
 msgstr ""
+"Sett dine egne mål for ulike tidsintervaller og sammenlign nåværende "
+"prestasjon med dem."
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:57
 msgid "This plugin tracks your distances for chosen time ranges."
@@ -4380,16 +4386,18 @@ msgid ""
 "Note: &quot;Saison&quot; refers to the current season in the german &quot;"
 "kmspiel&quot;."
 msgstr ""
+"Bemerk: &quot;Saison&quot; referer til nåværende årstid i tyske "
+"&quot;kmspiel&quot;."
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:71
 #, php-format
 msgid "Show a prognosis for the current %s"
-msgstr ""
+msgstr "Vis en prognose for nåværende %s"
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:72
 #, php-format
 msgid "Current time range: %s to %s"
-msgstr ""
+msgstr "Nåværende tidsintervall: %s til %s"
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:79
 #, php-format
@@ -4407,7 +4415,7 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:163
 msgid "Current"
-msgstr ""
+msgstr "Nåværende"
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:165
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:181
@@ -4483,7 +4491,7 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:428
 msgid "Note: Season means the current season in the german &quot;kmspiel&quot;"
-msgstr ""
+msgstr "Bemerk: Årstid betyr nåværende årstid i tyske &quot;kmspiel&quot;."
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:429
 msgid "Year"
@@ -4836,6 +4844,8 @@ msgid ""
 "Your current effective VO2max is estimated based on the ratio of heart rate "
 "and pace. This value is equivalent to specific performances."
 msgstr ""
+"Ditt nåværende effektive VO<sub>2</sub>maks er estimert basert på ratio av "
+"puls og tempo. Denne verdien er ekvivalent til spesifikke prestasjoner."
 
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:58
 msgid ""
@@ -5097,6 +5107,8 @@ msgid ""
 "Analyze your training (only running) by means of pace, heart rate and "
 "different types."
 msgstr ""
+"Analyser treningen din (kun løping) for forhold som tempo, puls og ulike "
+"typer."
 
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:92
 msgid "Analyze types"
@@ -5108,7 +5120,7 @@ msgstr ""
 
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:94
 msgid "Analyze heart rate zones"
-msgstr ""
+msgstr "Analyser intensitetssoner"
 
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:134
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:149
@@ -5143,7 +5155,7 @@ msgstr ""
 
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:517
 msgid "Heart Rate Zones"
-msgstr ""
+msgstr "Intensitetssoner"
 
 #: src/CoreBundle/Controller/Settings/SettingsController.php:222
 msgid "race"
