@@ -3,14 +3,10 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#: inc/core/Dataset/Keys/ClimbScore.php:32
-#: inc/core/Dataset/Keys/PercentageHilly.php:32
-msgid ""
-msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-18 16:30+0200\n"
-"PO-Revision-Date: 2018-06-18 14:11+0000\n"
+"Report-Msgid-Bugs-To: mail@runalyze.com\n"
+"POT-Creation-Date: 2018-06-02 14:20+0200\n"
+"PO-Revision-Date: 2018-06-18 14:32+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -4071,25 +4067,25 @@ msgstr ""
 #: plugin/RunalyzePluginStat_Strecken/window.routenet.php:100
 #, php-format
 msgid "The map contains your %s most recent routes matching the criterias."
-msgstr ""
+msgstr "Kartet viser dine %s nyeste ruter som tilfredstiller kriteriene."
 
 #: plugin/RunalyzePluginStat_Strecken/window.routenet.php:101
 msgid "More routes are not possible at the moment due to performance issues."
-msgstr ""
+msgstr "Flere ruter er ikke mulig for øyeblikket på grunn av kapasitetshensyn."
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/window.plot.php:22
 #: plugin/RunalyzePluginPanel_Prognose/window.plot.php:23
 msgid "Last half year"
-msgstr ""
+msgstr "Siste halvår"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/window.plot.php:23
 #: plugin/RunalyzePluginPanel_Prognose/window.plot.php:24
 msgid "Last year"
-msgstr ""
+msgstr "Siste år"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/window.plot.php:43
 msgid "TSB"
-msgstr ""
+msgstr "TSB"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/window.plot.php:64
 #: plugin/RunalyzePluginPanel_Rechenspiele/Plot.Form.php:249
@@ -4098,11 +4094,11 @@ msgstr "Form"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/Plot.Form.php:188
 msgid "Fitness (CTL)"
-msgstr ""
+msgstr "Form (CTL)"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/Plot.Form.php:194
 msgid "Fatigue (ATL)"
-msgstr ""
+msgstr "Utmattelse (ATL)"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/Plot.Form.php:247
 msgid "Shape for all years"
@@ -4114,7 +4110,7 @@ msgstr "Forklaring: Hvordan er disse eksperimentelle verdiene beregnet?"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:32
 msgid "Calculations"
-msgstr ""
+msgstr "Beregninger"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:40
 msgid ""
@@ -4126,7 +4122,7 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:47
 msgid "Show: ATL/CTL/TSB"
-msgstr ""
+msgstr "Vis: ATL/CTL/TSB"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:48
 msgid "Show actual/chronical training load and stress balance (based on TRIMP)"
