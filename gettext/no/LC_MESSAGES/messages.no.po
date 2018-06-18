@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-18 05:41+0000\n"
+"PO-Revision-Date: 2018-06-18 05:42+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -2914,11 +2914,11 @@ msgstr "NV"
 
 #: inc/core/Data/Weather/Condition.php:96
 msgid "sunny"
-msgstr "sol"
+msgstr "klarvær"
 
 #: inc/core/Data/Weather/Condition.php:98
 msgid "fair"
-msgstr "pent"
+msgstr "klarvær"
 
 #: inc/core/Data/Weather/Condition.php:100
 msgid "cloudy"
