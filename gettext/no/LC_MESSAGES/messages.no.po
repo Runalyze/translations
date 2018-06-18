@@ -3883,22 +3883,24 @@ msgstr "Det er ikke dårlig vær, det er bare dårlig klær."
 msgid ""
 "Are you a wimp or a tough runner? Have a look at these statistics about the "
 "weather conditions."
-msgstr "Er du ei pys"
+msgstr ""
+"Er du ei pyse eller en tøff løper? Ta en titt på disse statistikkene over "
+"værforhold."
 
 #: plugin/RunalyzePluginStat_Wetter/class.RunalyzePluginStat_Wetter.php:83
 msgid "Show temperature plots"
-msgstr ""
+msgstr "Vis temperaturplott"
 
 #: plugin/RunalyzePluginStat_Wetter/class.RunalyzePluginStat_Wetter.php:149
 #: plugin/RunalyzePluginStat_Wetter/class.RunalyzePluginStat_Wetter.php:153
 #: plugin/RunalyzePluginStat_Wetter/class.RunalyzePluginStat_Wetter.php:157
 #: plugin/RunalyzePluginStat_Wetter/class.RunalyzePluginStat_Wetter.php:161
 msgid "on"
-msgstr ""
+msgstr "på"
 
 #: plugin/RunalyzePluginStat_Wetter/class.RunalyzePluginStat_Wetter.php:165
 msgid "Hottest activities"
-msgstr ""
+msgstr "Varmeste aktivitet"
 
 #: plugin/RunalyzePluginStat_Wetter/class.RunalyzePluginStat_Wetter.php:167
 msgid "Coldest activities"
