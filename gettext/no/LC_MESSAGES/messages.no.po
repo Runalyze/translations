@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-18 05:58+0000\n"
+"PO-Revision-Date: 2018-06-18 05:59+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -3316,16 +3316,17 @@ msgstr "Kilde for værdata: %s"
 msgid ""
 "You created this training on <strong>%s</strong> at <strong>%s</strong>."
 msgstr ""
-"Du har opprettet denne aktiviteten <strong>%s</strong> kl <strong>%s</strong>"
+"Du har opprettet denne aktiviteten <strong>%s</strong> kl "
+"<strong>%s</strong>."
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:411
 #, php-format
 msgid "Last modification on <strong>%s</strong> at <strong>%s</strong>."
-msgstr ""
+msgstr "Sist endring <strong>%s</strong> kl <strong>%s</strong>."
 
 #: inc/training/view/section/class.SectionPowerRow.php:9
 msgid "Power plot"
-msgstr ""
+msgstr "Kraftplott"
 
 #: inc/training/view/section/class.SectionPowerRow.php:19
 msgid "Power zones"
