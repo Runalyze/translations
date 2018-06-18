@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-18 05:45+0000\n"
+"PO-Revision-Date: 2018-06-18 05:54+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -2942,29 +2942,29 @@ msgstr "kraftig regnbyger"
 
 #: inc/core/Data/Weather/Condition.php:110
 msgid "foggy"
-msgstr ""
+msgstr "tåke"
 
 #: inc/core/Data/Weather/Condition.php:112
 msgid "thundery"
-msgstr ""
+msgstr "Tordenbyger"
 
 #: inc/core/Data/Weather/Condition.php:114
 msgid "windy"
-msgstr ""
+msgstr "vind"
 
 #: inc/core/Data/Weather/Condition.php:117
 #: inc/core/Data/Weather/BeaufortScale.php:145
 #: inc/data/class.SportFactory.php:133
 msgid "unknown"
-msgstr ""
+msgstr "ukjent"
 
 #: inc/core/Data/Weather/WindChillFactor.php:83
 msgid "Wind chill factor"
-msgstr ""
+msgstr "Vindavkjølingsfaktor"
 
 #: inc/core/Data/Weather/HeatIndexEffect.php:58
 msgid "No effect"
-msgstr ""
+msgstr "Ingen effekt"
 
 #: inc/core/Data/Weather/HeatIndexEffect.php:60
 msgid "Caution"
@@ -3180,72 +3180,72 @@ msgstr ""
 #: inc/training/view/section/class.SectionCompositeRow.php:219
 #: inc/training/view/section/class.SectionRouteRowElevation.php:90
 msgid "Course"
-msgstr ""
+msgstr "Kurs"
 
 #: inc/training/view/section/class.SectionRunningDynamicsRow.php:45
 msgid "Oscillation"
-msgstr ""
+msgstr "Oscillering"
 
 #: inc/training/view/section/class.SectionCompositeRow.php:45
 msgid "Composite plot"
-msgstr ""
+msgstr "Sammensatt plott"
 
 #: inc/training/view/section/class.SectionCompositeRow.php:60
 msgid "Heart rate zones"
-msgstr ""
+msgstr "Intensitetssone"
 
 #: inc/training/view/section/class.SectionCompositeRow.php:149
 msgid "More about VO<sub>2</sub>max calculation"
-msgstr ""
+msgstr "Mer om VO<sub>2</sub>2maks beregning"
 
 #: inc/training/view/section/class.SectionCompositeRow.php:232
 #: inc/training/view/section/class.SectionRouteRowElevation.php:110
 #: inc/training/view/class.TrainingView.php:119
 msgid "More about elevation"
-msgstr ""
+msgstr "Mer om elevasjon"
 
 #: inc/training/view/section/class.SectionCompositeRow.php:237
 #: inc/training/view/section/class.SectionRouteRowElevation.php:114
 msgid "Elevation data were corrected."
-msgstr ""
+msgstr "Elevasjonsdata er korrigert."
 
 #: inc/training/view/section/class.SectionCompositeRow.php:239
 #: inc/training/view/section/class.SectionRouteRowElevation.php:116
 msgid "Elevation data are not corrected."
-msgstr ""
+msgstr "Elevasjonsdata er ikke korrigert."
 
 #: inc/training/view/section/class.SectionSwimLane.php:21
 #: inc/training/view/section/class.SectionSwimLane.php:22
 msgid "Lanes"
-msgstr ""
+msgstr "Bane"
 
 #: inc/training/view/section/class.SectionSwimLaneRow.php:31
 msgid "SWOLF"
-msgstr ""
+msgstr "SWOLF"
 
 #: inc/training/view/section/class.SectionSwimLaneRow.php:33
 msgid "SWOLFcycles"
-msgstr ""
+msgstr "SWOLF-sykler"
 
 #: inc/training/view/section/class.SectionRoute.php:17
 msgid "Course and elevation data"
-msgstr ""
+msgstr "Kurs og elevasjonsdata"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:58
 msgid "Additional notes"
-msgstr ""
+msgstr "Tilleggsnotater"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:62
 msgid "Cadence plot"
-msgstr ""
+msgstr "Tråkkplott"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:67
 msgid "Temperature plot"
-msgstr ""
+msgstr "Temperaturplott"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:73
 msgid "THb"
-msgstr ""
+msgstr "THb"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:97
 #: inc/training/search/class.FormularSelectSearchSort.php:35
