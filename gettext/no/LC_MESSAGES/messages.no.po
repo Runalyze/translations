@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-18 07:23+0000\n"
+"PO-Revision-Date: 2018-06-18 07:26+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -2975,25 +2975,27 @@ msgstr "Forsiktighet"
 
 #: inc/core/Data/Weather/HeatIndexEffect.php:62
 msgid "Extreme caution"
-msgstr "Ekstremt forsiktig"
+msgstr "Ekstrem forsiktighet"
 
 #: inc/core/Data/Weather/HeatIndexEffect.php:64
 msgid "Danger"
-msgstr ""
+msgstr "Fare"
 
 #: inc/core/Data/Weather/HeatIndexEffect.php:66
 msgid "Extreme danger"
-msgstr ""
+msgstr "Ekstrem fare"
 
 #: inc/core/Data/Weather/HeatIndexEffect.php:103
 msgid "Temperature and humidity should not have any effect."
-msgstr ""
+msgstr "Temperatur og luftfuktighet skal ikke ha noen effekt."
 
 #: inc/core/Data/Weather/HeatIndexEffect.php:105
 msgid ""
 "Fatigue is possible with prolonged exposure and activity. Continuing "
 "activity could result in heat cramps."
 msgstr ""
+"Utmattelse er mulig med forlenget eksponering og aktivitet. Fortsettelse med "
+"aktivitet kan resultere i heteslag."
 
 #: inc/core/Data/Weather/HeatIndexEffect.php:107
 msgid ""
