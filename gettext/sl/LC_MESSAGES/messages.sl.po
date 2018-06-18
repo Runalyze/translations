@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Runalyze\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-02 14:20+0200\n"
+"POT-Creation-Date: 2018-06-18 16:30+0200\n"
 "PO-Revision-Date: 2015-08-13 15:24+0200\n"
 "Last-Translator: Robert Vajngerl <robert.vajngerl@styria.com>\n"
 "Language-Team: Slovenian <http://translate.runalyze.de/projects/runalyze/"
@@ -103,7 +103,7 @@ msgid "Configuration"
 msgstr ""
 
 #: dashboard.php:111 inc/system/config/class.ConfigTabGeneral.php:20
-#: inc/core/Configuration/Category/General.php:213
+#: inc/core/Configuration/Category/General.php:194
 msgid "General settings"
 msgstr ""
 
@@ -388,36 +388,36 @@ msgstr ""
 msgid "week"
 msgstr ""
 
-#: inc/class.DataBrowser.php:254
+#: inc/class.DataBrowser.php:255
 msgid "back"
 msgstr ""
 
-#: inc/class.DataBrowser.php:264 inc/html/class.Ajax.php:439
+#: inc/class.DataBrowser.php:265 inc/html/class.Ajax.php:439
 msgid "next"
 msgstr ""
 
-#: inc/class.DataBrowser.php:272
+#: inc/class.DataBrowser.php:273
 msgid "today"
 msgstr ""
 
-#: inc/class.DataBrowser.php:282
+#: inc/class.DataBrowser.php:283
 msgid "Reload current datasheet"
 msgstr ""
 
-#: inc/class.DataBrowser.php:290
+#: inc/class.DataBrowser.php:291
 #: inc/core/Configuration/Category/DataBrowser.php:117
 msgid "Calendar"
 msgstr ""
 
-#: inc/class.DataBrowser.php:298 inc/class.DataBrowserShared.php:120
+#: inc/class.DataBrowser.php:299 inc/class.DataBrowserShared.php:120
 msgid "Activity per month"
 msgstr ""
 
-#: inc/class.DataBrowser.php:306 inc/class.DataBrowserShared.php:128
+#: inc/class.DataBrowser.php:307 inc/class.DataBrowserShared.php:128
 msgid "Activity per week"
 msgstr ""
 
-#: inc/class.DataBrowser.php:322
+#: inc/class.DataBrowser.php:323
 msgid "Search for an activity"
 msgstr ""
 
@@ -902,12 +902,12 @@ msgstr ""
 msgid "Power"
 msgstr ""
 
-#: inc/core/Dataset/Keys/Route.php:69
+#: inc/core/Dataset/Keys/Route.php:46
 #: inc/training/search/class.SearchFormular.php:185
 msgid "Route"
 msgstr ""
 
-#: inc/core/Dataset/Keys/Route.php:79
+#: inc/core/Dataset/Keys/Route.php:56
 #, php-format
 msgid "Route names are automatically cut after %u characters."
 msgstr ""
@@ -1294,12 +1294,48 @@ msgid "Main Sport"
 msgstr ""
 
 #: inc/core/Profile/Sport/Cycling.php:26
+#: tests/CoreBundle/Component/Account/RegistrationTest.php:72
 msgid "Cycling"
+msgstr ""
+
+#: inc/core/Profile/Sport/Cycling.php:70 inc/core/Profile/Sport/Cycling.php:71
+#: inc/core/Profile/Sport/Cycling.php:72 inc/core/Profile/Sport/Cycling.php:73
+#: inc/core/Profile/Sport/Cycling.php:74 inc/core/Profile/Sport/Cycling.php:75
+#: inc/core/Profile/Sport/Cycling.php:76 inc/core/Profile/Sport/Running.php:70
+#: inc/core/Profile/Sport/Running.php:71 inc/core/Profile/Sport/Running.php:72
+#: inc/core/Profile/Sport/Running.php:73 inc/core/Profile/Sport/Running.php:74
+#: inc/core/Profile/Sport/Running.php:75 inc/core/Profile/Sport/Running.php:76
+#: inc/core/Profile/Sport/Running.php:77 inc/core/Profile/Sport/Running.php:78
+#: inc/core/Profile/Sport/Swimming.php:70
+#: inc/core/Profile/Sport/Swimming.php:71
+#: inc/core/Profile/Sport/Swimming.php:72
+#: inc/core/Profile/Sport/Swimming.php:73
+#: inc/core/Profile/Sport/Swimming.php:74
+#: inc/core/Profile/Sport/Swimming.php:75
+#: inc/core/Profile/Sport/Swimming.php:76
+#: inc/core/Profile/Sport/Zones/HeartRate.php:32
+#: inc/core/Profile/Sport/Zones/HeartRate.php:33
+#: inc/core/Profile/Sport/Zones/HeartRate.php:34
+#: inc/core/Profile/Sport/Zones/HeartRate.php:35
+#: inc/core/Profile/Sport/Zones/HeartRate.php:36
+#: inc/core/Profile/Sport/Zones/Pace.php:33
+#: inc/core/Profile/Sport/Zones/Pace.php:34
+#: inc/core/Profile/Sport/Zones/Pace.php:35
+#: inc/core/Profile/Sport/Zones/Pace.php:36
+#: inc/core/Profile/Sport/Zones/Pace.php:37
+#: inc/core/Profile/Sport/Zones/Pace.php:38
+#: inc/core/Profile/Sport/Zones/Power.php:32
+#: inc/core/Profile/Sport/Zones/Power.php:33
+#: inc/core/Profile/Sport/Zones/Power.php:34
+#: inc/core/Profile/Sport/Zones/Power.php:35
+#: inc/core/Profile/Sport/Zones/Power.php:36
+#: inc/training/view/section/table/class.TableZonesAbstract.php:102
+msgid "Zone"
 msgstr ""
 
 #: inc/core/Profile/Sport/Running.php:26
 #: src/CoreBundle/Component/Account/Registration.php:204
-#: tests/CoreBundle/Component/Account/RegistrationTest.php:61
+#: tests/CoreBundle/Component/Account/RegistrationTest.php:62
 msgid "Running"
 msgstr ""
 
@@ -2027,42 +2063,78 @@ msgstr ""
 msgid "Threshold for the smoothing algorithm"
 msgstr ""
 
-#: inc/core/Configuration/Category/General.php:216
+#: inc/core/Configuration/Category/General.php:197
 msgid "Beginning of the week"
 msgstr ""
 
-#: inc/core/Configuration/Category/General.php:220
+#: inc/core/Configuration/Category/General.php:201
 msgid "Unit system for distances"
 msgstr ""
 
-#: inc/core/Configuration/Category/General.php:221
+#: inc/core/Configuration/Category/General.php:202
 msgid ""
 "Changing the unit system for distances does not change pace units. You have "
 "to adjust them in sports configuration."
 msgstr ""
 
-#: inc/core/Configuration/Category/General.php:225
+#: inc/core/Configuration/Category/General.php:206
 msgid "Weight unit"
 msgstr ""
 
-#: inc/core/Configuration/Category/General.php:229
+#: inc/core/Configuration/Category/General.php:210
 msgid "Energy unit"
 msgstr ""
 
-#: inc/core/Configuration/Category/General.php:233
+#: inc/core/Configuration/Category/General.php:214
 msgid "Temperature unit"
 msgstr ""
 
-#: inc/core/Configuration/Category/General.php:237
+#: inc/core/Configuration/Category/General.php:218
 msgid "Heart rate unit"
 msgstr ""
 
-#: inc/core/Configuration/Category/General.php:241
+#: inc/core/Configuration/Category/General.php:222
 msgid "Main sport"
 msgstr ""
 
-#: inc/core/Configuration/Category/General.php:245
+#: inc/core/Configuration/Category/Import.php:69
+msgid "Import"
+msgstr ""
+
+#: inc/core/Configuration/Category/Import.php:72
 msgid "Synchronisation Fallback Sport"
+msgstr ""
+
+#: inc/core/Configuration/Category/Import.php:76
+msgid "Enable activity mail import"
+msgstr ""
+
+#: inc/core/Configuration/Category/Import.php:77
+msgid "Beta feature"
+msgstr ""
+
+#: inc/core/Configuration/Category/Import.php:77
+msgid "If activated you can send your activities to"
+msgstr ""
+
+#: inc/core/Configuration/Category/Import.php:81
+msgid "Password for activity mail import"
+msgstr ""
+
+#: inc/core/Configuration/Category/Import.php:81
+msgid "needed"
+msgstr ""
+
+#: inc/core/Configuration/Category/Import.php:82
+msgid "Add this password to the subect of your mail"
+msgstr ""
+
+#: inc/core/Configuration/Category/Import.php:85
+msgid "The mail must be sent from the mail address defined in your account."
+msgstr ""
+
+#: inc/core/Configuration/Category/Import.php:86
+msgid "Read more about this feature in our blog"
 msgstr ""
 
 #: inc/core/Parameter/Application/DatabaseOrder.php:44
@@ -3287,10 +3359,6 @@ msgstr ""
 msgid "Heart rate variability"
 msgstr ""
 
-#: inc/training/view/section/table/class.TableZonesAbstract.php:102
-msgid "Zone"
-msgstr ""
-
 #: inc/training/view/section/table/class.TableLapsComputed.php:66
 msgid "bpm"
 msgstr ""
@@ -3409,6 +3477,7 @@ msgstr ""
 
 #: inc/training/view/class.ElevationInfo.php:257
 #: inc/training/view/class.ElevationInfo.php:258
+#: inc/training/view/class.ElevationInfo.php:259
 #, php-format
 msgid "correct again using %s"
 msgstr ""
@@ -3417,19 +3486,19 @@ msgstr ""
 msgid "srtm files"
 msgstr ""
 
-#: inc/training/view/class.ElevationInfo.php:259
+#: inc/training/view/class.ElevationInfo.php:260
 msgid "remove corrected elevation data"
 msgstr ""
 
-#: inc/training/view/class.ElevationInfo.php:270
+#: inc/training/view/class.ElevationInfo.php:271
 msgid "Compare algorithms"
 msgstr ""
 
-#: inc/training/view/class.ElevationInfo.php:281
+#: inc/training/view/class.ElevationInfo.php:282
 msgid "Note for elevation data"
 msgstr ""
 
-#: inc/training/view/class.ElevationInfo.php:285
+#: inc/training/view/class.ElevationInfo.php:286
 msgid ""
 "The calculation of elevation data is very difficult - there is not one "
 "single solution. Bad gps data can be corrected via srtm-data but these are "
@@ -3439,11 +3508,11 @@ msgid ""
 "algorithm and threshold such that the values fit your experience."
 msgstr ""
 
-#: inc/training/view/class.ElevationInfo.php:296
+#: inc/training/view/class.ElevationInfo.php:297
 msgid "Problem"
 msgstr ""
 
-#: inc/training/view/class.ElevationInfo.php:299
+#: inc/training/view/class.ElevationInfo.php:300
 msgid "No elevation data available."
 msgstr ""
 
@@ -5164,7 +5233,7 @@ msgid "Bikes"
 msgstr ""
 
 #: src/CoreBundle/Component/Account/Registration.php:147
-#: tests/CoreBundle/Component/Account/RegistrationTest.php:69
+#: tests/CoreBundle/Component/Account/RegistrationTest.php:83
 msgid "Other"
 msgstr ""
 

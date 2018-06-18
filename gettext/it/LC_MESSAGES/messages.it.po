@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Runalyze\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-02 14:20+0200\n"
+"POT-Creation-Date: 2018-06-18 16:30+0200\n"
 "PO-Revision-Date: 2017-03-07 09:09+0000\n"
 "Last-Translator: Michael Pohl <michael@mipapo.de>\n"
 "Language-Team: Italian <https://translate.runalyze.com/projects/runalyze/"
@@ -113,7 +113,7 @@ msgid "Configuration"
 msgstr "Configurazione"
 
 #: dashboard.php:111 inc/system/config/class.ConfigTabGeneral.php:20
-#: inc/core/Configuration/Category/General.php:213
+#: inc/core/Configuration/Category/General.php:194
 msgid "General settings"
 msgstr "Impostazioni generali"
 
@@ -408,36 +408,36 @@ msgstr "Aggiungi allenamento"
 msgid "week"
 msgstr "settimana"
 
-#: inc/class.DataBrowser.php:254
+#: inc/class.DataBrowser.php:255
 msgid "back"
 msgstr "indietro"
 
-#: inc/class.DataBrowser.php:264 inc/html/class.Ajax.php:439
+#: inc/class.DataBrowser.php:265 inc/html/class.Ajax.php:439
 msgid "next"
 msgstr "successivo"
 
-#: inc/class.DataBrowser.php:272
+#: inc/class.DataBrowser.php:273
 msgid "today"
 msgstr "oggi"
 
-#: inc/class.DataBrowser.php:282
+#: inc/class.DataBrowser.php:283
 msgid "Reload current datasheet"
 msgstr "Ricarica la versione attuale dei dati"
 
-#: inc/class.DataBrowser.php:290
+#: inc/class.DataBrowser.php:291
 #: inc/core/Configuration/Category/DataBrowser.php:117
 msgid "Calendar"
 msgstr "Calendario"
 
-#: inc/class.DataBrowser.php:298 inc/class.DataBrowserShared.php:120
+#: inc/class.DataBrowser.php:299 inc/class.DataBrowserShared.php:120
 msgid "Activity per month"
 msgstr "Attività mensile"
 
-#: inc/class.DataBrowser.php:306 inc/class.DataBrowserShared.php:128
+#: inc/class.DataBrowser.php:307 inc/class.DataBrowserShared.php:128
 msgid "Activity per week"
 msgstr "Attività settimanale"
 
-#: inc/class.DataBrowser.php:322
+#: inc/class.DataBrowser.php:323
 msgid "Search for an activity"
 msgstr "Cerca per attività"
 
@@ -948,12 +948,12 @@ msgstr "Direzione del vento"
 msgid "Power"
 msgstr "Potenza (Watt)"
 
-#: inc/core/Dataset/Keys/Route.php:69
+#: inc/core/Dataset/Keys/Route.php:46
 #: inc/training/search/class.SearchFormular.php:185
 msgid "Route"
 msgstr "Percorso"
 
-#: inc/core/Dataset/Keys/Route.php:79
+#: inc/core/Dataset/Keys/Route.php:56
 #, php-format
 msgid "Route names are automatically cut after %u characters."
 msgstr "I nomi dei percorsi sono automaticamente tagliati dopo %u caratteri."
@@ -1387,12 +1387,48 @@ msgid "Main Sport"
 msgstr "Sport principale"
 
 #: inc/core/Profile/Sport/Cycling.php:26
+#: tests/CoreBundle/Component/Account/RegistrationTest.php:72
 msgid "Cycling"
 msgstr "Ciclismo"
 
+#: inc/core/Profile/Sport/Cycling.php:70 inc/core/Profile/Sport/Cycling.php:71
+#: inc/core/Profile/Sport/Cycling.php:72 inc/core/Profile/Sport/Cycling.php:73
+#: inc/core/Profile/Sport/Cycling.php:74 inc/core/Profile/Sport/Cycling.php:75
+#: inc/core/Profile/Sport/Cycling.php:76 inc/core/Profile/Sport/Running.php:70
+#: inc/core/Profile/Sport/Running.php:71 inc/core/Profile/Sport/Running.php:72
+#: inc/core/Profile/Sport/Running.php:73 inc/core/Profile/Sport/Running.php:74
+#: inc/core/Profile/Sport/Running.php:75 inc/core/Profile/Sport/Running.php:76
+#: inc/core/Profile/Sport/Running.php:77 inc/core/Profile/Sport/Running.php:78
+#: inc/core/Profile/Sport/Swimming.php:70
+#: inc/core/Profile/Sport/Swimming.php:71
+#: inc/core/Profile/Sport/Swimming.php:72
+#: inc/core/Profile/Sport/Swimming.php:73
+#: inc/core/Profile/Sport/Swimming.php:74
+#: inc/core/Profile/Sport/Swimming.php:75
+#: inc/core/Profile/Sport/Swimming.php:76
+#: inc/core/Profile/Sport/Zones/HeartRate.php:32
+#: inc/core/Profile/Sport/Zones/HeartRate.php:33
+#: inc/core/Profile/Sport/Zones/HeartRate.php:34
+#: inc/core/Profile/Sport/Zones/HeartRate.php:35
+#: inc/core/Profile/Sport/Zones/HeartRate.php:36
+#: inc/core/Profile/Sport/Zones/Pace.php:33
+#: inc/core/Profile/Sport/Zones/Pace.php:34
+#: inc/core/Profile/Sport/Zones/Pace.php:35
+#: inc/core/Profile/Sport/Zones/Pace.php:36
+#: inc/core/Profile/Sport/Zones/Pace.php:37
+#: inc/core/Profile/Sport/Zones/Pace.php:38
+#: inc/core/Profile/Sport/Zones/Power.php:32
+#: inc/core/Profile/Sport/Zones/Power.php:33
+#: inc/core/Profile/Sport/Zones/Power.php:34
+#: inc/core/Profile/Sport/Zones/Power.php:35
+#: inc/core/Profile/Sport/Zones/Power.php:36
+#: inc/training/view/section/table/class.TableZonesAbstract.php:102
+msgid "Zone"
+msgstr "Zona"
+
 #: inc/core/Profile/Sport/Running.php:26
 #: src/CoreBundle/Component/Account/Registration.php:204
-#: tests/CoreBundle/Component/Account/RegistrationTest.php:61
+#: tests/CoreBundle/Component/Account/RegistrationTest.php:62
 msgid "Running"
 msgstr "Corsa"
 
@@ -2180,15 +2216,15 @@ msgstr "Elevazione: soglia"
 msgid "Threshold for the smoothing algorithm"
 msgstr "Soglia per l'algoritmo di correzione"
 
-#: inc/core/Configuration/Category/General.php:216
+#: inc/core/Configuration/Category/General.php:197
 msgid "Beginning of the week"
 msgstr "Inizio della settimana"
 
-#: inc/core/Configuration/Category/General.php:220
+#: inc/core/Configuration/Category/General.php:201
 msgid "Unit system for distances"
 msgstr "Unità di misura per la distanza"
 
-#: inc/core/Configuration/Category/General.php:221
+#: inc/core/Configuration/Category/General.php:202
 msgid ""
 "Changing the unit system for distances does not change pace units. You have "
 "to adjust them in sports configuration."
@@ -2196,28 +2232,68 @@ msgstr ""
 "Cambiare l'unità di misura per la distanza non cambierà l'unità di misura "
 "per la frequenza. Questa deve essere cambiata in configurazione sport."
 
-#: inc/core/Configuration/Category/General.php:225
+#: inc/core/Configuration/Category/General.php:206
 msgid "Weight unit"
 msgstr "Unità di misura del peso"
 
-#: inc/core/Configuration/Category/General.php:229
+#: inc/core/Configuration/Category/General.php:210
 msgid "Energy unit"
 msgstr "Unità di misura dell'energia"
 
-#: inc/core/Configuration/Category/General.php:233
+#: inc/core/Configuration/Category/General.php:214
 msgid "Temperature unit"
 msgstr "Unità di misura della temperatura"
 
-#: inc/core/Configuration/Category/General.php:237
+#: inc/core/Configuration/Category/General.php:218
 msgid "Heart rate unit"
 msgstr "Battito cardiaco"
 
-#: inc/core/Configuration/Category/General.php:241
+#: inc/core/Configuration/Category/General.php:222
 msgid "Main sport"
 msgstr "Sport principale"
 
-#: inc/core/Configuration/Category/General.php:245
+#: inc/core/Configuration/Category/Import.php:69
+msgid "Import"
+msgstr "Importa"
+
+#: inc/core/Configuration/Category/Import.php:72
 msgid "Synchronisation Fallback Sport"
+msgstr ""
+
+#: inc/core/Configuration/Category/Import.php:76
+msgid "Enable activity mail import"
+msgstr ""
+
+#: inc/core/Configuration/Category/Import.php:77
+#, fuzzy
+msgid "Beta feature"
+msgstr "Temperatura"
+
+#: inc/core/Configuration/Category/Import.php:77
+#, fuzzy
+msgid "If activated you can send your activities to"
+msgstr ""
+"Se attivo: Tutti possono vedere la lista di tutte le tue attività "
+"(pubbliche)."
+
+#: inc/core/Configuration/Category/Import.php:81
+msgid "Password for activity mail import"
+msgstr ""
+
+#: inc/core/Configuration/Category/Import.php:81
+msgid "needed"
+msgstr ""
+
+#: inc/core/Configuration/Category/Import.php:82
+msgid "Add this password to the subect of your mail"
+msgstr ""
+
+#: inc/core/Configuration/Category/Import.php:85
+msgid "The mail must be sent from the mail address defined in your account."
+msgstr ""
+
+#: inc/core/Configuration/Category/Import.php:86
+msgid "Read more about this feature in our blog"
 msgstr ""
 
 #: inc/core/Parameter/Application/DatabaseOrder.php:44
@@ -3476,10 +3552,6 @@ msgstr "Dati compositi"
 msgid "Heart rate variability"
 msgstr "Variabilità del battito cardiaco"
 
-#: inc/training/view/section/table/class.TableZonesAbstract.php:102
-msgid "Zone"
-msgstr "Zona"
-
 #: inc/training/view/section/table/class.TableLapsComputed.php:66
 msgid "bpm"
 msgstr "bpm"
@@ -3607,6 +3679,7 @@ msgstr "correggere ora"
 
 #: inc/training/view/class.ElevationInfo.php:257
 #: inc/training/view/class.ElevationInfo.php:258
+#: inc/training/view/class.ElevationInfo.php:259
 #, php-format
 msgid "correct again using %s"
 msgstr "correggi di nuovo usando %s"
@@ -3615,19 +3688,19 @@ msgstr "correggi di nuovo usando %s"
 msgid "srtm files"
 msgstr "file srtm"
 
-#: inc/training/view/class.ElevationInfo.php:259
+#: inc/training/view/class.ElevationInfo.php:260
 msgid "remove corrected elevation data"
 msgstr "rimuovi correzione dell'altimetria"
 
-#: inc/training/view/class.ElevationInfo.php:270
+#: inc/training/view/class.ElevationInfo.php:271
 msgid "Compare algorithms"
 msgstr "Compara gli algoritmi"
 
-#: inc/training/view/class.ElevationInfo.php:281
+#: inc/training/view/class.ElevationInfo.php:282
 msgid "Note for elevation data"
 msgstr "Appunti sui dati dell'elevazione"
 
-#: inc/training/view/class.ElevationInfo.php:285
+#: inc/training/view/class.ElevationInfo.php:286
 msgid ""
 "The calculation of elevation data is very difficult - there is not one "
 "single solution. Bad gps data can be corrected via srtm-data but these are "
@@ -3645,11 +3718,11 @@ msgstr ""
 "differenti software (come Garmin Connect, SportTracks, etc.) ad un valore "
 "univoco e identico relativo all'altitudine (metri in salita/discesa)."
 
-#: inc/training/view/class.ElevationInfo.php:296
+#: inc/training/view/class.ElevationInfo.php:297
 msgid "Problem"
 msgstr "Problema"
 
-#: inc/training/view/class.ElevationInfo.php:299
+#: inc/training/view/class.ElevationInfo.php:300
 #, fuzzy
 msgid "No elevation data available."
 msgstr "Dati non disponibili."
@@ -5502,7 +5575,7 @@ msgid "Bikes"
 msgstr "Biciclette"
 
 #: src/CoreBundle/Component/Account/Registration.php:147
-#: tests/CoreBundle/Component/Account/RegistrationTest.php:69
+#: tests/CoreBundle/Component/Account/RegistrationTest.php:83
 msgid "Other"
 msgstr "Altro"
 
@@ -5879,9 +5952,6 @@ msgstr "cappello"
 #~ msgid_plural "Found duplicate activities."
 #~ msgstr[0] "Trovata <strong>una</strong> attività duplicata."
 #~ msgstr[1] "Trovate attività duplicate."
-
-#~ msgid "Import"
-#~ msgstr "Importa"
 
 #~ msgid "Show multi editor afterwards"
 #~ msgstr "Mostra dopo il multi editor"

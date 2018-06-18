@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: mail@runalyze.com\n"
-"POT-Creation-Date: 2018-06-02 14:20+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-18 16:30+0200\n"
 "PO-Revision-Date: 2018-06-18 14:11+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
@@ -104,7 +104,7 @@ msgid "Configuration"
 msgstr "Konfigurasjon"
 
 #: dashboard.php:111 inc/system/config/class.ConfigTabGeneral.php:20
-#: inc/core/Configuration/Category/General.php:213
+#: inc/core/Configuration/Category/General.php:194
 msgid "General settings"
 msgstr "Generelle innstillinger"
 
@@ -393,36 +393,36 @@ msgstr "Legg til aktivitet"
 msgid "week"
 msgstr "uke"
 
-#: inc/class.DataBrowser.php:254
+#: inc/class.DataBrowser.php:255
 msgid "back"
 msgstr "tilbake"
 
-#: inc/class.DataBrowser.php:264 inc/html/class.Ajax.php:439
+#: inc/class.DataBrowser.php:265 inc/html/class.Ajax.php:439
 msgid "next"
 msgstr "neste"
 
-#: inc/class.DataBrowser.php:272
+#: inc/class.DataBrowser.php:273
 msgid "today"
 msgstr "Idag"
 
-#: inc/class.DataBrowser.php:282
+#: inc/class.DataBrowser.php:283
 msgid "Reload current datasheet"
 msgstr "Oppfrisk nåværende dataark"
 
-#: inc/class.DataBrowser.php:290
+#: inc/class.DataBrowser.php:291
 #: inc/core/Configuration/Category/DataBrowser.php:117
 msgid "Calendar"
 msgstr "Kalender"
 
-#: inc/class.DataBrowser.php:298 inc/class.DataBrowserShared.php:120
+#: inc/class.DataBrowser.php:299 inc/class.DataBrowserShared.php:120
 msgid "Activity per month"
 msgstr "Aktivitet per måned"
 
-#: inc/class.DataBrowser.php:306 inc/class.DataBrowserShared.php:128
+#: inc/class.DataBrowser.php:307 inc/class.DataBrowserShared.php:128
 msgid "Activity per week"
 msgstr "Aktivitet per uke"
 
-#: inc/class.DataBrowser.php:322
+#: inc/class.DataBrowser.php:323
 msgid "Search for an activity"
 msgstr "Søk etter en aktivitet"
 
@@ -922,12 +922,12 @@ msgstr "Vindstyrke"
 msgid "Power"
 msgstr "Kraft"
 
-#: inc/core/Dataset/Keys/Route.php:69
+#: inc/core/Dataset/Keys/Route.php:46
 #: inc/training/search/class.SearchFormular.php:185
 msgid "Route"
 msgstr "Rute"
 
-#: inc/core/Dataset/Keys/Route.php:79
+#: inc/core/Dataset/Keys/Route.php:56
 #, php-format
 msgid "Route names are automatically cut after %u characters."
 msgstr "Rutenavn er automatisk kuttet etter %u bokstaver."
@@ -1259,9 +1259,9 @@ msgid ""
 "a colored marker, green for low values and red for high values. Garmin shows "
 "this value as recovery status."
 msgstr ""
-"Garmin beregner HRV poeng de første 12 minuttene av hver aktivitet. Verdien -"
-" sannsynlig restitusjonstid i minutter - er vist som en farget markør, grønn "
-"for lave verdier og rød for høye verdier. Garmin viser dette som "
+"Garmin beregner HRV poeng de første 12 minuttene av hver aktivitet. Verdien "
+"- sannsynlig restitusjonstid i minutter - er vist som en farget markør, "
+"grønn for lave verdier og rød for høye verdier. Garmin viser dette som "
 "restitusjonsstatus."
 
 #: inc/core/Activity/GroundcontactBalance.php:48
@@ -1349,12 +1349,48 @@ msgid "Main Sport"
 msgstr "Hovedsport"
 
 #: inc/core/Profile/Sport/Cycling.php:26
+#: tests/CoreBundle/Component/Account/RegistrationTest.php:72
 msgid "Cycling"
 msgstr "Sykling"
 
+#: inc/core/Profile/Sport/Cycling.php:70 inc/core/Profile/Sport/Cycling.php:71
+#: inc/core/Profile/Sport/Cycling.php:72 inc/core/Profile/Sport/Cycling.php:73
+#: inc/core/Profile/Sport/Cycling.php:74 inc/core/Profile/Sport/Cycling.php:75
+#: inc/core/Profile/Sport/Cycling.php:76 inc/core/Profile/Sport/Running.php:70
+#: inc/core/Profile/Sport/Running.php:71 inc/core/Profile/Sport/Running.php:72
+#: inc/core/Profile/Sport/Running.php:73 inc/core/Profile/Sport/Running.php:74
+#: inc/core/Profile/Sport/Running.php:75 inc/core/Profile/Sport/Running.php:76
+#: inc/core/Profile/Sport/Running.php:77 inc/core/Profile/Sport/Running.php:78
+#: inc/core/Profile/Sport/Swimming.php:70
+#: inc/core/Profile/Sport/Swimming.php:71
+#: inc/core/Profile/Sport/Swimming.php:72
+#: inc/core/Profile/Sport/Swimming.php:73
+#: inc/core/Profile/Sport/Swimming.php:74
+#: inc/core/Profile/Sport/Swimming.php:75
+#: inc/core/Profile/Sport/Swimming.php:76
+#: inc/core/Profile/Sport/Zones/HeartRate.php:32
+#: inc/core/Profile/Sport/Zones/HeartRate.php:33
+#: inc/core/Profile/Sport/Zones/HeartRate.php:34
+#: inc/core/Profile/Sport/Zones/HeartRate.php:35
+#: inc/core/Profile/Sport/Zones/HeartRate.php:36
+#: inc/core/Profile/Sport/Zones/Pace.php:33
+#: inc/core/Profile/Sport/Zones/Pace.php:34
+#: inc/core/Profile/Sport/Zones/Pace.php:35
+#: inc/core/Profile/Sport/Zones/Pace.php:36
+#: inc/core/Profile/Sport/Zones/Pace.php:37
+#: inc/core/Profile/Sport/Zones/Pace.php:38
+#: inc/core/Profile/Sport/Zones/Power.php:32
+#: inc/core/Profile/Sport/Zones/Power.php:33
+#: inc/core/Profile/Sport/Zones/Power.php:34
+#: inc/core/Profile/Sport/Zones/Power.php:35
+#: inc/core/Profile/Sport/Zones/Power.php:36
+#: inc/training/view/section/table/class.TableZonesAbstract.php:102
+msgid "Zone"
+msgstr "Sone"
+
 #: inc/core/Profile/Sport/Running.php:26
 #: src/CoreBundle/Component/Account/Registration.php:204
-#: tests/CoreBundle/Component/Account/RegistrationTest.php:61
+#: tests/CoreBundle/Component/Account/RegistrationTest.php:62
 msgid "Running"
 msgstr "Løping"
 
@@ -1801,7 +1837,8 @@ msgstr "Offentlig utøverside: aktiv"
 
 #: inc/core/Configuration/Category/Privacy.php:89
 msgid "If activated: Everyone can see a list of all your (public) activities."
-msgstr "Hvis aktiv: alle kan se en liste av alle dine (offentlige) aktiviteter."
+msgstr ""
+"Hvis aktiv: alle kan se en liste av alle dine (offentlige) aktiviteter."
 
 #: inc/core/Configuration/Category/Privacy.php:93
 msgid "Public athlete page: private workouts"
@@ -1870,7 +1907,8 @@ msgstr "for vær: Lokasjon"
 #: inc/core/Configuration/Category/ActivityForm.php:221
 msgid ""
 "For loading weather data from openweathermap.org<br>e.g. <em>Berlin, de</em>"
-msgstr "For å laste værdata fra openweathermap.org<br>f.eks.<em>Berlin, de</em>"
+msgstr ""
+"For å laste værdata fra openweathermap.org<br>f.eks.<em>Berlin, de</em>"
 
 #: inc/core/Configuration/Category/ActivityForm.php:232
 msgid "Automatically correct elevation data"
@@ -2067,8 +2105,8 @@ msgid ""
 "which distance (in seconds by average pace)between two data points can be "
 "interpolated."
 msgstr ""
-"Gps-sporet kan bli brutt i tilfelle <em>avbrytelser</em> (f.eks. med bil/tog/"
-"..). Å finne disse avbruddene er ikke enkelt. Du kan spesifisere opp til "
+"Gps-sporet kan bli brutt i tilfelle <em>avbrytelser</em> (f.eks. med bil/"
+"tog/..). Å finne disse avbruddene er ikke enkelt. Du kan spesifisere opp til "
 "hvilken avstand (i sekunder per gjennomsnittlig tempo) mellom to datapunkter "
 "som kan bli interpolert."
 
@@ -2108,15 +2146,15 @@ msgstr "Elevasjon: terskel"
 msgid "Threshold for the smoothing algorithm"
 msgstr "Terskel for glatting"
 
-#: inc/core/Configuration/Category/General.php:216
+#: inc/core/Configuration/Category/General.php:197
 msgid "Beginning of the week"
 msgstr "Begynnelse av uke"
 
-#: inc/core/Configuration/Category/General.php:220
+#: inc/core/Configuration/Category/General.php:201
 msgid "Unit system for distances"
 msgstr "Enhet for distanser"
 
-#: inc/core/Configuration/Category/General.php:221
+#: inc/core/Configuration/Category/General.php:202
 msgid ""
 "Changing the unit system for distances does not change pace units. You have "
 "to adjust them in sports configuration."
@@ -2124,29 +2162,69 @@ msgstr ""
 "Endring av enhet for distanser endrer ikke enhet for tempo. Du må endre dem "
 "i sportskonfigurasjonen."
 
-#: inc/core/Configuration/Category/General.php:225
+#: inc/core/Configuration/Category/General.php:206
 msgid "Weight unit"
 msgstr "Vektenhet"
 
-#: inc/core/Configuration/Category/General.php:229
+#: inc/core/Configuration/Category/General.php:210
 msgid "Energy unit"
 msgstr "Energienhet"
 
-#: inc/core/Configuration/Category/General.php:233
+#: inc/core/Configuration/Category/General.php:214
 msgid "Temperature unit"
 msgstr "Temperaturenhet"
 
-#: inc/core/Configuration/Category/General.php:237
+#: inc/core/Configuration/Category/General.php:218
 msgid "Heart rate unit"
 msgstr "Pulsenhet"
 
-#: inc/core/Configuration/Category/General.php:241
+#: inc/core/Configuration/Category/General.php:222
 msgid "Main sport"
 msgstr "Hovedsport"
 
-#: inc/core/Configuration/Category/General.php:245
+#: inc/core/Configuration/Category/Import.php:69
+#, fuzzy
+msgid "Import"
+msgstr "Sport"
+
+#: inc/core/Configuration/Category/Import.php:72
 msgid "Synchronisation Fallback Sport"
 msgstr "Synkronisering standardsport"
+
+#: inc/core/Configuration/Category/Import.php:76
+msgid "Enable activity mail import"
+msgstr ""
+
+#: inc/core/Configuration/Category/Import.php:77
+#, fuzzy
+msgid "Beta feature"
+msgstr "Temperatur"
+
+#: inc/core/Configuration/Category/Import.php:77
+#, fuzzy
+msgid "If activated you can send your activities to"
+msgstr ""
+"Hvis aktiv: alle kan se en liste av alle dine (offentlige) aktiviteter."
+
+#: inc/core/Configuration/Category/Import.php:81
+msgid "Password for activity mail import"
+msgstr ""
+
+#: inc/core/Configuration/Category/Import.php:81
+msgid "needed"
+msgstr ""
+
+#: inc/core/Configuration/Category/Import.php:82
+msgid "Add this password to the subect of your mail"
+msgstr ""
+
+#: inc/core/Configuration/Category/Import.php:85
+msgid "The mail must be sent from the mail address defined in your account."
+msgstr ""
+
+#: inc/core/Configuration/Category/Import.php:86
+msgid "Read more about this feature in our blog"
+msgstr ""
 
 #: inc/core/Parameter/Application/DatabaseOrder.php:44
 msgid "id (oldest first)"
@@ -3325,8 +3403,8 @@ msgstr "Kilde for værdata: %s"
 msgid ""
 "You created this training on <strong>%s</strong> at <strong>%s</strong>."
 msgstr ""
-"Du har opprettet denne aktiviteten <strong>%s</strong> kl "
-"<strong>%s</strong>."
+"Du har opprettet denne aktiviteten <strong>%s</strong> kl <strong>%s</"
+"strong>."
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:411
 #, php-format
@@ -3389,10 +3467,6 @@ msgstr "Sammensatte data"
 #: inc/training/view/section/class.SectionHRV.php:18
 msgid "Heart rate variability"
 msgstr "Pulsvariabilitet"
-
-#: inc/training/view/section/table/class.TableZonesAbstract.php:102
-msgid "Zone"
-msgstr "Sone"
 
 #: inc/training/view/section/table/class.TableLapsComputed.php:66
 msgid "bpm"
@@ -3515,6 +3589,7 @@ msgstr "korriger nå"
 
 #: inc/training/view/class.ElevationInfo.php:257
 #: inc/training/view/class.ElevationInfo.php:258
+#: inc/training/view/class.ElevationInfo.php:259
 #, php-format
 msgid "correct again using %s"
 msgstr "korriger igjen med %s"
@@ -3523,19 +3598,19 @@ msgstr "korriger igjen med %s"
 msgid "srtm files"
 msgstr "srtm-fil"
 
-#: inc/training/view/class.ElevationInfo.php:259
+#: inc/training/view/class.ElevationInfo.php:260
 msgid "remove corrected elevation data"
 msgstr "fjern korrigerte elevasjonsdata"
 
-#: inc/training/view/class.ElevationInfo.php:270
+#: inc/training/view/class.ElevationInfo.php:271
 msgid "Compare algorithms"
 msgstr "Sammenlign algoritmer"
 
-#: inc/training/view/class.ElevationInfo.php:281
+#: inc/training/view/class.ElevationInfo.php:282
 msgid "Note for elevation data"
 msgstr "Bemerkning for elevasjonsdata"
 
-#: inc/training/view/class.ElevationInfo.php:285
+#: inc/training/view/class.ElevationInfo.php:286
 msgid ""
 "The calculation of elevation data is very difficult - there is not one "
 "single solution. Bad gps data can be corrected via srtm-data but these are "
@@ -3551,11 +3626,11 @@ msgstr ""
 "nedstigning). Vi gir deg derfor muligheten til å velge algoritme og terskel "
 "så verdien skal passe din erfaring."
 
-#: inc/training/view/class.ElevationInfo.php:296
+#: inc/training/view/class.ElevationInfo.php:297
 msgid "Problem"
 msgstr "Problem"
 
-#: inc/training/view/class.ElevationInfo.php:299
+#: inc/training/view/class.ElevationInfo.php:300
 msgid "No elevation data available."
 msgstr "Ingen elevasjonsdata er tilgjengelig."
 
@@ -4219,8 +4294,8 @@ msgid ""
 "item/1481-trainingstagebuch-sinnvoll-oder-nicht\" title=\"Das TRIMP-Konzept"
 "\">The TRIMP-concept</a> (german, netzathleten.de)"
 msgstr ""
-"se <a href=\"http://www.netzathleten.de/fitness/richtig-trainieren/item/1481"
-"-trainingstagebuch-sinnvoll-oder-nicht\" title=\"Das TRIMP-Konzept\">The "
+"se <a href=\"http://www.netzathleten.de/fitness/richtig-trainieren/item/1481-"
+"trainingstagebuch-sinnvoll-oder-nicht\" title=\"Das TRIMP-Konzept\">The "
 "TRIMP-concept</a> (german, netzathleten.de)"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:375
@@ -4229,9 +4304,9 @@ msgid ""
 "fellrnr.com/wiki/Modeling_Human_Performance#The_TSB_Formulas\">Modeling "
 "Human Performance</a> on fellrnr.com"
 msgstr ""
-"se <a href=\"http://fellrnr.com/wiki/TRIMP\">TRIMP</a> og <a href=\""
-"http://fellrnr.com/wiki/Modeling_Human_Performance#The_TSB_Formulas\">"
-"Modeling Human Performance</a> på fellrnr.com"
+"se <a href=\"http://fellrnr.com/wiki/TRIMP\">TRIMP</a> og <a href=\"http://"
+"fellrnr.com/wiki/Modeling_Human_Performance#The_TSB_Formulas\">Modeling "
+"Human Performance</a> på fellrnr.com"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:395
 #, php-format
@@ -4311,8 +4386,8 @@ msgid ""
 "<br>The target is derived from the possible marathon time based on your "
 "current shape."
 msgstr ""
-"Din maratonform er basert på dine ukentlige kilometere og dine langløp.<br>"
-"Målet er utledet fra en mulig maratontid basert på din nåværende form."
+"Din maratonform er basert på dine ukentlige kilometere og dine langløp."
+"<br>Målet er utledet fra en mulig maratontid basert på din nåværende form."
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:514
 msgid ""
@@ -4403,8 +4478,8 @@ msgid ""
 "Note: &quot;Saison&quot; refers to the current season in the german &quot;"
 "kmspiel&quot;."
 msgstr ""
-"Bemerk: &quot;Saison&quot; referer til nåværende årstid i tyske "
-"&quot;kmspiel&quot;."
+"Bemerk: &quot;Saison&quot; referer til nåværende årstid i tyske &quot;"
+"kmspiel&quot;."
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:71
 #, php-format
@@ -5331,7 +5406,7 @@ msgid "Bikes"
 msgstr ""
 
 #: src/CoreBundle/Component/Account/Registration.php:147
-#: tests/CoreBundle/Component/Account/RegistrationTest.php:69
+#: tests/CoreBundle/Component/Account/RegistrationTest.php:83
 msgid "Other"
 msgstr ""
 
