@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-18 06:58+0000\n"
+"PO-Revision-Date: 2018-06-18 07:15+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -1845,7 +1845,7 @@ msgstr "Beregne energi"
 
 #: inc/core/Configuration/Category/ActivityForm.php:194
 msgid "Recalculate energy after changing duration by hand"
-msgstr "Beregne på nytt energi etter at du selv har endret av varighet"
+msgstr "Beregne på nytt energi etter at du selv har endret varighet"
 
 #: inc/core/Configuration/Category/ActivityForm.php:198
 msgid "Detect pauses"
@@ -2054,7 +2054,7 @@ msgstr "Prøver å ignorere avvikende punkter i tempoplottet."
 
 #: inc/core/Configuration/Category/ActivityView.php:360
 msgid "Splits plot: use zero as axis minimum"
-msgstr "Splittplott: bruk null som minimum på akser"
+msgstr "Delplott: bruk null som minimum på akser"
 
 #: inc/core/Configuration/Category/ActivityView.php:370
 msgid "Map: interrupt route"
@@ -2654,7 +2654,7 @@ msgstr "ikke -aktive"
 
 #: inc/core/View/Window/Laps/Table.php:377
 msgid "Show inactive splits"
-msgstr "Vis ikke-aktive deler"
+msgstr "Vis ikke-aktive delavstander"
 
 #: inc/core/View/Window/Laps/Form.php:41
 msgid "Calculate laps"
@@ -2718,16 +2718,17 @@ msgstr "Tempomål"
 msgid ""
 "Calculate values for handmade splits although total distance does not match."
 msgstr ""
-"Beregne verdier for selvvalgte deler selv om totaldistanse ikke stemmer."
+"Beregne verdier for selvvalgte delavstander selv om totaldistanse ikke "
+"stemmer."
 
 #: inc/core/View/Window/Laps/Form.php:133
 msgid "The total distance of your handmade laps differs from the gps distance."
 msgstr ""
-"Den totale distansen av manuelle runder er forskjellig fra gps-distansen."
+"Den totale distansen av selvvalgte runder er forskjellig fra gps-distansen."
 
 #: inc/core/View/Window/Laps/Form.php:140
 msgid "Leave lap distances empty to use your handmade laps."
-msgstr "La runde-distanse være tom for å bruke dine manuelle runder."
+msgstr "La runde-distanse være tom for å bruke dine selvvalgte runder."
 
 #: inc/core/View/Window/Laps/Form.php:153
 msgid "Show calculated laps"
