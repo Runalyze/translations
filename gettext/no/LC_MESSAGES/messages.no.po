@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-18 05:54+0000\n"
+"PO-Revision-Date: 2018-06-18 05:55+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -3244,6 +3244,7 @@ msgid "Temperature plot"
 msgstr "Temperaturplott"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:73
+#, fuzzy
 msgid "THb"
 msgstr "THb"
 
@@ -3253,25 +3254,25 @@ msgstr "THb"
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:397
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:271
 msgid "Date"
-msgstr ""
+msgstr "Dato"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:100
 msgid "Time of day"
-msgstr ""
+msgstr "Tidspunkt"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:174
 msgid "Weather condition"
-msgstr ""
+msgstr "Værforhold"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:352
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:432
 msgid "Age standard"
-msgstr ""
+msgstr "Aldersstandard"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:353
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:433
 msgid "Open standard"
-msgstr ""
+msgstr "Åpen klasse"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:354
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:434
