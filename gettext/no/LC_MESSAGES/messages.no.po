@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-18 07:15+0000\n"
+"PO-Revision-Date: 2018-06-18 07:23+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -87,7 +87,7 @@ msgstr "Last opp aktivitet"
 
 #: dashboard.php:100
 msgid "Manual activity"
-msgstr "Manuell aktivitet"
+msgstr "Selvlagret aktivitet"
 
 #: dashboard.php:101
 msgid "New equipment"
@@ -1718,14 +1718,14 @@ msgstr "Tidskonstants lenge for VO<sub>2</sub>max rullende gjennomsnitt"
 
 #: inc/core/Configuration/Category/VO2max.php:129
 msgid "Manual correction factor"
-msgstr "Manuel korreksjonsfaktor"
+msgstr "Selvvalgt korreksjonsfaktor"
 
 #: inc/core/Configuration/Category/VO2max.php:130
 msgid ""
 "Manual correction factor (e.g. 0.9), if the automatic factor does not fit. "
 "Can be left empty."
 msgstr ""
-"Manuel korreksjonsfaltor (f.eks. 0.9), hvis den automatiske faktoren ikke "
+"Selvvalgt korreksjonsfaltor (f.eks. 0.9), hvis den automatiske faktoren ikke "
 "passer. Kan være tom."
 
 #: inc/core/Configuration/Category/VO2max.php:131
@@ -2591,11 +2591,11 @@ msgstr "Slag"
 #: inc/core/View/Activity/Plot/LapsManual.php:27
 #: inc/training/view/section/class.SectionLaps.php:23
 msgid "Manual Laps"
-msgstr "Manuelle runder"
+msgstr "Selvvalgte runder"
 
 #: inc/core/View/Activity/Plot/LapsManual.php:38
 msgid "There are no manual laps."
-msgstr "Det er ingen manuelle runder."
+msgstr "Det er ingen selvvalgte runder."
 
 #: inc/core/View/Activity/Box/Pace.php:28
 #: inc/core/View/Activity/Box/Speed.php:37
@@ -2680,7 +2680,7 @@ msgstr "Tid som en ny runde skal starte etter"
 
 #: inc/core/View/Window/Laps/Form.php:79
 msgid "Manual distances"
-msgstr "Manuelle distanser"
+msgstr "Selvvalgte distanser"
 
 #: inc/core/View/Window/Laps/Form.php:80
 msgid ""
@@ -2696,7 +2696,7 @@ msgstr "f.eks."
 
 #: inc/core/View/Window/Laps/Form.php:93
 msgid "Manual times"
-msgstr "Manuelle tider"
+msgstr "Selvvalgte tider"
 
 #: inc/core/View/Window/Laps/Form.php:94
 msgid ""
@@ -2736,7 +2736,7 @@ msgstr "Vis beregnede runder"
 
 #: inc/core/View/Window/Laps/Form.php:154
 msgid "Show manual laps"
-msgstr "Vis manuelle runder"
+msgstr "Vis selvvalgte runder"
 
 #: inc/core/View/Leaflet/Activity.php:239
 #, php-format
@@ -2971,11 +2971,11 @@ msgstr "Ingen effekt"
 
 #: inc/core/Data/Weather/HeatIndexEffect.php:60
 msgid "Caution"
-msgstr ""
+msgstr "Forsiktig"
 
 #: inc/core/Data/Weather/HeatIndexEffect.php:62
 msgid "Extreme caution"
-msgstr ""
+msgstr "Ekstrem forsiktig"
 
 #: inc/core/Data/Weather/HeatIndexEffect.php:64
 msgid "Danger"
