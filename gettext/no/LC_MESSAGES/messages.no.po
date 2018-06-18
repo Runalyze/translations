@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-18 07:45+0000\n"
+"PO-Revision-Date: 2018-06-18 11:49+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -3557,114 +3557,114 @@ msgstr "Problem"
 
 #: inc/training/view/class.ElevationInfo.php:299
 msgid "No elevation data available."
-msgstr ""
+msgstr "Ingen elevasjonsdata er tilgjengelig."
 
 #: inc/training/view/class.TrainingView.php:60
 msgid "Show week"
-msgstr ""
+msgstr "Vis uke"
 
 #: inc/training/view/class.TrainingView.php:68
 msgid "Share"
-msgstr ""
+msgstr "Del"
 
 #: inc/training/view/class.TrainingView.php:90
 msgid "Export"
-msgstr ""
+msgstr "Eksporter"
 
 #: inc/training/view/class.TrainingView.php:96
 #, php-format
 msgid "as %s"
-msgstr ""
+msgstr "som %s"
 
 #: inc/training/view/class.TrainingView.php:115
 msgid "Show VO<sub>2</sub>max calculation"
-msgstr ""
+msgstr "Vis VO<sub>2</sub>maks-beregning"
 
 #: inc/training/view/class.TrainingView.php:127
 msgid "Analyze time series"
-msgstr ""
+msgstr "Analyser tidsserier"
 
 #: inc/training/view/class.TrainingView.php:131
 msgid "Find best sub segments"
-msgstr ""
+msgstr "Finn beste delsegmenter"
 
 #: inc/training/view/class.TrainingView.php:158
 msgid "Edit race result"
-msgstr ""
+msgstr "Editer løpsresultat"
 
 #: inc/training/view/class.TrainingView.php:160
 msgid "Add race result"
-msgstr ""
+msgstr "Legg til løpsresultat"
 
 #: inc/training/view/class.TrainingView.php:164
 msgid "Edit activity"
-msgstr ""
+msgstr "Editer aktivitet"
 
 #: inc/training/search/class.FormularInputSearchTimeRange.php:34
 #: plugin/RunalyzePluginStat_Wetter/MinMaxTableForEquipment.php:119
 msgid "to"
-msgstr ""
+msgstr "til"
 
 #: inc/training/search/class.SearchResults.php:698
 #, php-format
 msgid "Found %s activities"
-msgstr ""
+msgstr "Fant %s aktivitet(er)"
 
 #: inc/training/search/class.FormularSelectSearchSort.php:36
 msgid "Creation date"
-msgstr ""
+msgstr "Opprettet dato"
 
 #: inc/training/search/class.FormularSelectSearchSort.php:77
 msgid "Wind speed"
-msgstr ""
+msgstr "Vindhastighet"
 
 #: inc/training/search/class.FormularSelectSearchSort.php:78
 msgid "Wind direction"
-msgstr ""
+msgstr "Vindretning"
 
 #: inc/training/search/class.FormularSelectSearchSort.php:84
 msgid "descending"
-msgstr ""
+msgstr "nedstigning"
 
 #: inc/training/search/class.FormularSelectSearchSort.php:84
 msgid "ascending"
-msgstr ""
+msgstr "oppstigning"
 
 #: inc/training/search/class.SearchFormular.php:61
 msgid "Search activities"
-msgstr ""
+msgstr "Søk i aktiviteter"
 
 #: inc/training/search/class.SearchFormular.php:91
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:334
 msgid "Time range"
-msgstr ""
+msgstr "Tidsintervall"
 
 #: inc/training/search/class.SearchFormular.php:99
 msgid "Sorting"
-msgstr ""
+msgstr "Sortering"
 
 #: inc/training/search/class.SearchFormular.php:108
 msgid "Send to multi editor"
-msgstr ""
+msgstr "Send til multi-editor"
 
 #: inc/training/search/class.SearchFormular.php:109
 #, php-format
 msgid "Our multi editor is limited to a maximum of %d activities."
-msgstr ""
+msgstr "Multi-editoren er begrenset til maksimum %d aktiviteter."
 
 #: inc/training/search/class.SearchFormular.php:122
 msgid "Results per page"
-msgstr ""
+msgstr "Resultater per side"
 
 #: inc/training/search/class.SearchFormular.php:141
 #: src/CoreBundle/Form/Tools/TrendAnalysis/TrendAnalysisType.php:89
 #: src/CoreBundle/Form/Tools/Anova/AnovaType.php:96
 msgid "Choose sport(s)"
-msgstr ""
+msgstr "Velg sport"
 
 #: inc/training/search/class.SearchFormular.php:151
 msgid "all"
-msgstr ""
+msgstr "alle"
 
 #: inc/training/search/class.SearchFormular.php:153
 #: plugin/RunalyzePluginStat_Wetter/class.RunalyzePluginStat_Wetter.php:54
@@ -3674,21 +3674,21 @@ msgstr ""
 #: plugin/RunalyzePluginStat_Wetter/class.RunalyzePluginStat_Wetter.php:172
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:96
 msgid "none"
-msgstr ""
+msgstr "ingen"
 
 #: inc/training/search/class.SearchFormular.php:174
 #: src/CoreBundle/Form/Tools/TrendAnalysis/TrendAnalysisType.php:107
 #: src/CoreBundle/Form/Tools/Anova/AnovaType.php:114
 msgid "Choose activity type(s)"
-msgstr ""
+msgstr "Velg aktivitetstype(r)"
 
 #: inc/training/search/class.SearchFormular.php:175
 msgid "Choose weather conditions"
-msgstr ""
+msgstr "Velg værforhold"
 
 #: inc/training/search/class.SearchFormular.php:176
 msgid "Choose equipment"
-msgstr ""
+msgstr "Velg utstyr"
 
 #: inc/training/search/class.SearchFormular.php:177
 #: plugin/RunalyzePluginStat_Tag/class.RunalyzePluginStat_Tag.php:123
@@ -3705,7 +3705,7 @@ msgstr "gjsn. HF"
 
 #: inc/training/search/class.SearchFormular.php:197
 msgid "Is public"
-msgstr ""
+msgstr "Er offentlig"
 
 #: inc/training/search/class.SearchFormular.php:199
 msgid "max. HR"
@@ -3713,19 +3713,19 @@ msgstr "maks HF"
 
 #: inc/training/search/class.SearchFormular.php:201
 msgid "Is race"
-msgstr ""
+msgstr "Er løp"
 
 #: inc/training/search/class.SearchFormular.php:205
 msgid "Uses VO<sub>2</sub>max"
-msgstr ""
+msgstr "Bruker VO<sub>2</sub>maks"
 
 #: inc/training/search/class.SearchFormular.php:209
 msgid "Track"
-msgstr ""
+msgstr "Løype"
 
 #: inc/training/search/class.SearchFormular.php:216
 msgid "Ground Contact Balance"
-msgstr ""
+msgstr "Bakkekontakt balanse"
 
 #: inc/training/search/class.SearchFormular.php:228
 msgid "Percentage Hilly"
@@ -3733,82 +3733,82 @@ msgstr "Prosentvis kupert"
 
 #: inc/training/search/class.SearchFormular.php:328
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #: inc/training/search/class.SearchFormular.php:329
 msgid "No"
-msgstr ""
+msgstr "Nei"
 
 #: inc/data/class.Splits.php:162
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:398
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:411
 msgid "in"
-msgstr ""
+msgstr "på"
 
 #: inc/data/class.Splits.php:162
 msgid "Resting"
-msgstr ""
+msgstr "Hvile"
 
 #: inc/tpl/tpl.DataBrowser.php:20
 msgid "Choose a date ..."
-msgstr ""
+msgstr "Velg en dato ..."
 
 #: inc/tpl/tpl.DataBrowser.php:27
 msgid "Su"
-msgstr ""
+msgstr "Sø"
 
 #: inc/tpl/tpl.DataBrowser.php:27
 msgid "Mo"
-msgstr ""
+msgstr "Ma"
 
 #: inc/tpl/tpl.DataBrowser.php:27
 msgid "Tu"
-msgstr ""
+msgstr "Ti"
 
 #: inc/tpl/tpl.DataBrowser.php:27
 msgid "We"
-msgstr ""
+msgstr "On"
 
 #: inc/tpl/tpl.DataBrowser.php:27
 msgid "Th"
-msgstr ""
+msgstr "To"
 
 #: inc/tpl/tpl.DataBrowser.php:27
 msgid "Fr"
-msgstr ""
+msgstr "Fr"
 
 #: inc/tpl/tpl.DataBrowser.php:27
 msgid "Sa"
-msgstr ""
+msgstr "Lø"
 
 #: inc/tpl/tpl.DataBrowser.php:40
 msgid "You can select any time range by selecting two dates."
-msgstr ""
+msgstr "Du kan velge tidsintervall ved å velge to datoer."
 
 #: inc/tpl/tpl.DataBrowser.php:44
 msgid "Show selection"
-msgstr ""
+msgstr "Vis utvalg"
 
 #: inc/tpl/tpl.DataBrowser.php:157
 msgid "There are no activities for this time range."
-msgstr ""
+msgstr "Det er ingen aktiviteter i dette tidsintervallet."
 
 #: plugin/RunalyzePluginPanel_Equipment/class.RunalyzePluginPanel_Equipment.php:37
 msgid "Display statistics for your equipment."
-msgstr ""
+msgstr "Vis statistikk for ditt utstyr."
 
 #: plugin/RunalyzePluginPanel_Equipment/class.RunalyzePluginPanel_Equipment.php:51
 #: plugin/RunalyzePluginStat_Wetter/class.RunalyzePluginStat_Wetter.php:61
 msgid "Equipment type to display"
-msgstr ""
+msgstr "Utstyrstype for å vise"
 
 #: plugin/RunalyzePluginPanel_Equipment/class.RunalyzePluginPanel_Equipment.php:85
 msgid "Add/Edit equipment"
-msgstr ""
+msgstr "Legg til/Editer utstyr"
 
 #: plugin/RunalyzePluginPanel_Equipment/class.RunalyzePluginPanel_Equipment.php:86
 msgid "Show all equipment"
-msgstr ""
+msgstr "Vis alt utstyr"
 
 #: plugin/RunalyzePluginPanel_Equipment/class.RunalyzePluginPanel_Equipment.php:100
 msgid "Please choose an equipment type in the plugin configuration."
@@ -4592,7 +4592,7 @@ msgstr ""
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:104
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:151
 msgid "Race results"
-msgstr ""
+msgstr "Løpsresultat"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:60
 msgid "Personal bests and everything else related to your competitions."
@@ -4604,6 +4604,9 @@ msgid ""
 "results and of your personal bests (over all distances with at least two "
 "results)."
 msgstr ""
+"Dette tillegget lister alle dine konkurranser. Det viser en summeringa av "
+"alle løpsresultatene dine og dine personlige beste (distanser med minst to "
+"resultater)."
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:71
 msgid ""
@@ -4611,6 +4614,9 @@ msgid ""
 "you do a race just for fun, you can mark it as a 'fun race' to ignore it in "
 "the plot."
 msgstr ""
+"I tillegg plotter det trend over dine resultater på en spesifikk distanse. "
+"Hvis du gjør et løp kun for moro, kan du markere det 'moroløp' for å "
+"ignorere det i plottet."
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:80
 msgid "Main distance"
@@ -4626,11 +4632,11 @@ msgstr ""
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:93
 msgid "All race results"
-msgstr ""
+msgstr "Alle løpsresultater"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:181
 msgid "There are no races."
-msgstr ""
+msgstr "Det er ikke noen løp."
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:209
 msgid ""
@@ -4651,7 +4657,7 @@ msgstr ""
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:249
 msgid "There are no race results for the given distances."
-msgstr ""
+msgstr "Det er ikke noen løpsresultater for den gitte distansen."
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:273
 msgid "Results trend"
@@ -4662,6 +4668,8 @@ msgid ""
 "This includes races of all distances, not only those selected for yearly "
 "comparison."
 msgstr ""
+"Dette inkluderer løp for alle distanser, ikke bare de valgte for årlig "
+"sammenligning."
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:390
 msgid "Official distance & time"
@@ -4701,6 +4709,8 @@ msgid ""
 "You can mark any activity as race by checking the respective checkbox in the "
 "activity's form."
 msgstr ""
+"Du kan markere enhver aktivitet som løp ved å huke av den aktuelle boksen i "
+"aktivitetsskjemaet."
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:498
 msgid "Weather statistics"
@@ -4712,15 +4722,15 @@ msgstr ""
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:528
 msgid "Edit the race result details"
-msgstr ""
+msgstr "Editer detaljer for løpsresultatet"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:544
 msgid "Fun race | Click to mark this activity as a 'normal race'."
-msgstr ""
+msgstr "Moroløp | Klikk for å markere denne aktiviteten som 'normalt løp'."
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:548
 msgid "Race | Click to mark this activity as a 'fun race'."
-msgstr ""
+msgstr "Race | Huk av for å markere denne aktiviteten som et 'moroløp'."
 
 #: plugin/RunalyzePluginStat_Wettkampf/Plot.Bestzeit.php:16
 #, php-format
@@ -4841,13 +4851,14 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:46
 msgid "Predict your race performance on various distances."
-msgstr ""
+msgstr "Forutse dine løpsprestasjoner på ulike distanser."
 
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:53
 msgid ""
 "There are different models that can be used to predict your race "
 "performances:"
 msgstr ""
+"Det er ulike modeller som kan bli brukt for å forutse dine løpsprestasjoner:"
 
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:55
 msgid ""
@@ -5169,7 +5180,7 @@ msgstr "Intensitetssoner"
 
 #: src/CoreBundle/Controller/Settings/SettingsController.php:222
 msgid "race"
-msgstr ""
+msgstr "løp"
 
 #: src/CoreBundle/Controller/Settings/SettingsController.php:260
 msgid "Test activity"
@@ -5346,7 +5357,7 @@ msgstr ""
 #: src/CoreBundle/Component/Account/Registration.php:182
 #: src/CoreBundle/Component/Account/Registration.php:202
 msgid "Race"
-msgstr ""
+msgstr "Løp"
 
 #: src/CoreBundle/Component/Account/Registration.php:182
 msgid "RC"
