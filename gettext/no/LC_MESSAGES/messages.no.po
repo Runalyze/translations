@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-18 11:49+0000\n"
+"PO-Revision-Date: 2018-06-18 11:51+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -4687,6 +4687,8 @@ msgstr ""
 msgid ""
 "Your result in proportion to the world best performance in your age/gender."
 msgstr ""
+"Resultatet ditt står i forhold til verdens beste prestasjon for din alder/"
+"kjønn"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:405
 msgid "Overall"
@@ -4698,11 +4700,11 @@ msgstr ""
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:407
 msgid "male/female"
-msgstr ""
+msgstr "mann/kvinne"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:407
 msgid "M/F"
-msgstr ""
+msgstr "M/K"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:476
 msgid ""
@@ -4714,11 +4716,11 @@ msgstr ""
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:498
 msgid "Weather statistics"
-msgstr ""
+msgstr "Værstatistikk"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:514
 msgid "Edit the activity"
-msgstr ""
+msgstr "Editer aktiviteten"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:528
 msgid "Edit the race result details"
@@ -4726,7 +4728,7 @@ msgstr "Editer detaljer for løpsresultatet"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:544
 msgid "Fun race | Click to mark this activity as a 'normal race'."
-msgstr "Moroløp | Klikk for å markere denne aktiviteten som 'normalt løp'."
+msgstr "Moroløp | Huk av for å markere denne aktiviteten som 'normalt løp'."
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:548
 msgid "Race | Click to mark this activity as a 'fun race'."
