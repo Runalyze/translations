@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-18 07:33+0000\n"
+"PO-Revision-Date: 2018-06-18 07:45+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -3079,60 +3079,60 @@ msgstr "Beuforts skala"
 
 #: inc/draw/class.PlotMonthSumData.php:38
 msgid "Monthly chart:"
-msgstr "Månedlig diagram"
+msgstr "Månedlig diagram:"
 
 #: inc/draw/class.Plot.php:145
 msgid "There is an unknown problem with this plot."
-msgstr ""
+msgstr "Det er et ukjent problem med dette plottet."
 
 #: inc/draw/class.Plot.php:146
 msgid "Error code"
-msgstr ""
+msgstr "Feilkode"
 
 #: inc/draw/class.PlotSumData.php:203 inc/draw/class.PlotSumData.php:208
 msgid "By type"
-msgstr ""
+msgstr "Ved type"
 
 #: inc/draw/class.PlotSumData.php:219 inc/draw/class.PlotSumData.php:225
 msgid "Distance/Duration"
-msgstr ""
+msgstr "Distanse/Varighet"
 
 #: inc/draw/class.PlotSumData.php:238 inc/draw/class.PlotSumData.php:240
 msgid "All sports"
-msgstr ""
+msgstr "Alle sporter"
 
 #: inc/draw/class.PlotSumData.php:241
 msgid "Main sports"
-msgstr ""
+msgstr "Hovedsport"
 
 #: inc/draw/class.PlotSumData.php:319
 msgid "last 6 months"
-msgstr ""
+msgstr "siste 6 måneder"
 
 #: inc/draw/class.PlotSumData.php:321
 msgid "last 12 months"
-msgstr ""
+msgstr "siste 12 måneder"
 
 #: inc/draw/class.PlotSumData.php:398
 msgid "There are no data for this timerange."
-msgstr ""
+msgstr "Det er ikke noen data for dette tidsintervallet."
 
 #: inc/draw/class.PlotSumData.php:584
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:389
 msgid "without"
-msgstr ""
+msgstr "uten"
 
 #: inc/draw/class.PlotSumData.php:619
 msgid "Races"
-msgstr ""
+msgstr "Løp"
 
 #: inc/draw/class.PlotSumData.php:620
 msgid "Training"
-msgstr ""
+msgstr "Trening"
 
 #: inc/draw/class.PlotSumData.php:645
 msgid "target:"
-msgstr ""
+msgstr "mål:"
 
 #: inc/draw/class.PlotSumData.php:697
 msgid "Target is based on current marathon shape calculations."
@@ -3140,11 +3140,11 @@ msgstr "Mål er basert på beregning for nåværende matatonform."
 
 #: inc/draw/class.PlotWeekSumData.php:55
 msgid "Weekly chart:"
-msgstr ""
+msgstr "Ukentlig diagram:"
 
 #: inc/training/view/section/class.SectionPaceRow.php:21
 msgid "Pace plot"
-msgstr ""
+msgstr "Tempoplott"
 
 #: inc/training/view/section/class.SectionPaceRow.php:30
 #: inc/training/view/section/class.SectionCompositeRow.php:50
@@ -3152,38 +3152,38 @@ msgstr ""
 #: inc/training/view/section/class.SectionPowerRow.php:17
 #: inc/training/view/section/class.SectionHeartrateRow.php:28
 msgid "Configure your zones"
-msgstr ""
+msgstr "Konfigurer dine soner"
 
 #: inc/training/view/section/class.SectionPaceRow.php:32
 #: inc/training/view/section/class.SectionCompositeRow.php:52
 msgid "Pace zones"
-msgstr ""
+msgstr "Temposoner"
 
 #: inc/training/view/section/class.SectionPaceRow.php:85
 msgid "More about VO<sub>2</sub>max estimation"
-msgstr ""
+msgstr "Mer om VO<sub>2</sub>maks-estimering"
 
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:10
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:11
 msgid "Impact"
-msgstr ""
+msgstr "Innvirkning"
 
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:13
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:14
 msgid "Braking"
-msgstr ""
+msgstr "Bremse"
 
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:55
 msgid "Fore-foot"
-msgstr ""
+msgstr "Fremfot"
 
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:55
 msgid "Mid-foot"
-msgstr ""
+msgstr "Midtfot"
 
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:55
 msgid "Heel"
-msgstr ""
+msgstr "Hæl"
 
 #: inc/training/view/section/class.SectionRouteOnlyMap.php:17
 #: inc/training/view/section/class.SectionCompositeRow.php:219
@@ -3432,28 +3432,28 @@ msgstr ""
 
 #: inc/training/view/section/class.SectionPower.php:14
 msgid "Power data"
-msgstr ""
+msgstr "Effektdata"
 
 #: inc/training/view/section/class.SectionRouteRowElevation.php:106
 msgid "Climb Score view"
-msgstr ""
+msgstr "Klatrepoeng-visning"
 
 #: inc/training/view/class.ElevationInfo.php:98
 #, php-format
 msgid "Elevation calculation for: %s"
-msgstr ""
+msgstr "Elevasjoner beregnet for: %s"
 
 #: inc/training/view/class.ElevationInfo.php:107
 msgid "apply data"
-msgstr ""
+msgstr "bruk data"
 
 #: inc/training/view/class.ElevationInfo.php:112
 msgid "General data"
-msgstr ""
+msgstr "Generelle data"
 
 #: inc/training/view/class.ElevationInfo.php:115
 msgid "manual value"
-msgstr ""
+msgstr "selvvalgt verdi"
 
 #: inc/training/view/class.ElevationInfo.php:115
 msgid "If you did not insert a value by hand, this value has been calculated."
@@ -3462,7 +3462,7 @@ msgstr ""
 
 #: inc/training/view/class.ElevationInfo.php:119
 msgid "Lowest point"
-msgstr ""
+msgstr "Laveste punkt"
 
 #: inc/training/view/class.ElevationInfo.php:123
 msgid "calculated value"
@@ -3478,11 +3478,11 @@ msgstr ""
 
 #: inc/training/view/class.ElevationInfo.php:127
 msgid "Highest point"
-msgstr ""
+msgstr "Høyeste punkt"
 
 #: inc/training/view/class.ElevationInfo.php:135
 msgid "Up/Down"
-msgstr ""
+msgstr "Opp/Ned"
 
 #: inc/training/view/class.ElevationInfo.php:151
 msgid "You can choose the algorithm and threshold in the configuration window."
@@ -3499,41 +3499,41 @@ msgstr "Elevasjonsdata for ulike algoritmer/terskler (basert på originaldata)"
 
 #: inc/training/view/class.ElevationInfo.php:229
 msgid "Elevation correction"
-msgstr ""
+msgstr "Elevasjonskorreksjon"
 
 #: inc/training/view/class.ElevationInfo.php:233
 msgid "Elevation data has been corrected."
-msgstr ""
+msgstr "Elevasjonsdata har blitt korrigert."
 
 #: inc/training/view/class.ElevationInfo.php:236
 msgid "Elevation data has not been corrected."
-msgstr ""
+msgstr "Elevasjonsdata har ikke blitt korrigert."
 
 #: inc/training/view/class.ElevationInfo.php:237
 msgid "correct now"
-msgstr ""
+msgstr "korriger nå"
 
 #: inc/training/view/class.ElevationInfo.php:257
 #: inc/training/view/class.ElevationInfo.php:258
 #, php-format
 msgid "correct again using %s"
-msgstr ""
+msgstr "korriger igjen med %s"
 
 #: inc/training/view/class.ElevationInfo.php:257
 msgid "srtm files"
-msgstr ""
+msgstr "srtm-fil"
 
 #: inc/training/view/class.ElevationInfo.php:259
 msgid "remove corrected elevation data"
-msgstr ""
+msgstr "fjern korrigerte elevasjonsdata"
 
 #: inc/training/view/class.ElevationInfo.php:270
 msgid "Compare algorithms"
-msgstr ""
+msgstr "Sammenlign algoritmer"
 
 #: inc/training/view/class.ElevationInfo.php:281
 msgid "Note for elevation data"
-msgstr ""
+msgstr "Merkand for elevasjonsdata"
 
 #: inc/training/view/class.ElevationInfo.php:285
 msgid ""
@@ -3553,7 +3553,7 @@ msgstr ""
 
 #: inc/training/view/class.ElevationInfo.php:296
 msgid "Problem"
-msgstr ""
+msgstr "Problem"
 
 #: inc/training/view/class.ElevationInfo.php:299
 msgid "No elevation data available."
