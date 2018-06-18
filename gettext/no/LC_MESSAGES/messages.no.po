@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-18 05:34+0000\n"
+"PO-Revision-Date: 2018-06-18 05:37+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -2829,64 +2829,64 @@ msgstr "Drill"
 
 #: inc/core/Data/Stroketype.php:63 inc/core/Data/Stroketype.php:86
 msgid "Mixed"
-msgstr ""
+msgstr "Miks"
 
 #: inc/core/Data/Stroketype.php:78
 msgid "Back"
-msgstr ""
+msgstr "Rygg"
 
 #: inc/core/Data/Stroketype.php:80
 msgid "Breast"
-msgstr ""
+msgstr "Bryst"
 
 #: inc/core/Data/Weather.php:206
 msgid "at"
-msgstr ""
+msgstr "av"
 
 #: inc/core/Data/RPE.php:21
 msgid "No exertion at all"
-msgstr ""
+msgstr "Ingen anstrengelse i det hele tatt"
 
 #: inc/core/Data/RPE.php:22
 msgid "Extremely light"
-msgstr ""
+msgstr "Ekstremt lett"
 
 #: inc/core/Data/RPE.php:24
 msgid "Very light"
-msgstr ""
+msgstr "Veldig lett"
 
 #: inc/core/Data/RPE.php:26
 msgid "Light"
-msgstr ""
+msgstr "Lett"
 
 #: inc/core/Data/RPE.php:28
 msgid "Somewhat hard"
-msgstr ""
+msgstr "Tildels hardt"
 
 #: inc/core/Data/RPE.php:30
 msgid "Hard"
-msgstr ""
+msgstr "Hardt"
 
 #: inc/core/Data/RPE.php:32
 msgid "Very Hard"
-msgstr ""
+msgstr "Veldig hardt"
 
 #: inc/core/Data/RPE.php:34
 msgid "Extremely hard"
-msgstr ""
+msgstr "Ekstrem hardt"
 
 #: inc/core/Data/RPE.php:35
 msgid "Maximal exertion"
-msgstr ""
+msgstr "Maksimal anstrengelse"
 
 #: inc/core/Data/Weather/CardinalDirection.php:72
 #: inc/core/Data/Weather/CardinalDirection.php:76
 msgid "N"
-msgstr ""
+msgstr "N"
 
 #: inc/core/Data/Weather/CardinalDirection.php:77
 msgid "NE"
-msgstr ""
+msgstr "NE"
 
 #: inc/core/Data/Weather/CardinalDirection.php:78
 msgid "E"
