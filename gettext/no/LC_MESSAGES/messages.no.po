@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-18 07:26+0000\n"
+"PO-Revision-Date: 2018-06-18 07:33+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -2995,87 +2995,91 @@ msgid ""
 "activity could result in heat cramps."
 msgstr ""
 "Utmattelse er mulig med forlenget eksponering og aktivitet. Fortsettelse med "
-"aktivitet kan resultere i heteslag."
+"aktivitet kan resultere i varmekramper."
 
 #: inc/core/Data/Weather/HeatIndexEffect.php:107
 msgid ""
 "Heat cramps and heat exhaustion are possible. Continuing activity could "
 "result in heat stroke."
 msgstr ""
+"Varmekramper og overoppheting er mulig. Fortsettelse med aktivitet kan "
+"resultere i heteslag."
 
 #: inc/core/Data/Weather/HeatIndexEffect.php:109
 msgid ""
 "Heat cramps and heat exhaustion are likely; heat stroke is probable with "
 "continued activity."
 msgstr ""
+"Varmekramper og overoppheting er sannsynlig; heteslag er mulig med fortsatt "
+"aktivitet."
 
 #: inc/core/Data/Weather/HeatIndexEffect.php:111
 msgid "Heat stroke is imminent."
-msgstr ""
+msgstr "Heteslag er nært forestående."
 
 #: inc/core/Data/Weather/Sources.php:40
 msgid "internal database"
-msgstr ""
+msgstr "intern database"
 
 #: inc/core/Data/Weather/BeaufortScale.php:119
 msgid "Calm"
-msgstr ""
+msgstr "Stille"
 
 #: inc/core/Data/Weather/BeaufortScale.php:121
 msgid "Light air"
-msgstr ""
+msgstr "Flau vind"
 
 #: inc/core/Data/Weather/BeaufortScale.php:123
 msgid "Light breeze"
-msgstr ""
+msgstr "Svak vind"
 
 #: inc/core/Data/Weather/BeaufortScale.php:125
 msgid "Gentle breeze"
-msgstr ""
+msgstr "Lett bris"
 
 #: inc/core/Data/Weather/BeaufortScale.php:127
 msgid "Moderate breeze"
-msgstr ""
+msgstr "Laber bris"
 
 #: inc/core/Data/Weather/BeaufortScale.php:129
 msgid "Fresh breeze"
-msgstr ""
+msgstr "Frisk bris"
 
 #: inc/core/Data/Weather/BeaufortScale.php:131
 msgid "Strong breeze"
-msgstr ""
+msgstr "Liten kuling"
 
 #: inc/core/Data/Weather/BeaufortScale.php:133
 msgid "High wind"
-msgstr ""
+msgstr "Stiv kuling"
 
 #: inc/core/Data/Weather/BeaufortScale.php:135
 msgid "Fresh gale"
-msgstr ""
+msgstr "Sterk kuling"
 
 #: inc/core/Data/Weather/BeaufortScale.php:137
 msgid "Strong gale"
-msgstr ""
+msgstr "Liten storm"
 
 #: inc/core/Data/Weather/BeaufortScale.php:139
 msgid "Whole gale"
-msgstr ""
+msgstr "Full storm"
 
 #: inc/core/Data/Weather/BeaufortScale.php:141
 msgid "Violent storm"
-msgstr ""
+msgstr "Sterk storm"
 
 #: inc/core/Data/Weather/BeaufortScale.php:143
 msgid "Hurricane force"
-msgstr ""
+msgstr "Orkan"
 
 #: inc/core/Data/Weather/BeaufortScale.php:169
 msgid "Beaufort scale"
-msgstr ""
+msgstr "Beuforts skala"
 
 #: inc/draw/class.PlotMonthSumData.php:38
 msgid "Monthly chart:"
-msgstr ""
+msgstr "Månedlig diagram"
 
 #: inc/draw/class.Plot.php:145
 msgid "There is an unknown problem with this plot."
