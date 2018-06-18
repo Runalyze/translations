@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-18 11:51+0000\n"
+"PO-Revision-Date: 2018-06-18 13:50+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -1969,11 +1969,11 @@ msgstr "Kalender: Vis kun dager med aktiviteter"
 
 #: inc/core/Configuration/Category/DataBrowser.php:112
 msgid "Calendar: create button"
-msgstr "Kalender: ny-knapp"
+msgstr "Kalender: opprett-knapp"
 
 #: inc/core/Configuration/Category/DataBrowser.php:113
 msgid "Add a link for every day to create a new activity."
-msgstr "Legg til en link for hver dag for å legge til en ny aktivitet."
+msgstr "Legg til en link for hver dag for å opprette en ny aktivitet."
 
 #: inc/core/Configuration/Category/DataBrowser.php:117
 msgid "reverse order"
@@ -3242,7 +3242,7 @@ msgstr "Kurs og elevasjonsdata"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:58
 msgid "Additional notes"
-msgstr "Tilleggsnotater"
+msgstr "Tilleggsbemerkninger"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:62
 msgid "Cadence plot"
@@ -3313,7 +3313,7 @@ msgstr "Plassering kjønn"
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:377
 #: inc/training/search/class.SearchFormular.php:162
 msgid "Notes"
-msgstr "Notater"
+msgstr "Bemerkninger"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:388
 #, php-format
@@ -3331,7 +3331,7 @@ msgstr ""
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:411
 #, php-format
 msgid "Last modification on <strong>%s</strong> at <strong>%s</strong>."
-msgstr "Sist endring <strong>%s</strong> kl <strong>%s</strong>."
+msgstr "Siste endring <strong>%s</strong> kl <strong>%s</strong>."
 
 #: inc/training/view/section/class.SectionPowerRow.php:9
 msgid "Power plot"
@@ -3428,7 +3428,7 @@ msgstr ""
 
 #: inc/training/view/section/class.SectionHRVRow.php:52
 msgid "Anomalies"
-msgstr ""
+msgstr "Anomaliteter"
 
 #: inc/training/view/section/class.SectionPower.php:14
 msgid "Power data"
@@ -3533,7 +3533,7 @@ msgstr "Sammenlign algoritmer"
 
 #: inc/training/view/class.ElevationInfo.php:281
 msgid "Note for elevation data"
-msgstr "Merkand for elevasjonsdata"
+msgstr "Bemerkning for elevasjonsdata"
 
 #: inc/training/view/class.ElevationInfo.php:285
 msgid ""
@@ -3812,49 +3812,51 @@ msgstr "Vis alt utstyr"
 
 #: plugin/RunalyzePluginPanel_Equipment/class.RunalyzePluginPanel_Equipment.php:100
 msgid "Please choose an equipment type in the plugin configuration."
-msgstr ""
+msgstr "Venligst velg en utstyrstype i tilleggs-konfigurasjonen."
 
 #: plugin/RunalyzePluginPanel_Equipment/class.RunalyzePluginPanel_Equipment.php:113
 msgid "Show/Hide unused equipment"
-msgstr ""
+msgstr "Vis/Skjul ubrukt utstyr"
 
 #: plugin/RunalyzePluginPanel_Equipment/class.RunalyzePluginPanel_Equipment.php:154
 msgid "You don't have any equipment"
-msgstr ""
+msgstr "Du har ikke noe utstyr"
 
 #: plugin/RunalyzePluginStat_Trainingszeiten/Plot.Daytime.php:10
 msgid "Activity [in h] by day time"
-msgstr ""
+msgstr "Aktivitet [i h] ved tidspunkt"
 
 #: plugin/RunalyzePluginStat_Trainingszeiten/class.RunalyzePluginStat_Trainingszeiten.php:26
 msgid "Training times"
-msgstr ""
+msgstr "Treningstider"
 
 #: plugin/RunalyzePluginStat_Trainingszeiten/class.RunalyzePluginStat_Trainingszeiten.php:34
 msgid ""
 "Plot all your activity times by daytime/weekday and list your nightly "
 "activities."
 msgstr ""
+"Plott all dine aktivitetstidspunkt ved tidspunkt/ukedag og list alle dine "
+"nattlige aktiviteter."
 
 #: plugin/RunalyzePluginStat_Trainingszeiten/class.RunalyzePluginStat_Trainingszeiten.php:42
 msgid "Show nightly activities"
-msgstr ""
+msgstr "Vis nattlige aktiviteter"
 
 #: plugin/RunalyzePluginStat_Trainingszeiten/class.RunalyzePluginStat_Trainingszeiten.php:130
 msgid "Nightly activities"
-msgstr ""
+msgstr "Nattlig aktiviteter"
 
 #: plugin/RunalyzePluginStat_Trainingszeiten/class.RunalyzePluginStat_Trainingszeiten.php:154
 msgid "2 a.m. is considered as <em>most extreme</em> time for a training. "
-msgstr ""
+msgstr "Kl 2 er ansett som <em>mest ekstreme</em> tid for en trening. "
 
 #: plugin/RunalyzePluginStat_Trainingszeiten/class.RunalyzePluginStat_Trainingszeiten.php:155
 msgid "The 20 trainings being nearest to that time are listed."
-msgstr ""
+msgstr "De 20 treningene nærmest til dette tidspunktet er opplistet."
 
 #: plugin/RunalyzePluginStat_Trainingszeiten/Plot.Weekday.php:10
 msgid "Activity [in h] by weekday"
-msgstr ""
+msgstr "Aktivitet [i h] ved ukedag"
 
 #: plugin/RunalyzePluginStat_Wetter/MinMaxTableForEquipment.php:94
 #: plugin/RunalyzePluginStat_Wetter/MinMaxTableForEquipment.php:97
@@ -3862,12 +3864,12 @@ msgstr ""
 #: plugin/RunalyzePluginStat_Wetter/window.php:24
 #: plugin/RunalyzePluginStat_Wetter/Plot.Year.php:32
 msgid "Temperatures"
-msgstr ""
+msgstr "Temperatur"
 
 #: plugin/RunalyzePluginStat_Wetter/MinMaxTableForEquipment.php:128
 #: plugin/RunalyzePluginStat_Wetter/MonthwiseTable.php:148
 msgid "No data found."
-msgstr ""
+msgstr "Ingen data funnet"
 
 #: plugin/RunalyzePluginStat_Wetter/class.RunalyzePluginStat_Wetter.php:38
 msgid "Statistics about weather conditions and temperatures."
@@ -4586,7 +4588,7 @@ msgstr "Venligst velg en merkelapp."
 
 #: plugin/RunalyzePluginStat_Tag/class.RunalyzePluginStat_Tag.php:129
 msgid "No activities found."
-msgstr ""
+msgstr "Ingen aktiviteter funnet."
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:52
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:104
@@ -4596,7 +4598,7 @@ msgstr "Løpsresultat"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:60
 msgid "Personal bests and everything else related to your competitions."
-msgstr ""
+msgstr "Personlig beste og alt annet relatert til dine konkurranser."
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:68
 msgid ""
@@ -4620,15 +4622,15 @@ msgstr ""
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:80
 msgid "Main distance"
-msgstr ""
+msgstr "Hoveddistanse"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:81
 msgid "Distances for yearly comparison"
-msgstr ""
+msgstr "Distanse for årlig sammenligning"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:92
 msgid "Personal bests"
-msgstr ""
+msgstr "Personlig beste"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:93
 msgid "All race results"
@@ -4643,17 +4645,21 @@ msgid ""
 "This list shows all distances selected for yearly comparison or with at "
 "least two results."
 msgstr ""
+"Denne listen viser alle distanser valgt for årlig sammenligning eller med "
+"minst to resultater."
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:210
 msgid ""
 "Distances have to match exactly, especially 21.10 km and 42.20 km for "
 "(half-)marathons."
 msgstr ""
+"Distansen må være eksakt presis, særlig 21.10 km og 42.20 km for "
+"(halv-)maraton."
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:216
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:104
 msgid "Performance chart"
-msgstr ""
+msgstr "Prestasjonsdiagram"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:249
 msgid "There are no race results for the given distances."
@@ -4661,7 +4667,7 @@ msgstr "Det er ikke noen løpsresultater for den gitte distansen."
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:273
 msgid "Results trend"
-msgstr ""
+msgstr "Resultatstrend"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:364
 msgid ""
@@ -4673,26 +4679,26 @@ msgstr ""
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:390
 msgid "Official distance & time"
-msgstr ""
+msgstr "Offisiell distanse og tid"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:391
 msgid "Activity details"
-msgstr ""
+msgstr "Aktivitetsdetaljer"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:392
 msgid "Placement"
-msgstr ""
+msgstr "Plassering"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:401
 msgid ""
 "Your result in proportion to the world best performance in your age/gender."
 msgstr ""
 "Resultatet ditt står i forhold til verdens beste prestasjon for din alder/"
-"kjønn"
+"kjønn."
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:405
 msgid "Overall"
-msgstr ""
+msgstr "Totalt"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:406
 msgid "AG"
