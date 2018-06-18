@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-18 06:52+0000\n"
+"PO-Revision-Date: 2018-06-18 06:58+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -1088,7 +1088,7 @@ msgid ""
 "if it was a race. "
 msgstr ""
 "Delavstander er vist med klokke-ikon med alle rundetider som verktøytips. De "
-"er kun vist hvsi det er selvlagede runder, f.eks. det er aktive og inaktive "
+"er kun vist hvis det er selvvalgte runder, f.eks. det er aktive og inaktive "
 "runder, eller det var et løp. "
 
 #: inc/core/Dataset/Keys/Elevation.php:44 inc/core/Activity/Elevation.php:58
@@ -1845,7 +1845,7 @@ msgstr "Beregne energi"
 
 #: inc/core/Configuration/Category/ActivityForm.php:194
 msgid "Recalculate energy after changing duration by hand"
-msgstr "Beregne på nytt energi etter endring av varighet gjort for hånd"
+msgstr "Beregne på nytt energi etter at du selv har endret av varighet"
 
 #: inc/core/Configuration/Category/ActivityForm.php:198
 msgid "Detect pauses"
@@ -2717,7 +2717,8 @@ msgstr "Tempomål"
 #: inc/core/View/Window/Laps/Form.php:129
 msgid ""
 "Calculate values for handmade splits although total distance does not match."
-msgstr "Beregne verdier for manuelle deler selv om totaldistanse ikke stemmer."
+msgstr ""
+"Beregne verdier for selvvalgte deler selv om totaldistanse ikke stemmer."
 
 #: inc/core/View/Window/Laps/Form.php:133
 msgid "The total distance of your handmade laps differs from the gps distance."
@@ -3458,7 +3459,7 @@ msgstr ""
 
 #: inc/training/view/class.ElevationInfo.php:123
 msgid "calculated value"
-msgstr ""
+msgstr "beregnet verdi"
 
 #: inc/training/view/class.ElevationInfo.php:123
 msgid ""
@@ -4020,7 +4021,7 @@ msgstr "Form for alle år"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/window.php:2
 msgid "Explanation: How are these experimental values calculated?"
-msgstr ""
+msgstr "Forklaring: Hvordan er disse eksperimentelle verdiene beregnet?"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:32
 msgid "Calculations"
@@ -4031,8 +4032,8 @@ msgid ""
 "Calculate experimental values as shape and fatigue based on TRIMP, marathon "
 "shape and your VO<sub>2</sub>max shape."
 msgstr ""
-"Kalkuler eksperimentelle verdier om form og utmattelse basert på TRIMP, "
-"maratonform og din VO<sub>2</sub>max-form."
+"Beregne eksperimentelle verdier om form og utmattelse basert på TRIMP, "
+"maratonform og din VO<sub>2</sub>maks-form."
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:47
 msgid "Show: ATL/CTL/TSB"
@@ -4076,7 +4077,7 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:80
 msgid "How are these values calculated?"
-msgstr ""
+msgstr "Hvordan er disse verdiene beregnet?"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:81
 msgid "Explanations: What are VO2max and TRIMP?"
@@ -4229,8 +4230,8 @@ msgid ""
 "The VO<sub>2</sub>max shape is calculated as the average, weighted by time, "
 "of estimated VO<sub>2</sub>max values of your activities in the last %s days."
 msgstr ""
-"VO<sub>2</sub>max-formen er kalkulert som et gjennomsnitt, vektet med tid, a "
-"estimert VO<sub>2</sub>max-verdier av dine aktiviteter siste %s dager."
+"VO<sub>2</sub>maks-formen er beregnet som et gjennomsnitt, vektet på tid, av "
+"estimert VO<sub>2</sub>maks-verdier av dine aktiviteter siste %s dager."
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:421
 #, php-format
@@ -4902,7 +4903,7 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:124
 msgid "Prognoses can't be calculated."
-msgstr ""
+msgstr "Prognose kan ikke bli beregnet."
 
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:128
 msgid "There are not enough results for good predictions."
@@ -5213,6 +5214,8 @@ msgid ""
 "Statistics have been recalculated for all <strong>%s</strong> pieces of "
 "equipment."
 msgstr ""
+"Statistikk har blitt beregnet på nytt for alle <strong>%s</strong> enheter "
+"av utstyr."
 
 #: src/CoreBundle/Component/Tool/DatabaseCleanup/JobGeneral.php:96
 msgid "VO<sub>2</sub>max corrector"
@@ -5229,7 +5232,7 @@ msgstr ""
 #: src/CoreBundle/Component/Tool/DatabaseCleanup/JobLoop.php:50
 #, php-format
 msgid "Elevations have been recalculated for %d routes."
-msgstr ""
+msgstr "Elevasjoner har blitt beregnet på nytt for %d rute(r)."
 
 #: src/CoreBundle/Component/Tool/DatabaseCleanup/JobLoop.php:82
 #, php-format
