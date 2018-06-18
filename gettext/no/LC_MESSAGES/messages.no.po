@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-18 05:20+0000\n"
+"PO-Revision-Date: 2018-06-18 05:33+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -1165,7 +1165,7 @@ msgstr ""
 #: inc/training/search/class.FormularSelectSearchSort.php:64
 #: inc/training/search/class.FormularSelectSearchSort.php:65
 msgid "Footstrike type"
-msgstr ""
+msgstr "Fotisett type"
 
 #: inc/core/Dataset/Keys/Wind.php:44 inc/core/View/Icon/WindIcon.php:66
 msgid "Wind"
@@ -2045,7 +2045,7 @@ msgstr "Hvilken skalering som vil bli brukt for å vise tempo på y-akse."
 
 #: inc/core/Configuration/Category/ActivityView.php:355
 msgid "Pace plot: Ignore outliers"
-msgstr "Tempoplott: Ignorer avvikende punkter"
+msgstr "Tempoplott: ignorer"
 
 #: inc/core/Configuration/Category/ActivityView.php:356
 msgid "Try to ignore outliers in the pace plot."
@@ -2580,7 +2580,7 @@ msgstr "Glidende gjennomsnitt"
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:17
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:74
 msgid "Footstrike"
-msgstr ""
+msgstr "Fotisett"
 
 #: inc/core/View/Activity/Plot/Series/Stroke.php:62
 #: inc/training/view/section/class.SectionSwimLaneRow.php:29
@@ -2773,55 +2773,55 @@ msgstr "%s til %s"
 
 #: inc/core/View/Leaflet/Map.php:139
 msgid "There was a problem trying to show the map."
-msgstr ""
+msgstr "Det oppsto et problem med å vise kartet."
 
 #: inc/core/View/RaceResult/Dataview.php:91
 #, php-format
 msgid "of %u overall"
-msgstr ""
+msgstr "av %u totalt"
 
 #: inc/core/View/RaceResult/Dataview.php:104
 #, php-format
 msgid "of %u in your age group"
-msgstr ""
+msgstr "av %u i din aldersgruppe"
 
 #: inc/core/View/RaceResult/Dataview.php:117
 #, php-format
 msgid "of %u men/women"
-msgstr ""
+msgstr "av %u menn/kvinner"
 
 #: inc/core/View/RaceResult/Dataview.php:174
 #, php-format
 msgid "(first %u%%)"
-msgstr ""
+msgstr "(første %u%%)"
 
 #: inc/core/Data/Cadence/Running.php:28
 msgid "Cadence (running)"
-msgstr ""
+msgstr "Tråkk (løping)"
 
 #: inc/core/Data/Cadence/Running.php:46
 msgid "spm = steps per minute"
-msgstr ""
+msgstr "spm = steg per minutt"
 
 #: inc/core/Data/Cadence/General.php:40
 msgid "rpm = rotations per minute"
-msgstr ""
+msgstr "rpm = rotasjoner per minutt"
 
 #: inc/core/Data/Stroketype.php:53 inc/core/Data/Stroketype.php:76
 msgid "Freestyle"
-msgstr ""
+msgstr "Fristil"
 
 #: inc/core/Data/Stroketype.php:55
 msgid "Backstroke"
-msgstr ""
+msgstr "Ryggsvømming"
 
 #: inc/core/Data/Stroketype.php:57
 msgid "Breaststroke"
-msgstr ""
+msgstr "Brystsvømming"
 
 #: inc/core/Data/Stroketype.php:59 inc/core/Data/Stroketype.php:82
 msgid "Butterfly"
-msgstr ""
+msgstr "Butterfly"
 
 #: inc/core/Data/Stroketype.php:61 inc/core/Data/Stroketype.php:84
 msgid "Drill"
@@ -4957,7 +4957,7 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:90
 msgid "Enter maximal HR"
-msgstr "Oppgi maksimal puls"
+msgstr "Oppgi maksimalpuls"
 
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:90
 msgid "Otherwise calculations will be wrong"
@@ -4965,7 +4965,7 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:103
 msgid "Maximal HR"
-msgstr "Maksimal puls"
+msgstr "Maksimalpuls"
 
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:147
 msgid "Other values"
