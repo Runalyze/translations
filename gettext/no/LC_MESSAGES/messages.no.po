@@ -2971,11 +2971,11 @@ msgstr "Ingen effekt"
 
 #: inc/core/Data/Weather/HeatIndexEffect.php:60
 msgid "Caution"
-msgstr "Forsiktig"
+msgstr "Forsiktighet"
 
 #: inc/core/Data/Weather/HeatIndexEffect.php:62
 msgid "Extreme caution"
-msgstr "Ekstrem forsiktig"
+msgstr "Ekstremt forsiktig"
 
 #: inc/core/Data/Weather/HeatIndexEffect.php:64
 msgid "Danger"
