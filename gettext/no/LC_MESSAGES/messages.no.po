@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-18 06:39+0000\n"
+"PO-Revision-Date: 2018-06-18 06:52+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -734,7 +734,7 @@ msgstr "Energi"
 msgid ""
 "Energy values are taken from your device or calculated by a simple formula."
 msgstr ""
-"Verdier for energi er hentet fra din enhet eller kalkulert med en enkel "
+"Verdier for energi er hentet fra din enhet eller beregnet med en enkel "
 "kalkulasjon."
 
 #: inc/core/Dataset/Keys/ElapsedTime.php:44
@@ -1107,7 +1107,7 @@ msgid ""
 "Calculated value for total elevation, i.e. maximum of total ascent or "
 "descent."
 msgstr ""
-"Kalkulert verdi for total elevasjon (maksimal oppstigning og nedstigning)."
+"Beregnet verdi for total elevasjon (maksimal oppstigning og nedstigning)."
 
 #: inc/core/Dataset/Keys/Cadence.php:44 inc/core/View/Window/Laps/Table.php:267
 #: inc/core/Data/Cadence/General.php:22
@@ -1623,7 +1623,7 @@ msgstr "Database oppfrisking"
 #: inc/core/Configuration/Messages.php:27
 #, php-format
 msgid "You can now use the %s to recalculate the concerning values."
-msgstr "Du kan nå bruke %s for å rekalkulere de gjeldende verdier."
+msgstr "Du kan nå bruke %s for å beregne på nytt de gjeldende verdier."
 
 #: inc/core/Configuration/Messages.php:34
 msgid "sports configuration"
@@ -1641,7 +1641,8 @@ msgstr "Du vil kanskje endre tempo-enhet i %s. De er ikke endret automatisk."
 msgid ""
 "%s has been recalculated. New value: <strong>%s</strong> (old value: %s)"
 msgstr ""
-"%s har blitt rekalkulert. Ny verdi: <strong>%s</strong> (gammel verdi: %s)"
+"%s har blitt beregnet på nytt. Ny verdi: <strong>%s</strong> (gammel verdi: "
+"%s)"
 
 #: inc/core/Configuration/Category/Design.php:57
 msgid "Design"
@@ -1840,11 +1841,11 @@ msgstr "Standardvindu"
 
 #: inc/core/Configuration/Category/ActivityForm.php:193
 msgid "Calculate energy"
-msgstr "Kalkuler energi"
+msgstr "Beregne energi"
 
 #: inc/core/Configuration/Category/ActivityForm.php:194
 msgid "Recalculate energy after changing duration by hand"
-msgstr "Rekalkuler energi etter endring av varighet gjort for hånd"
+msgstr "Beregne på nytt energi etter endring av varighet gjort for hånd"
 
 #: inc/core/Configuration/Category/ActivityForm.php:198
 msgid "Detect pauses"
@@ -3449,6 +3450,7 @@ msgstr ""
 #: inc/training/view/class.ElevationInfo.php:115
 msgid "If you did not insert a value by hand, this value has been calculated."
 msgstr ""
+"Hvis du ikke har satt inn en verdi selv, så har denne verdien blitt beregnet."
 
 #: inc/training/view/class.ElevationInfo.php:119
 msgid "Lowest point"
@@ -4491,7 +4493,7 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:428
 msgid "Note: Season means the current season in the german &quot;kmspiel&quot;"
-msgstr "Bemerk: Årstid betyr nåværende årstid i tyske &quot;kmspiel&quot;."
+msgstr "Bemerk: Årstid betyr nåværende årstid i tyske &quot;kmspiel&quot;"
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:429
 msgid "Year"
@@ -4749,7 +4751,7 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:93
 msgid "Your current effective VO2max:"
-msgstr ""
+msgstr "Ditt nåværende effektive VO[sub]2[/sub]maks:"
 
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:94
 msgid "Your current marathon shape:"
