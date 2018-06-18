@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-18 05:55+0000\n"
+"PO-Revision-Date: 2018-06-18 05:58+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -3267,7 +3267,7 @@ msgstr "Værforhold"
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:352
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:432
 msgid "Age standard"
-msgstr "Aldersstandard"
+msgstr "Aldersklasse"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:353
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:433
@@ -3278,44 +3278,45 @@ msgstr "Åpen klasse"
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:434
 #, php-format
 msgid "via tables by %s"
-msgstr ""
+msgstr "via tabell ved %s"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:361
 msgid "Race Result"
-msgstr ""
+msgstr "Løpsresultat"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:365
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:401
 msgid "Age grade"
-msgstr ""
+msgstr "Aldersgradering"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:366
 msgid "Place overall"
-msgstr ""
+msgstr "Plassering totalt"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:367
 msgid "Place age group"
-msgstr ""
+msgstr "Plassering aldersgruppe"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:368
 msgid "Place gender"
-msgstr ""
+msgstr "Plassering kjønn"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:377
 #: inc/training/search/class.SearchFormular.php:162
 msgid "Notes"
-msgstr ""
+msgstr "Notater"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:388
 #, php-format
 msgid "Source of weather data: %s"
-msgstr ""
+msgstr "Kilde for værdata: %s"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:404
 #, php-format
 msgid ""
 "You created this training on <strong>%s</strong> at <strong>%s</strong>."
 msgstr ""
+"Du har opprettet denne aktiviteten <strong>%s</strong> kl <strong>%s</strong>"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:411
 #, php-format
