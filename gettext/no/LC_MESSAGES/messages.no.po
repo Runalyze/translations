@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-02 14:20+0200\n"
-"PO-Revision-Date: 2018-06-18 14:06+0000\n"
+"PO-Revision-Date: 2018-06-18 14:11+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -3921,7 +3921,7 @@ msgstr "Ruter"
 
 #: plugin/RunalyzePluginStat_Strecken/class.RunalyzePluginStat_Strecken.php:46
 msgid "Some statistics for your most frequent routes."
-msgstr "Noe statistikk for de mest brukte rutene"
+msgstr "Noe statistikk for de mest brukte rutene."
 
 #: plugin/RunalyzePluginStat_Strecken/class.RunalyzePluginStat_Strecken.php:54
 msgid ""
@@ -3929,14 +3929,17 @@ msgid ""
 "'City A - City B'This way the plugin will be able to count how often you "
 "visit each city or place."
 msgstr ""
+"Tekstfeltet 'rute' forventer forskjellige plasser separert med '-', f.eks. "
+"'By A - By B'. På denne måten vil tillegget kunne summere hvor ofte du "
+"besøker hver by eller plass."
 
 #: plugin/RunalyzePluginStat_Strecken/class.RunalyzePluginStat_Strecken.php:64
 msgid "Show visited cities"
-msgstr ""
+msgstr "Vis besøkte steder"
 
 #: plugin/RunalyzePluginStat_Strecken/class.RunalyzePluginStat_Strecken.php:73
 msgid "Open route network"
-msgstr ""
+msgstr "Åpne rute-nettverk"
 
 #: plugin/RunalyzePluginStat_Strecken/class.RunalyzePluginStat_Strecken.php:100
 #: plugin/RunalyzePluginStat_Strecken/class.RunalyzePluginStat_Strecken.php:312
@@ -3947,44 +3950,44 @@ msgstr ""
 #: plugin/RunalyzePluginStat_Rekorde/class.RunalyzePluginStat_Rekorde.php:58
 #: plugin/RunalyzePluginStat_Statistiken/class.SummaryTableAllYears.php:22
 msgid "All years"
-msgstr ""
+msgstr "Alle år"
 
 #: plugin/RunalyzePluginStat_Strecken/class.RunalyzePluginStat_Strecken.php:130
 msgid "Most frequent routes"
-msgstr ""
+msgstr "Mest frekventerte ruter"
 
 #: plugin/RunalyzePluginStat_Strecken/class.RunalyzePluginStat_Strecken.php:166
 msgid "Most frequent places"
-msgstr ""
+msgstr "Mest frekventerte plasser"
 
 #: plugin/RunalyzePluginStat_Strecken/class.RunalyzePluginStat_Strecken.php:172
 msgid "There are no routes."
-msgstr ""
+msgstr "Det er ingen ruter."
 
 #: plugin/RunalyzePluginStat_Strecken/class.RunalyzePluginStat_Strecken.php:196
 msgid "Rare places"
-msgstr ""
+msgstr "Sjeldne plasser"
 
 #: plugin/RunalyzePluginStat_Strecken/class.RunalyzePluginStat_Strecken.php:223
 #, php-format
 msgid "You have visited %s different places."
-msgstr ""
+msgstr "Du har besøkt %s forskjellige plasser."
 
 #: plugin/RunalyzePluginStat_Strecken/class.RunalyzePluginStat_Strecken.php:229
 msgid "Everything seperated by a ' - ' is considered as an individual place."
-msgstr ""
+msgstr "Alt separert med en '-' er behandlet som en individuell plass."
 
 #: plugin/RunalyzePluginStat_Strecken/class.RunalyzePluginStat_Strecken.php:281
 msgid "Choose sport"
-msgstr ""
+msgstr "Velg sport"
 
 #: plugin/RunalyzePluginStat_Strecken/class.RunalyzePluginStat_Strecken.php:282
 msgid "Choose year"
-msgstr ""
+msgstr "Velg år"
 
 #: plugin/RunalyzePluginStat_Strecken/window.routenet.php:18
 msgid "Route network"
-msgstr ""
+msgstr "Rute-nettverk"
 
 #: plugin/RunalyzePluginStat_Strecken/window.routenet.php:87
 msgid "There are no routes matching the criterias."
