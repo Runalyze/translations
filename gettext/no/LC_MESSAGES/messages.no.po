@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-19 09:23+0200\n"
-"PO-Revision-Date: 2018-06-19 19:51+0000\n"
+"PO-Revision-Date: 2018-06-19 20:55+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -250,7 +250,7 @@ msgstr "Rekkefølge"
 
 #: inc/system/config/class.ConfigTabPlugins.php:84
 msgid "The plugin cannot be found."
-msgstr "Tillegget ble ikke funnet."
+msgstr "Fant ikke tillegget."
 
 #: inc/system/config/class.ConfigTabPlugins.php:93
 msgid "enabled"
@@ -462,7 +462,7 @@ msgstr "Datoen kan ikke være fremtidig."
 
 #: inc/html/formular/class.FormularValueParser.php:144
 msgid "You have to enter a time."
-msgstr "Du må fylle inn en tid."
+msgstr "Du må oppgi en tid."
 
 #: inc/core/Dataset/Keys/Setting.php:52
 msgid "Setting"
@@ -470,7 +470,7 @@ msgstr "Innstillinger"
 
 #: inc/core/Dataset/Keys/Setting.php:112 inc/core/Dataset/Keys/Setting.php:129
 msgid "Edit"
-msgstr "Editer"
+msgstr "Rediger"
 
 #: inc/core/Dataset/Keys/Setting.php:114
 #: inc/training/view/class.TrainingView.php:167
@@ -1084,7 +1084,7 @@ msgid ""
 "if it was a race. "
 msgstr ""
 "Delavstander er vist med klokke-ikon med alle rundetider som verktøytips. De "
-"er kun vist hvis det er selvvalgte runder, f.eks. det er aktive og inaktive "
+"er kun vist hvis det er selvvalgte runder, dvs. det er aktive og inaktive "
 "runder, eller det var et konkurranse. "
 
 #: inc/core/Dataset/Keys/Elevation.php:44 inc/core/Activity/Elevation.php:58
@@ -1103,7 +1103,7 @@ msgid ""
 "Calculated value for total elevation, i.e. maximum of total ascent or "
 "descent."
 msgstr ""
-"Beregnet verdi for total elevasjon (maksimal oppstigning og nedstigning)."
+"Beregnet verdi for total elevasjon, dvs. maksimal oppstigning og nedstigning."
 
 #: inc/core/Dataset/Keys/Cadence.php:44 inc/core/View/Window/Laps/Table.php:267
 #: inc/core/Data/Cadence/General.php:22
@@ -1650,7 +1650,7 @@ msgstr "Desember"
 
 #: inc/core/Configuration/Messages.php:26
 msgid "Database cleanup"
-msgstr "Database oppfrisking"
+msgstr "Database opprensning"
 
 #: inc/core/Configuration/Messages.php:27
 #, php-format
@@ -1834,7 +1834,7 @@ msgstr "Offentlig utøverside: aktiv"
 #: inc/core/Configuration/Category/Privacy.php:89
 msgid "If activated: Everyone can see a list of all your (public) activities."
 msgstr ""
-"Hvis aktiv: alle kan se en liste av alle dine (offentlige) aktiviteter."
+"Hvis aktivert: alle kan se en liste av alle dine (offentlige) aktiviteter."
 
 #: inc/core/Configuration/Category/Privacy.php:93
 msgid "Public athlete page: private workouts"
@@ -1845,8 +1845,8 @@ msgid ""
 "If activated: Display a summary for each private activity in the public "
 "activity list."
 msgstr ""
-"Hvis aktiv: Vis en oppsummering for hver privat aktivitet i den offentlige "
-"aktivitetslisten."
+"Hvis aktivert: Vis en oppsummering for hver privat aktivitet i den "
+"offentlige aktivitetslisten."
 
 #: inc/core/Configuration/Category/Privacy.php:98
 msgid "Public athlete page: general statistics"
@@ -2196,7 +2196,7 @@ msgstr "Beta-funksjon"
 
 #: inc/core/Configuration/Category/Import.php:77
 msgid "If activated you can send your activities to"
-msgstr "Hvis aktiv kan du sende dine aktiviteter til"
+msgstr "Hvis aktivert kan du sende dine aktiviteter til"
 
 #: inc/core/Configuration/Category/Import.php:81
 msgid "Password for activity mail import"
@@ -2679,7 +2679,7 @@ msgstr "Elevasjon opp/ned"
 
 #: inc/core/View/Activity/Box/MaximalHeartRateInPercent.php:64
 msgid "This value exceeds your entered maximal heart rate."
-msgstr "Verdien er høyere enn din angitte maksimale puls."
+msgstr "Verdien er høyere enn din oppgitte maksimale puls."
 
 #: inc/core/View/Activity/Box/MaximalHeartRateInPercent.php:65
 msgid "Please adjust your maximal heart rate."
@@ -3659,7 +3659,7 @@ msgstr "Finn beste delsegmenter"
 
 #: inc/training/view/class.TrainingView.php:158
 msgid "Edit race result"
-msgstr "Editer konkurranseresultat"
+msgstr "Rediger konkurranseresultat"
 
 #: inc/training/view/class.TrainingView.php:160
 msgid "Add race result"
@@ -3667,7 +3667,7 @@ msgstr "Legg til konkurranseresultat"
 
 #: inc/training/view/class.TrainingView.php:164
 msgid "Edit activity"
-msgstr "Editer aktivitet"
+msgstr "Rediger aktivitet"
 
 #: inc/training/search/class.FormularInputSearchTimeRange.php:34
 #: plugin/RunalyzePluginStat_Wetter/MinMaxTableForEquipment.php:119
@@ -3714,12 +3714,12 @@ msgstr "Sortering"
 
 #: inc/training/search/class.SearchFormular.php:108
 msgid "Send to multi editor"
-msgstr "Send til multi-editor"
+msgstr "Send til multi-redigering"
 
 #: inc/training/search/class.SearchFormular.php:109
 #, php-format
 msgid "Our multi editor is limited to a maximum of %d activities."
-msgstr "Multi-editoren er begrenset til maksimum %d aktiviteter."
+msgstr "Multi-redigering er begrenset til maksimum %d aktiviteter."
 
 #: inc/training/search/class.SearchFormular.php:122
 msgid "Results per page"
@@ -3873,7 +3873,7 @@ msgstr "Utstyrstype for å vise"
 
 #: plugin/RunalyzePluginPanel_Equipment/class.RunalyzePluginPanel_Equipment.php:85
 msgid "Add/Edit equipment"
-msgstr "Legg til/Editer utstyr"
+msgstr "Legg til/Rediger utstyr"
 
 #: plugin/RunalyzePluginPanel_Equipment/class.RunalyzePluginPanel_Equipment.php:86
 msgid "Show all equipment"
@@ -3938,7 +3938,7 @@ msgstr "Temperatur"
 #: plugin/RunalyzePluginStat_Wetter/MinMaxTableForEquipment.php:128
 #: plugin/RunalyzePluginStat_Wetter/MonthwiseTable.php:148
 msgid "No data found."
-msgstr "Ingen data funnet."
+msgstr "Fant ingen data."
 
 #: plugin/RunalyzePluginStat_Wetter/class.RunalyzePluginStat_Wetter.php:38
 msgid "Statistics about weather conditions and temperatures."
@@ -4643,7 +4643,7 @@ msgstr "Dine bratteste aktiviteter og en oversikt over din samlede elevasjon."
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:62
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:136
 msgid "No routes found."
-msgstr "Ingen løyper funnet."
+msgstr "Fant ingen løyper."
 
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:91
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:99
@@ -4682,7 +4682,7 @@ msgstr "Vennligst velg en merkelapp."
 
 #: plugin/RunalyzePluginStat_Tag/class.RunalyzePluginStat_Tag.php:129
 msgid "No activities found."
-msgstr "Ingen aktiviteter funnet."
+msgstr "Fant ingen aktiviteter."
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:52
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:104
@@ -4821,11 +4821,11 @@ msgstr "Værstatistikk"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:514
 msgid "Edit the activity"
-msgstr "Editer aktiviteten"
+msgstr "Rediger aktiviteten"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:528
 msgid "Edit the race result details"
-msgstr "Editer detaljer for konkurranseresultater"
+msgstr "Rediger detaljer for konkurranseresultater"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:544
 msgid "Fun race | Click to mark this activity as a 'normal race'."
@@ -5090,7 +5090,7 @@ msgstr "<small>eller</small> fast antall dag(er)"
 
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:53
 msgid "Enter a value &ge; 0 to show a fixed time range."
-msgstr "Anngi en verdi &ge; 0 for å vise et fast tidsintervall."
+msgstr "Oppgi en verdi &ge; 0 for å vise et fast tidsintervall."
 
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:64
 msgid "Add data"
@@ -5310,7 +5310,7 @@ msgstr "Søk etter aktiviteter"
 
 #: src/CoreBundle/Controller/AbstractPluginsAwareController.php:61
 msgid "The plugin could not be found."
-msgstr "Tillegget ble ikke bli funnet."
+msgstr "Fant ikke tillegget."
 
 #: src/CoreBundle/Controller/PluginController.php:29
 msgid "Install"
