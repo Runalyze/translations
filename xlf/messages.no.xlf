@@ -28,7 +28,7 @@
             </source>
         <target xml:space="preserve" state="translated">            Verdiene er visualisert med såkalte 'boksplott'.
             De gir et inntrykk av hvordan verdiene i en gruppe er distribuert.
-            De midterste 50% av alle verdier er i boksen, og  de såkalte værhårene har en lengde av høyst 1.5x variasjonsbredden i kvartiler (dvs boksens vidde).
+            De midterste 50% av alle verdier er i boksen, og de såkalte værhårene har en lengde av høyst 1.5x variasjonsbredden i kvartiler (dvs boksens vidde).
             Datapunkter utenfor dette intervallet er kalt avvikende verdier.
             </target>
         <jms:reference-file line="118">/Resources/views/tools/anova/base.html.twig</jms:reference-file>
@@ -70,22 +70,22 @@
       <trans-unit id="c1bd827cbbe08d6aedc4006f2e4cace1a7ca4716" resname="&lt;strong&gt;%VO2max%/Time:&lt;/strong&gt; by standard formulas.&lt;br&gt;&#10;                The time is what you could have reached at your maximal possible heart rate over this distance." approved="no">
         <source><![CDATA[<strong>%VO2max%/Time:</strong> by standard formulas.<br>
                 The time is what you could have reached at your maximal possible heart rate over this distance.]]></source>
-        <target state="translated">&lt;strong&gt;%VO2max%/Tid:&lt;/strong&gt; ved standardformler.&lt;br&gt; The time is what you could have reached at your maximal possible heart rate over this distance.</target>
+        <target state="translated">&lt;strong&gt;%VO2max%/Tid:&lt;/strong&gt; ved standardformler.&lt;br&gt; Tiden er hva du kunne ha oppnådd ved din maksimalt oppnåelige puls over denne distansen.</target>
         <jms:reference-file line="73">/Resources/views/tools/vo2max_analysis.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="c3826737dc25060fdaa3124549263f401340ce15" resname="&lt;strong&gt;Corrector:&lt;/strong&gt; Ratio between %VO2max% and %VO2max% (by HR)">
+      <trans-unit id="c3826737dc25060fdaa3124549263f401340ce15" resname="&lt;strong&gt;Corrector:&lt;/strong&gt; Ratio between %VO2max% and %VO2max% (by HR)" approved="no">
         <source><![CDATA[<strong>Corrector:</strong> Ratio between %VO2max% and %VO2max% (by HR)]]></source>
-        <target state="new"><![CDATA[<strong>Corrector:</strong> Ratio between %VO2max% and %VO2max% (by HR)]]></target>
+        <target state="translated">&lt;strong&gt;Korreksjon:&lt;/strong&gt; Forhold mellom %VO2max% og %VO2max% (ved puls)</target>
         <jms:reference-file line="88">/Resources/views/tools/vo2max_analysis.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="45f74e5e127b292ad68a799afab18b283b219865" resname="A confirmation has been sent via mail.">
+      <trans-unit id="45f74e5e127b292ad68a799afab18b283b219865" resname="A confirmation has been sent via mail." approved="no">
         <source>A confirmation has been sent via mail.</source>
-        <target state="new">A confirmation has been sent via mail.</target>
+        <target state="translated">En bekreftelse har blitt sendt via e-post.</target>
         <jms:reference-file line="9">/Resources/views/settings/account-delete.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="81f0c595d53b607bbd725cdc69cbe1ea2998d201" resname="A link for changing your password will be sent via email.">
+      <trans-unit id="81f0c595d53b607bbd725cdc69cbe1ea2998d201" resname="A link for changing your password will be sent via email." approved="no">
         <source>A link for changing your password will be sent via email.</source>
-        <target state="new">A link for changing your password will be sent via email.</target>
+        <target state="translated">En link for å endre passordet ditt vil bli sendt via e-post.</target>
         <jms:reference-file line="9">/Resources/views/account/recover/form_send_mail.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="98ef99583e33f19cd030340de9c2a3bb45420b9b" resname="ANOVA">
@@ -95,37 +95,37 @@
         <jms:reference-file line="5">/Resources/views/tools/anova/base.html.twig</jms:reference-file>
         <jms:reference-file line="17">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="cd437865cbac7655f8b86519aea764f378093804" resname="Abbreviation">
+      <trans-unit id="cd437865cbac7655f8b86519aea764f378093804" resname="Abbreviation" approved="no">
         <source>Abbreviation</source>
-        <target state="new">Abbreviation</target>
+        <target state="translated">Forkortelser</target>
         <jms:reference-file line="55">/../src/CoreBundle/Form/Settings/SportTypeType.php</jms:reference-file>
         <jms:reference-file line="133">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="33920c39a699f923804df9f59fc970a24817e018" resname="Accept our terms of use">
+      <trans-unit id="33920c39a699f923804df9f59fc970a24817e018" resname="Accept our terms of use" approved="no">
         <source>Accept our terms of use</source>
-        <target state="new">Accept our terms of use</target>
+        <target state="translated">Aksepter våre betingelser for bruk</target>
         <jms:reference-file line="39">/../src/CoreBundle/Form/RegistrationType.php</jms:reference-file>
         <jms:reference-file line="38">/Resources/views/register/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="64343a83ad8c0b8e2789c32ca5ab1eb6abb614e0" resname="Access denied">
+      <trans-unit id="64343a83ad8c0b8e2789c32ca5ab1eb6abb614e0" resname="Access denied" approved="no">
         <source>Access denied</source>
-        <target state="new">Access denied</target>
+        <target state="translated">Tilgang nektet</target>
         <jms:reference-file line="4">/Resources/TwigBundle/views/Exception/error403.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="82cf8a5fc7ac9479f022ea7797d2fc24455ab4ee" resname="Account settings">
+      <trans-unit id="82cf8a5fc7ac9479f022ea7797d2fc24455ab4ee" resname="Account settings" approved="no">
         <source>Account settings</source>
-        <target state="new">Account settings</target>
+        <target state="translated">Kontoinnstillinger</target>
         <jms:reference-file line="30">/Resources/views/base_logged_in.twig</jms:reference-file>
         <jms:reference-file line="5">/Resources/views/settings/account.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="b9186563deea94527f03558a5ec059806d363c49" resname="Activate account">
+      <trans-unit id="b9186563deea94527f03558a5ec059806d363c49" resname="Activate account" approved="no">
         <source>Activate account</source>
-        <target state="new">Activate account</target>
+        <target state="translated">Aktiver konto</target>
         <jms:reference-file line="5">/Resources/views/account/activate/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="814e3cbcf257d96e1c824e81bba77abf21f66a7e" resname="Activate your RUNALYZE account">
+      <trans-unit id="814e3cbcf257d96e1c824e81bba77abf21f66a7e" resname="Activate your RUNALYZE account" approved="no">
         <source>Activate your RUNALYZE account</source>
-        <target state="new">Activate your RUNALYZE account</target>
+        <target state="translated">Aktiver din RUNALYZE konto</target>
         <jms:reference-file line="4">/Resources/views/mail/account/registration.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="a733b809d2f1233496ab516eed0f3ef75cf3791a" resname="Active">
@@ -133,29 +133,29 @@
         <target state="new">Active</target>
         <jms:reference-file line="29">/../src/CoreBundle/Form/Type/ActivityRoundType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e58f7f889902c81b8879128fede278022f0e459c" resname="Activities">
+      <trans-unit id="e58f7f889902c81b8879128fede278022f0e459c" resname="Activities" approved="no">
         <source>Activities</source>
-        <target state="new">Activities</target>
+        <target state="translated">Aktiviteter</target>
         <jms:reference-file line="31">/Resources/views/settings/privacy.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="abdd4c6c9e0b1e7bcf0968a5cac7f0ee87a24dc2" resname="Activities with known influences or strange results can be ignored for the calculation of your shape.">
+      <trans-unit id="abdd4c6c9e0b1e7bcf0968a5cac7f0ee87a24dc2" resname="Activities with known influences or strange results can be ignored for the calculation of your shape." approved="no">
         <source>Activities with known influences or strange results can be ignored for the calculation of your shape.</source>
-        <target state="new">Activities with known influences or strange results can be ignored for the calculation of your shape.</target>
+        <target state="translated">Aktiviteter med kjente påvirkninger eller underlige resultater kan ignoreres for beregning av din form.</target>
         <jms:reference-file line="38">/Resources/views/static/help_calculations.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="81c0d915fa6d82fd30661c5e66e204cea52bb2b5" resname="Activity">
+      <trans-unit id="81c0d915fa6d82fd30661c5e66e204cea52bb2b5" resname="Activity" approved="no">
         <source>Activity</source>
-        <target state="new">Activity</target>
+        <target state="translated">Aktivitet</target>
         <jms:reference-file line="100">/../src/CoreBundle/Form/Tools/PosterType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e190939aca2d78cce1aefb21b985fb0779710890" resname="Activity data of %username%">
+      <trans-unit id="e190939aca2d78cce1aefb21b985fb0779710890" resname="Activity data of %username%" approved="no">
         <source>Activity data of %username%</source>
-        <target state="new">Activity data of %username%</target>
+        <target state="translated">Aktivitetsdata av %username%</target>
         <jms:reference-file line="28">/Resources/views/shared/athlete/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="93f2f817e4c7009b3bde2ec460986daee824dd14" resname="Activity import">
+      <trans-unit id="93f2f817e4c7009b3bde2ec460986daee824dd14" resname="Activity import" approved="no">
         <source>Activity import</source>
-        <target state="new">Activity import</target>
+        <target state="translated">Aktivitetsimport</target>
         <jms:reference-file line="61">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="3fb238fda9d2502fdd01dd6296d770116142dfa1" resname="Activity tags">
