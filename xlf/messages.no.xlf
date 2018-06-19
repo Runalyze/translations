@@ -321,29 +321,29 @@
       </trans-unit>
       <trans-unit id="62c7fcf46e2780a0ee480a6514b7a8e0687f0c27" resname="Analysis" approved="no">
         <source>Analysis</source>
-        <target state="translated">Analyse</target>
+        <target state="translated">Analyser</target>
         <jms:reference-file line="30">/Resources/views/my/body-values/form.html.twig</jms:reference-file>
         <jms:reference-file line="5">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="61a41ab4461c559b153bc055f090f4e94884d78b" resname="Analyze time series">
+      <trans-unit id="61a41ab4461c559b153bc055f090f4e94884d78b" resname="Analyze time series" approved="no">
         <source>Analyze time series</source>
-        <target state="new">Analyze time series</target>
+        <target state="translated">Analyser tidsintervall</target>
         <jms:reference-file line="79">/Resources/views/activity/tool/time_series_statistics.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="b83a84556418ed5b57b002bcc71be400361866ca" resname="Analyze your %VO2max%">
+      <trans-unit id="b83a84556418ed5b57b002bcc71be400361866ca" resname="Analyze your %VO2max%" approved="no">
         <source>Analyze your %VO2max%</source>
-        <target state="new">Analyze your %VO2max%</target>
+        <target state="translated">Analyser ditt %VO2max%</target>
         <jms:reference-file line="25">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
         <jms:reference-file line="11">/Resources/views/tools/vo2max_analysis.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="ca51e9c4e9e34c9d4ec40622bcc581131062ddf9" resname="Analyze your VO2max">
+      <trans-unit id="ca51e9c4e9e34c9d4ec40622bcc581131062ddf9" resname="Analyze your VO2max" approved="no">
         <source>Analyze your VO2max</source>
-        <target state="new">Analyze your VO2max</target>
+        <target state="translated">Analyser ditt VO2max</target>
         <jms:reference-file line="86">/Resources/views/base_logged_in.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="d9a36850b7f3f78365a998cb16cb68b6fd79400d" resname="Apps">
+      <trans-unit id="d9a36850b7f3f78365a998cb16cb68b6fd79400d" resname="Apps" approved="no">
         <source>Apps</source>
-        <target state="new">Apps</target>
+        <target state="translated">Applikasjoner</target>
         <jms:reference-file line="32">/Resources/views/base_logged_in.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="befde54a108cb9dc6ad6e0ebd28720531a6855e6" resname="Apr">
@@ -351,19 +351,19 @@
         <target state="new">Apr</target>
         <jms:reference-file line="45">/Resources/views/_macro/utilities.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7e6f17ea3d8fa23ec267a3aab7aa18ad83b19435" resname="Assigned activity types">
+      <trans-unit id="7e6f17ea3d8fa23ec267a3aab7aa18ad83b19435" resname="Assigned activity types" approved="no">
         <source>Assigned activity types</source>
-        <target state="new">Assigned activity types</target>
+        <target state="translated">Tilordnede aktivitetstyper</target>
         <jms:reference-file line="119">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="b454b1a24a5f63e0cb7ddf910886d6d0aadfc17b" resname="Assigned equipment">
+      <trans-unit id="b454b1a24a5f63e0cb7ddf910886d6d0aadfc17b" resname="Assigned equipment" approved="no">
         <source>Assigned equipment</source>
-        <target state="new">Assigned equipment</target>
+        <target state="translated">Tilordne utstyr</target>
         <jms:reference-file line="59">/Resources/views/my/equipment/form-category.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="158279e5f4f742d42ce90dec41a6de028a67cdeb" resname="Assigned sports">
+      <trans-unit id="158279e5f4f742d42ce90dec41a6de028a67cdeb" resname="Assigned sports" approved="no">
         <source>Assigned sports</source>
-        <target state="new">Assigned sports</target>
+        <target state="translated">Tilordne sport</target>
         <jms:reference-file line="87">/../src/CoreBundle/Form/EquipmentCategoryType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="c78087290c26b8b54be804eea69ffcebc832a086" resname="Assigned tags">
@@ -371,25 +371,25 @@
         <target state="new">Assigned tags</target>
         <jms:reference-file line="229">/../src/CoreBundle/Form/ActivityType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="52b2fb69daaad46e95828e2ebecbdfb4c7dd240c" resname="At irregular intervals we are sending mails to you. We will never send you spam or advertisement.">
+      <trans-unit id="52b2fb69daaad46e95828e2ebecbdfb4c7dd240c" resname="At irregular intervals we are sending mails to you. We will never send you spam or advertisement." approved="no">
         <source>At irregular intervals we are sending mails to you. We will never send you spam or advertisement.</source>
-        <target state="new">At irregular intervals we are sending mails to you. We will never send you spam or advertisement.</target>
+        <target state="translated">Av og til sender vi e-post til deg. Vi sender deg aldri spam eller reklame.</target>
         <jms:reference-file line="27">/Resources/views/settings/account.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="aa86fd23dda2ff72cf271b8ed6316b2a2572db9b" resname="Athlete">
+      <trans-unit id="aa86fd23dda2ff72cf271b8ed6316b2a2572db9b" resname="Athlete" approved="no">
         <source>Athlete</source>
-        <target state="new">Athlete</target>
+        <target state="translated">Utøver</target>
         <jms:reference-file line="4">/Resources/views/shared/athlete/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="51314b69353c683fbd8fca5e345b2128aca7123c" resname="Athlete page of %username%">
+      <trans-unit id="51314b69353c683fbd8fca5e345b2128aca7123c" resname="Athlete page of %username%" approved="no">
         <source>Athlete page of %username%</source>
-        <target state="new">Athlete page of %username%</target>
+        <target state="translated">Utøverside av %username%</target>
         <jms:reference-file line="18">/Resources/views/shared/base.html.twig</jms:reference-file>
         <jms:reference-file line="24">/Resources/views/shared/widget/iframe/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6107d1b8d1b19ea71744966a33fd406df287e874" resname="Attention: This operation cannot be undone.">
+      <trans-unit id="6107d1b8d1b19ea71744966a33fd406df287e874" resname="Attention: This operation cannot be undone." approved="no">
         <source>Attention: This operation cannot be undone.</source>
-        <target state="new">Attention: This operation cannot be undone.</target>
+        <target state="translated">Bemerk: Denne operasjonen kan ikke omgjøres.</target>
         <jms:reference-file line="207">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="75629af51d7c7f120dbb5b462013bfa48af33285" resname="Aug">
@@ -397,14 +397,14 @@
         <target state="new">Aug</target>
         <jms:reference-file line="49">/Resources/views/_macro/utilities.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="1fb59f64f769747f2aed3d8adf523e4d6debc1ef" resname="Authorize application">
+      <trans-unit id="1fb59f64f769747f2aed3d8adf523e4d6debc1ef" resname="Authorize application" approved="no">
         <source>Authorize application</source>
-        <target state="new">Authorize application</target>
+        <target state="translated">Autoriser applikasjon</target>
         <jms:reference-file line="10">/Resources/FOSOAuthServerBundle/views/Authorize/authorize_content.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="060ca2eab30f61d1b721f30690e877987ef6781b" resname="Automatic Sync">
+      <trans-unit id="060ca2eab30f61d1b721f30690e877987ef6781b" resname="Automatic Sync" approved="no">
         <source>Automatic Sync</source>
-        <target state="new">Automatic Sync</target>
+        <target state="translated">Automatisk synkronisering</target>
         <jms:reference-file line="8">/Resources/views/activity/form.html.twig</jms:reference-file>
         <jms:reference-file line="7">/Resources/views/activity/import_garmin_communicator.html.twig</jms:reference-file>
         <jms:reference-file line="14">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
@@ -412,69 +412,69 @@
         <jms:reference-file line="7">/Resources/views/activity/import_upload.html.twig</jms:reference-file>
         <jms:reference-file line="8">/Resources/views/activity/multi_importer.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="f8f5117038c185bf68b0bd33b349f9405e133955" resname="Available exports">
+      <trans-unit id="f8f5117038c185bf68b0bd33b349f9405e133955" resname="Available exports" approved="no">
         <source>Available exports</source>
-        <target state="new">Available exports</target>
+        <target state="translated">Tilgjengelige eksporter</target>
         <jms:reference-file line="52">/Resources/views/tools/backup/export.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="15f86c051ecf0b64e5f8cdc8c689552f42595942" resname="Average">
+      <trans-unit id="15f86c051ecf0b64e5f8cdc8c689552f42595942" resname="Average" approved="no">
         <source>Average</source>
-        <target state="new">Average</target>
+        <target state="translated">Gjennomsnitt</target>
         <jms:reference-file line="224">/Resources/views/tools/trend-analysis/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="58e201b40653c645d927308a87a9cd3c619ec168" resname="Average energy turnover in kilocalories per hour">
+      <trans-unit id="58e201b40653c645d927308a87a9cd3c619ec168" resname="Average energy turnover in kilocalories per hour" approved="no">
         <source>Average energy turnover in kilocalories per hour</source>
-        <target state="new">Average energy turnover in kilocalories per hour</target>
+        <target state="translated">Gjennomsnittlig energiforbruk i kilokalorier per time</target>
         <jms:reference-file line="70">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="be2d8ef406c4520bfc582a85493d1a240d8939a7" resname="Average heart rate (used for calculation of TRIMP)">
+      <trans-unit id="be2d8ef406c4520bfc582a85493d1a240d8939a7" resname="Average heart rate (used for calculation of TRIMP)" approved="no">
         <source>Average heart rate (used for calculation of TRIMP)</source>
-        <target state="new">Average heart rate (used for calculation of TRIMP)</target>
+        <target state="translated">Gjennomsnittlig puls (brukt for beregning av TRIMP)</target>
         <jms:reference-file line="22">/Resources/views/settings/sport/form-type.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="f5ddda878100628b602c3fc855a3774b4f3c5bc8" resname="Average heart rate will be used as fallback for calculations like TRIMP if no heart rate data is available.">
+      <trans-unit id="f5ddda878100628b602c3fc855a3774b4f3c5bc8" resname="Average heart rate will be used as fallback for calculations like TRIMP if no heart rate data is available." approved="no">
         <source>Average heart rate will be used as fallback for calculations like TRIMP if no heart rate data is available.</source>
-        <target state="new">Average heart rate will be used as fallback for calculations like TRIMP if no heart rate data is available.</target>
+        <target state="translated">Gjennomsnittlig puls vil bli brukt som standard for beregning lik TRIMP hvis ikke pulsdata er tilgjengelig.</target>
         <jms:reference-file line="83">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="64dd60fe1a049fe6db3eb1369dec2e42bf428e21" resname="Background">
+      <trans-unit id="64dd60fe1a049fe6db3eb1369dec2e42bf428e21" resname="Background" approved="no">
         <source>Background</source>
-        <target state="new">Background</target>
+        <target state="translated">Bakgrunn</target>
         <jms:reference-file line="96">/../src/CoreBundle/Form/Tools/PosterType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="8ccdd411a4e10ff9400a171b54c3ffe617fc249e" resname="Backup in easy readable format">
+      <trans-unit id="8ccdd411a4e10ff9400a171b54c3ffe617fc249e" resname="Backup in easy readable format" approved="no">
         <source>Backup in easy readable format</source>
-        <target state="new">Backup in easy readable format</target>
+        <target state="translated">Sikkerhetskopi i enkelt lesbart format</target>
         <jms:reference-file line="28">/Resources/views/tools/backup/export.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="9f6b23eaf9e83d0ccc263846d533d8bb81c13386" resname="Backup of the complete database in MySQL format">
+      <trans-unit id="9f6b23eaf9e83d0ccc263846d533d8bb81c13386" resname="Backup of the complete database in MySQL format" approved="no">
         <source>Backup of the complete database in MySQL format</source>
-        <target state="new">Backup of the complete database in MySQL format</target>
+        <target state="translated">Sikkerhetskopi av komplette databasen i MySQL-format</target>
         <jms:reference-file line="34">/Resources/views/tools/backup/export.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="51b7a940a499a28bd39293a1fdd7dfebfe9a8662" resname="Backup your data">
+      <trans-unit id="51b7a940a499a28bd39293a1fdd7dfebfe9a8662" resname="Backup your data" approved="no">
         <source>Backup your data</source>
-        <target state="new">Backup your data</target>
+        <target state="translated">Sikkerhetskopi av dine data</target>
         <jms:reference-file line="41">/Resources/views/settings/account.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="834c7efb60e21c624d7464be4ce00f78afcc0b36" resname="Based on your data RUNALYZE can generate some posters for you. Poster generations are performed in the background.">
+      <trans-unit id="834c7efb60e21c624d7464be4ce00f78afcc0b36" resname="Based on your data RUNALYZE can generate some posters for you. Poster generations are performed in the background." approved="no">
         <source>Based on your data RUNALYZE can generate some posters for you. Poster generations are performed in the background.</source>
-        <target state="new">Based on your data RUNALYZE can generate some posters for you. Poster generations are performed in the background.</target>
+        <target state="translated">Basert på dine data kan RUNALYZE generere noen plakater for deg. Plakatgenerasjoner utføres i bakgrunnen.</target>
         <jms:reference-file line="17">/Resources/views/tools/poster.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="862275ec7d01de0bc9d6f4497a83808767de2e2f" resname="Because of a lot of influencing factors these computations are not always accurate.">
+      <trans-unit id="862275ec7d01de0bc9d6f4497a83808767de2e2f" resname="Because of a lot of influencing factors these computations are not always accurate." approved="no">
         <source>Because of a lot of influencing factors these computations are not always accurate.</source>
-        <target state="new">Because of a lot of influencing factors these computations are not always accurate.</target>
+        <target state="translated">På grunn av mange faktorer som påvirker er disse beregningene ikke alltid nøyaktige.</target>
         <jms:reference-file line="45">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e3810cd5e365e9888d60575380be5af98c0c26e2" resname="Best segment">
+      <trans-unit id="e3810cd5e365e9888d60575380be5af98c0c26e2" resname="Best segment" approved="no">
         <source>Best segment</source>
-        <target state="new">Best segment</target>
+        <target state="translated">Beste segment</target>
         <jms:reference-file line="44">/Resources/views/activity/tool/best_sub_segments.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="eceada21b4aa931d7acd2ca310013e8c00091c2f" resname="Best sub segments">
+      <trans-unit id="eceada21b4aa931d7acd2ca310013e8c00091c2f" resname="Best sub segments" approved="no">
         <source>Best sub segments</source>
-        <target state="new">Best sub segments</target>
+        <target state="translated">Best delsegmenter</target>
         <jms:reference-file line="28">/Resources/views/activity/tool/best_sub_segments.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="b406fb57b29fc76f71864fbb37f0238045f84d9d" resname="Black">
