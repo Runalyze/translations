@@ -1672,7 +1672,7 @@
       </trans-unit>
       <trans-unit id="68d71b3c12159ba11a1a8b433401182bfd1b8a15" resname="Index to categorize climbs by Dutch cycling magazine fiets." approved="no">
         <source>Index to categorize climbs by Dutch cycling magazine fiets.</source>
-        <target state="translated">Indek</target>
+        <target state="translated">Indeks for å kategorisere klatrer av nederlandske sykkelmagasinbåter.</target>
         <jms:reference-file line="77">/Resources/views/activity/tool/climb_score.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="42401823774f2c1301a6addca86bbc3987435e54" resname="Indicates the order of appearance.">
