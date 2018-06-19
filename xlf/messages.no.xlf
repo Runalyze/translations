@@ -687,25 +687,25 @@
         <target state="translated">Farger</target>
         <jms:reference-file line="32">/Resources/views/tools/poster.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="17e8fb3f317a6987d13968d3f96dee0e579e861a" resname="Compare with age standards">
+      <trans-unit id="17e8fb3f317a6987d13968d3f96dee0e579e861a" resname="Compare with age standards" approved="no">
         <source>Compare with age standards</source>
-        <target state="new">Compare with age standards</target>
+        <target state="translated">Sammenlig med aldersnormaler.</target>
         <jms:reference-file line="19">/Resources/views/my/raceresult/performance_chart.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="8a128d3e497cf86515b3c769349812a4b7a165f9" resname="Compare your activity's values grouped by common values (e.g. sport or activity type) for a given period.">
+      <trans-unit id="8a128d3e497cf86515b3c769349812a4b7a165f9" resname="Compare your activity's values grouped by common values (e.g. sport or activity type) for a given period." approved="no">
         <source>Compare your activity's values grouped by common values (e.g. sport or activity type) for a given period.</source>
-        <target state="new">Compare your activity's values grouped by common values (e.g. sport or activity type) for a given period.</target>
+        <target state="translated">Sammenlign dine aktivitetsverdier gruppert på felles verdier (f.eks. sport eller aktivitetstype) for et gitt tidsintervall.</target>
         <jms:reference-file line="19">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="a9ac975028d335208a56c225a3d68d93dd2fb139" resname="Competition details">
+      <trans-unit id="a9ac975028d335208a56c225a3d68d93dd2fb139" resname="Competition details" approved="no">
         <source>Competition details</source>
-        <target state="new">Competition details</target>
+        <target state="translated">Konkurransedetaljer</target>
         <jms:reference-file line="5">/Resources/views/my/raceresult/deleted.html.twig</jms:reference-file>
         <jms:reference-file line="5">/Resources/views/my/raceresult/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="192252d0921a99689b2fbb72f4651a856f47b393" resname="Complete the process by accessing the following link and confirming the deletion">
+      <trans-unit id="192252d0921a99689b2fbb72f4651a856f47b393" resname="Complete the process by accessing the following link and confirming the deletion" approved="no">
         <source>Complete the process by accessing the following link and confirming the deletion</source>
-        <target state="new">Complete the process by accessing the following link and confirming the deletion</target>
+        <target state="translated">Fullfør prosessen med å gå inn på følgende link og bekrefte</target>
         <jms:reference-file line="12">/Resources/views/mail/account/deleteAccountRequest.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="754164850f38c1ecdaf6b8ed894cb192bc36c5f4" resname="Configuration">
@@ -1415,7 +1415,7 @@
       </trans-unit>
       <trans-unit id="9dc653a63bd3443bcbf33f596ed76029db2ad206" resname="Generate posters" approved="no">
         <source>Generate posters</source>
-        <target state="translated">Generer plakater</target>
+        <target state="translated">Lag plakater</target>
         <jms:reference-file line="42">/Resources/views/tools/poster.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="24f7e09689c4e137c535fea569d21ff8bb25d55c" resname="Gimmick">
@@ -2222,9 +2222,9 @@
         <target state="new">Please activate your account by clicking the link below.</target>
         <jms:reference-file line="18">/Resources/views/mail/account/registration.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e777e3e689077418e38de93de76ccbbac843d5e4" resname="Please download the posters within %days% days.">
+      <trans-unit id="e777e3e689077418e38de93de76ccbbac843d5e4" resname="Please download the posters within %days% days." approved="no">
         <source>Please download the posters within %days% days.</source>
-        <target state="new">Please download the posters within %days% days.</target>
+        <target state="translated">Vennligst last ned plakatene innen %days% dager.</target>
         <jms:reference-file line="67">/Resources/views/tools/poster.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="e65e837deba61f8940be95a71267e2779833f440" resname="Please let us know if you have wishes or have encountered bugs.">
