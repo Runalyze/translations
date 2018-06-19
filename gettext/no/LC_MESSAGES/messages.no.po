@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-19 09:23+0200\n"
-"PO-Revision-Date: 2018-06-19 11:53+0000\n"
+"PO-Revision-Date: 2018-06-19 19:51+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -136,7 +136,7 @@ msgstr "Verktøy"
 
 #: dashboard.php:125
 msgid "Trend analysis"
-msgstr "Trendanalyse"
+msgstr "Utviklingsanalyse"
 
 #: dashboard.php:126
 msgid "ANOVA"
@@ -962,8 +962,9 @@ msgid ""
 "if the value is (much) higher than your current shape, equal to it or (much) "
 "lower:"
 msgstr ""
-"Hver VO<sub>2</sub>max-verdi av en aktivitet er markert med en pil som viser "
-"om verdien er (mye) høyere enn din nåværende form, lik eller (mye) lavere:"
+"Hver VO<sub>2</sub>maks-verdi av en aktivitet er markert med en pil som "
+"viser om verdien er (mye) høyere enn din nåværende form, lik eller (mye) "
+"lavere:"
 
 #: inc/core/Dataset/Keys/Tags.php:46
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:263
@@ -1845,7 +1846,7 @@ msgid ""
 "activity list."
 msgstr ""
 "Hvis aktiv: Vis en oppsummering for hver privat aktivitet i den offentlige "
-"aktivitetslista."
+"aktivitetslisten."
 
 #: inc/core/Configuration/Category/Privacy.php:98
 msgid "Public athlete page: general statistics"
@@ -3345,7 +3346,7 @@ msgstr "Værforhold"
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:352
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:432
 msgid "Age standard"
-msgstr "Aldersklasse"
+msgstr "Aldersnormal"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:353
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:433
@@ -3880,7 +3881,7 @@ msgstr "Vis alt utstyr"
 
 #: plugin/RunalyzePluginPanel_Equipment/class.RunalyzePluginPanel_Equipment.php:100
 msgid "Please choose an equipment type in the plugin configuration."
-msgstr "Venligst velg en utstyrstype i tilleggs-konfigurasjonen."
+msgstr "Vennligst velg en utstyrstype i tilleggs-konfigurasjonen."
 
 #: plugin/RunalyzePluginPanel_Equipment/class.RunalyzePluginPanel_Equipment.php:113
 msgid "Show/Hide unused equipment"
@@ -4068,7 +4069,7 @@ msgstr "Kartet viser dine %s nyeste løyper som tilfredstiller kriteriene."
 
 #: plugin/RunalyzePluginStat_Strecken/window.routenet.php:101
 msgid "More routes are not possible at the moment due to performance issues."
-msgstr "Flere løyper ikke mulig for øyeblikket på grunn av kapasitetshensyn."
+msgstr "Flere løyper ikke mulig for øyeblikket på grunn av ytelsesårsaker."
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/window.plot.php:22
 #: plugin/RunalyzePluginPanel_Prognose/window.plot.php:23
@@ -4190,7 +4191,7 @@ msgstr "Formnivå"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:195
 msgid "Chronic Training Load"
-msgstr "Kronisk treningslast"
+msgstr "Kronisk TreningsLast"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:203
 #, php-format
@@ -4267,7 +4268,7 @@ msgstr "Treningsimpuls over en kort periode"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:352
 msgid "Chronical Training Load"
-msgstr "Kronisk treningslast"
+msgstr "Kronisk TreningsLast"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:357
 msgid "Training impulse over a long period"
@@ -4283,7 +4284,7 @@ msgid ""
 "every activity. ATL and CTL are averaged values over a given time range."
 msgstr ""
 "ATL/CTL er basert på TRIMP-konseptet, som gir hver aktivitet en impulsverdi. "
-"ATL og CTL er rullende gjennomsnittsverdier over et gitt tidsintervall."
+"ATL og CTL er gjennomsnittlige verdier over et gitt tidsintervall."
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:374
 msgid ""
@@ -4317,7 +4318,7 @@ msgid ""
 "of estimated VO<sub>2</sub>max values of your activities in the last %s days."
 msgstr ""
 "VO<sub>2</sub>maks-formen er beregnet som et gjennomsnitt, vektet på tid, av "
-"estimert VO<sub>2</sub>maks-verdier av dine aktiviteter siste %s dager."
+"estimert VO<sub>2</sub>maks-verdier av dine aktiviteter siste %s dag(er)."
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:421
 #, php-format
@@ -4677,7 +4678,7 @@ msgstr "Merkelapp som skal analyseres"
 
 #: plugin/RunalyzePluginStat_Tag/class.RunalyzePluginStat_Tag.php:113
 msgid "Please choose a tag."
-msgstr "Venligst velg en merkelapp."
+msgstr "Vennligst velg en merkelapp."
 
 #: plugin/RunalyzePluginStat_Tag/class.RunalyzePluginStat_Tag.php:129
 msgid "No activities found."
@@ -4699,7 +4700,7 @@ msgid ""
 "results and of your personal bests (over all distances with at least two "
 "results)."
 msgstr ""
-"Dette tillegget lister alle dine konkurranser. Det viser en summeringa av "
+"Dette tillegget lister alle dine konkurranser. Det viser en oppsummering av "
 "alle konkurranseresultatene dine og dine personlige beste (distanser med "
 "minst to resultater)."
 
@@ -4709,7 +4710,7 @@ msgid ""
 "you do a race just for fun, you can mark it as a 'fun race' to ignore it in "
 "the plot."
 msgstr ""
-"I tillegg plotter det trend over dine resultater på en spesifikk distanse. "
+"I tillegg plotter det utvikling av dine resultater på en spesifikk distanse. "
 "Hvis du gjør en konkurranse kun for moro, kan du markere det 'moroløp' for å "
 "ignorere det i plottet."
 
@@ -4760,7 +4761,7 @@ msgstr "Det er ikke noen konkurranseresultater for den gitte distansen."
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:273
 msgid "Results trend"
-msgstr "Resultatstrend"
+msgstr "Resultatutvikling"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:364
 msgid ""
@@ -4852,7 +4853,7 @@ msgstr "Resultater over %s"
 
 #: plugin/RunalyzePluginPanel_Sports/class.RunalyzePluginPanel_Sports.php:17
 msgid "Summary of your activities for each sport."
-msgstr "Oversikt over dine aktiviteter for hver sport."
+msgstr "Oppsummering av dine aktiviteter for hver sport."
 
 #: plugin/RunalyzePluginPanel_Prognose/window.plot.php:57
 msgid "Prognosis calculator: form trend"
@@ -5184,7 +5185,7 @@ msgstr "Vis serie"
 
 #: plugin/RunalyzePluginStat_Statistiken/class.RunalyzePluginStat_Statistiken.php:123
 msgid "Minimum number of days to show a streak (0 for always)"
-msgstr "Minimum antall dag(er) for å vise serie (0 for alltid)"
+msgstr "Minimum antall dager for å vise serie (0 for alltid)"
 
 #: plugin/RunalyzePluginStat_Statistiken/class.RunalyzePluginStat_Statistiken.php:221
 msgid "If you run today: "
@@ -5272,7 +5273,8 @@ msgstr "etter tid"
 
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:164
 msgid "The values consider only the average data fields of your activities."
-msgstr "Denne verdien vurderer kun gjennomsnitlige datafelt i dine aktiviteter."
+msgstr ""
+"Denne verdien vurderer kun gjennomsnittlige datafelt i dine aktiviteter."
 
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:235
 msgid "There is no data for this sport."
@@ -5332,7 +5334,7 @@ msgstr "Noe gikk feil ..."
 
 #: src/CoreBundle/Component/Tool/DatabaseCleanup/JobGeneral.php:68
 msgid "Internal constants have been refreshed."
-msgstr "Interne konstanter har nå blitt oppfrisket."
+msgstr "Interne konstanter har nå blitt oppdatert."
 
 #: src/CoreBundle/Component/Tool/DatabaseCleanup/JobGeneral.php:77
 msgid "There was a problem while recalculating your equipment statistics"
