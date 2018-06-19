@@ -5439,11 +5439,11 @@ msgstr "Jogging"
 
 #: src/CoreBundle/Component/Account/Registration.php:178
 msgid "JOG"
-msgstr ""
+msgstr "JOG"
 
 #: src/CoreBundle/Component/Account/Registration.php:179
 msgid "Fartlek"
-msgstr ""
+msgstr "Fartlek"
 
 #: src/CoreBundle/Component/Account/Registration.php:179
 msgid "FL"
