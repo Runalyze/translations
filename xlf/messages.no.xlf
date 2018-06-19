@@ -1267,7 +1267,7 @@
       </trans-unit>
       <trans-unit id="cf81bf779afb7ccebc0511cac012cfb2f0fc3899" resname="FIT details" approved="no">
         <source>FIT details</source>
-        <target state="translated">FIT detalj</target>
+        <target state="translated">FIT detaljer</target>
         <jms:reference-file line="148">/../src/CoreBundle/Form/Tools/TrendAnalysis/TrendAnalysisType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="1695ec3b5783d23472499b43968a8f056487e011" resname="Factor model" approved="no">
@@ -1523,14 +1523,14 @@
         <target state="translated">Hei %s, velkommen til RUNALYZE</target>
         <jms:reference-file line="14">/Resources/views/mail/account/registration.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="c66837f8fa417c1ef930ad73bc60e71e1dd031f1" resname="Hi %username%">
+      <trans-unit id="c66837f8fa417c1ef930ad73bc60e71e1dd031f1" resname="Hi %username%" approved="no">
         <source>Hi %username%</source>
-        <target state="new">Hi %username%</target>
+        <target state="translated">Hei %username%</target>
         <jms:reference-file line="6">/Resources/views/account/activate/success.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="b2f555e2cf9e4fcda8dacfafbf9b3322d44e5153" resname="Hilly">
+      <trans-unit id="b2f555e2cf9e4fcda8dacfafbf9b3322d44e5153" resname="Hilly" approved="no">
         <source>Hilly</source>
-        <target state="new">Hilly</target>
+        <target state="translated">Kupert</target>
         <jms:reference-file line="52">/Resources/views/activity/tool/climb_score.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="2284d040f5091f510de37a154536196310f9c02d" resname="Hint">
@@ -1538,16 +1538,15 @@
         <target state="new">Hint</target>
         <jms:reference-file line="30">/Resources/views/settings/sport/form-type.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="f6df823a92ae084d3d771a05c34bf34424d741c4" resname="How sad, that you've decided to delete your account.&lt;br&gt;&#10;            Your account will be deleted as soon as you click on the confirmation link in your mail.">
+      <trans-unit id="f6df823a92ae084d3d771a05c34bf34424d741c4" resname="How sad, that you've decided to delete your account.&lt;br&gt;&#10;            Your account will be deleted as soon as you click on the confirmation link in your mail." approved="no">
         <source><![CDATA[How sad, that you've decided to delete your account.<br>
             Your account will be deleted as soon as you click on the confirmation link in your mail.]]></source>
-        <target state="new"><![CDATA[How sad, that you've decided to delete your account.<br>
-            Your account will be deleted as soon as you click on the confirmation link in your mail.]]></target>
+        <target state="translated">Så trist at du har bestemt deg for å slette din konto.&lt;br&gt; Din konto vil bli slettet så snart du klikker på bekreftelseslinken i den tilsendte e-posten.</target>
         <jms:reference-file line="10">/Resources/views/settings/account-delete.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="65adb9c296d2e3526c7527aa60f1a66fea425a3e" resname="Humidity">
+      <trans-unit id="65adb9c296d2e3526c7527aa60f1a66fea425a3e" resname="Humidity" approved="no">
         <source>Humidity</source>
-        <target state="new">Humidity</target>
+        <target state="translated">Fuktighet</target>
         <jms:reference-file line="170">/../src/CoreBundle/Form/ActivityType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="716f63b96e0c263222949a3b8a00cdb4f46d3183" resname="Icon">
