@@ -800,19 +800,19 @@
         <target state="translated">Lag en sikkerhetskopi</target>
         <jms:reference-file line="21">/Resources/views/tools/backup/export.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="bfac50d6424b5166c3ee2808c85ae7c139b5182f" resname="Credits">
+      <trans-unit id="bfac50d6424b5166c3ee2808c85ae7c139b5182f" resname="Credits" approved="no">
         <source>Credits</source>
-        <target state="new"></target>
+        <target state="translated">Poeng</target>
         <jms:reference-file line="35">/Resources/views/static/help.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6e8f4ca5afb7e7b2316a2fe5e9a01e1fe8d7f52f" resname="Current RUNALYZE version: ">
+      <trans-unit id="6e8f4ca5afb7e7b2316a2fe5e9a01e1fe8d7f52f" resname="Current RUNALYZE version: " approved="no">
         <source>Current RUNALYZE version: </source>
-        <target state="new">Current RUNALYZE version: </target>
+        <target state="translated">Nåværende RUNALYZE versjon:</target>
         <jms:reference-file line="53">/Resources/views/tools/backup/upload_form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="fc59b7680813e392a47dce4ce3ea565563315cb7" resname="Customer feedback">
+      <trans-unit id="fc59b7680813e392a47dce4ce3ea565563315cb7" resname="Customer feedback" approved="no">
         <source>Customer feedback</source>
-        <target state="new">Customer feedback</target>
+        <target state="translated">Tilbakemelding fra forbruker</target>
         <jms:reference-file line="62">/../src/CoreBundle/Services/AccountMailer.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="b8ca49c5d521865dc1abd077b13cee2d18478631" resname="Cycling">
