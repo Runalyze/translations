@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-19 09:23+0200\n"
-"PO-Revision-Date: 2018-06-19 11:38+0000\n"
+"PO-Revision-Date: 2018-06-19 11:39+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -3194,7 +3194,7 @@ msgstr "uten"
 
 #: inc/draw/class.PlotSumData.php:619
 msgid "Races"
-msgstr "Kkonkurranser"
+msgstr "Konkurranser"
 
 #: inc/draw/class.PlotSumData.php:620
 msgid "Training"
@@ -3360,7 +3360,7 @@ msgstr "via tabell ved %s"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:361
 msgid "Race Result"
-msgstr "Løpsresultat"
+msgstr "Konkurranseresultat"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:365
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:401
@@ -3658,11 +3658,11 @@ msgstr "Finn beste delsegmenter"
 
 #: inc/training/view/class.TrainingView.php:158
 msgid "Edit race result"
-msgstr "Editer løpsresultat"
+msgstr "Editer konkurranseresultat"
 
 #: inc/training/view/class.TrainingView.php:160
 msgid "Add race result"
-msgstr "Legg til løpsresultat"
+msgstr "Legg til konkurranseresultat"
 
 #: inc/training/view/class.TrainingView.php:164
 msgid "Edit activity"
@@ -3781,7 +3781,7 @@ msgstr "maks HF"
 
 #: inc/training/search/class.SearchFormular.php:201
 msgid "Is race"
-msgstr "Er løp"
+msgstr "Er konkurranse"
 
 #: inc/training/search/class.SearchFormular.php:205
 msgid "Uses VO<sub>2</sub>max"
@@ -4687,7 +4687,7 @@ msgstr "Ingen aktiviteter funnet."
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:104
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:151
 msgid "Race results"
-msgstr "Løpsresultat"
+msgstr "konkurranseresultat"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:60
 msgid "Personal bests and everything else related to your competitions."
