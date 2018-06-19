@@ -1084,12 +1084,12 @@
       </trans-unit>
       <trans-unit id="75ebedaffb4aa6157c7cebe699e447963b5bd177" resname="Due to security reasons browser manufacturers will drop support for plugins like the Garmin Communicator. A &lt;a href=&quot;%s%&quot;&gt;reinstall&lt;/a&gt; may work, but we have documented an alternative way to import the original files at %b%." approved="no">
         <source><![CDATA[Due to security reasons browser manufacturers will drop support for plugins like the Garmin Communicator. A <a href="%s%">reinstall</a> may work, but we have documented an alternative way to import the original files at %b%.]]></source>
-        <target state="translated">På grunn av sikkerhetshensyn vil nettleserprodusenter slutte å støtte tillegg som Garmin Communicator. En &lt;a href="%s%"&gt;ominnstallasjon kan fungere, men vi har dokumentert en alternativ måte å importere de opprinnelige filene på% b% av.</target>
+        <target state="translated">På grunn av sikkerhetshensyn vil nettleserprodusenter slutte å støtte tillegg som Garmin Communicator. En &lt;a href="%s%"&gt;reinnstallasjon&lt;/a&gt; kan fungere, men vi har forklart en alternativ måte å importere de opprinnelige filene på %b%.</target>
         <jms:reference-file line="27">/Resources/views/activity/import_garmin_communicator.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="1370004da76fa4f3b7a5180fd5436065ef4c7d5b" resname="Duration">
+      <trans-unit id="1370004da76fa4f3b7a5180fd5436065ef4c7d5b" resname="Duration" approved="no">
         <source>Duration</source>
-        <target state="new">Duration</target>
+        <target state="translated">Varighet</target>
         <jms:reference-file line="95">/../src/CoreBundle/Form/ActivityType.php</jms:reference-file>
         <jms:reference-file line="32">/Resources/views/activity/multi_importer.html.twig</jms:reference-file>
         <jms:reference-file line="78">/Resources/views/activity/tool/climb_score.html.twig</jms:reference-file>
@@ -1102,19 +1102,19 @@
         <target state="new">E-Mail</target>
         <jms:reference-file line="26">/Resources/views/settings/account.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="a04c9dd51ef8a86482589854c8cbe3d35ec2f317" resname="Each VO2max value is marked with an arrow to show if this value is (much) higher than your current shape, equal to it or (much) lower:">
+      <trans-unit id="a04c9dd51ef8a86482589854c8cbe3d35ec2f317" resname="Each VO2max value is marked with an arrow to show if this value is (much) higher than your current shape, equal to it or (much) lower:" approved="no">
         <source>Each VO2max value is marked with an arrow to show if this value is (much) higher than your current shape, equal to it or (much) lower:</source>
-        <target state="new">Each VO2max value is marked with an arrow to show if this value is (much) higher than your current shape, equal to it or (much) lower:</target>
+        <target state="translated">Hver VO2maks-verdi av en aktivitet er markert med en pil som viser om verdien er (mye) høyere enn din nåværende form, lik eller (mye) lavere:</target>
         <jms:reference-file line="28">/Resources/views/static/help_calculations.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="5301648dcf6b53cefc9ed52999aaa92d4603cae0" resname="Edit">
+      <trans-unit id="5301648dcf6b53cefc9ed52999aaa92d4603cae0" resname="Edit" approved="no">
         <source>Edit</source>
-        <target state="new">Edit</target>
+        <target state="translated">Editer</target>
         <jms:reference-file line="28">/Resources/views/settings/tag/overview.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="b9b8b8b16b3a8b9d4bdf2d0088a08abcfce31aa7" resname="Edit activity tag">
+      <trans-unit id="b9b8b8b16b3a8b9d4bdf2d0088a08abcfce31aa7" resname="Edit activity tag" approved="no">
         <source>Edit activity tag</source>
-        <target state="new">Edit activity tag</target>
+        <target state="translated">Editer</target>
         <jms:reference-file line="11">/Resources/views/settings/tag/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="6e50ba65608e9b82baf955b07e7f341008c5bf49" resname="Edit activity type">
