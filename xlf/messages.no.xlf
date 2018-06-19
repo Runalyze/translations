@@ -1084,7 +1084,7 @@
       </trans-unit>
       <trans-unit id="75ebedaffb4aa6157c7cebe699e447963b5bd177" resname="Due to security reasons browser manufacturers will drop support for plugins like the Garmin Communicator. A &lt;a href=&quot;%s%&quot;&gt;reinstall&lt;/a&gt; may work, but we have documented an alternative way to import the original files at %b%." approved="no">
         <source><![CDATA[Due to security reasons browser manufacturers will drop support for plugins like the Garmin Communicator. A <a href="%s%">reinstall</a> may work, but we have documented an alternative way to import the original files at %b%.]]></source>
-        <target state="translated">På grunn av sikkerhetshensyn vil nettleserprodusenter slippe støtte for plugins som Garmin Communicator. En &lt;a href="%s%"&gt; reinstaller &lt;/a&gt; kan fungere, men vi har dokumentert en alternativ måte å importere de opprinnelige filene på% b% av.</target>
+        <target state="translated">På grunn av sikkerhetshensyn vil nettleserprodusenter slutte å støtte tillegg som Garmin Communicator. En  kan fungere, men vi har dokumentert en alternativ måte å importere de opprinnelige filene på% b% av.</target>
         <jms:reference-file line="27">/Resources/views/activity/import_garmin_communicator.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1370004da76fa4f3b7a5180fd5436065ef4c7d5b" resname="Duration">
