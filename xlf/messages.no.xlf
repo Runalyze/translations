@@ -1440,27 +1440,27 @@
       </trans-unit>
       <trans-unit id="36463cf8381e6e972d67a1b70c482d9fb836b2b0" resname="Gradient" approved="no">
         <source>Gradient</source>
-        <target state="translated">Gradient</target>
+        <target state="translated">Stigningsgrad</target>
         <jms:reference-file line="75">/Resources/views/activity/tool/climb_score.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="439b59a4318e24d72ba33f8b086f0ffe9a6285ac" resname="Gradient distribution">
+      <trans-unit id="439b59a4318e24d72ba33f8b086f0ffe9a6285ac" resname="Gradient distribution" approved="no">
         <source>Gradient distribution</source>
-        <target state="new">Gradient distribution</target>
+        <target state="translated">Stigningsfordeling</target>
         <jms:reference-file line="92">/Resources/views/activity/tool/climb_score.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="701c483f813cf119ec80b185a049bcfdc29f9161" resname="Grid">
+      <trans-unit id="701c483f813cf119ec80b185a049bcfdc29f9161" resname="Grid" approved="no">
         <source>Grid</source>
-        <target state="new">Grid</target>
+        <target state="translated">Rutenett</target>
         <jms:reference-file line="60">/../src/CoreBundle/Form/Tools/PosterType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="ad727721f2ae9e9f5e58d45d5673cb9aac16d148" resname="Groundcontact">
+      <trans-unit id="ad727721f2ae9e9f5e58d45d5673cb9aac16d148" resname="Groundcontact" approved="no">
         <source>Groundcontact</source>
-        <target state="new">Groundcontact</target>
+        <target state="translated">Bakkekontakt</target>
         <jms:reference-file line="154">/Resources/views/activity/tool/time_series_statistics.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="5d051e102993f2e4cdbb9a94ab4b1e51e4b8c841" resname="Groundcontact balance">
+      <trans-unit id="5d051e102993f2e4cdbb9a94ab4b1e51e4b8c841" resname="Groundcontact balance" approved="no">
         <source>Groundcontact balance</source>
-        <target state="new">Groundcontact balance</target>
+        <target state="translated">Bakkekontakt balanse</target>
         <jms:reference-file line="157">/Resources/views/activity/tool/time_series_statistics.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="f187928fdb223e7f3b7b0396e72e2d59a5f12b29" resname="HR">
@@ -1473,22 +1473,22 @@
         <target state="new">Has a distance</target>
         <jms:reference-file line="106">/../src/CoreBundle/Form/Settings/SportType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="410aa15cdff51446fb351cdc0b289f49b9a9c690" resname="Heart rate">
+      <trans-unit id="410aa15cdff51446fb351cdc0b289f49b9a9c690" resname="Heart rate" approved="no">
         <source>Heart rate</source>
-        <target state="new">Heart rate</target>
+        <target state="translated">Puls</target>
         <jms:reference-file line="119">/Resources/views/activity/tool/time_series_statistics.html.twig</jms:reference-file>
         <jms:reference-file line="49">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
         <jms:reference-file line="46">/Resources/views/shared/widget/iframe/base.html.twig</jms:reference-file>
         <jms:reference-file line="47">/Resources/views/shared/widget/iframe/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="664e1218d22b9caa2aab7d79dccb4cf3aa202ab6" resname="Heartrate">
+      <trans-unit id="664e1218d22b9caa2aab7d79dccb4cf3aa202ab6" resname="Heartrate" approved="no">
         <source>Heartrate</source>
-        <target state="new">Heartrate</target>
+        <target state="translated">Puls</target>
         <jms:reference-file line="37">/Resources/views/my/body-values/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="ee8162d47626a8b3163f395abe117ed720ef53c0" resname="Heatmap">
+      <trans-unit id="ee8162d47626a8b3163f395abe117ed720ef53c0" resname="Heatmap" approved="no">
         <source>Heatmap</source>
-        <target state="new">Heatmap</target>
+        <target state="translated">Varmekart</target>
         <jms:reference-file line="61">/../src/CoreBundle/Form/Tools/PosterType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="c47ae15370cfe1ed2781eedc1dc2547d12d9e972" resname="Help">
@@ -1497,20 +1497,20 @@
         <jms:reference-file line="94">/Resources/views/base_logged_in.twig</jms:reference-file>
         <jms:reference-file line="35">/Resources/views/system/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="b5ade63b69c96546886fe11f7dc490911e032631" resname="Help and Support">
+      <trans-unit id="b5ade63b69c96546886fe11f7dc490911e032631" resname="Help and Support" approved="no">
         <source>Help and Support</source>
-        <target state="new">Help and Support</target>
+        <target state="translated">Hjelp og støtte</target>
         <jms:reference-file line="60">/Resources/TwigBundle/views/Exception/error.html.twig</jms:reference-file>
         <jms:reference-file line="3">/Resources/views/footer.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2ef172ce5900792d213dcc09532286906c83dde2" resname="Help and support">
+      <trans-unit id="2ef172ce5900792d213dcc09532286906c83dde2" resname="Help and support" approved="no">
         <source>Help and support</source>
-        <target state="new">Help and support</target>
+        <target state="translated">Hjelp og støtte</target>
         <jms:reference-file line="40">/Resources/views/shared/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7e217fa4d4b98f78392cd931a62b5db2691ec07a" resname="Hi %s, &lt;br&gt; we are sorry to hear that you wish to delete your RUNALYZE account">
+      <trans-unit id="7e217fa4d4b98f78392cd931a62b5db2691ec07a" resname="Hi %s, &lt;br&gt; we are sorry to hear that you wish to delete your RUNALYZE account" approved="no">
         <source><![CDATA[Hi %s, <br> we are sorry to hear that you wish to delete your RUNALYZE account]]></source>
-        <target state="new"><![CDATA[Hi %s, <br> we are sorry to hear that you wish to delete your RUNALYZE account]]></target>
+        <target state="translated">Hei %s, &lt;br&gt; we are sorry to hear that you wish to delete your RUNALYZE account</target>
         <jms:reference-file line="9">/Resources/views/mail/account/deleteAccountRequest.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="5c10f3be26d63b9bd2c804cee05cd9a78fd31262" resname="Hi %s, we heard that you forgot your password!">
