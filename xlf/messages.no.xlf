@@ -1109,71 +1109,71 @@
       </trans-unit>
       <trans-unit id="5301648dcf6b53cefc9ed52999aaa92d4603cae0" resname="Edit" approved="no">
         <source>Edit</source>
-        <target state="translated">Editer</target>
+        <target state="translated">Rediger</target>
         <jms:reference-file line="28">/Resources/views/settings/tag/overview.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="b9b8b8b16b3a8b9d4bdf2d0088a08abcfce31aa7" resname="Edit activity tag" approved="no">
         <source>Edit activity tag</source>
-        <target state="translated">Editer aktivitetsmerkelapper</target>
+        <target state="translated">Redigere aktivitetsmerkelapper</target>
         <jms:reference-file line="11">/Resources/views/settings/tag/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="6e50ba65608e9b82baf955b07e7f341008c5bf49" resname="Edit activity type" approved="no">
         <source>Edit activity type</source>
-        <target state="translated">Editer aktivitetstype</target>
+        <target state="translated">Redigere aktivitetstype</target>
         <jms:reference-file line="10">/Resources/views/settings/sport/form-type.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="cd36322b78490aa15e99d09ba4ad0fa88276ffba" resname="Edit body values" approved="no">
         <source>Edit body values</source>
-        <target state="translated">Editer kroppsverdier</target>
+        <target state="translated">Redigere kroppsverdier</target>
         <jms:reference-file line="14">/Resources/views/my/body-values/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="92a5da88da3b2c7295fee496fff5cf0fd351a7c0" resname="Edit equipment" approved="no">
         <source>Edit equipment</source>
-        <target state="translated">Editer utstyr</target>
+        <target state="translated">Redigere utstyr</target>
         <jms:reference-file line="44">/Resources/views/my/equipment/category/table.html.twig</jms:reference-file>
         <jms:reference-file line="10">/Resources/views/my/equipment/form-equipment.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7a2193767d002f6ec7fbd45323d11ab50a7703e8" resname="Edit equipment category">
+      <trans-unit id="7a2193767d002f6ec7fbd45323d11ab50a7703e8" resname="Edit equipment category" approved="no">
         <source>Edit equipment category</source>
-        <target state="new">Edit equipment category</target>
+        <target state="translated">Redigere utstyrskategorier</target>
         <jms:reference-file line="10">/Resources/views/my/equipment/form-category.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2f826a820f0dc0bfa61205380302fe06f9cee750" resname="Edit heart rate zones">
+      <trans-unit id="2f826a820f0dc0bfa61205380302fe06f9cee750" resname="Edit heart rate zones" approved="no">
         <source>Edit heart rate zones</source>
-        <target state="new">Edit heart rate zones</target>
+        <target state="translated">Rediger intensitetssoner</target>
         <jms:reference-file line="44">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
         <jms:reference-file line="68">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7e4e33d16920925cacb37d791953d21ae3526d5c" resname="Edit pace zones">
+      <trans-unit id="7e4e33d16920925cacb37d791953d21ae3526d5c" resname="Edit pace zones" approved="no">
         <source>Edit pace zones</source>
-        <target state="new">Edit pace zones</target>
+        <target state="translated">Rediger temposoner</target>
         <jms:reference-file line="45">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
         <jms:reference-file line="69">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="37f901626bb09d63386a91a7d9ca405ca9dfc2b7" resname="Edit power zones">
+      <trans-unit id="37f901626bb09d63386a91a7d9ca405ca9dfc2b7" resname="Edit power zones" approved="no">
         <source>Edit power zones</source>
-        <target state="new">Edit power zones</target>
+        <target state="translated">Rediger effektsoner</target>
         <jms:reference-file line="46">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
         <jms:reference-file line="70">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="92249a649c72ec9e0b7ae989222b96cdab34f515" resname="Edit sport">
+      <trans-unit id="92249a649c72ec9e0b7ae989222b96cdab34f515" resname="Edit sport" approved="no">
         <source>Edit sport</source>
-        <target state="new">Edit sport</target>
+        <target state="translated">Rediger sport</target>
         <jms:reference-file line="16">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="a294dddf5113006b7eaa83f946a43a3e1f2f4b0e" resname="Effective %VO2max%">
+      <trans-unit id="a294dddf5113006b7eaa83f946a43a3e1f2f4b0e" resname="Effective %VO2max%" approved="no">
         <source>Effective %VO2max%</source>
-        <target state="new">Effective %VO2max%</target>
+        <target state="translated">Effektiv %VO2max%</target>
         <jms:reference-file line="15">/Resources/views/tools/tables/vo2max_paces.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="056d29d5205997b269abe24f77ffda148ce3321b" resname="Effective VO2max">
+      <trans-unit id="056d29d5205997b269abe24f77ffda148ce3321b" resname="Effective VO2max" approved="no">
         <source>Effective VO2max</source>
-        <target state="new">Effective VO2max</target>
+        <target state="translated">Effektiv VO2max</target>
         <jms:reference-file line="9">/Resources/views/tools/tables/vo2max.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="1e1a1441ddd7642f03888de8ce4202c6545a6073" resname="Effective VO2max values are only available for distances of at least one kilometer.">
+      <trans-unit id="1e1a1441ddd7642f03888de8ce4202c6545a6073" resname="Effective VO2max values are only available for distances of at least one kilometer." approved="no">
         <source>Effective VO2max values are only available for distances of at least one kilometer.</source>
-        <target state="new">Effective VO2max values are only available for distances of at least one kilometer.</target>
+        <target state="translated">Effektiv VO2max .</target>
         <jms:reference-file line="49">/Resources/views/my/raceresult/performance_chart.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="5c501758d720d6b23e8aadc62648655316961e3d" resname="Elapsed time">
