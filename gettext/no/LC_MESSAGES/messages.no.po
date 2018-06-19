@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-19 09:23+0200\n"
-"PO-Revision-Date: 2018-06-19 11:34+0000\n"
+"PO-Revision-Date: 2018-06-19 11:38+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -653,11 +653,11 @@ msgstr "Pronasjon"
 
 #: inc/core/Dataset/Keys/RaceResult.php:40
 msgid "Race result"
-msgstr "Løpsresultat"
+msgstr "Konkurranseresultat"
 
 #: inc/core/Dataset/Keys/RaceResult.php:88
 msgid "Your placements at races"
-msgstr "Din plassering i løpet"
+msgstr "Din plassering i konkurranser"
 
 #: inc/core/Dataset/Keys/RaceResult.php:127
 #: inc/core/Dataset/Keys/RaceResult.php:178
@@ -684,7 +684,7 @@ msgstr "Kjønn"
 
 #: inc/core/Dataset/Keys/RaceResult.php:163
 msgid "Race name"
-msgstr "Løpsnavn"
+msgstr "Konkurransenavn"
 
 #: inc/core/Dataset/Keys/AirPressure.php:43
 msgid "Air pressure"
@@ -1084,7 +1084,7 @@ msgid ""
 msgstr ""
 "Delavstander er vist med klokke-ikon med alle rundetider som verktøytips. De "
 "er kun vist hvis det er selvvalgte runder, f.eks. det er aktive og inaktive "
-"runder, eller det var et løp. "
+"runder, eller det var et konkurranse. "
 
 #: inc/core/Dataset/Keys/Elevation.php:44 inc/core/Activity/Elevation.php:58
 #: inc/core/View/Activity/Plot/Series/Elevation.php:81
@@ -2313,7 +2313,7 @@ msgstr "aldri"
 
 #: inc/core/Parameter/Application/ActivityRoutePrivacy.php:40
 msgid "only for race results"
-msgstr "kun for løpsresultater"
+msgstr "kun for konkurransesresultater"
 
 #: inc/core/Parameter/Application/ActivityRoutePrivacy.php:41
 msgid "always"
@@ -3194,7 +3194,7 @@ msgstr "uten"
 
 #: inc/draw/class.PlotSumData.php:619
 msgid "Races"
-msgstr "Løp"
+msgstr "Kkonkurranser"
 
 #: inc/draw/class.PlotSumData.php:620
 msgid "Training"
@@ -5512,15 +5512,15 @@ msgstr "singlet"
 
 #: src/CoreBundle/Component/Account/Registration.php:242
 msgid "jacket"
-msgstr ""
+msgstr "jakke"
 
 #: src/CoreBundle/Component/Account/Registration.php:242
 msgid "long pants"
-msgstr ""
+msgstr "bukser"
 
 #: src/CoreBundle/Component/Account/Registration.php:242
 msgid "shorts"
-msgstr ""
+msgstr "kortbukse"
 
 #: src/CoreBundle/Component/Account/Registration.php:242
 msgid "gloves"
