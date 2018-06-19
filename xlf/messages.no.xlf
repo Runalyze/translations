@@ -1282,7 +1282,7 @@
       </trans-unit>
       <trans-unit id="fc338f87a058158eb824b53705961801516a9460" resname="Features" approved="no">
         <source>Features</source>
-        <target state="translated">Funksjoner</target>
+        <target state="translated">Egenskaper</target>
         <jms:reference-file line="26">/Resources/views/shared/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="dc8415ccfe52505f1d0a74025c76b3c26c88c59d" resname="Feb">
@@ -1295,14 +1295,14 @@
         <target state="new">File format</target>
         <jms:reference-file line="15">/../src/CoreBundle/Form/Tools/BackupExportType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="bc66390c1f12928a247c55e56647aa0b22153bb0" resname="Find your training paces in min/km for given VO2max values.">
+      <trans-unit id="bc66390c1f12928a247c55e56647aa0b22153bb0" resname="Find your training paces in min/km for given VO2max values." approved="no">
         <source>Find your training paces in min/km for given VO2max values.</source>
-        <target state="new">Find your training paces in min/km for given VO2max values.</target>
+        <target state="translated">Finn ditt treningstempo i min/km for gitte VO2maks-verdier.</target>
         <jms:reference-file line="20">/Resources/views/tools/tables/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="3fe36ef469ce60dd54312a831d7fd135014f2559" resname="First activity">
+      <trans-unit id="3fe36ef469ce60dd54312a831d7fd135014f2559" resname="First activity" approved="no">
         <source>First activity</source>
-        <target state="new">First activity</target>
+        <target state="translated">Første aktivitet</target>
         <jms:reference-file line="45">/Resources/views/shared/athlete/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="79c9e13ab7d502c6c70eca7c038f62d6c49fda0d" resname="Flat">
@@ -1310,9 +1310,9 @@
         <target state="new">Flat</target>
         <jms:reference-file line="53">/Resources/views/activity/tool/climb_score.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="66587a7a62a90fc91c4c88f1872bedaa52d23a35" resname="Follow">
+      <trans-unit id="66587a7a62a90fc91c4c88f1872bedaa52d23a35" resname="Follow" approved="no">
         <source>Follow</source>
-        <target state="new">Follow</target>
+        <target state="translated">Følge</target>
         <jms:reference-file line="70">/Resources/views/mail/transactionBase.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1d892a6e06d8d8b9cec13bcb9b4517b0d6576bdb" resname="Follow %username% via RSS-Feed">
