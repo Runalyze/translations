@@ -731,47 +731,47 @@
       </trans-unit>
       <trans-unit id="8f5e8efc6c27da74c6d2fce0dad216c525167c93" resname="Connected apps" approved="no">
         <source>Connected apps</source>
-        <target state="translated">Tilkoplede applikasjoner</target>
+        <target state="translated">Tilkoblede applikasjoner</target>
         <jms:reference-file line="16">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="f26abb5b1a196c3919c851df34f421c069e42852" resname="Connected devices" approved="no">
         <source>Connected devices</source>
-        <target state="translated">Tilkoblet</target>
+        <target state="translated">Tilkoblete enheter</target>
         <jms:reference-file line="51">/Resources/views/import/garmin_communicator.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2cf609bdd619b0602ef60ac91802b677ad77549a" resname="Consider a donation to RUNALYZE">
+      <trans-unit id="2cf609bdd619b0602ef60ac91802b677ad77549a" resname="Consider a donation to RUNALYZE" approved="no">
         <source>Consider a donation to RUNALYZE</source>
-        <target state="new">Consider a donation to RUNALYZE</target>
+        <target state="translated">Vurder en donasjon til RUNALYZE</target>
         <jms:reference-file line="5">/Resources/views/static/donate.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="fac0cdf818027aec5512aae94d98912275d40a4f" resname="Correct elevation data">
+      <trans-unit id="fac0cdf818027aec5512aae94d98912275d40a4f" resname="Correct elevation data" approved="no">
         <source>Correct elevation data</source>
-        <target state="new">Correct elevation data</target>
+        <target state="translated">Korriger elevasjonsdata</target>
         <jms:reference-file line="187">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="1c0ca291b0680535d87385f085e37f5c6fc8f548" resname="Corrected elevation data has been removed.">
+      <trans-unit id="1c0ca291b0680535d87385f085e37f5c6fc8f548" resname="Corrected elevation data has been removed." approved="no">
         <source>Corrected elevation data has been removed.</source>
-        <target state="new">Corrected elevation data has been removed.</target>
+        <target state="translated">Korrigerte elevasjonsdata har blitt slettet.</target>
         <jms:reference-file line="157">/../src/CoreBundle/Controller/Activity/EditController.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="f7f6a12b856b173ba0566b50674d0b6d4675c0ea" resname="Correction factor">
+      <trans-unit id="f7f6a12b856b173ba0566b50674d0b6d4675c0ea" resname="Correction factor" approved="no">
         <source>Correction factor</source>
-        <target state="new">Correction factor</target>
+        <target state="translated">Korreksjonsfaktor</target>
         <jms:reference-file line="71">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="87516fec4024faa960c239c4d0206b856edd68f0" resname="Correction: based on correction factor">
+      <trans-unit id="87516fec4024faa960c239c4d0206b856edd68f0" resname="Correction: based on correction factor" approved="no">
         <source>Correction: based on correction factor</source>
-        <target state="new">Correction: based on correction factor</target>
+        <target state="translated">Korreksjon: basert på en korreksjonsfaktor</target>
         <jms:reference-file line="64">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="5084135429a3eefcbf5dbc0656c81a24f493253f" resname="Correction: based on heartrate">
+      <trans-unit id="5084135429a3eefcbf5dbc0656c81a24f493253f" resname="Correction: based on heartrate" approved="no">
         <source>Correction: based on heartrate</source>
-        <target state="new">Correction: based on heartrate</target>
+        <target state="translated">Korreksjon: basert på puls</target>
         <jms:reference-file line="41">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="c663f7c3614e6e344b80fbe00e1dbd58cc8e7e39" resname="Correction: considering elevation">
+      <trans-unit id="c663f7c3614e6e344b80fbe00e1dbd58cc8e7e39" resname="Correction: considering elevation" approved="no">
         <source>Correction: considering elevation</source>
-        <target state="new">Correction: considering elevation</target>
+        <target state="translated">Korre</target>
         <jms:reference-file line="89">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="4eaf39e26823b9435e75a4dfd3a0a6401cd9487b" resname="Corrector">
