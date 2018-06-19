@@ -28,14 +28,14 @@
             </source>
         <target xml:space="preserve" state="translated">            Verdiene er visualisert med såkalte 'boksplott'.
             De gir et inntrykk av hvordan verdiene i en gruppe er distribuert.
-            De midterste 50% av alle verdier er i boksen, og de såkalte værhårene har en lengde av høyst 1.5x variasjonsbredden i kvartiler (dvs boksens vidde).
+            De midterste 50% av alle verdier er i boksen, og de såkalte værhårene har en lengde av høyst 1.5x variasjonsbredden i kvartiler (dvs. boksens vidde).
             Datapunkter utenfor dette intervallet er kalt avvikende verdier.
             </target>
         <jms:reference-file line="118">/Resources/views/tools/anova/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="8808d6be59b159f1221b1b4cb9f01aefe7c10b2d" resname="#{deviceCount} devices found" approved="no">
         <source>#{deviceCount} devices found</source>
-        <target state="translated">#{deviceCount} enheter funnet</target>
+        <target state="translated">fant #{deviceCount} enheter</target>
         <jms:reference-file line="61">/Resources/views/import/garmin_communicator.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="04e4ab1f101e58c92753f1c92a2622b76f703616" resname="%s-files are supported from: %s" approved="no">
@@ -338,7 +338,7 @@
       </trans-unit>
       <trans-unit id="ca51e9c4e9e34c9d4ec40622bcc581131062ddf9" resname="Analyze your VO2max" approved="no">
         <source>Analyze your VO2max</source>
-        <target state="translated">Analyser ditt VO2max</target>
+        <target state="translated">Analyser ditt VO&lt;sub&gt;2&lt;/sub&gt;maks</target>
         <jms:reference-file line="86">/Resources/views/base_logged_in.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="d9a36850b7f3f78365a998cb16cb68b6fd79400d" resname="Apps" approved="no">
@@ -868,7 +868,7 @@
       </trans-unit>
       <trans-unit id="008e64c22ae969baec4cbb0163ea23ca35d5e35a" resname="Database cleanup" approved="no">
         <source>Database cleanup</source>
-        <target state="translated">Database opprensing</target>
+        <target state="translated">Database opprenskning</target>
         <jms:reference-file line="5">/Resources/views/tools/database_cleanup/base.html.twig</jms:reference-file>
         <jms:reference-file line="70">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
       </trans-unit>
@@ -1104,7 +1104,7 @@
       </trans-unit>
       <trans-unit id="a04c9dd51ef8a86482589854c8cbe3d35ec2f317" resname="Each VO2max value is marked with an arrow to show if this value is (much) higher than your current shape, equal to it or (much) lower:" approved="no">
         <source>Each VO2max value is marked with an arrow to show if this value is (much) higher than your current shape, equal to it or (much) lower:</source>
-        <target state="translated">Hver VO2maks-verdi av en aktivitet er markert med en pil som viser om verdien er (mye) høyere enn din nåværende form, lik eller (mye) lavere:</target>
+        <target state="translated">Hver VO&lt;sub&gt;2&lt;/sub&gt;maks-verdi av en aktivitet er markert med en pil som viser om verdien er (mye) høyere enn din nåværende form, lik eller (mye) lavere:</target>
         <jms:reference-file line="28">/Resources/views/static/help_calculations.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="5301648dcf6b53cefc9ed52999aaa92d4603cae0" resname="Edit" approved="no">
@@ -1168,12 +1168,12 @@
       </trans-unit>
       <trans-unit id="056d29d5205997b269abe24f77ffda148ce3321b" resname="Effective VO2max" approved="no">
         <source>Effective VO2max</source>
-        <target state="translated">Effektiv VO2maks</target>
+        <target state="translated">Effektiv VO&lt;sub&gt;2&lt;/sub&gt;maks</target>
         <jms:reference-file line="9">/Resources/views/tools/tables/vo2max.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1e1a1441ddd7642f03888de8ce4202c6545a6073" resname="Effective VO2max values are only available for distances of at least one kilometer." approved="no">
         <source>Effective VO2max values are only available for distances of at least one kilometer.</source>
-        <target state="translated">Effektiv VO2maks-verdiene er kun tilgjengelige for avstander på minst en kilometer.</target>
+        <target state="translated">Effektiv VO&lt;sub&gt;2&lt;/sub&gt;maks-verdiene er kun tilgjengelige for avstander på minst en kilometer.</target>
         <jms:reference-file line="49">/Resources/views/my/raceresult/performance_chart.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="5c501758d720d6b23e8aadc62648655316961e3d" resname="Elapsed time" approved="no">
@@ -1297,7 +1297,7 @@
       </trans-unit>
       <trans-unit id="bc66390c1f12928a247c55e56647aa0b22153bb0" resname="Find your training paces in min/km for given VO2max values." approved="no">
         <source>Find your training paces in min/km for given VO2max values.</source>
-        <target state="translated">Finn ditt treningstempo i min/km for gitte VO2maks-verdier.</target>
+        <target state="translated">Finn ditt treningstempo i min/km for gitte VO&lt;sub&gt;2&lt;/sub&gt;maks-verdier.</target>
         <jms:reference-file line="20">/Resources/views/tools/tables/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="3fe36ef469ce60dd54312a831d7fd135014f2559" resname="First activity" approved="no">
@@ -1383,7 +1383,7 @@
       </trans-unit>
       <trans-unit id="501806c15fa6c6e39d648f03705ad7327f590af9" resname="General cleanup" approved="no">
         <source>General cleanup</source>
-        <target state="translated">Generell opprensing</target>
+        <target state="translated">Generell opprenskning</target>
         <jms:reference-file line="23">/../src/CoreBundle/Form/Tools/DatabaseCleanupType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="d02b29e8efb9f85c6c48867eb3783fbb3396f4b3" resname="General groups" approved="no">
@@ -1435,7 +1435,7 @@
       </trans-unit>
       <trans-unit id="5537280384e598ba9133a1a6aa7f2b1345f1cc06" resname="Go to database cleanup" approved="no">
         <source>Go to database cleanup</source>
-        <target state="translated">Gå til database opprensing</target>
+        <target state="translated">Gå til database opprenskning</target>
         <jms:reference-file line="19">/Resources/views/tools/backup/import_finish.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="36463cf8381e6e972d67a1b70c482d9fb836b2b0" resname="Gradient" approved="no">
@@ -1657,7 +1657,7 @@
       </trans-unit>
       <trans-unit id="f55984250d84b2b4e3b860aa9038b6f8f510a095" resname="In contrast, your &lt;strong&gt;Chronical Training Load&lt;/strong&gt;, CTL, also fitness level, is based on the sum of your last TRIMP values in a long period, e.g. for fourty days." approved="no">
         <source><![CDATA[In contrast, your <strong>Chronical Training Load</strong>, CTL, also fitness level, is based on the sum of your last TRIMP values in a long period, e.g. for fourty days.]]></source>
-        <target state="translated">Til forskjell er din &lt;strong&gt;Kroniske TreningsLast&lt;/strong&gt; (CTL), og også formnivå, basert på summen av dine siste TRIMP-verdier i en lang periode, f.eks. førti dager.</target>
+        <target state="translated">Til forskjell er din &lt;strong&gt;Kroniske TreningsLast&lt;/strong&gt; (KTL), eller formnivå, basert på summen av dine siste TRIMP-verdier i en lang periode, f.eks. førti dager.</target>
         <jms:reference-file line="54">/Resources/views/static/help_calculations.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="906d05c9ed7f61348978afa8b694ec1f0bb8c7ad" resname="In general most questions, problems and ideas are more appropriate to ask in the forum." approved="no">
@@ -2294,14 +2294,14 @@
       </trans-unit>
       <trans-unit id="4eb004caa682a0a83804b6fb256eac0d8a9930ac" resname="Predict results on different distances for a given VO2max." approved="no">
         <source>Predict results on different distances for a given VO2max.</source>
-        <target state="translated">Forutse resultater på ulike distanser for gitt VO2maks.</target>
+        <target state="translated">Forutse resultater på ulike distanser for gitt VO&lt;sub&gt;2&lt;/sub&gt;maks.</target>
         <jms:reference-file line="13">/Resources/views/tools/tables/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="4914d8f32f5f72af17a7fed61b8530fe5c2ee54c" resname="Predicting your effective %VO2max% based on your training values is imprecise.&#10;                This plugin lists your races and compares your results with the predicted values.&#10;                This way you can get an impression of how well the prediction works for you.">
+      <trans-unit id="4914d8f32f5f72af17a7fed61b8530fe5c2ee54c" resname="Predicting your effective %VO2max% based on your training values is imprecise.&#10;                This plugin lists your races and compares your results with the predicted values.&#10;                This way you can get an impression of how well the prediction works for you." approved="no">
         <source xml:space="preserve">Predicting your effective %VO2max% based on your training values is imprecise.
                 This plugin lists your races and compares your results with the predicted values.
                 This way you can get an impression of how well the prediction works for you.</source>
-        <target xml:space="preserve" state="new">Predicting your effective %VO2max% based on your training values is imprecise.
+        <target xml:space="preserve" state="translated">Forutsi din effektive% VO2max% basert på treningsverdiene dine er upresise.
                 This plugin lists your races and compares your results with the predicted values.
                 This way you can get an impression of how well the prediction works for you.</target>
         <jms:reference-file line="27">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
@@ -2453,9 +2453,9 @@
         <target state="new">Recalculate TRIMP values</target>
         <jms:reference-file line="80">/Resources/views/tools/database_cleanup/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="30acdacc69e505a2c8bca567881002e9506b650c" resname="Recalculate effective %VO2max% values">
+      <trans-unit id="30acdacc69e505a2c8bca567881002e9506b650c" resname="Recalculate effective %VO2max% values" approved="no">
         <source>Recalculate effective %VO2max% values</source>
-        <target state="new">Recalculate effective %VO2max% values</target>
+        <target state="translated">Beregn på nytt effektiv %VO2max%-verdier</target>
         <jms:reference-file line="76">/Resources/views/tools/database_cleanup/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="505b74104763dd596d4d66dad1fa797c656b8975" resname="Recalculate elevation">
@@ -2468,14 +2468,14 @@
         <target state="new">Recalculate maximal TRIMP values</target>
         <jms:reference-file line="41">/Resources/views/tools/database_cleanup/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="b4ffb9f8004da2aeb7dca710dd3d1b07e55dfb9b" resname="Recalculate your effective %VO2max% correction factor">
+      <trans-unit id="b4ffb9f8004da2aeb7dca710dd3d1b07e55dfb9b" resname="Recalculate your effective %VO2max% correction factor" approved="no">
         <source>Recalculate your effective %VO2max% correction factor</source>
-        <target state="new">Recalculate your effective %VO2max% correction factor</target>
+        <target state="translated">Beregn på nytt din effektive %VO2max% korreksjonsfaktor</target>
         <jms:reference-file line="26">/Resources/views/tools/database_cleanup/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="20e289f0c14eaba1038858e92e46c2b4b10955ad" resname="Recalculate your effective %VO2max% shape">
+      <trans-unit id="20e289f0c14eaba1038858e92e46c2b4b10955ad" resname="Recalculate your effective %VO2max% shape" approved="no">
         <source>Recalculate your effective %VO2max% shape</source>
-        <target state="new">Recalculate your effective %VO2max% shape</target>
+        <target state="translated">Beregn på nytt din effektive %VO2max%-form</target>
         <jms:reference-file line="31">/Resources/views/tools/database_cleanup/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="c13880b439273cac2261e3f6cea0faf7f2b7d6b3" resname="Recalculate your equipment statistics">
@@ -2875,7 +2875,7 @@
       </trans-unit>
       <trans-unit id="3b7566b620437fe6ae3e90f4e6ea85446cf88e3f" resname="Start cleanup" approved="no">
         <source>Start cleanup</source>
-        <target state="translated">Start opprensing</target>
+        <target state="translated">Start opprenskning</target>
         <jms:reference-file line="87">/Resources/views/tools/database_cleanup/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="19d36c63e16b067abb492a5d7bb440470b302ff4" resname="Start of use">
@@ -2945,9 +2945,9 @@
         <target state="new">TRIMP</target>
         <jms:reference-file line="49">/Resources/views/shared/widget/iframe/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="8d7f493ce3b233d18371138c9c876de7fd8d8419" resname="TRIMP/ATL/CTL/TSB">
+      <trans-unit id="8d7f493ce3b233d18371138c9c876de7fd8d8419" resname="TRIMP/ATL/CTL/TSB" approved="no">
         <source>TRIMP/ATL/CTL/TSB</source>
-        <target state="new">TRIMP/ATL/CTL/TSB</target>
+        <target state="translated">TRIMP/ATL/KTL/TSB</target>
         <jms:reference-file line="44">/Resources/views/static/help_calculations.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1d80b6733d8d9fa8c4386ff87d32aad9a2cc9e99" resname="Tables for effective %VO2max% values and general tables like a pace calculator.">
@@ -3388,9 +3388,9 @@
         <target state="new">Track</target>
         <jms:reference-file line="133">/../src/CoreBundle/Form/ActivityType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="5d3fe9e60de99c1c49126eb8dc901abc7f841579" resname="Traditional formulas are for estimating VO2max for a given race result.">
+      <trans-unit id="5d3fe9e60de99c1c49126eb8dc901abc7f841579" resname="Traditional formulas are for estimating VO2max for a given race result." approved="no">
         <source>Traditional formulas are for estimating VO2max for a given race result.</source>
-        <target state="new">Traditional formulas are for estimating VO2max for a given race result.</target>
+        <target state="translated">Tradisjonelle formler er for å estimere VO&lt;sub&gt;2&lt;/sub&gt;maks for et gitt løpsresultat.</target>
         <jms:reference-file line="17">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="a1deffc955e57e15cecf8ce47d895eb24cf00c9a" resname="Transfer complete">
@@ -3494,38 +3494,38 @@
         <target state="new">Username</target>
         <jms:reference-file line="9">/Resources/views/login/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6e42b811dfc897c17e544df5978906014930f07c" resname="VO2max">
+      <trans-unit id="6e42b811dfc897c17e544df5978906014930f07c" resname="VO2max" approved="no">
         <source>VO2max</source>
-        <target state="new">VO2max</target>
+        <target state="translated">VO&lt;sub&gt;2&lt;/sub&gt;maks</target>
         <jms:reference-file line="102">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
         <jms:reference-file line="25">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
         <jms:reference-file line="53">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
         <jms:reference-file line="75">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
         <jms:reference-file line="5">/Resources/views/static/help_calculations.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="54b294919c619741dc51d12ff659e43d5347d972" resname="VO2max estimation for: %title%">
+      <trans-unit id="54b294919c619741dc51d12ff659e43d5347d972" resname="VO2max estimation for: %title%" approved="no">
         <source>VO2max estimation for: %title%</source>
-        <target state="new">VO2max estimation for: %title%</target>
+        <target state="translated">VO&lt;sub&gt;2&lt;/sub&gt;maks-estimering for: %title%</target>
         <jms:reference-file line="8">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="bfd0cdff1a03adbe2f268748a011596646e53f08" resname="VO2max for shape">
+      <trans-unit id="bfd0cdff1a03adbe2f268748a011596646e53f08" resname="VO2max for shape" approved="no">
         <source>VO2max for shape</source>
-        <target state="new">VO2max for shape</target>
+        <target state="translated">VO&lt;sub&gt;2&lt;/sub&gt;maks for form</target>
         <jms:reference-file line="125">/../src/CoreBundle/Form/ActivityType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e455897ed8589766daf0a127ba5c4292f017180c" resname="VO2max itself is a scientific metric for the maximal oxygen consumption that can be measured in the laboratory.&lt;br&gt;Two runners with equal VO2max values do not need to perform equally, as running efficiency plays an additional role. To overcome the issue of specifying running efficiency, one can ignore the efficiency and therefore call it effective VO2max.">
+      <trans-unit id="e455897ed8589766daf0a127ba5c4292f017180c" resname="VO2max itself is a scientific metric for the maximal oxygen consumption that can be measured in the laboratory.&lt;br&gt;Two runners with equal VO2max values do not need to perform equally, as running efficiency plays an additional role. To overcome the issue of specifying running efficiency, one can ignore the efficiency and therefore call it effective VO2max." approved="no">
         <source><![CDATA[VO2max itself is a scientific metric for the maximal oxygen consumption that can be measured in the laboratory.<br>Two runners with equal VO2max values do not need to perform equally, as running efficiency plays an additional role. To overcome the issue of specifying running efficiency, one can ignore the efficiency and therefore call it effective VO2max.]]></source>
-        <target state="new"><![CDATA[VO2max itself is a scientific metric for the maximal oxygen consumption that can be measured in the laboratory.<br>Two runners with equal VO2max values do not need to perform equally, as running efficiency plays an additional role. To overcome the issue of specifying running efficiency, one can ignore the efficiency and therefore call it effective VO2max.]]></target>
+        <target state="translated">VO&lt;sub&gt;2&lt;/sub&gt;maks i seg selv er en vitenskapelig måling for det maksimale oksygenforbruket som kan bli målt i et laboratorium.&lt;br&gt;To løpere med likt VO&lt;sub&gt;2&lt;/sub&gt;maks-verdier trenger ikke prestere likt, siden løpseffektiviteten spiller en tilleggsrolle. For å komme forbi utfordring med å spesifisere løpseffektivitet, kan man ignorere effektiviteten og derfor kalle det effektiv VO&lt;sub&gt;2&lt;/sub&gt;maks.</target>
         <jms:reference-file line="9">/Resources/views/static/help_calculations.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="3739cf9b37d36e1a7590012910f10de488cf481c" resname="VO2max values with equivalent paces">
+      <trans-unit id="3739cf9b37d36e1a7590012910f10de488cf481c" resname="VO2max values with equivalent paces" approved="no">
         <source>VO2max values with equivalent paces</source>
-        <target state="new">VO2max values with equivalent paces</target>
+        <target state="translated">VO&lt;sub&gt;2&lt;/sub&gt;maks-verdier med ekvivalente tempoer</target>
         <jms:reference-file line="19">/Resources/views/tools/tables/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e8fd3172ec81d60c9972baf777e99effd1f2ccb9" resname="VO2max values with equivalent race results">
+      <trans-unit id="e8fd3172ec81d60c9972baf777e99effd1f2ccb9" resname="VO2max values with equivalent race results" approved="no">
         <source>VO2max values with equivalent race results</source>
-        <target state="new">VO2max values with equivalent race results</target>
+        <target state="translated">VO&lt;sub&gt;2&lt;/sub&gt;maks-verdier med ekvivalente løpsresulater</target>
         <jms:reference-file line="12">/Resources/views/tools/tables/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="8dce170de238b1feda2ecd9674ea3ca0d068fbcb" resname="Value">
@@ -3801,14 +3801,14 @@
         <target state="new">You can support the development of RUNALYZE with every financial contribution — We highly appreciate every grant.</target>
         <jms:reference-file line="10">/Resources/views/static/donate.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7cf01aa2f05ae0a1ed203906322017bb242f80ed" resname="You can support us directly via Paypal">
+      <trans-unit id="7cf01aa2f05ae0a1ed203906322017bb242f80ed" resname="You can support us directly via Paypal" approved="no">
         <source>You can support us directly via Paypal</source>
-        <target state="new">You can support us directly via Paypal</target>
+        <target state="translated">Du kan støtte oss direkte via Paypal</target>
         <jms:reference-file line="14">/Resources/views/static/donate.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="653ed74d4c654ec310986c20faf5a4bbb19de0c0" resname="You can use the %linkStart%database cleanup%linkEnd% to recalculate the value.">
+      <trans-unit id="653ed74d4c654ec310986c20faf5a4bbb19de0c0" resname="You can use the %linkStart%database cleanup%linkEnd% to recalculate the value." approved="no">
         <source>You can use the %linkStart%database cleanup%linkEnd% to recalculate the value.</source>
-        <target state="new">You can use the %linkStart%database cleanup%linkEnd% to recalculate the value.</target>
+        <target state="translated">Du kan bruke verktøyet %linkStart%database opprenskning%linkEnd% for å beregne verdien på nytt.</target>
         <jms:reference-file line="120">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="e1bf481d77ef7038e06f1f0041a62f273faf035a" resname="You cannot access this item.">
@@ -3906,9 +3906,9 @@
         <jms:reference-file line="21">/Resources/views/mail/account/recoverPassword.html.twig</jms:reference-file>
         <jms:reference-file line="35">/Resources/views/mail/account/registration.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2dc714a152292bd21b80345f4c116bcc4ebdd817" resname="Your Shape: an estimation of your VO2max value">
+      <trans-unit id="2dc714a152292bd21b80345f4c116bcc4ebdd817" resname="Your Shape: an estimation of your VO2max value" approved="no">
         <source>Your Shape: an estimation of your VO2max value</source>
-        <target state="new">Your Shape: an estimation of your VO2max value</target>
+        <target state="translated">Din form: en estimering av din VO&lt;sub&gt;2&lt;/sub&gt;maks-verdi</target>
         <jms:reference-file line="19">/Resources/views/static/help_calculations.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="b700f1f9e4c08264eaa8ac13cf47870c6aa2a020" resname="Your acccount">
@@ -4003,9 +4003,9 @@
         <target state="new">Your password recovery link is not valid. Maybe the link has already expired.</target>
         <jms:reference-file line="5">/Resources/views/account/recover/hash_invalid.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="b3ac31de88e0e8708c967f831b6ffd85a51bb2f8" resname="Your personal effective VO2max is estimated based on the ratio of heart rate and pace in every of your runs.">
+      <trans-unit id="b3ac31de88e0e8708c967f831b6ffd85a51bb2f8" resname="Your personal effective VO2max is estimated based on the ratio of heart rate and pace in every of your runs." approved="no">
         <source>Your personal effective VO2max is estimated based on the ratio of heart rate and pace in every of your runs.</source>
-        <target state="new">Your personal effective VO2max is estimated based on the ratio of heart rate and pace in every of your runs.</target>
+        <target state="translated">Your personal effective VO&lt;sub&gt;2&lt;/sub&gt;maks is estimated based on the ratio of heart rate and pace in every of your runs.</target>
         <jms:reference-file line="23">/Resources/views/static/help_calculations.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="585af0ba45df165f678534f590106c5c626da314" resname="Your posters have been generated and are now available for download.">
@@ -4191,9 +4191,9 @@
         <target state="new">hrm- and gpx-files with the same name will be automatically combined.</target>
         <jms:reference-file line="89">/Resources/views/activity/import_upload.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="42c56bc5361d5f4c2466fa3b86f821af0c9886f3" resname="i.e. 50% quantile">
+      <trans-unit id="42c56bc5361d5f4c2466fa3b86f821af0c9886f3" resname="i.e. 50% quantile" approved="no">
         <source>i.e. 50% quantile</source>
-        <target state="new">i.e. 50% quantile</target>
+        <target state="translated">dvs. 50% kvantil</target>
         <jms:reference-file line="90">/Resources/views/activity/tool/time_series_statistics.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="8ccbde832c3e0f90c55b72c598844679fff2167d" resname="ignore">
