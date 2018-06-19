@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-19 09:23+0200\n"
-"PO-Revision-Date: 2018-06-19 11:16+0000\n"
+"PO-Revision-Date: 2018-06-19 11:17+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -5262,20 +5262,20 @@ msgstr "i prosent"
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:137
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:150
 msgid "by distance"
-msgstr "ved distanse"
+msgstr "etter distanse"
 
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:142
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:151
 msgid "by time"
-msgstr "ved tid"
+msgstr "etter tid"
 
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:164
 msgid "The values consider only the average data fields of your activities."
-msgstr ""
+msgstr "Denne verdien vurderer kun gjennomsnitlige datafelt i dine aktiviteter."
 
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:235
 msgid "There is no data for this sport."
-msgstr ""
+msgstr "det er ikke noen data for denne sporten."
 
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:403
 msgid "Training types"
