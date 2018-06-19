@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-19 09:23+0200\n"
-"PO-Revision-Date: 2018-06-19 07:32+0000\n"
+"PO-Revision-Date: 2018-06-19 09:22+0000\n"
 "Last-Translator: Michael Pohl <michael@mipapo.de>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -2179,7 +2179,7 @@ msgstr "Hovedsport"
 
 #: inc/core/Configuration/Category/Import.php:69
 msgid "Import"
-msgstr "Sport"
+msgstr "Import"
 
 #: inc/core/Configuration/Category/Import.php:72
 msgid "Synchronisation Fallback Sport"
@@ -2191,7 +2191,7 @@ msgstr ""
 
 #: inc/core/Configuration/Category/Import.php:77
 msgid "Beta feature"
-msgstr "Temperatur"
+msgstr ""
 
 #: inc/core/Configuration/Category/Import.php:77
 msgid "If activated you can send your activities to"
