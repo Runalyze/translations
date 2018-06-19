@@ -1305,9 +1305,9 @@
         <target state="translated">Første aktivitet</target>
         <jms:reference-file line="45">/Resources/views/shared/athlete/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="79c9e13ab7d502c6c70eca7c038f62d6c49fda0d" resname="Flat">
+      <trans-unit id="79c9e13ab7d502c6c70eca7c038f62d6c49fda0d" resname="Flat" approved="no">
         <source>Flat</source>
-        <target state="new">Flat</target>
+        <target state="translated">Fla</target>
         <jms:reference-file line="53">/Resources/views/activity/tool/climb_score.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="66587a7a62a90fc91c4c88f1872bedaa52d23a35" resname="Follow" approved="no">
@@ -1510,17 +1510,17 @@
       </trans-unit>
       <trans-unit id="7e217fa4d4b98f78392cd931a62b5db2691ec07a" resname="Hi %s, &lt;br&gt; we are sorry to hear that you wish to delete your RUNALYZE account" approved="no">
         <source><![CDATA[Hi %s, <br> we are sorry to hear that you wish to delete your RUNALYZE account]]></source>
-        <target state="translated">Hei %s, &lt;br&gt; we are sorry to hear that you wish to delete your RUNALYZE account</target>
+        <target state="translated">Hei %s, &lt;br&gt;vi beklager å høre at du ønsker å slette din RUNALYZE-konto</target>
         <jms:reference-file line="9">/Resources/views/mail/account/deleteAccountRequest.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="5c10f3be26d63b9bd2c804cee05cd9a78fd31262" resname="Hi %s, we heard that you forgot your password!">
+      <trans-unit id="5c10f3be26d63b9bd2c804cee05cd9a78fd31262" resname="Hi %s, we heard that you forgot your password!" approved="no">
         <source>Hi %s, we heard that you forgot your password!</source>
-        <target state="new">Hi %s, we heard that you forgot your password!</target>
+        <target state="translated">Hei %s, vi hørte at du har glemt passordet ditt!</target>
         <jms:reference-file line="9">/Resources/views/mail/account/recoverPassword.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="21071b4f3ec96e64a6ab4dff0a75157e7006e5ec" resname="Hi %s, welcome to RUNALYZE">
+      <trans-unit id="21071b4f3ec96e64a6ab4dff0a75157e7006e5ec" resname="Hi %s, welcome to RUNALYZE" approved="no">
         <source>Hi %s, welcome to RUNALYZE</source>
-        <target state="new">Hi %s, welcome to RUNALYZE</target>
+        <target state="translated">Hei %s, velkommen til RUNALYZE</target>
         <jms:reference-file line="14">/Resources/views/mail/account/registration.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="c66837f8fa417c1ef930ad73bc60e71e1dd031f1" resname="Hi %username%">
