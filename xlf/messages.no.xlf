@@ -1838,7 +1838,7 @@
       </trans-unit>
       <trans-unit id="495cfe1273cd2e9ac63a957a945e645cacb184ef" resname="Maximal HR" approved="no">
         <source>Maximal HR</source>
-        <target state="translated">Maksimal puls</target>
+        <target state="translated">Maksimalpuls</target>
         <jms:reference-file line="57">/../src/CoreBundle/Form/BodyValuesType.php</jms:reference-file>
         <jms:reference-file line="26">/Resources/views/my/body-values/table.html.twig</jms:reference-file>
       </trans-unit>
@@ -1852,14 +1852,14 @@
         <target state="new">Median</target>
         <jms:reference-file line="177">/Resources/views/tools/anova/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2deaec4409c237ae0bf257a0d4ccf607379bd28d" resname="Migrations have been executed">
+      <trans-unit id="2deaec4409c237ae0bf257a0d4ccf607379bd28d" resname="Migrations have been executed" approved="no">
         <source>Migrations have been executed</source>
-        <target state="new">Migrations have been executed</target>
+        <target state="translated">Overføringer har blitt utført</target>
         <jms:reference-file line="10">/Resources/views/system/update_start.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="d9b3decd4cee4e3a5df4eadb26eceeb9ad19459f" resname="Miscellaneaous">
+      <trans-unit id="d9b3decd4cee4e3a5df4eadb26eceeb9ad19459f" resname="Miscellaneaous" approved="no">
         <source>Miscellaneaous</source>
-        <target state="new">Miscellaneaous</target>
+        <target state="translated">Tilbehør</target>
         <jms:reference-file line="69">/Resources/views/static/help.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="5f2cbd107037ed23248e5058a7a64cd6bae05468" resname="Miscellaneous">
