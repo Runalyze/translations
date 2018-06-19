@@ -812,12 +812,12 @@
       </trans-unit>
       <trans-unit id="fc59b7680813e392a47dce4ce3ea565563315cb7" resname="Customer feedback" approved="no">
         <source>Customer feedback</source>
-        <target state="translated">Tilbakemelding fra forbruker</target>
+        <target state="translated">Kundetilbakemelding</target>
         <jms:reference-file line="62">/../src/CoreBundle/Services/AccountMailer.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="b8ca49c5d521865dc1abd077b13cee2d18478631" resname="Cycling">
+      <trans-unit id="b8ca49c5d521865dc1abd077b13cee2d18478631" resname="Cycling" approved="no">
         <source>Cycling</source>
-        <target state="new">Cycling</target>
+        <target state="translated">Sykling</target>
         <jms:reference-file line="24">/Resources/views/settings/sport/form-zone.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="46efcb7560a624acf05b1eba3eaa6c0355e3c341" resname="DIN A0">
@@ -845,9 +845,9 @@
         <target state="new">DIN A4</target>
         <jms:reference-file line="87">/../src/CoreBundle/Form/Tools/PosterType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="963a652eae1830dbcfc8c3f89ec2fe5c1289911f" resname="Danger zone">
+      <trans-unit id="963a652eae1830dbcfc8c3f89ec2fe5c1289911f" resname="Danger zone" approved="no">
         <source>Danger zone</source>
-        <target state="new">Danger zone</target>
+        <target state="translated">Faresone</target>
         <jms:reference-file line="3">/Resources/views/_macro/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="61534a81a114ead07b6aaa7eafae777835f43ce4" resname="Data export">
@@ -855,9 +855,9 @@
         <target state="new">Data export</target>
         <jms:reference-file line="61">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="28d138800a45ecbb1695a0aba0ce72b3b1d2199c" resname="Data selection">
+      <trans-unit id="28d138800a45ecbb1695a0aba0ce72b3b1d2199c" resname="Data selection" approved="no">
         <source>Data selection</source>
-        <target state="new">Data selection</target>
+        <target state="translated">Datautvalg</target>
         <jms:reference-file line="12">/Resources/views/tools/anova/base.html.twig</jms:reference-file>
         <jms:reference-file line="12">/Resources/views/tools/trend-analysis/base.html.twig</jms:reference-file>
       </trans-unit>
@@ -866,9 +866,9 @@
         <target state="new">Database backup (*.sql.gz)</target>
         <jms:reference-file line="19">/../src/CoreBundle/Form/Tools/BackupExportType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="008e64c22ae969baec4cbb0163ea23ca35d5e35a" resname="Database cleanup">
+      <trans-unit id="008e64c22ae969baec4cbb0163ea23ca35d5e35a" resname="Database cleanup" approved="no">
         <source>Database cleanup</source>
-        <target state="new">Database cleanup</target>
+        <target state="translated">Database oppfriskning</target>
         <jms:reference-file line="5">/Resources/views/tools/database_cleanup/base.html.twig</jms:reference-file>
         <jms:reference-file line="70">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
       </trans-unit>
@@ -883,9 +883,9 @@
         <target state="new">Database import</target>
         <jms:reference-file line="5">/Resources/views/tools/backup/base_import.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="1052689464e38f5066d86e3788d5e61cde890281" resname="Dataset">
+      <trans-unit id="1052689464e38f5066d86e3788d5e61cde890281" resname="Dataset" approved="no">
         <source>Dataset</source>
-        <target state="new">Dataset</target>
+        <target state="translated">Datasett</target>
         <jms:reference-file line="72">/Resources/views/base_logged_in.twig</jms:reference-file>
         <jms:reference-file line="5">/Resources/views/settings/dataset.html.twig</jms:reference-file>
       </trans-unit>
@@ -903,14 +903,14 @@
         <target state="new">Dec</target>
         <jms:reference-file line="53">/Resources/views/_macro/utilities.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="925e9f7f8cd9282fac17c0522a53cd5500039471" resname="Default activity type">
+      <trans-unit id="925e9f7f8cd9282fac17c0522a53cd5500039471" resname="Default activity type" approved="no">
         <source>Default activity type</source>
-        <target state="new">Default activity type</target>
+        <target state="translated">Standard aktivitetstype</target>
         <jms:reference-file line="175">/../src/CoreBundle/Form/Settings/SportType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="d245ce64e0359b7bd2410ee23050f22ba893f322" resname="Default configuration has been restored!">
+      <trans-unit id="d245ce64e0359b7bd2410ee23050f22ba893f322" resname="Default configuration has been restored!" approved="no">
         <source>Default configuration has been restored!</source>
-        <target state="new">Default configuration has been restored!</target>
+        <target state="translated">Standardkonfigurasjon har blitt gjennopprettet!</target>
         <jms:reference-file line="53">/../src/CoreBundle/Controller/Settings/SettingsController.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="45f8f1c383a839408b19d0aeeab6bef449e056fb" resname="Default privacy">
@@ -919,31 +919,31 @@
         <jms:reference-file line="110">/../src/CoreBundle/Form/Settings/SportType.php</jms:reference-file>
         <jms:reference-file line="21">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="a54ee46a423126edefebe7a306f4ce3d6e1bdee2" resname="Default privacy setting for all new created activities of this sport type.">
+      <trans-unit id="a54ee46a423126edefebe7a306f4ce3d6e1bdee2" resname="Default privacy setting for all new created activities of this sport type." approved="no">
         <source>Default privacy setting for all new created activities of this sport type.</source>
-        <target state="new">Default privacy setting for all new created activities of this sport type.</target>
+        <target state="translated">Standard personverninnstilling for alle nye aktiviteter av denne sportstypen.</target>
         <jms:reference-file line="48">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="ed984ce26086e81b8e5ce7a23ae5baa88ce01006" resname="Default race type">
+      <trans-unit id="ed984ce26086e81b8e5ce7a23ae5baa88ce01006" resname="Default race type" approved="no">
         <source>Default race type</source>
-        <target state="new">Default race type</target>
+        <target state="translated">Standard konkurransetype</target>
         <jms:reference-file line="187">/../src/CoreBundle/Form/Settings/SportType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="faf49b1e2de23a37f81b54ab6186d82c1089207a" resname="Default zones">
+      <trans-unit id="faf49b1e2de23a37f81b54ab6186d82c1089207a" resname="Default zones" approved="no">
         <source>Default zones</source>
-        <target state="new">Default zones</target>
+        <target state="translated">Standardsoner</target>
         <jms:reference-file line="65">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="1cf6934a3e6a8d1d7daddb24f229e4c35ec88aab" resname="Defining some laps as 'resting' will hide them in the respective plot.">
+      <trans-unit id="1cf6934a3e6a8d1d7daddb24f229e4c35ec88aab" resname="Defining some laps as 'resting' will hide them in the respective plot." approved="no">
         <source>Defining some laps as 'resting' will hide them in the respective plot.</source>
-        <target state="new">Defining some laps as 'resting' will hide them in the respective plot.</target>
+        <target state="translated">Definere noen runder som 'hvile' vill skjulde dem i de respektive plottene.</target>
         <jms:reference-file line="85">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="aaae84143938ffb5470678a0f315970f6a4fa81d" resname="Definitions for training paces vary a lot, depending on which philosophy one looks at.&#10;            This table specifies paces at various percentages of %vVO2max%, which equals approximately the maximal pace for 11 minutes.&#10;        ">
+      <trans-unit id="aaae84143938ffb5470678a0f315970f6a4fa81d" resname="Definitions for training paces vary a lot, depending on which philosophy one looks at.&#10;            This table specifies paces at various percentages of %vVO2max%, which equals approximately the maximal pace for 11 minutes.&#10;        " approved="no">
         <source xml:space="preserve">Definitions for training paces vary a lot, depending on which philosophy one looks at.
             This table specifies paces at various percentages of %vVO2max%, which equals approximately the maximal pace for 11 minutes.
         </source>
-        <target xml:space="preserve" state="new">Definitions for training paces vary a lot, depending on which philosophy one looks at.
+        <target xml:space="preserve" state="translated">Definisjoner for treningstempo varierer mye, avhengig av hvilken filosofi man ser på.
             This table specifies paces at various percentages of %vVO2max%, which equals approximately the maximal pace for 11 minutes.
         </target>
         <jms:reference-file line="7">/Resources/views/tools/tables/vo2max_paces.html.twig</jms:reference-file>
