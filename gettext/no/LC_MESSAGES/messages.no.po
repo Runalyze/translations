@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-19 09:23+0200\n"
-"PO-Revision-Date: 2018-06-19 09:31+0000\n"
+"PO-Revision-Date: 2018-06-19 09:51+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -2212,11 +2212,11 @@ msgstr "Legg dette passordet til subjektet i e-posten din"
 #: inc/core/Configuration/Category/Import.php:85
 msgid "The mail must be sent from the mail address defined in your account."
 msgstr ""
-"E-posten må være sendt fra den e-post-adressen som er definert i din konto"
+"E-posten må være sendt fra den e-post-adressen som er definert i din konto."
 
 #: inc/core/Configuration/Category/Import.php:86
 msgid "Read more about this feature in our blog"
-msgstr ""
+msgstr "Les mer om denne funksjonen i vår blogg"
 
 #: inc/core/Parameter/Application/DatabaseOrder.php:44
 msgid "id (oldest first)"
@@ -3480,16 +3480,18 @@ msgid "Running Dynamics"
 msgstr "Løpsdynamikk"
 
 #: inc/training/view/section/class.SectionHRVRow.php:30
+#, fuzzy
 msgid "R-R intervals"
-msgstr ""
+msgstr "R-R intervals"
 
 #: inc/training/view/section/class.SectionHRVRow.php:31
+#, fuzzy
 msgid "Successive differences"
-msgstr ""
+msgstr "Suksessive forskjeller"
 
 #: inc/training/view/section/class.SectionHRVRow.php:32
 msgid "Poincaré plot"
-msgstr ""
+msgstr "Poincaré-plott"
 
 #: inc/training/view/section/class.SectionHRVRow.php:52
 msgid "Anomalies"
@@ -4125,11 +4127,11 @@ msgstr "Vis aktuell/kronisk treningslast og stressbalanse (basert på TRIMP)"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:51
 msgid "Show: Monotony/TS"
-msgstr ""
+msgstr "Vis: Monotoni/TS"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:52
 msgid "Show monotony and training strain (based on TRIMP)"
-msgstr ""
+msgstr "Vis monotoni og treningspress (basert på TRIMP)"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:55
 msgid "Show: VO<sub>2</sub>max shape"
@@ -4153,7 +4155,7 @@ msgstr "Vis form"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:79
 msgid "Show training paces"
-msgstr ""
+msgstr "Vis treningstempo"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:80
 msgid "How are these values calculated?"
@@ -4161,7 +4163,7 @@ msgstr "Hvordan er disse verdiene beregnet?"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:81
 msgid "Explanations: What are VO2max and TRIMP?"
-msgstr ""
+msgstr "Forklaringer: Hva er VO[sub]2[/sub]maks og TRIMP?"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:100
 msgid "There are not enough activities for good calculations."
@@ -4175,16 +4177,16 @@ msgstr "Nåværende verdi: %s<br>Maksimal verdi: %s<br>som prosent: %s &#37;"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:183
 msgid "Fatigue"
-msgstr ""
+msgstr "Utmattelse"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:184
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:343
 msgid "Acute Training Load"
-msgstr ""
+msgstr "Akutt TreningsLast"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:194
 msgid "Fitness&nbsp;level"
-msgstr ""
+msgstr "Formnivå"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:195
 msgid "Chronic Training Load"
@@ -4197,69 +4199,71 @@ msgstr "absolutt: %s<br>som prosent : %s &#37;"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:205
 msgid "Stress Balance"
-msgstr ""
+msgstr "Stressbalanse"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:206
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:361
 msgid "Training Stress Balance"
-msgstr ""
+msgstr "TreningsStressBalanse"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:215
 msgid "Rest days"
-msgstr ""
+msgstr "Hviledager"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:216
 msgid "Rest days needed to reach TSB = 0"
-msgstr ""
+msgstr "Hviledager som behøves for å nå TSB = 0"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:224
 msgid "Easy TRIMP"
-msgstr ""
+msgstr "Lett TRIMP"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:241
 msgid "Monotony"
-msgstr ""
+msgstr "Monotoni"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:242
 msgid ""
 "Monotony<br><small>Monotony of your last seven days.<br>Values below 1.5 are "
 "preferable.</small>"
 msgstr ""
+"Monotoni<br><small>Monotoni av dine siste syv dager.<br>Verdier under 1.5 er "
+"foretrukket.</small>"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:259
 msgid "Training strain"
-msgstr ""
+msgstr "Treningspress"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:260
 msgid "Training strain<br><small>of your last seven days</small>"
-msgstr ""
+msgstr "Treningspress<br><small>av dine siste syv dager</small>"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:332
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:398
 msgid "Name"
-msgstr ""
+msgstr "Navn"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:333
 msgid "in &#37;"
-msgstr ""
+msgstr "i &#37;"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:335
 msgid "value/day"
-msgstr ""
+msgstr "verdi/dag"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:336
 msgid "max. value"
-msgstr ""
+msgstr "maks verdi"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:345
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:354
 #, php-format
 msgid "%s days"
-msgstr ""
+msgstr "%s dag(er)"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:348
 msgid "Training impulse over a short period"
-msgstr ""
+msgstr "Treningsimpuls over en kort periode"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:352
 msgid "Chronical Training Load"
@@ -4267,7 +4271,7 @@ msgstr "Kronisk treningslast"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:357
 msgid "Training impulse over a long period"
-msgstr ""
+msgstr "Treningsimpuls over en lang periode"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:364
 msgid "Current impulse<br>positive: recovery<br>negative: hard training"
@@ -4278,6 +4282,8 @@ msgid ""
 "ATL/CTL are based on the TRIMP-concept, which adresses an impulse value to "
 "every activity. ATL and CTL are averaged values over a given time range."
 msgstr ""
+"ATL/CTL er basert på TRIMP-konseptet, som gir hver aktivitet en impulsverdi. "
+"ATL og CTL er rullende gjennomsnittsverdier over et gitt tidsintervall."
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:374
 msgid ""
@@ -4302,7 +4308,7 @@ msgstr ""
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:395
 #, php-format
 msgid "Effective VO<sub>2</sub>max values of the last %s days"
-msgstr ""
+msgstr "Effektiv VO<sub>2</sub>maks-verdier voer de siste %s dag(er)"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:420
 #, php-format
@@ -4327,6 +4333,12 @@ msgid ""
 "running efficiency, one can ignore the efficiency and therefore call it "
 "effective VO<sub>2</sub>max."
 msgstr ""
+"VO<sub>2</sub>maks i seg selv er en vitenskapelig måling for det maksimale "
+"oksygenforbruket som kan bli målt i et laboratorium.<br>To løpere med likt "
+"VO<sub>2</sub>maks-verdier trenger ikke prestere likt, siden "
+"løpseffektiviteten spiller en tilleggsrolle. For å komme forbi utfordring "
+"med å spesifisere løpseffektivitet, kan man ignorere effektiviteten og "
+"derfor kalle det effektiv VO<sub>2</sub>maks."
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:446
 msgid "Current Effective VO<sub>2</sub>max"
@@ -4338,26 +4350,26 @@ msgstr "basert på puls"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:449
 msgid "Target kilometer per week"
-msgstr ""
+msgstr "Mål kilometer per uke"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:451
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:462
 #, php-format
 msgid "done by %s&#37;"
-msgstr ""
+msgstr "fullført %s&#37;"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:457
 msgid "<strong>Marathon time</strong> <small>(optimal)</small>"
-msgstr ""
+msgstr "<strong>Maratontid</strong><small>(optimal)</small>"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:460
 #, php-format
 msgid "<strong>Target long run</strong> <small>(%s weeks)</small>"
-msgstr ""
+msgstr "<strong>Mål langløp</strong><small>%s uker</small>"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:474
 msgid "Points"
-msgstr ""
+msgstr "Punkter"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:500
 #, php-format
@@ -4365,6 +4377,7 @@ msgid ""
 "* %s &quot;long&quot; jogs do not show up, because they have less than 0.2 "
 "points."
 msgstr ""
+"* %s &quot;langløp&quot; vises ikke siden de har fått mindre enn 0.2 poeng"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:502
 #, php-format
