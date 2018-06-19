@@ -1173,7 +1173,7 @@
       </trans-unit>
       <trans-unit id="1e1a1441ddd7642f03888de8ce4202c6545a6073" resname="Effective VO2max values are only available for distances of at least one kilometer." approved="no">
         <source>Effective VO2max values are only available for distances of at least one kilometer.</source>
-        <target state="translated">Effektiv VO2max .</target>
+        <target state="translated">Effektiv VO2max values are only available for distances of at least one kilometer.</target>
         <jms:reference-file line="49">/Resources/views/my/raceresult/performance_chart.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="5c501758d720d6b23e8aadc62648655316961e3d" resname="Elapsed time">
