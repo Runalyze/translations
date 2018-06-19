@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-19 09:23+0200\n"
-"PO-Revision-Date: 2018-06-19 11:01+0000\n"
+"PO-Revision-Date: 2018-06-19 11:09+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -5010,7 +5010,7 @@ msgstr "Distanse å forutse"
 
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:78
 msgid "Prediction model"
-msgstr "Modell for å forutse"
+msgstr "Modell for framsyn"
 
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:87
 msgid "Use marathon shape"
@@ -5039,7 +5039,7 @@ msgstr "Det er ikke mange nok resultater for gode framsyn."
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:218
 #, php-format
 msgid "<small>from</small> %s <small>to</small> <strong>%s</strong>"
-msgstr ""
+msgstr "<small>fra</small> %s <small>til</small> <strong>%s</strong>"
 
 #: plugin/RunalyzePluginPanel_Sportler/Plot.gewicht.php:41
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:102
@@ -5049,21 +5049,21 @@ msgstr "Hvilepuls"
 #: plugin/RunalyzePluginPanel_Sportler/Plot.analyse.php:42
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:116
 msgid "Fat"
-msgstr ""
+msgstr "Fett"
 
 #: plugin/RunalyzePluginPanel_Sportler/Plot.analyse.php:43
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:119
 msgid "Water"
-msgstr ""
+msgstr "Vann"
 
 #: plugin/RunalyzePluginPanel_Sportler/Plot.analyse.php:44
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:122
 msgid "Muscles"
-msgstr ""
+msgstr "Muskler"
 
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:19
 msgid "Body values"
-msgstr ""
+msgstr "Kroppsverdier"
 
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:27
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:43
@@ -5076,27 +5076,27 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:51
 msgid "Desired body weight"
-msgstr ""
+msgstr "Ønsket kroppsvekt"
 
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:52
 msgid "Plot: number of points"
-msgstr ""
+msgstr "Plott: antall punkter"
 
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:53
 msgid "<small>or</small> fixed number of days"
-msgstr ""
+msgstr "<small>eller</small> fast antall dag(er)"
 
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:53
 msgid "Enter a value &ge; 0 to show a fixed time range."
-msgstr ""
+msgstr "Anngi en verdi &ge; 0 for å vise et fast tidsintervall."
 
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:64
 msgid "Add data"
-msgstr ""
+msgstr "Legg til data"
 
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:65
 msgid "Show table"
-msgstr ""
+msgstr "Vis tabell"
 
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:90
 msgid "Enter maximal HR"
@@ -5104,7 +5104,7 @@ msgstr "Oppgi maksimalpuls"
 
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:90
 msgid "Otherwise calculations will be wrong"
-msgstr ""
+msgstr "Ellers vil beregninger bli feil"
 
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:103
 msgid "Maximal HR"
@@ -5112,76 +5112,78 @@ msgstr "Maksimalpuls"
 
 #: plugin/RunalyzePluginPanel_Sportler/class.RunalyzePluginPanel_Sportler.php:147
 msgid "Other values"
-msgstr ""
+msgstr "Andre verdier"
 
 #: plugin/RunalyzePluginStat_Rekorde/class.RunalyzePluginStat_Rekorde.php:31
 msgid "Records"
-msgstr ""
+msgstr "Rekorder"
 
 #: plugin/RunalyzePluginStat_Rekorde/class.RunalyzePluginStat_Rekorde.php:39
 msgid "Faster, longer, better: Your records from your activities."
-msgstr ""
+msgstr "Raskere, lengre, bedre: Dine rekorder fra dine aktiviteter."
 
 #: plugin/RunalyzePluginStat_Rekorde/class.RunalyzePluginStat_Rekorde.php:125
 #: plugin/RunalyzePluginStat_Rekorde/class.RunalyzePluginStat_Rekorde.php:141
 msgid "No data available"
-msgstr ""
+msgstr "Ingen data tilgjengelig"
 
 #: plugin/RunalyzePluginStat_Rekorde/class.RunalyzePluginStat_Rekorde.php:137
 msgid "Most kilometers"
-msgstr ""
+msgstr "Flest kilometer"
 
 #: plugin/RunalyzePluginStat_Rekorde/class.RunalyzePluginStat_Rekorde.php:150
 msgid "per year"
-msgstr ""
+msgstr "per år"
 
 #: plugin/RunalyzePluginStat_Rekorde/class.RunalyzePluginStat_Rekorde.php:161
 msgid "per month"
-msgstr ""
+msgstr "per måned"
 
 #: plugin/RunalyzePluginStat_Rekorde/class.RunalyzePluginStat_Rekorde.php:171
 msgid "per week"
-msgstr ""
+msgstr "per uke"
 
 #: plugin/RunalyzePluginStat_Rekorde/class.RunalyzePluginStat_Rekorde.php:191
 msgid "Fastest activities"
-msgstr ""
+msgstr "Raskeste aktiviteter"
 
 #: plugin/RunalyzePluginStat_Rekorde/class.RunalyzePluginStat_Rekorde.php:196
 msgid "Longest activities"
-msgstr ""
+msgstr "Lengste aktiviteter"
 
 #: plugin/RunalyzePluginStat_Statistiken/class.RunalyzePluginStat_Statistiken.php:46
 msgid "Monthly and weekly summaries for all sports"
-msgstr ""
+msgstr "Månedlig og ukentlig oppsummering for alle sporter"
 
 #: plugin/RunalyzePluginStat_Statistiken/class.RunalyzePluginStat_Statistiken.php:54
 #: plugin/RunalyzePluginStat_Statistiken/class.RunalyzePluginStat_Statistiken.php:63
 msgid "General overview"
-msgstr ""
+msgstr "Generell oversikt"
 
 #: plugin/RunalyzePluginStat_Statistiken/class.RunalyzePluginStat_Statistiken.php:55
 #: plugin/RunalyzePluginStat_Statistiken/class.RunalyzePluginStat_Statistiken.php:64
 msgid "All training weeks"
-msgstr ""
+msgstr "Alle treningsuker"
 
 #: plugin/RunalyzePluginStat_Statistiken/class.RunalyzePluginStat_Statistiken.php:112
 msgid ""
 "This plugin shows summaries for all weeks, months or years to compare your "
 "overall training."
 msgstr ""
+"Dette tillegget viser oppsummering for alle uker, måneder eller år for å "
+"sammenligne din totale trening."
 
 #: plugin/RunalyzePluginStat_Statistiken/class.RunalyzePluginStat_Statistiken.php:121
 msgid "Compare kilometers per week"
-msgstr ""
+msgstr "Sammenlign kilometer per uke"
 
 #: plugin/RunalyzePluginStat_Statistiken/class.RunalyzePluginStat_Statistiken.php:122
 msgid "Show streak"
-msgstr ""
+msgstr "Vis serie"
 
 #: plugin/RunalyzePluginStat_Statistiken/class.RunalyzePluginStat_Statistiken.php:123
 msgid "Minimum number of days to show a streak (0 for always)"
-msgstr ""
+msgstr "Minimum antall dag(er) for å vise opphold (0 for alltid)."
 
 #: plugin/RunalyzePluginStat_Statistiken/class.RunalyzePluginStat_Statistiken.php:221
 msgid "If you run today: "
