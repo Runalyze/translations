@@ -1078,7 +1078,7 @@
                         You can trigger a recalculation if you think they are wrong.
                         In addition, values for elevation, TRIMP and %VO2max% can be recalculated.</source>
         <target xml:space="preserve" state="translated">På grunn av ytelsesårsaker lagres noe statistikk i databasen.
-                        You can trigger a recalculation if you think they are wrong.
+                        Du kan aktivere en ny beregning hvis du tror de er feil.
                         In addition, values for elevation, TRIMP and %VO2max% can be recalculated.</target>
         <jms:reference-file line="72">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
       </trans-unit>
