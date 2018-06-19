@@ -1672,17 +1672,17 @@
       </trans-unit>
       <trans-unit id="68d71b3c12159ba11a1a8b433401182bfd1b8a15" resname="Index to categorize climbs by Dutch cycling magazine fiets." approved="no">
         <source>Index to categorize climbs by Dutch cycling magazine fiets.</source>
-        <target state="translated">Indeks for å kategorisere klatrer av nederlandske sykkelmagasinbåter.</target>
+        <target state="translated">Indeks for å kategorisere klatringer i nederlandske sykkelmagasiner.</target>
         <jms:reference-file line="77">/Resources/views/activity/tool/climb_score.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="42401823774f2c1301a6addca86bbc3987435e54" resname="Indicates the order of appearance.">
+      <trans-unit id="42401823774f2c1301a6addca86bbc3987435e54" resname="Indicates the order of appearance." approved="no">
         <source>Indicates the order of appearance.</source>
-        <target state="new">Indicates the order of appearance.</target>
+        <target state="translated">Angir rekkefølgen på fremstilling.</target>
         <jms:reference-file line="32">/Resources/views/settings/dataset.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="03ecfa6479fa3a2e7a65a8600de304ee43c7dd32" resname="Influence">
+      <trans-unit id="03ecfa6479fa3a2e7a65a8600de304ee43c7dd32" resname="Influence" approved="no">
         <source>Influence</source>
-        <target state="new">Influence</target>
+        <target state="translated">Påvirke</target>
         <jms:reference-file line="106">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="3ef9991215a6c3771144983d30fb97543029dd6d" resname="Internal sport">
