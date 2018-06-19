@@ -1241,23 +1241,23 @@
       </trans-unit>
       <trans-unit id="9149cfc2a4ecb3f98b8f6d97b09fc179c7f0f1ac" resname="Enter your current password" approved="no">
         <source>Enter your current password</source>
-        <target state="translated">Oppgi</target>
+        <target state="translated">Oppgi ditt nåværende passord</target>
         <jms:reference-file line="19">/../src/CoreBundle/Form/Settings/ChangeMailType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="36155d48f460d339ac29c2069ba7e011cbc7b0b7" resname="Equipment">
+      <trans-unit id="36155d48f460d339ac29c2069ba7e011cbc7b0b7" resname="Equipment" approved="no">
         <source>Equipment</source>
-        <target state="new">Equipment</target>
+        <target state="translated">Utstyr</target>
         <jms:reference-file line="175">/Resources/views/activity/form.html.twig</jms:reference-file>
         <jms:reference-file line="74">/Resources/views/base_logged_in.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e7d75f0ebb7605b0851eaf209f229326dadbbaa5" resname="Equipment types">
+      <trans-unit id="e7d75f0ebb7605b0851eaf209f229326dadbbaa5" resname="Equipment types" approved="no">
         <source>Equipment types</source>
-        <target state="new">Equipment types</target>
+        <target state="translated">Utstyrstyper</target>
         <jms:reference-file line="133">/../src/CoreBundle/Form/Tools/Anova/AnovaType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="0f01ed56a1e32a05e5ef96e4d779f34784af9a96" resname="Example">
+      <trans-unit id="0f01ed56a1e32a05e5ef96e4d779f34784af9a96" resname="Example" approved="no">
         <source>Example</source>
-        <target state="new">Example</target>
+        <target state="translated">Eksempel</target>
         <jms:reference-file line="34">/Resources/views/settings/dataset.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="5865db90602e99b4a08730ff7963210b372e5d36" resname="FIETS">
@@ -1265,14 +1265,14 @@
         <target state="new">FIETS</target>
         <jms:reference-file line="77">/Resources/views/activity/tool/climb_score.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="cf81bf779afb7ccebc0511cac012cfb2f0fc3899" resname="FIT details">
+      <trans-unit id="cf81bf779afb7ccebc0511cac012cfb2f0fc3899" resname="FIT details" approved="no">
         <source>FIT details</source>
-        <target state="new">FIT details</target>
+        <target state="translated">FIT detaljer</target>
         <jms:reference-file line="148">/../src/CoreBundle/Form/Tools/TrendAnalysis/TrendAnalysisType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="1695ec3b5783d23472499b43968a8f056487e011" resname="Factor model">
+      <trans-unit id="1695ec3b5783d23472499b43968a8f056487e011" resname="Factor model" approved="no">
         <source>Factor model</source>
-        <target state="new">Factor model</target>
+        <target state="translated">Faktormodell</target>
         <jms:reference-file line="96">/Resources/views/tools/anova/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="7b71bd0c3d7679a8e2749e3877c27f8e48900246" resname="Fat">
