@@ -4687,7 +4687,7 @@ msgstr "Ingen aktiviteter funnet."
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:104
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:151
 msgid "Race results"
-msgstr "konkurranseresultat"
+msgstr "konkurranseresultater"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:60
 msgid "Personal bests and everything else related to your competitions."
