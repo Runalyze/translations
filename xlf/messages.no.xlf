@@ -1964,32 +1964,32 @@
       </trans-unit>
       <trans-unit id="5cc9013545b24e0b3d099697fcb2bcd06192ac09" resname="No activities found." approved="no">
         <source>No activities found.</source>
-        <target state="translated">Fant ingen aktiviteter</target>
+        <target state="translated">Fant ingen aktiviteter.</target>
         <jms:reference-file line="41">/Resources/views/my/statistics/monthly-stats/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="a583f70afc2894985ba47b8bc07e76e49e52e709" resname="No activity found.">
+      <trans-unit id="a583f70afc2894985ba47b8bc07e76e49e52e709" resname="No activity found." approved="no">
         <source>No activity found.</source>
-        <target state="new">No activity found.</target>
+        <target state="translated">Fant ingen aktiviteter.</target>
         <jms:reference-file line="4">/Resources/views/shared/invalid_activity.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="36b11606b4755905a584cd911473f6d76055347f" resname="No athlete found.">
+      <trans-unit id="36b11606b4755905a584cd911473f6d76055347f" resname="No athlete found." approved="no">
         <source>No athlete found.</source>
-        <target state="new">No athlete found.</target>
+        <target state="translated">Fant ingen utøver.</target>
         <jms:reference-file line="4">/Resources/views/shared/invalid_athlete.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="4e9fde9f5797c2c3154cbe0edcc6284bb49ca0c5" resname="No data available since %date%.">
+      <trans-unit id="4e9fde9f5797c2c3154cbe0edcc6284bb49ca0c5" resname="No data available since %date%." approved="no">
         <source>No data available since %date%.</source>
-        <target state="new">No data available since %date%.</target>
+        <target state="translated">Ingen data tilgjengelig siden %date%.</target>
         <jms:reference-file line="42">/Resources/views/my/panels/sports/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="929ebf2080421a22a3a8b01c4e34d2099d5172dc" resname="No data available.">
+      <trans-unit id="929ebf2080421a22a3a8b01c4e34d2099d5172dc" resname="No data available." approved="no">
         <source>No data available.</source>
-        <target state="new">No data available.</target>
+        <target state="translated">Ingen data tilgjengelig.</target>
         <jms:reference-file line="52">/Resources/views/my/body-values/table.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="aa729739dd7fc861465488ea736619166a72da76" resname="No devices found">
+      <trans-unit id="aa729739dd7fc861465488ea736619166a72da76" resname="No devices found" approved="no">
         <source>No devices found</source>
-        <target state="new">No devices found</target>
+        <target state="translated">Fant ingen enheter</target>
         <jms:reference-file line="58">/Resources/views/import/garmin_communicator.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="6631dc85a2a3ce4360d3a6f8069bc067fc290be1" resname="No new notifications">
@@ -1997,26 +1997,26 @@
         <target state="new">No new notifications</target>
         <jms:reference-file line="43">/Resources/views/base_logged_in.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="0035403387839cb4aaa62a675de42063993cbc37" resname="No results.">
+      <trans-unit id="0035403387839cb4aaa62a675de42063993cbc37" resname="No results." approved="no">
         <source>No results.</source>
-        <target state="new">No results.</target>
+        <target state="translated">Ingen resultater.</target>
         <jms:reference-file line="150">/Resources/views/tools/anova/base.html.twig</jms:reference-file>
         <jms:reference-file line="131">/Resources/views/tools/trend-analysis/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="bf8134993000cbf3c6fad37651c358923e0a91ab" resname="No significant climbs could be detected.">
+      <trans-unit id="bf8134993000cbf3c6fad37651c358923e0a91ab" resname="No significant climbs could be detected." approved="no">
         <source>No significant climbs could be detected.</source>
-        <target state="new">No significant climbs could be detected.</target>
+        <target state="translated">Oppdagete ingen signifikante stigninger.</target>
         <jms:reference-file line="85">/Resources/views/activity/tool/climb_score.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="f4a714581ee399d4a479a2fc5647281ced144ab8" resname="No update needed">
+      <trans-unit id="f4a714581ee399d4a479a2fc5647281ced144ab8" resname="No update needed" approved="no">
         <source>No update needed</source>
-        <target state="new">No update needed</target>
+        <target state="translated">Trengs ingen oppdatering</target>
         <jms:reference-file line="14">/Resources/views/system/update.html.twig</jms:reference-file>
         <jms:reference-file line="6">/Resources/views/system/update_start.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="967cc7c86103bddb80ee5da25ffadc30702050da" resname="No weather data present">
+      <trans-unit id="967cc7c86103bddb80ee5da25ffadc30702050da" resname="No weather data present" approved="no">
         <source>No weather data present</source>
-        <target state="new">No weather data present</target>
+        <target state="translated">Værdata er ikke tilgjengelig</target>
         <jms:reference-file line="156">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="6eef6648406c333a4035cd5e60d0bf2ecf2606d7" resname="None">
