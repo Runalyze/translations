@@ -1275,14 +1275,14 @@
         <target state="translated">Faktormodell</target>
         <jms:reference-file line="96">/Resources/views/tools/anova/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7b71bd0c3d7679a8e2749e3877c27f8e48900246" resname="Fat">
+      <trans-unit id="7b71bd0c3d7679a8e2749e3877c27f8e48900246" resname="Fat" approved="no">
         <source>Fat</source>
-        <target state="new">Fat</target>
+        <target state="translated">Fett</target>
         <jms:reference-file line="27">/Resources/views/my/body-values/table.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="fc338f87a058158eb824b53705961801516a9460" resname="Features">
+      <trans-unit id="fc338f87a058158eb824b53705961801516a9460" resname="Features" approved="no">
         <source>Features</source>
-        <target state="new">Features</target>
+        <target state="translated">Funksjoner</target>
         <jms:reference-file line="26">/Resources/views/shared/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="dc8415ccfe52505f1d0a74025c76b3c26c88c59d" resname="Feb">
