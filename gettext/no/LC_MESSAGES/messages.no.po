@@ -1,11 +1,10 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+#: inc/core/Dataset/Keys/ClimbScore.php:32
+#: inc/core/Dataset/Keys/PercentageHilly.php:32
+msgid ""
+msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: mail@runalyze.com\n"
-"POT-Creation-Date: 2018-06-02 14:20+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-19 09:23+0200\n"
 "PO-Revision-Date: 2018-06-18 14:32+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
