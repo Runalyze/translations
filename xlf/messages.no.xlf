@@ -1561,12 +1561,12 @@
       </trans-unit>
       <trans-unit id="68d056f40d4a2b2532050de43317783cbad9b877" resname="If activated: Display a summary for each private activity in the public activity list." approved="no">
         <source>If activated: Display a summary for each private activity in the public activity list.</source>
-        <target state="translated">Hvis aktivert: Vis en oppsummering for hver privat aktivitet i den offentlige aktivitetslisten</target>
+        <target state="translated">Hvis aktivert: Vis en oppsummering for hver privat aktivitet i den offentlige aktivitetslisten.</target>
         <jms:reference-file line="23">/Resources/views/settings/privacy.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="554783b2d88078e0fb21042658be0ca489c9fa3b" resname="If activated: Everyone can see a list of all your (public) activities.">
+      <trans-unit id="554783b2d88078e0fb21042658be0ca489c9fa3b" resname="If activated: Everyone can see a list of all your (public) activities." approved="no">
         <source>If activated: Everyone can see a list of all your (public) activities.</source>
-        <target state="new">If activated: Everyone can see a list of all your (public) activities.</target>
+        <target state="translated">Hvis aktivert: Alle kan se en liste over dine (offentlige) aktiviteter.</target>
         <jms:reference-file line="17">/Resources/views/settings/privacy.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="af020665d53d5e3afdce797db7038ee343a5d988" resname="If the link does not work, please copy the following URL into the address field of your web browser">
