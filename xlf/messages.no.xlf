@@ -1267,7 +1267,7 @@
       </trans-unit>
       <trans-unit id="cf81bf779afb7ccebc0511cac012cfb2f0fc3899" resname="FIT details" approved="no">
         <source>FIT details</source>
-        <target state="translated">FIT detaljer</target>
+        <target state="translated">FIT detalj</target>
         <jms:reference-file line="148">/../src/CoreBundle/Form/Tools/TrendAnalysis/TrendAnalysisType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="1695ec3b5783d23472499b43968a8f056487e011" resname="Factor model" approved="no">
@@ -1307,7 +1307,7 @@
       </trans-unit>
       <trans-unit id="79c9e13ab7d502c6c70eca7c038f62d6c49fda0d" resname="Flat" approved="no">
         <source>Flat</source>
-        <target state="translated">Fla</target>
+        <target state="translated">Flat</target>
         <jms:reference-file line="53">/Resources/views/activity/tool/climb_score.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="66587a7a62a90fc91c4c88f1872bedaa52d23a35" resname="Follow" approved="no">
