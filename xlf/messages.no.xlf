@@ -2016,7 +2016,7 @@
       </trans-unit>
       <trans-unit id="967cc7c86103bddb80ee5da25ffadc30702050da" resname="No weather data present" approved="no">
         <source>No weather data present</source>
-        <target state="translated">Værdata er ikke tilgjengelig</target>
+        <target state="translated">Ingen værdata er tilgjengelig</target>
         <jms:reference-file line="156">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="6eef6648406c333a4035cd5e60d0bf2ecf2606d7" resname="None">
@@ -2025,9 +2025,9 @@
         <jms:reference-file line="174">/../src/CoreBundle/Form/Settings/SportType.php</jms:reference-file>
         <jms:reference-file line="186">/../src/CoreBundle/Form/Settings/SportType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="d9b74b1bcf494cb8e5c75c9696a2caa0d69024f4" resname="None (custom sport)">
+      <trans-unit id="d9b74b1bcf494cb8e5c75c9696a2caa0d69024f4" resname="None (custom sport)" approved="no">
         <source>None (custom sport)</source>
-        <target state="new">None (custom sport)</target>
+        <target state="translated">Ingen (custom sport)</target>
         <jms:reference-file line="147">/../src/CoreBundle/Form/Settings/SportType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="6be6cb710ab8d8643ab5b1c39b6ff420aaa5e7c8" resname="Not all of your posters could be generated." approved="no">
