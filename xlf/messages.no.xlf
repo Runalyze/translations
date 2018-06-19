@@ -689,7 +689,7 @@
       </trans-unit>
       <trans-unit id="17e8fb3f317a6987d13968d3f96dee0e579e861a" resname="Compare with age standards" approved="no">
         <source>Compare with age standards</source>
-        <target state="translated">Sammenlig med aldersnormaler.</target>
+        <target state="translated">Sammenlig med aldersnormaler</target>
         <jms:reference-file line="19">/Resources/views/my/raceresult/performance_chart.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="8a128d3e497cf86515b3c769349812a4b7a165f9" resname="Compare your activity's values grouped by common values (e.g. sport or activity type) for a given period." approved="no">
@@ -944,7 +944,7 @@
             This table specifies paces at various percentages of %vVO2max%, which equals approximately the maximal pace for 11 minutes.
         </source>
         <target xml:space="preserve" state="translated">Definisjoner for treningstempo varierer mye, avhengig av hvilken filosofi man ser på.
-            This table specifies paces at various percentages of %vVO2max%, which equals approximately the maximal pace for 11 minutes.
+            Denne tabellen spesifiserer tempo ved ulike prosenter av %vVO2max%, som tilsvarer omtrent det maksimale tempoet i 11 minutter.
         </target>
         <jms:reference-file line="7">/Resources/views/tools/tables/vo2max_paces.html.twig</jms:reference-file>
       </trans-unit>
@@ -965,32 +965,32 @@
         <jms:reference-file line="5">/Resources/views/account/delete/base.html.twig</jms:reference-file>
         <jms:reference-file line="10">/Resources/views/account/delete/please_confirm.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="3e66a1beee9b3e8fe2fc5bd64290197812385b57" resname="Delete all old activities">
+      <trans-unit id="3e66a1beee9b3e8fe2fc5bd64290197812385b57" resname="Delete all old activities" approved="no">
         <source>Delete all old activities</source>
-        <target state="new">Delete all old activities</target>
+        <target state="translated">Slett alle gamle aktiviteter</target>
         <jms:reference-file line="29">/../src/CoreBundle/Form/Tools/BackupImportType.php</jms:reference-file>
         <jms:reference-file line="32">/Resources/views/tools/backup/import_form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="22a8b2ed02527195090e62d114d84b80bd6edaeb" resname="Delete all old body values">
+      <trans-unit id="22a8b2ed02527195090e62d114d84b80bd6edaeb" resname="Delete all old body values" approved="no">
         <source>Delete all old body values</source>
-        <target state="new">Delete all old body values</target>
+        <target state="translated">Slett alle gamle kroppsverdier</target>
         <jms:reference-file line="33">/../src/CoreBundle/Form/Tools/BackupImportType.php</jms:reference-file>
         <jms:reference-file line="37">/Resources/views/tools/backup/import_form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="549853a528a246575c7330bcb5ed8ba2471e7bbc" resname="Delete your RUNALYZE account">
+      <trans-unit id="549853a528a246575c7330bcb5ed8ba2471e7bbc" resname="Delete your RUNALYZE account" approved="no">
         <source>Delete your RUNALYZE account</source>
-        <target state="new">Delete your RUNALYZE account</target>
+        <target state="translated">Slett din RUNALYZE konto</target>
         <jms:reference-file line="15">/Resources/views/mail/account/deleteAccountRequest.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="a0b7ba674a799ce436558c7f05d13b6d2a4703f6" resname="Delete your account">
+      <trans-unit id="a0b7ba674a799ce436558c7f05d13b6d2a4703f6" resname="Delete your account" approved="no">
         <source>Delete your account</source>
-        <target state="new">Delete your account</target>
+        <target state="translated">Slett din konto</target>
         <jms:reference-file line="5">/Resources/views/settings/account-delete.html.twig</jms:reference-file>
         <jms:reference-file line="53">/Resources/views/settings/account.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="0d473ae1fef063dd2efd627ea2e982931d1a505a" resname="Deletion request of your RUNALYZE account">
+      <trans-unit id="0d473ae1fef063dd2efd627ea2e982931d1a505a" resname="Deletion request of your RUNALYZE account" approved="no">
         <source>Deletion request of your RUNALYZE account</source>
-        <target state="new">Deletion request of your RUNALYZE account</target>
+        <target state="translated">Bekreftelse på sletting av din RUNALYZE konto</target>
         <jms:reference-file line="109">/../src/CoreBundle/Services/AccountMailer.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="55f8ebc805e65b5b71ddafdae390e3be2bcd69af" resname="Description">
@@ -1004,29 +1004,29 @@
         <jms:reference-file line="13">/Resources/views/my/raceresult/form.html.twig</jms:reference-file>
         <jms:reference-file line="16">/Resources/views/tools/backup/export.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="37148ff19b7b454cb1695a9ad91c4e8bdc6df7a9" resname="Deviation">
+      <trans-unit id="37148ff19b7b454cb1695a9ad91c4e8bdc6df7a9" resname="Deviation" approved="no">
         <source>Deviation</source>
-        <target state="new">Deviation</target>
+        <target state="translated">Avvik</target>
         <jms:reference-file line="36">/Resources/views/tools/vo2max_analysis.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="df485c871329671f46570634d63216761441bcd6" resname="Devices">
+      <trans-unit id="df485c871329671f46570634d63216761441bcd6" resname="Devices" approved="no">
         <source>Devices</source>
-        <target state="new">Devices</target>
+        <target state="translated">Enheter</target>
         <jms:reference-file line="53">/Resources/views/import/garmin_communicator.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="3a8b47dc6da2ff192f442b061e8e038a3f180292" resname="Disconnect from Garmin">
+      <trans-unit id="3a8b47dc6da2ff192f442b061e8e038a3f180292" resname="Disconnect from Garmin" approved="no">
         <source>Disconnect from Garmin</source>
-        <target state="new">Disconnect from Garmin</target>
+        <target state="translated">Koble fra Garmin</target>
         <jms:reference-file line="28">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="574ff9b0c49cdeb5f5508548ae0cab44fecee038" resname="Display">
+      <trans-unit id="574ff9b0c49cdeb5f5508548ae0cab44fecee038" resname="Display" approved="no">
         <source>Display</source>
-        <target state="new">Display</target>
+        <target state="translated">Vis</target>
         <jms:reference-file line="30">/Resources/views/settings/dataset.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6eaed50006345c16e1e1b7842928b56d76542721" resname="Display options">
+      <trans-unit id="6eaed50006345c16e1e1b7842928b56d76542721" resname="Display options" approved="no">
         <source>Display options</source>
-        <target state="new">Display options</target>
+        <target state="translated">Visningsvalg</target>
         <jms:reference-file line="92">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="423208095dd7fc394399b8c356f8f00cd260869b" resname="Distance">
@@ -1038,9 +1038,9 @@
         <jms:reference-file line="33">/Resources/views/my/equipment/category/table.html.twig</jms:reference-file>
         <jms:reference-file line="40">/Resources/views/shared/widget/iframe/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e13af6624fabaaf26abd950af5ac6319bdae2341" resname="Do you really want to delete this?">
+      <trans-unit id="e13af6624fabaaf26abd950af5ac6319bdae2341" resname="Do you really want to delete this?" approved="no">
         <source>Do you really want to delete this?</source>
-        <target state="new">Do you really want to delete this?</target>
+        <target state="translated">Vil du virkelig slette dette?</target>
         <jms:reference-file line="15">/Resources/views/_macro/form.html.twig</jms:reference-file>
         <jms:reference-file line="86">/Resources/views/my/equipment/form-category.html.twig</jms:reference-file>
         <jms:reference-file line="36">/Resources/views/my/equipment/overview.html.twig</jms:reference-file>
@@ -1048,14 +1048,14 @@
         <jms:reference-file line="56">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
         <jms:reference-file line="33">/Resources/views/settings/tag/overview.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="51bc1f0e92209ab0230bc2d56dd1c10e7da9c502" resname="Do you really want to delete your account, %username%?">
+      <trans-unit id="51bc1f0e92209ab0230bc2d56dd1c10e7da9c502" resname="Do you really want to delete your account, %username%?" approved="no">
         <source>Do you really want to delete your account, %username%?</source>
-        <target state="new">Do you really want to delete your account, %username%?</target>
+        <target state="translated">Vil du virkelig slette din konto, %username%?</target>
         <jms:reference-file line="5">/Resources/views/account/delete/please_confirm.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="278bb896678d8b6dec997bd586db094ccc51d52d" resname="Do you really want to remove this?">
+      <trans-unit id="278bb896678d8b6dec997bd586db094ccc51d52d" resname="Do you really want to remove this?" approved="no">
         <source>Do you really want to remove this?</source>
-        <target state="new">Do you really want to remove this?</target>
+        <target state="translated">Vil du virkelig slette dette?</target>
         <jms:reference-file line="44">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="68a4194227be4ab74bc3d32363417c0fc1f30055" resname="Docs">
@@ -1068,16 +1068,16 @@
         <target state="new">Documentation</target>
         <jms:reference-file line="19">/Resources/views/static/help.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="95345e276ffbb748fffc3a9b8c9322bd0b489d39" resname="Donate">
+      <trans-unit id="95345e276ffbb748fffc3a9b8c9322bd0b489d39" resname="Donate" approved="no">
         <source>Donate</source>
-        <target state="new">Donate</target>
+        <target state="translated">Doner</target>
         <jms:reference-file line="38">/Resources/views/system/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="3258460f27e660401cf0f821d994bb730138e9c3" resname="Due to performance reasons, some statistics are saved in the database.&#10;                        You can trigger a recalculation if you think they are wrong.&#10;                        In addition, values for elevation, TRIMP and %VO2max% can be recalculated.">
+      <trans-unit id="3258460f27e660401cf0f821d994bb730138e9c3" resname="Due to performance reasons, some statistics are saved in the database.&#10;                        You can trigger a recalculation if you think they are wrong.&#10;                        In addition, values for elevation, TRIMP and %VO2max% can be recalculated." approved="no">
         <source xml:space="preserve">Due to performance reasons, some statistics are saved in the database.
                         You can trigger a recalculation if you think they are wrong.
                         In addition, values for elevation, TRIMP and %VO2max% can be recalculated.</source>
-        <target xml:space="preserve" state="new">Due to performance reasons, some statistics are saved in the database.
+        <target xml:space="preserve" state="translated">På grunn av ytelsesårsaker lagres noe statistikk i databasen.
                         You can trigger a recalculation if you think they are wrong.
                         In addition, values for elevation, TRIMP and %VO2max% can be recalculated.</target>
         <jms:reference-file line="72">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
