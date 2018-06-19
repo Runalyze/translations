@@ -1682,17 +1682,17 @@
       </trans-unit>
       <trans-unit id="03ecfa6479fa3a2e7a65a8600de304ee43c7dd32" resname="Influence" approved="no">
         <source>Influence</source>
-        <target state="translated">Påvirke</target>
+        <target state="translated">Innflytelse</target>
         <jms:reference-file line="106">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="3ef9991215a6c3771144983d30fb97543029dd6d" resname="Internal sport">
+      <trans-unit id="3ef9991215a6c3771144983d30fb97543029dd6d" resname="Internal sport" approved="no">
         <source>Internal sport</source>
-        <target state="new">Internal sport</target>
+        <target state="translated">Intern sport</target>
         <jms:reference-file line="151">/../src/CoreBundle/Form/Settings/SportType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="8db1c5e073f92c7456efffd9b508f096bdd56d64" resname="Invalid token.">
+      <trans-unit id="8db1c5e073f92c7456efffd9b508f096bdd56d64" resname="Invalid token." approved="no">
         <source>Invalid token.</source>
-        <target state="new">Invalid token.</target>
+        <target state="translated">Ugyldig merke.</target>
         <jms:reference-file line="150">/../src/CoreBundle/Controller/My/EquipmentController.php</jms:reference-file>
         <jms:reference-file line="239">/../src/CoreBundle/Controller/My/EquipmentController.php</jms:reference-file>
         <jms:reference-file line="142">/../src/CoreBundle/Controller/Settings/SportController.php</jms:reference-file>
@@ -1700,9 +1700,9 @@
         <jms:reference-file line="366">/../src/CoreBundle/Controller/Settings/SportController.php</jms:reference-file>
         <jms:reference-file line="77">/../src/CoreBundle/Controller/Settings/TagsController.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="0b97ca90664eebd4d7a8b89fe93ca9680c0221ba" resname="It seems that you already have imported this activity">
+      <trans-unit id="0b97ca90664eebd4d7a8b89fe93ca9680c0221ba" resname="It seems that you already have imported this activity" approved="no">
         <source>It seems that you already have imported this activity</source>
-        <target state="new">It seems that you already have imported this activity</target>
+        <target state="translated">Det ser ut som du allerede har importert denne aktiviteten</target>
         <jms:reference-file line="32">/Resources/views/activity/form.html.twig</jms:reference-file>
         <jms:reference-file line="42">/Resources/views/activity/multi_importer.html.twig</jms:reference-file>
       </trans-unit>
@@ -1726,31 +1726,31 @@
         <target state="new">Jun</target>
         <jms:reference-file line="47">/Resources/views/_macro/utilities.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="89b86ab0e66f527166d98df92ddbcf5416ed58f6" resname="Language">
+      <trans-unit id="89b86ab0e66f527166d98df92ddbcf5416ed58f6" resname="Language" approved="no">
         <source>Language</source>
-        <target state="new">Language</target>
+        <target state="translated">Språk</target>
         <jms:reference-file line="36">/../src/CoreBundle/Form/Settings/AccountType.php</jms:reference-file>
         <jms:reference-file line="22">/Resources/views/base_not_logged_in.html.twig</jms:reference-file>
         <jms:reference-file line="22">/Resources/views/base_not_logged_in_wide.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="cfc26f2fc49319a629d75e7dd0b1c6f730adb579" resname="Laps">
+      <trans-unit id="cfc26f2fc49319a629d75e7dd0b1c6f730adb579" resname="Laps" approved="no">
         <source>Laps</source>
-        <target state="new">Laps</target>
+        <target state="translated">Runder</target>
         <jms:reference-file line="82">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="3bade34ecbc5d996b2f301ebd4ba689e81c7c9ea" resname="Length">
+      <trans-unit id="3bade34ecbc5d996b2f301ebd4ba689e81c7c9ea" resname="Length" approved="no">
         <source>Length</source>
-        <target state="new">Length</target>
+        <target state="translated">Lengde</target>
         <jms:reference-file line="74">/Resources/views/activity/tool/climb_score.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="be1a7d07844cd48e8143115e7166e2b148581ca7" resname="Let us know what is most important for you at %forum%">
+      <trans-unit id="be1a7d07844cd48e8143115e7166e2b148581ca7" resname="Let us know what is most important for you at %forum%" approved="no">
         <source>Let us know what is most important for you at %forum%</source>
-        <target state="new">Let us know what is most important for you at %forum%</target>
+        <target state="translated">La oss få vite hva som er viktigst for deg på %forum%</target>
         <jms:reference-file line="48">/Resources/views/tools/poster.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="3c0ae71541dfa0f6ed39d15c11d9bdab5b7bbc30" resname="Let's go back to RUNALYZE!">
+      <trans-unit id="3c0ae71541dfa0f6ed39d15c11d9bdab5b7bbc30" resname="Let's go back to RUNALYZE!" approved="no">
         <source>Let's go back to RUNALYZE!</source>
-        <target state="new">Let's go back to RUNALYZE!</target>
+        <target state="translated">La oss gå tilbake til RUNALYZE!</target>
         <jms:reference-file line="47">/Resources/TwigBundle/views/Exception/error.html.twig</jms:reference-file>
         <jms:reference-file line="11">/Resources/TwigBundle/views/Exception/error403.html.twig</jms:reference-file>
         <jms:reference-file line="11">/Resources/TwigBundle/views/Exception/error404.html.twig</jms:reference-file>
@@ -1758,9 +1758,9 @@
         <jms:reference-file line="12">/Resources/views/shared/invalid_activity.html.twig</jms:reference-file>
         <jms:reference-file line="12">/Resources/views/shared/invalid_athlete.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="b1a9a2cc60852adc91a9721fc3cb1e74844ca7ba" resname="Load weather data">
+      <trans-unit id="b1a9a2cc60852adc91a9721fc3cb1e74844ca7ba" resname="Load weather data" approved="no">
         <source>Load weather data</source>
-        <target state="new">Load weather data</target>
+        <target state="translated">Last inn værdata</target>
         <jms:reference-file line="150">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="4e5a2893bdcc7d239c1db72e4c4ffbe4bea73174" resname="Login">
@@ -1772,22 +1772,22 @@
         <jms:reference-file line="34">/Resources/views/login/form.html.twig</jms:reference-file>
         <jms:reference-file line="6">/Resources/views/login/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e43d612e11f1568f2373e719d4c4b08dcecdc7cc" resname="Logout">
+      <trans-unit id="e43d612e11f1568f2373e719d4c4b08dcecdc7cc" resname="Logout" approved="no">
         <source>Logout</source>
-        <target state="new">Logout</target>
+        <target state="translated">Logg av</target>
         <jms:reference-file line="33">/Resources/views/base_logged_in.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="4d3f8338b882b0a12b1754fc7b64acc24922fc09" resname="Looks like something went wrong here.">
+      <trans-unit id="4d3f8338b882b0a12b1754fc7b64acc24922fc09" resname="Looks like something went wrong here." approved="no">
         <source>Looks like something went wrong here.</source>
-        <target state="new">Looks like something went wrong here.</target>
+        <target state="translated">Ser ut som noe gikk galt her.</target>
         <jms:reference-file line="43">/Resources/TwigBundle/views/Exception/error.html.twig</jms:reference-file>
         <jms:reference-file line="7">/Resources/TwigBundle/views/Exception/error404.html.twig</jms:reference-file>
         <jms:reference-file line="7">/Resources/views/shared/invalid_activity.html.twig</jms:reference-file>
         <jms:reference-file line="7">/Resources/views/shared/invalid_athlete.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="388929ed36edd0a6db7282b9882b433b135a6c1a" resname="Loop through activities">
+      <trans-unit id="388929ed36edd0a6db7282b9882b433b135a6c1a" resname="Loop through activities" approved="no">
         <source>Loop through activities</source>
-        <target state="new">Loop through activities</target>
+        <target state="translated">Gå gjennom aktivitetene</target>
         <jms:reference-file line="24">/../src/CoreBundle/Form/Tools/DatabaseCleanupType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="92379cbb8ecf696194b47b619a87e9e4f9a75db2" resname="Mail">
@@ -1795,35 +1795,35 @@
         <target state="new">Mail</target>
         <jms:reference-file line="32">/../src/CoreBundle/Form/Settings/AccountType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="b1dcd2b52be5e5ce488acfd04796b6b3b6a842fd" resname="Main equipment">
+      <trans-unit id="b1dcd2b52be5e5ce488acfd04796b6b3b6a842fd" resname="Main equipment" approved="no">
         <source>Main equipment</source>
-        <target state="new">Main equipment</target>
+        <target state="translated">Hovedutstyr</target>
         <jms:reference-file line="163">/../src/CoreBundle/Form/Settings/SportType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="97461b6c9e4e8749cbc57fafb28060bcbd15d377" resname="Main page">
+      <trans-unit id="97461b6c9e4e8749cbc57fafb28060bcbd15d377" resname="Main page" approved="no">
         <source>Main page</source>
-        <target state="new">Main page</target>
+        <target state="translated">Hovedside</target>
         <jms:reference-file line="11">/Resources/views/account/delete/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="836d8d3284bd1ea477546465fbb8d5409fa3ba3b" resname="Main sport">
+      <trans-unit id="836d8d3284bd1ea477546465fbb8d5409fa3ba3b" resname="Main sport" approved="no">
         <source>Main sport</source>
-        <target state="new">Main sport</target>
+        <target state="translated">Hovedsport</target>
         <jms:reference-file line="19">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="a728b4ef9485dbbe84331d5c654cb9e7c744859e" resname="Main values">
+      <trans-unit id="a728b4ef9485dbbe84331d5c654cb9e7c744859e" resname="Main values" approved="no">
         <source>Main values</source>
-        <target state="new">Main values</target>
+        <target state="translated">Hovedverdier</target>
         <jms:reference-file line="139">/../src/CoreBundle/Form/Tools/Anova/AnovaType.php</jms:reference-file>
         <jms:reference-file line="118">/../src/CoreBundle/Form/Tools/TrendAnalysis/TrendAnalysisType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="94de303bbef8935622224c5db48199c807ab7d71" resname="Maintenance">
+      <trans-unit id="94de303bbef8935622224c5db48199c807ab7d71" resname="Maintenance" approved="no">
         <source>Maintenance</source>
-        <target state="new">Maintenance</target>
+        <target state="translated">Vedlikehold</target>
         <jms:reference-file line="5">/Resources/views/maintenance.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="48146d226faf4a07d17008a8c225688eac4d1307" resname="Manual activity">
+      <trans-unit id="48146d226faf4a07d17008a8c225688eac4d1307" resname="Manual activity" approved="no">
         <source>Manual activity</source>
-        <target state="new">Manual activity</target>
+        <target state="translated">Selvlagret aktivitet</target>
         <jms:reference-file line="59">/Resources/views/base_logged_in.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="c4ba0822462e0c373aadd5360a69f205c2a7d036" resname="Mar">
@@ -1831,14 +1831,14 @@
         <target state="new">Mar</target>
         <jms:reference-file line="44">/Resources/views/_macro/utilities.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="1b83163bfd79eee81fae6f7c3439dc4816256967" resname="Mark all as read">
+      <trans-unit id="1b83163bfd79eee81fae6f7c3439dc4816256967" resname="Mark all as read" approved="no">
         <source>Mark all as read</source>
-        <target state="new">Mark all as read</target>
+        <target state="translated">Merk alle som lest</target>
         <jms:reference-file line="20">/Resources/views/notifications.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="495cfe1273cd2e9ac63a957a945e645cacb184ef" resname="Maximal HR">
+      <trans-unit id="495cfe1273cd2e9ac63a957a945e645cacb184ef" resname="Maximal HR" approved="no">
         <source>Maximal HR</source>
-        <target state="new">Maximal HR</target>
+        <target state="translated">Maksimal puls</target>
         <jms:reference-file line="57">/../src/CoreBundle/Form/BodyValuesType.php</jms:reference-file>
         <jms:reference-file line="26">/Resources/views/my/body-values/table.html.twig</jms:reference-file>
       </trans-unit>
