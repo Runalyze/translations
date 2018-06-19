@@ -1420,27 +1420,27 @@
       </trans-unit>
       <trans-unit id="24f7e09689c4e137c535fea569d21ff8bb25d55c" resname="Gimmick" approved="no">
         <source>Gimmick</source>
-        <target state="translated">Gimmic</target>
+        <target state="translated">Gimmick</target>
         <jms:reference-file line="44">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7427cf697be16a4ec1d916910128a59d920125e7" resname="Glossary">
+      <trans-unit id="7427cf697be16a4ec1d916910128a59d920125e7" resname="Glossary" approved="no">
         <source>Glossary</source>
-        <target state="new">Glossary</target>
+        <target state="translated">Ordliste</target>
         <jms:reference-file line="22">/Resources/views/static/help.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="43cd45e70a501b1e73f02f896774373acd1452a5" resname="Go back to RUNALYZE">
+      <trans-unit id="43cd45e70a501b1e73f02f896774373acd1452a5" resname="Go back to RUNALYZE" approved="no">
         <source>Go back to RUNALYZE</source>
-        <target state="new">Go back to RUNALYZE</target>
+        <target state="translated">Gå tilbake til RUNALYZE</target>
         <jms:reference-file line="12">/Resources/views/system/update_start.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="5537280384e598ba9133a1a6aa7f2b1345f1cc06" resname="Go to database cleanup">
+      <trans-unit id="5537280384e598ba9133a1a6aa7f2b1345f1cc06" resname="Go to database cleanup" approved="no">
         <source>Go to database cleanup</source>
-        <target state="new">Go to database cleanup</target>
+        <target state="translated">Gå til database opprensing</target>
         <jms:reference-file line="19">/Resources/views/tools/backup/import_finish.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="36463cf8381e6e972d67a1b70c482d9fb836b2b0" resname="Gradient">
+      <trans-unit id="36463cf8381e6e972d67a1b70c482d9fb836b2b0" resname="Gradient" approved="no">
         <source>Gradient</source>
-        <target state="new">Gradient</target>
+        <target state="translated">Gradien</target>
         <jms:reference-file line="75">/Resources/views/activity/tool/climb_score.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="439b59a4318e24d72ba33f8b086f0ffe9a6285ac" resname="Gradient distribution">
