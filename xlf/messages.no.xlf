@@ -474,7 +474,7 @@
       </trans-unit>
       <trans-unit id="eceada21b4aa931d7acd2ca310013e8c00091c2f" resname="Best sub segments" approved="no">
         <source>Best sub segments</source>
-        <target state="translated">Best delsegmenter</target>
+        <target state="translated">Beste delsegmenter</target>
         <jms:reference-file line="28">/Resources/views/activity/tool/best_sub_segments.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="b406fb57b29fc76f71864fbb37f0238045f84d9d" resname="Black">
@@ -491,14 +491,14 @@
         <jms:reference-file line="21">/Resources/views/static/help.html.twig</jms:reference-file>
         <jms:reference-file line="30">/Resources/views/system/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="8ce14357a91c4ca949d04201711348445e039183" resname="Body fat">
+      <trans-unit id="8ce14357a91c4ca949d04201711348445e039183" resname="Body fat" approved="no">
         <source>Body fat</source>
-        <target state="new">Body fat</target>
+        <target state="translated">Kroppsfett</target>
         <jms:reference-file line="34">/../src/CoreBundle/Form/BodyValuesType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="8fc8e2235e005f193f7cec199845eac8e7168bad" resname="Body muscle">
+      <trans-unit id="8fc8e2235e005f193f7cec199845eac8e7168bad" resname="Body muscle" approved="no">
         <source>Body muscle</source>
-        <target state="new">Body muscle</target>
+        <target state="translated">Muskelandel</target>
         <jms:reference-file line="46">/../src/CoreBundle/Form/BodyValuesType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="2a25cbef37d043081cf523a5c6a5d5721c1fee6a" resname="Body values">
