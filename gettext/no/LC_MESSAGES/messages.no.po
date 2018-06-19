@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-19 09:23+0200\n"
-"PO-Revision-Date: 2018-06-19 20:55+0000\n"
+"PO-Revision-Date: 2018-06-19 21:06+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -144,7 +144,7 @@ msgstr "ANOVA"
 
 #: dashboard.php:127
 msgid "Analyze your VO2max"
-msgstr "Analyser ditt VO[sub]2[/sub]maks"
+msgstr "Analyser ditt VO<sub>2</sub>maks"
 
 #: dashboard.php:128
 msgid "Running tables"
@@ -534,8 +534,8 @@ msgid ""
 "Estimated VO<sub>2</sub>max based on pace and heart rate. The value is "
 "slightly transparent if it is not used for your VO<sub>2</sub>max shape."
 msgstr ""
-"Estimert VO<sub>2</sub>max basert på tempo og puls. Verdien er delvis "
-"gjennomsiktig hvis den ikke er brukt for din VO<sub>2</sub>max form."
+"Estimert VO<sub>2</sub>maks basert på tempo og puls. Verdien er delvis "
+"gjennomsiktig hvis den ikke er brukt for din VO<sub>2</sub>maks-form."
 
 #: inc/core/Dataset/Keys/FitPerformanceCondition.php:43
 #: inc/core/Dataset/Keys/FitPerformanceConditionEnd.php:31
@@ -628,13 +628,13 @@ msgstr "(fil)"
 
 #: inc/core/Dataset/Keys/FitVO2maxEstimate.php:62
 msgid "Garmin's newer devices have an integrated VO2max estimation."
-msgstr "Garmins nyere enheter har integrert estimering av VO[sub]2[/sub]maks."
+msgstr "Garmins nyere enheter har integrert estimering av VO<sub>2</sub>maks."
 
 #: inc/core/Dataset/Keys/FitVO2maxEstimate.php:63
 msgid ""
 "This value refers to your estimated VO2max at the start of the activity."
 msgstr ""
-"Denne verdien refererer til ditt estimerte VO[sub]2[/sub]maks ved "
+"Denne verdien refererer til ditt estimerte VO<sub>2</sub>maks ved "
 "begynnelsen av aktiviteten."
 
 #: inc/core/Dataset/Keys/AveragePronationExcursion.php:22
@@ -954,7 +954,7 @@ msgstr "Støt G"
 
 #: inc/core/Dataset/Keys/VO2maxIcon.php:36
 msgid "Effective VO<sub>2</sub>max icon"
-msgstr "Effektiv VO<sub>2</sub>max ikon"
+msgstr "Effektiv VO<sub>2</sub>maks-ikon"
 
 #: inc/core/Dataset/Keys/VO2maxIcon.php:55
 msgid ""
@@ -1650,7 +1650,7 @@ msgstr "Desember"
 
 #: inc/core/Configuration/Messages.php:26
 msgid "Database cleanup"
-msgstr "Database opprensning"
+msgstr "Database opprenskning"
 
 #: inc/core/Configuration/Messages.php:27
 #, php-format
@@ -1694,15 +1694,15 @@ msgstr "Antall dager for ATL tidskonstant"
 
 #: inc/core/Configuration/Category/Trimp.php:104
 msgid "Days for CTL"
-msgstr "Dager for CTL"
+msgstr "Dager for KTL"
 
 #: inc/core/Configuration/Category/Trimp.php:105
 msgid "Number of days for CTL time constant"
-msgstr "Antall dager for CTL tidskonstant"
+msgstr "Antall dager for KTL tidskonstant"
 
 #: inc/core/Configuration/Category/Trimp.php:109
 msgid "Show ATL/CTL in percent of your maximum"
-msgstr "Vis ATL/CTL i prosent av ditt maksimum"
+msgstr "Vis ATL/KTL i prosent av ditt maksimum"
 
 #: inc/core/Configuration/Category/Trimp.php:110
 msgid ""
@@ -1710,26 +1710,26 @@ msgid ""
 "lead to wrong assumptions if you were overtrained. Deactivate this option in "
 "that case."
 msgstr ""
-"Som standard er ATL/CTL skalert basert på ditt historiske maksimum. Dette "
+"Som standard er ATL/KTL skalert basert på ditt historiske maksimum. Dette "
 "kan lede til feile antagelser hvis du har vært overtrent. Deaktiver dette "
 "valget hvis så er tilfelle."
 
 #: inc/core/Configuration/Category/Trimp.php:116
 msgid "Show TSB in percent of ATL/CTL"
-msgstr "Vis TSB in prosent av ATL/CTL"
+msgstr "Vis TSB in prosent av ATL/KTL"
 
 #: inc/core/Configuration/Category/Trimp.php:117
 msgid ""
 "The scale of TSB values depends on your ATL/CTL. You can display TSB as "
 "percentage of your current ATL/CTL to keep consistency."
 msgstr ""
-"Skalaen til TSB verdier avhenger av din ATL/CTL. Du kan vise TSB som prosent "
-"av din nåværende ATL/CTL for å bevare konsistens."
+"Skalaen til TSB verdier avhenger av din ATL/KTL. Du kan vise TSB som prosent "
+"av din nåværende ATL/KTL for å bevare konsistens."
 
 #: inc/core/Configuration/Category/Trimp.php:141
 #: src/CoreBundle/Component/Tool/DatabaseCleanup/JobGeneral.php:122
 msgid "Maximal CTL"
-msgstr "Maksimal CTL"
+msgstr "Maksimal KTL"
 
 #: inc/core/Configuration/Category/Trimp.php:142
 #: src/CoreBundle/Component/Tool/DatabaseCleanup/JobGeneral.php:123
@@ -1738,15 +1738,15 @@ msgstr "Maksimal ATL"
 
 #: inc/core/Configuration/Category/VO2max.php:121
 msgid "VO<sub>2</sub>max estimation"
-msgstr "VO<sub>2</sub>max estimering"
+msgstr "VO<sub>2</sub>maks-estimering"
 
 #: inc/core/Configuration/Category/VO2max.php:124
 msgid "Time constant length for VO<sub>2</sub>max"
-msgstr "Tidskonstants lenge for VO<sub>2</sub>max"
+msgstr "Lengde tidskonstants for VO<sub>2</sub>maks"
 
 #: inc/core/Configuration/Category/VO2max.php:125
 msgid "Time constant length for VO<sub>2</sub>max rolling average"
-msgstr "Tidskonstants lenge for VO<sub>2</sub>max rullende gjennomsnitt"
+msgstr "Lengde tidskonstants for VO<sub>2</sub>maks rullende gjennomsnitt"
 
 #: inc/core/Configuration/Category/VO2max.php:129
 msgid "Manual correction factor"
@@ -1767,14 +1767,14 @@ msgstr "Verdien må være mellom %s og %s."
 
 #: inc/core/Configuration/Category/VO2max.php:135
 msgid "Use fixed VO<sub>2</sub>max value"
-msgstr "Bruk fiksert VO<sub>2</sub>max verdi"
+msgstr "Bruk fiksert VO<sub>2</sub>maks-verdi"
 
 #: inc/core/Configuration/Category/VO2max.php:136
 msgid ""
 "Fixed VO<sub>2</sub>max value (e.g. 55), if the estimation does not fit. Can "
 "be left empty."
 msgstr ""
-"Fiksert VO<sub>2</sub>max verdi (f.eks. 55), hvis estimering ikke passer. "
+"Fiksert VO<sub>2</sub>maks-verdi (f.eks. 55), hvis estimering ikke passer. "
 "Kan være tom."
 
 #: inc/core/Configuration/Category/VO2max.php:140
@@ -1800,7 +1800,7 @@ msgstr "Legg til for hvert meter oppstigning X meter til distansen."
 #: inc/core/Configuration/Category/VO2max.php:146
 #: inc/core/Configuration/Category/VO2max.php:152
 msgid "Only for VO2max estimation"
-msgstr "Kun for VO[sub]2[/sub]maks-estimering"
+msgstr "Kun for VO<sub>2</sub>maks-estimering"
 
 #: inc/core/Configuration/Category/VO2max.php:151
 msgid "Correction per negative elevation"
@@ -1813,7 +1813,7 @@ msgstr "Legg til for hvert meter nedstigning X meter til distansen."
 #: inc/core/Configuration/Category/VO2max.php:169
 #: src/CoreBundle/Component/Tool/DatabaseCleanup/JobGeneral.php:88
 msgid "VO<sub>2</sub>max shape"
-msgstr "VO<sub>2</sub>max form"
+msgstr "VO<sub>2</sub>maks-form"
 
 #: inc/core/Configuration/Category/Privacy.php:82
 msgid "Privacy"
@@ -2064,7 +2064,7 @@ msgstr "Datapunkter under denne skranken vil bli ignorert (kun for min/km)"
 
 #: inc/core/Configuration/Category/ActivityView.php:345
 msgid "Pace plot: y-axis maximum"
-msgstr "Tempoplott: y-akse maximum"
+msgstr "Tempoplott: y-akse maksimum"
 
 #: inc/core/Configuration/Category/ActivityView.php:346
 msgid "Data points above this limit will be ignored. (only for min/km)"
@@ -4092,7 +4092,7 @@ msgstr "Form"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/Plot.Form.php:188
 msgid "Fitness (CTL)"
-msgstr "Form (CTL)"
+msgstr "Form (KTL)"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/Plot.Form.php:194
 msgid "Fatigue (ATL)"
@@ -4120,7 +4120,7 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:47
 msgid "Show: ATL/CTL/TSB"
-msgstr "Vis: ATL/CTL/TSB"
+msgstr "Vis: ATL/KTL/TSB"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:48
 msgid "Show actual/chronical training load and stress balance (based on TRIMP)"
@@ -4136,7 +4136,7 @@ msgstr "Vis monotoni og treningspress (basert på TRIMP)"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:55
 msgid "Show: VO<sub>2</sub>max shape"
-msgstr "Show: VO<sub>2</sub>max-form"
+msgstr "Show: VO<sub>2</sub>maks-form"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:56
 msgid "Predict current effective VO<sub>2</sub>max"
@@ -4164,7 +4164,7 @@ msgstr "Hvordan er disse verdiene beregnet?"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:81
 msgid "Explanations: What are VO2max and TRIMP?"
-msgstr "Forklaringer: Hva er VO[sub]2[/sub]maks og TRIMP?"
+msgstr "Forklaringer: Hva er VO<sub>2</sub>maks og TRIMP?"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:100
 msgid "There are not enough activities for good calculations."
@@ -4283,8 +4283,8 @@ msgid ""
 "ATL/CTL are based on the TRIMP-concept, which adresses an impulse value to "
 "every activity. ATL and CTL are averaged values over a given time range."
 msgstr ""
-"ATL/CTL er basert på TRIMP-konseptet, som gir hver aktivitet en impulsverdi. "
-"ATL og CTL er gjennomsnittlige verdier over et gitt tidsintervall."
+"ATL/KTL er basert på TRIMP-konseptet, som gir hver aktivitet en impulsverdi. "
+"ATL og KTL er gjennomsnittlige verdier over et gitt tidsintervall."
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:374
 msgid ""
@@ -4873,7 +4873,7 @@ msgstr "Prognoseutvikling"
 
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:93
 msgid "Your current effective VO2max:"
-msgstr "Ditt nåværende effektive VO[sub]2[/sub]maks:"
+msgstr "Ditt nåværende effektive VO<sub>2</sub>maks:"
 
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:94
 msgid "Your current marathon shape:"
@@ -4909,7 +4909,7 @@ msgstr "K må være mellom %u og %u, e mellom %f og %f."
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:326
 #, php-format
 msgid "Effective VO2max must be between %u and %u."
-msgstr "Effektiv VO[sub]2[/sub]maks må være mellom %u og %u."
+msgstr "Effektiv VO<sub>2</sub>maks må være mellom %u og %u."
 
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:340
 msgid "Input"
@@ -4926,7 +4926,7 @@ msgstr "Distanse"
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:367
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:80
 msgid "Effective VO2max"
-msgstr "Effektiv VO[sub]2[/sub]maks"
+msgstr "Effektiv VO<sub>2</sub>maks"
 
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:372
 msgid "Use Marathon Shape"
@@ -5003,8 +5003,9 @@ msgid ""
 "The VO2max model is the only one which considers your current shape. The "
 "other models are based on your previous race results."
 msgstr ""
-"VO[sub]2[/sub]max-modellen er den eneste som tar i betraktning din nåværende "
-"form. De andre modellene er basert på dine tidligere konkurranseresultater."
+"VO[sub]2[/sub]maks-modellen er den eneste som tar i betraktning din "
+"nåværende form. De andre modellene er basert på dine tidligere "
+"konkurranseresultater."
 
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:76
 msgid "Distances to predict"
@@ -5024,7 +5025,7 @@ msgid ""
 "only)."
 msgstr ""
 "Bruk faktor for maratonform for å tilpasse prognose for lange distanser (kun "
-"VO[sub]2[/sub]max)."
+"VO<sub>2</sub>maks)."
 
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:105
 msgid "Show prognosis trend"
