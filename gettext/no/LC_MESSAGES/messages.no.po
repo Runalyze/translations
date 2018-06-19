@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-19 09:23+0200\n"
-"PO-Revision-Date: 2018-06-19 11:10+0000\n"
+"PO-Revision-Date: 2018-06-19 11:16+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -5179,11 +5179,11 @@ msgstr "Sammenlign kilometer per uke"
 
 #: plugin/RunalyzePluginStat_Statistiken/class.RunalyzePluginStat_Statistiken.php:122
 msgid "Show streak"
-msgstr "Vis opphold"
+msgstr "Vis serie"
 
 #: plugin/RunalyzePluginStat_Statistiken/class.RunalyzePluginStat_Statistiken.php:123
 msgid "Minimum number of days to show a streak (0 for always)"
-msgstr "Minimum antall dag(er) for å vise opphold (0 for alltid)"
+msgstr "Minimum antall dag(er) for å vise serie (0 for alltid)"
 
 #: plugin/RunalyzePluginStat_Statistiken/class.RunalyzePluginStat_Statistiken.php:221
 msgid "If you run today: "
@@ -5191,48 +5191,48 @@ msgstr "Hvis du løper idag: "
 
 #: plugin/RunalyzePluginStat_Statistiken/class.RunalyzePluginStat_Statistiken.php:245
 msgid "You don't have a streak. Go out and start one!"
-msgstr ""
+msgstr "Du har ingen serie. Gå ut og start en!"
 
 #: plugin/RunalyzePluginStat_Statistiken/class.RunalyzePluginStat_Statistiken.php:249
 #, php-format
 msgid "Your last run was on %s"
-msgstr ""
+msgstr "Din siste løping var på %s"
 
 #: plugin/RunalyzePluginStat_Statistiken/class.RunalyzePluginStat_Statistiken.php:251
 #, php-format
 msgid "%d day of running since %s"
 msgid_plural "%d days of running since %s"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d dag med løping siden %s"
+msgstr[1] "%d dager med løping siden %s"
 
 #: plugin/RunalyzePluginStat_Statistiken/class.SummaryTableAllWeeks.php:22
 #, php-format
 msgid "All training weeks %s"
-msgstr ""
+msgstr "Alle treningsuker %s"
 
 #: plugin/RunalyzePluginStat_Statistiken/class.SummaryTable.php:178
 msgid "No activities"
-msgstr ""
+msgstr "Ingen aktiviteter"
 
 #: plugin/RunalyzePluginStat_Statistiken/class.SummaryTable10Weeks.php:20
 msgid "Last 10 training weeks"
-msgstr ""
+msgstr "Siste 10 treningsukene"
 
 #: plugin/RunalyzePluginStat_Statistiken/class.SummaryTableMonths.php:69
 msgid "All months"
-msgstr ""
+msgstr "Alle måneder"
 
 #: plugin/RunalyzePluginStat_Statistiken/class.SummaryTableAllYears.php:65
 msgid "/week"
-msgstr ""
+msgstr "/uke"
 
 #: plugin/RunalyzePluginStat_Statistiken/class.SummaryTableAllYears.php:66
 msgid "/month"
-msgstr ""
+msgstr "/måned"
 
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:76
 msgid "Analysis"
-msgstr ""
+msgstr "Analyse"
 
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:84
 msgid ""
@@ -5244,11 +5244,11 @@ msgstr ""
 
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:92
 msgid "Analyze types"
-msgstr ""
+msgstr "Analysetyper"
 
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:93
 msgid "Analyze pace zones"
-msgstr ""
+msgstr "Analyse temposoner"
 
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:94
 msgid "Analyze heart rate zones"
@@ -5257,17 +5257,17 @@ msgstr "Analyser intensitetssoner"
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:134
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:149
 msgid "in percent"
-msgstr ""
+msgstr "i prosent"
 
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:137
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:150
 msgid "by distance"
-msgstr ""
+msgstr "ved distanse"
 
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:142
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:151
 msgid "by time"
-msgstr ""
+msgstr "ved tid"
 
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:164
 msgid "The values consider only the average data fields of your activities."
