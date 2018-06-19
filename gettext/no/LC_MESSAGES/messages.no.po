@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-19 09:23+0200\n"
-"PO-Revision-Date: 2018-06-19 11:39+0000\n"
+"PO-Revision-Date: 2018-06-19 11:53+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -144,7 +144,7 @@ msgstr "ANOVA"
 
 #: dashboard.php:127
 msgid "Analyze your VO2max"
-msgstr "Analyser ditt VO2max"
+msgstr "Analyser ditt VO[sub]2[/sub]maks"
 
 #: dashboard.php:128
 msgid "Running tables"
@@ -628,14 +628,14 @@ msgstr "(fil)"
 
 #: inc/core/Dataset/Keys/FitVO2maxEstimate.php:62
 msgid "Garmin's newer devices have an integrated VO2max estimation."
-msgstr "Garmins nyere enheter har integrert estimering av VO2max."
+msgstr "Garmins nyere enheter har integrert estimering av VO[sub]2[/sub]maks."
 
 #: inc/core/Dataset/Keys/FitVO2maxEstimate.php:63
 msgid ""
 "This value refers to your estimated VO2max at the start of the activity."
 msgstr ""
-"Denne verdien refererer til ditt estimerte VO2max ved begynnelsen av "
-"aktiviteten."
+"Denne verdien refererer til ditt estimerte VO[sub]2[/sub]maks ved "
+"begynnelsen av aktiviteten."
 
 #: inc/core/Dataset/Keys/AveragePronationExcursion.php:22
 #: inc/core/View/Activity/Plot/Series/PronationExcursion.php:28
@@ -1799,7 +1799,7 @@ msgstr "Legg til for hvert meter oppstigning X meter til distansen."
 #: inc/core/Configuration/Category/VO2max.php:146
 #: inc/core/Configuration/Category/VO2max.php:152
 msgid "Only for VO2max estimation"
-msgstr "Kun for VO2max estimering"
+msgstr "Kun for VO[sub]2[/sub]maks-estimering"
 
 #: inc/core/Configuration/Category/VO2max.php:151
 msgid "Correction per negative elevation"
@@ -2031,7 +2031,7 @@ msgstr "Aktivitetsvisning: Vis rader i full høyde"
 #: inc/core/Configuration/Category/ActivityView.php:307
 msgid "By default e.g. lap data will be scrollable and not shown completely."
 msgstr ""
-"Som standard vil f.eks. rundedata være  rullbare og ikke fullstendig vist."
+"Som standard vil f.eks. rundedata være rullbare og ikke fullstendig vist."
 
 #: inc/core/Configuration/Category/ActivityView.php:323
 msgid "Plots: combination"
@@ -4382,7 +4382,7 @@ msgstr ""
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:502
 #, php-format
 msgid "* In general, all runs with more than %s are being considered."
-msgstr "* Overordnet vil alle aktiviteter med mer enn %s bli vurdert."
+msgstr "* Overordnet vil alle løp med mer enn %s bli vurdert."
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:506
 msgid ""
@@ -4430,11 +4430,11 @@ msgstr "Oppsummering merkelapper"
 
 #: plugin/RunalyzePluginPanel_TagsSummary/class.RunalyzePluginPanel_TagsSummary.php:41
 msgid "Summarises your tags for the selected sport."
-msgstr "Summer dine merkelapper for valgt sport."
+msgstr "Oppsummerer dine merkelapper for valgt sport."
 
 #: plugin/RunalyzePluginPanel_TagsSummary/class.RunalyzePluginPanel_TagsSummary.php:57
 msgid "Sport to summarise tags for"
-msgstr "Sport å summere merkelapper for"
+msgstr "Sport å oppsummere merkelapper for"
 
 #: plugin/RunalyzePluginPanel_TagsSummary/class.RunalyzePluginPanel_TagsSummary.php:68
 msgid "Show tags for this period of months"
@@ -4687,7 +4687,7 @@ msgstr "Ingen aktiviteter funnet."
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:104
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:151
 msgid "Race results"
-msgstr "konkurranseresultater"
+msgstr "Konkurranseresultater"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:60
 msgid "Personal bests and everything else related to your competitions."
@@ -4700,8 +4700,8 @@ msgid ""
 "results)."
 msgstr ""
 "Dette tillegget lister alle dine konkurranser. Det viser en summeringa av "
-"alle løpsresultatene dine og dine personlige beste (distanser med minst to "
-"resultater)."
+"alle konkurranseresultatene dine og dine personlige beste (distanser med "
+"minst to resultater)."
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:71
 msgid ""
@@ -4710,7 +4710,7 @@ msgid ""
 "the plot."
 msgstr ""
 "I tillegg plotter det trend over dine resultater på en spesifikk distanse. "
-"Hvis du gjør et løp kun for moro, kan du markere det 'moroløp' for å "
+"Hvis du gjør en konkurranse kun for moro, kan du markere det 'moroløp' for å "
 "ignorere det i plottet."
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:80
@@ -4727,11 +4727,11 @@ msgstr "Personlig beste"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:93
 msgid "All race results"
-msgstr "Alle løpsresultater"
+msgstr "Alle konkurranseresultater"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:181
 msgid "There are no races."
-msgstr "Det er ikke noen løp."
+msgstr "Det er ikke noen konkurranser."
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:209
 msgid ""
@@ -4756,7 +4756,7 @@ msgstr "Prestasjonsdiagram"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:249
 msgid "There are no race results for the given distances."
-msgstr "Det er ikke noen løpsresultater for den gitte distansen."
+msgstr "Det er ikke noen konkurranseresultater for den gitte distansen."
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:273
 msgid "Results trend"
@@ -4767,8 +4767,8 @@ msgid ""
 "This includes races of all distances, not only those selected for yearly "
 "comparison."
 msgstr ""
-"Dette inkluderer løp for alle distanser, ikke bare de valgte for årlig "
-"sammenligning."
+"Dette inkluderer konkurranser for alle distanser, ikke bare de valgte for "
+"årlig sammenligning."
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:390
 msgid "Official distance & time"
@@ -4811,8 +4811,8 @@ msgid ""
 "You can mark any activity as race by checking the respective checkbox in the "
 "activity's form."
 msgstr ""
-"Du kan markere enhver aktivitet som løp ved å huke av den aktuelle boksen i "
-"aktivitetsskjemaet."
+"Du kan markere enhver aktivitet som konkurranse ved å huke av den aktuelle "
+"boksen i aktivitetsskjemaet."
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:498
 msgid "Weather statistics"
@@ -4824,11 +4824,12 @@ msgstr "Editer aktiviteten"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:528
 msgid "Edit the race result details"
-msgstr "Editer detaljer for løpsresultatet"
+msgstr "Editer detaljer for konkurranseresultater"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:544
 msgid "Fun race | Click to mark this activity as a 'normal race'."
-msgstr "Moroløp | Huk av for å markere denne aktiviteten som 'normalt løp'."
+msgstr ""
+"Moroløp | Huk av for å markere denne aktiviteten som 'normal konkurranse'."
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:548
 msgid "Race | Click to mark this activity as a 'fun race'."
@@ -5002,7 +5003,7 @@ msgid ""
 "other models are based on your previous race results."
 msgstr ""
 "VO[sub]2[/sub]max-modellen er den eneste som tar i betraktning din nåværende "
-"form. De andre modellene er basert på dine tidligere løpsresultater."
+"form. De andre modellene er basert på dine tidligere konkurranseresultater."
 
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:76
 msgid "Distances to predict"
@@ -5291,7 +5292,7 @@ msgstr "Intensitetssoner"
 
 #: src/CoreBundle/Controller/Settings/SettingsController.php:222
 msgid "race"
-msgstr "løp"
+msgstr "konkurranse"
 
 #: src/CoreBundle/Controller/Settings/SettingsController.php:260
 msgid "Test activity"
