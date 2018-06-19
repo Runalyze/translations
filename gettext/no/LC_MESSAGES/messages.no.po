@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-19 09:23+0200\n"
-"PO-Revision-Date: 2018-06-19 09:22+0000\n"
+"PO-Revision-Date: 2018-06-19 09:31+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -620,7 +620,7 @@ msgstr "Tittel"
 #: inc/core/Dataset/Keys/Title.php:56
 #, php-format
 msgid "Titles are automatically cut after %u characters."
-msgstr "Titler er automatisk kuttet etter %u bokstaver."
+msgstr "Titler er automatisk beskjært etter %u bokstaver."
 
 #: inc/core/Dataset/Keys/FitVO2maxEstimate.php:53
 msgid "(file)"
@@ -881,7 +881,7 @@ msgstr "Partner"
 #: inc/core/Dataset/Keys/TrainingPartner.php:65
 #, php-format
 msgid "Training partner are automatically cut after %u characters."
-msgstr "Treningspartner er automatisk kuttet etter %u bokstaver."
+msgstr "Treningspartner er automatisk beskjært etter %u bokstaver."
 
 #: inc/core/Dataset/Keys/Weather.php:43
 #: inc/training/search/class.SearchFormular.php:175
@@ -2187,31 +2187,32 @@ msgstr "Synkronisering standardsport"
 
 #: inc/core/Configuration/Category/Import.php:76
 msgid "Enable activity mail import"
-msgstr ""
+msgstr "Aktiver import fra e-post"
 
 #: inc/core/Configuration/Category/Import.php:77
 msgid "Beta feature"
-msgstr ""
+msgstr "Beta-funksjon"
 
 #: inc/core/Configuration/Category/Import.php:77
 msgid "If activated you can send your activities to"
-msgstr "Hvis aktiv: alle kan se en liste av alle dine (offentlige) aktiviteter."
+msgstr "Hvis aktiv kan du sende dine aktiviteter til"
 
 #: inc/core/Configuration/Category/Import.php:81
 msgid "Password for activity mail import"
-msgstr ""
+msgstr "Passord for import fra e-post"
 
 #: inc/core/Configuration/Category/Import.php:81
 msgid "needed"
-msgstr ""
+msgstr "behov for"
 
 #: inc/core/Configuration/Category/Import.php:82
 msgid "Add this password to the subect of your mail"
-msgstr ""
+msgstr "Legg dette passordet til subjektet i e-posten din"
 
 #: inc/core/Configuration/Category/Import.php:85
 msgid "The mail must be sent from the mail address defined in your account."
 msgstr ""
+"E-posten må være sendt fra den e-post-adressen som er definert i din konto"
 
 #: inc/core/Configuration/Category/Import.php:86
 msgid "Read more about this feature in our blog"
@@ -4164,7 +4165,7 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:100
 msgid "There are not enough activities for good calculations."
-msgstr ""
+msgstr "Det er ikke nok aktiviteter for gode beregninger."
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:181
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:192
@@ -4619,7 +4620,7 @@ msgstr ""
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:62
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:136
 msgid "No routes found."
-msgstr "Ingen løyper funner."
+msgstr "Ingen løyper funnet."
 
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:91
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:99
@@ -4629,7 +4630,7 @@ msgstr ""
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:92
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:110
 msgid "Steepest routes"
-msgstr ""
+msgstr "Bratteste løype"
 
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:93
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:119
@@ -5328,7 +5329,7 @@ msgstr ""
 #: src/CoreBundle/Component/Tool/DatabaseCleanup/JobLoop.php:50
 #, php-format
 msgid "Elevations have been recalculated for %d routes."
-msgstr "Elevasjoner har blitt beregnet på nytt for %d rute(r)."
+msgstr "Elevasjoner har blitt beregnet på nytt for %d løype(r)."
 
 #: src/CoreBundle/Component/Tool/DatabaseCleanup/JobLoop.php:82
 #, php-format
