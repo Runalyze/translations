@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-19 09:23+0200\n"
-"PO-Revision-Date: 2018-06-19 11:18+0000\n"
+"PO-Revision-Date: 2018-06-19 11:20+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -5307,35 +5307,35 @@ msgstr "Søk etter aktiviteter"
 
 #: src/CoreBundle/Controller/AbstractPluginsAwareController.php:61
 msgid "The plugin could not be found."
-msgstr "Tillegget kunne ikke bli funnet"
+msgstr "Tillegget ble ikke bli funnet."
 
 #: src/CoreBundle/Controller/PluginController.php:29
 msgid "Install"
-msgstr ""
+msgstr "Installer"
 
 #: src/CoreBundle/Controller/PluginController.php:35
 msgid "The plugin has been successfully installed."
-msgstr ""
+msgstr "Tillegget har blitt installert suksessfult."
 
 #: src/CoreBundle/Controller/PluginController.php:44
 msgid "There was a problem, the plugin could not be installed."
-msgstr ""
+msgstr "Det var et problem, tillegget kunne ikke installeres."
 
 #: src/CoreBundle/Controller/PluginController.php:48
 msgid "back to list"
-msgstr ""
+msgstr "tilbake til liste"
 
 #: src/CoreBundle/Controller/PluginController.php:78
 msgid "Something went wrong ..."
-msgstr ""
+msgstr "Noe gikk feil ..."
 
 #: src/CoreBundle/Component/Tool/DatabaseCleanup/JobGeneral.php:68
 msgid "Internal constants have been refreshed."
-msgstr ""
+msgstr "Interne konstanter har nå blitt oppfrisket."
 
 #: src/CoreBundle/Component/Tool/DatabaseCleanup/JobGeneral.php:77
 msgid "There was a problem while recalculating your equipment statistics"
-msgstr ""
+msgstr "Det var et problem med å beregne din utstyrsstatistikk"
 
 #: src/CoreBundle/Component/Tool/DatabaseCleanup/JobGeneral.php:79
 #, php-format
@@ -5348,15 +5348,15 @@ msgstr ""
 
 #: src/CoreBundle/Component/Tool/DatabaseCleanup/JobGeneral.php:96
 msgid "VO<sub>2</sub>max corrector"
-msgstr ""
+msgstr "VO<sub>2</sub>maks korreksjon"
 
 #: src/CoreBundle/Component/Tool/DatabaseCleanup/JobGeneral.php:124
 msgid "Maximal TRIMP"
-msgstr ""
+msgstr "Maksimal TRIMP"
 
 #: src/CoreBundle/Component/Tool/DatabaseCleanup/JobGeneral.php:131
 msgid "Your personal cache has been cleared."
-msgstr ""
+msgstr "Ditt personlige lager har blitt slettet."
 
 #: src/CoreBundle/Component/Tool/DatabaseCleanup/JobLoop.php:50
 #, php-format
