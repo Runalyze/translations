@@ -705,7 +705,7 @@
       </trans-unit>
       <trans-unit id="192252d0921a99689b2fbb72f4651a856f47b393" resname="Complete the process by accessing the following link and confirming the deletion" approved="no">
         <source>Complete the process by accessing the following link and confirming the deletion</source>
-        <target state="translated">Fullfør prosessen med å gå inn på følgende link og bekrefte</target>
+        <target state="translated">Fullfør prosessen med å gå inn på følgende link og bekrefte slettingen</target>
         <jms:reference-file line="12">/Resources/views/mail/account/deleteAccountRequest.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="754164850f38c1ecdaf6b8ed894cb192bc36c5f4" resname="Configuration">
@@ -714,29 +714,29 @@
         <jms:reference-file line="67">/Resources/views/base_logged_in.twig</jms:reference-file>
         <jms:reference-file line="20">/Resources/views/home_feature_showcase.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="0e4f1e7ca014c23bb42c16bf0d32af27c235c4ab" resname="Confirm email address">
+      <trans-unit id="0e4f1e7ca014c23bb42c16bf0d32af27c235c4ab" resname="Confirm email address" approved="no">
         <source>Confirm email address</source>
-        <target state="new">Confirm email address</target>
+        <target state="translated">Bekrefte e-post-adressen</target>
         <jms:reference-file line="21">/Resources/views/mail/account/registration.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="b65463cb6a42a17de514acc4659f7fd331e0876a" resname="Connect">
+      <trans-unit id="b65463cb6a42a17de514acc4659f7fd331e0876a" resname="Connect" approved="no">
         <source>Connect</source>
-        <target state="new">Connect</target>
+        <target state="translated">Koble til</target>
         <jms:reference-file line="41">/Resources/views/import/garmin_communicator.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="d5a191ae22ef19c0d9ede8a3a52f9e086a2c7ade" resname="Connect with Garmin">
+      <trans-unit id="d5a191ae22ef19c0d9ede8a3a52f9e086a2c7ade" resname="Connect with Garmin" approved="no">
         <source>Connect with Garmin</source>
-        <target state="new">Connect with Garmin</target>
+        <target state="translated">Koble til med Garmin</target>
         <jms:reference-file line="33">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="8f5e8efc6c27da74c6d2fce0dad216c525167c93" resname="Connected apps">
+      <trans-unit id="8f5e8efc6c27da74c6d2fce0dad216c525167c93" resname="Connected apps" approved="no">
         <source>Connected apps</source>
-        <target state="new">Connected apps</target>
+        <target state="translated">Tilkoplede applikasjoner</target>
         <jms:reference-file line="16">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="f26abb5b1a196c3919c851df34f421c069e42852" resname="Connected devices">
+      <trans-unit id="f26abb5b1a196c3919c851df34f421c069e42852" resname="Connected devices" approved="no">
         <source>Connected devices</source>
-        <target state="new">Connected devices</target>
+        <target state="translated">Tilkoblet</target>
         <jms:reference-file line="51">/Resources/views/import/garmin_communicator.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="2cf609bdd619b0602ef60ac91802b677ad77549a" resname="Consider a donation to RUNALYZE">
