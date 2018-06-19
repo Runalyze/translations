@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-19 09:23+0200\n"
-"PO-Revision-Date: 2018-06-19 09:51+0000\n"
+"PO-Revision-Date: 2018-06-19 11:01+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -4377,12 +4377,12 @@ msgid ""
 "* %s &quot;long&quot; jogs do not show up, because they have less than 0.2 "
 "points."
 msgstr ""
-"* %s &quot;langløp&quot; vises ikke siden de har fått mindre enn 0.2 poeng"
+"* %s &quot;langløp&quot; vises ikke siden de har fått mindre enn 0.2 poeng."
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:502
 #, php-format
 msgid "* In general, all runs with more than %s are being considered."
-msgstr ""
+msgstr "* Overordnet vil alle aktiviteter med mer enn %s bli vurdert."
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:506
 msgid ""
@@ -4399,6 +4399,9 @@ msgid ""
 "distance. That means, a long jog yesterday gives more points than a long jog "
 "two weeks ago and a 30k-jog gives more points than two 20k-jogs."
 msgstr ""
+"Poengene for dine langløp er vektet ved tid og kvadratisk i distanse. Dette "
+"betyr at et langløp igår gir flere poeng enn et langløp for to uker siden, "
+"og et 30k-langløp gir flere poeng enn to 20k-langløp."
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:518
 msgid ""
@@ -4439,11 +4442,11 @@ msgstr "Vis merkelapperfor denne perioden av måneder"
 
 #: plugin/RunalyzePluginPanel_TagsSummary/class.RunalyzePluginPanel_TagsSummary.php:114
 msgid "months"
-msgstr ""
+msgstr "måneder"
 
 #: plugin/RunalyzePluginPanel_TagsSummary/class.RunalyzePluginPanel_TagsSummary.php:114
 msgid "month"
-msgstr ""
+msgstr "måned"
 
 #: plugin/RunalyzePluginPanel_TagsSummary/class.RunalyzePluginPanel_TagsSummary.php:176
 msgid "You don't have any tags for this sport or timescale."
@@ -4451,7 +4454,7 @@ msgstr "Du har ingen merkelapper for denne sporten eller tidsperioden."
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:40
 msgid "Goals"
-msgstr ""
+msgstr "Mål"
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:49
 msgid ""
@@ -4463,19 +4466,23 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:57
 msgid "This plugin tracks your distances for chosen time ranges."
-msgstr ""
+msgstr "Dette tillegget sporer distansene dine for et bestemt tidsintervall."
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:58
 msgid ""
 "You can set a goal (value &gt; 0) for every time range. If it is set, you "
 "will see how much you have to run to reach it."
 msgstr ""
+"Du kan sette et mål (verdi &gt; 0) for hvert tidsintervall. Hvis det er satt "
+"vil du se hvor mye du må løpe for å nå det."
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:59
 msgid ""
 "A virtual Pace Bunny <em>reaches</em> the goal with a steady performance - "
 "you can see how far you are ahead or behind."
 msgstr ""
+"En virtuell Tempo-Bunny <em>når</em> målet med en jevn prestasjon - du kan "
+"se hvor mye du er foran eller bak."
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:60
 msgid ""
@@ -4498,16 +4505,16 @@ msgstr "Nåværende tidsintervall: %s til %s"
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:79
 #, php-format
 msgid "%s: show"
-msgstr ""
+msgstr "%s: vis"
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:80
 #, php-format
 msgid "%s: goal"
-msgstr ""
+msgstr "%s: mål"
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:86
 msgid "Show details"
-msgstr ""
+msgstr "Vis detaljer"
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:163
 msgid "Current"
@@ -4517,7 +4524,7 @@ msgstr "Nåværende"
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:181
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:195
 msgid "Day"
-msgstr ""
+msgstr "Dag"
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:168
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:184
@@ -4525,7 +4532,7 @@ msgstr ""
 #: plugin/RunalyzePluginStat_Rekorde/class.RunalyzePluginStat_Rekorde.php:174
 #: plugin/RunalyzePluginStat_Statistiken/class.SummaryTable10Weeks.php:35
 msgid "Week"
-msgstr ""
+msgstr "Uke"
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:171
 #: plugin/RunalyzePluginPanel_Prognose/Plot.Form.php:184
@@ -4533,57 +4540,57 @@ msgstr ""
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:424
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:38
 msgid "Prognosis"
-msgstr ""
+msgstr "Prognose"
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:178
 #, php-format
 msgid "%d days left"
-msgstr ""
+msgstr "%d dag(er) igjen"
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:187
 msgid "Goal reached."
-msgstr ""
+msgstr "Mål oppnådd."
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:194
 msgid "Pace Bunny"
-msgstr ""
+msgstr "Tempo-Bunny"
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:199
 msgid "Behind"
-msgstr ""
+msgstr "Bak"
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:201
 msgid "Ahead"
-msgstr ""
+msgstr "Foran"
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:202
 msgid "Head 2 Head"
-msgstr ""
+msgstr "Duell"
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:204
 msgid "Me"
-msgstr ""
+msgstr "Meg"
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:205
 msgid "Pace&nbsp;Bunny"
-msgstr ""
+msgstr "Tempo-Bunny"
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:211
 #, php-format
 msgid "%s to %s (%d days)"
-msgstr ""
+msgstr "%s til %s (%d dag(er))"
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:426
 msgid "Month"
-msgstr ""
+msgstr "Måned"
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:427
 msgid "Half-Year"
-msgstr ""
+msgstr "Halvår"
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:428
 msgid "Season"
-msgstr ""
+msgstr "Sesong"
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:428
 msgid "Note: Season means the current season in the german &quot;kmspiel&quot;"
@@ -4591,19 +4598,19 @@ msgstr "Bemerk: Årstid betyr nåværende årstid i tyske &quot;kmspiel&quot;"
 
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:429
 msgid "Year"
-msgstr ""
+msgstr "År"
 
 #: plugin/RunalyzePluginStat_Trainingspartner/class.RunalyzePluginStat_Trainingspartner.php:44
 msgid "How often did you train with whom?"
-msgstr ""
+msgstr "Hvor ofte trente du med hvem?"
 
 #: plugin/RunalyzePluginStat_Trainingspartner/class.RunalyzePluginStat_Trainingspartner.php:81
 msgid "All training partners"
-msgstr ""
+msgstr "Alle treningspartnere"
 
 #: plugin/RunalyzePluginStat_Trainingspartner/class.RunalyzePluginStat_Trainingspartner.php:88
 msgid "You have only trained on your own."
-msgstr ""
+msgstr "Du har kun trenet alene."
 
 #: plugin/RunalyzePluginStat_Trainingspartner/class.RunalyzePluginStat_Trainingspartner.php:115
 #, php-format
@@ -4611,24 +4618,26 @@ msgid ""
 "You have trained <strong>%sx</strong> in total and out of that <strong>%sx</"
 "strong> with a training partner, "
 msgstr ""
+"Du har trenet <strong>%sx</strong> totalt og av det <strong>%sx</strong> med "
+"en treningspartner, "
 
 #: plugin/RunalyzePluginStat_Trainingspartner/class.RunalyzePluginStat_Trainingspartner.php:116
 #, php-format
 msgid "that are <strong>%s</strong> &#37;."
-msgstr ""
+msgstr "det er <strong>%s</strong>&#37;."
 
 #: plugin/RunalyzePluginStat_MonthlyStats/class.RunalyzePluginStat_MonthlyStats.php:21
 msgid "Monthly Stats"
-msgstr ""
+msgstr "Månedlig statistikk"
 
 #: plugin/RunalyzePluginStat_MonthlyStats/class.RunalyzePluginStat_MonthlyStats.php:29
 #, php-format
 msgid "How many %s/hours did you do per month"
-msgstr ""
+msgstr "Hvor mange %s/timer trente du per måned"
 
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:27
 msgid "Your steepest activities and an overview of your cumulated elevation."
-msgstr ""
+msgstr "Dine bratteste aktiviteter og en oversikt over din samlede elevasjon."
 
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:62
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:136
@@ -4638,7 +4647,7 @@ msgstr "Ingen løyper funnet."
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:91
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:99
 msgid "Most elevation"
-msgstr ""
+msgstr "Høyeste elevasjon"
 
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:92
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:110
@@ -4648,11 +4657,11 @@ msgstr "Bratteste løype"
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:93
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:119
 msgid "Highest Climb Score"
-msgstr ""
+msgstr "Høyeste klatrepoeng"
 
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:176
 msgid "unlabeled"
-msgstr ""
+msgstr "umerket"
 
 #: plugin/RunalyzePluginStat_Tag/class.RunalyzePluginStat_Tag.php:29
 msgid "Tag analysis"
@@ -4785,8 +4794,9 @@ msgid "Overall"
 msgstr "Totalt"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:406
+#, fuzzy
 msgid "AG"
-msgstr ""
+msgstr "AG"
 
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:407
 msgid "male/female"
@@ -4827,25 +4837,25 @@ msgstr "Race | Huk av for å markere denne aktiviteten som et 'moroløp'."
 #: plugin/RunalyzePluginStat_Wettkampf/Plot.Bestzeit.php:16
 #, php-format
 msgid "Result over %s"
-msgstr ""
+msgstr "Resultater over %s"
 
 #: plugin/RunalyzePluginStat_Wettkampf/Plot.Bestzeit.php:17
 #, php-format
 msgid "Trend over %s"
-msgstr ""
+msgstr "Utvikling over %s"
 
 #: plugin/RunalyzePluginStat_Wettkampf/Plot.Bestzeit.php:18
 #, php-format
 msgid "Result overs %s"
-msgstr ""
+msgstr "Resultater over %s"
 
 #: plugin/RunalyzePluginPanel_Sports/class.RunalyzePluginPanel_Sports.php:17
 msgid "Summary of your activities for each sport."
-msgstr ""
+msgstr "Oversikt over dine aktiviteter for hver sport."
 
 #: plugin/RunalyzePluginPanel_Prognose/window.plot.php:57
 msgid "Prognosis calculator: form trend"
-msgstr ""
+msgstr "Prognosekalkulator: formutvikling"
 
 #: plugin/RunalyzePluginPanel_Prognose/Plot.Form.php:185
 msgid "Prognosis with marathon shape"
@@ -4853,11 +4863,11 @@ msgstr "Prognose med maratonform"
 
 #: plugin/RunalyzePluginPanel_Prognose/Plot.Form.php:186
 msgid "Result"
-msgstr ""
+msgstr "Resultater"
 
 #: plugin/RunalyzePluginPanel_Prognose/Plot.Form.php:199
 msgid "Prognosis trend"
-msgstr ""
+msgstr "Prognoseutvikling"
 
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:93
 msgid "Your current effective VO2max:"
@@ -4870,51 +4880,51 @@ msgstr "Din nåværende maratonform:"
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:96
 #, php-format
 msgid "%s in %s <small>(%s)</small> and %s in %s <small>(%s)</small>"
-msgstr ""
+msgstr "%s på %s <small>(%s)</small> og %s på %s <small>(%s)</small>"
 
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:100
 msgid "Your two best results:"
-msgstr ""
+msgstr "Dine to beste resultater:"
 
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:268
 msgid "Personal best"
-msgstr ""
+msgstr "Personlig beste"
 
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:295
 msgid "Your input is invalid"
-msgstr ""
+msgstr "Din input er ugyldig"
 
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:311
 #, php-format
 msgid "The results give the constants K = %f and e = %f."
-msgstr ""
+msgstr "Resultatet gir konstantene K = %f og e = %f."
 
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:315
 #, php-format
 msgid "K must be between %u and %u, e between %f and %f."
-msgstr ""
+msgstr "K må være mellom %u og %u, e mellom %f og %f."
 
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:326
 #, php-format
 msgid "Effective VO2max must be between %u and %u."
-msgstr ""
+msgstr "Effektiv VO[sub]2[/sub]maks må være mellom %u og %u."
 
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:340
 msgid "Input"
-msgstr ""
+msgstr "Input"
 
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:345
 msgid "Model"
-msgstr ""
+msgstr "Modell"
 
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:353
 msgid "Distances"
-msgstr ""
+msgstr "Distanse"
 
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:367
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:80
 msgid "Effective VO2max"
-msgstr ""
+msgstr "Effektiv VO[sub]2[/sub]maks"
 
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:372
 msgid "Use Marathon Shape"
@@ -4926,20 +4936,20 @@ msgstr "Maratonform"
 
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:390
 msgid "Best result"
-msgstr ""
+msgstr "Beste resultat"
 
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:405
 msgid "Second best result"
-msgstr ""
+msgstr "Nest beste resultat"
 
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:436
 msgid "Show prognosis"
-msgstr ""
+msgstr "Vis prognose"
 
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:451
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:106
 msgid "Prognosis calculator"
-msgstr ""
+msgstr "Prognosekalkulator"
 
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:46
 msgid "Predict your race performance on various distances."
@@ -4965,12 +4975,16 @@ msgid ""
 "Robert Bock uses an individual coefficient for your fatigue over time/"
 "distance. This model uses your two best results."
 msgstr ""
+"Robert Bock bruker en individuell koeffisient for din utmatning over tid/"
+"distanse. Denne modelle bruker dine to beste resultater."
 
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:62
 msgid ""
 "Herbert Steffny uses fixed factors to transform performances from one "
 "distance to another. This model uses your best result."
 msgstr ""
+"Herbert Seffny bruker faste faktorer for å transformere prestasjon fra en "
+"distanse til en annen. Denne modelle bruker ditt beste resultat."
 
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:65
 msgid ""
@@ -4978,6 +4992,9 @@ msgid ""
 "and slightly different formulas than Robert Bock. This model uses your best "
 "result."
 msgstr ""
+"David Cameron bruker faste koeffisienter for utmatningen over tid/distanse "
+"og en delvis forskjellig formel enn Robert Bock. Denne modelle bruker ditt "
+"beste resultat."
 
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:68
 msgid ""
@@ -4989,11 +5006,11 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:76
 msgid "Distances to predict"
-msgstr ""
+msgstr "Distanse å forutse"
 
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:78
 msgid "Prediction model"
-msgstr ""
+msgstr "Modell for å forutse"
 
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:87
 msgid "Use marathon shape"
@@ -5009,7 +5026,7 @@ msgstr ""
 
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:105
 msgid "Show prognosis trend"
-msgstr ""
+msgstr "Vis prognoseutvikling"
 
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:124
 msgid "Prognoses can't be calculated."
@@ -5017,7 +5034,7 @@ msgstr "Prognose kan ikke bli beregnet."
 
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:128
 msgid "There are not enough results for good predictions."
-msgstr ""
+msgstr "Det er ikke mange nok resultater for gode framsyn."
 
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:218
 #, php-format
