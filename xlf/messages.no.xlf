@@ -1662,17 +1662,17 @@
       </trans-unit>
       <trans-unit id="906d05c9ed7f61348978afa8b694ec1f0bb8c7ad" resname="In general most questions, problems and ideas are more appropriate to ask in the forum." approved="no">
         <source>In general most questions, problems and ideas are more appropriate to ask in the forum.</source>
-        <target state="translated">Generelt er de fleste spørsmål, pro</target>
+        <target state="translated">Generelt er de fleste spørsmål, problemer og ideer mer hensiktsmessige å spørre i forumet.</target>
         <jms:reference-file line="14">/Resources/views/static/help.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="154e6769e34a4364abdc7b8cca3c3de6cb10da19" resname="In the future we will provide more widgets, which can be included on your website, blog or board signatures">
+      <trans-unit id="154e6769e34a4364abdc7b8cca3c3de6cb10da19" resname="In the future we will provide more widgets, which can be included on your website, blog or board signatures" approved="no">
         <source>In the future we will provide more widgets, which can be included on your website, blog or board signatures</source>
-        <target state="new">In the future we will provide more widgets, which can be included on your website, blog or board signatures</target>
+        <target state="translated">I fremtiden vil vi lage flere miniprogrammer, som kan inkluderes på nettstedet ditt, bloggen eller som forumsignatur</target>
         <jms:reference-file line="62">/Resources/views/settings/privacy.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="68d71b3c12159ba11a1a8b433401182bfd1b8a15" resname="Index to categorize climbs by Dutch cycling magazine fiets.">
+      <trans-unit id="68d71b3c12159ba11a1a8b433401182bfd1b8a15" resname="Index to categorize climbs by Dutch cycling magazine fiets." approved="no">
         <source>Index to categorize climbs by Dutch cycling magazine fiets.</source>
-        <target state="new">Index to categorize climbs by Dutch cycling magazine fiets.</target>
+        <target state="translated">Indek</target>
         <jms:reference-file line="77">/Resources/views/activity/tool/climb_score.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="42401823774f2c1301a6addca86bbc3987435e54" resname="Indicates the order of appearance.">
