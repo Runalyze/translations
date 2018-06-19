@@ -1561,7 +1561,7 @@
       </trans-unit>
       <trans-unit id="68d056f40d4a2b2532050de43317783cbad9b877" resname="If activated: Display a summary for each private activity in the public activity list." approved="no">
         <source>If activated: Display a summary for each private activity in the public activity list.</source>
-        <target state="translated">Hvis aktivert: Display a summary for each private activity in the public activity list.</target>
+        <target state="translated">Hvis aktivert: Vis et sammendrag for hver privat aktivitet i listen over offentlige aktiviteter.</target>
         <jms:reference-file line="23">/Resources/views/settings/privacy.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="554783b2d88078e0fb21042658be0ca489c9fa3b" resname="If activated: Everyone can see a list of all your (public) activities.">
