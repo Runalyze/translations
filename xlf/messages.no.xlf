@@ -771,12 +771,12 @@
       </trans-unit>
       <trans-unit id="c663f7c3614e6e344b80fbe00e1dbd58cc8e7e39" resname="Correction: considering elevation" approved="no">
         <source>Correction: considering elevation</source>
-        <target state="translated">Korre</target>
+        <target state="translated">Korreksjon: vurder elevasjoner</target>
         <jms:reference-file line="89">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="4eaf39e26823b9435e75a4dfd3a0a6401cd9487b" resname="Corrector">
+      <trans-unit id="4eaf39e26823b9435e75a4dfd3a0a6401cd9487b" resname="Corrector" approved="no">
         <source>Corrector</source>
-        <target state="new">Corrector</target>
+        <target state="translated">Korriger</target>
         <jms:reference-file line="37">/Resources/views/tools/vo2max_analysis.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="d82b56cad90059583c1183e82edb8cf7d4ef4794" resname="Course">
