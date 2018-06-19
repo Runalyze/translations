@@ -1189,22 +1189,22 @@
       </trans-unit>
       <trans-unit id="47b894445772b36938b2d3d972ea24d73733d95f" resname="Elevation data could not be retrieved." approved="no">
         <source>Elevation data could not be retrieved.</source>
-        <target state="translated">Ellevasjonsdata kunne ikke hentes.</target>
+        <target state="translated">Elevasjonsdata kunne ikke hentes.</target>
         <jms:reference-file line="172">/../src/CoreBundle/Controller/Activity/EditController.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="c47e9064feba9b1502370412b70261197e9977b7" resname="Elevation data from Shuttle Radar Topography Mission">
+      <trans-unit id="c47e9064feba9b1502370412b70261197e9977b7" resname="Elevation data from Shuttle Radar Topography Mission" approved="no">
         <source>Elevation data from Shuttle Radar Topography Mission</source>
-        <target state="new">Elevation data from Shuttle Radar Topography Mission</target>
+        <target state="translated">Elevasjonsdata fra Shuttle Radar Topography Mission</target>
         <jms:reference-file line="48">/Resources/views/static/help.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="481bd96b48a7da413a93809f9688355271e12ae7" resname="Elevation data has been corrected.">
+      <trans-unit id="481bd96b48a7da413a93809f9688355271e12ae7" resname="Elevation data has been corrected." approved="no">
         <source>Elevation data has been corrected.</source>
-        <target state="new">Elevation data has been corrected.</target>
+        <target state="translated">Elevasjonsdata har blitt korrigert.</target>
         <jms:reference-file line="163">/../src/CoreBundle/Controller/Activity/EditController.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="5471b2be79bb47603a146ca69bfce43099601a1a" resname="Elevation data via GPS is very inaccurate. Therefore you can correct it via some satellite data.">
+      <trans-unit id="5471b2be79bb47603a146ca69bfce43099601a1a" resname="Elevation data via GPS is very inaccurate. Therefore you can correct it via some satellite data." approved="no">
         <source>Elevation data via GPS is very inaccurate. Therefore you can correct it via some satellite data.</source>
-        <target state="new">Elevation data via GPS is very inaccurate. Therefore you can correct it via some satellite data.</target>
+        <target state="translated">Elevasjonsdata via GPS er svært unøyaktig. Derfor kan du korrigere dem med satellittdata.</target>
         <jms:reference-file line="190">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="01345289e5e7cc14aea84a4cf1fe9a4a5c3ad6ff" resname="Email me">
@@ -1212,9 +1212,9 @@
         <target state="new">Email me</target>
         <jms:reference-file line="64">/../src/CoreBundle/Form/Settings/AccountType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="3de34686de2562a73dc1259b5018d789e0fdfe6b" resname="Enable public athlete page">
+      <trans-unit id="3de34686de2562a73dc1259b5018d789e0fdfe6b" resname="Enable public athlete page" approved="no">
         <source>Enable public athlete page</source>
-        <target state="new">Enable public athlete page</target>
+        <target state="translated">Aktiver offentlig utøverside</target>
         <jms:reference-file line="18">/../src/CoreBundle/Form/Settings/PrivacyType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="a2bb9d34b8a1a79665858d354585cf147e0dee4e" resname="End">
@@ -1222,26 +1222,26 @@
         <target state="new">End</target>
         <jms:reference-file line="8">/Resources/views/_macro/tablesorter.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="9082b0fad342d5b60525c63d7c8be643490cb151" resname="End of use">
+      <trans-unit id="9082b0fad342d5b60525c63d7c8be643490cb151" resname="End of use" approved="no">
         <source>End of use</source>
-        <target state="new">End of use</target>
+        <target state="translated">Slutt på bruk</target>
         <jms:reference-file line="72">/../src/CoreBundle/Form/EquipmentType.php</jms:reference-file>
         <jms:reference-file line="71">/Resources/views/my/equipment/form-category.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="437bcb15112715dc73cb38b85f0830f3ce457ded" resname="Energy">
+      <trans-unit id="437bcb15112715dc73cb38b85f0830f3ce457ded" resname="Energy" approved="no">
         <source>Energy</source>
-        <target state="new">Energy</target>
+        <target state="translated">Energi</target>
         <jms:reference-file line="139">/../src/CoreBundle/Form/ActivityType.php</jms:reference-file>
         <jms:reference-file line="48">/Resources/views/shared/widget/iframe/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="789a557b576e1a99f44008f1170172ddb4082e31" resname="Energy turnover will be calculated based on this value when changing sport or duration.">
+      <trans-unit id="789a557b576e1a99f44008f1170172ddb4082e31" resname="Energy turnover will be calculated based on this value when changing sport or duration." approved="no">
         <source>Energy turnover will be calculated based on this value when changing sport or duration.</source>
-        <target state="new">Energy turnover will be calculated based on this value when changing sport or duration.</target>
+        <target state="translated">Energiforbruk vil bli beregnet basert på denne verdien ved endring av sport eller varighet.</target>
         <jms:reference-file line="73">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="9149cfc2a4ecb3f98b8f6d97b09fc179c7f0f1ac" resname="Enter your current password">
+      <trans-unit id="9149cfc2a4ecb3f98b8f6d97b09fc179c7f0f1ac" resname="Enter your current password" approved="no">
         <source>Enter your current password</source>
-        <target state="new">Enter your current password</target>
+        <target state="translated">Oppgi</target>
         <jms:reference-file line="19">/../src/CoreBundle/Form/Settings/ChangeMailType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="36155d48f460d339ac29c2069ba7e011cbc7b0b7" resname="Equipment">
