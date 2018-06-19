@@ -1312,43 +1312,43 @@
       </trans-unit>
       <trans-unit id="66587a7a62a90fc91c4c88f1872bedaa52d23a35" resname="Follow" approved="no">
         <source>Follow</source>
-        <target state="translated">Følge</target>
+        <target state="translated">Følg</target>
         <jms:reference-file line="70">/Resources/views/mail/transactionBase.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="1d892a6e06d8d8b9cec13bcb9b4517b0d6576bdb" resname="Follow %username% via RSS-Feed">
+      <trans-unit id="1d892a6e06d8d8b9cec13bcb9b4517b0d6576bdb" resname="Follow %username% via RSS-Feed" approved="no">
         <source>Follow %username% via RSS-Feed</source>
-        <target state="new">Follow %username% via RSS-Feed</target>
+        <target state="translated">Følg %username% via RSS-Feed</target>
         <jms:reference-file line="29">/Resources/views/shared/athlete/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="948d4a084a9b22cbad0e8d262dc96573cc19ed13" resname="Footstrike type">
+      <trans-unit id="948d4a084a9b22cbad0e8d262dc96573cc19ed13" resname="Footstrike type" approved="no">
         <source>Footstrike type</source>
-        <target state="new">Footstrike type</target>
+        <target state="translated">Fotisett type</target>
         <jms:reference-file line="190">/Resources/views/activity/tool/time_series_statistics.html.twig</jms:reference-file>
         <jms:reference-file line="193">/Resources/views/activity/tool/time_series_statistics.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="626bc8c74126cf7aca5e5d268bc175a49410b70a" resname="For a detailed explanation of box plots, see &lt;a href=&quot;https://en.wikipedia.org/wiki/Box_plot&quot;&gt;Wikipedia&lt;/a&gt;.">
+      <trans-unit id="626bc8c74126cf7aca5e5d268bc175a49410b70a" resname="For a detailed explanation of box plots, see &lt;a href=&quot;https://en.wikipedia.org/wiki/Box_plot&quot;&gt;Wikipedia&lt;/a&gt;." approved="no">
         <source><![CDATA[For a detailed explanation of box plots, see <a href="https://en.wikipedia.org/wiki/Box_plot">Wikipedia</a>.]]></source>
-        <target state="new"><![CDATA[For a detailed explanation of box plots, see <a href="https://en.wikipedia.org/wiki/Box_plot">Wikipedia</a>.]]></target>
+        <target state="translated">For en detaljert forklaring av boksplott, se &lt;a href="https://en.wikipedia.org/wiki/Box_plot"&gt;Wikipedia&lt;/a&gt;.</target>
         <jms:reference-file line="127">/Resources/views/tools/anova/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="21a83f462190300e206ad3ec048971aa4a6e2cf0" resname="For a single activity the TRIMP is calculated based on the duration and your heart rate.">
+      <trans-unit id="21a83f462190300e206ad3ec048971aa4a6e2cf0" resname="For a single activity the TRIMP is calculated based on the duration and your heart rate." approved="no">
         <source>For a single activity the TRIMP is calculated based on the duration and your heart rate.</source>
-        <target state="new">For a single activity the TRIMP is calculated based on the duration and your heart rate.</target>
+        <target state="translated">For en enkelt aktivitet beregnes TRIMP basert på varighet og puls.</target>
         <jms:reference-file line="49">/Resources/views/static/help_calculations.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="1cfe764137bea4882e1b04f6cc42c924d8466a7a" resname="For large databases (several gigabytes) we recommend updating RUNALYZE via console.">
+      <trans-unit id="1cfe764137bea4882e1b04f6cc42c924d8466a7a" resname="For large databases (several gigabytes) we recommend updating RUNALYZE via console." approved="no">
         <source>For large databases (several gigabytes) we recommend updating RUNALYZE via console.</source>
-        <target state="new">For large databases (several gigabytes) we recommend updating RUNALYZE via console.</target>
+        <target state="translated">For store databaser (flere gigabytes) anbefaler vi å oppdatere RUNALYZE via konsoll.</target>
         <jms:reference-file line="10">/Resources/views/system/update.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="8d02a787d85813d3b4a3bc1cf248daa6bb26d472" resname="For pace zones, we also have extra default zones for running, swimming and cycling, which also take precedence over user-defined default zones.">
+      <trans-unit id="8d02a787d85813d3b4a3bc1cf248daa6bb26d472" resname="For pace zones, we also have extra default zones for running, swimming and cycling, which also take precedence over user-defined default zones." approved="no">
         <source>For pace zones, we also have extra default zones for running, swimming and cycling, which also take precedence over user-defined default zones.</source>
-        <target state="new">For pace zones, we also have extra default zones for running, swimming and cycling, which also take precedence over user-defined default zones.</target>
+        <target state="translated">For temposoner har vi også ekstra standardsoner for løping, svømming og sykling, som også har forrang over brukerdefinerte standardsoner.</target>
         <jms:reference-file line="29">/Resources/views/settings/sport/form-zone.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="a2f060b7363f54c9f80d62805d36636dd7ebc33c" resname="Forgot your password?">
+      <trans-unit id="a2f060b7363f54c9f80d62805d36636dd7ebc33c" resname="Forgot your password?" approved="no">
         <source>Forgot your password?</source>
-        <target state="new">Forgot your password?</target>
+        <target state="translated">Glemt passordet ditt?</target>
         <jms:reference-file line="36">/Resources/views/login/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="cf1d2c9702ec3c2c9c19d4853cd487b92618fb0c" resname="Forum">
@@ -1360,20 +1360,20 @@
         <jms:reference-file line="18">/Resources/views/static/help.html.twig</jms:reference-file>
         <jms:reference-file line="37">/Resources/views/system/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="bbba84135de6b052c2210e74e0cc5b2a9d359ddb" resname="Found">
+      <trans-unit id="bbba84135de6b052c2210e74e0cc5b2a9d359ddb" resname="Found" approved="no">
         <source>Found</source>
-        <target state="new">Found</target>
+        <target state="translated">Fant</target>
         <jms:reference-file line="59">/Resources/views/import/garmin_communicator.html.twig</jms:reference-file>
         <jms:reference-file line="60">/Resources/views/import/garmin_communicator.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="000170c77c1f00067c38168fbe12115a06d63488" resname="Found #{tracks} activities">
+      <trans-unit id="000170c77c1f00067c38168fbe12115a06d63488" resname="Found #{tracks} activities" approved="no">
         <source>Found #{tracks} activities</source>
-        <target state="new">Found #{tracks} activities</target>
+        <target state="translated">Fant #{tracks} aktiviteter</target>
         <jms:reference-file line="57">/Resources/views/import/garmin_communicator.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="3890a55f029c2ef7cfafd299022c8e7de863c234" resname="Found %s activities.">
+      <trans-unit id="3890a55f029c2ef7cfafd299022c8e7de863c234" resname="Found %s activities." approved="no">
         <source>Found %s activities.</source>
-        <target state="new">Found %s activities.</target>
+        <target state="translated">Fant %s aktiviteter.</target>
         <jms:reference-file line="25">/Resources/views/activity/multi_importer.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="9239ee2cda84eca4c3440e2a7b50148af67da3d4" resname="General">
@@ -1381,14 +1381,14 @@
         <target state="new">General</target>
         <jms:reference-file line="23">/Resources/views/tools/poster.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="501806c15fa6c6e39d648f03705ad7327f590af9" resname="General cleanup">
+      <trans-unit id="501806c15fa6c6e39d648f03705ad7327f590af9" resname="General cleanup" approved="no">
         <source>General cleanup</source>
-        <target state="new">General cleanup</target>
+        <target state="translated">Generell opprensing</target>
         <jms:reference-file line="23">/../src/CoreBundle/Form/Tools/DatabaseCleanupType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="d02b29e8efb9f85c6c48867eb3783fbb3396f4b3" resname="General groups">
+      <trans-unit id="d02b29e8efb9f85c6c48867eb3783fbb3396f4b3" resname="General groups" approved="no">
         <source>General groups</source>
-        <target state="new">General groups</target>
+        <target state="translated">Generelle grupper</target>
         <jms:reference-file line="129">/../src/CoreBundle/Form/Tools/Anova/AnovaType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="69163a43cc66c60b73f2f02bdb4c33556f0bbfa5" resname="General information">
@@ -1397,20 +1397,20 @@
         <jms:reference-file line="51">/Resources/views/activity/form.html.twig</jms:reference-file>
         <jms:reference-file line="24">/Resources/views/my/body-values/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="16dea596907fd3def2b1308c13c91b6c73169cb7" resname="General pace table">
+      <trans-unit id="16dea596907fd3def2b1308c13c91b6c73169cb7" resname="General pace table" approved="no">
         <source>General pace table</source>
-        <target state="new">General pace table</target>
+        <target state="translated">Generelle tempotabeller</target>
         <jms:reference-file line="26">/Resources/views/tools/tables/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="08b45ed74896581d98b812794a2753e1572291dc" resname="General settings">
+      <trans-unit id="08b45ed74896581d98b812794a2753e1572291dc" resname="General settings" approved="no">
         <source>General settings</source>
-        <target state="new">General settings</target>
+        <target state="translated">Generelle instillinger</target>
         <jms:reference-file line="70">/Resources/views/base_logged_in.twig</jms:reference-file>
         <jms:reference-file line="26">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="60c278e5e57e2cd42c81ea2f1dd46d1b3437fffc" resname="General statistics">
+      <trans-unit id="60c278e5e57e2cd42c81ea2f1dd46d1b3437fffc" resname="General statistics" approved="no">
         <source>General statistics</source>
-        <target state="new">General statistics</target>
+        <target state="translated">Generelle statistikker</target>
         <jms:reference-file line="23">/Resources/views/shared/athlete/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="9dc653a63bd3443bcbf33f596ed76029db2ad206" resname="Generate posters" approved="no">
@@ -1418,9 +1418,9 @@
         <target state="translated">Lag plakater</target>
         <jms:reference-file line="42">/Resources/views/tools/poster.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="24f7e09689c4e137c535fea569d21ff8bb25d55c" resname="Gimmick">
+      <trans-unit id="24f7e09689c4e137c535fea569d21ff8bb25d55c" resname="Gimmick" approved="no">
         <source>Gimmick</source>
-        <target state="new">Gimmick</target>
+        <target state="translated">Gimmic</target>
         <jms:reference-file line="44">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="7427cf697be16a4ec1d916910128a59d920125e7" resname="Glossary">
