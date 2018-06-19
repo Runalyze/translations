@@ -1859,12 +1859,12 @@
       </trans-unit>
       <trans-unit id="d9b3decd4cee4e3a5df4eadb26eceeb9ad19459f" resname="Miscellaneaous" approved="no">
         <source>Miscellaneaous</source>
-        <target state="translated">Tilbehør</target>
+        <target state="translated">Diverse</target>
         <jms:reference-file line="69">/Resources/views/static/help.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="5f2cbd107037ed23248e5058a7a64cd6bae05468" resname="Miscellaneous">
+      <trans-unit id="5f2cbd107037ed23248e5058a7a64cd6bae05468" resname="Miscellaneous" approved="no">
         <source>Miscellaneous</source>
-        <target state="new">Miscellaneous</target>
+        <target state="translated">Diverse</target>
         <jms:reference-file line="125">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="a7b93d2128e820f861fc8dfccd9f5521e89ad21f" resname="Mode">
@@ -1872,57 +1872,57 @@
         <target state="new">Mode</target>
         <jms:reference-file line="70">/../src/CoreBundle/Form/EquipmentCategoryType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="09a105ca0b894e5f8858bda4d60223581f270739" resname="Mode for displaying activities in calendar">
+      <trans-unit id="09a105ca0b894e5f8858bda4d60223581f270739" resname="Mode for displaying activities in calendar" approved="no">
         <source>Mode for displaying activities in calendar</source>
-        <target state="new">Mode for displaying activities in calendar</target>
+        <target state="translated">Modus for å vise aktiviteter i kalenderen</target>
         <jms:reference-file line="96">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
         <jms:reference-file line="24">/Resources/views/settings/sport/form-type.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="082bc378cd60e17a38d99898b21955299c5b60c8" resname="Month">
+      <trans-unit id="082bc378cd60e17a38d99898b21955299c5b60c8" resname="Month" approved="no">
         <source>Month</source>
-        <target state="new">Month</target>
+        <target state="translated">Måned</target>
         <jms:reference-file line="14">/Resources/views/my/panels/sports/base.html.twig</jms:reference-file>
         <jms:reference-file line="17">/Resources/views/my/panels/sports/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="008f5ab2f2d752d9b524065d1d059bfb53ba779e" resname="Monthly Stats">
+      <trans-unit id="008f5ab2f2d752d9b524065d1d059bfb53ba779e" resname="Monthly Stats" approved="no">
         <source>Monthly Stats</source>
-        <target state="new">Monthly Stats</target>
+        <target state="translated">Månedlig statistikk</target>
         <jms:reference-file line="6">/Resources/views/my/statistics/monthly-stats/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="4bab2d8fe13fa6ab57f80098b414f0f734c5dd25" resname="More">
+      <trans-unit id="4bab2d8fe13fa6ab57f80098b414f0f734c5dd25" resname="More" approved="no">
         <source>More</source>
-        <target state="new">More</target>
+        <target state="translated">Mer</target>
         <jms:reference-file line="90">/Resources/views/base_logged_in.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="141c78db05718f5ffbaaf063a87cb875c7ef61a5" resname="More automatic sync options with Polar, TomTom and more will follow.">
+      <trans-unit id="141c78db05718f5ffbaaf063a87cb875c7ef61a5" resname="More automatic sync options with Polar, TomTom and more will follow." approved="no">
         <source>More automatic sync options with Polar, TomTom and more will follow.</source>
-        <target state="new">More automatic sync options with Polar, TomTom and more will follow.</target>
+        <target state="translated">Flere automatiske synkroniseringsalternativer med Polar, TomTom og mer vil komme.</target>
         <jms:reference-file line="46">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="74cba9f182ea20ad83b8428d9365dd11a4428ec2" resname="Multi editor">
+      <trans-unit id="74cba9f182ea20ad83b8428d9365dd11a4428ec2" resname="Multi editor" approved="no">
         <source>Multi editor</source>
-        <target state="new">Multi editor</target>
+        <target state="translated">Multi-redigering</target>
         <jms:reference-file line="6">/Resources/views/activity/multi_editor_navigation.html.twig</jms:reference-file>
         <jms:reference-file line="80">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2921fe0bb0fce754ac58926cf174169d3c1e03a6" resname="Multiple Choice">
+      <trans-unit id="2921fe0bb0fce754ac58926cf174169d3c1e03a6" resname="Multiple Choice" approved="no">
         <source>Multiple Choice</source>
-        <target state="new">Multiple Choice</target>
+        <target state="translated">Flervalg</target>
         <jms:reference-file line="67">/../src/CoreBundle/Form/EquipmentCategoryType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="b88936a23af9f0d4355b377812d49b5e6e513657" resname="Multiple choice">
+      <trans-unit id="b88936a23af9f0d4355b377812d49b5e6e513657" resname="Multiple choice" approved="no">
         <source>Multiple choice</source>
-        <target state="new">Multiple choice</target>
+        <target state="translated">Flervalg</target>
         <jms:reference-file line="27">/Resources/views/my/equipment/form-category.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="18dba71d950ae64ed24c6ea29908713c0bde2649" resname="Muscles">
+      <trans-unit id="18dba71d950ae64ed24c6ea29908713c0bde2649" resname="Muscles" approved="no">
         <source>Muscles</source>
-        <target state="new">Muscles</target>
+        <target state="translated">Muskler</target>
         <jms:reference-file line="29">/Resources/views/my/body-values/table.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="75567a8346b4a8cf612cb3fd3b81b178c863556c" resname="My apps">
+      <trans-unit id="75567a8346b4a8cf612cb3fd3b81b178c863556c" resname="My apps" approved="no">
         <source>My apps</source>
-        <target state="new">My apps</target>
+        <target state="translated">Mine applikasjoner</target>
         <jms:reference-file line="5">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="709a23220f2c3d64d1e1d6d18c4d5280f8d82fca" resname="Name">
@@ -1940,14 +1940,14 @@
         <jms:reference-file line="36">/Resources/views/settings/sport/form-zone.html.twig</jms:reference-file>
         <jms:reference-file line="16">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="d4d943b071a08916b403952ac8b6818a6510e335" resname="New body values">
+      <trans-unit id="d4d943b071a08916b403952ac8b6818a6510e335" resname="New body values" approved="no">
         <source>New body values</source>
-        <target state="new">New body values</target>
+        <target state="translated">Nye kroppsverdier</target>
         <jms:reference-file line="61">/Resources/views/base_logged_in.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="9c2707f79cd95354a359cb52299d95a267fffd24" resname="New equipment">
+      <trans-unit id="9c2707f79cd95354a359cb52299d95a267fffd24" resname="New equipment" approved="no">
         <source>New equipment</source>
-        <target state="new">New equipment</target>
+        <target state="translated">Nytt utstyr</target>
         <jms:reference-file line="60">/Resources/views/base_logged_in.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="d850ee188c7c55b64bc3624534de5c5051a57dc6" resname="New password">
@@ -1962,9 +1962,9 @@
         <jms:reference-file line="55">/../src/CoreBundle/Form/Settings/AccountType.php</jms:reference-file>
         <jms:reference-file line="62">/../src/CoreBundle/Form/Settings/AccountType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="5cc9013545b24e0b3d099697fcb2bcd06192ac09" resname="No activities found.">
+      <trans-unit id="5cc9013545b24e0b3d099697fcb2bcd06192ac09" resname="No activities found." approved="no">
         <source>No activities found.</source>
-        <target state="new">No activities found.</target>
+        <target state="translated">Fant ingen aktiviteter</target>
         <jms:reference-file line="41">/Resources/views/my/statistics/monthly-stats/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="a583f70afc2894985ba47b8bc07e76e49e52e709" resname="No activity found.">
