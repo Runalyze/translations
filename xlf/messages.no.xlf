@@ -776,33 +776,33 @@
       </trans-unit>
       <trans-unit id="4eaf39e26823b9435e75a4dfd3a0a6401cd9487b" resname="Corrector" approved="no">
         <source>Corrector</source>
-        <target state="translated">Korriger</target>
+        <target state="translated">Korrigerer</target>
         <jms:reference-file line="37">/Resources/views/tools/vo2max_analysis.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="d82b56cad90059583c1183e82edb8cf7d4ef4794" resname="Course">
+      <trans-unit id="d82b56cad90059583c1183e82edb8cf7d4ef4794" resname="Course" approved="no">
         <source>Course</source>
-        <target state="new">Course</target>
+        <target state="translated">Løype</target>
         <jms:reference-file line="55">/Resources/views/shared/widget/iframe/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="19e9305780271f6dd9b34ab42ebc137c5ff54251" resname="Create a new account">
+      <trans-unit id="19e9305780271f6dd9b34ab42ebc137c5ff54251" resname="Create a new account" approved="no">
         <source>Create a new account</source>
-        <target state="new">Create a new account</target>
+        <target state="translated">Opprett en ny konto</target>
         <jms:reference-file line="4">/Resources/views/register/disabled.html.twig</jms:reference-file>
         <jms:reference-file line="5">/Resources/views/register/mail_could_not_be_delivered.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="3f4f547d73646d774e8f690b36333e8c9572894b" resname="Create an account">
+      <trans-unit id="3f4f547d73646d774e8f690b36333e8c9572894b" resname="Create an account" approved="no">
         <source>Create an account</source>
-        <target state="new">Create an account</target>
+        <target state="translated">Opprenn en konto</target>
         <jms:reference-file line="22">/Resources/views/system/install.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="60e77f3bb74579e7e823118e5449ee583bcc84a9" resname="Create backup">
+      <trans-unit id="60e77f3bb74579e7e823118e5449ee583bcc84a9" resname="Create backup" approved="no">
         <source>Create backup</source>
-        <target state="new">Create backup</target>
+        <target state="translated">Lag en sikkerhetskopi</target>
         <jms:reference-file line="21">/Resources/views/tools/backup/export.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="bfac50d6424b5166c3ee2808c85ae7c139b5182f" resname="Credits">
         <source>Credits</source>
-        <target state="new">Credits</target>
+        <target state="new"></target>
         <jms:reference-file line="35">/Resources/views/static/help.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="6e8f4ca5afb7e7b2316a2fe5e9a01e1fe8d7f52f" resname="Current RUNALYZE version: ">
