@@ -1168,28 +1168,28 @@
       </trans-unit>
       <trans-unit id="056d29d5205997b269abe24f77ffda148ce3321b" resname="Effective VO2max" approved="no">
         <source>Effective VO2max</source>
-        <target state="translated">Effektiv VO2max</target>
+        <target state="translated">Effektiv VO2maks</target>
         <jms:reference-file line="9">/Resources/views/tools/tables/vo2max.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1e1a1441ddd7642f03888de8ce4202c6545a6073" resname="Effective VO2max values are only available for distances of at least one kilometer." approved="no">
         <source>Effective VO2max values are only available for distances of at least one kilometer.</source>
-        <target state="translated">Effektiv VO2max values are only available for distances of at least one kilometer.</target>
+        <target state="translated">Effektiv VO2maks-verdiene er kun tilgjengelige for avstander på minst en kilometer.</target>
         <jms:reference-file line="49">/Resources/views/my/raceresult/performance_chart.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="5c501758d720d6b23e8aadc62648655316961e3d" resname="Elapsed time">
+      <trans-unit id="5c501758d720d6b23e8aadc62648655316961e3d" resname="Elapsed time" approved="no">
         <source>Elapsed time</source>
-        <target state="new">Elapsed time</target>
+        <target state="translated">Forløpt tid</target>
         <jms:reference-file line="42">/Resources/views/shared/widget/iframe/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="a514da1094ce1bd6b9267e8a0e3df8736da457a5" resname="Elevation">
+      <trans-unit id="a514da1094ce1bd6b9267e8a0e3df8736da457a5" resname="Elevation" approved="no">
         <source>Elevation</source>
-        <target state="new">Elevation</target>
+        <target state="translated">Elevasjon</target>
         <jms:reference-file line="73">/Resources/views/activity/tool/climb_score.html.twig</jms:reference-file>
         <jms:reference-file line="45">/Resources/views/shared/widget/iframe/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="47b894445772b36938b2d3d972ea24d73733d95f" resname="Elevation data could not be retrieved.">
+      <trans-unit id="47b894445772b36938b2d3d972ea24d73733d95f" resname="Elevation data could not be retrieved." approved="no">
         <source>Elevation data could not be retrieved.</source>
-        <target state="new">Elevation data could not be retrieved.</target>
+        <target state="translated">Ellevasjonsdata kunne ikke hentes.</target>
         <jms:reference-file line="172">/../src/CoreBundle/Controller/Activity/EditController.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="c47e9064feba9b1502370412b70261197e9977b7" resname="Elevation data from Shuttle Radar Topography Mission">
