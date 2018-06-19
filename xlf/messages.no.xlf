@@ -1114,22 +1114,22 @@
       </trans-unit>
       <trans-unit id="b9b8b8b16b3a8b9d4bdf2d0088a08abcfce31aa7" resname="Edit activity tag" approved="no">
         <source>Edit activity tag</source>
-        <target state="translated">Editer</target>
+        <target state="translated">Editer aktivitetsmerkelapper</target>
         <jms:reference-file line="11">/Resources/views/settings/tag/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6e50ba65608e9b82baf955b07e7f341008c5bf49" resname="Edit activity type">
+      <trans-unit id="6e50ba65608e9b82baf955b07e7f341008c5bf49" resname="Edit activity type" approved="no">
         <source>Edit activity type</source>
-        <target state="new">Edit activity type</target>
+        <target state="translated">Editer aktivitetstype</target>
         <jms:reference-file line="10">/Resources/views/settings/sport/form-type.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="cd36322b78490aa15e99d09ba4ad0fa88276ffba" resname="Edit body values">
+      <trans-unit id="cd36322b78490aa15e99d09ba4ad0fa88276ffba" resname="Edit body values" approved="no">
         <source>Edit body values</source>
-        <target state="new">Edit body values</target>
+        <target state="translated">Editer kroppsverdier</target>
         <jms:reference-file line="14">/Resources/views/my/body-values/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="92a5da88da3b2c7295fee496fff5cf0fd351a7c0" resname="Edit equipment">
+      <trans-unit id="92a5da88da3b2c7295fee496fff5cf0fd351a7c0" resname="Edit equipment" approved="no">
         <source>Edit equipment</source>
-        <target state="new">Edit equipment</target>
+        <target state="translated">Editer utstyr</target>
         <jms:reference-file line="44">/Resources/views/my/equipment/category/table.html.twig</jms:reference-file>
         <jms:reference-file line="10">/Resources/views/my/equipment/form-equipment.html.twig</jms:reference-file>
       </trans-unit>
