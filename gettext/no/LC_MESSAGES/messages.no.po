@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-19 09:23+0200\n"
-"PO-Revision-Date: 2018-06-20 15:08+0000\n"
+"PO-Revision-Date: 2018-06-20 18:16+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -86,7 +86,7 @@ msgstr "Selvlagret aktivitet"
 
 #: dashboard.php:101
 msgid "New equipment"
-msgstr "Nytt utstyr"
+msgstr "Ny gjenstand"
 
 #: dashboard.php:102
 msgid "New body values"
@@ -123,7 +123,7 @@ msgstr "Sport"
 #: plugin/RunalyzePluginPanel_Equipment/class.RunalyzePluginPanel_Equipment.php:29
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:145
 msgid "Equipment"
-msgstr "Utstyr"
+msgstr "Gjenstand"
 
 #: dashboard.php:116
 msgid "Activity tags"
@@ -1041,7 +1041,7 @@ msgstr "Steglengde"
 
 #: inc/core/Dataset/Keys/MainEquipment.php:35
 msgid "Main Equipment"
-msgstr "Hovedutstyr"
+msgstr "Hovedgjenstand"
 
 #: inc/core/Dataset/Keys/MainEquipment.php:53
 msgid ""
@@ -1049,7 +1049,7 @@ msgid ""
 "configuration. Equipment objects of this type will be shown with their names."
 msgstr ""
 "Du kan velge en type for hovedutstyr for hver sport i din konfigurasjon. "
-"Utstyrsenheter av denne typen vil bli vist med navn."
+"Gjenstander av denne typen vil bli vist med navn."
 
 #: inc/core/Dataset/Keys/Tools.php:114 inc/core/Dataset/Keys/Tools.php:135
 #: inc/training/view/class.TrainingView.php:111
@@ -5346,8 +5346,8 @@ msgid ""
 "Statistics have been recalculated for all <strong>%s</strong> pieces of "
 "equipment."
 msgstr ""
-"Statistikk har blitt beregnet på nytt for alle <strong>%s</strong> enheter "
-"av utstyr."
+"Statistikk har blitt beregnet på nytt for alle <strong>%s</strong> "
+"gjenstander."
 
 #: src/CoreBundle/Component/Tool/DatabaseCleanup/JobGeneral.php:96
 msgid "VO<sub>2</sub>max corrector"
