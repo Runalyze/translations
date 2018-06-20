@@ -3753,8 +3753,8 @@
       <trans-unit id="e656cf23968829caaaf06281696a8b26d60f6577" resname="You can group your sports into 'main' and 'alternative' ones.&#10;                For some analyses 'alternative' types are grouped together whereas 'main' types are always shown standalone from each other." approved="no">
         <source xml:space="preserve">You can group your sports into 'main' and 'alternative' ones.
                 For some analyses 'alternative' types are grouped together whereas 'main' types are always shown standalone from each other.</source>
-        <target xml:space="preserve" state="translated">Du kan gruppere sportene dine til "hoved" og "alternative".
-                For some analyses 'alternative' types are grouped together whereas 'main' types are always shown standalone from each other.</target>
+        <target xml:space="preserve" state="translated">Du kan gruppere sportene dine i "hoved" og "alternative".
+                For noen analyser grupperes "alternative" typer sammen, mens "hovedtyper" alltid vises frittstående fra hverandre.</target>
         <jms:reference-file line="42">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="13ca728900d840ab4f36787afc6ad10be8a688f7" resname="You can hide the map for public activities" approved="no">
@@ -3762,9 +3762,9 @@
         <target state="translated">Du kan skjule kartet for offentlige aktiviteter</target>
         <jms:reference-file line="37">/Resources/views/settings/privacy.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="718083e56a6d5e24af7883b076b76c6af29f9c98" resname="You can limit equipment categories to specific sports.">
+      <trans-unit id="718083e56a6d5e24af7883b076b76c6af29f9c98" resname="You can limit equipment categories to specific sports." approved="no">
         <source>You can limit equipment categories to specific sports.</source>
-        <target state="new">You can limit equipment categories to specific sports.</target>
+        <target state="translated">Du kan begrense utstyrskategorier til bestemt sport.</target>
         <jms:reference-file line="33">/Resources/views/my/equipment/form-category.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="486480e4d16735ca5ff5bb5b2dcf87b865c10842" resname="You can now use Runalyze." approved="no">
@@ -3772,33 +3772,31 @@
         <target state="translated">Du kan nå bruke Runalyze.</target>
         <jms:reference-file line="14">/Resources/views/account/activate/success.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="1351461b5a1f8399ab32e521424b69fdb7e6415b" resname="You can revoke the permissions at any time in your RUNALYZE settings.">
+      <trans-unit id="1351461b5a1f8399ab32e521424b69fdb7e6415b" resname="You can revoke the permissions at any time in your RUNALYZE settings." approved="no">
         <source>You can revoke the permissions at any time in your RUNALYZE settings.</source>
-        <target state="new">You can revoke the permissions at any time in your RUNALYZE settings.</target>
+        <target state="translated">Du kan når som helst tilbakekalle tillatelsene i RUNALYZE-innstillingene.</target>
         <jms:reference-file line="28">/Resources/FOSOAuthServerBundle/views/Authorize/authorize_content.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="8a13e6ca8824f60d77c470e9a6c3c2e925d069a0" resname="You can select multiple objects for an activity">
+      <trans-unit id="8a13e6ca8824f60d77c470e9a6c3c2e925d069a0" resname="You can select multiple objects for an activity" approved="no">
         <source>You can select multiple objects for an activity</source>
-        <target state="new">You can select multiple objects for an activity</target>
+        <target state="translated">Du kan velge flere objekter for en aktivitet</target>
         <jms:reference-file line="27">/Resources/views/my/equipment/form-category.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="dda4b99638bbb52801b203b682a1f0da4dd4d836" resname="You can specify which values show up in the overview of your&#10;                        activities.&lt;br&gt;This does not influence the detailed activity view, the form or any&#10;                        plugin.">
+      <trans-unit id="dda4b99638bbb52801b203b682a1f0da4dd4d836" resname="You can specify which values show up in the overview of your&#10;                        activities.&lt;br&gt;This does not influence the detailed activity view, the form or any&#10;                        plugin." approved="no">
         <source><![CDATA[You can specify which values show up in the overview of your
                         activities.<br>This does not influence the detailed activity view, the form or any
                         plugin.]]></source>
-        <target state="new"><![CDATA[You can specify which values show up in the overview of your
-                        activities.<br>This does not influence the detailed activity view, the form or any
-                        plugin.]]></target>
+        <target state="translated">Du kan angi hvilke verdier som vises i oversikten over aktivitetene dine. &lt;br&gt; Dette påvirker ikke detaljert aktivitetsvisning, skjema eller noen tillegg.</target>
         <jms:reference-file line="14">/Resources/views/settings/dataset.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2ccd9916879c8b06aba06ebef115176bde47242b" resname="You can still manually use the respective checkbox in the activity form.">
+      <trans-unit id="2ccd9916879c8b06aba06ebef115176bde47242b" resname="You can still manually use the respective checkbox in the activity form." approved="no">
         <source>You can still manually use the respective checkbox in the activity form.</source>
-        <target state="new">You can still manually use the respective checkbox in the activity form.</target>
+        <target state="translated">Du kan fortsatt selv huke av boksen i aktivitetsskjemaet.</target>
         <jms:reference-file line="55">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="fc775f6ada63fa3d193130405bef5adf9d026265" resname="You can support the development of RUNALYZE with every financial contribution — We highly appreciate every grant.">
+      <trans-unit id="fc775f6ada63fa3d193130405bef5adf9d026265" resname="You can support the development of RUNALYZE with every financial contribution — We highly appreciate every grant." approved="no">
         <source>You can support the development of RUNALYZE with every financial contribution — We highly appreciate every grant.</source>
-        <target state="new">You can support the development of RUNALYZE with every financial contribution — We highly appreciate every grant.</target>
+        <target state="translated">Du kan støtte utviklingen av RUNALYZE med alle økonomiske bidrag - Vi setter stor pris på hvert tilskudd.</target>
         <jms:reference-file line="10">/Resources/views/static/donate.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="7cf01aa2f05ae0a1ed203906322017bb242f80ed" resname="You can support us directly via Paypal" approved="no">
