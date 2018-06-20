@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-19 09:23+0200\n"
-"PO-Revision-Date: 2018-06-20 12:17+0000\n"
+"PO-Revision-Date: 2018-06-20 15:08+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -2104,7 +2104,7 @@ msgstr ""
 "Gps-sporet kan bli brutt i tilfelle <em>avbrytelser</em> (f.eks. med bil/tog/"
 "..). Å finne disse avbruddene er ikke enkelt. Du kan spesifisere opp til "
 "hvilken distanse (i sekunder per gjennomsnittlig tempo) mellom to "
-"datapunkter som kan bli interpolert."
+"datapunkter som maksimalt kan bli interpolert."
 
 #: inc/core/Configuration/Category/ActivityView.php:377
 msgid "Map: precision"
@@ -2486,7 +2486,7 @@ msgstr "Google+"
 
 #: inc/core/Export/Share/IFrame.php:54
 msgid "Widget"
-msgstr "Miniprogram"
+msgstr "Modul"
 
 #: inc/core/Export/Share/IFrame.php:89
 msgid ""
@@ -2725,7 +2725,7 @@ msgstr "ikke -aktive"
 
 #: inc/core/View/Window/Laps/Table.php:377
 msgid "Show inactive splits"
-msgstr "Vis ikke-aktive delavstander"
+msgstr "Vis ikke-aktive deldistanser"
 
 #: inc/core/View/Window/Laps/Form.php:41
 msgid "Calculate laps"
@@ -2789,7 +2789,7 @@ msgstr "Tempomål"
 msgid ""
 "Calculate values for handmade splits although total distance does not match."
 msgstr ""
-"Beregne verdier for selvvalgte delavstander selv om totaldistanse ikke "
+"Beregne verdier for selvvalgte deldistanser selv om totaldistanse ikke "
 "stemmer."
 
 #: inc/core/View/Window/Laps/Form.php:133
@@ -3417,7 +3417,7 @@ msgstr "Basert på din nåværende vekt"
 
 #: inc/training/view/section/class.SectionPowerRow.php:48
 msgid "Specific power"
-msgstr "Spesifikk effekt"
+msgstr "Bestemt effekt"
 
 #: inc/training/view/section/class.SectionPowerRow.php:54
 msgid "This value has been calculated."
@@ -3881,7 +3881,7 @@ msgstr "Vis alt utstyr"
 
 #: plugin/RunalyzePluginPanel_Equipment/class.RunalyzePluginPanel_Equipment.php:100
 msgid "Please choose an equipment type in the plugin configuration."
-msgstr "Vennligst velg en utstyrstype i tilleggs-konfigurasjonen."
+msgstr "Velg en utstyrstype i tilleggs-konfigurasjonen."
 
 #: plugin/RunalyzePluginPanel_Equipment/class.RunalyzePluginPanel_Equipment.php:113
 msgid "Show/Hide unused equipment"
@@ -4678,7 +4678,7 @@ msgstr "Merkelapp som skal analyseres"
 
 #: plugin/RunalyzePluginStat_Tag/class.RunalyzePluginStat_Tag.php:113
 msgid "Please choose a tag."
-msgstr "Vennligst velg en merkelapp."
+msgstr "Velg en merkelapp."
 
 #: plugin/RunalyzePluginStat_Tag/class.RunalyzePluginStat_Tag.php:129
 msgid "No activities found."
@@ -4710,7 +4710,7 @@ msgid ""
 "you do a race just for fun, you can mark it as a 'fun race' to ignore it in "
 "the plot."
 msgstr ""
-"I tillegg plotter det utvikling av dine resultater på en spesifikk distanse. "
+"I tillegg plotter det utvikling av dine resultater på en bestemt distanse. "
 "Hvis du gjør en konkurranse kun for moro, kan du markere det 'moroløp' for å "
 "ignorere det i plottet."
 
@@ -4970,7 +4970,7 @@ msgid ""
 "and pace. This value is equivalent to specific performances."
 msgstr ""
 "Ditt nåværende effektive VO<sub>2</sub>maks er estimert basert på ratio av "
-"puls og tempo. Denne verdien er ekvivalent til spesifikke prestasjoner."
+"puls og tempo. Denne verdien er ekvivalent til bestemte prestasjoner."
 
 #: plugin/RunalyzePluginPanel_Prognose/class.RunalyzePluginPanel_Prognose.php:58
 msgid ""
