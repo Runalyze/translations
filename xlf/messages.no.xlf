@@ -3481,7 +3481,7 @@
       </trans-unit>
       <trans-unit id="337756d5a70064118bb4bf9797f01f352ad6fb52" resname="Used for age grading." approved="no">
         <source>Used for age grading.</source>
-        <target state="translated">Brukt for aldersgradering</target>
+        <target state="translated">Brukes for aldersgradering</target>
         <jms:reference-file line="21">/Resources/views/settings/account.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="e5c9246d848ed6f4a3113e0e240d2cf980bf7175" resname="Used for calculating energy consumption and age grading." approved="no">
@@ -3535,7 +3535,7 @@
       </trans-unit>
       <trans-unit id="649bb32fed71b0bbdb59f89caec3c3330dfeb93e" resname="Value to group by">
         <source>Value to group by</source>
-        <target state="new">Value to group by</target>
+        <target state="new"></target>
         <jms:reference-file line="123">/../src/CoreBundle/Form/Tools/Anova/AnovaType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="688af560a060d5a3851f6891266594068ec88074" resname="Value to look at">
