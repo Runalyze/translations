@@ -2495,60 +2495,60 @@
       </trans-unit>
       <trans-unit id="9faaf571bf612d147f425921a76d107b0331d47f" resname="Refresh internal constants" approved="no">
         <source>Refresh internal constants</source>
-        <target state="translated">Oppfrisk interne konstanter</target>
+        <target state="translated">Oppdater interne konstanter</target>
         <jms:reference-file line="16">/Resources/views/tools/database_cleanup/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="d672995a14650d0e018026b64f297663d8c71c8d" resname="Register">
+      <trans-unit id="d672995a14650d0e018026b64f297663d8c71c8d" resname="Register" approved="no">
         <source>Register</source>
-        <target state="new">Register</target>
+        <target state="translated">Registrer</target>
         <jms:reference-file line="50">/Resources/views/register/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6761e2071d6eb623b788580077c6a7b0007b04ed" resname="Registrations are currently disabled.">
+      <trans-unit id="6761e2071d6eb623b788580077c6a7b0007b04ed" resname="Registrations are currently disabled." approved="no">
         <source>Registrations are currently disabled.</source>
-        <target state="new">Registrations are currently disabled.</target>
+        <target state="translated">Registreringer er for øyeblikket deaktivert.</target>
         <jms:reference-file line="8">/Resources/views/register/disabled.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="ced7b308a348567fbf21dd775ee496dd01207f24" resname="Remember me">
+      <trans-unit id="ced7b308a348567fbf21dd775ee496dd01207f24" resname="Remember me" approved="no">
         <source>Remember me</source>
-        <target state="new">Remember me</target>
+        <target state="translated">Husk meg</target>
         <jms:reference-file line="19">/Resources/views/login/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e963907dac5cd5c017869b4c96c18021c9bd058b" resname="Remove">
+      <trans-unit id="e963907dac5cd5c017869b4c96c18021c9bd058b" resname="Remove" approved="no">
         <source>Remove</source>
-        <target state="new">Remove</target>
+        <target state="translated">Slett</target>
         <jms:reference-file line="44">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="51daaecafcd288a24d18949f5c3ac96972840e43" resname="Remove all weather data">
+      <trans-unit id="51daaecafcd288a24d18949f5c3ac96972840e43" resname="Remove all weather data" approved="no">
         <source>Remove all weather data</source>
-        <target state="new">Remove all weather data</target>
+        <target state="translated">Slett all værdata</target>
         <jms:reference-file line="152">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7312a31a2c880f2d456663b6f91ad6da980b3a5e" resname="Remove connection">
+      <trans-unit id="7312a31a2c880f2d456663b6f91ad6da980b3a5e" resname="Remove connection" approved="no">
         <source>Remove connection</source>
-        <target state="new">Remove connection</target>
+        <target state="translated">Slett tilkobling</target>
         <jms:reference-file line="29">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="f3c519b57ea1e4f9a3d32f51bcf082e3edec886a" resname="Remove data series">
+      <trans-unit id="f3c519b57ea1e4f9a3d32f51bcf082e3edec886a" resname="Remove data series" approved="no">
         <source>Remove data series</source>
-        <target state="new">Remove data series</target>
+        <target state="translated">Slett dataserier</target>
         <jms:reference-file line="311">/../src/CoreBundle/Form/ActivityType.php</jms:reference-file>
         <jms:reference-file line="199">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="366c2415f45eda358aa31b5d67c61f41a43a2bd0" resname="Repeat password">
+      <trans-unit id="366c2415f45eda358aa31b5d67c61f41a43a2bd0" resname="Repeat password" approved="no">
         <source>Repeat password</source>
-        <target state="new">Repeat password</target>
+        <target state="translated">Gjenta passord</target>
         <jms:reference-file line="33">/../src/CoreBundle/Form/RecoverPasswordType.php</jms:reference-file>
         <jms:reference-file line="35">/../src/CoreBundle/Form/Settings/ChangePasswordType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="9fcda32cc0cb4e4c9f7579af0e1ac967a0eb4cfc" resname="Request failed">
+      <trans-unit id="9fcda32cc0cb4e4c9f7579af0e1ac967a0eb4cfc" resname="Request failed" approved="no">
         <source>Request failed</source>
-        <target state="new">Request failed</target>
+        <target state="translated">Forespørsel feilet</target>
         <jms:reference-file line="248">/Resources/views/tools/anova/base.html.twig</jms:reference-file>
         <jms:reference-file line="265">/Resources/views/tools/trend-analysis/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="b9b90467c80e919319d36b2d26f8366c3993c915" resname="Requesting weather data">
+      <trans-unit id="b9b90467c80e919319d36b2d26f8366c3993c915" resname="Requesting weather data" approved="no">
         <source>Requesting weather data</source>
-        <target state="new">Requesting weather data</target>
+        <target state="translated">Forespør værdata</target>
         <jms:reference-file line="160">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1d7c76d34a5f676f0c4ae7099ecae62255f24167" resname="Reset configuration">
@@ -2556,28 +2556,28 @@
         <target state="new">Reset configuration</target>
         <jms:reference-file line="48">/Resources/views/settings/account.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="b315861efa254a5a1c159e993e915f17811f25c8" resname="Reset your RUNALYZE password">
+      <trans-unit id="b315861efa254a5a1c159e993e915f17811f25c8" resname="Reset your RUNALYZE password" approved="no">
         <source>Reset your RUNALYZE password</source>
-        <target state="new">Reset your RUNALYZE password</target>
+        <target state="translated">Tilbakestill ditt RUNALYZE passord</target>
         <jms:reference-file line="99">/../src/CoreBundle/Services/AccountMailer.php</jms:reference-file>
         <jms:reference-file line="3">/Resources/views/mail/account/deleteAccountRequest.html.twig</jms:reference-file>
         <jms:reference-file line="15">/Resources/views/mail/account/recoverPassword.html.twig</jms:reference-file>
         <jms:reference-file line="3">/Resources/views/mail/account/recoverPassword.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="296d1007b69db41813cb12265975dd7d51f34739" resname="Resting">
+      <trans-unit id="296d1007b69db41813cb12265975dd7d51f34739" resname="Resting" approved="no">
         <source>Resting</source>
-        <target state="new">Resting</target>
+        <target state="translated">Hvile</target>
         <jms:reference-file line="28">/../src/CoreBundle/Form/Type/ActivityRoundType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="26677094aacbc7052a2fe0373288330005b45a72" resname="Resting HR">
+      <trans-unit id="26677094aacbc7052a2fe0373288330005b45a72" resname="Resting HR" approved="no">
         <source>Resting HR</source>
-        <target state="new">Resting HR</target>
+        <target state="translated">Hvilepuls</target>
         <jms:reference-file line="52">/../src/CoreBundle/Form/BodyValuesType.php</jms:reference-file>
         <jms:reference-file line="25">/Resources/views/my/body-values/table.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="29efa33f3911a5370030ec30e3952fb781e36b32" resname="Retrieving data from #{deviceName}, please wait ...">
+      <trans-unit id="29efa33f3911a5370030ec30e3952fb781e36b32" resname="Retrieving data from #{deviceName}, please wait ..." approved="no">
         <source>Retrieving data from #{deviceName}, please wait ...</source>
-        <target state="new">Retrieving data from #{deviceName}, please wait ...</target>
+        <target state="translated">Mottar data fra #{deviceName}, vennligst vent ...</target>
         <jms:reference-file line="55">/Resources/views/import/garmin_communicator.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="4999528efe0f94f8f66b1dc05aad8ebaaae7b2be" resname="Route">
@@ -2585,47 +2585,47 @@
         <target state="new">Route</target>
         <jms:reference-file line="192">/../src/CoreBundle/Form/ActivityType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="f2098c831055029efd725ad3c074dad9e868758b" resname="RunScribe">
+      <trans-unit id="f2098c831055029efd725ad3c074dad9e868758b" resname="RunScribe" approved="no">
         <source>RunScribe</source>
-        <target state="new">RunScribe</target>
+        <target state="translated">RunScribe</target>
         <jms:reference-file line="157">/../src/CoreBundle/Form/Tools/Anova/AnovaType.php</jms:reference-file>
         <jms:reference-file line="138">/../src/CoreBundle/Form/Tools/TrendAnalysis/TrendAnalysisType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="ba7ac4cda1dcb552d97ed8a1d11e826b5ad38ba6" resname="Runalyze analyzes your complete training, calculates your shape, computes prognoses and visualizes your training in plots - more detailed than any other sports diary.">
+      <trans-unit id="ba7ac4cda1dcb552d97ed8a1d11e826b5ad38ba6" resname="Runalyze analyzes your complete training, calculates your shape, computes prognoses and visualizes your training in plots - more detailed than any other sports diary." approved="no">
         <source>Runalyze analyzes your complete training, calculates your shape, computes prognoses and visualizes your training in plots - more detailed than any other sports diary.</source>
-        <target state="new">Runalyze analyzes your complete training, calculates your shape, computes prognoses and visualizes your training in plots - more detailed than any other sports diary.</target>
+        <target state="translated">Runalyze analyserer din komplette trening, beregner form, gjør prognoser og visualiserer trening i plott - mer detaljert enn noen annen treningssdagbok.</target>
         <jms:reference-file line="14">/Resources/views/home_feature_showcase.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="b4f488cdc5c9ea314ee148d02303e3250c5a141c" resname="Runalyze is completely configurable. You can decide by yourself which information of your training you want to record and which statistics are being displayed on which place.">
+      <trans-unit id="b4f488cdc5c9ea314ee148d02303e3250c5a141c" resname="Runalyze is completely configurable. You can decide by yourself which information of your training you want to record and which statistics are being displayed on which place." approved="no">
         <source>Runalyze is completely configurable. You can decide by yourself which information of your training you want to record and which statistics are being displayed on which place.</source>
-        <target state="new">Runalyze is completely configurable. You can decide by yourself which information of your training you want to record and which statistics are being displayed on which place.</target>
+        <target state="translated">Runalyze er totalt konfigurerbart. Du kan selv bestemme hvilken informasjon om din trening du vil lagre, og hvilken statistikk som vises på hvilket sted.</target>
         <jms:reference-file line="21">/Resources/views/home_feature_showcase.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="9bff0849cf966413a31b9a7c16dc3cc88ff5983b" resname="Runalyze is created by athletes for athletes. Whenever you have comments, problems or wishes: Please contact our Runalyze team. It's near and dear to us.">
+      <trans-unit id="9bff0849cf966413a31b9a7c16dc3cc88ff5983b" resname="Runalyze is created by athletes for athletes. Whenever you have comments, problems or wishes: Please contact our Runalyze team. It's near and dear to us." approved="no">
         <source>Runalyze is created by athletes for athletes. Whenever you have comments, problems or wishes: Please contact our Runalyze team. It's near and dear to us.</source>
-        <target state="new">Runalyze is created by athletes for athletes. Whenever you have comments, problems or wishes: Please contact our Runalyze team. It's near and dear to us.</target>
+        <target state="translated">Runalyze er laget av utøvere for utøvere. Hvis du har kommentarer, problemer eller ønsker: Ta kontakt med vårt Runalyze-team. Det er nært og kjært for oss.</target>
         <jms:reference-file line="28">/Resources/views/home_feature_showcase.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="ee3b27686ec124209239ea39434572c1355622b8" resname="Runalyze offers default configurations for common types of sport. This mapping is required to recognize the correct type of sport when syncing activities. You can still adjust all settings.">
+      <trans-unit id="ee3b27686ec124209239ea39434572c1355622b8" resname="Runalyze offers default configurations for common types of sport. This mapping is required to recognize the correct type of sport when syncing activities. You can still adjust all settings." approved="no">
         <source>Runalyze offers default configurations for common types of sport. This mapping is required to recognize the correct type of sport when syncing activities. You can still adjust all settings.</source>
-        <target state="new">Runalyze offers default configurations for common types of sport. This mapping is required to recognize the correct type of sport when syncing activities. You can still adjust all settings.</target>
+        <target state="translated">Runalyze tilbyr standardkonfigurasjoner for vanlige sportstyper. Denne kategoriseringen trengs for å gjenkjenne riktig type sport når synkronisering av aktivitetene skal utføres. Du kan selv justere alle innstillingene.</target>
         <jms:reference-file line="85">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="73989d9c59264da08a15dba21c7d58237a91f08f" resname="Running">
+      <trans-unit id="73989d9c59264da08a15dba21c7d58237a91f08f" resname="Running" approved="no">
         <source>Running</source>
-        <target state="new">Running</target>
+        <target state="translated">Løping</target>
         <jms:reference-file line="24">/Resources/views/settings/sport/form-zone.html.twig</jms:reference-file>
         <jms:reference-file line="24">/Resources/views/shared/athlete/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e1d7541e11b44356487e496e24a15b58e286d37f" resname="Running dynamics">
+      <trans-unit id="e1d7541e11b44356487e496e24a15b58e286d37f" resname="Running dynamics" approved="no">
         <source>Running dynamics</source>
-        <target state="new">Running dynamics</target>
+        <target state="translated">Løpsdynamikk</target>
         <jms:reference-file line="150">/../src/CoreBundle/Form/Tools/Anova/AnovaType.php</jms:reference-file>
         <jms:reference-file line="131">/../src/CoreBundle/Form/Tools/TrendAnalysis/TrendAnalysisType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="3e15ba0eee883109d55be6082c8de03530df5741" resname="Running tables">
+      <trans-unit id="3e15ba0eee883109d55be6082c8de03530df5741" resname="Running tables" approved="no">
         <source>Running tables</source>
-        <target state="new">Running tables</target>
+        <target state="translated">Løpstabeller</target>
         <jms:reference-file line="87">/Resources/views/base_logged_in.twig</jms:reference-file>
         <jms:reference-file line="5">/Resources/views/tools/tables/base.html.twig</jms:reference-file>
         <jms:reference-file line="36">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
@@ -2635,15 +2635,15 @@
         <target state="new">SQL-format</target>
         <jms:reference-file line="32">/Resources/views/tools/backup/export.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="cb836b5ea5300a2914ec85fbe15ba3c2456c9beb" resname="Saturated hemoglobin">
+      <trans-unit id="cb836b5ea5300a2914ec85fbe15ba3c2456c9beb" resname="Saturated hemoglobin" approved="no">
         <source>Saturated hemoglobin</source>
-        <target state="new">Saturated hemoglobin</target>
+        <target state="translated">Mettet hemoglobin</target>
         <jms:reference-file line="166">/Resources/views/activity/tool/time_series_statistics.html.twig</jms:reference-file>
         <jms:reference-file line="169">/Resources/views/activity/tool/time_series_statistics.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="efc007a393f66cdb14d57d385822a3d9e36ef873" resname="Save">
+      <trans-unit id="efc007a393f66cdb14d57d385822a3d9e36ef873" resname="Save" approved="no">
         <source>Save</source>
-        <target state="new">Save</target>
+        <target state="translated">Lagre</target>
         <jms:reference-file line="224">/Resources/views/activity/form.html.twig</jms:reference-file>
         <jms:reference-file line="53">/Resources/views/my/body-values/form.html.twig</jms:reference-file>
         <jms:reference-file line="38">/Resources/views/my/raceresult/form.html.twig</jms:reference-file>
@@ -2652,22 +2652,22 @@
         <jms:reference-file line="66">/Resources/views/settings/privacy.html.twig</jms:reference-file>
         <jms:reference-file line="77">/Resources/views/settings/sport/form-zone.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="3b033f4c0bb998c03df5cc509c9d51edc69a3fbb" resname="Save and continue">
+      <trans-unit id="3b033f4c0bb998c03df5cc509c9d51edc69a3fbb" resname="Save and continue" approved="no">
         <source>Save and continue</source>
-        <target state="new">Save and continue</target>
+        <target state="translated">Lagre og fortsett</target>
         <jms:reference-file line="255">/Resources/views/activity/form.html.twig</jms:reference-file>
         <jms:reference-file line="42">/Resources/views/activity/multi_editor_navigation.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="f6e83824ac208e82ca136af4fb425962524f5819" resname="Search activities">
+      <trans-unit id="f6e83824ac208e82ca136af4fb425962524f5819" resname="Search activities" approved="no">
         <source>Search activities</source>
-        <target state="new">Search activities</target>
+        <target state="translated">Søk aktiviteter</target>
         <jms:reference-file line="146">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
         <jms:reference-file line="37">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
         <jms:reference-file line="29">/Resources/views/settings/tag/overview.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="81c52c528b6e6ff9f4f1c8db649d9254c3e15d13" resname="Search for decives">
+      <trans-unit id="81c52c528b6e6ff9f4f1c8db649d9254c3e15d13" resname="Search for decives" approved="no">
         <source>Search for decives</source>
-        <target state="new">Search for decives</target>
+        <target state="translated">Søk for</target>
         <jms:reference-file line="54">/Resources/views/import/garmin_communicator.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="e815457b461439120925d36194ba482acbc4c8e7" resname="Search for public activities">
