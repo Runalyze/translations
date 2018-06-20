@@ -35,7 +35,7 @@
       </trans-unit>
       <trans-unit id="8808d6be59b159f1221b1b4cb9f01aefe7c10b2d" resname="#{deviceCount} devices found" approved="no">
         <source>#{deviceCount} devices found</source>
-        <target state="translated">fant #{deviceCount} enheter</target>
+        <target state="translated">#{deviceCount} enheter funnet</target>
         <jms:reference-file line="61">/Resources/views/import/garmin_communicator.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="04e4ab1f101e58c92753f1c92a2622b76f703616" resname="%s-files are supported from: %s" approved="no">
@@ -255,7 +255,7 @@
       </trans-unit>
       <trans-unit id="da5d28017bc722e5464c05f0dbb359e3436f6124" resname="Add equipment" approved="no">
         <source>Add equipment</source>
-        <target state="translated">Legg til gjenstander</target>
+        <target state="translated">Legg til gjenstand</target>
         <jms:reference-file line="29">/Resources/views/my/equipment/overview.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="4b55d2f1b9ea6421ab41820a926252ad42b6c36f" resname="Add new sport" approved="no">
@@ -404,7 +404,7 @@
       </trans-unit>
       <trans-unit id="060ca2eab30f61d1b721f30690e877987ef6781b" resname="Automatic Sync" approved="no">
         <source>Automatic Sync</source>
-        <target state="translated">Automatisk synkronisering</target>
+        <target state="translated">Synkronisering</target>
         <jms:reference-file line="8">/Resources/views/activity/form.html.twig</jms:reference-file>
         <jms:reference-file line="7">/Resources/views/activity/import_garmin_communicator.html.twig</jms:reference-file>
         <jms:reference-file line="14">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
@@ -644,7 +644,7 @@
       </trans-unit>
       <trans-unit id="7653de6e384e9cb663ae64974403b72ac85790ad" resname="Choose the correct type for the equipment" approved="no">
         <source>Choose the correct type for the equipment</source>
-        <target state="translated">Velg rett type for utstyret</target>
+        <target state="translated">Velg rett type for gjenstanden</target>
         <jms:reference-file line="25">/Resources/views/my/equipment/form-category.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="6d3d5991f4ad692df57f1270ccf27c5891b6640e" resname="Choose year" approved="no">
@@ -1129,13 +1129,13 @@
       </trans-unit>
       <trans-unit id="92a5da88da3b2c7295fee496fff5cf0fd351a7c0" resname="Edit equipment" approved="no">
         <source>Edit equipment</source>
-        <target state="translated">Redigere utstyr</target>
+        <target state="translated">Redigere gjenstand</target>
         <jms:reference-file line="44">/Resources/views/my/equipment/category/table.html.twig</jms:reference-file>
         <jms:reference-file line="10">/Resources/views/my/equipment/form-equipment.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="7a2193767d002f6ec7fbd45323d11ab50a7703e8" resname="Edit equipment category" approved="no">
         <source>Edit equipment category</source>
-        <target state="translated">Redigere utstyrskategorier</target>
+        <target state="translated">Redigere gjenstandskategorier</target>
         <jms:reference-file line="10">/Resources/views/my/equipment/form-category.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="2f826a820f0dc0bfa61205380302fe06f9cee750" resname="Edit heart rate zones" approved="no">
@@ -1246,13 +1246,13 @@
       </trans-unit>
       <trans-unit id="36155d48f460d339ac29c2069ba7e011cbc7b0b7" resname="Equipment" approved="no">
         <source>Equipment</source>
-        <target state="translated">Utstyr</target>
+        <target state="translated">Gjenstand</target>
         <jms:reference-file line="175">/Resources/views/activity/form.html.twig</jms:reference-file>
         <jms:reference-file line="74">/Resources/views/base_logged_in.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="e7d75f0ebb7605b0851eaf209f229326dadbbaa5" resname="Equipment types" approved="no">
         <source>Equipment types</source>
-        <target state="translated">Utstyrstyper</target>
+        <target state="translated">Gjenstandstyper</target>
         <jms:reference-file line="133">/../src/CoreBundle/Form/Tools/Anova/AnovaType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="0f01ed56a1e32a05e5ef96e4d779f34784af9a96" resname="Example" approved="no">
@@ -1584,7 +1584,7 @@
       </trans-unit>
       <trans-unit id="7dec91fe435f28f66a53ff83c9589b3cd8719db6" resname="If you delete an equipment category all objects in this category and all relations between your activities and these objects will be deleted." approved="no">
         <source>If you delete an equipment category all objects in this category and all relations between your activities and these objects will be deleted.</source>
-        <target state="translated">Hvis du sletter en utstyrskategori vil alle gjenstander i denne kategorien og alle relasjoner mellom dine aktiviteter og disse gjenstandene bli slettet.</target>
+        <target state="translated">Hvis du sletter en gjenstandskategori vil alle gjenstander i denne kategorien og alle relasjoner mellom dine aktiviteter og disse gjenstandene bli slettet.</target>
         <jms:reference-file line="110">/Resources/views/my/equipment/form-category.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="37baeb5082e32cc6c382445401a93cff0634a668" resname="If you delete an equipment object all relations between your activities and this object will be deleted." approved="no">
@@ -1797,7 +1797,7 @@
       </trans-unit>
       <trans-unit id="b1dcd2b52be5e5ce488acfd04796b6b3b6a842fd" resname="Main equipment" approved="no">
         <source>Main equipment</source>
-        <target state="translated">Hovedutstyr</target>
+        <target state="translated">Hovedgjenstand</target>
         <jms:reference-file line="163">/../src/CoreBundle/Form/Settings/SportType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="97461b6c9e4e8749cbc57fafb28060bcbd15d377" resname="Main page" approved="no">
@@ -1947,7 +1947,7 @@
       </trans-unit>
       <trans-unit id="9c2707f79cd95354a359cb52299d95a267fffd24" resname="New equipment" approved="no">
         <source>New equipment</source>
-        <target state="translated">Nytt utstyr</target>
+        <target state="translated">Ny gjenstand</target>
         <jms:reference-file line="60">/Resources/views/base_logged_in.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="d850ee188c7c55b64bc3624534de5c5051a57dc6" resname="New password">
@@ -2075,7 +2075,7 @@
       </trans-unit>
       <trans-unit id="75b08673fead6db6910f48d09c649372e869879b" resname="Objects of main equipment type can be shown in the activity overview." approved="no">
         <source>Objects of main equipment type can be shown in the activity overview.</source>
-        <target state="translated">Gjenstander av hovedutstyrstypen kan vises i aktivitetsoversikten.</target>
+        <target state="translated">Gjenstander av hovedgjenstandstypen kan vises i aktivitetsoversikten.</target>
         <jms:reference-file line="99">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="abffb03580df0114b369bfe21b0017e6289e6062" resname="Objects will be displayed as inactive as soon as they have reached their end date." approved="no">
@@ -2480,7 +2480,7 @@
       </trans-unit>
       <trans-unit id="c13880b439273cac2261e3f6cea0faf7f2b7d6b3" resname="Recalculate your equipment statistics" approved="no">
         <source>Recalculate your equipment statistics</source>
-        <target state="translated">Beregn din utstyrsstatistikk på nytt</target>
+        <target state="translated">Beregn din gjenstandsstatistikk på nytt</target>
         <jms:reference-file line="21">/Resources/views/tools/database_cleanup/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="76ac7bfce4dfa5a1b50f3b11fae4fae08b3e077c" resname="Recalculate your marathon shape" approved="no">
@@ -3189,7 +3189,7 @@
       </trans-unit>
       <trans-unit id="93e4144de7c50db2ea6b9140330179232311c1b3" resname="There was a problem." approved="no">
         <source>There was a problem.</source>
-        <target state="translated">Det er et problem.</target>
+        <target state="translated">Det oppsto et problem.</target>
         <jms:reference-file line="40">/Resources/TwigBundle/views/Exception/error.html.twig</jms:reference-file>
         <jms:reference-file line="117">/Resources/views/activity/tool/climb_score.html.twig</jms:reference-file>
         <jms:reference-file line="58">/Resources/views/my/raceresult/performance_chart.html.twig</jms:reference-file>
@@ -3200,7 +3200,7 @@
       </trans-unit>
       <trans-unit id="60bfac38170c8f751ad286754ce50a1460bd2fb1" resname="There were problems while uploading." approved="no">
         <source>There were problems while uploading.</source>
-        <target state="translated">Det oppstod problemer under opplasting.</target>
+        <target state="translated">Det oppsto problemer under opplasting.</target>
         <jms:reference-file line="57">/Resources/views/activity/import_upload.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="fa49a9dd7b8e7bc63fc42ae92e42ecfb6bef0067" resname="These recalculations are only needed if you changed the corresponding settings." approved="no">
@@ -3715,7 +3715,7 @@
       </trans-unit>
       <trans-unit id="43ef1bc1a2643e60ee5b4edefbafa59456b34d98" resname="You can add a maximal distance or duration if you want to be warned about objects exceeding their theoretical lifetime. This is used for displaying a progress bar in the equipment widget." approved="no">
         <source>You can add a maximal distance or duration if you want to be warned about objects exceeding their theoretical lifetime. This is used for displaying a progress bar in the equipment widget.</source>
-        <target state="translated">Du kan legge til maksimal distanse eller varighet hvis du vil bli advart om gjenstander som overstiger sin teoretiske levetid. Dette brukes til å vise en fremdriftslinje i utstyrsmodulen.</target>
+        <target state="translated">Du kan legge til maksimal distanse eller varighet hvis du vil bli advart om gjenstander som overstiger sin teoretiske levetid. Dette brukes til å vise en fremdriftslinje i gjenstandsmodulen.</target>
         <jms:reference-file line="39">/Resources/views/my/equipment/form-category.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="904462fcbe19d6f857a3b4d22b8c7ccf09a518ea" resname="You can add new tags in the activity form." approved="no">
@@ -3764,7 +3764,7 @@
       </trans-unit>
       <trans-unit id="718083e56a6d5e24af7883b076b76c6af29f9c98" resname="You can limit equipment categories to specific sports." approved="no">
         <source>You can limit equipment categories to specific sports.</source>
-        <target state="translated">Du kan begrense utstyrskategorier til bestemt sport.</target>
+        <target state="translated">Du kan begrense gjenstandskategorier til bestemt sport.</target>
         <jms:reference-file line="33">/Resources/views/my/equipment/form-category.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="486480e4d16735ca5ff5bb5b2dcf87b865c10842" resname="You can now use Runalyze." approved="no">
@@ -3836,7 +3836,7 @@
       </trans-unit>
       <trans-unit id="68cde17ce53f23a49f91c8da4f94274a53ba55c1" resname="You don't have any equipment so far." approved="no">
         <source>You don't have any equipment so far.</source>
-        <target state="translated">Du har ikke noe utstyr enda.</target>
+        <target state="translated">Du har ingen gjenstander enda.</target>
         <jms:reference-file line="42">/Resources/views/my/equipment/overview.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="c68ed288b5e76e90c37763dec184be248ed8a2b1" resname="You have activities associated with this type." approved="no">
@@ -3968,12 +3968,12 @@
       </trans-unit>
       <trans-unit id="5eb07f60d783e0afce01f459b7715407eac552ed" resname="Your equipment" approved="no">
         <source>Your equipment</source>
-        <target state="translated">Ditt utstyr</target>
+        <target state="translated">Dine gjenstander</target>
         <jms:reference-file line="18">/Resources/views/my/equipment/category/table.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="571e3ea3520d813ad244ecb961e93a15068c23f2" resname="Your equipment categories" approved="no">
         <source>Your equipment categories</source>
-        <target state="translated">Dine utstyrskategorier</target>
+        <target state="translated">Dine gjenstandskategorier</target>
         <jms:reference-file line="5">/Resources/views/my/equipment/overview.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="5248d8fd362a06b675231ce1a9192cc2762a9eb9" resname="Your mail address has been changed!" approved="no">
