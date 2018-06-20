@@ -3277,27 +3277,27 @@
         <source xml:space="preserve">This tool allows you to edit multiple activities one after another.
                 At the moment it's not possible to edit multiple activities with only one form.</source>
         <target xml:space="preserve" state="translated">Dette verktøyet lar deg redigere flere aktiviteter en etter en.
-                At the moment it's not possible to edit multiple activities with only one form.</target>
+                For øyeblikket er det ikke mulig å redigere flere aktiviteter med bare en skjema.</target>
         <jms:reference-file line="82">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="3f737239f19ca153738108b657483e42bb150bc9" resname="This tool allows you to export your complete data as sql dump or json dump.">
+      <trans-unit id="3f737239f19ca153738108b657483e42bb150bc9" resname="This tool allows you to export your complete data as sql dump or json dump." approved="no">
         <source>This tool allows you to export your complete data as sql dump or json dump.</source>
-        <target state="new">This tool allows you to export your complete data as sql dump or json dump.</target>
+        <target state="translated">Dette verktøyet lar deg eksportere dine komplette data som sql-dump eller json-dump.</target>
         <jms:reference-file line="63">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="d1c0ea3c33ebb4d469fdf942621c45e76b1cf558" resname="This tool is not available for this activity.">
+      <trans-unit id="d1c0ea3c33ebb4d469fdf942621c45e76b1cf558" resname="This tool is not available for this activity." approved="no">
         <source>This tool is not available for this activity.</source>
-        <target state="new">This tool is not available for this activity.</target>
+        <target state="translated">Dette verktøyet er ikke tilgjengelgi for denne aktiviteten.</target>
         <jms:reference-file line="7">/Resources/views/activity/tool/not_possible.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="c72a3322d54986e46904c80eacd1ec14b159d9a6" resname="This value will be calculated automatically from duration and sport settings (if activated in your configuration) only if you change the duration or the type of sport.">
+      <trans-unit id="c72a3322d54986e46904c80eacd1ec14b159d9a6" resname="This value will be calculated automatically from duration and sport settings (if activated in your configuration) only if you change the duration or the type of sport." approved="no">
         <source>This value will be calculated automatically from duration and sport settings (if activated in your configuration) only if you change the duration or the type of sport.</source>
-        <target state="new">This value will be calculated automatically from duration and sport settings (if activated in your configuration) only if you change the duration or the type of sport.</target>
+        <target state="translated">Denne verdien beregnes automatisk fra varighet og sportinnstillinger (hvis aktivert i konfigurasjonen) kun hvis du endrer varighet eller sportstype.</target>
         <jms:reference-file line="57">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="de63de8d63f7347ac7991ba168ac2e2215cb7ed3" resname="This way of presentation allows to compare not only average values (e.g. pace over months) but deviations and outliers between different groupings.">
+      <trans-unit id="de63de8d63f7347ac7991ba168ac2e2215cb7ed3" resname="This way of presentation allows to compare not only average values (e.g. pace over months) but deviations and outliers between different groupings." approved="no">
         <source>This way of presentation allows to compare not only average values (e.g. pace over months) but deviations and outliers between different groupings.</source>
-        <target state="new">This way of presentation allows to compare not only average values (e.g. pace over months) but deviations and outliers between different groupings.</target>
+        <target state="translated">Denne presentasjonsmåten gjør det mulig å sammenligne ikke bare gjennomsnittsverdier (for eksempel tempo over måneder), men avvik og avvik mellom ulike grupperinger.</target>
         <jms:reference-file line="125">/Resources/views/tools/anova/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="4923d0bf817190c83a6b69dd0b6eeaea0b3b6d12" resname="This will not touch any general settings like gender or main sport.">
