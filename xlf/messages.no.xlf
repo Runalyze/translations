@@ -3533,30 +3533,30 @@
         <target state="translated">Verdi</target>
         <jms:reference-file line="95">/Resources/views/tools/trend-analysis/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="649bb32fed71b0bbdb59f89caec3c3330dfeb93e" resname="Value to group by">
+      <trans-unit id="649bb32fed71b0bbdb59f89caec3c3330dfeb93e" resname="Value to group by" approved="no">
         <source>Value to group by</source>
-        <target state="new"></target>
+        <target state="translated">Verdi å gruppere etter</target>
         <jms:reference-file line="123">/../src/CoreBundle/Form/Tools/Anova/AnovaType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="688af560a060d5a3851f6891266594068ec88074" resname="Value to look at">
+      <trans-unit id="688af560a060d5a3851f6891266594068ec88074" resname="Value to look at" approved="no">
         <source>Value to look at</source>
-        <target state="new">Value to look at</target>
+        <target state="translated">Verdi å se på</target>
         <jms:reference-file line="137">/../src/CoreBundle/Form/Tools/Anova/AnovaType.php</jms:reference-file>
         <jms:reference-file line="116">/../src/CoreBundle/Form/Tools/TrendAnalysis/TrendAnalysisType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="75f0922200bcae60cb9437401b832b3ff0fb3f08" resname="Vertical oscillation">
+      <trans-unit id="75f0922200bcae60cb9437401b832b3ff0fb3f08" resname="Vertical oscillation" approved="no">
         <source>Vertical oscillation</source>
-        <target state="new">Vertical oscillation</target>
+        <target state="translated">Vertikal oscillering</target>
         <jms:reference-file line="160">/Resources/views/activity/tool/time_series_statistics.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2088f085ef093798a2b2f38e60d883cc9d65a8f5" resname="Vertical pace">
+      <trans-unit id="2088f085ef093798a2b2f38e60d883cc9d65a8f5" resname="Vertical pace" approved="no">
         <source>Vertical pace</source>
-        <target state="new">Vertical pace</target>
+        <target state="translated">Vertikalt tempo</target>
         <jms:reference-file line="80">/Resources/views/activity/tool/climb_score.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e8c71dd530754b22ecdb6590edde702eb6e0062c" resname="Vertical ratio">
+      <trans-unit id="e8c71dd530754b22ecdb6590edde702eb6e0062c" resname="Vertical ratio" approved="no">
         <source>Vertical ratio</source>
-        <target state="new">Vertical ratio</target>
+        <target state="translated">Vertikal</target>
         <jms:reference-file line="163">/Resources/views/activity/tool/time_series_statistics.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="c4bb793eb766477cf7a8d1fda3b44bf5ece526c0" resname="Warning: Of course, pauses, walking and other factors can heavily influence the ratio of heart rate and pace.">
