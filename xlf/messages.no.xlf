@@ -1604,7 +1604,7 @@
       </trans-unit>
       <trans-unit id="1bee50d5c852cd41b4ad1ba2b896c01a0bc21c60" resname="If you turn off our mail notification you will not be informed about new features and changes at RUNALYZE" approved="no">
         <source>If you turn off our mail notification you will not be informed about new features and changes at RUNALYZE</source>
-        <target state="translated">Hvis du slår av e-postvarsling, blir du ikke informert om nye funksjoner og endringer på RUNALYZE</target>
+        <target state="translated">Hvis du slår av e-postvarsling, blir du ikke varslet om nye funksjoner og endringer på RUNALYZE</target>
         <jms:reference-file line="8">/Resources/views/account/unsubscribe_info.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="3a475dd14ef6c1f9c4c3b5d15c5d9f7e5dc7b04c" resname="If your RUNALYZE account is connected to Garmin, all future activities and those of the last thirty days will be transferred." approved="no">
@@ -1992,9 +1992,9 @@
         <target state="translated">Fant ingen enheter</target>
         <jms:reference-file line="58">/Resources/views/import/garmin_communicator.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6631dc85a2a3ce4360d3a6f8069bc067fc290be1" resname="No new notifications">
+      <trans-unit id="6631dc85a2a3ce4360d3a6f8069bc067fc290be1" resname="No new notifications" approved="no">
         <source>No new notifications</source>
-        <target state="new">No new notifications</target>
+        <target state="translated">Ingen nye varsler</target>
         <jms:reference-file line="43">/Resources/views/base_logged_in.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="0035403387839cb4aaa62a675de42063993cbc37" resname="No results." approved="no">
@@ -2052,9 +2052,9 @@
         <target state="translated">Ingenting mer å gjøre</target>
         <jms:reference-file line="10">/Resources/views/system/update_start.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="753a22b2eb617204efee4644795034b8ace1ee14" resname="Notifications">
+      <trans-unit id="753a22b2eb617204efee4644795034b8ace1ee14" resname="Notifications" approved="no">
         <source>Notifications</source>
-        <target state="new">Notifications</target>
+        <target state="translated">Varsler</target>
         <jms:reference-file line="5">/Resources/views/notifications.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="bb9bfefd5391f52be54267e2a938a126661b0ff7" resname="Nov">
@@ -3813,12 +3813,12 @@
       </trans-unit>
       <trans-unit id="e1bf481d77ef7038e06f1f0041a62f273faf035a" resname="You cannot access this item." approved="no">
         <source>You cannot access this item.</source>
-        <target state="translated">Du har ikke tilgang til dette</target>
+        <target state="translated">Du har ikke tilgang til dette elementet.</target>
         <jms:reference-file line="7">/Resources/TwigBundle/views/Exception/error403.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="626ccc4ed62b4890714095ca1063f6361a1d943e" resname="You cannot use Runalyze anymore.">
+      <trans-unit id="626ccc4ed62b4890714095ca1063f6361a1d943e" resname="You cannot use Runalyze anymore." approved="no">
         <source>You cannot use Runalyze anymore.</source>
-        <target state="new">You cannot use Runalyze anymore.</target>
+        <target state="translated">Du kan ikke bruke RUNALYZE lengre.</target>
         <jms:reference-file line="7">/Resources/views/account/delete/success.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="16c83a58a40cd13545b2eb70aa3413ae15487fa6" resname="You did not run any races." approved="no">
