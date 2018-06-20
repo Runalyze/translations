@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-19 09:23+0200\n"
-"PO-Revision-Date: 2018-06-20 12:08+0000\n"
+"PO-Revision-Date: 2018-06-20 12:17+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -152,7 +152,7 @@ msgstr "Løpstabeller"
 
 #: dashboard.php:129
 msgid "Poster generator"
-msgstr "Plakatgenerator"
+msgstr "Plakatproduksjon"
 
 #: dashboard.php:131
 msgid "More"
@@ -991,7 +991,7 @@ msgid ""
 "Dividing total elevation by total distance gives this value."
 msgstr ""
 "Stigningsgraden beskriver forholdet med elevasjonsøkning (eller senking) og "
-"avstand. Verdien er gitt ved å dividere total elevasjon med total distanse."
+"distanse. Verdien er gitt ved å dividere total elevasjon med total distanse."
 
 #: inc/core/Dataset/Keys/TotalStrokes.php:44
 msgid "Total strokes"
@@ -1054,7 +1054,7 @@ msgstr ""
 #: inc/core/Dataset/Keys/Tools.php:114 inc/core/Dataset/Keys/Tools.php:135
 #: inc/training/view/class.TrainingView.php:111
 msgid "Analyze splits"
-msgstr "Analyser delavstander"
+msgstr "Analyser deldistanser"
 
 #: inc/core/Dataset/Keys/Tools.php:118 inc/core/Dataset/Keys/Tools.php:136
 msgid "Elevation info"
@@ -1075,7 +1075,7 @@ msgstr "Delsegmenter"
 
 #: inc/core/Dataset/Keys/Splits.php:46
 msgid "Splits"
-msgstr "Delavstander"
+msgstr "Deldistanser"
 
 #: inc/core/Dataset/Keys/Splits.php:56
 msgid ""
@@ -1083,9 +1083,9 @@ msgid ""
 "only if there are handmade laps, i.e. there are active and inactive laps, or "
 "if it was a race. "
 msgstr ""
-"Delavstander er vist med klokke-ikon med alle rundetider som verktøytips. De "
+"Deldistanser er vist med klokke-ikon med alle rundetider som verktøytips. De "
 "er kun vist hvis det er selvvalgte runder, dvs. det er aktive og inaktive "
-"runder, eller det var et konkurranse. "
+"runder, eller det var en konkurranse. "
 
 #: inc/core/Dataset/Keys/Elevation.php:44 inc/core/Activity/Elevation.php:58
 #: inc/core/View/Activity/Plot/Series/Elevation.php:81
@@ -2101,10 +2101,10 @@ msgid ""
 "which distance (in seconds by average pace)between two data points can be "
 "interpolated."
 msgstr ""
-"Gps-sporet kan bli brutt i tilfelle <em>avbrytelser</em> (f.eks. med bil/"
-"tog/..). Å finne disse avbruddene er ikke enkelt. Du kan spesifisere opp til "
-"hvilken avstand (i sekunder per gjennomsnittlig tempo) mellom to datapunkter "
-"som kan bli interpolert."
+"Gps-sporet kan bli brutt i tilfelle <em>avbrytelser</em> (f.eks. med bil/tog/"
+"..). Å finne disse avbruddene er ikke enkelt. Du kan spesifisere opp til "
+"hvilken distanse (i sekunder per gjennomsnittlig tempo) mellom to "
+"datapunkter som kan bli interpolert."
 
 #: inc/core/Configuration/Category/ActivityView.php:377
 msgid "Map: precision"
