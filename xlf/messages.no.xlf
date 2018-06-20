@@ -286,7 +286,7 @@
       </trans-unit>
       <trans-unit id="f3194fdb9cdae3f0a2d0df40a1848ef5df1866b5" resname="Age standards and personal bests are only considered for the following official distances" approved="no">
         <source>Age standards and personal bests are only considered for the following official distances</source>
-        <target state="translated">Aldersnormaler og personlige beste vurderes kun for følgende offisielle avstander</target>
+        <target state="translated">Aldersnormaler og personlige beste vurderes kun for følgende offisielle distanser</target>
         <jms:reference-file line="43">/Resources/views/my/raceresult/performance_chart.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1458b58c6250127b83ec15650365c683d73de5f5" resname="All paces are in %unit%." approved="no">
@@ -459,7 +459,7 @@
       </trans-unit>
       <trans-unit id="834c7efb60e21c624d7464be4ce00f78afcc0b36" resname="Based on your data RUNALYZE can generate some posters for you. Poster generations are performed in the background." approved="no">
         <source>Based on your data RUNALYZE can generate some posters for you. Poster generations are performed in the background.</source>
-        <target state="translated">Basert på dine data kan RUNALYZE generere noen plakater for deg. Plakatgenerasjoner utføres i bakgrunnen.</target>
+        <target state="translated">Basert på dine data kan RUNALYZE produsere enkelte plakater for deg. Plakatproduksjonen utføres i bakgrunnen.</target>
         <jms:reference-file line="17">/Resources/views/tools/poster.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="862275ec7d01de0bc9d6f4497a83808767de2e2f" resname="Because of a lot of influencing factors these computations are not always accurate." approved="no">
@@ -1173,7 +1173,7 @@
       </trans-unit>
       <trans-unit id="1e1a1441ddd7642f03888de8ce4202c6545a6073" resname="Effective VO2max values are only available for distances of at least one kilometer." approved="no">
         <source>Effective VO2max values are only available for distances of at least one kilometer.</source>
-        <target state="translated">Effektiv VO&lt;sub&gt;2&lt;/sub&gt;maks-verdiene er kun tilgjengelige for avstander på minst en kilometer.</target>
+        <target state="translated">Effektiv VO&lt;sub&gt;2&lt;/sub&gt;maks-verdiene er kun tilgjengelige for distanser på minst en kilometer.</target>
         <jms:reference-file line="49">/Resources/views/my/raceresult/performance_chart.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="5c501758d720d6b23e8aadc62648655316961e3d" resname="Elapsed time" approved="no">
@@ -1415,7 +1415,7 @@
       </trans-unit>
       <trans-unit id="9dc653a63bd3443bcbf33f596ed76029db2ad206" resname="Generate posters" approved="no">
         <source>Generate posters</source>
-        <target state="translated">Lag plakater</target>
+        <target state="translated">Produser plakater</target>
         <jms:reference-file line="42">/Resources/views/tools/poster.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="24f7e09689c4e137c535fea569d21ff8bb25d55c" resname="Gimmick" approved="no">
@@ -1667,7 +1667,7 @@
       </trans-unit>
       <trans-unit id="154e6769e34a4364abdc7b8cca3c3de6cb10da19" resname="In the future we will provide more widgets, which can be included on your website, blog or board signatures" approved="no">
         <source>In the future we will provide more widgets, which can be included on your website, blog or board signatures</source>
-        <target state="translated">I fremtiden vil vi lage flere miniprogrammer, som kan inkluderes på nettstedet ditt, bloggen eller som forumsignatur</target>
+        <target state="translated">I fremtiden vil vi lage flere moduler, som kan inkluderes på nettstedet ditt, bloggen eller som forumsignatur</target>
         <jms:reference-file line="62">/Resources/views/settings/privacy.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="68d71b3c12159ba11a1a8b433401182bfd1b8a15" resname="Index to categorize climbs by Dutch cycling magazine fiets." approved="no">
@@ -2032,7 +2032,7 @@
       </trans-unit>
       <trans-unit id="6be6cb710ab8d8643ab5b1c39b6ff420aaa5e7c8" resname="Not all of your posters could be generated." approved="no">
         <source>Not all of your posters could be generated.</source>
-        <target state="translated">Ikke alle dine plakater kunne bli laget.</target>
+        <target state="translated">Ikke alle dine plakater kunne bli produsert.</target>
         <jms:reference-file line="47">/../src/CoreBundle/Component/Notifications/Message/PosterGeneratedMessage.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="70440046a3dc2e079f23ee1c57dfa76669b732aa" resname="Notes">
@@ -2271,7 +2271,7 @@
       </trans-unit>
       <trans-unit id="711009fb35b2de5a31f11f4580a003326ad0cea4" resname="Poster generator" approved="no">
         <source>Poster generator</source>
-        <target state="translated">Plakatgenerator</target>
+        <target state="translated">Plakatprodusering</target>
         <jms:reference-file line="88">/Resources/views/base_logged_in.twig</jms:reference-file>
         <jms:reference-file line="5">/Resources/views/tools/poster.html.twig</jms:reference-file>
         <jms:reference-file line="49">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
@@ -2322,7 +2322,7 @@
       </trans-unit>
       <trans-unit id="78bb3c21204f037ea7948fa07cdfdcb8d79d8c0b" resname="Previously generated posters" approved="no">
         <source>Previously generated posters</source>
-        <target state="translated">Tidligere plakater</target>
+        <target state="translated">Tidligere produserte plakater</target>
         <jms:reference-file line="54">/Resources/views/tools/poster.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="cf01481f626d5127ec7732fcbdb29504f08abefd" resname="Privacy">
@@ -3076,12 +3076,12 @@
       </trans-unit>
       <trans-unit id="6aba51dd76ce252e1abc2c93cfd68ec8a7a9810c" resname="The difference of these values is called &lt;strong&gt;Training Stress Balance&lt;/strong&gt;, TSB. It describes if you are recovering (positive) or training hard (negative)." approved="no">
         <source><![CDATA[The difference of these values is called <strong>Training Stress Balance</strong>, TSB. It describes if you are recovering (positive) or training hard (negative).]]></source>
-        <target state="translated">Forskjellen mellom disse verdiene kalles &lt;strong&gt; TreningsStressBalanse &lt;/ strong&gt;, TSB. Det beskriver om du restituerer (positiv) eller trener hardt (negativt).</target>
+        <target state="translated">Forskjellen mellom disse verdiene kalles &lt;strong&gt; TreningsStressBalanse &lt;/strong&gt;, TSB. Det beskriver om du restituerer (positiv) eller trener hardt (negativt).</target>
         <jms:reference-file line="55">/Resources/views/static/help_calculations.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="8e3fb27385d019a80c8ad2bfaf198f72da5c88b5" resname="The distance correction for elevation is not used in this table." approved="no">
         <source>The distance correction for elevation is not used in this table.</source>
-        <target state="translated">Avstandskorrigeringen for elevasjon brukes ikke i denne tabellen.</target>
+        <target state="translated">Distansekorrigeringen for elevasjon brukes ikke i denne tabellen.</target>
         <jms:reference-file line="93">/Resources/views/tools/vo2max_analysis.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="a1473df39870f5d41afd2736ef2c4fb13cb799d5" resname="The information will be shown directly in the row." approved="no">
@@ -3230,7 +3230,7 @@
       </trans-unit>
       <trans-unit id="f242d0bc8f5c2c8a9e12b737e533464fb9d7670f" resname="This field is only meant for official track races such that distances can be shown correctly, e.g. as 10.000m. Use tags for all other purposes." approved="no">
         <source>This field is only meant for official track races such that distances can be shown correctly, e.g. as 10.000m. Use tags for all other purposes.</source>
-        <target state="translated">Dette feltet er kun ment for offisielle konkurranseavstander slik at avstander kan vises riktig, f.eks. som 10.000m. Bruk merkelapper for alle andre formål.</target>
+        <target state="translated">Dette feltet er kun ment for offisielle konkurranseavstander slik at distanser kan vises riktig, f.eks. som 10.000m. Bruk merkelapper for alle andre formål.</target>
         <jms:reference-file line="67">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="c59b624220c94870574049cd1ffaa49bad967745" resname="This is your default race type." approved="no">
@@ -3660,9 +3660,9 @@
         <target state="new">White</target>
         <jms:reference-file line="46">/Resources/views/settings/privacy.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="bf8a6678a1e36e3d2c45861b80308b477e3345ac" resname="Widgets">
+      <trans-unit id="bf8a6678a1e36e3d2c45861b80308b477e3345ac" resname="Widgets" approved="no">
         <source>Widgets</source>
-        <target state="new">Widgets</target>
+        <target state="translated">Moduler</target>
         <jms:reference-file line="43">/Resources/views/settings/privacy.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="ac298b6ed81ec13aadd8aefae369a27cc3024488" resname="Will be calculated afterwards from the activity's elevation profile." approved="no">
@@ -3881,7 +3881,7 @@
       </trans-unit>
       <trans-unit id="ab1c7ebfd81b3ac7df302fe951b5213c20367b15" resname="You requested posters could not be generated." approved="no">
         <source>You requested posters could not be generated.</source>
-        <target state="translated">Den forespurte plakaten kunne ikke bli laget.</target>
+        <target state="translated">Den forespurte plakaten kunne ikke bli produsert.</target>
         <jms:reference-file line="49">/../src/CoreBundle/Component/Notifications/Message/PosterGeneratedMessage.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="f8a7bcbb755b913dfdb3a54b3e2d05201afd45a6" resname="You'll receive an email with a link to confirm the deletion.">
@@ -3942,9 +3942,9 @@
         <jms:reference-file line="28">/../src/CoreBundle/Component/Notifications/Message/OAuthGarminConnectConnectedMessage.php</jms:reference-file>
         <jms:reference-file line="20">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="867e4f330e5ac0354309b71bfc1ff48598dca888" resname="Your backup has been generated and is now available for download.">
+      <trans-unit id="867e4f330e5ac0354309b71bfc1ff48598dca888" resname="Your backup has been generated and is now available for download." approved="no">
         <source>Your backup has been generated and is now available for download.</source>
-        <target state="new">Your backup has been generated and is now available for download.</target>
+        <target state="translated">Din sikkerhetskopi har blitt produsert og er nå tilgjengelig for nedlastning.</target>
         <jms:reference-file line="28">/../src/CoreBundle/Component/Notifications/Message/BackupReadyMessage.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="b9eb828d3ddcfd5683d786f038bea8af15184fc0" resname="Your backup job has been created and is performed in the background.">
@@ -4008,9 +4008,9 @@
         <target state="translated">Your personal effective VO&lt;sub&gt;2&lt;/sub&gt;maks is estimated based on the ratio of heart rate and pace in every of your runs.</target>
         <jms:reference-file line="23">/Resources/views/static/help_calculations.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="585af0ba45df165f678534f590106c5c626da314" resname="Your posters have been generated and are now available for download.">
+      <trans-unit id="585af0ba45df165f678534f590106c5c626da314" resname="Your posters have been generated and are now available for download." approved="no">
         <source>Your posters have been generated and are now available for download.</source>
-        <target state="new">Your posters have been generated and are now available for download.</target>
+        <target state="translated">Dine plakater har blitt produsert og er nå tilgjengelig for nedlastning.</target>
         <jms:reference-file line="52">/../src/CoreBundle/Component/Notifications/Message/PosterGeneratedMessage.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="fc136d81195a54414371f3901e080dc742639024" resname="Your public athlete page is deactivated" approved="no">
