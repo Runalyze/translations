@@ -3337,18 +3337,18 @@
       </trans-unit>
       <trans-unit id="fca3fa3d474c6edc26992d8b15da4d804bb78b31" resname="To correctly estimate its lifetime you can specify a previous distance which is added to its calculated distance, e.g. if you used your running shoes for 200 km before tracking them." approved="no">
         <source>To correctly estimate its lifetime you can specify a previous distance which is added to its calculated distance, e.g. if you used your running shoes for 200 km before tracking them.</source>
-        <target state="translated">For å kunne estimere levetiden riktig kan du angi en tidligere distanse som legges til den beregnede avstand, f.eks. hvis du har brukt løpeskoene i 200 km før du registrerer dem.</target>
+        <target state="translated">For å kunne estimere levetiden riktig kan du angi en tidligere distanse som legges til den beregnede distansen, f.eks. hvis du har brukt løpeskoene i 200 km før du registrerer dem.</target>
         <jms:reference-file line="29">/Resources/views/my/equipment/form-equipment.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="dfff5fdae6c0d1d1cc5bdbd44d8dacc2ae47ae08" resname="To get started right away just take a look at our &quot;getting started&quot; guide at %s.">
+      <trans-unit id="dfff5fdae6c0d1d1cc5bdbd44d8dacc2ae47ae08" resname="To get started right away just take a look at our &quot;getting started&quot; guide at %s." approved="no">
         <source>To get started right away just take a look at our "getting started" guide at %s.</source>
-        <target state="new">To get started right away just take a look at our "getting started" guide at %s.</target>
+        <target state="translated">For å komme i gang med en gang, ta en titt på vår "komme i gang"-guide på %s.</target>
         <jms:reference-file line="32">/Resources/views/mail/account/registration.html.twig</jms:reference-file>
         <jms:reference-file line="12">/Resources/views/register/mail_delivered.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="8f91bcf6d2d6040050ecc946bdf8d15f163dc8dd" resname="To start the initial sync you need to track at least one new activity at Garmin. Afterwards Garmin will send us the last 30 days of activities. This can take some time (hours up to one day).">
+      <trans-unit id="8f91bcf6d2d6040050ecc946bdf8d15f163dc8dd" resname="To start the initial sync you need to track at least one new activity at Garmin. Afterwards Garmin will send us the last 30 days of activities. This can take some time (hours up to one day)." approved="no">
         <source>To start the initial sync you need to track at least one new activity at Garmin. Afterwards Garmin will send us the last 30 days of activities. This can take some time (hours up to one day).</source>
-        <target state="new">To start the initial sync you need to track at least one new activity at Garmin. Afterwards Garmin will send us the last 30 days of activities. This can take some time (hours up to one day).</target>
+        <target state="translated">For å starte den første synkroniseringen må du lagre minst en ny aktivitet hos Garmin. Etterpå sender Garmin oss de siste 30 dagers aktiviteter. Dette kan ta litt tid (timer og opptil en dag).</target>
         <jms:reference-file line="43">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="bb43c1d8b7f1a7d79ff87743ad55f61859179bb4" resname="Tool not available" approved="no">
@@ -3417,9 +3417,9 @@
         <target state="new">Type</target>
         <jms:reference-file line="17">/Resources/views/my/equipment/overview.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="b47a39cc71d853f3c7e4d8ea42d3186d78aaad58" resname="Unable to send link. Please contact the administrator.">
+      <trans-unit id="b47a39cc71d853f3c7e4d8ea42d3186d78aaad58" resname="Unable to send link. Please contact the administrator." approved="no">
         <source>Unable to send link. Please contact the administrator.</source>
-        <target state="new">Unable to send link. Please contact the administrator.</target>
+        <target state="translated">Kan ikke sende lenke. Ta kontakt med administratoren.</target>
         <jms:reference-file line="8">/Resources/views/register/mail_could_not_be_delivered.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="0e22bcda5d80472990e68f70026d78674ccda9f2" resname="Unsubscribe failure" approved="no">
@@ -3474,19 +3474,19 @@
         <jms:reference-file line="13">/Resources/views/tools/backup/import_bad_file.html.twig</jms:reference-file>
         <jms:reference-file line="12">/Resources/views/tools/backup/import_form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="3dee6fe67e78e1aad983d72fcf11c290eb0c2891" resname="Use elevation correction">
+      <trans-unit id="3dee6fe67e78e1aad983d72fcf11c290eb0c2891" resname="Use elevation correction" approved="no">
         <source>Use elevation correction</source>
-        <target state="new">Use elevation correction</target>
+        <target state="translated">Bruk elevasjonskorreksjon</target>
         <jms:reference-file line="183">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="337756d5a70064118bb4bf9797f01f352ad6fb52" resname="Used for age grading.">
+      <trans-unit id="337756d5a70064118bb4bf9797f01f352ad6fb52" resname="Used for age grading." approved="no">
         <source>Used for age grading.</source>
-        <target state="new">Used for age grading.</target>
+        <target state="translated">Brukt for aldersgradering</target>
         <jms:reference-file line="21">/Resources/views/settings/account.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e5c9246d848ed6f4a3113e0e240d2cf980bf7175" resname="Used for calculating energy consumption and age grading.">
+      <trans-unit id="e5c9246d848ed6f4a3113e0e240d2cf980bf7175" resname="Used for calculating energy consumption and age grading." approved="no">
         <source>Used for calculating energy consumption and age grading.</source>
-        <target state="new">Used for calculating energy consumption and age grading.</target>
+        <target state="translated">Brukes til beregning av energiforbruk og aldersgradering.</target>
         <jms:reference-file line="20">/Resources/views/settings/account.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="84c29015de33e5d22422382a372caba5c58f8c01" resname="Username" approved="no">
