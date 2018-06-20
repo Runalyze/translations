@@ -3109,12 +3109,12 @@
       </trans-unit>
       <trans-unit id="08663189f24692053b4262ce69bf52c84df09948" resname="The plug-in was not unlocked successfully." approved="no">
         <source>The plug-in was not unlocked successfully.</source>
-        <target state="translated">Tillegget var ikke</target>
+        <target state="translated">Tillegget var ikke låst opp suksessfullt.</target>
         <jms:reference-file line="29">/Resources/views/import/garmin_communicator.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="ba1764501d4853e0787167ca5cf1496ee4aa9bab" resname="The poster generation has been queued and you will receive a notification as soon as your poster is ready for download.">
+      <trans-unit id="ba1764501d4853e0787167ca5cf1496ee4aa9bab" resname="The poster generation has been queued and you will receive a notification as soon as your poster is ready for download." approved="no">
         <source>The poster generation has been queued and you will receive a notification as soon as your poster is ready for download.</source>
-        <target state="new">The poster generation has been queued and you will receive a notification as soon as your poster is ready for download.</target>
+        <target state="translated">Plakatenproduksjon er lagt i kø, og du vil motta et varsel så snart plakaten er klar for nedlasting.</target>
         <jms:reference-file line="5">/Resources/views/tools/poster_success.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="90cf70070965b5c485eb776e20e352cc7d5c05d2" resname="The race result has been deleted." approved="no">
