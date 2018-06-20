@@ -2927,17 +2927,17 @@
       </trans-unit>
       <trans-unit id="c2e3464e3e2954f6c67c23a2e753e72ce42873be" resname="Supported file extensions" approved="no">
         <source>Supported file extensions</source>
-        <target state="translated">Støttet filtyper</target>
+        <target state="translated">Støttede filtyper</target>
         <jms:reference-file line="82">/Resources/views/activity/import_upload.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="4187e165032d12db72ad915dd5988d63a6efa157" resname="Supported file size:" approved="no">
         <source>Supported file size:</source>
-        <target state="translated">Støttet :</target>
+        <target state="translated">Støttet filstørrelse:</target>
         <jms:reference-file line="106">/Resources/views/activity/import_upload.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="1ea2992a2ed46562645b5b144e7fb27fc53f24bd" resname="Swimming">
+      <trans-unit id="1ea2992a2ed46562645b5b144e7fb27fc53f24bd" resname="Swimming" approved="no">
         <source>Swimming</source>
-        <target state="new">Swimming</target>
+        <target state="translated">Svømming</target>
         <jms:reference-file line="24">/Resources/views/settings/sport/form-zone.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="474c100ec318748e00ad01805517a714d20d1e52" resname="TRIMP">
@@ -2950,9 +2950,9 @@
         <target state="translated">TRIMP/ATL/KTL/TSB</target>
         <jms:reference-file line="44">/Resources/views/static/help_calculations.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="1d80b6733d8d9fa8c4386ff87d32aad9a2cc9e99" resname="Tables for effective %VO2max% values and general tables like a pace calculator.">
+      <trans-unit id="1d80b6733d8d9fa8c4386ff87d32aad9a2cc9e99" resname="Tables for effective %VO2max% values and general tables like a pace calculator." approved="no">
         <source>Tables for effective %VO2max% values and general tables like a pace calculator.</source>
-        <target state="new">Tables for effective %VO2max% values and general tables like a pace calculator.</target>
+        <target state="translated">Tabell for effektiv %VO2max%-verdier og generelle tabeller som en tempokalkulator.</target>
         <jms:reference-file line="38">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="982963c1c41cbed8cab073724749592fe35c532b" resname="Tag">
@@ -2960,24 +2960,24 @@
         <target state="new">Tag</target>
         <jms:reference-file line="18">/Resources/views/settings/tag/overview.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="03665e1b774d1855f6aed3eeb8f12036f9b62bad" resname="Tag has been deleted.">
+      <trans-unit id="03665e1b774d1855f6aed3eeb8f12036f9b62bad" resname="Tag has been deleted." approved="no">
         <source>Tag has been deleted.</source>
-        <target state="new">Tag has been deleted.</target>
+        <target state="translated">Merkelapp har blitt slettet.</target>
         <jms:reference-file line="88">/../src/CoreBundle/Controller/Settings/TagsController.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="28a77a3fda3cf84999df4daf902b1fe9f72999e0" resname="Take a look at our privacy policy.">
+      <trans-unit id="28a77a3fda3cf84999df4daf902b1fe9f72999e0" resname="Take a look at our privacy policy." approved="no">
         <source>Take a look at our privacy policy.</source>
-        <target state="new">Take a look at our privacy policy.</target>
+        <target state="translated">Ta en titt på vår personvernerklæring.</target>
         <jms:reference-file line="39">/Resources/views/register/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="cbd7668f12692a2f8853cd747d8a8f490bc7ab04" resname="Tax identification number">
+      <trans-unit id="cbd7668f12692a2f8853cd747d8a8f490bc7ab04" resname="Tax identification number" approved="no">
         <source>Tax identification number</source>
-        <target state="new">Tax identification number</target>
+        <target state="translated">MVA nummer</target>
         <jms:reference-file line="16">/Resources/views/legal/imprint.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="8a069ed1c667c9e5dc357ae198dc0a380968bcca" resname="Terms of use">
+      <trans-unit id="8a069ed1c667c9e5dc357ae198dc0a380968bcca" resname="Terms of use" approved="no">
         <source>Terms of use</source>
-        <target state="new">Terms of use</target>
+        <target state="translated">Vilkår for bruk</target>
         <jms:reference-file line="8">/Resources/views/footer.html.twig</jms:reference-file>
         <jms:reference-file line="29">/Resources/views/legal/imprint.html.twig</jms:reference-file>
         <jms:reference-file line="46">/Resources/views/shared/base.html.twig</jms:reference-file>
@@ -2987,29 +2987,29 @@
         <target state="new">Text</target>
         <jms:reference-file line="104">/../src/CoreBundle/Form/Tools/PosterType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6b50e31a7e1337db9ecb0e2fcb6e65ca27f57df5" resname="Thank you">
+      <trans-unit id="6b50e31a7e1337db9ecb0e2fcb6e65ca27f57df5" resname="Thank you" approved="no">
         <source>Thank you</source>
-        <target state="new">Thank you</target>
+        <target state="translated">Takk</target>
         <jms:reference-file line="8">/Resources/views/account/subscribe_success.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="08cbfac1e2545912621d38d233987530cdf47555" resname="Thanks for sharing your thoughts!">
+      <trans-unit id="08cbfac1e2545912621d38d233987530cdf47555" resname="Thanks for sharing your thoughts!" approved="no">
         <source>Thanks for sharing your thoughts!</source>
-        <target state="new">Thanks for sharing your thoughts!</target>
+        <target state="translated">Takk for at du deler dine idéer!</target>
         <jms:reference-file line="29">/Resources/views/feedback.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="5a1b598e394b671b7e4bf5d4cbb2c1733b789806" resname="Thanks for your registration. You should receive an email within the next minutes with further instructions for activating your account.">
+      <trans-unit id="5a1b598e394b671b7e4bf5d4cbb2c1733b789806" resname="Thanks for your registration. You should receive an email within the next minutes with further instructions for activating your account." approved="no">
         <source>Thanks for your registration. You should receive an email within the next minutes with further instructions for activating your account.</source>
-        <target state="new">Thanks for your registration. You should receive an email within the next minutes with further instructions for activating your account.</target>
+        <target state="translated">Takk for din registrering. Du skal motta en e-post innen de neste minuttene med ytterligere instruksjoner for å aktivere kontoen din.</target>
         <jms:reference-file line="10">/Resources/views/register/mail_delivered.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="ba0197961d342c2add738b4e987353b8c519c07d" resname="The Daniels/Gilbert Formula by Larry Simpson">
+      <trans-unit id="ba0197961d342c2add738b4e987353b8c519c07d" resname="The Daniels/Gilbert Formula by Larry Simpson" approved="no">
         <source>The Daniels/Gilbert Formula by Larry Simpson</source>
-        <target state="new">The Daniels/Gilbert Formula by Larry Simpson</target>
+        <target state="translated">Daniels/Gilbert Formel ved Larry Simpson</target>
         <jms:reference-file line="35">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="77cb00c08737128c39866f0024de14829218751a" resname="The TRIMP-concept gives a possibility to describe the load of a single activity.">
+      <trans-unit id="77cb00c08737128c39866f0024de14829218751a" resname="The TRIMP-concept gives a possibility to describe the load of a single activity." approved="no">
         <source>The TRIMP-concept gives a possibility to describe the load of a single activity.</source>
-        <target state="new">The TRIMP-concept gives a possibility to describe the load of a single activity.</target>
+        <target state="translated">TRIMP-konseptet gives a possibility to describe the load of a single activity.</target>
         <jms:reference-file line="48">/Resources/views/static/help_calculations.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="b15aa594ef795106dae6835f6c6737098ef85c02" resname="The activation did not work.">
