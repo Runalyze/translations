@@ -3297,12 +3297,12 @@
       </trans-unit>
       <trans-unit id="de63de8d63f7347ac7991ba168ac2e2215cb7ed3" resname="This way of presentation allows to compare not only average values (e.g. pace over months) but deviations and outliers between different groupings." approved="no">
         <source>This way of presentation allows to compare not only average values (e.g. pace over months) but deviations and outliers between different groupings.</source>
-        <target state="translated">Denne presentasjonsmåten gjør det mulig å sammenligne ikke bare gjennomsnittsverdier (for eksempel tempo over måneder), men avvik og avvik mellom ulike grupperinger.</target>
+        <target state="translated">Denne presentasjonsmåten gjør det mulig å sammenligne ikke bare gjennomsnittsverdier (for eksempel tempo over måneder), men avvik og avvikende punkter mellom ulike grupperinger.</target>
         <jms:reference-file line="125">/Resources/views/tools/anova/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="4923d0bf817190c83a6b69dd0b6eeaea0b3b6d12" resname="This will not touch any general settings like gender or main sport.">
+      <trans-unit id="4923d0bf817190c83a6b69dd0b6eeaea0b3b6d12" resname="This will not touch any general settings like gender or main sport." approved="no">
         <source>This will not touch any general settings like gender or main sport.</source>
-        <target state="new">This will not touch any general settings like gender or main sport.</target>
+        <target state="translated">Dette vil ikke berøre noen generelle innstillinger som kjønn eller hovedsporter.</target>
         <jms:reference-file line="49">/Resources/views/settings/account.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="6c82e6dd86807ee3db07e3c82bec1ae1ce00b08b" resname="Time" approved="no">
@@ -3335,9 +3335,9 @@
         <target state="translated">For å vurdere enkelte individuelle faktorer bruker vi en korreksjonsfaktor.</target>
         <jms:reference-file line="67">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="fca3fa3d474c6edc26992d8b15da4d804bb78b31" resname="To correctly estimate its lifetime you can specify a previous distance which is added to its calculated distance, e.g. if you used your running shoes for 200 km before tracking them.">
+      <trans-unit id="fca3fa3d474c6edc26992d8b15da4d804bb78b31" resname="To correctly estimate its lifetime you can specify a previous distance which is added to its calculated distance, e.g. if you used your running shoes for 200 km before tracking them." approved="no">
         <source>To correctly estimate its lifetime you can specify a previous distance which is added to its calculated distance, e.g. if you used your running shoes for 200 km before tracking them.</source>
-        <target state="new">To correctly estimate its lifetime you can specify a previous distance which is added to its calculated distance, e.g. if you used your running shoes for 200 km before tracking them.</target>
+        <target state="translated">For å kunne estimere levetiden riktig kan du angi en tidligere distanse som legges til den beregnede avstand, f.eks. hvis du har brukt løpeskoene i 200 km før du registrerer dem.</target>
         <jms:reference-file line="29">/Resources/views/my/equipment/form-equipment.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="dfff5fdae6c0d1d1cc5bdbd44d8dacc2ae47ae08" resname="To get started right away just take a look at our &quot;getting started&quot; guide at %s.">
