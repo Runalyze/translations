@@ -3581,47 +3581,47 @@
       </trans-unit>
       <trans-unit id="bbbff8cf8603a8b44bf126217cf6ca8f8dc98ea7" resname="We don't support any app yet" approved="no">
         <source>We don't support any app yet</source>
-        <target state="translated">Vi støtter ingen applikasjon enda</target>
+        <target state="translated">Vi støtter ikke noen applikasjon enda</target>
         <jms:reference-file line="60">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="97286a2b91d94c57dcdfee7525a87c54bdbd02b7" resname="We give our best to make Runalyze as good as possible for you. - Therefore we would be interested in your suggestions for improvement.">
+      <trans-unit id="97286a2b91d94c57dcdfee7525a87c54bdbd02b7" resname="We give our best to make Runalyze as good as possible for you. - Therefore we would be interested in your suggestions for improvement." approved="no">
         <source>We give our best to make Runalyze as good as possible for you. - Therefore we would be interested in your suggestions for improvement.</source>
-        <target state="new">We give our best to make Runalyze as good as possible for you. - Therefore we would be interested in your suggestions for improvement.</target>
+        <target state="translated">Vi gjør vårt beste for å gjøre RUNALYZE så bra som mulig for deg. - Derfor er vi interessert i dine forslag til forbedringer.</target>
         <jms:reference-file line="13">/Resources/views/static/help.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="440aa5cf3100adfbd29b3600a47013e01a7552fc" resname="We had to pay a high one-time fee (5000$) to Garmin for this feature. If you are satisfied with this feature please consider &lt;a class=&quot;window&quot; href=&quot;https://runalyze.com/donate&quot;&gt;a donation&lt;/a&gt;. Thank you.">
+      <trans-unit id="440aa5cf3100adfbd29b3600a47013e01a7552fc" resname="We had to pay a high one-time fee (5000$) to Garmin for this feature. If you are satisfied with this feature please consider &lt;a class=&quot;window&quot; href=&quot;https://runalyze.com/donate&quot;&gt;a donation&lt;/a&gt;. Thank you." approved="no">
         <source><![CDATA[We had to pay a high one-time fee (5000$) to Garmin for this feature. If you are satisfied with this feature please consider <a class="window" href="https://runalyze.com/donate">a donation</a>. Thank you.]]></source>
-        <target state="new"><![CDATA[We had to pay a high one-time fee (5000$) to Garmin for this feature. If you are satisfied with this feature please consider <a class="window" href="https://runalyze.com/donate">a donation</a>. Thank you.]]></target>
+        <target state="translated">Vi måtte betale en høy engangsavgift (5000 $) til Garmin for denne funksjonen. Hvis du er fornøyd med denne funksjonen, bør du vurdere &lt;a class="window" href="https://runalyze.com/donate"&gt;en donasjon&lt;/a&gt;. Takk skal du ha.</target>
         <jms:reference-file line="39">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="9efaa21f3fcbff8fbd84f62e80386f3957207163" resname="We recommend the file formats FIT or TCX">
+      <trans-unit id="9efaa21f3fcbff8fbd84f62e80386f3957207163" resname="We recommend the file formats FIT or TCX" approved="no">
         <source>We recommend the file formats FIT or TCX</source>
-        <target state="new">We recommend the file formats FIT or TCX</target>
+        <target state="translated">Vi anbefaler filformatene FIT or TCX</target>
         <jms:reference-file line="79">/Resources/views/activity/import_upload.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="5a8b962a27a1ae0345b71c48f62e7eb88b4095c5" resname="We spend our leisure time to make RUNALYZE as good as possible and we still have tons of great ideas, but time is scarce and after a hard training we first need some fruits or a smoothie.">
+      <trans-unit id="5a8b962a27a1ae0345b71c48f62e7eb88b4095c5" resname="We spend our leisure time to make RUNALYZE as good as possible and we still have tons of great ideas, but time is scarce and after a hard training we first need some fruits or a smoothie." approved="no">
         <source>We spend our leisure time to make RUNALYZE as good as possible and we still have tons of great ideas, but time is scarce and after a hard training we first need some fruits or a smoothie.</source>
-        <target state="new">We spend our leisure time to make RUNALYZE as good as possible and we still have tons of great ideas, but time is scarce and after a hard training we first need some fruits or a smoothie.</target>
+        <target state="translated">Vi bruker fritiden vår på å gjøre RUNALYZE så bra som mulig og vi har fortsatt mange gode ideer, men tiden er knapp og etter en hard trening trenger vi først litt frukt eller en smoothie.</target>
         <jms:reference-file line="9">/Resources/views/static/donate.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="bc66077ae6e84c6025965c3ccfd4000938d9d58d" resname="We use two decimals for convenient reasons.&lt;br&gt;Marathon: 42.20 km&lt;br&gt;Half marathon: 21.10 km">
+      <trans-unit id="bc66077ae6e84c6025965c3ccfd4000938d9d58d" resname="We use two decimals for convenient reasons.&lt;br&gt;Marathon: 42.20 km&lt;br&gt;Half marathon: 21.10 km" approved="no">
         <source><![CDATA[We use two decimals for convenient reasons.<br>Marathon: 42.20 km<br>Half marathon: 21.10 km]]></source>
-        <target state="new"><![CDATA[We use two decimals for convenient reasons.<br>Marathon: 42.20 km<br>Half marathon: 21.10 km]]></target>
+        <target state="translated">Vi bruker to desimaler av praktiske årsaker.&lt;br&gt;Maraton: 42.20 km&lt;br&gt;Halvmaraton: 21.10 km</target>
         <jms:reference-file line="16">/Resources/views/my/raceresult/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="cfde945b216bfeddfb176af73aa8bb1be930c63a" resname="We will notify you when the file is ready for downloading.">
+      <trans-unit id="cfde945b216bfeddfb176af73aa8bb1be930c63a" resname="We will notify you when the file is ready for downloading." approved="no">
         <source>We will notify you when the file is ready for downloading.</source>
-        <target state="new">We will notify you when the file is ready for downloading.</target>
+        <target state="translated">Vi vil varsle deg når filen er klar for nedlasting.</target>
         <jms:reference-file line="8">/Resources/views/tools/backup/export.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="8b527bc986d8b8d19815696a85f3a6923ee433d1" resname="We will resume normal operations as soon as possible.">
+      <trans-unit id="8b527bc986d8b8d19815696a85f3a6923ee433d1" resname="We will resume normal operations as soon as possible." approved="no">
         <source>We will resume normal operations as soon as possible.</source>
-        <target state="new">We will resume normal operations as soon as possible.</target>
+        <target state="translated">Vi vil gjenoppta normal funksjon så snart som mulig.</target>
         <jms:reference-file line="9">/Resources/views/maintenance.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="de335fb3773bd4e42d6ad16c2ddb458bb8ee6679" resname="We will support more apps soon">
+      <trans-unit id="de335fb3773bd4e42d6ad16c2ddb458bb8ee6679" resname="We will support more apps soon" approved="no">
         <source>We will support more apps soon</source>
-        <target state="new">We will support more apps soon</target>
+        <target state="translated">Vi vil støtte flere applikasjoner snart</target>
         <jms:reference-file line="57">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="284af3e8882bbc45760521be2f100a2d104ff5d8" resname="Weather" approved="no">
@@ -3665,9 +3665,9 @@
         <target state="new">Widgets</target>
         <jms:reference-file line="43">/Resources/views/settings/privacy.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="ac298b6ed81ec13aadd8aefae369a27cc3024488" resname="Will be calculated afterwards from the activity's elevation profile.">
+      <trans-unit id="ac298b6ed81ec13aadd8aefae369a27cc3024488" resname="Will be calculated afterwards from the activity's elevation profile." approved="no">
         <source>Will be calculated afterwards from the activity's elevation profile.</source>
-        <target state="new">Will be calculated afterwards from the activity's elevation profile.</target>
+        <target state="translated">Beregnes etterpå fra aktivitetens elevasjonsprofil.</target>
         <jms:reference-file line="69">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="bb74815c6b0beb6dd119fc7dc4ccda65706922f0" resname="Wind degrees" approved="no">
@@ -3702,9 +3702,9 @@
         <jms:reference-file line="54">/../src/CoreBundle/Form/Settings/AccountType.php</jms:reference-file>
         <jms:reference-file line="61">/../src/CoreBundle/Form/Settings/AccountType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="be543145a0a636eba462cebeb353771fb69c7e89" resname="Yes! I would like to receive updates about RUNALYZE via Mail">
+      <trans-unit id="be543145a0a636eba462cebeb353771fb69c7e89" resname="Yes! I would like to receive updates about RUNALYZE via Mail" approved="no">
         <source>Yes! I would like to receive updates about RUNALYZE via Mail</source>
-        <target state="new">Yes! I would like to receive updates about RUNALYZE via Mail</target>
+        <target state="translated">Ja! Jeg ønsker å motta oppdateringer om RUNALYZE via e-post</target>
         <jms:reference-file line="43">/../src/CoreBundle/Form/RegistrationType.php</jms:reference-file>
         <jms:reference-file line="32">/Resources/views/register/form.html.twig</jms:reference-file>
       </trans-unit>
@@ -3713,24 +3713,24 @@
         <target state="translated">Du er utlogget nå.</target>
         <jms:reference-file line="2">/Resources/views/login/ajax_not_logged_in.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="43ef1bc1a2643e60ee5b4edefbafa59456b34d98" resname="You can add a maximal distance or duration if you want to be warned about objects exceeding their theoretical lifetime. This is used for displaying a progress bar in the equipment widget.">
+      <trans-unit id="43ef1bc1a2643e60ee5b4edefbafa59456b34d98" resname="You can add a maximal distance or duration if you want to be warned about objects exceeding their theoretical lifetime. This is used for displaying a progress bar in the equipment widget." approved="no">
         <source>You can add a maximal distance or duration if you want to be warned about objects exceeding their theoretical lifetime. This is used for displaying a progress bar in the equipment widget.</source>
-        <target state="new">You can add a maximal distance or duration if you want to be warned about objects exceeding their theoretical lifetime. This is used for displaying a progress bar in the equipment widget.</target>
+        <target state="translated">Du kan legge til maksimal distanse eller varighet hvis du vil bli advart om enheter som overstiger sin teoretiske levetid. Dette brukes til å vise en fremdriftslinje i utstyrsmodulen.</target>
         <jms:reference-file line="39">/Resources/views/my/equipment/form-category.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="904462fcbe19d6f857a3b4d22b8c7ccf09a518ea" resname="You can add new tags in the activity form.">
+      <trans-unit id="904462fcbe19d6f857a3b4d22b8c7ccf09a518ea" resname="You can add new tags in the activity form." approved="no">
         <source>You can add new tags in the activity form.</source>
-        <target state="new">You can add new tags in the activity form.</target>
+        <target state="translated">Du kan legge til nye merkelapper i aktvitetsskjemaet.</target>
         <jms:reference-file line="11">/Resources/views/settings/tag/overview.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="eb9a8723d6a1a22c7cd12c63d19d47f738515497" resname="You can change your password within the next 24 hours by clicking the link below.">
+      <trans-unit id="eb9a8723d6a1a22c7cd12c63d19d47f738515497" resname="You can change your password within the next 24 hours by clicking the link below." approved="no">
         <source>You can change your password within the next 24 hours by clicking the link below.</source>
-        <target state="new">You can change your password within the next 24 hours by clicking the link below.</target>
+        <target state="translated">Du kan endre passordet ditt innen de neste 24 timene ved å klikke på linken nedenfor.</target>
         <jms:reference-file line="12">/Resources/views/mail/account/recoverPassword.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="48fffa73e1a3c0e045bb151e0e5c2081bf7756c4" resname="You can choose only one object for an activity">
+      <trans-unit id="48fffa73e1a3c0e045bb151e0e5c2081bf7756c4" resname="You can choose only one object for an activity" approved="no">
         <source>You can choose only one object for an activity</source>
-        <target state="new">You can choose only one object for an activity</target>
+        <target state="translated">Du kan bare velge en enhet for en aktivitet</target>
         <jms:reference-file line="26">/Resources/views/my/equipment/form-category.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="c01b6a1446273f585709defe47b93604452c9593" resname="You can close this window." approved="no">
@@ -3757,9 +3757,9 @@
                 For some analyses 'alternative' types are grouped together whereas 'main' types are always shown standalone from each other.</target>
         <jms:reference-file line="42">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="13ca728900d840ab4f36787afc6ad10be8a688f7" resname="You can hide the map for public activities">
+      <trans-unit id="13ca728900d840ab4f36787afc6ad10be8a688f7" resname="You can hide the map for public activities" approved="no">
         <source>You can hide the map for public activities</source>
-        <target state="new">You can hide the map for public activities</target>
+        <target state="translated">Du kan skjule kartet for offentlige aktiviteter</target>
         <jms:reference-file line="37">/Resources/views/settings/privacy.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="718083e56a6d5e24af7883b076b76c6af29f9c98" resname="You can limit equipment categories to specific sports.">
@@ -3767,9 +3767,9 @@
         <target state="new">You can limit equipment categories to specific sports.</target>
         <jms:reference-file line="33">/Resources/views/my/equipment/form-category.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="486480e4d16735ca5ff5bb5b2dcf87b865c10842" resname="You can now use Runalyze.">
+      <trans-unit id="486480e4d16735ca5ff5bb5b2dcf87b865c10842" resname="You can now use Runalyze." approved="no">
         <source>You can now use Runalyze.</source>
-        <target state="new">You can now use Runalyze.</target>
+        <target state="translated">Du kan nå bruke Runalyze.</target>
         <jms:reference-file line="14">/Resources/views/account/activate/success.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1351461b5a1f8399ab32e521424b69fdb7e6415b" resname="You can revoke the permissions at any time in your RUNALYZE settings.">
@@ -3811,9 +3811,9 @@
         <target state="translated">Du kan bruke verktøyet %linkStart%database opprenskning%linkEnd% for å beregne verdien på nytt.</target>
         <jms:reference-file line="120">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e1bf481d77ef7038e06f1f0041a62f273faf035a" resname="You cannot access this item.">
+      <trans-unit id="e1bf481d77ef7038e06f1f0041a62f273faf035a" resname="You cannot access this item." approved="no">
         <source>You cannot access this item.</source>
-        <target state="new">You cannot access this item.</target>
+        <target state="translated">Du har ikke tilgang til dette</target>
         <jms:reference-file line="7">/Resources/TwigBundle/views/Exception/error403.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="626ccc4ed62b4890714095ca1063f6361a1d943e" resname="You cannot use Runalyze anymore.">
