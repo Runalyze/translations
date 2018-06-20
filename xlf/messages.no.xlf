@@ -17,7 +17,7 @@
         <source><![CDATA[                            The importer will not change existing data for equipment, sports or activity types.<br>
                             You have to make these changes by hand or delete the existing data in advance.
                         ]]></source>
-        <target state="translated">Inportverktøyet vil ikke endre eksisternde data for utstyr, sport eller aktivitetstyper&lt;br&gt; Du må gjøre disse endringene selv elelr slette eksisterende data på forhånd.</target>
+        <target state="translated">Inportverktøyet vil ikke endre eksisternde data for gjenstander, sport eller aktivitetstyper&lt;br&gt; Du må gjøre disse endringene selv eller slette eksisterende data på forhånd.</target>
         <jms:reference-file line="68">/Resources/views/tools/backup/upload_form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="f0e469d7c00959f95a0e245c100d881d1994430b" resname="            Values are visualized with so-called 'box plots'.&#10;            They give an impression of how values of a group are distributed.&#10;            The middle 50% of all values are within the box itself and the so-called whiskers have a length of at most 1.5-times the interquartile range (i.e. the box's width).&#10;            Data points outside this range are called outliers.&#10;            " approved="no">
@@ -238,7 +238,7 @@
       </trans-unit>
       <trans-unit id="390a57e974c6e3a8722180ac064ec922a1feaa23" resname="Add an equipment category" approved="no">
         <source>Add an equipment category</source>
-        <target state="translated">Legg til en utstyrsgruppe</target>
+        <target state="translated">Legg til en gjenstandsgruppe</target>
         <jms:reference-file line="8">/Resources/views/my/equipment/form-category.html.twig</jms:reference-file>
         <jms:reference-file line="46">/Resources/views/my/equipment/overview.html.twig</jms:reference-file>
       </trans-unit>
@@ -255,7 +255,7 @@
       </trans-unit>
       <trans-unit id="da5d28017bc722e5464c05f0dbb359e3436f6124" resname="Add equipment" approved="no">
         <source>Add equipment</source>
-        <target state="translated">Legg til utstyr</target>
+        <target state="translated">Legg til gjenstander</target>
         <jms:reference-file line="29">/Resources/views/my/equipment/overview.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="4b55d2f1b9ea6421ab41820a926252ad42b6c36f" resname="Add new sport" approved="no">
@@ -358,7 +358,7 @@
       </trans-unit>
       <trans-unit id="b454b1a24a5f63e0cb7ddf910886d6d0aadfc17b" resname="Assigned equipment" approved="no">
         <source>Assigned equipment</source>
-        <target state="translated">Tilordne utstyr</target>
+        <target state="translated">Tilordne gjenstand</target>
         <jms:reference-file line="59">/Resources/views/my/equipment/form-category.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="158279e5f4f742d42ce90dec41a6de028a67cdeb" resname="Assigned sports" approved="no">
@@ -3149,7 +3149,7 @@
       </trans-unit>
       <trans-unit id="6c982f38f8d6e1451dfa6fd3e231da741a0d06ca" resname="There are no equipment objects for this category." approved="no">
         <source>There are no equipment objects for this category.</source>
-        <target state="translated">Det er ikke noen gjenstander for denne kategorien.</target>
+        <target state="translated">Det er ingen gjenstander for denne kategorien.</target>
         <jms:reference-file line="58">/Resources/views/my/equipment/category/table.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="bf21dbb3daa1703c99cf75be4767aa251e636518" resname="There are no new notifications." approved="no">
@@ -3715,7 +3715,7 @@
       </trans-unit>
       <trans-unit id="43ef1bc1a2643e60ee5b4edefbafa59456b34d98" resname="You can add a maximal distance or duration if you want to be warned about objects exceeding their theoretical lifetime. This is used for displaying a progress bar in the equipment widget." approved="no">
         <source>You can add a maximal distance or duration if you want to be warned about objects exceeding their theoretical lifetime. This is used for displaying a progress bar in the equipment widget.</source>
-        <target state="translated">Du kan legge til maksimal distanse eller varighet hvis du vil bli advart om enheter som overstiger sin teoretiske levetid. Dette brukes til å vise en fremdriftslinje i utstyrsmodulen.</target>
+        <target state="translated">Du kan legge til maksimal distanse eller varighet hvis du vil bli advart om gjenstander som overstiger sin teoretiske levetid. Dette brukes til å vise en fremdriftslinje i utstyrsmodulen.</target>
         <jms:reference-file line="39">/Resources/views/my/equipment/form-category.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="904462fcbe19d6f857a3b4d22b8c7ccf09a518ea" resname="You can add new tags in the activity form." approved="no">
@@ -3730,7 +3730,7 @@
       </trans-unit>
       <trans-unit id="48fffa73e1a3c0e045bb151e0e5c2081bf7756c4" resname="You can choose only one object for an activity" approved="no">
         <source>You can choose only one object for an activity</source>
-        <target state="translated">Du kan bare velge en enhet for en aktivitet</target>
+        <target state="translated">Du kan bare velge en gjenstand for en aktivitet</target>
         <jms:reference-file line="26">/Resources/views/my/equipment/form-category.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="c01b6a1446273f585709defe47b93604452c9593" resname="You can close this window." approved="no">
@@ -3779,7 +3779,7 @@
       </trans-unit>
       <trans-unit id="8a13e6ca8824f60d77c470e9a6c3c2e925d069a0" resname="You can select multiple objects for an activity" approved="no">
         <source>You can select multiple objects for an activity</source>
-        <target state="translated">Du kan velge flere objekter for en aktivitet</target>
+        <target state="translated">Du kan velge flere gjenstander for en aktivitet</target>
         <jms:reference-file line="27">/Resources/views/my/equipment/form-category.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="dda4b99638bbb52801b203b682a1f0da4dd4d836" resname="You can specify which values show up in the overview of your&#10;                        activities.&lt;br&gt;This does not influence the detailed activity view, the form or any&#10;                        plugin." approved="no">
