@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-19 09:23+0200\n"
-"PO-Revision-Date: 2018-06-20 18:16+0000\n"
+"PO-Revision-Date: 2018-06-20 18:18+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -1048,7 +1048,7 @@ msgid ""
 "You can choose a main equipment type for each sport in your sport "
 "configuration. Equipment objects of this type will be shown with their names."
 msgstr ""
-"Du kan velge en type for hovedutstyr for hver sport i din konfigurasjon. "
+"Du kan velge en type for hovedgjenstand for hver sport i din konfigurasjon. "
 "Gjenstander av denne typen vil bli vist med navn."
 
 #: inc/core/Dataset/Keys/Tools.php:114 inc/core/Dataset/Keys/Tools.php:135
@@ -1928,7 +1928,7 @@ msgstr "Sorter: aktivitetstype"
 
 #: inc/core/Configuration/Category/ActivityForm.php:251
 msgid "Sort: equipment"
-msgstr "Sorter: utstyr"
+msgstr "Sorter: gjenstander"
 
 #: inc/core/Configuration/Category/BasicEndurance.php:101
 #: inc/core/Configuration/Category/BasicEndurance.php:149
@@ -3757,7 +3757,7 @@ msgstr "Velg værforhold"
 
 #: inc/training/search/class.SearchFormular.php:176
 msgid "Choose equipment"
-msgstr "Velg utstyr"
+msgstr "Velg gjenstand"
 
 #: inc/training/search/class.SearchFormular.php:177
 #: plugin/RunalyzePluginStat_Tag/class.RunalyzePluginStat_Tag.php:123
@@ -3864,32 +3864,32 @@ msgstr "Det er ingen aktiviteter i dette tidsintervallet."
 
 #: plugin/RunalyzePluginPanel_Equipment/class.RunalyzePluginPanel_Equipment.php:37
 msgid "Display statistics for your equipment."
-msgstr "Vis statistikk for ditt utstyr."
+msgstr "Vis statistikk for dine gjenstander."
 
 #: plugin/RunalyzePluginPanel_Equipment/class.RunalyzePluginPanel_Equipment.php:51
 #: plugin/RunalyzePluginStat_Wetter/class.RunalyzePluginStat_Wetter.php:61
 msgid "Equipment type to display"
-msgstr "Utstyrstype for å vise"
+msgstr "Gjenstandstype å vise"
 
 #: plugin/RunalyzePluginPanel_Equipment/class.RunalyzePluginPanel_Equipment.php:85
 msgid "Add/Edit equipment"
-msgstr "Legg til/Rediger utstyr"
+msgstr "Legg til/Rediger gjenstand"
 
 #: plugin/RunalyzePluginPanel_Equipment/class.RunalyzePluginPanel_Equipment.php:86
 msgid "Show all equipment"
-msgstr "Vis alt utstyr"
+msgstr "Vis alle gjenstander"
 
 #: plugin/RunalyzePluginPanel_Equipment/class.RunalyzePluginPanel_Equipment.php:100
 msgid "Please choose an equipment type in the plugin configuration."
-msgstr "Velg en utstyrstype i tilleggs-konfigurasjonen."
+msgstr "Velg en gjenstandstype i tilleggs-konfigurasjonen."
 
 #: plugin/RunalyzePluginPanel_Equipment/class.RunalyzePluginPanel_Equipment.php:113
 msgid "Show/Hide unused equipment"
-msgstr "Vis/Skjul ubrukt utstyr"
+msgstr "Vis/Skjul ubrukte gjenstander"
 
 #: plugin/RunalyzePluginPanel_Equipment/class.RunalyzePluginPanel_Equipment.php:154
 msgid "You don't have any equipment"
-msgstr "Du har ikke noe utstyr"
+msgstr "Du har ingen gjenstander"
 
 #: plugin/RunalyzePluginStat_Trainingszeiten/Plot.Daytime.php:10
 msgid "Activity [in h] by day time"
@@ -5338,7 +5338,7 @@ msgstr "Interne konstanter har nå blitt oppdatert."
 
 #: src/CoreBundle/Component/Tool/DatabaseCleanup/JobGeneral.php:77
 msgid "There was a problem while recalculating your equipment statistics"
-msgstr "Det var et problem med å beregne din utstyrsstatistikk"
+msgstr "Det var et problem med å beregne din gjenstandsstatistikk"
 
 #: src/CoreBundle/Component/Tool/DatabaseCleanup/JobGeneral.php:79
 #, php-format
