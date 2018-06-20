@@ -2302,7 +2302,7 @@
                 This plugin lists your races and compares your results with the predicted values.
                 This way you can get an impression of how well the prediction works for you.</source>
         <target xml:space="preserve" state="translated">Forutsi din effektive% VO2max% basert på treningsverdiene dine er upresise.
-                This plugin lists your races and compares your results with the predicted values.
+                Dette pluginet viser løpene dine og sammenligner resultatene dine med de anslåtte verdiene.
                 This way you can get an impression of how well the prediction works for you.</target>
         <jms:reference-file line="27">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
       </trans-unit>
