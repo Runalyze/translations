@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-19 09:23+0200\n"
-"PO-Revision-Date: 2018-06-20 19:20+0000\n"
+"PO-Revision-Date: 2018-06-21 11:35+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -5402,11 +5402,11 @@ msgstr "HRV data"
 
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:146
 msgid "Equipment types"
-msgstr "Gjenstandstyper"
+msgstr "Gjenstandskategorier"
 
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:147
 msgid "Relation: equipment types to sports"
-msgstr "Relasjon: gjenstandstyper til sport"
+msgstr "Relasjon: gjenstandskategori til sport"
 
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:148
 msgid "Relation: equipment to activities"
