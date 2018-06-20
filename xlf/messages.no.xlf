@@ -2301,28 +2301,28 @@
         <source xml:space="preserve">Predicting your effective %VO2max% based on your training values is imprecise.
                 This plugin lists your races and compares your results with the predicted values.
                 This way you can get an impression of how well the prediction works for you.</source>
-        <target xml:space="preserve" state="translated">Forutsi din effektive% VO2max% basert på treningsverdiene dine er upresise.
-                Dette pluginet viser løpene dine og sammenligner resultatene dine med de anslåtte verdiene.
-                This way you can get an impression of how well the prediction works for you.</target>
+        <target xml:space="preserve" state="translated">Prediksjon av din effektive %VO2max% basert på dine treningsverdier er upresist.
+                Dette tillegget viser konkurransene dine og sammenligner resultatene dine med de anslåtte verdiene.
+                På denne måten kan du få et inntrykk av hvor godt prediksjonen fungerer for deg.</target>
         <jms:reference-file line="27">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="acaae0379a0a55f16b259cbbd83eb124ebe4735f" resname="Predicting your effective %VO2max% based on your training values is imprecise.&#10;                This tool lists your races and compares all results with predicted values.&#10;                This way you can get an impression of how well our prediction works for you.">
+      <trans-unit id="acaae0379a0a55f16b259cbbd83eb124ebe4735f" resname="Predicting your effective %VO2max% based on your training values is imprecise.&#10;                This tool lists your races and compares all results with predicted values.&#10;                This way you can get an impression of how well our prediction works for you." approved="no">
         <source xml:space="preserve">Predicting your effective %VO2max% based on your training values is imprecise.
                 This tool lists your races and compares all results with predicted values.
                 This way you can get an impression of how well our prediction works for you.</source>
-        <target xml:space="preserve" state="new">Predicting your effective %VO2max% based on your training values is imprecise.
-                This tool lists your races and compares all results with predicted values.
-                This way you can get an impression of how well our prediction works for you.</target>
+        <target xml:space="preserve" state="translated">Prediksjon av din effektive %VO2max% basert på dine treningsverdier er upresist.
+                Dette tillegget viser konkurransene dine og sammenligner resultatene dine med de anslåtte verdiene.
+                På denne måten kan du få et inntrykk av hvor godt prediksjonen fungerer for deg.</target>
         <jms:reference-file line="16">/Resources/views/tools/vo2max_analysis.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="d1222178efa7946ad8940a0b57a0d3cb3856180c" resname="Pressure">
+      <trans-unit id="d1222178efa7946ad8940a0b57a0d3cb3856180c" resname="Pressure" approved="no">
         <source>Pressure</source>
-        <target state="new">Pressure</target>
+        <target state="translated">Lufttrykk</target>
         <jms:reference-file line="174">/../src/CoreBundle/Form/ActivityType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="78bb3c21204f037ea7948fa07cdfdcb8d79d8c0b" resname="Previously generated posters">
+      <trans-unit id="78bb3c21204f037ea7948fa07cdfdcb8d79d8c0b" resname="Previously generated posters" approved="no">
         <source>Previously generated posters</source>
-        <target state="new">Previously generated posters</target>
+        <target state="translated">Tidligere plakater</target>
         <jms:reference-file line="54">/Resources/views/tools/poster.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="cf01481f626d5127ec7732fcbdb29504f08abefd" resname="Privacy">
@@ -2330,20 +2330,20 @@
         <target state="new">Privacy</target>
         <jms:reference-file line="28">/Resources/views/legal/imprint.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="ea5b9cc183107f03fc615a803211ab88a5e7fd3b" resname="Privacy settings">
+      <trans-unit id="ea5b9cc183107f03fc615a803211ab88a5e7fd3b" resname="Privacy settings" approved="no">
         <source>Privacy settings</source>
-        <target state="new">Privacy settings</target>
+        <target state="translated">Personverninnstillinger</target>
         <jms:reference-file line="31">/Resources/views/base_logged_in.twig</jms:reference-file>
         <jms:reference-file line="5">/Resources/views/settings/privacy.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="cfb27956e3baba98b6ac4094925b4127f0c1c18d" resname="Probably the link was wrong or your account has been already activated.">
+      <trans-unit id="cfb27956e3baba98b6ac4094925b4127f0c1c18d" resname="Probably the link was wrong or your account has been already activated." approved="no">
         <source>Probably the link was wrong or your account has been already activated.</source>
-        <target state="new">Probably the link was wrong or your account has been already activated.</target>
+        <target state="translated">Sannsynligvis var lenken feil, eller kontoen din har allerede blitt aktivert.</target>
         <jms:reference-file line="7">/Resources/views/account/activate/problem.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6b6c831ec4889f783bea9e85f02419799f7a579b" resname="Probably the link was wrong.">
+      <trans-unit id="6b6c831ec4889f783bea9e85f02419799f7a579b" resname="Probably the link was wrong." approved="no">
         <source>Probably the link was wrong.</source>
-        <target state="new">Probably the link was wrong.</target>
+        <target state="translated">Sannsynligvis var lenken feil.</target>
         <jms:reference-file line="7">/Resources/views/account/delete/problem.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1baa06b4c8bc2d63f9db4d4cc86a2e2b12a7e893" resname="Problem">
@@ -2363,42 +2363,42 @@
         <jms:reference-file line="129">/../src/CoreBundle/Form/ActivityType.php</jms:reference-file>
         <jms:reference-file line="31">/Resources/views/settings/dataset.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="4cb8775d86c2a56491b31167ef5159bc286ac1af" resname="Public activities are marked: ">
+      <trans-unit id="4cb8775d86c2a56491b31167ef5159bc286ac1af" resname="Public activities are marked: " approved="no">
         <source>Public activities are marked: </source>
-        <target state="new">Public activities are marked: </target>
+        <target state="translated">Offentlige aktiviteter er markert:</target>
         <jms:reference-file line="74">/Resources/views/shared/athlete/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="3b60b51f6d17ccbdddd06dd4533b90fe0f58a9af" resname="Public activities will be visible for everybody.">
+      <trans-unit id="3b60b51f6d17ccbdddd06dd4533b90fe0f58a9af" resname="Public activities will be visible for everybody." approved="no">
         <source>Public activities will be visible for everybody.</source>
-        <target state="new">Public activities will be visible for everybody.</target>
+        <target state="translated">Offentlige aktiviteter vil være synlig for alle.</target>
         <jms:reference-file line="47">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="cc811067aa252195bf88d9e7c0d64aad7314eb45" resname="Public athlete page">
+      <trans-unit id="cc811067aa252195bf88d9e7c0d64aad7314eb45" resname="Public athlete page" approved="no">
         <source>Public athlete page</source>
-        <target state="new">Public athlete page</target>
+        <target state="translated">Offentlig utøverside</target>
         <jms:reference-file line="24">/Resources/views/base_logged_in.twig</jms:reference-file>
         <jms:reference-file line="26">/Resources/views/base_logged_in.twig</jms:reference-file>
         <jms:reference-file line="14">/Resources/views/settings/privacy.html.twig</jms:reference-file>
         <jms:reference-file line="19">/Resources/views/settings/privacy.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="a60f2c73604f623449f263e78f5857849ad5e429" resname="Quality">
+      <trans-unit id="a60f2c73604f623449f263e78f5857849ad5e429" resname="Quality" approved="no">
         <source>Quality</source>
-        <target state="new">Quality</target>
+        <target state="translated">Kvalitet</target>
         <jms:reference-file line="135">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="3bf758a39ed6eeaac06b08cd8701c8a8aedbc7a5" resname="Quality session">
+      <trans-unit id="3bf758a39ed6eeaac06b08cd8701c8a8aedbc7a5" resname="Quality session" approved="no">
         <source>Quality session</source>
-        <target state="new">Quality session</target>
+        <target state="translated">Kvalitetsøvelse</target>
         <jms:reference-file line="64">/../src/CoreBundle/Form/Settings/SportTypeType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="a63e29df702686274e3e04f7d1306df0a66079bb" resname="Quality sessions will be emphasized in your calendar.">
+      <trans-unit id="a63e29df702686274e3e04f7d1306df0a66079bb" resname="Quality sessions will be emphasized in your calendar." approved="no">
         <source>Quality sessions will be emphasized in your calendar.</source>
-        <target state="new">Quality sessions will be emphasized in your calendar.</target>
+        <target state="translated">Kvalitetsøvelser vil bli uthevet i kalenderen din.</target>
         <jms:reference-file line="23">/Resources/views/settings/sport/form-type.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="a666c9c3f8450ab58c1399b5dd51e18f6dd80748" resname="Quartiles">
+      <trans-unit id="a666c9c3f8450ab58c1399b5dd51e18f6dd80748" resname="Quartiles" approved="no">
         <source>Quartiles</source>
-        <target state="new">Quartiles</target>
+        <target state="translated">Kvartiler</target>
         <jms:reference-file line="178">/Resources/views/tools/anova/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="b845d3112663b24990bfdce34111be5c09a04c8b" resname="RPE">
@@ -2406,41 +2406,41 @@
         <target state="new">RPE</target>
         <jms:reference-file line="155">/../src/CoreBundle/Form/ActivityType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="0cdae3ce78bf7662d1b1a89407636e7eea385730" resname="RUNALYZE has been successfully installed. You can now start analyzing your training.">
+      <trans-unit id="0cdae3ce78bf7662d1b1a89407636e7eea385730" resname="RUNALYZE has been successfully installed. You can now start analyzing your training." approved="no">
         <source>RUNALYZE has been successfully installed. You can now start analyzing your training.</source>
-        <target state="new">RUNALYZE has been successfully installed. You can now start analyzing your training.</target>
+        <target state="translated">RUNALYZE har blitt suksessfullt installert. Du kan nå begynne å analysere treningen din.</target>
         <jms:reference-file line="19">/Resources/views/system/install.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="dbd93b8c35d2f65385db54296d0bd5fc6ed292e2" resname="RUNALYZE is temporarily down for maintenance">
+      <trans-unit id="dbd93b8c35d2f65385db54296d0bd5fc6ed292e2" resname="RUNALYZE is temporarily down for maintenance" approved="no">
         <source>RUNALYZE is temporarily down for maintenance</source>
-        <target state="new">RUNALYZE is temporarily down for maintenance</target>
+        <target state="translated">RUNALYZE er midlertidig nede for vedlikehold</target>
         <jms:reference-file line="8">/Resources/views/maintenance.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="cb4cb504b829038034eed53fa3f3e88fc8d68c37" resname="RUNALYZE version v%runalyzeVersionFile% of your backup file does not match current version v%runalyzeVersion%.">
+      <trans-unit id="cb4cb504b829038034eed53fa3f3e88fc8d68c37" resname="RUNALYZE version v%runalyzeVersionFile% of your backup file does not match current version v%runalyzeVersion%." approved="no">
         <source>RUNALYZE version v%runalyzeVersionFile% of your backup file does not match current version v%runalyzeVersion%.</source>
-        <target state="new">RUNALYZE version v%runalyzeVersionFile% of your backup file does not match current version v%runalyzeVersion%.</target>
+        <target state="translated">RUNALYZE versjon v%runalyzeVersionFile% av dine sikkerhetskopierte filer stemmer ikke med nåværende versjon v%runalyzeVersion%.</target>
         <jms:reference-file line="24">/Resources/views/tools/backup/import_bad_file.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6643dce8e4d3c9b96317eee572d9ea0ae4d49e57" resname="Race">
+      <trans-unit id="6643dce8e4d3c9b96317eee572d9ea0ae4d49e57" resname="Race" approved="no">
         <source>Race</source>
-        <target state="new">Race</target>
+        <target state="translated">Konkurranse</target>
         <jms:reference-file line="220">/../src/CoreBundle/Form/ActivityType.php</jms:reference-file>
         <jms:reference-file line="108">/../src/CoreBundle/Form/Tools/PosterType.php</jms:reference-file>
         <jms:reference-file line="25">/Resources/views/tools/vo2max_analysis.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="ffb38a0db62ae9965855aa50500abfbdc6b502ea" resname="Race results">
+      <trans-unit id="ffb38a0db62ae9965855aa50500abfbdc6b502ea" resname="Race results" approved="no">
         <source>Race results</source>
-        <target state="new">Race results</target>
+        <target state="translated">Konkurranseresultater</target>
         <jms:reference-file line="7">/Resources/views/my/raceresult/performance_chart.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="84262fdebe4521c934ddedb00a12ee2e77f8e9b6" resname="Race results are treated in a special way to show your personal bests and are independent of the chosen activity type. You can add some details below.">
+      <trans-unit id="84262fdebe4521c934ddedb00a12ee2e77f8e9b6" resname="Race results are treated in a special way to show your personal bests and are independent of the chosen activity type. You can add some details below." approved="no">
         <source>Race results are treated in a special way to show your personal bests and are independent of the chosen activity type. You can add some details below.</source>
-        <target state="new">Race results are treated in a special way to show your personal bests and are independent of the chosen activity type. You can add some details below.</target>
+        <target state="translated">Konkurranseresultater er behandlet på en spesiell måte for å vise dine personlige beste prestasjoenr og er uavhengig av valgt aktivitetstype. Du kan legge til detaljer nedenfor.</target>
         <jms:reference-file line="46">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="a16c5bbe4bf996740f257aa1e81bd57e4c52c8dd" resname="Range">
+      <trans-unit id="a16c5bbe4bf996740f257aa1e81bd57e4c52c8dd" resname="Range" approved="no">
         <source>Range</source>
-        <target state="new">Range</target>
+        <target state="translated">Intervall</target>
         <jms:reference-file line="37">/Resources/views/settings/sport/form-zone.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="ea241b14f6a9bfe4f60bef8df5b30e3b31ba755e" resname="Rating of Perceived Exertion or Borg scale, a scale devised to show perceived exertion during exercise">
@@ -2458,14 +2458,14 @@
         <target state="translated">Beregn på nytt effektiv %VO2max%-verdier</target>
         <jms:reference-file line="76">/Resources/views/tools/database_cleanup/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="505b74104763dd596d4d66dad1fa797c656b8975" resname="Recalculate elevation">
+      <trans-unit id="505b74104763dd596d4d66dad1fa797c656b8975" resname="Recalculate elevation" approved="no">
         <source>Recalculate elevation</source>
-        <target state="new">Recalculate elevation</target>
+        <target state="translated">Beregn elevasjon på nytt</target>
         <jms:reference-file line="68">/Resources/views/tools/database_cleanup/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7f3f953bdd839af1677a9acc4b9e6dbe8c746fa7" resname="Recalculate maximal TRIMP values">
+      <trans-unit id="7f3f953bdd839af1677a9acc4b9e6dbe8c746fa7" resname="Recalculate maximal TRIMP values" approved="no">
         <source>Recalculate maximal TRIMP values</source>
-        <target state="new">Recalculate maximal TRIMP values</target>
+        <target state="translated">Beregn maksimal TRIMP-verdier på nytt</target>
         <jms:reference-file line="41">/Resources/views/tools/database_cleanup/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="b4ffb9f8004da2aeb7dca710dd3d1b07e55dfb9b" resname="Recalculate your effective %VO2max% correction factor" approved="no">
@@ -2478,24 +2478,24 @@
         <target state="translated">Beregn på nytt din effektive %VO2max%-form</target>
         <jms:reference-file line="31">/Resources/views/tools/database_cleanup/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="c13880b439273cac2261e3f6cea0faf7f2b7d6b3" resname="Recalculate your equipment statistics">
+      <trans-unit id="c13880b439273cac2261e3f6cea0faf7f2b7d6b3" resname="Recalculate your equipment statistics" approved="no">
         <source>Recalculate your equipment statistics</source>
-        <target state="new">Recalculate your equipment statistics</target>
+        <target state="translated">Beregn din utstyrsstatistikk på nytt</target>
         <jms:reference-file line="21">/Resources/views/tools/database_cleanup/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="76ac7bfce4dfa5a1b50f3b11fae4fae08b3e077c" resname="Recalculate your marathon shape">
+      <trans-unit id="76ac7bfce4dfa5a1b50f3b11fae4fae08b3e077c" resname="Recalculate your marathon shape" approved="no">
         <source>Recalculate your marathon shape</source>
-        <target state="new">Recalculate your marathon shape</target>
+        <target state="translated">Beregn din maratonform på nytt</target>
         <jms:reference-file line="36">/Resources/views/tools/database_cleanup/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="db1c784524e1b54011a95823026161f7c8517fe0" resname="Reference">
+      <trans-unit id="db1c784524e1b54011a95823026161f7c8517fe0" resname="Reference" approved="no">
         <source>Reference</source>
-        <target state="new">Reference</target>
+        <target state="translated">Henvisning</target>
         <jms:reference-file line="34">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="9faaf571bf612d147f425921a76d107b0331d47f" resname="Refresh internal constants">
+      <trans-unit id="9faaf571bf612d147f425921a76d107b0331d47f" resname="Refresh internal constants" approved="no">
         <source>Refresh internal constants</source>
-        <target state="new">Refresh internal constants</target>
+        <target state="translated">Oppfrisk interne konstanter</target>
         <jms:reference-file line="16">/Resources/views/tools/database_cleanup/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="d672995a14650d0e018026b64f297663d8c71c8d" resname="Register">
