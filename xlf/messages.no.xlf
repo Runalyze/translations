@@ -2271,7 +2271,7 @@
       </trans-unit>
       <trans-unit id="711009fb35b2de5a31f11f4580a003326ad0cea4" resname="Poster generator" approved="no">
         <source>Poster generator</source>
-        <target state="translated">Plakatprodusering</target>
+        <target state="translated">Plakatproduksjon</target>
         <jms:reference-file line="88">/Resources/views/base_logged_in.twig</jms:reference-file>
         <jms:reference-file line="5">/Resources/views/tools/poster.html.twig</jms:reference-file>
         <jms:reference-file line="49">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
@@ -3738,10 +3738,10 @@
         <target state="translated">Du kan lukke dette vinduet.</target>
         <jms:reference-file line="9">/Resources/views/tools/backup/export.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="a638530c9d2eb2998d339cfeecb2f1c19c6ca346" resname="You can define any sport you like, but for synchronization and comparisons you can map your sports to our predefined ones.&#10;                This mapping will be used to set the correct sport when importing your activities.">
+      <trans-unit id="a638530c9d2eb2998d339cfeecb2f1c19c6ca346" resname="You can define any sport you like, but for synchronization and comparisons you can map your sports to our predefined ones.&#10;                This mapping will be used to set the correct sport when importing your activities." approved="no">
         <source xml:space="preserve">You can define any sport you like, but for synchronization and comparisons you can map your sports to our predefined ones.
                 This mapping will be used to set the correct sport when importing your activities.</source>
-        <target xml:space="preserve" state="new">You can define any sport you like, but for synchronization and comparisons you can map your sports to our predefined ones.
+        <target xml:space="preserve" state="translated">Du kan definere hvilken sport du liker, men for synkronisering og sammenligninger kan du kartlegge sportene dine til våre forhåndsdefinerte.
                 This mapping will be used to set the correct sport when importing your activities.</target>
         <jms:reference-file line="35">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
