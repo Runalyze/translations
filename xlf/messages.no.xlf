@@ -3889,7 +3889,7 @@
       </trans-unit>
       <trans-unit id="65124d691f26c0873e5f27eee57ddcf5679b9f43" resname="Your &lt;strong&gt;Acute Training Load&lt;/strong&gt;, ATL, also fatigue, is based on the sum of your last TRIMP values in a short period, e.g. for seven days." approved="no">
         <source><![CDATA[Your <strong>Acute Training Load</strong>, ATL, also fatigue, is based on the sum of your last TRIMP values in a short period, e.g. for seven days.]]></source>
-        <target state="translated">Din &lt;strong&gt;Akutte TreningsLast&lt;/strong&gt;, ATL, også utmattelse, er basert på summen av dine siste TRIMP-verdier på kort tid, f.eks. syv dager.</target>
+        <target state="translated">Din &lt;strong&gt;Akutte TreningsLast&lt;/strong&gt;, ATL eller utmattelse, er basert på summen av dine siste TRIMP-verdier på kort tid, f.eks. syv dager.</target>
         <jms:reference-file line="53">/Resources/views/static/help_calculations.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="058f5c855bce51480c3f8c32e165f98ffcbd7076" resname="Your Dataset" approved="no">
@@ -4121,7 +4121,7 @@
       </trans-unit>
       <trans-unit id="7a9c0c20d35a7bec43039bdf4865c10eaf35a12c" resname="choose a specific period" approved="no">
         <source>choose a specific period</source>
-        <target state="translated">velg en spesifisert periode</target>
+        <target state="translated">velg en bestemt periode</target>
         <jms:reference-file line="34">/Resources/views/tools/anova/base.html.twig</jms:reference-file>
         <jms:reference-file line="34">/Resources/views/tools/trend-analysis/base.html.twig</jms:reference-file>
       </trans-unit>
