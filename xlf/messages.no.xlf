@@ -3796,7 +3796,7 @@
       </trans-unit>
       <trans-unit id="fc775f6ada63fa3d193130405bef5adf9d026265" resname="You can support the development of RUNALYZE with every financial contribution — We highly appreciate every grant." approved="no">
         <source>You can support the development of RUNALYZE with every financial contribution — We highly appreciate every grant.</source>
-        <target state="translated">Du kan støtte utviklingen av RUNALYZE med alle økonomiske bidrag - Vi setter stor pris på hvert tilskudd.</target>
+        <target state="translated">Du kan støtte utviklingen av RUNALYZE med alle økonomiske bidrag — Vi setter stor pris på hvert tilskudd.</target>
         <jms:reference-file line="10">/Resources/views/static/donate.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="7cf01aa2f05ae0a1ed203906322017bb242f80ed" resname="You can support us directly via Paypal" approved="no">
@@ -3829,9 +3829,9 @@
         <target state="translated">Du har ingen aktivitetsmerkelapper.</target>
         <jms:reference-file line="38">/Resources/views/settings/tag/overview.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="58861c01e754722311116ab82bb61f3ca0d496d7" resname="You don't have any apps associated with your account.">
+      <trans-unit id="58861c01e754722311116ab82bb61f3ca0d496d7" resname="You don't have any apps associated with your account." approved="no">
         <source>You don't have any apps associated with your account.</source>
-        <target state="new">You don't have any apps associated with your account.</target>
+        <target state="translated">Du har ingen applikasjoner tilknyttet kontoen din.</target>
         <jms:reference-file line="20">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="68cde17ce53f23a49f91c8da4f94274a53ba55c1" resname="You don't have any equipment so far." approved="no">
@@ -3839,17 +3839,17 @@
         <target state="translated">Du har ikke noe utstyr enda.</target>
         <jms:reference-file line="42">/Resources/views/my/equipment/overview.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="c68ed288b5e76e90c37763dec184be248ed8a2b1" resname="You have activities associated with this type.">
+      <trans-unit id="c68ed288b5e76e90c37763dec184be248ed8a2b1" resname="You have activities associated with this type." approved="no">
         <source>You have activities associated with this type.</source>
-        <target state="new">You have activities associated with this type.</target>
+        <target state="translated">Du har aktiviteter knyttet til denne typen.</target>
         <jms:reference-file line="288">/../src/CoreBundle/Controller/Settings/SportController.php</jms:reference-file>
         <jms:reference-file line="380">/../src/CoreBundle/Controller/Settings/SportController.php</jms:reference-file>
         <jms:reference-file line="157">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
         <jms:reference-file line="58">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="120303dea28db66866fffd533f95bcd74ef20f9a" resname="You have deactivated automatic calculation of energy turnover in your settings.">
+      <trans-unit id="120303dea28db66866fffd533f95bcd74ef20f9a" resname="You have deactivated automatic calculation of energy turnover in your settings." approved="no">
         <source>You have deactivated automatic calculation of energy turnover in your settings.</source>
-        <target state="new">You have deactivated automatic calculation of energy turnover in your settings.</target>
+        <target state="translated">Du har deaktivert automatisk beregning av energiforbruk i innstillingene dine.</target>
         <jms:reference-file line="77">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="16c73ecb7321560d538be3dd7493504e45965d29" resname="You have successfully subscribed" approved="no">
@@ -3872,9 +3872,9 @@
         <target state="translated">Du har suksessfullt blitt avmeldt å motta varsler</target>
         <jms:reference-file line="8">/Resources/views/account/unsubscribe_success.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="18863791bf142a030d9496505dc6df5fcf0d074a" resname="You may want to remove a data series if a sensor, e.g. your heart rate strap, produced unusable data.">
+      <trans-unit id="18863791bf142a030d9496505dc6df5fcf0d074a" resname="You may want to remove a data series if a sensor, e.g. your heart rate strap, produced unusable data." approved="no">
         <source>You may want to remove a data series if a sensor, e.g. your heart rate strap, produced unusable data.</source>
-        <target state="new">You may want to remove a data series if a sensor, e.g. your heart rate strap, produced unusable data.</target>
+        <target state="translated">Du vil kanskje fjerne en dataserie hvis en sensor, f.eks. pulsmåleren, lagret ubrukelige data.</target>
         <jms:reference-file line="203">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="ab1c7ebfd81b3ac7df302fe951b5213c20367b15" resname="You requested posters could not be generated." approved="no">
@@ -3882,14 +3882,14 @@
         <target state="translated">Den forespurte plakaten kunne ikke bli produsert.</target>
         <jms:reference-file line="49">/../src/CoreBundle/Component/Notifications/Message/PosterGeneratedMessage.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="f8a7bcbb755b913dfdb3a54b3e2d05201afd45a6" resname="You'll receive an email with a link to confirm the deletion.">
+      <trans-unit id="f8a7bcbb755b913dfdb3a54b3e2d05201afd45a6" resname="You'll receive an email with a link to confirm the deletion." approved="no">
         <source>You'll receive an email with a link to confirm the deletion.</source>
-        <target state="new">You'll receive an email with a link to confirm the deletion.</target>
+        <target state="translated">Du vil motta en e-post med en lenke for å bekrefte slettingen.</target>
         <jms:reference-file line="58">/Resources/views/settings/account.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="65124d691f26c0873e5f27eee57ddcf5679b9f43" resname="Your &lt;strong&gt;Acute Training Load&lt;/strong&gt;, ATL, also fatigue, is based on the sum of your last TRIMP values in a short period, e.g. for seven days.">
+      <trans-unit id="65124d691f26c0873e5f27eee57ddcf5679b9f43" resname="Your &lt;strong&gt;Acute Training Load&lt;/strong&gt;, ATL, also fatigue, is based on the sum of your last TRIMP values in a short period, e.g. for seven days." approved="no">
         <source><![CDATA[Your <strong>Acute Training Load</strong>, ATL, also fatigue, is based on the sum of your last TRIMP values in a short period, e.g. for seven days.]]></source>
-        <target state="new"><![CDATA[Your <strong>Acute Training Load</strong>, ATL, also fatigue, is based on the sum of your last TRIMP values in a short period, e.g. for seven days.]]></target>
+        <target state="translated">Din &lt;strong&gt;Akutte TreningsLast&lt;/strong&gt;, ATL, også tretthet, er basert på summen av dine siste TRIMP-verdier på kort tid, f.eks.</target>
         <jms:reference-file line="53">/Resources/views/static/help_calculations.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="058f5c855bce51480c3f8c32e165f98ffcbd7076" resname="Your Dataset" approved="no">
