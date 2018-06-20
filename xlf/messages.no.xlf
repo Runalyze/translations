@@ -2839,12 +2839,12 @@
       </trans-unit>
       <trans-unit id="d5cfccfc2f15461d881722495a9093e1c074ed0c" resname="Sport is performed outdoor: activate route, weather, ..." approved="no">
         <source>Sport is performed outdoor: activate route, weather, ...</source>
-        <target state="translated">Sport er utført utendørs: aktiver rute, vær ...</target>
+        <target state="translated">Sport er utført utendørs: aktiver rute, vær, ...</target>
         <jms:reference-file line="87">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="d2083144287f7ba2705f28f6694122d1eb0b7d1f" resname="Sport relevance">
+      <trans-unit id="d2083144287f7ba2705f28f6694122d1eb0b7d1f" resname="Sport relevance" approved="no">
         <source>Sport relevance</source>
-        <target state="new">Sport relevance</target>
+        <target state="translated">Sportsrelevanse</target>
         <jms:reference-file line="139">/../src/CoreBundle/Form/Settings/SportType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="3eaa78011ccd8b7c7877057230258648779d9237" resname="Sport types">
