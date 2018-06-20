@@ -3556,17 +3556,17 @@
       </trans-unit>
       <trans-unit id="e8c71dd530754b22ecdb6590edde702eb6e0062c" resname="Vertical ratio" approved="no">
         <source>Vertical ratio</source>
-        <target state="translated">Vertikal</target>
+        <target state="translated">Vertikal ratio</target>
         <jms:reference-file line="163">/Resources/views/activity/tool/time_series_statistics.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="c4bb793eb766477cf7a8d1fda3b44bf5ece526c0" resname="Warning: Of course, pauses, walking and other factors can heavily influence the ratio of heart rate and pace.">
+      <trans-unit id="c4bb793eb766477cf7a8d1fda3b44bf5ece526c0" resname="Warning: Of course, pauses, walking and other factors can heavily influence the ratio of heart rate and pace." approved="no">
         <source>Warning: Of course, pauses, walking and other factors can heavily influence the ratio of heart rate and pace.</source>
-        <target state="new">Warning: Of course, pauses, walking and other factors can heavily influence the ratio of heart rate and pace.</target>
+        <target state="translated">Advarsel: Selvfølgelig kan pauser, tusling og andre faktorer sterkt påvirke forholdet mellom puls og tempo.</target>
         <jms:reference-file line="37">/Resources/views/static/help_calculations.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="fb49c1a8023cbc4c33e3668965072044d0034f86" resname="Was the course officially measured?">
+      <trans-unit id="fb49c1a8023cbc4c33e3668965072044d0034f86" resname="Was the course officially measured?" approved="no">
         <source>Was the course officially measured?</source>
-        <target state="new">Was the course officially measured?</target>
+        <target state="translated">Var løypen offisielt oppmålt?</target>
         <jms:reference-file line="15">/Resources/views/my/raceresult/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="de9b1be49dae27efd757dc48f1ad55ec95a5e9e5" resname="Water" approved="no">
@@ -3579,9 +3579,9 @@
         <target state="translated">Vi er glade for å høre dine tanker og idéer om vår tjeneste. Vi gjennomgår alle tilbakemeldinger og diskuterer dette internt.</target>
         <jms:reference-file line="12">/Resources/views/feedback.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="bbbff8cf8603a8b44bf126217cf6ca8f8dc98ea7" resname="We don't support any app yet">
+      <trans-unit id="bbbff8cf8603a8b44bf126217cf6ca8f8dc98ea7" resname="We don't support any app yet" approved="no">
         <source>We don't support any app yet</source>
-        <target state="new">We don't support any app yet</target>
+        <target state="translated">Vi støtter ingen applikasjon enda</target>
         <jms:reference-file line="60">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="97286a2b91d94c57dcdfee7525a87c54bdbd02b7" resname="We give our best to make Runalyze as good as possible for you. - Therefore we would be interested in your suggestions for improvement.">
