@@ -3741,19 +3741,19 @@
       <trans-unit id="a638530c9d2eb2998d339cfeecb2f1c19c6ca346" resname="You can define any sport you like, but for synchronization and comparisons you can map your sports to our predefined ones.&#10;                This mapping will be used to set the correct sport when importing your activities." approved="no">
         <source xml:space="preserve">You can define any sport you like, but for synchronization and comparisons you can map your sports to our predefined ones.
                 This mapping will be used to set the correct sport when importing your activities.</source>
-        <target xml:space="preserve" state="translated">Du kan definere hvilken sport du liker, men for synkronisering og sammenligninger kan du kartlegge sportene dine til våre forhåndsdefinerte.
-                This mapping will be used to set the correct sport when importing your activities.</target>
+        <target xml:space="preserve" state="translated">Du kan selv definere hvilken sport du trenger, men for synkronisering og sammenligninger kan du knytte dine sporter til våre forhåndsdefinerte.
+                Denne tilknytningen vil bli brukt for å angi riktig sport når du importerer aktivitetene dine.</target>
         <jms:reference-file line="35">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2a3bed8d61c1c67bf86e97ae720eb926fa36b6fd" resname="You can define the default privacy of new activities by sport type in the associated sport configuration.">
+      <trans-unit id="2a3bed8d61c1c67bf86e97ae720eb926fa36b6fd" resname="You can define the default privacy of new activities by sport type in the associated sport configuration." approved="no">
         <source>You can define the default privacy of new activities by sport type in the associated sport configuration.</source>
-        <target state="new">You can define the default privacy of new activities by sport type in the associated sport configuration.</target>
+        <target state="translated">Du kan definere standard personvern for nye aktiviteter etter sportstype i tilhørende sportskonfigurasjon.</target>
         <jms:reference-file line="34">/Resources/views/settings/privacy.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e656cf23968829caaaf06281696a8b26d60f6577" resname="You can group your sports into 'main' and 'alternative' ones.&#10;                For some analyses 'alternative' types are grouped together whereas 'main' types are always shown standalone from each other.">
+      <trans-unit id="e656cf23968829caaaf06281696a8b26d60f6577" resname="You can group your sports into 'main' and 'alternative' ones.&#10;                For some analyses 'alternative' types are grouped together whereas 'main' types are always shown standalone from each other." approved="no">
         <source xml:space="preserve">You can group your sports into 'main' and 'alternative' ones.
                 For some analyses 'alternative' types are grouped together whereas 'main' types are always shown standalone from each other.</source>
-        <target xml:space="preserve" state="new">You can group your sports into 'main' and 'alternative' ones.
+        <target xml:space="preserve" state="translated">Du kan gruppere sportene dine til "hoved" og "alternative".
                 For some analyses 'alternative' types are grouped together whereas 'main' types are always shown standalone from each other.</target>
         <jms:reference-file line="42">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
