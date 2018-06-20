@@ -2927,7 +2927,7 @@
       </trans-unit>
       <trans-unit id="c2e3464e3e2954f6c67c23a2e753e72ce42873be" resname="Supported file extensions" approved="no">
         <source>Supported file extensions</source>
-        <target state="translated">Støttede filtyper</target>
+        <target state="translated">Støttet filtyper</target>
         <jms:reference-file line="82">/Resources/views/activity/import_upload.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="4187e165032d12db72ad915dd5988d63a6efa157" resname="Supported file size:" approved="no">
