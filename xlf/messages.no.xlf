@@ -3046,7 +3046,7 @@
         <source xml:space="preserve">The calculated value is not equal to what is saved for the activity (%activityVO2max%).
             The activity's value has probably been calculated based on other settings.</source>
         <target xml:space="preserve" state="translated">Den beregnede verdien er ikke lik det som er lagret for aktiviteten (%activityVO2max%).
-            The activity's value has probably been calculated based on other settings.</target>
+            Aktivitetens verdi er trolig beregnet på grunnlag av andre innstillinger.</target>
         <jms:reference-file line="117">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="9d5170ef744e3f99e16854439923d0abc166e83f" resname="The category has been deleted." approved="no">
@@ -3054,9 +3054,9 @@
         <target state="translated">Kategorien har blitt slettet.</target>
         <jms:reference-file line="162">/../src/CoreBundle/Controller/My/EquipmentController.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="0422b02d2134bafc018ea5c80d152b11d8ee58e6" resname="The default activity type will be selected automatically when importing activities.">
+      <trans-unit id="0422b02d2134bafc018ea5c80d152b11d8ee58e6" resname="The default activity type will be selected automatically when importing activities." approved="no">
         <source>The default activity type will be selected automatically when importing activities.</source>
-        <target state="new">The default activity type will be selected automatically when importing activities.</target>
+        <target state="translated">Standardaktivitetstypen velges automatisk når du importerer aktiviteter.</target>
         <jms:reference-file line="66">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="246aeab8aa786b99aeae9e55fe38e711d9fead9c" resname="The deletion cannot be undone!" approved="no">
@@ -3069,29 +3069,29 @@
         <target state="translated">Slettingen virket ikke.</target>
         <jms:reference-file line="5">/Resources/views/account/delete/problem.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="399b142aafa8a70dfb0b17db243805fa3d16ac88" resname="The deletion is permanent and cannot be reversed. Therefore, you should backup your data.">
+      <trans-unit id="399b142aafa8a70dfb0b17db243805fa3d16ac88" resname="The deletion is permanent and cannot be reversed. Therefore, you should backup your data." approved="no">
         <source>The deletion is permanent and cannot be reversed. Therefore, you should backup your data.</source>
-        <target state="new">The deletion is permanent and cannot be reversed. Therefore, you should backup your data.</target>
+        <target state="translated">Slettingen er permanent og kan ikke reverseres. Derfor bør du sikkerhetskopiere dataene dine.</target>
         <jms:reference-file line="59">/Resources/views/settings/account.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6aba51dd76ce252e1abc2c93cfd68ec8a7a9810c" resname="The difference of these values is called &lt;strong&gt;Training Stress Balance&lt;/strong&gt;, TSB. It describes if you are recovering (positive) or training hard (negative).">
+      <trans-unit id="6aba51dd76ce252e1abc2c93cfd68ec8a7a9810c" resname="The difference of these values is called &lt;strong&gt;Training Stress Balance&lt;/strong&gt;, TSB. It describes if you are recovering (positive) or training hard (negative)." approved="no">
         <source><![CDATA[The difference of these values is called <strong>Training Stress Balance</strong>, TSB. It describes if you are recovering (positive) or training hard (negative).]]></source>
-        <target state="new"><![CDATA[The difference of these values is called <strong>Training Stress Balance</strong>, TSB. It describes if you are recovering (positive) or training hard (negative).]]></target>
+        <target state="translated">Forskjellen mellom disse verdiene kalles &lt;strong&gt; TreningsStressBalanse &lt;/ strong&gt;, TSB. Det beskriver om du restituerer (positiv) eller trener hardt (negativt).</target>
         <jms:reference-file line="55">/Resources/views/static/help_calculations.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="8e3fb27385d019a80c8ad2bfaf198f72da5c88b5" resname="The distance correction for elevation is not used in this table.">
+      <trans-unit id="8e3fb27385d019a80c8ad2bfaf198f72da5c88b5" resname="The distance correction for elevation is not used in this table." approved="no">
         <source>The distance correction for elevation is not used in this table.</source>
-        <target state="new">The distance correction for elevation is not used in this table.</target>
+        <target state="translated">Avstandskorrigeringen for elevasjon brukes ikke i denne tabellen.</target>
         <jms:reference-file line="93">/Resources/views/tools/vo2max_analysis.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="a1473df39870f5d41afd2736ef2c4fb13cb799d5" resname="The information will be shown directly in the row.">
+      <trans-unit id="a1473df39870f5d41afd2736ef2c4fb13cb799d5" resname="The information will be shown directly in the row." approved="no">
         <source>The information will be shown directly in the row.</source>
-        <target state="new">The information will be shown directly in the row.</target>
+        <target state="translated">Informasjonen vil bli vist direkte i raden.</target>
         <jms:reference-file line="30">/Resources/views/settings/dataset.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="107e75d25238464949dd7069d753324192009049" resname="The information will be shown on your public athlete page if checked.">
+      <trans-unit id="107e75d25238464949dd7069d753324192009049" resname="The information will be shown on your public athlete page if checked." approved="no">
         <source>The information will be shown on your public athlete page if checked.</source>
-        <target state="new">The information will be shown on your public athlete page if checked.</target>
+        <target state="translated">Hvis huket av vil informasjonen bli vist på din offentlige utøverside.</target>
         <jms:reference-file line="31">/Resources/views/settings/dataset.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="6f3578d13f01277f0865175e0f08652f283e769a" resname="The link has been sent and will be valid for 24 hours." approved="no">
@@ -3107,9 +3107,9 @@
         <jms:reference-file line="286">/../src/CoreBundle/Controller/Settings/SportController.php</jms:reference-file>
         <jms:reference-file line="378">/../src/CoreBundle/Controller/Settings/SportController.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="08663189f24692053b4262ce69bf52c84df09948" resname="The plug-in was not unlocked successfully.">
+      <trans-unit id="08663189f24692053b4262ce69bf52c84df09948" resname="The plug-in was not unlocked successfully." approved="no">
         <source>The plug-in was not unlocked successfully.</source>
-        <target state="new">The plug-in was not unlocked successfully.</target>
+        <target state="translated">Tillegget var ikke</target>
         <jms:reference-file line="29">/Resources/views/import/garmin_communicator.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="ba1764501d4853e0787167ca5cf1496ee4aa9bab" resname="The poster generation has been queued and you will receive a notification as soon as your poster is ready for download.">
