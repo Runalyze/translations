@@ -3114,7 +3114,7 @@
       </trans-unit>
       <trans-unit id="ba1764501d4853e0787167ca5cf1496ee4aa9bab" resname="The poster generation has been queued and you will receive a notification as soon as your poster is ready for download." approved="no">
         <source>The poster generation has been queued and you will receive a notification as soon as your poster is ready for download.</source>
-        <target state="translated">Plakatenproduksjon er lagt i kø, og du vil motta et varsel så snart plakaten er klar for nedlasting.</target>
+        <target state="translated">Plakatenproduksjonen er lagt i kø, og du vil motta et varsel så snart plakaten er klar for nedlasting.</target>
         <jms:reference-file line="5">/Resources/views/tools/poster_success.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="90cf70070965b5c485eb776e20e352cc7d5c05d2" resname="The race result has been deleted." approved="no">
@@ -3122,14 +3122,14 @@
         <target state="translated">Konkurranseresultatet har blitt slettet.</target>
         <jms:reference-file line="9">/Resources/views/my/raceresult/deleted.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e40d2feb902d4e94e32120f5c6113bd973f11ba5" resname="The requested activity does not exist or is private.">
+      <trans-unit id="e40d2feb902d4e94e32120f5c6113bd973f11ba5" resname="The requested activity does not exist or is private." approved="no">
         <source>The requested activity does not exist or is private.</source>
-        <target state="new">The requested activity does not exist or is private.</target>
+        <target state="translated">Den forespurte aktiviteten eksisterer ikke eller er privat.</target>
         <jms:reference-file line="8">/Resources/views/shared/invalid_activity.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e84174891f0fd027bc9d452e25ac0c1c88e96d01" resname="The requested athlete does not exist or does not share his activities.">
+      <trans-unit id="e84174891f0fd027bc9d452e25ac0c1c88e96d01" resname="The requested athlete does not exist or does not share his activities." approved="no">
         <source>The requested athlete does not exist or does not share his activities.</source>
-        <target state="new">The requested athlete does not exist or does not share his activities.</target>
+        <target state="translated">Den etterspurte utøveren eksisterer ikke eller deler ikke sine aktiviteter.</target>
         <jms:reference-file line="8">/Resources/views/shared/invalid_athlete.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="c925638e70c774b4ce1abc63b6d112884116a75c" resname="The username is not known." approved="no">
@@ -3137,19 +3137,19 @@
         <target state="translated">Brukernavnet er ukjent.</target>
         <jms:reference-file line="114">/../src/CoreBundle/Controller/AccountController.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="9bf3163dfea3c48494e614aeb1408fd4a47a089f" resname="There are &lt;strong&gt;%numActivities%&lt;/strong&gt; activities in this file.">
+      <trans-unit id="9bf3163dfea3c48494e614aeb1408fd4a47a089f" resname="There are &lt;strong&gt;%numActivities%&lt;/strong&gt; activities in this file." approved="no">
         <source><![CDATA[There are <strong>%numActivities%</strong> activities in this file.]]></source>
-        <target state="new"><![CDATA[There are <strong>%numActivities%</strong> activities in this file.]]></target>
+        <target state="translated">Det er &lt;strong&gt;%numActivities%&lt;/strong&gt; aktiviteter i denne filen.</target>
         <jms:reference-file line="43">/Resources/views/tools/backup/import_form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="29e37fac7d1dfa3388f3a66ec1827ec50bd9dfd5" resname="There are &lt;strong&gt;%numBodyValues%&lt;/strong&gt; body values in this file.">
+      <trans-unit id="29e37fac7d1dfa3388f3a66ec1827ec50bd9dfd5" resname="There are &lt;strong&gt;%numBodyValues%&lt;/strong&gt; body values in this file." approved="no">
         <source><![CDATA[There are <strong>%numBodyValues%</strong> body values in this file.]]></source>
-        <target state="new"><![CDATA[There are <strong>%numBodyValues%</strong> body values in this file.]]></target>
+        <target state="translated">Det er &lt;strong&gt;%numBodyValues%&lt;/strong&gt; kroppsverdier i denne filen.</target>
         <jms:reference-file line="47">/Resources/views/tools/backup/import_form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6c982f38f8d6e1451dfa6fd3e231da741a0d06ca" resname="There are no equipment objects for this category.">
+      <trans-unit id="6c982f38f8d6e1451dfa6fd3e231da741a0d06ca" resname="There are no equipment objects for this category." approved="no">
         <source>There are no equipment objects for this category.</source>
-        <target state="new">There are no equipment objects for this category.</target>
+        <target state="translated">Det er ikke noen utstyrsenheter for denne kategorien.</target>
         <jms:reference-file line="58">/Resources/views/my/equipment/category/table.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="bf21dbb3daa1703c99cf75be4767aa251e636518" resname="There are no new notifications." approved="no">
@@ -3167,19 +3167,19 @@
         <target state="translated">Det er ingen konkurranseresultater for løping å plotte.</target>
         <jms:reference-file line="59">/Resources/views/my/raceresult/performance_chart.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e05b42e482380b8a60c189113d80fa9a7be8f804" resname="There are not enough activities to generate a poster. Please change your selection.">
+      <trans-unit id="e05b42e482380b8a60c189113d80fa9a7be8f804" resname="There are not enough activities to generate a poster. Please change your selection." approved="no">
         <source>There are not enough activities to generate a poster. Please change your selection.</source>
-        <target state="new">There are not enough activities to generate a poster. Please change your selection.</target>
+        <target state="translated">Det er ikke nok aktiviteter for å produsere en plakat. Vennligst endre ditt valg.</target>
         <jms:reference-file line="217">/../src/CoreBundle/Controller/My/Tools/ToolsController.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="05d46cfa07fbbcaaebc5f8871e2fe660de5dea9e" resname="There are some ideas for future improvements of this tool.">
+      <trans-unit id="05d46cfa07fbbcaaebc5f8871e2fe660de5dea9e" resname="There are some ideas for future improvements of this tool." approved="no">
         <source>There are some ideas for future improvements of this tool.</source>
-        <target state="new">There are some ideas for future improvements of this tool.</target>
+        <target state="translated">Det er noen idéer for fremtidige forbedringer av dette verktøyet.</target>
         <jms:reference-file line="47">/Resources/views/tools/poster.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="147704a97696789962f0ab2962ea9e0e58c292c8" resname="There exist several studies to approximate a relation between &amp;#37;HRmax and &amp;#37;vVO2max.">
+      <trans-unit id="147704a97696789962f0ab2962ea9e0e58c292c8" resname="There exist several studies to approximate a relation between &amp;#37;HRmax and &amp;#37;vVO2max." approved="no">
         <source><![CDATA[There exist several studies to approximate a relation between &#37;HRmax and &#37;vVO2max.]]></source>
-        <target state="new"><![CDATA[There exist several studies to approximate a relation between &#37;HRmax and &#37;vVO2max.]]></target>
+        <target state="translated">Det finnes flere studier for å tilnærme et forhold mellom &amp;#37;maks puls og &amp;#37;vVO2maks.</target>
         <jms:reference-file line="44">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="7e152c438826cbc8d84ce153e3002facdcd3b627" resname="There is a problem with your file." approved="no">
@@ -3203,9 +3203,9 @@
         <target state="translated">Det oppstod problemer under opplasting.</target>
         <jms:reference-file line="57">/Resources/views/activity/import_upload.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="fa49a9dd7b8e7bc63fc42ae92e42ecfb6bef0067" resname="These recalculations are only needed if you changed the corresponding settings.">
+      <trans-unit id="fa49a9dd7b8e7bc63fc42ae92e42ecfb6bef0067" resname="These recalculations are only needed if you changed the corresponding settings." approved="no">
         <source>These recalculations are only needed if you changed the corresponding settings.</source>
-        <target state="new">These recalculations are only needed if you changed the corresponding settings.</target>
+        <target state="translated">Å beregne på nytt er bare nødvendig hvis du endret de tilsvarende innstillingene.</target>
         <jms:reference-file line="60">/Resources/views/tools/database_cleanup/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="5fdecd9eda9f0ddb1b311af01ac6c50f66b903b1" resname="These zones are valid for:" approved="no">
@@ -3218,9 +3218,9 @@
         <target state="translated">Denne handlingen kan ikke bli angret.</target>
         <jms:reference-file line="8">/Resources/views/_macro/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="dbd5ed274574adcbecc3128364cee1f95770a822" resname="This correction method is currently unused.">
+      <trans-unit id="dbd5ed274574adcbecc3128364cee1f95770a822" resname="This correction method is currently unused." approved="no">
         <source>This correction method is currently unused.</source>
-        <target state="new">This correction method is currently unused.</target>
+        <target state="translated">Denne korreksjonsmetoden er for tiden ubrukt.</target>
         <jms:reference-file line="93">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="9df44da1f23d6cfd974ec5804862bf48d54a439c" resname="This feature is still in beta phase" approved="no">
@@ -3228,9 +3228,9 @@
         <target state="translated">Denne funksjonen er enda i beta-fase</target>
         <jms:reference-file line="11">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="f242d0bc8f5c2c8a9e12b737e533464fb9d7670f" resname="This field is only meant for official track races such that distances can be shown correctly, e.g. as 10.000m. Use tags for all other purposes.">
+      <trans-unit id="f242d0bc8f5c2c8a9e12b737e533464fb9d7670f" resname="This field is only meant for official track races such that distances can be shown correctly, e.g. as 10.000m. Use tags for all other purposes." approved="no">
         <source>This field is only meant for official track races such that distances can be shown correctly, e.g. as 10.000m. Use tags for all other purposes.</source>
-        <target state="new">This field is only meant for official track races such that distances can be shown correctly, e.g. as 10.000m. Use tags for all other purposes.</target>
+        <target state="translated">Dette feltet er kun ment for offisielle konkurranseavstander slik at avstander kan vises riktig, f.eks. som 10.000m. Bruk merkelapper for alle andre formål.</target>
         <jms:reference-file line="67">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="c59b624220c94870574049cd1ffaa49bad967745" resname="This is your default race type." approved="no">
@@ -3248,35 +3248,35 @@
         <target state="translated">Denne listen viser alle dine aktivitetsmerkelapper.</target>
         <jms:reference-file line="10">/Resources/views/settings/tag/overview.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="af4fd032da898cc7cd47029f2c0ebcb528c4930b" resname="This race result is linked to the following activity">
+      <trans-unit id="af4fd032da898cc7cd47029f2c0ebcb528c4930b" resname="This race result is linked to the following activity" approved="no">
         <source>This race result is linked to the following activity</source>
-        <target state="new">This race result is linked to the following activity</target>
+        <target state="translated">Dette konkurranseresultatet er knyttet til følgende aktivitet</target>
         <jms:reference-file line="18">/Resources/views/my/raceresult/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="c256ab1dc8c312b04aac683f669af14530f13151" resname="This table does &lt;strong&gt;not&lt;/strong&gt; use a correction based on your current marathon shape.">
+      <trans-unit id="c256ab1dc8c312b04aac683f669af14530f13151" resname="This table does &lt;strong&gt;not&lt;/strong&gt; use a correction based on your current marathon shape." approved="no">
         <source><![CDATA[This table does <strong>not</strong> use a correction based on your current marathon shape.]]></source>
-        <target state="new"><![CDATA[This table does <strong>not</strong> use a correction based on your current marathon shape.]]></target>
+        <target state="translated">Denne tabellen bruker &lt;strong&gt;ikke&lt;/strong&gt; en korreksjon basert på din nåværende maratonform.</target>
         <jms:reference-file line="36">/Resources/views/tools/tables/vo2max.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="c5ee50be891f115564718211124d5cafe9679dd3" resname="This table shows times for different distances if you run them with the same pace.">
+      <trans-unit id="c5ee50be891f115564718211124d5cafe9679dd3" resname="This table shows times for different distances if you run them with the same pace." approved="no">
         <source>This table shows times for different distances if you run them with the same pace.</source>
-        <target state="new">This table shows times for different distances if you run them with the same pace.</target>
+        <target state="translated">Denne tabellen viser tider for forskjellige distanser hvis du løper dem med samme tempo.</target>
         <jms:reference-file line="27">/Resources/views/tools/tables/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="ae81e225feaa060c4981b74bef40290465f02f06" resname="This task may take some time, since we have to loop through all your activities.">
+      <trans-unit id="ae81e225feaa060c4981b74bef40290465f02f06" resname="This task may take some time, since we have to loop through all your activities." approved="no">
         <source>This task may take some time, since we have to loop through all your activities.</source>
-        <target state="new">This task may take some time, since we have to loop through all your activities.</target>
+        <target state="translated">Denne oppgaven kan ta litt tid, siden vi må gå gjennom alle dine aktiviteter.</target>
         <jms:reference-file line="61">/Resources/views/tools/database_cleanup/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="00dd58fa666228f9b2839a13be1e2a0cf2efa954" resname="This tool allows you to create beautiful posters of your activity data.">
+      <trans-unit id="00dd58fa666228f9b2839a13be1e2a0cf2efa954" resname="This tool allows you to create beautiful posters of your activity data." approved="no">
         <source>This tool allows you to create beautiful posters of your activity data.</source>
-        <target state="new">This tool allows you to create beautiful posters of your activity data.</target>
+        <target state="translated">Dette verktøyet lar deg lage flotte plakater av aktivitetsdataene dine.</target>
         <jms:reference-file line="51">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="08790fa6c482c0285af002861bfc2b43ac6941d5" resname="This tool allows you to edit multiple activities one after another.&#10;                At the moment it's not possible to edit multiple activities with only one form.">
+      <trans-unit id="08790fa6c482c0285af002861bfc2b43ac6941d5" resname="This tool allows you to edit multiple activities one after another.&#10;                At the moment it's not possible to edit multiple activities with only one form." approved="no">
         <source xml:space="preserve">This tool allows you to edit multiple activities one after another.
                 At the moment it's not possible to edit multiple activities with only one form.</source>
-        <target xml:space="preserve" state="new">This tool allows you to edit multiple activities one after another.
+        <target xml:space="preserve" state="translated">Dette verktøyet lar deg redigere flere aktiviteter en etter en.
                 At the moment it's not possible to edit multiple activities with only one form.</target>
         <jms:reference-file line="82">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
       </trans-unit>
