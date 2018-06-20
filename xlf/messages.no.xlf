@@ -1252,7 +1252,7 @@
       </trans-unit>
       <trans-unit id="e7d75f0ebb7605b0851eaf209f229326dadbbaa5" resname="Equipment types" approved="no">
         <source>Equipment types</source>
-        <target state="translated">Gjenstandstyper</target>
+        <target state="translated">Gjenstandskategorier</target>
         <jms:reference-file line="133">/../src/CoreBundle/Form/Tools/Anova/AnovaType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="0f01ed56a1e32a05e5ef96e4d779f34784af9a96" resname="Example" approved="no">
@@ -2075,7 +2075,7 @@
       </trans-unit>
       <trans-unit id="75b08673fead6db6910f48d09c649372e869879b" resname="Objects of main equipment type can be shown in the activity overview." approved="no">
         <source>Objects of main equipment type can be shown in the activity overview.</source>
-        <target state="translated">Gjenstander av hovedgjenstandstypen kan vises i aktivitetsoversikten.</target>
+        <target state="translated">Gjenstander i hovedkategorien kan vises i aktivitetsoversikten.</target>
         <jms:reference-file line="99">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="abffb03580df0114b369bfe21b0017e6289e6062" resname="Objects will be displayed as inactive as soon as they have reached their end date." approved="no">
@@ -3481,7 +3481,7 @@
       </trans-unit>
       <trans-unit id="337756d5a70064118bb4bf9797f01f352ad6fb52" resname="Used for age grading." approved="no">
         <source>Used for age grading.</source>
-        <target state="translated">Brukes for aldersgradering</target>
+        <target state="translated">Brukes for aldersgradering.</target>
         <jms:reference-file line="21">/Resources/views/settings/account.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="e5c9246d848ed6f4a3113e0e240d2cf980bf7175" resname="Used for calculating energy consumption and age grading." approved="no">
