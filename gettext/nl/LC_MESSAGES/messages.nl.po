@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Runalyze\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-18 16:30+0200\n"
-"PO-Revision-Date: 2018-06-27 16:40+0000\n"
+"PO-Revision-Date: 2018-06-28 06:10+0000\n"
 "Last-Translator: Sjors Witjes <sjorswitjes@gmail.com>\n"
 "Language-Team: Dutch <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/nl/>\n"
@@ -98,9 +98,8 @@ msgid "New equipment"
 msgstr "Nieuwe uitrusting"
 
 #: dashboard.php:102
-#, fuzzy
 msgid "New body values"
-msgstr "Voeg lichaamswaarden toe"
+msgstr "Nieuwe lichaamswaardes"
 
 #: dashboard.php:108 inc/plugin/config/class.PluginConfigurationWindow.php:114
 #: src/CoreBundle/Controller/PluginController.php:38
@@ -136,9 +135,8 @@ msgid "Equipment"
 msgstr "Uitrusting"
 
 #: dashboard.php:116
-#, fuzzy
 msgid "Activity tags"
-msgstr "Activiteitsdetails"
+msgstr "Activiteitentags"
 
 #: dashboard.php:122 inc/core/Dataset/Keys/Tools.php:52
 #: inc/training/view/class.TrainingView.php:137
@@ -146,31 +144,28 @@ msgid "Tools"
 msgstr "Hulpprogramma 's"
 
 #: dashboard.php:125
-#, fuzzy
 msgid "Trend analysis"
-msgstr "Label analyse"
+msgstr "Trendanalyse"
 
 #: dashboard.php:126
 msgid "ANOVA"
-msgstr ""
+msgstr "ANOVA"
 
 #: dashboard.php:127
-#, fuzzy
 msgid "Analyze your VO2max"
-msgstr "Analyzeer jouw VDOT"
+msgstr "Analyseer jouw VO2max"
 
 #: dashboard.php:128
-#, fuzzy
 msgid "Running tables"
-msgstr "Loop-ABC"
+msgstr "Looptabellen"
 
 #: dashboard.php:129
 msgid "Poster generator"
-msgstr ""
+msgstr "Postergenerator"
 
 #: dashboard.php:131
 msgid "More"
-msgstr ""
+msgstr "Meer"
 
 #: dashboard.php:135 inc/training/search/class.SearchFormular.php:74
 msgid "Search"
@@ -179,14 +174,14 @@ msgstr "Zoeken"
 #: dashboard.php:166
 #: inc/training/view/section/class.SectionMiscellaneous.php:34
 msgid "Miscellaneous"
-msgstr "Diversen"
+msgstr "Diverse"
 
 #: dashboard.php:203
 msgid ""
 "<em>There are no statistics available. Activate a plugin in your "
 "configuration.</em>"
 msgstr ""
-"<em>Er zijn geen statistieken beschikbaar. Activeer een plugin in uw "
+"<em>Er zijn geen statistieken beschikbaar. Activeer een plugin in je "
 "configuratie.</em>"
 
 #: dashboard.php:226
@@ -196,16 +191,15 @@ msgstr "Help en Ondersteuning"
 
 #: dashboard.php:228
 msgid "Donate &amp; Support the project"
-msgstr ""
+msgstr "Doneer &amp; ondersteun zo dit project"
 
 #: dashboard.php:229
-#, fuzzy
 msgid "Translations"
-msgstr "Verticale beweging"
+msgstr "Vertalingen"
 
 #: dashboard.php:231
 msgid "Statement of Privacy"
-msgstr ""
+msgstr "Privacyverklaring"
 
 #: dashboard.php:232
 #, fuzzy
