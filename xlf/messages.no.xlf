@@ -554,7 +554,7 @@
       </trans-unit>
       <trans-unit id="2b4d4585e106f1e6647cfabf1a31a9c441165a44" resname="Calendar view" approved="no">
         <source>Calendar view</source>
-        <target state="translated">Kalender visning</target>
+        <target state="translated">Kalendervisning</target>
         <jms:reference-file line="134">/../src/CoreBundle/Form/Settings/SportType.php</jms:reference-file>
         <jms:reference-file line="69">/../src/CoreBundle/Form/Settings/SportTypeType.php</jms:reference-file>
         <jms:reference-file line="136">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
@@ -861,26 +861,26 @@
         <jms:reference-file line="12">/Resources/views/tools/anova/base.html.twig</jms:reference-file>
         <jms:reference-file line="12">/Resources/views/tools/trend-analysis/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="60b17611f8ddc53b4f2cb9202356eb34019c72d3" resname="Database backup (*.sql.gz)">
+      <trans-unit id="60b17611f8ddc53b4f2cb9202356eb34019c72d3" resname="Database backup (*.sql.gz)" approved="no">
         <source>Database backup (*.sql.gz)</source>
-        <target state="new">Database backup (*.sql.gz)</target>
+        <target state="translated">Database sikkerhetskopi (*.sql.gz)</target>
         <jms:reference-file line="19">/../src/CoreBundle/Form/Tools/BackupExportType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="008e64c22ae969baec4cbb0163ea23ca35d5e35a" resname="Database cleanup" approved="no">
         <source>Database cleanup</source>
-        <target state="translated">Database opprenskning</target>
+        <target state="translated">Database-opprenskning</target>
         <jms:reference-file line="5">/Resources/views/tools/database_cleanup/base.html.twig</jms:reference-file>
         <jms:reference-file line="70">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="c559392123a83b8b4ddb420a39d10f12a051904a" resname="Database export">
+      <trans-unit id="c559392123a83b8b4ddb420a39d10f12a051904a" resname="Database export" approved="no">
         <source>Database export</source>
-        <target state="new">Database export</target>
+        <target state="translated">Database-eksport</target>
         <jms:reference-file line="43">/Resources/views/settings/account.html.twig</jms:reference-file>
         <jms:reference-file line="5">/Resources/views/tools/backup/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e6deed0e6c30a94c1260099b126c0ef69a1a400c" resname="Database import">
+      <trans-unit id="e6deed0e6c30a94c1260099b126c0ef69a1a400c" resname="Database import" approved="no">
         <source>Database import</source>
-        <target state="new">Database import</target>
+        <target state="translated">Database-import</target>
         <jms:reference-file line="5">/Resources/views/tools/backup/base_import.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1052689464e38f5066d86e3788d5e61cde890281" resname="Dataset" approved="no">
@@ -913,9 +913,9 @@
         <target state="translated">Standardkonfigurasjon har blitt gjennopprettet!</target>
         <jms:reference-file line="53">/../src/CoreBundle/Controller/Settings/SettingsController.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="45f8f1c383a839408b19d0aeeab6bef449e056fb" resname="Default privacy">
+      <trans-unit id="45f8f1c383a839408b19d0aeeab6bef449e056fb" resname="Default privacy" approved="no">
         <source>Default privacy</source>
-        <target state="new">Default privacy</target>
+        <target state="translated">Standard personvern</target>
         <jms:reference-file line="110">/../src/CoreBundle/Form/Settings/SportType.php</jms:reference-file>
         <jms:reference-file line="21">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
@@ -944,7 +944,7 @@
             This table specifies paces at various percentages of %vVO2max%, which equals approximately the maximal pace for 11 minutes.
         </source>
         <target xml:space="preserve" state="translated">Definisjoner for treningstempo varierer mye, avhengig av hvilken filosofi man ser på.
-            Denne tabellen spesifiserer tempo ved ulike prosenter av %vVO2max%, som tilsvarer omtrent det maksimale tempoet i 11 minutter.
+            Denne tabellen spesifiserer tempo ved ulike prosenter av %VO2max%, som tilsvarer omtrent det maksimale tempoet i 11 minutter.
         </target>
         <jms:reference-file line="7">/Resources/views/tools/tables/vo2max_paces.html.twig</jms:reference-file>
       </trans-unit>
@@ -1029,9 +1029,9 @@
         <target state="translated">Visningsvalg</target>
         <jms:reference-file line="92">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="423208095dd7fc394399b8c356f8f00cd260869b" resname="Distance">
+      <trans-unit id="423208095dd7fc394399b8c356f8f00cd260869b" resname="Distance" approved="no">
         <source>Distance</source>
-        <target state="new">Distance</target>
+        <target state="translated">Distanse</target>
         <jms:reference-file line="64">/Resources/views/activity/form.html.twig</jms:reference-file>
         <jms:reference-file line="33">/Resources/views/activity/multi_importer.html.twig</jms:reference-file>
         <jms:reference-file line="21">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
@@ -1097,9 +1097,9 @@
         <jms:reference-file line="64">/Resources/views/import/garmin_communicator.html.twig</jms:reference-file>
         <jms:reference-file line="41">/Resources/views/shared/widget/iframe/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="9eeffe4b7b6e5e1e997946906659420d101fba64" resname="E-Mail">
+      <trans-unit id="9eeffe4b7b6e5e1e997946906659420d101fba64" resname="E-Mail" approved="no">
         <source>E-Mail</source>
-        <target state="new">E-Mail</target>
+        <target state="translated">E-post</target>
         <jms:reference-file line="26">/Resources/views/settings/account.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="a04c9dd51ef8a86482589854c8cbe3d35ec2f317" resname="Each VO2max value is marked with an arrow to show if this value is (much) higher than your current shape, equal to it or (much) lower:" approved="no">
@@ -1207,9 +1207,9 @@
         <target state="translated">Elevasjonsdata via GPS er svært unøyaktig. Derfor kan du korrigere dem med satellittdata.</target>
         <jms:reference-file line="190">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="01345289e5e7cc14aea84a4cf1fe9a4a5c3ad6ff" resname="Email me">
+      <trans-unit id="01345289e5e7cc14aea84a4cf1fe9a4a5c3ad6ff" resname="Email me" approved="no">
         <source>Email me</source>
-        <target state="new">Email me</target>
+        <target state="translated">Send meg e-post</target>
         <jms:reference-file line="64">/../src/CoreBundle/Form/Settings/AccountType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="3de34686de2562a73dc1259b5018d789e0fdfe6b" resname="Enable public athlete page" approved="no">
@@ -1435,7 +1435,7 @@
       </trans-unit>
       <trans-unit id="5537280384e598ba9133a1a6aa7f2b1345f1cc06" resname="Go to database cleanup" approved="no">
         <source>Go to database cleanup</source>
-        <target state="translated">Gå til database opprenskning</target>
+        <target state="translated">Gå til database-opprenskning</target>
         <jms:reference-file line="19">/Resources/views/tools/backup/import_finish.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="36463cf8381e6e972d67a1b70c482d9fb836b2b0" resname="Gradient" approved="no">
@@ -1468,14 +1468,14 @@
         <target state="new">HR</target>
         <jms:reference-file line="29">/Resources/views/tools/vo2max_analysis.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="88241965ec6e996725339e518fefef41bc0084e1" resname="Has a distance">
+      <trans-unit id="88241965ec6e996725339e518fefef41bc0084e1" resname="Has a distance" approved="no">
         <source>Has a distance</source>
-        <target state="new">Has a distance</target>
+        <target state="translated">Har en distanse</target>
         <jms:reference-file line="106">/../src/CoreBundle/Form/Settings/SportType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="410aa15cdff51446fb351cdc0b289f49b9a9c690" resname="Heart rate" approved="no">
         <source>Heart rate</source>
-        <target state="translated">Puls</target>
+        <target state="translated">Hjertefrekvens (Puls)</target>
         <jms:reference-file line="119">/Resources/views/activity/tool/time_series_statistics.html.twig</jms:reference-file>
         <jms:reference-file line="49">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
         <jms:reference-file line="46">/Resources/views/shared/widget/iframe/base.html.twig</jms:reference-file>
@@ -1763,9 +1763,9 @@
         <target state="translated">Last inn værdata</target>
         <jms:reference-file line="150">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="4e5a2893bdcc7d239c1db72e4c4ffbe4bea73174" resname="Login">
+      <trans-unit id="4e5a2893bdcc7d239c1db72e4c4ffbe4bea73174" resname="Login" approved="no">
         <source>Login</source>
-        <target state="new">Login</target>
+        <target state="translated">Logg inn</target>
         <jms:reference-file line="11">/Resources/views/account/activate/base.html.twig</jms:reference-file>
         <jms:reference-file line="13">/Resources/views/account/recover/success.html.twig</jms:reference-file>
         <jms:reference-file line="58">/Resources/views/base_not_logged_in.html.twig</jms:reference-file>
@@ -1790,9 +1790,9 @@
         <target state="translated">Gå gjennom aktivitetene</target>
         <jms:reference-file line="24">/../src/CoreBundle/Form/Tools/DatabaseCleanupType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="92379cbb8ecf696194b47b619a87e9e4f9a75db2" resname="Mail">
+      <trans-unit id="92379cbb8ecf696194b47b619a87e9e4f9a75db2" resname="Mail" approved="no">
         <source>Mail</source>
-        <target state="new">Mail</target>
+        <target state="translated">E-post</target>
         <jms:reference-file line="32">/../src/CoreBundle/Form/Settings/AccountType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="b1dcd2b52be5e5ce488acfd04796b6b3b6a842fd" resname="Main equipment" approved="no">
@@ -1950,9 +1950,9 @@
         <target state="translated">Ny gjenstand</target>
         <jms:reference-file line="60">/Resources/views/base_logged_in.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="d850ee188c7c55b64bc3624534de5c5051a57dc6" resname="New password">
+      <trans-unit id="d850ee188c7c55b64bc3624534de5c5051a57dc6" resname="New password" approved="no">
         <source>New password</source>
-        <target state="new">New password</target>
+        <target state="translated">Nytt passord</target>
         <jms:reference-file line="32">/../src/CoreBundle/Form/RecoverPasswordType.php</jms:reference-file>
         <jms:reference-file line="34">/../src/CoreBundle/Form/Settings/ChangePasswordType.php</jms:reference-file>
       </trans-unit>
@@ -2088,9 +2088,9 @@
         <target state="new">Oct</target>
         <jms:reference-file line="51">/Resources/views/_macro/utilities.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e3053fbaa7622ccae5f59565e7fb553f9c2d79c8" resname="Old password">
+      <trans-unit id="e3053fbaa7622ccae5f59565e7fb553f9c2d79c8" resname="Old password" approved="no">
         <source>Old password</source>
-        <target state="new">Old password</target>
+        <target state="translated">Gammelt passord</target>
         <jms:reference-file line="21">/../src/CoreBundle/Form/Settings/ChangePasswordType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="d0e687b079fb70f2208d1f8d2c75d64d74925496" resname="Operator">
@@ -2168,15 +2168,15 @@
         <target state="translated">Deltagere totalt</target>
         <jms:reference-file line="26">/Resources/views/my/raceresult/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="8be3c943b1609fffbfc51aad666d0a04adf83c9d" resname="Password">
+      <trans-unit id="8be3c943b1609fffbfc51aad666d0a04adf83c9d" resname="Password" approved="no">
         <source>Password</source>
-        <target state="new">Password</target>
+        <target state="translated">Passord</target>
         <jms:reference-file line="33">/../src/CoreBundle/Form/RegistrationType.php</jms:reference-file>
         <jms:reference-file line="14">/Resources/views/login/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="591d7d05f9b355f6cb1637138c82c3609c012429" resname="Password reset">
+      <trans-unit id="591d7d05f9b355f6cb1637138c82c3609c012429" resname="Password reset" approved="no">
         <source>Password reset</source>
-        <target state="new">Password reset</target>
+        <target state="translated">Tilbakestill passord</target>
         <jms:reference-file line="6">/Resources/views/account/recover/base.html.twig</jms:reference-file>
         <jms:reference-file line="6">/Resources/views/account/recover/success.html.twig</jms:reference-file>
       </trans-unit>
@@ -2325,9 +2325,9 @@
         <target state="translated">Tidligere produserte plakater</target>
         <jms:reference-file line="54">/Resources/views/tools/poster.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="cf01481f626d5127ec7732fcbdb29504f08abefd" resname="Privacy">
+      <trans-unit id="cf01481f626d5127ec7732fcbdb29504f08abefd" resname="Privacy" approved="no">
         <source>Privacy</source>
-        <target state="new">Privacy</target>
+        <target state="translated">Personvern</target>
         <jms:reference-file line="28">/Resources/views/legal/imprint.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="ea5b9cc183107f03fc615a803211ab88a5e7fd3b" resname="Privacy settings" approved="no">
@@ -2587,7 +2587,7 @@
       </trans-unit>
       <trans-unit id="f2098c831055029efd725ad3c074dad9e868758b" resname="RunScribe" approved="no">
         <source>RunScribe</source>
-        <target state="translated">RunScribe</target>
+        <target state="translated">Løpsbeskrivelse</target>
         <jms:reference-file line="157">/../src/CoreBundle/Form/Tools/Anova/AnovaType.php</jms:reference-file>
         <jms:reference-file line="138">/../src/CoreBundle/Form/Tools/TrendAnalysis/TrendAnalysisType.php</jms:reference-file>
       </trans-unit>
@@ -2889,9 +2889,9 @@
         <target state="translated">Start installasjonen av RUNALYZE</target>
         <jms:reference-file line="14">/Resources/views/system/install.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="17dceb68020f6f60a42c24de2b4ee17f2e49e23e" resname="Statement of Privacy">
+      <trans-unit id="17dceb68020f6f60a42c24de2b4ee17f2e49e23e" resname="Statement of Privacy" approved="no">
         <source>Statement of Privacy</source>
-        <target state="new">Statement of Privacy</target>
+        <target state="translated">Personvernerklæring</target>
         <jms:reference-file line="9">/Resources/views/footer.html.twig</jms:reference-file>
         <jms:reference-file line="45">/Resources/views/shared/base.html.twig</jms:reference-file>
       </trans-unit>
@@ -3179,7 +3179,7 @@
       </trans-unit>
       <trans-unit id="147704a97696789962f0ab2962ea9e0e58c292c8" resname="There exist several studies to approximate a relation between &amp;#37;HRmax and &amp;#37;vVO2max." approved="no">
         <source><![CDATA[There exist several studies to approximate a relation between &#37;HRmax and &#37;vVO2max.]]></source>
-        <target state="translated">Det finnes flere studier for å tilnærme et forhold mellom &amp;#37;maks puls og &amp;#37;vVO2maks.</target>
+        <target state="translated">Det finnes flere studier for å tilnærme et forhold mellom &amp;#37;maks puls og &amp;#37;VO2maks.</target>
         <jms:reference-file line="44">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="7e152c438826cbc8d84ce153e3002facdcd3b627" resname="There is a problem with your file." approved="no">
@@ -3367,9 +3367,9 @@
         <jms:reference-file line="56">/Resources/views/_macro/utilities.html.twig</jms:reference-file>
         <jms:reference-file line="19">/Resources/views/my/panels/sports/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="a32487dfe2f2fc77071c7d45927dc74f8775523b" resname="Total distance">
+      <trans-unit id="a32487dfe2f2fc77071c7d45927dc74f8775523b" resname="Total distance" approved="no">
         <source>Total distance</source>
-        <target state="new">Total distance</target>
+        <target state="translated">Total distanse</target>
         <jms:reference-file line="37">/Resources/views/shared/athlete/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="03d44bde8f3bcb16ac73251de333060746533c33" resname="Total duration" approved="no">
@@ -3442,18 +3442,18 @@
         <target state="new">Up/Down</target>
         <jms:reference-file line="98">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="fb91e24fa52d8d2b32937bf04d843f730319a902" resname="Update">
+      <trans-unit id="fb91e24fa52d8d2b32937bf04d843f730319a902" resname="Update" approved="no">
         <source>Update</source>
-        <target state="new">Update</target>
+        <target state="translated">Oppdater</target>
         <jms:reference-file line="28">/Resources/views/_macro/form.html.twig</jms:reference-file>
         <jms:reference-file line="48">/Resources/views/my/equipment/form-category.html.twig</jms:reference-file>
         <jms:reference-file line="46">/Resources/views/my/equipment/form-equipment.html.twig</jms:reference-file>
         <jms:reference-file line="38">/Resources/views/settings/sport/form-type.html.twig</jms:reference-file>
         <jms:reference-file line="29">/Resources/views/settings/tag/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="8bdf057f91e76ae328b2a21d35f682daa08a0ec0" resname="Upload">
+      <trans-unit id="8bdf057f91e76ae328b2a21d35f682daa08a0ec0" resname="Upload" approved="no">
         <source>Upload</source>
-        <target state="new">Upload</target>
+        <target state="translated">Last opp</target>
         <jms:reference-file line="7">/Resources/views/activity/form.html.twig</jms:reference-file>
         <jms:reference-file line="14">/Resources/views/activity/import_garmin_communicator.html.twig</jms:reference-file>
         <jms:reference-file line="6">/Resources/views/activity/import_garmin_communicator.html.twig</jms:reference-file>
@@ -3462,9 +3462,9 @@
         <jms:reference-file line="6">/Resources/views/activity/import_upload.html.twig</jms:reference-file>
         <jms:reference-file line="6">/Resources/views/activity/multi_importer.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="503a3d8ca27443c8f052d4092e928c0d93f4033f" resname="Upload file">
+      <trans-unit id="503a3d8ca27443c8f052d4092e928c0d93f4033f" resname="Upload file" approved="no">
         <source>Upload file</source>
-        <target state="new">Upload file</target>
+        <target state="translated">Last opp fil</target>
         <jms:reference-file line="19">/Resources/views/activity/import_upload.html.twig</jms:reference-file>
         <jms:reference-file line="11">/Resources/views/tools/backup/upload_form.html.twig</jms:reference-file>
       </trans-unit>
@@ -3806,7 +3806,7 @@
       </trans-unit>
       <trans-unit id="653ed74d4c654ec310986c20faf5a4bbb19de0c0" resname="You can use the %linkStart%database cleanup%linkEnd% to recalculate the value." approved="no">
         <source>You can use the %linkStart%database cleanup%linkEnd% to recalculate the value.</source>
-        <target state="translated">Du kan bruke verktøyet %linkStart%database opprenskning%linkEnd% for å beregne verdien på nytt.</target>
+        <target state="translated">Du kan bruke verktøyet %linkStart%database cleanup%linkEnd% for å beregne verdien på nytt.</target>
         <jms:reference-file line="120">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="e1bf481d77ef7038e06f1f0041a62f273faf035a" resname="You cannot access this item." approved="no">
@@ -4227,9 +4227,9 @@
         <jms:reference-file line="35">/Resources/views/tools/anova/base.html.twig</jms:reference-file>
         <jms:reference-file line="35">/Resources/views/tools/trend-analysis/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2b2012c4a952a4135c9742455620390a59a1daa4" resname="max Distance">
+      <trans-unit id="2b2012c4a952a4135c9742455620390a59a1daa4" resname="max Distance" approved="no">
         <source>max Distance</source>
-        <target state="new">max Distance</target>
+        <target state="translated">maks Distanse</target>
         <jms:reference-file line="18">/Resources/views/my/equipment/overview.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="076cb4729032ed86268546a542f3f939ad8d04e4" resname="max Time" approved="no">
@@ -4245,9 +4245,9 @@
         <jms:reference-file line="31">/Resources/views/my/equipment/category/table.html.twig</jms:reference-file>
         <jms:reference-file line="47">/Resources/views/shared/widget/iframe/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="463d11c67a3fc9345720222bf888b3c6042d1696" resname="max. Distance">
+      <trans-unit id="463d11c67a3fc9345720222bf888b3c6042d1696" resname="max. Distance" approved="no">
         <source>max. Distance</source>
-        <target state="new">max. Distance</target>
+        <target state="translated">maks Distanse</target>
         <jms:reference-file line="75">/../src/CoreBundle/Form/EquipmentCategoryType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="5dfc12ff55e07f79d7dc8253babedeed88f57815" resname="max. HR">
