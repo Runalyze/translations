@@ -3,10 +3,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Runalyze\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-18 16:30+0200\n"
-"PO-Revision-Date: 2017-08-10 14:43+0000\n"
-"Last-Translator: Henk Kramer <kramerty88@gmail.com>\n"
+"PO-Revision-Date: 2018-06-27 16:40+0000\n"
+"Last-Translator: Sjors Witjes <sjorswitjes@gmail.com>\n"
 "Language-Team: Dutch <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/nl/>\n"
 "Language: nl\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.15\n"
+"X-Generator: Weblate 2.20-dev\n"
 "X-Poedit-KeywordsList: __;_ne;_n;_e\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -78,29 +78,24 @@ msgid "About us"
 msgstr ""
 
 #: dashboard.php:83
-#, fuzzy
 msgid "Show all notifications"
-msgstr "Meldingen"
+msgstr "Alle meldingen laten zien"
 
 #: dashboard.php:85
-#, fuzzy
 msgid "No new notifications"
-msgstr "Meldingen"
+msgstr "Geen nieuwe meldingen"
 
 #: dashboard.php:99
-#, fuzzy
 msgid "Activity upload"
-msgstr "Activiteitstype"
+msgstr "Upload activiteit"
 
 #: dashboard.php:100
-#, fuzzy
 msgid "Manual activity"
-msgstr "Activiteit verwijderen"
+msgstr "Handmatige activiteit"
 
 #: dashboard.php:101
-#, fuzzy
 msgid "New equipment"
-msgstr "Kies uw uitrusting"
+msgstr "Nieuwe uitrusting"
 
 #: dashboard.php:102
 #, fuzzy
