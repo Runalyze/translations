@@ -286,7 +286,7 @@
       </trans-unit>
       <trans-unit id="f3194fdb9cdae3f0a2d0df40a1848ef5df1866b5" resname="Age standards and personal bests are only considered for the following official distances" approved="no">
         <source>Age standards and personal bests are only considered for the following official distances</source>
-        <target state="translated">Aldersnormaler og personlige beste vurderes kun for følgende offisielle distanser</target>
+        <target state="translated">Aldersnormaler og egne beste vurderes kun for følgende offisielle distanser</target>
         <jms:reference-file line="43">/Resources/views/my/raceresult/performance_chart.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1458b58c6250127b83ec15650365c683d73de5f5" resname="All paces are in %unit%." approved="no">
@@ -659,7 +659,7 @@
       </trans-unit>
       <trans-unit id="bada87473509e3105d1c48a9e6834bd11708ce01" resname="Clear your personal cache" approved="no">
         <source>Clear your personal cache</source>
-        <target state="translated">Slett ditt personlige mellomlager</target>
+        <target state="translated">Slett ditt mellomlager</target>
         <jms:reference-file line="46">/Resources/views/tools/database_cleanup/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="95231ba6261feab53bba9c946a096c614cda17c6" resname="Click here to update RUNALYZE" approved="no">
@@ -850,9 +850,9 @@
         <target state="translated">Faresone</target>
         <jms:reference-file line="3">/Resources/views/_macro/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="61534a81a114ead07b6aaa7eafae777835f43ce4" resname="Data export">
+      <trans-unit id="61534a81a114ead07b6aaa7eafae777835f43ce4" resname="Data export" approved="no">
         <source>Data export</source>
-        <target state="new">Data export</target>
+        <target state="translated">Dataeksport</target>
         <jms:reference-file line="61">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="28d138800a45ecbb1695a0aba0ce72b3b1d2199c" resname="Data selection" approved="no">
@@ -874,7 +874,7 @@
       </trans-unit>
       <trans-unit id="c559392123a83b8b4ddb420a39d10f12a051904a" resname="Database export" approved="no">
         <source>Database export</source>
-        <target state="translated">Database-eksport</target>
+        <target state="translated">Databaseeksport</target>
         <jms:reference-file line="43">/Resources/views/settings/account.html.twig</jms:reference-file>
         <jms:reference-file line="5">/Resources/views/tools/backup/base.html.twig</jms:reference-file>
       </trans-unit>
@@ -889,9 +889,9 @@
         <jms:reference-file line="72">/Resources/views/base_logged_in.twig</jms:reference-file>
         <jms:reference-file line="5">/Resources/views/settings/dataset.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="eb9a4bc1c0c153e4e4b042a79113b815b7e3021d" resname="Date">
+      <trans-unit id="eb9a4bc1c0c153e4e4b042a79113b815b7e3021d" resname="Date" approved="no">
         <source>Date</source>
-        <target state="new">Date</target>
+        <target state="translated">Dato</target>
         <jms:reference-file line="21">/../src/CoreBundle/Form/BodyValuesType.php</jms:reference-file>
         <jms:reference-file line="31">/Resources/views/activity/multi_importer.html.twig</jms:reference-file>
         <jms:reference-file line="63">/Resources/views/import/garmin_communicator.html.twig</jms:reference-file>
@@ -943,7 +943,7 @@
         <source xml:space="preserve">Definitions for training paces vary a lot, depending on which philosophy one looks at.
             This table specifies paces at various percentages of %vVO2max%, which equals approximately the maximal pace for 11 minutes.
         </source>
-        <target xml:space="preserve" state="translated">Definisjoner for treningstempo varierer mye, avhengig av hvilken filosofi man ser på.
+        <target xml:space="preserve" state="translated">Definisjoner for treningstempo varierer mye, avhengig av hvilken metode man benytter.
             Denne tabellen spesifiserer tempo ved ulike prosenter av %VO2max%, som tilsvarer omtrent det maksimale tempoet i 11 minutter.
         </target>
         <jms:reference-file line="7">/Resources/views/tools/tables/vo2max_paces.html.twig</jms:reference-file>
@@ -2435,7 +2435,7 @@
       </trans-unit>
       <trans-unit id="84262fdebe4521c934ddedb00a12ee2e77f8e9b6" resname="Race results are treated in a special way to show your personal bests and are independent of the chosen activity type. You can add some details below." approved="no">
         <source>Race results are treated in a special way to show your personal bests and are independent of the chosen activity type. You can add some details below.</source>
-        <target state="translated">Konkurranseresultater er behandlet på en spesiell måte for å vise dine personlige beste prestasjoenr og er uavhengig av valgt aktivitetstype. Du kan legge til detaljer nedenfor.</target>
+        <target state="translated">Konkurranseresultater er behandlet på en spesiell måte for å vise dine egne beste prestasjoenr og er uavhengig av valgt aktivitetstype. Du kan legge til detaljer nedenfor.</target>
         <jms:reference-file line="46">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="a16c5bbe4bf996740f257aa1e81bd57e4c52c8dd" resname="Range" approved="no">
@@ -2551,9 +2551,9 @@
         <target state="translated">Forespør værdata</target>
         <jms:reference-file line="160">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="1d7c76d34a5f676f0c4ae7099ecae62255f24167" resname="Reset configuration">
+      <trans-unit id="1d7c76d34a5f676f0c4ae7099ecae62255f24167" resname="Reset configuration" approved="no">
         <source>Reset configuration</source>
-        <target state="new">Reset configuration</target>
+        <target state="translated">Tilbakestill konfigurasjon</target>
         <jms:reference-file line="48">/Resources/views/settings/account.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="b315861efa254a5a1c159e993e915f17811f25c8" resname="Reset your RUNALYZE password" approved="no">
@@ -2749,7 +2749,7 @@
       </trans-unit>
       <trans-unit id="da20271284fea50b57b775e04ce01bbbcb32003a" resname="Show only personal bests" approved="no">
         <source>Show only personal bests</source>
-        <target state="translated">Vis kun personlig beste</target>
+        <target state="translated">Vis kun egne beste</target>
         <jms:reference-file line="14">/Resources/views/my/raceresult/performance_chart.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="988593bcfc350ee885e6f30c6f4931026773d284" resname="Show private activities in list" approved="no">
@@ -2982,9 +2982,9 @@
         <jms:reference-file line="29">/Resources/views/legal/imprint.html.twig</jms:reference-file>
         <jms:reference-file line="46">/Resources/views/shared/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="c3328c39b0e29f78e9ff45db674248b1d245887d" resname="Text">
+      <trans-unit id="c3328c39b0e29f78e9ff45db674248b1d245887d" resname="Text" approved="no">
         <source>Text</source>
-        <target state="new">Text</target>
+        <target state="translated">Tekst</target>
         <jms:reference-file line="104">/../src/CoreBundle/Form/Tools/PosterType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="6b50e31a7e1337db9ecb0e2fcb6e65ca27f57df5" resname="Thank you" approved="no">
@@ -4003,7 +4003,7 @@
       </trans-unit>
       <trans-unit id="b3ac31de88e0e8708c967f831b6ffd85a51bb2f8" resname="Your personal effective VO2max is estimated based on the ratio of heart rate and pace in every of your runs." approved="no">
         <source>Your personal effective VO2max is estimated based on the ratio of heart rate and pace in every of your runs.</source>
-        <target state="translated">Your personal effective VO&lt;sub&gt;2&lt;/sub&gt;maks is estimated based on the ratio of heart rate and pace in every of your runs.</target>
+        <target state="translated">Din egen VO&lt;sub&gt;2&lt;/sub&gt;maks er estimert basert på ration av puls og tempo i hvert av dine løp.</target>
         <jms:reference-file line="23">/Resources/views/static/help_calculations.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="585af0ba45df165f678534f590106c5c626da314" resname="Your posters have been generated and are now available for download." approved="no">
@@ -4136,9 +4136,9 @@
         <jms:reference-file line="32">/Resources/views/tools/vo2max_analysis.html.twig</jms:reference-file>
         <jms:reference-file line="33">/Resources/views/tools/vo2max_analysis.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="a4bb60c1cee4bc57e495283536ad4f6d94bfb161" resname="cov">
+      <trans-unit id="a4bb60c1cee4bc57e495283536ad4f6d94bfb161" resname="cov" approved="no">
         <source>cov</source>
-        <target state="new">cov</target>
+        <target state="translated">kov</target>
         <jms:reference-file line="92">/Resources/views/activity/tool/time_series_statistics.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="b007f78c7bd22f9be228e79de07847d6076fff59" resname="dd.mm.YYYY">
