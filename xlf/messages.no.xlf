@@ -4239,7 +4239,7 @@
       </trans-unit>
       <trans-unit id="7e8e654def5444188d35ada75d2dcb250369a2aa" resname="max." approved="no">
         <source>max.</source>
-        <target state="translated">maks.</target>
+        <target state="translated">maks</target>
         <jms:reference-file line="89">/Resources/views/activity/tool/time_series_statistics.html.twig</jms:reference-file>
         <jms:reference-file line="30">/Resources/views/my/equipment/category/table.html.twig</jms:reference-file>
         <jms:reference-file line="31">/Resources/views/my/equipment/category/table.html.twig</jms:reference-file>
@@ -4257,12 +4257,12 @@
       </trans-unit>
       <trans-unit id="6a57ec15218ee69f9a95e05eb39038ce1125e519" resname="max. Time" approved="no">
         <source>max. Time</source>
-        <target state="translated">maks tid</target>
+        <target state="translated">maks. tid</target>
         <jms:reference-file line="79">/../src/CoreBundle/Form/EquipmentCategoryType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e77a31599e99d15e380047e8783cdf95abc7d2b4" resname="maximum">
+      <trans-unit id="e77a31599e99d15e380047e8783cdf95abc7d2b4" resname="maximum" approved="no">
         <source>maximum</source>
-        <target state="new">maximum</target>
+        <target state="translated">maksimum</target>
         <jms:reference-file line="89">/Resources/views/activity/tool/time_series_statistics.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="5f00f7a0a9f5e57deb39805aa521121fa277e75e" resname="mean" approved="no">
