@@ -1793,7 +1793,7 @@ msgstr ""
 
 #: inc/core/Configuration/Category/VO2max.php:145
 msgid "Correction per positive elevation"
-msgstr "Korreksjon per oppsteget høyde"
+msgstr "Korreksjon per oppsteget meter"
 
 #: inc/core/Configuration/Category/VO2max.php:146
 msgid "Add for each meter upwards X meter to the distance."
