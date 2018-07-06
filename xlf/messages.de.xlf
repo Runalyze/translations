@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
   <file date="2018-06-18T16:27:51Z" source-language="en" target-language="de" datatype="plaintext" original="not.available">
     <header>
@@ -815,9 +815,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Kundenfeedback</target>
         <jms:reference-file line="62">/../src/CoreBundle/Services/AccountMailer.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="b8ca49c5d521865dc1abd077b13cee2d18478631" resname="Cycling">
+      <trans-unit id="b8ca49c5d521865dc1abd077b13cee2d18478631" resname="Cycling" approved="no">
         <source>Cycling</source>
-        <target state="new">Cycling</target>
+        <target state="translated">Radfahren</target>
         <jms:reference-file line="24">/Resources/views/settings/sport/form-zone.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="46efcb7560a624acf05b1eba3eaa6c0355e3c341" resname="DIN A0">
@@ -1135,21 +1135,21 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Ausrüstungskategorie bearbeiten</target>
         <jms:reference-file line="10">/Resources/views/my/equipment/form-category.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2f826a820f0dc0bfa61205380302fe06f9cee750" resname="Edit heart rate zones">
+      <trans-unit id="2f826a820f0dc0bfa61205380302fe06f9cee750" resname="Edit heart rate zones" approved="no">
         <source>Edit heart rate zones</source>
-        <target>Edit heart rate zones</target>
+        <target state="translated">Herzfrequenzbereiche bearbeiten</target>
         <jms:reference-file line="44">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
         <jms:reference-file line="68">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7e4e33d16920925cacb37d791953d21ae3526d5c" resname="Edit pace zones">
+      <trans-unit id="7e4e33d16920925cacb37d791953d21ae3526d5c" resname="Edit pace zones" approved="no">
         <source>Edit pace zones</source>
-        <target>Edit pace zones</target>
+        <target state="translated">Pacezonen bearbeiten</target>
         <jms:reference-file line="45">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
         <jms:reference-file line="69">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="37f901626bb09d63386a91a7d9ca405ca9dfc2b7" resname="Edit power zones">
+      <trans-unit id="37f901626bb09d63386a91a7d9ca405ca9dfc2b7" resname="Edit power zones" approved="no">
         <source>Edit power zones</source>
-        <target>Edit power zones</target>
+        <target state="translated">Leistungszonen bearbeiten</target>
         <jms:reference-file line="46">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
         <jms:reference-file line="70">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
@@ -1338,9 +1338,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Bei großen Datenbanken (mehrere Gigabyte) empfehlen wir das Update RUNALYZE via Konsole durchzuführen.</target>
         <jms:reference-file line="10">/Resources/views/system/update.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="8d02a787d85813d3b4a3bc1cf248daa6bb26d472" resname="For pace zones, we also have extra default zones for running, swimming and cycling, which also take precedence over user-defined default zones.">
+      <trans-unit id="8d02a787d85813d3b4a3bc1cf248daa6bb26d472" resname="For pace zones, we also have extra default zones for running, swimming and cycling, which also take precedence over user-defined default zones." approved="no">
         <source>For pace zones, we also have extra default zones for running, swimming and cycling, which also take precedence over user-defined default zones.</source>
-        <target state="new">For pace zones, we also have extra default zones for running, swimming and cycling, which also take precedence over user-defined default zones.</target>
+        <target state="translated">Für Pace-Zonen haben wir auch zusätzliche Standard-Zonen für Laufen, Schwimmen und Radfahren, die ebenfalls Vorrang vor benutzerdefinierten Standard-Zonen haben.</target>
         <jms:reference-file line="29">/Resources/views/settings/sport/form-zone.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="a2f060b7363f54c9f80d62805d36636dd7ebc33c" resname="Forgot your password?">
@@ -1869,9 +1869,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Mode</target>
         <jms:reference-file line="70">/../src/CoreBundle/Form/EquipmentCategoryType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="09a105ca0b894e5f8858bda4d60223581f270739" resname="Mode for displaying activities in calendar">
+      <trans-unit id="09a105ca0b894e5f8858bda4d60223581f270739" resname="Mode for displaying activities in calendar" approved="no">
         <source>Mode for displaying activities in calendar</source>
-        <target>Mode for displaying activities in calendar</target>
+        <target state="translated">Modus zur Anzeige von Aktivitäten im Kalender</target>
         <jms:reference-file line="96">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
         <jms:reference-file line="24">/Resources/views/settings/sport/form-type.html.twig</jms:reference-file>
       </trans-unit>
@@ -2070,9 +2070,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <jms:reference-file line="288">/../src/CoreBundle/Controller/Settings/SportController.php</jms:reference-file>
         <jms:reference-file line="380">/../src/CoreBundle/Controller/Settings/SportController.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="75b08673fead6db6910f48d09c649372e869879b" resname="Objects of main equipment type can be shown in the activity overview.">
+      <trans-unit id="75b08673fead6db6910f48d09c649372e869879b" resname="Objects of main equipment type can be shown in the activity overview." approved="no">
         <source>Objects of main equipment type can be shown in the activity overview.</source>
-        <target>Objects of main equipment type can be shown in the activity overview.</target>
+        <target state="translated">Objekte der Hauptequipmentart können in der Aktivitätsübersicht angezeigt werden.</target>
         <jms:reference-file line="99">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="abffb03580df0114b369bfe21b0017e6289e6062" resname="Objects will be displayed as inactive as soon as they have reached their end date.">
@@ -2284,9 +2284,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <jms:reference-file line="143">/../src/CoreBundle/Form/ActivityType.php</jms:reference-file>
         <jms:reference-file line="151">/Resources/views/activity/tool/time_series_statistics.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="fa3a426b921fd47bc5ade4b57bf320043d0f7eea" resname="Power is recorded or calculated.">
+      <trans-unit id="fa3a426b921fd47bc5ade4b57bf320043d0f7eea" resname="Power is recorded or calculated." approved="no">
         <source>Power is recorded or calculated.</source>
-        <target>Power is recorded or calculated.</target>
+        <target state="translated">Leistung wird aufgezeichnet oder berechnet.</target>
         <jms:reference-file line="86">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="4eb004caa682a0a83804b6fb256eac0d8a9930ac" resname="Predict results on different distances for a given VO2max.">
@@ -2361,9 +2361,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Öffentliche Aktivitäten sind gekennzeichnet:</target>
         <jms:reference-file line="74">/Resources/views/shared/athlete/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="3b60b51f6d17ccbdddd06dd4533b90fe0f58a9af" resname="Public activities will be visible for everybody.">
+      <trans-unit id="3b60b51f6d17ccbdddd06dd4533b90fe0f58a9af" resname="Public activities will be visible for everybody." approved="no">
         <source>Public activities will be visible for everybody.</source>
-        <target>Public activities will be visible for everybody.</target>
+        <target state="translated">Öffentliche Aktivitäten werden für alle sichtbar sein.</target>
         <jms:reference-file line="47">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="cc811067aa252195bf88d9e7c0d64aad7314eb45" resname="Public athlete page">
@@ -2384,9 +2384,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Qualitätseinheit</target>
         <jms:reference-file line="64">/../src/CoreBundle/Form/Settings/SportTypeType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="a63e29df702686274e3e04f7d1306df0a66079bb" resname="Quality sessions will be emphasized in your calendar.">
+      <trans-unit id="a63e29df702686274e3e04f7d1306df0a66079bb" resname="Quality sessions will be emphasized in your calendar." approved="no">
         <source>Quality sessions will be emphasized in your calendar.</source>
-        <target>Quality sessions will be emphasized in your calendar.</target>
+        <target state="translated">Qualitätseinheiten werden im Kalender hervorgehoben.</target>
         <jms:reference-file line="23">/Resources/views/settings/sport/form-type.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="a666c9c3f8450ab58c1399b5dd51e18f6dd80748" resname="Quartiles">
@@ -2431,9 +2431,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Race results are treated in a special way to show your personal bests and are independent of the chosen activity type. You can add some details below.</target>
         <jms:reference-file line="46">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="a16c5bbe4bf996740f257aa1e81bd57e4c52c8dd" resname="Range">
+      <trans-unit id="a16c5bbe4bf996740f257aa1e81bd57e4c52c8dd" resname="Range" approved="no">
         <source>Range</source>
-        <target>Range</target>
+        <target state="translated">Bereich</target>
         <jms:reference-file line="37">/Resources/views/settings/sport/form-zone.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="ea241b14f6a9bfe4f60bef8df5b30e3b31ba755e" resname="Rating of Perceived Exertion or Borg scale, a scale devised to show perceived exertion during exercise">
@@ -2830,9 +2830,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <jms:reference-file line="54">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
         <jms:reference-file line="58">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="d5cfccfc2f15461d881722495a9093e1c074ed0c" resname="Sport is performed outdoor: activate route, weather, ...">
+      <trans-unit id="d5cfccfc2f15461d881722495a9093e1c074ed0c" resname="Sport is performed outdoor: activate route, weather, ..." approved="no">
         <source>Sport is performed outdoor: activate route, weather, ...</source>
-        <target>Sport is performed outdoor: activate route, weather, ...</target>
+        <target state="translated">Sport wird im Freien betrieben: Route, Wetter, ....</target>
         <jms:reference-file line="87">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="d2083144287f7ba2705f28f6694122d1eb0b7d1f" resname="Sport relevance">
@@ -2928,9 +2928,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Maximale Dateigröße:</target>
         <jms:reference-file line="106">/Resources/views/activity/import_upload.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="1ea2992a2ed46562645b5b144e7fb27fc53f24bd" resname="Swimming">
+      <trans-unit id="1ea2992a2ed46562645b5b144e7fb27fc53f24bd" resname="Swimming" approved="no">
         <source>Swimming</source>
-        <target state="new">Swimming</target>
+        <target state="translated">Schwimmen</target>
         <jms:reference-file line="24">/Resources/views/settings/sport/form-zone.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="474c100ec318748e00ad01805517a714d20d1e52" resname="TRIMP">
@@ -2958,9 +2958,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Tag wurde gelöscht.</target>
         <jms:reference-file line="88">/../src/CoreBundle/Controller/Settings/TagsController.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="28a77a3fda3cf84999df4daf902b1fe9f72999e0" resname="Take a look at our privacy policy.">
+      <trans-unit id="28a77a3fda3cf84999df4daf902b1fe9f72999e0" resname="Take a look at our privacy policy." approved="no">
         <source>Take a look at our privacy policy.</source>
-        <target>Take a look at our privacy policy.</target>
+        <target state="translated">Wirf einen Blick auf unsere Datenschutzerklärung.</target>
         <jms:reference-file line="39">/Resources/views/register/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="cbd7668f12692a2f8853cd747d8a8f490bc7ab04" resname="Tax identification number">
@@ -2980,9 +2980,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Text</target>
         <jms:reference-file line="104">/../src/CoreBundle/Form/Tools/PosterType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6b50e31a7e1337db9ecb0e2fcb6e65ca27f57df5" resname="Thank you">
+      <trans-unit id="6b50e31a7e1337db9ecb0e2fcb6e65ca27f57df5" resname="Thank you" approved="no">
         <source>Thank you</source>
-        <target>Thank you</target>
+        <target state="translated">Vielen Dank</target>
         <jms:reference-file line="8">/Resources/views/account/subscribe_success.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="08cbfac1e2545912621d38d233987530cdf47555" resname="Thanks for sharing your thoughts!">
@@ -3200,9 +3200,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Diese Neuberechnungen sind nur nötig, wenn du die dazugehörigen Einstellungen bearbeitet hast.</target>
         <jms:reference-file line="60">/Resources/views/tools/database_cleanup/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="5fdecd9eda9f0ddb1b311af01ac6c50f66b903b1" resname="These zones are valid for:">
+      <trans-unit id="5fdecd9eda9f0ddb1b311af01ac6c50f66b903b1" resname="These zones are valid for:" approved="no">
         <source>These zones are valid for:</source>
-        <target>These zones are valid for:</target>
+        <target state="translated">Diese Zonen sind gültig für:</target>
         <jms:reference-file line="22">/Resources/views/settings/sport/form-zone.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="e28e6cc0bb36b28f539e3ff5b5fcd86d07fb96fa" resname="This action can't be undone.">
@@ -3220,9 +3220,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Diese Funktion befindet sich noch in der Beta-Phase.</target>
         <jms:reference-file line="11">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="f242d0bc8f5c2c8a9e12b737e533464fb9d7670f" resname="This field is only meant for official track races such that distances can be shown correctly, e.g. as 10.000m. Use tags for all other purposes.">
+      <trans-unit id="f242d0bc8f5c2c8a9e12b737e533464fb9d7670f" resname="This field is only meant for official track races such that distances can be shown correctly, e.g. as 10.000m. Use tags for all other purposes." approved="no">
         <source>This field is only meant for official track races such that distances can be shown correctly, e.g. as 10.000m. Use tags for all other purposes.</source>
-        <target>This field is only meant for official track races such that distances can be shown correctly, e.g. as 10.000m. Use tags for all other purposes.</target>
+        <target state="translated">Dieses Feld ist nur für offizielle Bahnrennen gedacht, so dass Distanzen korrekt angezeigt werden können, z.B. als 10.000m. Verwende Tags für alle anderen Zwecke.</target>
         <jms:reference-file line="67">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="c59b624220c94870574049cd1ffaa49bad967745" resname="This is your default race type.">
@@ -3525,9 +3525,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>Wert</target>
         <jms:reference-file line="95">/Resources/views/tools/trend-analysis/base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="649bb32fed71b0bbdb59f89caec3c3330dfeb93e" resname="Value to group by">
+      <trans-unit id="649bb32fed71b0bbdb59f89caec3c3330dfeb93e" resname="Value to group by" approved="no">
         <source>Value to group by</source>
-        <target>Value to group by</target>
+        <target state="translated">Wert zum Gruppieren</target>
         <jms:reference-file line="123">/../src/CoreBundle/Form/Tools/Anova/AnovaType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="688af560a060d5a3851f6891266594068ec88074" resname="Value to look at">
@@ -4148,9 +4148,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <target>gleich</target>
         <jms:reference-file line="57">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="3a55baca5c7546ac0aafd63e6dd07c3bd4090b76" resname="excluding">
+      <trans-unit id="3a55baca5c7546ac0aafd63e6dd07c3bd4090b76" resname="excluding" approved="no">
         <source>excluding</source>
-        <target state="new">excluding</target>
+        <target state="translated">ausschließen</target>
         <jms:reference-file line="24">/Resources/views/settings/sport/form-zone.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1eb09049303a2efb51cae050f56b4974e77d23eb" resname="first active">
