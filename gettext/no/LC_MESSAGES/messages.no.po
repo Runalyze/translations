@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-19 09:23+0200\n"
-"PO-Revision-Date: 2018-07-06 09:01+0000\n"
+"PO-Revision-Date: 2018-07-06 11:05+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <https://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -1793,7 +1793,7 @@ msgstr ""
 
 #: inc/core/Configuration/Category/VO2max.php:145
 msgid "Correction per positive elevation"
-msgstr "Korreksjon per oppsteget meter"
+msgstr "Korreksjon per oppsteget høydemeter"
 
 #: inc/core/Configuration/Category/VO2max.php:146
 msgid "Add for each meter upwards X meter to the distance."
@@ -1806,7 +1806,7 @@ msgstr "Kun for VO<sub>2</sub>maks-estimering"
 
 #: inc/core/Configuration/Category/VO2max.php:151
 msgid "Correction per negative elevation"
-msgstr "Korreksjon per negativ elevasjon"
+msgstr "Korreksjon per nedsteget nøydemeter"
 
 #: inc/core/Configuration/Category/VO2max.php:152
 msgid "Add for each meter downwards X meter to the distance."
@@ -1910,15 +1910,15 @@ msgstr ""
 
 #: inc/core/Configuration/Category/ActivityForm.php:232
 msgid "Automatically correct elevation data"
-msgstr "Automatisk korriger elevasjonsdata"
+msgstr "Automatisk korriger høydedata"
 
 #: inc/core/Configuration/Category/ActivityForm.php:233
 msgid ""
 "Instead of using gps-elevation a correction via external services is "
 "possible."
 msgstr ""
-"Istedet for å bruke gps-elevasjon er det mulig å bruke en korreksjon via "
-"ekstern tjeneste."
+"Istedet for å bruke gps-høyde er det mulig å bruke en korreksjon via ekstern "
+"tjeneste."
 
 #: inc/core/Configuration/Category/ActivityForm.php:243
 msgid "Sort: sports"
@@ -2130,15 +2130,15 @@ msgstr "Kart: zoom ved rulling"
 
 #: inc/core/Configuration/Category/ActivityView.php:397
 msgid "Elevation: smoothing"
-msgstr "Elevasjon: glatting"
+msgstr "Høydemeter: glatting"
 
 #: inc/core/Configuration/Category/ActivityView.php:398
 msgid "Choose the algorithm to smooth the elevation data"
-msgstr "Velg en algoritme for å glatte elevasjonsdata"
+msgstr "Velg en algoritme for å glatte høydedata"
 
 #: inc/core/Configuration/Category/ActivityView.php:402
 msgid "Elevation: threshold"
-msgstr "Elevasjon: terskel"
+msgstr "Høydemeter: terskel"
 
 #: inc/core/Configuration/Category/ActivityView.php:403
 msgid "Threshold for the smoothing algorithm"
@@ -2307,7 +2307,7 @@ msgstr "Tempo / Puls"
 
 #: inc/core/Parameter/Application/ActivityPlotMode.php:41
 msgid "Pace / Heart rate / Elevation"
-msgstr "Tempo / Puls / Elevasjon"
+msgstr "Tempo / Puls / Høydemeter"
 
 #: inc/core/Parameter/Application/ActivityRoutePrivacy.php:39
 #: inc/core/Parameter/Application/ActivityRouteBreak.php:27
@@ -2711,7 +2711,7 @@ msgstr "Forskjell."
 
 #: inc/core/View/Window/Laps/Table.php:150
 msgid "elevation"
-msgstr "elevasjon"
+msgstr "høydemeter"
 
 #: inc/core/View/Window/Laps/Table.php:310
 msgid "Average"
@@ -3284,17 +3284,17 @@ msgstr "Mer om VO<sub>2</sub>2maks beregning"
 #: inc/training/view/section/class.SectionRouteRowElevation.php:110
 #: inc/training/view/class.TrainingView.php:119
 msgid "More about elevation"
-msgstr "Mer om elevasjon"
+msgstr "Mer om høydemeter"
 
 #: inc/training/view/section/class.SectionCompositeRow.php:237
 #: inc/training/view/section/class.SectionRouteRowElevation.php:114
 msgid "Elevation data were corrected."
-msgstr "Elevasjonsdata er korrigert."
+msgstr "Høydedata er korrigert."
 
 #: inc/training/view/section/class.SectionCompositeRow.php:239
 #: inc/training/view/section/class.SectionRouteRowElevation.php:116
 msgid "Elevation data are not corrected."
-msgstr "Elevasjonsdata er ikke korrigert."
+msgstr "Høydedata er ikke korrigert."
 
 #: inc/training/view/section/class.SectionSwimLane.php:21
 #: inc/training/view/section/class.SectionSwimLane.php:22
@@ -3311,7 +3311,7 @@ msgstr "SWOLF-sykler"
 
 #: inc/training/view/section/class.SectionRoute.php:17
 msgid "Course and elevation data"
-msgstr "Løype og elevasjonsdata"
+msgstr "Løype og høydedata"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:58
 msgid "Additional notes"
@@ -3439,7 +3439,7 @@ msgstr "Tempodata"
 
 #: inc/training/view/section/class.SectionRouteOnlyElevation.php:17
 msgid "Elevation data"
-msgstr "Elevasjonsdata"
+msgstr "Høydedata"
 
 #: inc/training/view/section/class.SectionLapsRowComputed.php:47
 #: inc/training/view/section/class.SectionLapsRowManual.php:49
@@ -3511,7 +3511,7 @@ msgstr "Klatrepoeng-visning"
 #: inc/training/view/class.ElevationInfo.php:98
 #, php-format
 msgid "Elevation calculation for: %s"
-msgstr "Elevasjoner beregnet for: %s"
+msgstr "Høydemeter beregnet for: %s"
 
 #: inc/training/view/class.ElevationInfo.php:107
 msgid "apply data"
@@ -3560,24 +3560,24 @@ msgstr "Du kan velge algoritme og terskel i konfigurasjonsvinduet."
 
 #: inc/training/view/class.ElevationInfo.php:153
 msgid "Elevation data for different algorithms/thresholds"
-msgstr "Elevasjonsdata for ulike algoritmer/terskler"
+msgstr "Høydedata for ulike algoritmer/terskler"
 
 #: inc/training/view/class.ElevationInfo.php:166
 msgid ""
 "Elevation data for different algorithms/thresholds (based on original data)"
-msgstr "Elevasjonsdata for ulike algoritmer/terskler (basert på originaldata)"
+msgstr "Høydedata for ulike algoritmer/terskler (basert på originaldata)"
 
 #: inc/training/view/class.ElevationInfo.php:229
 msgid "Elevation correction"
-msgstr "Elevasjonskorreksjon"
+msgstr "Høydemeter-korreksjon"
 
 #: inc/training/view/class.ElevationInfo.php:233
 msgid "Elevation data has been corrected."
-msgstr "Elevasjonsdata har blitt korrigert."
+msgstr "Høydedata har blitt korrigert."
 
 #: inc/training/view/class.ElevationInfo.php:236
 msgid "Elevation data has not been corrected."
-msgstr "Elevasjonsdata har ikke blitt korrigert."
+msgstr "Høydedata har ikke blitt korrigert."
 
 #: inc/training/view/class.ElevationInfo.php:237
 msgid "correct now"
@@ -3596,7 +3596,7 @@ msgstr "srtm-fil"
 
 #: inc/training/view/class.ElevationInfo.php:260
 msgid "remove corrected elevation data"
-msgstr "fjern korrigerte elevasjonsdata"
+msgstr "fjern korrigerte høydedata"
 
 #: inc/training/view/class.ElevationInfo.php:271
 msgid "Compare algorithms"
@@ -3604,7 +3604,7 @@ msgstr "Sammenlign algoritmer"
 
 #: inc/training/view/class.ElevationInfo.php:282
 msgid "Note for elevation data"
-msgstr "Bemerkning for elevasjonsdata"
+msgstr "Bemerkning for høydedata"
 
 #: inc/training/view/class.ElevationInfo.php:286
 msgid ""
@@ -3615,12 +3615,12 @@ msgid ""
 "value (for up-/downwards). We give you therefore the possibility to choose "
 "algorithm and threshold such that the values fit your experience."
 msgstr ""
-"Beregning av elevasjonsdata er veldig utfordrende - det er ikke en enkelt "
+"Beregning av høydedata er veldig utfordrende - det er ikke en enkelt "
 "løsning. Dårlig GPS-data kan bli korrigert via srtm-data, men disse er kun "
 "tilgjengelig i et 90x90m grid og ikke alltid presise. I tillegg, hvert "
-"system bruker en egen algoritme for å bestemme elevasjonsverdien (for opp-/"
-"nedstigning). Vi gir deg derfor muligheten til å velge algoritme og terskel "
-"så verdien skal passe din erfaring."
+"system bruker en egen algoritme for å bestemme verdien for opp-/nedstigning. "
+"Vi gir deg derfor muligheten til å velge algoritme og terskel så verdien "
+"skal passe din erfaring."
 
 #: inc/training/view/class.ElevationInfo.php:297
 msgid "Problem"
@@ -3628,7 +3628,7 @@ msgstr "Problem"
 
 #: inc/training/view/class.ElevationInfo.php:300
 msgid "No elevation data available."
-msgstr "Ingen elevasjonsdata er tilgjengelig."
+msgstr "Ingen høydedata er tilgjengelig."
 
 #: inc/training/view/class.TrainingView.php:60
 msgid "Show week"
@@ -4640,7 +4640,7 @@ msgstr "Hvor mange %s/timer trente du per måned"
 
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:27
 msgid "Your steepest activities and an overview of your cumulated elevation."
-msgstr "Dine bratteste aktiviteter og en oversikt over din samlede elevasjon."
+msgstr "Dine bratteste aktiviteter og en oversikt over din samlede høydemeter."
 
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:62
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:136
@@ -4650,7 +4650,7 @@ msgstr "Fant ingen løyper."
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:91
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:99
 msgid "Most elevation"
-msgstr "Høyeste elevasjon"
+msgstr "Høyeste høyde"
 
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:92
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:110
@@ -5365,7 +5365,7 @@ msgstr "Ditt mellomlager har blitt slettet."
 #: src/CoreBundle/Component/Tool/DatabaseCleanup/JobLoop.php:50
 #, php-format
 msgid "Elevations have been recalculated for %d routes."
-msgstr "Elevasjoner har blitt beregnet på nytt for %d løype(r)."
+msgstr "Høydemeter har blitt beregnet på nytt for %d løype(r)."
 
 #: src/CoreBundle/Component/Tool/DatabaseCleanup/JobLoop.php:82
 #, php-format
