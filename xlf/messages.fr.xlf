@@ -145,7 +145,7 @@
       </trans-unit>
       <trans-unit id="81c0d915fa6d82fd30661c5e66e204cea52bb2b5" resname="Activity">
         <source>Activity</source>
-        <target>Activity</target>
+        <target>Activité</target>
         <jms:reference-file line="100">/../src/CoreBundle/Form/Tools/PosterType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="e190939aca2d78cce1aefb21b985fb0779710890" resname="Activity data of %username%">
@@ -271,7 +271,7 @@
       </trans-unit>
       <trans-unit id="b227a084b96eb37971f4d177915bd60ed66fdbd8" resname="Added on">
         <source>Added on</source>
-        <target>Added on</target>
+        <target>Ajouté le</target>
         <jms:reference-file line="28">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="85b3a5c4dcfb41489f509825fbf742323b1ac4e8" resname="Affiliate links" approved="no">
@@ -327,7 +327,7 @@
       </trans-unit>
       <trans-unit id="61a41ab4461c559b153bc055f090f4e94884d78b" resname="Analyze time series">
         <source>Analyze time series</source>
-        <target>Analyze time series</target>
+        <target>Analyser les séries temporelles</target>
         <jms:reference-file line="79">/Resources/views/activity/tool/time_series_statistics.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="b83a84556418ed5b57b002bcc71be400361866ca" resname="Analyze your %VO2max%">
@@ -634,7 +634,7 @@
       </trans-unit>
       <trans-unit id="2e467a9356f191ce9ef5942588c4cc7a53ca2aff" resname="Choose sport(s)">
         <source>Choose sport(s)</source>
-        <target>Choose sport(s)</target>
+        <target>Choisir le(s) sport(s)</target>
         <jms:reference-file line="90">/../src/CoreBundle/Form/EquipmentCategoryType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="2b49897d5d1be328d37f28e0aba2328510ecddab" resname="Choose tag(s)" approved="no">
@@ -931,7 +931,7 @@
       </trans-unit>
       <trans-unit id="faf49b1e2de23a37f81b54ab6186d82c1089207a" resname="Default zones">
         <source>Default zones</source>
-        <target>Default zones</target>
+        <target>Zones par défaut</target>
         <jms:reference-file line="65">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1cf6934a3e6a8d1d7daddb24f229e4c35ec88aab" resname="Defining some laps as 'resting' will hide them in the respective plot." approved="no">
@@ -1135,50 +1135,50 @@
       </trans-unit>
       <trans-unit id="7a2193767d002f6ec7fbd45323d11ab50a7703e8" resname="Edit equipment category">
         <source>Edit equipment category</source>
-        <target>Edit equipment category</target>
+        <target>Traiter la catégorie d'équipement</target>
         <jms:reference-file line="10">/Resources/views/my/equipment/form-category.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="2f826a820f0dc0bfa61205380302fe06f9cee750" resname="Edit heart rate zones">
         <source>Edit heart rate zones</source>
-        <target>Edit heart rate zones</target>
+        <target>Modifier les zones de fréquence cardiaque</target>
         <jms:reference-file line="44">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
         <jms:reference-file line="68">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="7e4e33d16920925cacb37d791953d21ae3526d5c" resname="Edit pace zones">
         <source>Edit pace zones</source>
-        <target>Edit pace zones</target>
+        <target>Modifier les zones de cadence</target>
         <jms:reference-file line="45">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
         <jms:reference-file line="69">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="37f901626bb09d63386a91a7d9ca405ca9dfc2b7" resname="Edit power zones">
         <source>Edit power zones</source>
-        <target>Edit power zones</target>
+        <target>Modifier les zones de puissance</target>
         <jms:reference-file line="46">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
         <jms:reference-file line="70">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="92249a649c72ec9e0b7ae989222b96cdab34f515" resname="Edit sport">
         <source>Edit sport</source>
-        <target>Edit sport</target>
+        <target>Editer sport</target>
         <jms:reference-file line="16">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="a294dddf5113006b7eaa83f946a43a3e1f2f4b0e" resname="Effective %VO2max%">
         <source>Effective %VO2max%</source>
-        <target>Effective %VO2max%</target>
+        <target>Efficace %VO2max%.</target>
         <jms:reference-file line="15">/Resources/views/tools/tables/vo2max_paces.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="056d29d5205997b269abe24f77ffda148ce3321b" resname="Effective VO2max">
         <source>Effective VO2max</source>
-        <target>Effective VO2max</target>
+        <target>VO2max efficace</target>
         <jms:reference-file line="9">/Resources/views/tools/tables/vo2max.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1e1a1441ddd7642f03888de8ce4202c6545a6073" resname="Effective VO2max values are only available for distances of at least one kilometer.">
         <source>Effective VO2max values are only available for distances of at least one kilometer.</source>
-        <target>Effective VO2max values are only available for distances of at least one kilometer.</target>
+        <target>Les valeurs effectives de VO2max ne sont disponibles que pour des distances d'au moins un kilomètre.</target>
         <jms:reference-file line="49">/Resources/views/my/raceresult/performance_chart.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="5c501758d720d6b23e8aadc62648655316961e3d" resname="Elapsed time">
         <source>Elapsed time</source>
-        <target>Elapsed time</target>
+        <target>Temps écoulé</target>
         <jms:reference-file line="42">/Resources/views/shared/widget/iframe/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="a514da1094ce1bd6b9267e8a0e3df8736da457a5" resname="Elevation">
