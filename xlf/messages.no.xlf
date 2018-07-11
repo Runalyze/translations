@@ -1869,7 +1869,7 @@
       </trans-unit>
       <trans-unit id="a7b93d2128e820f861fc8dfccd9f5521e89ad21f" resname="Mode">
         <source>Mode</source>
-        <target state="new">Mode</target>
+        <target state="new">Typetall</target>
         <jms:reference-file line="70">/../src/CoreBundle/Form/EquipmentCategoryType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="09a105ca0b894e5f8858bda4d60223581f270739" resname="Mode for displaying activities in calendar" approved="no">
@@ -3546,7 +3546,7 @@
       </trans-unit>
       <trans-unit id="75f0922200bcae60cb9437401b832b3ff0fb3f08" resname="Vertical oscillation" approved="no">
         <source>Vertical oscillation</source>
-        <target state="translated">Vertikal oscillering</target>
+        <target state="translated">Vertikalbevegelse</target>
         <jms:reference-file line="160">/Resources/views/activity/tool/time_series_statistics.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="2088f085ef093798a2b2f38e60d883cc9d65a8f5" resname="Vertical pace" approved="no">
@@ -4287,7 +4287,7 @@
       </trans-unit>
       <trans-unit id="e78fe7049341b36116d8054f5a3e00d01f245fcc" resname="mode">
         <source>mode</source>
-        <target state="new">mode</target>
+        <target state="new">typetall</target>
         <jms:reference-file line="91">/Resources/views/activity/tool/time_series_statistics.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="44b2e2769a3d26c60b847dfa796dc6c3bf7fcce2" resname="most common value" approved="no">
