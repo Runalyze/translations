@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
   <file date="2018-06-18T16:28:19Z" source-language="en" target-language="it" datatype="plaintext" original="not.available">
     <header>
@@ -17,9 +17,7 @@
         <source><![CDATA[                            The importer will not change existing data for equipment, sports or activity types.<br>
                             You have to make these changes by hand or delete the existing data in advance.
                         ]]></source>
-        <target><![CDATA[                            The importer will not change existing data for equipment, sports or activity types.<br>
-                            You have to make these changes by hand or delete the existing data in advance.
-                        ]]></target>
+        <target>L'importatore non modificherà i dati esistenti per i tipi di attrezzature, sport o attività.&lt;br&gt;È necessario apportare queste modifiche a mano o cancellare i dati esistenti in anticipo.</target>
         <jms:reference-file line="68">/Resources/views/tools/backup/upload_form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="f0e469d7c00959f95a0e245c100d881d1994430b" resname="            Values are visualized with so-called 'box plots'.&#10;            They give an impression of how values of a group are distributed.&#10;            The middle 50% of all values are within the box itself and the so-called whiskers have a length of at most 1.5-times the interquartile range (i.e. the box's width).&#10;            Data points outside this range are called outliers.&#10;            ">
