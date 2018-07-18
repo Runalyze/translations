@@ -4425,7 +4425,7 @@
       </trans-unit>
       <trans-unit id="500e4b89724b9b2c26282c027a582badc10afe7c" resname="{1} Until now &lt;strong&gt;%count%&lt;/strong&gt; athlete is registered and|]1,Inf[ Until now &lt;strong&gt;%count%&lt;/strong&gt; athletes are registered and">
         <source><![CDATA[{1} Until now <strong>%count%</strong> athlete is registered and|]1,Inf[ Until now <strong>%count%</strong> athletes are registered and]]></source>
-        <target>{1} Do tej pory zarejestrowano &lt;strong&gt;%count%&lt;/strong&gt; sportowiec, a|]1,1,Inf[ Do tej pory zarejestrowano &lt;strong&gt;%count%&lt;/strong&gt; sportowiec, oraz</target>
+        <target>{1} Do tej pory zarejestrowano &lt;strong&gt;%count%&lt;/strong&gt; sportowiec, a|]1,Inf[ Do tej pory zarejestrowano &lt;strong&gt;%count%&lt;/strong&gt; sportowiec, oraz</target>
         <jms:reference-file line="3">/Resources/views/login/statistics.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="a7ec5432036499dafce54cfca1a60cb7c4016ce7" resname="{1} has logged &lt;strong&gt;%distance%&lt;/strong&gt;.|]1,Inf[ have logged &lt;strong&gt;%distance%&lt;/strong&gt;.">
