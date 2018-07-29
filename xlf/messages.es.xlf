@@ -338,7 +338,7 @@
       </trans-unit>
       <trans-unit id="ca51e9c4e9e34c9d4ec40622bcc581131062ddf9" resname="Analyze your VO2max">
         <source>Analyze your VO2max</source>
-        <target>Analice su VO2max</target>
+        <target>Analizar su VO2max</target>
         <jms:reference-file line="86">/Resources/views/base_logged_in.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="d9a36850b7f3f78365a998cb16cb68b6fd79400d" resname="Apps">
