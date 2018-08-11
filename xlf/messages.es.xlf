@@ -2625,7 +2625,7 @@
       </trans-unit>
       <trans-unit id="3e15ba0eee883109d55be6082c8de03530df5741" resname="Running tables">
         <source>Running tables</source>
-        <target>Mesas de correr</target>
+        <target>Tablas de correr</target>
         <jms:reference-file line="87">/Resources/views/base_logged_in.twig</jms:reference-file>
         <jms:reference-file line="5">/Resources/views/tools/tables/base.html.twig</jms:reference-file>
         <jms:reference-file line="36">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
