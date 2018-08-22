@@ -3,18 +3,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Runalyze\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-18 16:30+0200\n"
-"PO-Revision-Date: 2018-03-31 20:06+0000\n"
-"Last-Translator: Olivier Raggi <olivier@raggi.fr>\n"
-"Language-Team: French <https://translate.runalyze.com/projects/runalyze/"
+"PO-Revision-Date: 2018-09-01 10:27+0000\n"
+"Last-Translator: Brice Hardy <hardybrice@gmail.com>\n"
+"Language-Team: French <http://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.20-dev\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Poedit-KeywordsList: __;_ne;_n;_e\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -32,13 +32,12 @@ msgid "Account settings"
 msgstr "Paramètres du compte"
 
 #: dashboard.php:53
-#, fuzzy
 msgid "Privacy settings"
-msgstr "Paramètres généraux"
+msgstr "Paramètres de confidentialité"
 
 #: dashboard.php:54
 msgid "Apps"
-msgstr ""
+msgstr "Applications"
 
 #: dashboard.php:55
 msgid "Logout"
@@ -46,16 +45,15 @@ msgstr "Déconnexion"
 
 #: dashboard.php:64 dashboard.php:225
 msgid "Glossary"
-msgstr ""
+msgstr "Glossaire"
 
 #: dashboard.php:65
 msgid "Documentation"
-msgstr "documentation"
+msgstr "Documentation"
 
 #: dashboard.php:68
-#, fuzzy
 msgid "Feedback"
-msgstr "retour"
+msgstr "Retour d'information"
 
 #: dashboard.php:70 dashboard.php:227
 msgid "Forum"
@@ -63,15 +61,15 @@ msgstr "Forum"
 
 #: dashboard.php:71 dashboard.php:230
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: dashboard.php:72
 msgid "Shop"
-msgstr ""
+msgstr "Boutique"
 
 #: dashboard.php:74
 msgid "About us"
-msgstr ""
+msgstr "À propos de nous"
 
 #: dashboard.php:83
 msgid "Show all notifications"
@@ -128,7 +126,7 @@ msgstr "Sports"
 #: plugin/RunalyzePluginPanel_Equipment/class.RunalyzePluginPanel_Equipment.php:29
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:145
 msgid "Equipment"
-msgstr "Equipement"
+msgstr "Équipement"
 
 #: dashboard.php:116
 msgid "Activity tags"
@@ -186,34 +184,32 @@ msgid "Help and support"
 msgstr "Aide et support"
 
 #: dashboard.php:228
+#, fuzzy
 msgid "Donate &amp; Support the project"
-msgstr ""
+msgstr "Donner et supporter le projet"
 
 #: dashboard.php:229
-#, fuzzy
 msgid "Translations"
-msgstr "Oscillation"
+msgstr "Traductions"
 
 #: dashboard.php:231
 msgid "Statement of Privacy"
-msgstr ""
+msgstr "Déclaration de confidentialité"
 
 #: dashboard.php:232
-#, fuzzy
 msgid "Terms of use"
-msgstr "Début d'utilisation"
+msgstr "Conditions d'utilisation"
 
 #: dashboard.php:233
 msgid "Imprint"
-msgstr ""
+msgstr "Imprimer"
 
 #: inc/system/class.SharedLinker.php:61
-#, fuzzy
 msgid ""
 "You can activate your public athlete page in your <em>Privacy->Settings</em>"
 msgstr ""
-"Vous pouvez activer votre page d'athlète publique dans <em>Configuration-"
-">Vie privée</em>"
+"Vous pouvez activer votre page d'athlète publique dans <em>Configuration->"
+"Vie privée</em>"
 
 #: inc/system/class.SharedLinker.php:63
 msgid "Your public athlete page"
@@ -226,7 +222,7 @@ msgstr "Panneaux"
 #: inc/system/config/class.ConfigTabPlugins.php:33
 msgid "Panels are small statistics always shown on the right side."
 msgstr ""
-"Les panneaux sont de petites statistiques qui sont touours montrées sur le "
+"Les panneaux sont de petites statistiques qui sont touours affichées sur le "
 "côté droit."
 
 #: inc/system/config/class.ConfigTabPlugins.php:37
@@ -237,7 +233,7 @@ msgstr "Statistiques"
 
 #: inc/system/config/class.ConfigTabPlugins.php:38
 msgid "Normal statistics are shown below the activitiy log."
-msgstr "Les statistiques normales sont montrées sous le journal d'activités."
+msgstr "Les statistiques normales sont affichées sous le journal d'activités."
 
 #: inc/system/config/class.ConfigTabPlugins.php:41
 msgid "Install a new plugin"
@@ -326,13 +322,13 @@ msgstr "Tout"
 #: inc/draw/class.PlotSumData.php:264 inc/draw/class.PlotSumData.php:272
 #: plugin/RunalyzePluginStat_Statistiken/class.SummaryTableMonths.php:57
 msgid "Last 6 months"
-msgstr "Dernier 6 mois"
+msgstr "6 derniers mois"
 
 #: inc/plugin/class.PluginStat.php:294 inc/plugin/class.PluginStat.php:314
 #: inc/draw/class.PlotSumData.php:266 inc/draw/class.PlotSumData.php:273
 #: plugin/RunalyzePluginStat_Statistiken/class.SummaryTableMonths.php:63
 msgid "Last 12 months"
-msgstr "Dernier 12 mois"
+msgstr "12 derniers mois"
 
 #: inc/plugin/class.PluginStat.php:348
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:369
