@@ -3,18 +3,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Runalyze\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-18 16:30+0200\n"
-"PO-Revision-Date: 2018-06-02 14:53+0000\n"
-"Last-Translator: Michael Pohl <michael@mipapo.de>\n"
-"Language-Team: German <https://translate.runalyze.com/projects/runalyze/"
+"PO-Revision-Date: 2018-09-04 08:39+0000\n"
+"Last-Translator: Hannes <mail@laufhannes.de>\n"
+"Language-Team: German <http://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.20-dev\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Poedit-KeywordsList: __;_ne;_n;_e\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -957,7 +957,7 @@ msgstr ""
 #: inc/training/search/class.FormularSelectSearchSort.php:60
 #: inc/training/search/class.FormularSelectSearchSort.php:61
 msgid "Impact Gs"
-msgstr ""
+msgstr "Impact Gs"
 
 #: inc/core/Dataset/Keys/VO2maxIcon.php:36
 msgid "Effective VO<sub>2</sub>max icon"
@@ -2211,39 +2211,37 @@ msgstr "Synchronisationsfallbacksportart"
 
 #: inc/core/Configuration/Category/Import.php:76
 msgid "Enable activity mail import"
-msgstr ""
+msgstr "Mail-Import für Aktivitäten"
 
 #: inc/core/Configuration/Category/Import.php:77
-#, fuzzy
 msgid "Beta feature"
-msgstr "Temperatur"
+msgstr "Beta-Feature"
 
 #: inc/core/Configuration/Category/Import.php:77
-#, fuzzy
 msgid "If activated you can send your activities to"
-msgstr ""
-"Wenn aktiviert, kann jeder eine Liste von all deinen (öffentlichen) "
-"Trainingseinheiten sehen."
+msgstr "Wenn aktiviert, kannst du Aktivitäten an folgende Adresse senden:"
 
 #: inc/core/Configuration/Category/Import.php:81
 msgid "Password for activity mail import"
-msgstr ""
+msgstr "Passwort für Mail-Import"
 
 #: inc/core/Configuration/Category/Import.php:81
 msgid "needed"
-msgstr ""
+msgstr "notwendig"
 
 #: inc/core/Configuration/Category/Import.php:82
 msgid "Add this password to the subect of your mail"
-msgstr ""
+msgstr "Füge dieses Passwort zum Betreff der Mail hinzu"
 
 #: inc/core/Configuration/Category/Import.php:85
 msgid "The mail must be sent from the mail address defined in your account."
 msgstr ""
+"Die E-Mail muss von der in deinem Account eingetragenen E-Mail-Adresse "
+"versendet werden."
 
 #: inc/core/Configuration/Category/Import.php:86
 msgid "Read more about this feature in our blog"
-msgstr ""
+msgstr "Lies mehr über dieses Feature in unserem Blog"
 
 #: inc/core/Parameter/Application/DatabaseOrder.php:44
 msgid "id (oldest first)"
@@ -3445,20 +3443,19 @@ msgstr "Basierend auf deinem aktuellen Gewicht"
 
 #: inc/training/view/section/class.SectionPowerRow.php:48
 msgid "Specific power"
-msgstr ""
+msgstr "Spezifische Leistung"
 
 #: inc/training/view/section/class.SectionPowerRow.php:54
 msgid "This value has been calculated."
 msgstr "Dieser Wert wurde berechnet."
 
 #: inc/training/view/section/class.SectionPowerRow.php:74
-#, fuzzy
 msgid "Running Effectiveness"
-msgstr "Lauftabellen"
+msgstr "Running Effectiveness"
 
 #: inc/training/view/section/class.SectionPowerRow.php:80
 msgid "Efficiency Index"
-msgstr ""
+msgstr "Efficiency Index"
 
 #: inc/training/view/section/class.SectionPace.php:17
 msgid "Pace data"
