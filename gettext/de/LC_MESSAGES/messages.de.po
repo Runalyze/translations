@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Runalyze\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-06-18 16:30+0200\n"
-"PO-Revision-Date: 2018-09-04 08:39+0000\n"
+"PO-Revision-Date: 2018-09-07 07:46+0000\n"
 "Last-Translator: Hannes <mail@laufhannes.de>\n"
 "Language-Team: German <http://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/de/>\n"
@@ -1436,7 +1436,7 @@ msgstr "Beweglichkeitstraining"
 
 #: inc/core/Profile/Sport/IndoorCycling.php:24
 msgid "Indoor cycling"
-msgstr "Indoor cycling"
+msgstr "Indoor-Cycling"
 
 #: inc/core/Profile/Sport/Windsurfing.php:24
 msgid "Windsurfing"
