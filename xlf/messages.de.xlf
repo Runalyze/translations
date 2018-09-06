@@ -936,7 +936,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="1cf6934a3e6a8d1d7daddb24f229e4c35ec88aab" resname="Defining some laps as 'resting' will hide them in the respective plot.">
         <source>Defining some laps as 'resting' will hide them in the respective plot.</source>
-        <target>Defining some laps as 'resting' will hide them in the respective plot.</target>
+        <target>Runden, die als "Ruhe" markiert werden, werden im dazugehörigen Rundendiagramm nicht angezeigt.</target>
         <jms:reference-file line="85">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="aaae84143938ffb5470678a0f315970f6a4fa81d" resname="Definitions for training paces vary a lot, depending on which philosophy one looks at.&#10;            This table specifies paces at various percentages of %vVO2max%, which equals approximately the maximal pace for 11 minutes.&#10;        ">
@@ -2428,7 +2428,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="84262fdebe4521c934ddedb00a12ee2e77f8e9b6" resname="Race results are treated in a special way to show your personal bests and are independent of the chosen activity type. You can add some details below.">
         <source>Race results are treated in a special way to show your personal bests and are independent of the chosen activity type. You can add some details below.</source>
-        <target>Race results are treated in a special way to show your personal bests and are independent of the chosen activity type. You can add some details below.</target>
+        <target>Wettkampfergebnisse werden gesondert ausgewertet, um deine persönlichen Bestzeiten anzuzeigen. Sie sind unabhängig vom gewählten Trainingstyp.</target>
         <jms:reference-file line="46">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="a16c5bbe4bf996740f257aa1e81bd57e4c52c8dd" resname="Range" approved="no">
@@ -2438,7 +2438,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="ea241b14f6a9bfe4f60bef8df5b30e3b31ba755e" resname="Rating of Perceived Exertion or Borg scale, a scale devised to show perceived exertion during exercise">
         <source>Rating of Perceived Exertion or Borg scale, a scale devised to show perceived exertion during exercise</source>
-        <target>Rating of Perceived Exertion or Borg scale, a scale devised to show perceived exertion during exercise</target>
+        <target>Rating of Perceived Exertion (engl. für Bewertung der empfundenen Anstrengung), auch Borg-Skala, ist eine Skala zur Angabe der empfundenen Anstrengung während sportlicher Aktivität.</target>
         <jms:reference-file line="129">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="18a351960abfe39eda2ecdcaaf9988397aaf6630" resname="Recalculate TRIMP values">
@@ -2905,7 +2905,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="fd5766a19d61d974ecb08f61728d5081d354e730" resname="Subscribe failure">
         <source>Subscribe failure</source>
-        <target>Subscribe failure</target>
+        <target>Fehler beim Abonnieren</target>
         <jms:reference-file line="6">/Resources/views/account/subscribe_failure.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="f32d5a3b17e614297417cc279a7ec1cd02274d65" resname="Support">
@@ -3284,7 +3284,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="c72a3322d54986e46904c80eacd1ec14b159d9a6" resname="This value will be calculated automatically from duration and sport settings (if activated in your configuration) only if you change the duration or the type of sport.">
         <source>This value will be calculated automatically from duration and sport settings (if activated in your configuration) only if you change the duration or the type of sport.</source>
-        <target>This value will be calculated automatically from duration and sport settings (if activated in your configuration) only if you change the duration or the type of sport.</target>
+        <target>Dieser Wert wird automatisch aus der Dauer und der gewählten Sport-Konfiguration berechnet, wenn die Dauer oder Sportart geändert wird (vorausgesetzt die Berechnung ist in der Konfiguration aktiviert).</target>
         <jms:reference-file line="57">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="de63de8d63f7347ac7991ba168ac2e2215cb7ed3" resname="This way of presentation allows to compare not only average values (e.g. pace over months) but deviations and outliers between different groupings.">
@@ -3532,7 +3532,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="688af560a060d5a3851f6891266594068ec88074" resname="Value to look at">
         <source>Value to look at</source>
-        <target>Value to look at</target>
+        <target>Wert zum Betrachten</target>
         <jms:reference-file line="137">/../src/CoreBundle/Form/Tools/Anova/AnovaType.php</jms:reference-file>
         <jms:reference-file line="116">/../src/CoreBundle/Form/Tools/TrendAnalysis/TrendAnalysisType.php</jms:reference-file>
       </trans-unit>
@@ -3573,7 +3573,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="bbbff8cf8603a8b44bf126217cf6ca8f8dc98ea7" resname="We don't support any app yet">
         <source>We don't support any app yet</source>
-        <target>Wir unterstützen noch keine App bisher.</target>
+        <target>Wir unterstützen bisher noch keine App.</target>
         <jms:reference-file line="60">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="97286a2b91d94c57dcdfee7525a87c54bdbd02b7" resname="We give our best to make Runalyze as good as possible for you. - Therefore we would be interested in your suggestions for improvement.">
