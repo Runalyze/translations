@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
   <file date="2018-09-07T09:47:50Z" source-language="en" target-language="de" datatype="plaintext" original="not.available">
     <header>
@@ -7,8 +7,8 @@
     </header>
     <body>
       <trans-unit id="da39a3ee5e6b4b0d3255bfef95601890afd80709" resname="">
-        <source></source>
-        <target state="new"></target>
+        <source/>
+        <target state="new"/>
         <jms:reference-file line="131">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="51cdaa070e7ba82f95b3c3af335b0f6417648c02" resname="                            The file has to be created with the same (minor) version of RUNALYZE.&lt;br&gt;&#10;                            You won't be able to import a file from older versions.&#10;                        ">
@@ -340,12 +340,12 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="937e755dc30f5ebc6b412fe3839ff16429f65f8c" resname="All activities have been downloaded from Garmin Connect and are now being imported.">
         <source>All activities have been downloaded from Garmin Connect and are now being imported.</source>
-        <target state="new">All activities have been downloaded from Garmin Connect and are now being imported.</target>
+        <target state="new">Alle Aktivitäten wurden von Garmin Connect heruntergeladen und werden nun importiert.</target>
         <jms:reference-file line="28">/../src/CoreBundle/Component/Notifications/Message/GarminFullImportMessage.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="23c04944e80d5e7c5e3d2a0fbc116350d1a56bbb" resname="All activities have been downloaded from Polar Flow and are now being imported.">
         <source>All activities have been downloaded from Polar Flow and are now being imported.</source>
-        <target state="new">All activities have been downloaded from Polar Flow and are now being imported.</target>
+        <target state="new">Alle Aktivitäten wurden von Polar Flow heruntergeladen und werden nun importiert.</target>
         <jms:reference-file line="28">/../src/CoreBundle/Component/Notifications/Message/PolarFullImportMessage.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="1458b58c6250127b83ec15650365c683d73de5f5" resname="All paces are in %unit%.">
@@ -380,7 +380,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="3945e0b78078fbb10415e809d9c0eade6512161d" resname="Alternative sport">
         <source>Alternative sport</source>
-        <target state="new">Alternative sport</target>
+        <target state="new">Alternativsport</target>
         <jms:reference-file line="123">/Resources/views/tools/histograms/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="62c7fcf46e2780a0ee480a6514b7a8e0687f0c27" resname="Analysis">
@@ -478,7 +478,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="df4aa4455652d3a0fde55527e9d722d1cec39a36" resname="Automatically synchronizes all future activities from Polar Flow to Runalyze">
         <source>Automatically synchronizes all future activities from Polar Flow to Runalyze</source>
-        <target state="new">Automatically synchronizes all future activities from Polar Flow to Runalyze</target>
+        <target state="new">Automatische Synchronisation aller zukünftigen Aktivitäten von Polar Flow zu Runalyze</target>
         <jms:reference-file line="70">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="f8f5117038c185bf68b0bd33b349f9405e133955" resname="Available exports">
@@ -508,7 +508,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="b3963db5ead8c01231e310c2b8f4e0b9beb3b1fc" resname="Back to dashboard">
         <source>Back to dashboard</source>
-        <target state="new">Back to dashboard</target>
+        <target state="new">Zurück zum Dashboard</target>
         <jms:reference-file line="30">/Resources/views/shared/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="64dd60fe1a049fe6db3eb1369dec2e42bf428e21" resname="Background">
@@ -553,7 +553,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="70cc8f437ed7f13d69e0fe5f46a8062de99187ed" resname="Beta feature">
         <source>Beta feature</source>
-        <target state="new">Beta feature</target>
+        <target state="new">Beta-Funktion</target>
         <jms:reference-file line="69">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="b406fb57b29fc76f71864fbb37f0238045f84d9d" resname="Black">
@@ -808,12 +808,12 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="825cbccf6941ce68f80a447354815a79797a1d17" resname="Connect with Facebook">
         <source>Connect with Facebook</source>
-        <target state="new">Connect with Facebook</target>
+        <target state="new">Mit Facebook verbinden</target>
         <jms:reference-file line="32">/Resources/views/settings/account.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="fdf71228b28a599b231a52120d6488fdbc9481fb" resname="Connect with Google">
         <source>Connect with Google</source>
-        <target state="new">Connect with Google</target>
+        <target state="new">Mit Google verbinden</target>
         <jms:reference-file line="37">/Resources/views/settings/account.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="8f5e8efc6c27da74c6d2fce0dad216c525167c93" resname="Connected apps">
@@ -1108,19 +1108,19 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="ed28e0686e1251ba046f582a3e9ec02470a5e78d" resname="Disconnect">
         <source>Disconnect</source>
-        <target state="new">Disconnect</target>
+        <target state="new">Trennen</target>
         <jms:reference-file line="38">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
         <jms:reference-file line="60">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
         <jms:reference-file line="80">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="55839e6bb6d23a3a9df382fbfa5b5bfa49667e5c" resname="Disconnect from Facebook">
         <source>Disconnect from Facebook</source>
-        <target state="new">Disconnect from Facebook</target>
+        <target state="new">Von Facebook trennen</target>
         <jms:reference-file line="30">/Resources/views/settings/account.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="ccd9dac8b370beb3698af3a1f892cf8ef794d5de" resname="Disconnect from Google">
         <source>Disconnect from Google</source>
-        <target state="new">Disconnect from Google</target>
+        <target state="new">Von Google trennen</target>
         <jms:reference-file line="35">/Resources/views/settings/account.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="574ff9b0c49cdeb5f5508548ae0cab44fecee038" resname="Display">
@@ -1145,12 +1145,12 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="ae1a8b0a4e4754cf7295b197c6c876ac003b5c5b" resname="Diverging">
         <source>Diverging</source>
-        <target state="new">Diverging</target>
+        <target state="new">Abweichend</target>
         <jms:reference-file line="155">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="63a9d56328a98a5a5fd43da49fdf0b138ccfd9c6" resname="Do you already have a RUNALYZE account?">
         <source>Do you already have a RUNALYZE account?</source>
-        <target state="new">Do you already have a RUNALYZE account?</target>
+        <target state="new">Hast du bereits einen RUNALYZE Account?</target>
         <jms:reference-file line="44">/Resources/views/register/social_form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="e13af6624fabaaf26abd950af5ac6319bdae2341" resname="Do you really want to delete this?">
@@ -1192,9 +1192,9 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
         <source xml:space="preserve">Due to performance reasons, some statistics are saved in the database.
                     You can trigger a recalculation if you think they are wrong.
                     In addition, values for elevation, TRIMP and %VO2max% can be recalculated.</source>
-        <target xml:space="preserve" state="new">Due to performance reasons, some statistics are saved in the database.
-                    You can trigger a recalculation if you think they are wrong.
-                    In addition, values for elevation, TRIMP and %VO2max% can be recalculated.</target>
+        <target xml:space="preserve" state="new">Aus Performancegründen werden einige Statistiken in der Datenbank gespeichert.
+                    Du ksnnt eine Neuberechnung anstoßen, wenn du glaubst, dass sie falsch sind.
+                    Zusätzlich können Werte für Elevation, TRIMP und %VO2max% neu berechnet werden.</target>
         <jms:reference-file line="85">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="75ebedaffb4aa6157c7cebe699e447963b5bd177" resname="Due to security reasons browser manufacturers will drop support for plugins like the Garmin Communicator. A &lt;a href=&quot;%s%&quot;&gt;reinstall&lt;/a&gt; may work, but we have documented an alternative way to import the original files at %b%.">
@@ -1465,12 +1465,12 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="9a4675260194aff274fece8b8d73881ca39eb0da" resname="For your own security, we recommend that you change your Garmin Connect password before entering it here. After the successful import you can change the password back again.">
         <source>For your own security, we recommend that you change your Garmin Connect password before entering it here. After the successful import you can change the password back again.</source>
-        <target state="new">For your own security, we recommend that you change your Garmin Connect password before entering it here. After the successful import you can change the password back again.</target>
+        <target state="new">Zu Ihrer eigenen Sicherheit empfehlen wir dein Garmin Connect Passwort zu ändern, bevor du es hier eingibst. Nach dem erfolgreichen Import kannst du das Passwort wieder ändern.</target>
         <jms:reference-file line="13">/Resources/views/tools/garmin_import.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="b1d13467c364fb9012c0d0348b6b0e09d9b9b0a5" resname="For your own security, we recommend that you change your Polar password before entering it here. After the successful import you can change the password back again.">
         <source>For your own security, we recommend that you change your Polar password before entering it here. After the successful import you can change the password back again.</source>
-        <target state="new">For your own security, we recommend that you change your Polar password before entering it here. After the successful import you can change the password back again.</target>
+        <target state="new">Zu Ihrer eigenen Sicherheit empfehlen wir dein Polar Flow Passwort zu ändern, bevor du es hier eingibst. Nach dem erfolgreichen Import kannst du das Passwort wieder ändern.</target>
         <jms:reference-file line="13">/Resources/views/tools/polar_import.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="a2f060b7363f54c9f80d62805d36636dd7ebc33c" resname="Forgot your password?">
@@ -1510,7 +1510,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="02e68f4b1ffa77adb2cce2588a58c4b5b436ec38" resname="Garmin Connect - Password">
         <source>Garmin Connect - Password</source>
-        <target state="new">Garmin Connect - Password</target>
+        <target state="new">Garmin Connect - Passwort</target>
         <jms:reference-file line="21">/Resources/views/tools/garmin_import.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="10c03bd3cc643ca535d478ca4ed0f00bc843588b" resname="Garmin Connect - mail address">
@@ -1607,7 +1607,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="cdd47ddee20e4e846b7d0b733f33eafa9b6595fc" resname="Group alternative sports">
         <source>Group alternative sports</source>
-        <target state="new">Group alternative sports</target>
+        <target state="new">Alternativsport gruppieren</target>
         <jms:reference-file line="149">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="f187928fdb223e7f3b7b0396e72e2d59a5f12b29" resname="HR">
@@ -1630,7 +1630,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="c9a7cc8772f72f8695c5c579c5d1c6e0858b563b" resname="Heart rate zones">
         <source>Heart rate zones</source>
-        <target state="new">Heart rate zones</target>
+        <target state="new">Herzfrequenzbereiche</target>
         <jms:reference-file line="124">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="664e1218d22b9caa2aab7d79dccb4cf3aa202ab6" resname="Heartrate">
@@ -1692,7 +1692,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="9f573dd516c5fae818d100652937d22c8be8a33c" resname="Histograms">
         <source>Histograms</source>
-        <target state="new">Histograms</target>
+        <target state="new">Histogramme</target>
         <jms:reference-file line="84">/Resources/views/base_logged_in.twig</jms:reference-file>
         <jms:reference-file line="7">/Resources/views/tools/histograms/base.html.twig</jms:reference-file>
         <jms:reference-file line="10">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
@@ -1778,7 +1778,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="4e9320568a338e31a768a61dcea039413731ef61" resname="If your account is connected with Facebook or Google you can easily login without a password.">
         <source>If your account is connected with Facebook or Google you can easily login without a password.</source>
-        <target state="new">If your account is connected with Facebook or Google you can easily login without a password.</target>
+        <target state="new">Wenn dein Account mit Facebook oder Google verbunden ist, kannst du dich ganz einfach ohne Passwort anmelden.</target>
         <jms:reference-file line="27">/Resources/views/settings/account.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="55a22e4c4815e7a6f655008a7679fd00b6271087" resname="Impact Gs">
@@ -1809,22 +1809,22 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="aab0696f2c2ceae14cad7b18d72b03845d571d99" resname="Import data from Garmin Connect to RUNALYZE">
         <source>Import data from Garmin Connect to RUNALYZE</source>
-        <target state="new">Import data from Garmin Connect to RUNALYZE</target>
+        <target state="new">Daten aus Garmin Connect nach RUNALYZE importieren</target>
         <jms:reference-file line="31">/Resources/views/tools/garmin_import.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="611426da6a5be2ffce687da4c94583023f5dfcbb" resname="Import data from Polar Flow to RUNALYZE">
         <source>Import data from Polar Flow to RUNALYZE</source>
-        <target state="new">Import data from Polar Flow to RUNALYZE</target>
+        <target state="new">Daten von Polar Flow nach RUNALYZE importieren</target>
         <jms:reference-file line="31">/Resources/views/tools/polar_import.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="c8a91bedca4f676185c7c8c0c1680c0cfde79568" resname="Import full Polar Flow history">
         <source>Import full Polar Flow history</source>
-        <target state="new">Import full Polar Flow history</target>
+        <target state="new">Polar Flow Historie importieren</target>
         <jms:reference-file line="5">/Resources/views/tools/polar_import.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="a17abeaec079b2bb4035f66ab69d016771240ae6" resname="Import full garmin history">
         <source>Import full garmin history</source>
-        <target state="new">Import full garmin history</target>
+        <target state="new">Garmin-Historie importieren</target>
         <jms:reference-file line="5">/Resources/views/tools/garmin_import.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="ab155b67afc1209f5f911efd75c331b7fe996c76" resname="Import selected activities">
@@ -1881,7 +1881,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="0ac2a3e65056a0290391a9d94433a1e1820d74bf" resname="Invalid date selection.">
         <source>Invalid date selection.</source>
-        <target state="new">Invalid date selection.</target>
+        <target state="new">Ungültige Datumsauswahl.</target>
         <jms:reference-file line="125">/Resources/views/tools/histograms/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="8db1c5e073f92c7456efffd9b508f096bdd56d64" resname="Invalid token.">
@@ -1975,7 +1975,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="62aa3ae23ee04e30f09ba90a7872c7815b084fc0" resname="Login with Facebook">
         <source>Login with Facebook</source>
-        <target state="new">Login with Facebook</target>
+        <target state="new">Mit Facebook einloggen</target>
         <jms:reference-file line="60">/Resources/views/base_not_logged_in.html.twig</jms:reference-file>
         <jms:reference-file line="44">/Resources/views/login/form.html.twig</jms:reference-file>
       </trans-unit>
@@ -2046,7 +2046,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="ab478f3efc840eebab919dff1b9512286f70c10c" resname="Map">
         <source>Map</source>
-        <target state="new">Map</target>
+        <target state="new">Karte</target>
         <jms:reference-file line="101">/Resources/views/activity/tool/climb_score.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="c4ba0822462e0c373aadd5360a69f205c2a7d036" resname="Mar">
@@ -2183,7 +2183,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="486829367591dc8209f3fc6960814c0bdd8930d1" resname="No account yet?">
         <source>No account yet?</source>
-        <target state="new">No account yet?</target>
+        <target state="new">Noch kein Konto?</target>
         <jms:reference-file line="5">/Resources/views/shared/promote_register.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="5cc9013545b24e0b3d099697fcb2bcd06192ac09" resname="No activities found.">
@@ -2375,7 +2375,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="4c8282a6c5d0fef3792d73db3bf893560383812e" resname="Pace zones">
         <source>Pace zones</source>
-        <target state="new">Pace zones</target>
+        <target state="new">Geschwindigkeitszonen</target>
         <jms:reference-file line="125">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="bc3023b36063a7681db24681472b54fa11f0d4ec" resname="Page not found">
@@ -2469,7 +2469,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="9c23fbda5fffc6489d9836a4b2c4800141446aae" resname="Please use the %forum%forum%end% or %facebook%Facebook Group%end% for any support question.">
         <source>Please use the %forum%forum%end% or %facebook%Facebook Group%end% for any support question.</source>
-        <target state="new">Please use the %forum%forum%end% or %facebook%Facebook Group%end% for any support question.</target>
+        <target state="new">Bitte benutze das %forum%forum%end% oder unsere %facebook%Facebook Group%end% für Fragen aller Art.</target>
         <jms:reference-file line="14">/Resources/views/feedback.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="80c94c4a4b8b317f1130bd6b96e7b78502ac4b3a" resname="Please use the plugin">
@@ -2541,7 +2541,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="61d98a4adf99356f2e7b66a0efa3e5101c26a995" resname="Power zones">
         <source>Power zones</source>
-        <target state="new">Power zones</target>
+        <target state="new">Leistungszonen</target>
         <jms:reference-file line="126">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="4eb004caa682a0a83804b6fb256eac0d8a9930ac" resname="Predict results on different distances for a given VO2max.">
@@ -2754,19 +2754,19 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="14929bd0fb9ba0ebbee5c8791156eb35dc2ad8c1" resname="Register with Facebook">
         <source>Register with Facebook</source>
-        <target state="new">Register with Facebook</target>
+        <target state="new">Mit Facebook registrieren</target>
         <jms:reference-file line="58">/Resources/views/register/form.html.twig</jms:reference-file>
         <jms:reference-file line="9">/Resources/views/shared/promote_register.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="b1f86a6b0e60fc56a3bb2527f27bdd9b7d85097b" resname="Register with Google">
         <source>Register with Google</source>
-        <target state="new">Register with Google</target>
+        <target state="new">Mit Google registrieren</target>
         <jms:reference-file line="59">/Resources/views/register/form.html.twig</jms:reference-file>
         <jms:reference-file line="10">/Resources/views/shared/promote_register.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="ce960989a735fd815f5ddceb851b449a93bd60e5" resname="Register with mail">
         <source>Register with mail</source>
-        <target state="new">Register with mail</target>
+        <target state="new">Via Mail registrieren</target>
         <jms:reference-file line="7">/Resources/views/shared/promote_register.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="6761e2071d6eb623b788580077c6a7b0007b04ed" resname="Registrations are currently disabled.">
@@ -2969,7 +2969,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="07af1543391db1cf73185b3b61c280f38d02f936" resname="Several tags can be assigned to one activity, such that cumulative values can exceed actual sums.">
         <source>Several tags can be assigned to one activity, such that cumulative values can exceed actual sums.</source>
-        <target state="new">Several tags can be assigned to one activity, such that cumulative values can exceed actual sums.</target>
+        <target state="new">Einer Aktivität können mehrere Tags zugeordnet werden, so dass die kumulierten Werte die tatsächlichen Summen übersteigen können.</target>
         <jms:reference-file line="126">/Resources/views/tools/histograms/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="ea5c1a20b7cfcfec8a35fb4c6a419a1314233755" resname="Shape">
@@ -3062,12 +3062,12 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="741e1366a4ee833eabf43cbb247140893096a0c8" resname="Sign up now for free">
         <source>Sign up now for free</source>
-        <target state="new">Sign up now for free</target>
+        <target state="new">Jetzt kostenlos anmelden</target>
         <jms:reference-file line="5">/Resources/views/shared/promote_register.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="fd6ea42b031542437db52b7fca891afe96f03afe" resname="Sign up via %s">
         <source>Sign up via %s</source>
-        <target state="new">Sign up via %s</target>
+        <target state="new">Via %s registrieren</target>
         <jms:reference-file line="14">/Resources/views/register/social_form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="68e3e01b2c0b7734a576d1d4b77634823fab87c1" resname="Single choice">
@@ -3584,7 +3584,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="50cbb9de0dc046cb38e3a332f5fbd87420911ea4" resname="This tool does not use an official interface and we cannot guarantee any functionality.">
         <source>This tool does not use an official interface and we cannot guarantee any functionality.</source>
-        <target state="new">This tool does not use an official interface and we cannot guarantee any functionality.</target>
+        <target state="new">Dieses Tool verwendet keine offizielle Schnittstelle und wir können keine Garantie für die Funktionalität übernehmen.</target>
         <jms:reference-file line="40">/Resources/views/tools/garmin_import.html.twig</jms:reference-file>
         <jms:reference-file line="41">/Resources/views/tools/polar_import.html.twig</jms:reference-file>
       </trans-unit>
@@ -3961,7 +3961,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="9f5455d792ebfb3bf6b395b4258a0baf57f3c5db" resname="Welcome! You have successfully activated your account.">
         <source>Welcome! You have successfully activated your account.</source>
-        <target state="new">Welcome! You have successfully activated your account.</target>
+        <target state="new">Willkommen! Du hast dein Account erfolgreich aktiviert.</target>
         <jms:reference-file line="28">/../src/CoreBundle/Component/Notifications/Message/AccountActivatedMessage.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="265fa79d00b3ce10031adf19a25c53c227eb0abc" resname="When evaluating zones, only a single sport can be considered.">
@@ -4199,7 +4199,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="ac439d3f46b171a3307cf3b048ff7ebc508091e9" resname="You will be logged in automatically in a few seconds.">
         <source>You will be logged in automatically in a few seconds.</source>
-        <target state="new">You will be logged in automatically in a few seconds.</target>
+        <target state="new">Du wirst in in wenigen Sekunden automatisch eingeloggt.</target>
         <jms:reference-file line="13">/Resources/views/account/activate/success.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="f8a7bcbb755b913dfdb3a54b3e2d05201afd45a6" resname="You'll receive an email with a link to confirm the deletion.">
@@ -4209,7 +4209,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="1a7728bd510c636b676ced10e41bb258fbe8d2f5" resname="You're almost there. All we need is a username.">
         <source>You're almost there. All we need is a username.</source>
-        <target state="new">You're almost there. All we need is a username.</target>
+        <target state="new">Fast geschafft! Alles was wir brauchen ist ein Benutzername.</target>
         <jms:reference-file line="12">/Resources/views/register/social_form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="65124d691f26c0873e5f27eee57ddcf5679b9f43" resname="Your &lt;strong&gt;Acute Training Load&lt;/strong&gt;, ATL, also fatigue, is based on the sum of your last TRIMP values in a short period, e.g. for seven days.">
@@ -4277,7 +4277,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="d66d01855c10014ca66c2eab80de0fdbbff982d9" resname="Your account is now connected to Polar Flow and activities will be synchronized soon.">
         <source>Your account is now connected to Polar Flow and activities will be synchronized soon.</source>
-        <target state="new">Your account is now connected to Polar Flow and activities will be synchronized soon.</target>
+        <target state="new">Dein Account ist nun mit Polar Flow verbunden und die Aktivitäten werden in Kürze synchronisiert.</target>
         <jms:reference-file line="28">/../src/CoreBundle/Component/Notifications/Message/OAuthPolarFlowConnectedMessage.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="867e4f330e5ac0354309b71bfc1ff48598dca888" resname="Your backup has been generated and is now available for download.">
@@ -4567,7 +4567,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="42ed73099b6dc28ee4f416c12bf2b5ba16a3ed19" resname="last 24 months">
         <source>last 24 months</source>
-        <target state="new">last 24 months</target>
+        <target state="new">letzte 24 Monate</target>
         <jms:reference-file line="62">/Resources/views/_macro/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="d0b686573b6327149577694ffc41670eb86c876f" resname="last 6 months">
@@ -4763,7 +4763,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="0d4e654c613ea68bffeeab1587b7dbac44826c2b" resname="without">
         <source>without</source>
-        <target state="new">without</target>
+        <target state="new">ohne</target>
         <jms:reference-file line="124">/Resources/views/tools/histograms/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="e738fc45a698ea2e157e03bdc8178871daffbeb0" resname="x-times">
