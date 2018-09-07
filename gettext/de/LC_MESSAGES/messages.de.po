@@ -3,9 +3,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Runalyze\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-09-07 09:50+0200\n"
-"PO-Revision-Date: 2018-09-07 07:46+0000\n"
+"PO-Revision-Date: 2018-09-07 08:16+0000\n"
 "Last-Translator: Hannes <mail@laufhannes.de>\n"
 "Language-Team: German <http://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/de/>\n"
@@ -528,6 +528,8 @@ msgid ""
 "This value is based on the pure race result and does not take the heart rate "
 "into account."
 msgstr ""
+"Dieser Wert basiert auf dem reinen Wettkampfergebnis und berücksichtigt "
+"nicht die Herzfrequenz."
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:384
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:401
@@ -1774,6 +1776,8 @@ msgid ""
 "Efficiency Index (EI) that expresses the speed per watt of a runner. A "
 "higher value means a higher running efficiency."
 msgstr ""
+"Der Efficiency Index (EI) gibt die Geschwindigkeit pro Watt eines Läufers "
+"an. Ein höherer Wert bedeutet eine höhere Laufeffizienz."
 
 #: inc/core/Dataset/Keys/SharedLink.php:63
 msgid ""
@@ -1829,6 +1833,10 @@ msgid ""
 "calculated as the ratio of speed to power. The greater its value, the more "
 "'effective' the runner is at converting external power into speed."
 msgstr ""
+"Die Running Effectiveness (RE) ist eine von Dr. Andrew Coggan eingeführte "
+"Metrik, die als das Verhältnis von Geschwindigkeit zu Leistung berechnet "
+"wird. Je größer der Wert, desto \"effektiver\" ist der Läufer bei der "
+"Umwandlung von Energie in Geschwindigkeit."
 
 #: inc/core/Dataset/Keys/Wind.php:44 inc/core/View/Icon/WindIcon.php:66
 msgid "Wind"
@@ -2265,25 +2273,23 @@ msgid "Pace goal"
 msgstr "Pace-Vorgabe"
 
 #: inc/core/View/Window/Laps/Form.php:132
-#, fuzzy
 msgid ""
 "Calculate values for handmade splits although total duration does not match."
 msgstr ""
-"Berechne Zwischenzeiten für manuelle Runden obwohl die Gesamtdistanz nicht "
+"Berechne Zwischenzeiten für manuelle Runden obwohl die Gesamtdauer nicht "
 "übereinstimmt."
 
 #: inc/core/View/Window/Laps/Form.php:133
-#, fuzzy
 msgid ""
 "The total duration of the manual laps differs from the duration of the "
 "activity."
 msgstr ""
-"Die Gesamtdistanz deiner manuellen Runden unterscheidet sich von der GPS-"
-"Distanz."
+"Die Gesamtdauer deiner manuellen Runden unterscheidet sich von der Dauer der "
+"Aktivität."
 
 #: inc/core/View/Window/Laps/Form.php:136
 msgid "The activity was therefore split according to the lap distances."
-msgstr ""
+msgstr "Die Aktivität wurde daher nach den Rundendistanzen aufgeteilt."
 
 #: inc/core/View/Window/Laps/Form.php:139
 msgid ""
@@ -2520,10 +2526,9 @@ msgstr "Passwort für Mail-Import"
 
 #: inc/core/Configuration/Category/Import.php:81
 msgid "required"
-msgstr ""
+msgstr "notwendig"
 
 #: inc/core/Configuration/Category/Import.php:82
-#, fuzzy
 msgid "Add this password to the subject of your mail"
 msgstr "Füge dieses Passwort zum Betreff der Mail hinzu"
 
@@ -3813,9 +3818,8 @@ msgstr "Alle Jahre"
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:59
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:317
 #: plugin/RunalyzePluginStat_Tag/class.RunalyzePluginStat_Tag.php:123
-#, fuzzy
 msgid "Show histograms"
-msgstr "Streak anzeigen"
+msgstr "Zeige Histogramme"
 
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:69
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:143
@@ -4238,9 +4242,8 @@ msgid "based on heart rate"
 msgstr "basierend auf der Herzfrequenz"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:451
-#, fuzzy
 msgid "Target miles per week"
-msgstr "Wochenkilometer-Ziel"
+msgstr "Ziel für die Meilen pro Woche"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:451
 msgid "Target kilometer per week"
@@ -5282,9 +5285,8 @@ msgid "Activity tags"
 msgstr "Tags für Aktivitäten"
 
 #: dashboard.php:140
-#, fuzzy
 msgid "Histograms"
-msgstr "kilogramm"
+msgstr "Histogramme"
 
 #: dashboard.php:141
 msgid "Trend analysis"
@@ -5485,9 +5487,8 @@ msgstr "Zuordnung: Tag zu Aktivitäten"
 
 #: src/CoreBundle/Component/Account/Registration.php:99
 #: src/CoreBundle/Component/Account/Registration.php:247
-#, fuzzy
 msgid "Running Shoes"
-msgstr "Laufschuh"
+msgstr "Laufschuhe"
 
 #: src/CoreBundle/Component/Account/Registration.php:100
 #: src/CoreBundle/Component/Account/Registration.php:246
