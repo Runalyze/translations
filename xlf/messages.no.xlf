@@ -177,7 +177,7 @@
       </trans-unit>
       <trans-unit id="a733b809d2f1233496ab516eed0f3ef75cf3791a" resname="Active">
         <source>Active</source>
-        <target>Active</target>
+        <target>Aktiv</target>
         <jms:reference-file line="29">/../src/CoreBundle/Form/Type/ActivityRoundType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="e58f7f889902c81b8879128fede278022f0e459c" resname="Activities">
@@ -1029,7 +1029,7 @@
       </trans-unit>
       <trans-unit id="1cf6934a3e6a8d1d7daddb24f229e4c35ec88aab" resname="Defining some laps as 'resting' will hide them in the respective plot.">
         <source>Defining some laps as 'resting' will hide them in the respective plot.</source>
-        <target>Definere noen runder som 'hvile' vill skjulde dem i de respektive plottene.</target>
+        <target>Definere noen runder som 'hvile' vil skjule dem i de respektive plottene.</target>
         <jms:reference-file line="85">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="aaae84143938ffb5470678a0f315970f6a4fa81d" resname="Definitions for training paces vary a lot, depending on which philosophy one looks at.&#10;            This table specifies paces at various percentages of %vVO2max%, which equals approximately the maximal pace for 11 minutes.&#10;        ">
@@ -4397,7 +4397,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="b7fe617d7953f79948025a4b384f860cbd728ce4" resname="all resting">
         <source>all resting</source>
-        <target>all hvile</target>
+        <target>alle hvile</target>
         <jms:reference-file line="111">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="8ef4e058dfdccc371985b6af78ea70ffed8255e9" resname="alternating:">
