@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Runalyze\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-09-07 09:50+0200\n"
-"PO-Revision-Date: 2018-10-16 06:44+0000\n"
+"PO-Revision-Date: 2018-10-17 07:14+0000\n"
 "Last-Translator: MH <mike@harlaut.net>\n"
 "Language-Team: French <http://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/fr/>\n"
@@ -372,6 +372,7 @@ msgstr "alt."
 #: inc/core/Dataset/Keys/Swolf.php:44
 #: inc/core/View/Activity/Plot/Series/Swolf.php:63
 #: inc/core/View/Activity/Plot/Series/Swolfcycles.php:62
+#, fuzzy
 msgid "Swolf"
 msgstr "Swolf"
 
@@ -438,6 +439,7 @@ msgid "SmO2"
 msgstr "SmO2"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:84
+#, fuzzy
 msgid "THb"
 msgstr "THb"
 
@@ -493,7 +495,7 @@ msgstr "Standard ouvert"
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:434
 #, php-format
 msgid "via tables by %s"
-msgstr ""
+msgstr "depuis les tables de %s"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:377
 #: inc/core/Dataset/Keys/Setting.php:112 inc/core/Dataset/Keys/Setting.php:129
@@ -2369,7 +2371,7 @@ msgstr "Différence"
 
 #: inc/core/View/Activity/Plot/Series/GradeAdjustedPace.php:35
 msgid "Grade adjusted pace"
-msgstr ""
+msgstr "Vitesse ajustée à la pente"
 
 #: inc/core/View/Activity/Plot/Series/PaceCumulativeAverage.php:50
 msgid "Moving average"
@@ -2604,9 +2606,8 @@ msgstr ""
 "externes est possible."
 
 #: inc/core/Configuration/Category/ActivityForm.php:243
-#, fuzzy
 msgid "Sort: sports"
-msgstr "Tri : types de sport"
+msgstr "Tri : sports"
 
 #: inc/core/Configuration/Category/ActivityForm.php:247
 msgid "Sort: activity types"
@@ -4338,6 +4339,7 @@ msgstr ""
 "Explication : Comment ces valeurs expérimentales sont-elles calculées ?"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/Plot.Form.php:188
+#, fuzzy
 msgid "Fitness (CTL)"
 msgstr "Fitness (CTL)"
 
@@ -5370,7 +5372,7 @@ msgstr "Course"
 #: src/CoreBundle/Component/Account/Registration.php:189
 #: src/CoreBundle/Component/Account/Registration.php:215
 msgid "Jogging"
-msgstr "Jogging"
+msgstr "Course à pied"
 
 #: tests/CoreBundle/Component/Account/RegistrationTest.php:111
 #: src/CoreBundle/Component/Account/Registration.php:158
