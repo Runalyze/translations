@@ -15,14 +15,14 @@
         <source><![CDATA[                            The file has to be created with the same (minor) version of RUNALYZE.<br>
                             You won't be able to import a file from older versions.
                         ]]></source>
-        <target>Le fichier a été créé avec la même version (révision mineure) de RUNALYZE.&lt;br&gt;Vous ne pouvez pas importer des fichiers d'une version antérieure.</target>
+        <target>Le fichier a été créé avec la même version (mineure) de RUNALYZE.&lt;br&gt; Vous ne pouvez pas importer des fichiers de versions antérieures.</target>
         <jms:reference-file line="61">/Resources/views/tools/backup/upload_form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="4a10a66294eb6ea16850df1ca19a3457bf4ae580" resname="                            The importer will not change existing data for equipment, sports or activity types.&lt;br&gt;&#10;                            You have to make these changes by hand or delete the existing data in advance.&#10;                        ">
         <source><![CDATA[                            The importer will not change existing data for equipment, sports or activity types.<br>
                             You have to make these changes by hand or delete the existing data in advance.
                         ]]></source>
-        <target>L'importation ne changera pas les données existantes pour l'équipement, le sport, ou le type d'activité.&lt;br&gt;Vous devez modifier manuellement ou supprimer préalablement les données présentes.</target>
+        <target>L'importation ne changera pas les données existantes pour l'équipement, le sport, ou le type d'activité.&lt;br&gt; Vous devez modifier manuellement ou supprimer préalablement les données présentes.</target>
         <jms:reference-file line="68">/Resources/views/tools/backup/upload_form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="f0e469d7c00959f95a0e245c100d881d1994430b" resname="            Values are visualized with so-called 'box plots'.&#10;            They give an impression of how values of a group are distributed.&#10;            The middle 50% of all values are within the box itself and the so-called whiskers have a length of at most 1.5-times the interquartile range (i.e. the box's width).&#10;            Data points outside this range are called outliers.&#10;            ">
@@ -4546,7 +4546,7 @@
       </trans-unit>
       <trans-unit id="42c56bc5361d5f4c2466fa3b86f821af0c9886f3" resname="i.e. 50% quantile">
         <source>i.e. 50% quantile</source>
-        <target>i.e. 50% quantile</target>
+        <target>ex: 50% quantile</target>
         <jms:reference-file line="90">/Resources/views/activity/tool/time_series_statistics.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="8ccbde832c3e0f90c55b72c598844679fff2167d" resname="ignore">
