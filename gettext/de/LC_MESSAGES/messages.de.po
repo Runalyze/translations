@@ -3,10 +3,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Runalyze\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-10-21 20:11+0200\n"
-"PO-Revision-Date: 2018-09-07 08:16+0000\n"
-"Last-Translator: Hannes <mail@laufhannes.de>\n"
+"PO-Revision-Date: 2018-10-21 18:30+0000\n"
+"Last-Translator: Michael Pohl <michael@mipapo.de>\n"
 "Language-Team: German <http://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/de/>\n"
 "Language: de\n"
@@ -601,9 +601,8 @@ msgid "Show inactive splits"
 msgstr "Zeige inaktive Zwischenzeiten"
 
 #: inc/core/View/Window/Laps/Window.php:392
-#, fuzzy
 msgid "Save laps for activity"
-msgstr "Suche nach Trainingseinheiten"
+msgstr "Runden für die Aktivität speichern"
 
 #: inc/core/View/Icon/WindIcon.php:66 inc/core/Dataset/Keys/Wind.php:44
 msgid "Wind"
@@ -1088,7 +1087,7 @@ msgstr ""
 
 #: inc/core/Dataset/Keys/SocialShare.php:52
 msgid "Social Sharing"
-msgstr ""
+msgstr "Teilen"
 
 #: inc/core/Dataset/Keys/SocialShare.php:115
 #: inc/core/Dataset/Keys/SocialShare.php:139
@@ -1119,12 +1118,12 @@ msgstr "Widget"
 
 #: inc/core/Dataset/Keys/SocialShare.php:144 inc/core/Export/Share/Image.php:41
 msgid "Image"
-msgstr ""
+msgstr "Bild"
 
 #: inc/core/Dataset/Keys/SocialShare.php:145
 #: inc/core/Export/Share/StoryImage.php:20
 msgid "Story Image"
-msgstr ""
+msgstr "Story Bild"
 
 #: inc/core/Dataset/Keys/Energy.php:54
 msgid ""
@@ -2139,7 +2138,7 @@ msgstr ""
 
 #: inc/core/Data/Weather/UvIndex.php:39
 msgid "UV Index"
-msgstr ""
+msgstr "UV Index"
 
 #: inc/core/Data/Weather/CardinalDirection.php:72
 #: inc/core/Data/Weather/CardinalDirection.php:76
@@ -2231,7 +2230,7 @@ msgstr "Gefühlte Temperatur"
 #: inc/core/Data/Weather/Ozone.php:39
 #, fuzzy
 msgid "Ozone"
-msgstr "Zeitzone"
+msgstr "Ozone"
 
 #: inc/core/Data/Weather/BeaufortScale.php:119
 msgid "Calm"
