@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
-  <file date="2018-09-07T09:47:39Z" source-language="en" target-language="bg" datatype="plaintext" original="not.available">
+  <file date="2018-10-21T20:04:37Z" source-language="en" target-language="bg" datatype="plaintext" original="not.available">
     <header>
       <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
@@ -8,7 +8,7 @@
     <body>
       <trans-unit id="da39a3ee5e6b4b0d3255bfef95601890afd80709" resname="">
         <source></source>
-        <target state="new"></target>
+        <target></target>
         <jms:reference-file line="131">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="51cdaa070e7ba82f95b3c3af335b0f6417648c02" resname="                            The file has to be created with the same (minor) version of RUNALYZE.&lt;br&gt;&#10;                            You won't be able to import a file from older versions.&#10;                        ">
@@ -59,43 +59,43 @@
       </trans-unit>
       <trans-unit id="1080ebab8dde3ad70455cb2aaded117e407edc34" resname="120px">
         <source>120px</source>
-        <target state="new">120px</target>
-        <jms:reference-file line="161">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
+        <target>120px</target>
+        <jms:reference-file line="164">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="8c95cbb05c3be8d212bccf92f5af60b8261e0a6d" resname="160px">
         <source>160px</source>
-        <target state="new">160px</target>
-        <jms:reference-file line="162">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
+        <target>160px</target>
+        <jms:reference-file line="165">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="c70ab06fbb7aedb765531b84d44667b61afa7eae" resname="200px">
         <source>200px</source>
-        <target state="new">200px</target>
-        <jms:reference-file line="163">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
+        <target>200px</target>
+        <jms:reference-file line="166">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="237526572acebc6172c716e828052e662f4109ed" resname="260px">
         <source>260px</source>
-        <target state="new">260px</target>
-        <jms:reference-file line="164">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
+        <target>260px</target>
+        <jms:reference-file line="167">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="c1e12e9c066c3cb80d1baf76589d121ad9c3a5a9" resname="320px">
         <source>320px</source>
-        <target state="new">320px</target>
-        <jms:reference-file line="165">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
+        <target>320px</target>
+        <jms:reference-file line="168">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="8bd99321fd7038ab156bee348fa31436529035a4" resname="400px">
         <source>400px</source>
-        <target state="new">400px</target>
-        <jms:reference-file line="166">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
+        <target>400px</target>
+        <jms:reference-file line="169">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="1565ad85623ddc58b2d662407f2588e6ac1f6872" resname="500px">
         <source>500px</source>
-        <target state="new">500px</target>
-        <jms:reference-file line="167">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
+        <target>500px</target>
+        <jms:reference-file line="170">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="18d1fe5a526297ccd76b12c04c53a3cc5dba6307" resname="600px">
         <source>600px</source>
-        <target state="new">600px</target>
-        <jms:reference-file line="168">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
+        <target>600px</target>
+        <jms:reference-file line="171">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="550f492da73d1ba82d45e078e42d1bd48fe924fc" resname="&lt;b&gt;%s&lt;/b&gt; would like permissions to access your RUNALYZE account">
         <source><![CDATA[<b>%s</b> would like permissions to access your RUNALYZE account]]></source>
@@ -153,9 +153,9 @@
       <trans-unit id="33920c39a699f923804df9f59fc970a24817e018" resname="Accept our terms of use">
         <source>Accept our terms of use</source>
         <target>Приемете нашите условия за ползване</target>
-        <jms:reference-file line="39">/../src/CoreBundle/Form/RegistrationType.php</jms:reference-file>
+        <jms:reference-file line="47">/../src/CoreBundle/Form/RegistrationType.php</jms:reference-file>
         <jms:reference-file line="28">/../src/CoreBundle/Form/SocialRegistrationType.php</jms:reference-file>
-        <jms:reference-file line="38">/Resources/views/register/form.html.twig</jms:reference-file>
+        <jms:reference-file line="39">/Resources/views/register/form.html.twig</jms:reference-file>
         <jms:reference-file line="25">/Resources/views/register/social_form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="64343a83ad8c0b8e2789c32ca5ab1eb6abb614e0" resname="Access denied">
@@ -325,12 +325,7 @@
       <trans-unit id="b227a084b96eb37971f4d177915bd60ed66fdbd8" resname="Added on">
         <source>Added on</source>
         <target>Added on</target>
-        <jms:reference-file line="28">/Resources/views/settings/app.html.twig</jms:reference-file>
-      </trans-unit>
-      <trans-unit id="85b3a5c4dcfb41489f509825fbf742323b1ac4e8" resname="Affiliate links">
-        <source>Affiliate links</source>
-        <target>Affiliate links</target>
-        <jms:reference-file line="25">/Resources/views/static/donate.html.twig</jms:reference-file>
+        <jms:reference-file line="25">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="0ed93a174f252621e99c5a70ead71cab1a298dfd" resname="Age standard">
         <source>Age standard</source>
@@ -344,12 +339,12 @@
       </trans-unit>
       <trans-unit id="937e755dc30f5ebc6b412fe3839ff16429f65f8c" resname="All activities have been downloaded from Garmin Connect and are now being imported.">
         <source>All activities have been downloaded from Garmin Connect and are now being imported.</source>
-        <target state="new">All activities have been downloaded from Garmin Connect and are now being imported.</target>
+        <target>All activities have been downloaded from Garmin Connect and are now being imported.</target>
         <jms:reference-file line="28">/../src/CoreBundle/Component/Notifications/Message/GarminFullImportMessage.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="23c04944e80d5e7c5e3d2a0fbc116350d1a56bbb" resname="All activities have been downloaded from Polar Flow and are now being imported.">
         <source>All activities have been downloaded from Polar Flow and are now being imported.</source>
-        <target state="new">All activities have been downloaded from Polar Flow and are now being imported.</target>
+        <target>All activities have been downloaded from Polar Flow and are now being imported.</target>
         <jms:reference-file line="28">/../src/CoreBundle/Component/Notifications/Message/PolarFullImportMessage.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="1458b58c6250127b83ec15650365c683d73de5f5" resname="All paces are in %unit%.">
@@ -384,7 +379,7 @@
       </trans-unit>
       <trans-unit id="3945e0b78078fbb10415e809d9c0eade6512161d" resname="Alternative sport">
         <source>Alternative sport</source>
-        <target state="new">Alternative sport</target>
+        <target>Alternative sport</target>
         <jms:reference-file line="123">/Resources/views/tools/histograms/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="62c7fcf46e2780a0ee480a6514b7a8e0687f0c27" resname="Analysis">
@@ -437,7 +432,7 @@
       <trans-unit id="c78087290c26b8b54be804eea69ffcebc832a086" resname="Assigned tags">
         <source>Assigned tags</source>
         <target>Assigned tags</target>
-        <jms:reference-file line="235">/../src/CoreBundle/Form/ActivityType.php</jms:reference-file>
+        <jms:reference-file line="241">/../src/CoreBundle/Form/ActivityType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="52b2fb69daaad46e95828e2ebecbdfb4c7dd240c" resname="At irregular intervals we are sending mails to you. We will never send you spam or advertisement.">
         <source>At irregular intervals we are sending mails to you. We will never send you spam or advertisement.</source>
@@ -458,7 +453,7 @@
       <trans-unit id="6107d1b8d1b19ea71744966a33fd406df287e874" resname="Attention: This operation cannot be undone.">
         <source>Attention: This operation cannot be undone.</source>
         <target>Attention: This operation cannot be undone.</target>
-        <jms:reference-file line="207">/Resources/views/activity/form.html.twig</jms:reference-file>
+        <jms:reference-file line="209">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="75629af51d7c7f120dbb5b462013bfa48af33285" resname="Aug">
         <source>Aug</source>
@@ -482,8 +477,8 @@
       </trans-unit>
       <trans-unit id="df4aa4455652d3a0fde55527e9d722d1cec39a36" resname="Automatically synchronizes all future activities from Polar Flow to Runalyze">
         <source>Automatically synchronizes all future activities from Polar Flow to Runalyze</source>
-        <target state="new">Automatically synchronizes all future activities from Polar Flow to Runalyze</target>
-        <jms:reference-file line="70">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
+        <target>Automatically synchronizes all future activities from Polar Flow to Runalyze</target>
+        <jms:reference-file line="72">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="f8f5117038c185bf68b0bd33b349f9405e133955" resname="Available exports">
         <source>Available exports</source>
@@ -512,7 +507,7 @@
       </trans-unit>
       <trans-unit id="b3963db5ead8c01231e310c2b8f4e0b9beb3b1fc" resname="Back to dashboard">
         <source>Back to dashboard</source>
-        <target state="new">Back to dashboard</target>
+        <target>Back to dashboard</target>
         <jms:reference-file line="30">/Resources/views/shared/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="64dd60fe1a049fe6db3eb1369dec2e42bf428e21" resname="Background">
@@ -554,11 +549,6 @@
         <source>Best sub segments</source>
         <target>Best sub segments</target>
         <jms:reference-file line="28">/Resources/views/activity/tool/best_sub_segments.html.twig</jms:reference-file>
-      </trans-unit>
-      <trans-unit id="70cc8f437ed7f13d69e0fe5f46a8062de99187ed" resname="Beta feature">
-        <source>Beta feature</source>
-        <target state="new">Beta feature</target>
-        <jms:reference-file line="69">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="b406fb57b29fc76f71864fbb37f0238045f84d9d" resname="Black">
         <source>Black</source>
@@ -609,6 +599,11 @@
         <source>Browse devices</source>
         <target>Browse devices</target>
         <jms:reference-file line="52">/Resources/views/import/garmin_communicator.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5ff7431ccbb186b0ac535e363b919b439413af7b" resname="Buy on Amazon">
+        <source>Buy on Amazon</source>
+        <target state="new">Buy on Amazon</target>
+        <jms:reference-file line="26">/Resources/views/affiliate/amazon.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="87dc57e8714a62b1a86beffe3809c7bbcd86b0e1" resname="By athletes for athletes">
         <source>By athletes for athletes</source>
@@ -687,8 +682,18 @@
       </trans-unit>
       <trans-unit id="650e71e333064f1d6c604a44c0a5cb937a4723da" resname="Check the %status%status page%end% and %twitter%twitter feed%end%  for any known problems with our service">
         <source>Check the %status%status page%end% and %twitter%twitter feed%end%  for any known problems with our service</source>
-        <target state="new">Check the %status%status page%end% and %twitter%twitter feed%end%  for any known problems with our service</target>
+        <target>Check the %status%status page%end% and %twitter%twitter feed%end%  for any known problems with our service</target>
         <jms:reference-file line="16">/Resources/views/feedback.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="98c8099bc399b52c49534782da87e6fe332f030d" resname="Checkout our &lt;a class=&quot;window&quot; href=&quot;%url%&quot;&gt;one-time full import tool&lt;/a&gt; for Garmin Connect">
+        <source><![CDATA[Checkout our <a class="window" href="%url%">one-time full import tool</a> for Garmin Connect]]></source>
+        <target state="new"><![CDATA[Checkout our <a class="window" href="%url%">one-time full import tool</a> for Garmin Connect]]></target>
+        <jms:reference-file line="51">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e36eeb1b7656c0f16817636015f86bc65c6b19cf" resname="Checkout our &lt;a class=&quot;window&quot; href=&quot;%url%&quot;&gt;one-time full import tool&lt;/a&gt; for Polar Flow">
+        <source><![CDATA[Checkout our <a class="window" href="%url%">one-time full import tool</a> for Polar Flow]]></source>
+        <target state="new"><![CDATA[Checkout our <a class="window" href="%url%">one-time full import tool</a> for Polar Flow]]></target>
+        <jms:reference-file line="73">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="3902f06aa7d1143ebc954eaafb5586a0b9653981" resname="Choose activities">
         <source>Choose activities</source>
@@ -723,7 +728,7 @@
       <trans-unit id="2b49897d5d1be328d37f28e0aba2328510ecddab" resname="Choose tag(s)">
         <source>Choose tag(s)</source>
         <target>Choose tag(s)</target>
-        <jms:reference-file line="238">/../src/CoreBundle/Form/ActivityType.php</jms:reference-file>
+        <jms:reference-file line="244">/../src/CoreBundle/Form/ActivityType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="7653de6e384e9cb663ae64974403b72ac85790ad" resname="Choose the correct type for the equipment">
         <source>Choose the correct type for the equipment</source>
@@ -750,6 +755,11 @@
         <target>Click here to update RUNALYZE</target>
         <jms:reference-file line="8">/Resources/views/system/update.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="aed04239a3ffb847783a0fd0a33911b9bdb59673" resname="Click here to use the Garmin Automatic Sync and One-Time Full import feature">
+        <source>Click here to use the Garmin Automatic Sync and One-Time Full import feature</source>
+        <target state="new">Click here to use the Garmin Automatic Sync and One-Time Full import feature</target>
+        <jms:reference-file line="17">/Resources/views/activity/import_garmin_communicator.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="c1385b71609e50f22a8abb9674a08724803909cd" resname="Click on an activity to see more details.">
         <source>Click on an activity to see more details.</source>
         <target>Click on an activity to see more details.</target>
@@ -758,6 +768,7 @@
       <trans-unit id="263ea9837762582d973ab584c86eebc849c95111" resname="Climb Score">
         <source>Climb Score</source>
         <target>Climb Score</target>
+        <jms:reference-file line="115">/../src/CoreBundle/Services/Export/SocialShareImageFactory.php</jms:reference-file>
         <jms:reference-file line="20">/Resources/views/activity/tool/climb_score.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="768a95d73fbc2068c15dfc51099307c477756085" resname="Climbs">
@@ -806,24 +817,24 @@
         <source>Connect</source>
         <target>Свържете</target>
         <jms:reference-file line="43">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
-        <jms:reference-file line="65">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
-        <jms:reference-file line="85">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
+        <jms:reference-file line="67">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
+        <jms:reference-file line="88">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
         <jms:reference-file line="41">/Resources/views/import/garmin_communicator.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="825cbccf6941ce68f80a447354815a79797a1d17" resname="Connect with Facebook">
         <source>Connect with Facebook</source>
-        <target state="new">Connect with Facebook</target>
+        <target>Connect with Facebook</target>
         <jms:reference-file line="32">/Resources/views/settings/account.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="fdf71228b28a599b231a52120d6488fdbc9481fb" resname="Connect with Google">
         <source>Connect with Google</source>
-        <target state="new">Connect with Google</target>
+        <target>Connect with Google</target>
         <jms:reference-file line="37">/Resources/views/settings/account.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="8f5e8efc6c27da74c6d2fce0dad216c525167c93" resname="Connected apps">
         <source>Connected apps</source>
         <target>Connected apps</target>
-        <jms:reference-file line="16">/Resources/views/settings/app.html.twig</jms:reference-file>
+        <jms:reference-file line="13">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="f26abb5b1a196c3919c851df34f421c069e42852" resname="Connected devices">
         <source>Connected devices</source>
@@ -838,7 +849,7 @@
       <trans-unit id="fac0cdf818027aec5512aae94d98912275d40a4f" resname="Correct elevation data">
         <source>Correct elevation data</source>
         <target>Correct elevation data</target>
-        <jms:reference-file line="187">/Resources/views/activity/form.html.twig</jms:reference-file>
+        <jms:reference-file line="189">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1c0ca291b0680535d87385f085e37f5c6fc8f548" resname="Corrected elevation data has been removed.">
         <source>Corrected elevation data has been removed.</source>
@@ -990,6 +1001,16 @@
         <jms:reference-file line="22">/Resources/views/my/body-values/table.html.twig</jms:reference-file>
         <jms:reference-file line="24">/Resources/views/tools/vo2max_analysis.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="987b9ced08d4ac5d11d286ca4b54b99a4f69164b" resname="Day">
+        <source>Day</source>
+        <target state="new">Day</target>
+        <jms:reference-file line="139">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0aa4ec69800fd4f73b6bfe6fcc0bf0252f3a7f72" resname="Daytime">
+        <source>Daytime</source>
+        <target state="new">Daytime</target>
+        <jms:reference-file line="144">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
+      </trans-unit>
       <trans-unit id="997f59bc99b2a57280179c3ce09ba8ab57cbdf44" resname="Dec">
         <source>Dec</source>
         <target>Dec</target>
@@ -997,8 +1018,8 @@
       </trans-unit>
       <trans-unit id="808d7dca8a74d84af27a2d6602c3d786de45fe1e" resname="Default">
         <source>Default</source>
-        <target state="new">Default</target>
-        <jms:reference-file line="154">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
+        <target>Default</target>
+        <jms:reference-file line="157">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="925e9f7f8cd9282fac17c0522a53cd5500039471" resname="Default activity type">
         <source>Default activity type</source>
@@ -1088,12 +1109,12 @@
       <trans-unit id="0d473ae1fef063dd2efd627ea2e982931d1a505a" resname="Deletion request of your RUNALYZE account">
         <source>Deletion request of your RUNALYZE account</source>
         <target>Deletion request of your RUNALYZE account</target>
-        <jms:reference-file line="109">/../src/CoreBundle/Services/AccountMailer.php</jms:reference-file>
+        <jms:reference-file line="115">/../src/CoreBundle/Services/AccountMailer.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="55f8ebc805e65b5b71ddafdae390e3be2bcd69af" resname="Description">
         <source>Description</source>
         <target>Description</target>
-        <jms:reference-file line="68">/Resources/views/settings/app.html.twig</jms:reference-file>
+        <jms:reference-file line="65">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="dc3decbb93847518f1a049dcf49d0d7c6560bcc6" resname="Details">
         <source>Details</source>
@@ -1113,19 +1134,19 @@
       </trans-unit>
       <trans-unit id="ed28e0686e1251ba046f582a3e9ec02470a5e78d" resname="Disconnect">
         <source>Disconnect</source>
-        <target state="new">Disconnect</target>
+        <target>Disconnect</target>
         <jms:reference-file line="38">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
-        <jms:reference-file line="60">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
-        <jms:reference-file line="80">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
+        <jms:reference-file line="62">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
+        <jms:reference-file line="83">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="55839e6bb6d23a3a9df382fbfa5b5bfa49667e5c" resname="Disconnect from Facebook">
         <source>Disconnect from Facebook</source>
-        <target state="new">Disconnect from Facebook</target>
+        <target>Disconnect from Facebook</target>
         <jms:reference-file line="30">/Resources/views/settings/account.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="ccd9dac8b370beb3698af3a1f892cf8ef794d5de" resname="Disconnect from Google">
         <source>Disconnect from Google</source>
-        <target state="new">Disconnect from Google</target>
+        <target>Disconnect from Google</target>
         <jms:reference-file line="35">/Resources/views/settings/account.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="574ff9b0c49cdeb5f5508548ae0cab44fecee038" resname="Display">
@@ -1142,6 +1163,7 @@
         <source>Distance</source>
         <target>Разстояние</target>
         <jms:reference-file line="120">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
+        <jms:reference-file line="85">/../src/CoreBundle/Services/Export/SocialShareImageFactory.php</jms:reference-file>
         <jms:reference-file line="70">/Resources/views/activity/form.html.twig</jms:reference-file>
         <jms:reference-file line="31">/Resources/views/activity/multi_importer.html.twig</jms:reference-file>
         <jms:reference-file line="21">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
@@ -1150,12 +1172,12 @@
       </trans-unit>
       <trans-unit id="ae1a8b0a4e4754cf7295b197c6c876ac003b5c5b" resname="Diverging">
         <source>Diverging</source>
-        <target state="new">Diverging</target>
-        <jms:reference-file line="155">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
+        <target>Diverging</target>
+        <jms:reference-file line="158">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="63a9d56328a98a5a5fd43da49fdf0b138ccfd9c6" resname="Do you already have a RUNALYZE account?">
         <source>Do you already have a RUNALYZE account?</source>
-        <target state="new">Do you already have a RUNALYZE account?</target>
+        <target>Do you already have a RUNALYZE account?</target>
         <jms:reference-file line="44">/Resources/views/register/social_form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="e13af6624fabaaf26abd950af5ac6319bdae2341" resname="Do you really want to delete this?">
@@ -1176,7 +1198,7 @@
       <trans-unit id="278bb896678d8b6dec997bd586db094ccc51d52d" resname="Do you really want to remove this?">
         <source>Do you really want to remove this?</source>
         <target>Do you really want to remove this?</target>
-        <jms:reference-file line="44">/Resources/views/settings/app.html.twig</jms:reference-file>
+        <jms:reference-file line="41">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="68a4194227be4ab74bc3d32363417c0fc1f30055" resname="Docs">
         <source>Docs</source>
@@ -1197,7 +1219,7 @@
         <source xml:space="preserve">Due to performance reasons, some statistics are saved in the database.
                     You can trigger a recalculation if you think they are wrong.
                     In addition, values for elevation, TRIMP and %VO2max% can be recalculated.</source>
-        <target xml:space="preserve" state="new">Due to performance reasons, some statistics are saved in the database.
+        <target xml:space="preserve">Due to performance reasons, some statistics are saved in the database.
                     You can trigger a recalculation if you think they are wrong.
                     In addition, values for elevation, TRIMP and %VO2max% can be recalculated.</target>
         <jms:reference-file line="85">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
@@ -1205,13 +1227,14 @@
       <trans-unit id="75ebedaffb4aa6157c7cebe699e447963b5bd177" resname="Due to security reasons browser manufacturers will drop support for plugins like the Garmin Communicator. A &lt;a href=&quot;%s%&quot;&gt;reinstall&lt;/a&gt; may work, but we have documented an alternative way to import the original files at %b%.">
         <source><![CDATA[Due to security reasons browser manufacturers will drop support for plugins like the Garmin Communicator. A <a href="%s%">reinstall</a> may work, but we have documented an alternative way to import the original files at %b%.]]></source>
         <target><![CDATA[Due to security reasons browser manufacturers will drop support for plugins like the Garmin Communicator. A <a href="%s%">reinstall</a> may work, but we have documented an alternative way to import the original files at %b%.]]></target>
-        <jms:reference-file line="27">/Resources/views/activity/import_garmin_communicator.html.twig</jms:reference-file>
+        <jms:reference-file line="29">/Resources/views/activity/import_garmin_communicator.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1370004da76fa4f3b7a5180fd5436065ef4c7d5b" resname="Duration">
         <source>Duration</source>
         <target>Продължителност</target>
         <jms:reference-file line="95">/../src/CoreBundle/Form/ActivityType.php</jms:reference-file>
         <jms:reference-file line="121">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
+        <jms:reference-file line="94">/../src/CoreBundle/Services/Export/SocialShareImageFactory.php</jms:reference-file>
         <jms:reference-file line="30">/Resources/views/activity/multi_importer.html.twig</jms:reference-file>
         <jms:reference-file line="79">/Resources/views/activity/tool/climb_score.html.twig</jms:reference-file>
         <jms:reference-file line="29">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
@@ -1306,6 +1329,7 @@
         <source>Elevation</source>
         <target>Elevation</target>
         <jms:reference-file line="123">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
+        <jms:reference-file line="114">/../src/CoreBundle/Services/Export/SocialShareImageFactory.php</jms:reference-file>
         <jms:reference-file line="74">/Resources/views/activity/tool/climb_score.html.twig</jms:reference-file>
         <jms:reference-file line="45">/Resources/views/shared/widget/iframe/base.html.twig</jms:reference-file>
       </trans-unit>
@@ -1327,7 +1351,7 @@
       <trans-unit id="5471b2be79bb47603a146ca69bfce43099601a1a" resname="Elevation data via GPS is very inaccurate. Therefore you can correct it via some satellite data.">
         <source>Elevation data via GPS is very inaccurate. Therefore you can correct it via some satellite data.</source>
         <target>Elevation data via GPS is very inaccurate. Therefore you can correct it via some satellite data.</target>
-        <jms:reference-file line="190">/Resources/views/activity/form.html.twig</jms:reference-file>
+        <jms:reference-file line="192">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="01345289e5e7cc14aea84a4cf1fe9a4a5c3ad6ff" resname="Email me">
         <source>Email me</source>
@@ -1369,7 +1393,7 @@
       <trans-unit id="36155d48f460d339ac29c2069ba7e011cbc7b0b7" resname="Equipment">
         <source>Equipment</source>
         <target>Equipment</target>
-        <jms:reference-file line="175">/Resources/views/activity/form.html.twig</jms:reference-file>
+        <jms:reference-file line="177">/Resources/views/activity/form.html.twig</jms:reference-file>
         <jms:reference-file line="74">/Resources/views/base_logged_in.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="e7d75f0ebb7605b0851eaf209f229326dadbbaa5" resname="Equipment types">
@@ -1391,6 +1415,11 @@
         <source>FIT details</source>
         <target>FIT details</target>
         <jms:reference-file line="148">/../src/CoreBundle/Form/Tools/TrendAnalysis/TrendAnalysisType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="82da67b211249624f24f3c7db5642a5112c9446f" resname="Facebook">
+        <source>Facebook</source>
+        <target state="new">Facebook</target>
+        <jms:reference-file line="74">/Resources/views/shared/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1695ec3b5783d23472499b43968a8f056487e011" resname="Factor model">
         <source>Factor model</source>
@@ -1470,12 +1499,12 @@
       </trans-unit>
       <trans-unit id="9a4675260194aff274fece8b8d73881ca39eb0da" resname="For your own security, we recommend that you change your Garmin Connect password before entering it here. After the successful import you can change the password back again.">
         <source>For your own security, we recommend that you change your Garmin Connect password before entering it here. After the successful import you can change the password back again.</source>
-        <target state="new">For your own security, we recommend that you change your Garmin Connect password before entering it here. After the successful import you can change the password back again.</target>
+        <target>For your own security, we recommend that you change your Garmin Connect password before entering it here. After the successful import you can change the password back again.</target>
         <jms:reference-file line="13">/Resources/views/tools/garmin_import.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="b1d13467c364fb9012c0d0348b6b0e09d9b9b0a5" resname="For your own security, we recommend that you change your Polar password before entering it here. After the successful import you can change the password back again.">
         <source>For your own security, we recommend that you change your Polar password before entering it here. After the successful import you can change the password back again.</source>
-        <target state="new">For your own security, we recommend that you change your Polar password before entering it here. After the successful import you can change the password back again.</target>
+        <target>For your own security, we recommend that you change your Polar password before entering it here. After the successful import you can change the password back again.</target>
         <jms:reference-file line="13">/Resources/views/tools/polar_import.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="a2f060b7363f54c9f80d62805d36636dd7ebc33c" resname="Forgot your password?">
@@ -1510,18 +1539,18 @@
       </trans-unit>
       <trans-unit id="89836a870e44fb467d13116254b39e2482f5cdf1" resname="Frequency">
         <source>Frequency</source>
-        <target state="new">Frequency</target>
+        <target>Frequency</target>
         <jms:reference-file line="119">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="02e68f4b1ffa77adb2cce2588a58c4b5b436ec38" resname="Garmin Connect - Password">
         <source>Garmin Connect - Password</source>
-        <target state="new">Garmin Connect - Password</target>
-        <jms:reference-file line="21">/Resources/views/tools/garmin_import.html.twig</jms:reference-file>
+        <target>Garmin Connect - Password</target>
+        <jms:reference-file line="23">/Resources/views/tools/garmin_import.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="10c03bd3cc643ca535d478ca4ed0f00bc843588b" resname="Garmin Connect - mail address">
         <source>Garmin Connect - mail address</source>
-        <target state="new">Garmin Connect - mail address</target>
-        <jms:reference-file line="20">/Resources/views/tools/garmin_import.html.twig</jms:reference-file>
+        <target>Garmin Connect - mail address</target>
+        <jms:reference-file line="22">/Resources/views/tools/garmin_import.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="9239ee2cda84eca4c3440e2a7b50148af67da3d4" resname="General">
         <source>General</source>
@@ -1585,6 +1614,16 @@
         <target>Go to database cleanup</target>
         <jms:reference-file line="19">/Resources/views/tools/backup/import_finish.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="2b681c0a24baff8899d7163cc7f805c75e1f44e4" resname="Google">
+        <source>Google</source>
+        <target state="new">Google</target>
+        <jms:reference-file line="75">/Resources/views/shared/base.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="8297bb17c6aa1537d802e8ab86dcd018ffb7b6d0" resname="Got it!">
+        <source>Got it!</source>
+        <target state="new">Got it!</target>
+        <jms:reference-file line="1">/Resources/views/_include/cookie_consent.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="36463cf8381e6e972d67a1b70c482d9fb836b2b0" resname="Gradient">
         <source>Gradient</source>
         <target>Gradient</target>
@@ -1612,8 +1651,8 @@
       </trans-unit>
       <trans-unit id="cdd47ddee20e4e846b7d0b733f33eafa9b6595fc" resname="Group alternative sports">
         <source>Group alternative sports</source>
-        <target state="new">Group alternative sports</target>
-        <jms:reference-file line="149">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
+        <target>Group alternative sports</target>
+        <jms:reference-file line="152">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="f187928fdb223e7f3b7b0396e72e2d59a5f12b29" resname="HR">
         <source>HR</source>
@@ -1628,6 +1667,9 @@
       <trans-unit id="410aa15cdff51446fb351cdc0b289f49b9a9c690" resname="Heart rate">
         <source>Heart rate</source>
         <target>Пулс</target>
+        <jms:reference-file line="109">/../src/CoreBundle/Services/Export/SocialShareImageFactory.php</jms:reference-file>
+        <jms:reference-file line="110">/../src/CoreBundle/Services/Export/SocialShareImageFactory.php</jms:reference-file>
+        <jms:reference-file line="88">/../src/CoreBundle/Services/Export/SocialShareImageFactory.php</jms:reference-file>
         <jms:reference-file line="119">/Resources/views/activity/tool/time_series_statistics.html.twig</jms:reference-file>
         <jms:reference-file line="49">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
         <jms:reference-file line="46">/Resources/views/shared/widget/iframe/base.html.twig</jms:reference-file>
@@ -1635,7 +1677,7 @@
       </trans-unit>
       <trans-unit id="c9a7cc8772f72f8695c5c579c5d1c6e0858b563b" resname="Heart rate zones">
         <source>Heart rate zones</source>
-        <target state="new">Heart rate zones</target>
+        <target>Heart rate zones</target>
         <jms:reference-file line="124">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="664e1218d22b9caa2aab7d79dccb4cf3aa202ab6" resname="Heartrate">
@@ -1697,7 +1739,7 @@
       </trans-unit>
       <trans-unit id="9f573dd516c5fae818d100652937d22c8be8a33c" resname="Histograms">
         <source>Histograms</source>
-        <target state="new">Histograms</target>
+        <target>Histograms</target>
         <jms:reference-file line="84">/Resources/views/base_logged_in.twig</jms:reference-file>
         <jms:reference-file line="7">/Resources/views/tools/histograms/base.html.twig</jms:reference-file>
         <jms:reference-file line="10">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
@@ -1740,6 +1782,11 @@
         <jms:reference-file line="18">/Resources/views/mail/account/recoverPassword.html.twig</jms:reference-file>
         <jms:reference-file line="24">/Resources/views/mail/account/registration.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="9ae9e6692172cf89c8882636fb68e2f290f2d2f2" resname="If you are not a Paypal fan, then write us an email for alternatives">
+        <source>If you are not a Paypal fan, then write us an email for alternatives</source>
+        <target state="new">If you are not a Paypal fan, then write us an email for alternatives</target>
+        <jms:reference-file line="17">/Resources/views/static/donate.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="1837c484afb310300c040d3f5ebb38268d87e918" resname="If you choose this activity type it will automatically be marked as a race.">
         <source>If you choose this activity type it will automatically be marked as a race.</source>
         <target>If you choose this activity type it will automatically be marked as a race.</target>
@@ -1748,8 +1795,8 @@
       </trans-unit>
       <trans-unit id="de9c557a34b35731c713849662f6a477ef7841f2" resname="If you connect with Dropbox and add activity files to the App folder &quot;RUNALYZE&quot;, RUNALYZE will import them automatically into your account">
         <source>If you connect with Dropbox and add activity files to the App folder "RUNALYZE", RUNALYZE will import them automatically into your account</source>
-        <target state="new">If you connect with Dropbox and add activity files to the App folder "RUNALYZE", RUNALYZE will import them automatically into your account</target>
-        <jms:reference-file line="90">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
+        <target>If you connect with Dropbox and add activity files to the App folder "RUNALYZE", RUNALYZE will import them automatically into your account</target>
+        <jms:reference-file line="93">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="7dec91fe435f28f66a53ff83c9589b3cd8719db6" resname="If you delete an equipment category all objects in this category and all relations between your activities and these objects will be deleted.">
         <source>If you delete an equipment category all objects in this category and all relations between your activities and these objects will be deleted.</source>
@@ -1766,11 +1813,6 @@
         <target>If you participate in an event multiple times you should always enter the same name, i.e. don't append the event's number or year.</target>
         <jms:reference-file line="14">/Resources/views/my/raceresult/form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="a0ece67c227c88a33050357219165e21dc7e277e" resname="If you shop via Amazon you can use the following affiliate link. We get a pro-rata commission but the price remains the same for you.">
-        <source>If you shop via Amazon you can use the following affiliate link. We get a pro-rata commission but the price remains the same for you.</source>
-        <target>If you shop via Amazon you can use the following affiliate link. We get a pro-rata commission but the price remains the same for you.</target>
-        <jms:reference-file line="26">/Resources/views/static/donate.html.twig</jms:reference-file>
-      </trans-unit>
       <trans-unit id="1bee50d5c852cd41b4ad1ba2b896c01a0bc21c60" resname="If you turn off our mail notification you will not be informed about new features and changes at RUNALYZE">
         <source>If you turn off our mail notification you will not be informed about new features and changes at RUNALYZE</source>
         <target>If you turn off our mail notification you will not be informed about new features and changes at RUNALYZE</target>
@@ -1783,8 +1825,14 @@
       </trans-unit>
       <trans-unit id="4e9320568a338e31a768a61dcea039413731ef61" resname="If your account is connected with Facebook or Google you can easily login without a password.">
         <source>If your account is connected with Facebook or Google you can easily login without a password.</source>
-        <target state="new">If your account is connected with Facebook or Google you can easily login without a password.</target>
+        <target>If your account is connected with Facebook or Google you can easily login without a password.</target>
         <jms:reference-file line="27">/Resources/views/settings/account.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c273466fba5158c5000aff1c2a1577072ae12a68" resname="If your activities will be not available within the next 24 hours please try the tool again on the next day.">
+        <source>If your activities will be not available within the next 24 hours please try the tool again on the next day.</source>
+        <target state="new">If your activities will be not available within the next 24 hours please try the tool again on the next day.</target>
+        <jms:reference-file line="39">/Resources/views/tools/garmin_import.html.twig</jms:reference-file>
+        <jms:reference-file line="39">/Resources/views/tools/polar_import.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="55a22e4c4815e7a6f655008a7679fd00b6271087" resname="Impact Gs">
         <source>Impact Gs</source>
@@ -1814,22 +1862,22 @@
       </trans-unit>
       <trans-unit id="aab0696f2c2ceae14cad7b18d72b03845d571d99" resname="Import data from Garmin Connect to RUNALYZE">
         <source>Import data from Garmin Connect to RUNALYZE</source>
-        <target state="new">Import data from Garmin Connect to RUNALYZE</target>
-        <jms:reference-file line="31">/Resources/views/tools/garmin_import.html.twig</jms:reference-file>
+        <target>Import data from Garmin Connect to RUNALYZE</target>
+        <jms:reference-file line="33">/Resources/views/tools/garmin_import.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="611426da6a5be2ffce687da4c94583023f5dfcbb" resname="Import data from Polar Flow to RUNALYZE">
         <source>Import data from Polar Flow to RUNALYZE</source>
-        <target state="new">Import data from Polar Flow to RUNALYZE</target>
-        <jms:reference-file line="31">/Resources/views/tools/polar_import.html.twig</jms:reference-file>
+        <target>Import data from Polar Flow to RUNALYZE</target>
+        <jms:reference-file line="33">/Resources/views/tools/polar_import.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="c8a91bedca4f676185c7c8c0c1680c0cfde79568" resname="Import full Polar Flow history">
         <source>Import full Polar Flow history</source>
-        <target state="new">Import full Polar Flow history</target>
+        <target>Import full Polar Flow history</target>
         <jms:reference-file line="5">/Resources/views/tools/polar_import.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="a17abeaec079b2bb4035f66ab69d016771240ae6" resname="Import full garmin history">
         <source>Import full garmin history</source>
-        <target state="new">Import full garmin history</target>
+        <target>Import full garmin history</target>
         <jms:reference-file line="5">/Resources/views/tools/garmin_import.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="ab155b67afc1209f5f911efd75c331b7fe996c76" resname="Import selected activities">
@@ -1886,7 +1934,7 @@
       </trans-unit>
       <trans-unit id="0ac2a3e65056a0290391a9d94433a1e1820d74bf" resname="Invalid date selection.">
         <source>Invalid date selection.</source>
-        <target state="new">Invalid date selection.</target>
+        <target>Invalid date selection.</target>
         <jms:reference-file line="125">/Resources/views/tools/histograms/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="8db1c5e073f92c7456efffd9b508f096bdd56d64" resname="Invalid token.">
@@ -1937,6 +1985,11 @@
         <target>Laps</target>
         <jms:reference-file line="82">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="824d76b124e6289f372e2ff6bcba91e8939343bd" resname="Learn more">
+        <source>Learn more</source>
+        <target state="new">Learn more</target>
+        <jms:reference-file line="1">/Resources/views/_include/cookie_consent.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="3bade34ecbc5d996b2f301ebd4ba689e81c7c9ea" resname="Length">
         <source>Length</source>
         <target>Length</target>
@@ -1967,7 +2020,7 @@
         <target>Login</target>
         <jms:reference-file line="11">/Resources/views/account/activate/base.html.twig</jms:reference-file>
         <jms:reference-file line="13">/Resources/views/account/recover/success.html.twig</jms:reference-file>
-        <jms:reference-file line="58">/Resources/views/base_not_logged_in.html.twig</jms:reference-file>
+        <jms:reference-file line="56">/Resources/views/base_not_logged_in.html.twig</jms:reference-file>
         <jms:reference-file line="34">/Resources/views/login/form.html.twig</jms:reference-file>
         <jms:reference-file line="6">/Resources/views/login/form.html.twig</jms:reference-file>
         <jms:reference-file line="51">/Resources/views/register/social_form.html.twig</jms:reference-file>
@@ -1975,19 +2028,19 @@
       </trans-unit>
       <trans-unit id="1f68826bf98a54c76bde968992ea40a2c6948141" resname="Login here and connect your account with %s">
         <source>Login here and connect your account with %s</source>
-        <target state="new">Login here and connect your account with %s</target>
+        <target>Login here and connect your account with %s</target>
         <jms:reference-file line="45">/Resources/views/register/social_form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="62aa3ae23ee04e30f09ba90a7872c7815b084fc0" resname="Login with Facebook">
         <source>Login with Facebook</source>
-        <target state="new">Login with Facebook</target>
-        <jms:reference-file line="60">/Resources/views/base_not_logged_in.html.twig</jms:reference-file>
+        <target>Login with Facebook</target>
+        <jms:reference-file line="57">/Resources/views/base_not_logged_in.html.twig</jms:reference-file>
         <jms:reference-file line="44">/Resources/views/login/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="802813e3c6d077a108da650c94eaa6c684160fb2" resname="Login with Google">
         <source>Login with Google</source>
-        <target state="new">Login with Google</target>
-        <jms:reference-file line="61">/Resources/views/base_not_logged_in.html.twig</jms:reference-file>
+        <target>Login with Google</target>
+        <jms:reference-file line="58">/Resources/views/base_not_logged_in.html.twig</jms:reference-file>
         <jms:reference-file line="45">/Resources/views/login/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="e43d612e11f1568f2373e719d4c4b08dcecdc7cc" resname="Logout">
@@ -1997,7 +2050,7 @@
       </trans-unit>
       <trans-unit id="fa97e5ff87bbfd25c0a543121be9bed62a255fec" resname="Look at how much you have trained over time.">
         <source>Look at how much you have trained over time.</source>
-        <target state="new">Look at how much you have trained over time.</target>
+        <target>Look at how much you have trained over time.</target>
         <jms:reference-file line="12">/Resources/views/tools/tools_list.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="4d3f8338b882b0a12b1754fc7b64acc24922fc09" resname="Looks like something went wrong here.">
@@ -2016,6 +2069,7 @@
       <trans-unit id="92379cbb8ecf696194b47b619a87e9e4f9a75db2" resname="Mail">
         <source>Mail</source>
         <target>Mail</target>
+        <jms:reference-file line="32">/../src/CoreBundle/Form/RegistrationType.php</jms:reference-file>
         <jms:reference-file line="32">/../src/CoreBundle/Form/Settings/AccountType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="b1dcd2b52be5e5ce488acfd04796b6b3b6a842fd" resname="Main equipment">
@@ -2051,7 +2105,7 @@
       </trans-unit>
       <trans-unit id="ab478f3efc840eebab919dff1b9512286f70c10c" resname="Map">
         <source>Map</source>
-        <target state="new">Map</target>
+        <target>Map</target>
         <jms:reference-file line="101">/Resources/views/activity/tool/climb_score.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="c4ba0822462e0c373aadd5360a69f205c2a7d036" resname="Mar">
@@ -2109,7 +2163,7 @@
       <trans-unit id="082bc378cd60e17a38d99898b21955299c5b60c8" resname="Month">
         <source>Month</source>
         <target>Month</target>
-        <jms:reference-file line="140">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
+        <jms:reference-file line="141">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
         <jms:reference-file line="14">/Resources/views/my/panels/sports/base.html.twig</jms:reference-file>
         <jms:reference-file line="17">/Resources/views/my/panels/sports/base.html.twig</jms:reference-file>
       </trans-unit>
@@ -2158,8 +2212,8 @@
         <jms:reference-file line="26">/Resources/views/my/equipment/category/table.html.twig</jms:reference-file>
         <jms:reference-file line="68">/Resources/views/my/equipment/form-category.html.twig</jms:reference-file>
         <jms:reference-file line="16">/Resources/views/my/equipment/overview.html.twig</jms:reference-file>
-        <jms:reference-file line="25">/Resources/views/settings/app.html.twig</jms:reference-file>
-        <jms:reference-file line="65">/Resources/views/settings/app.html.twig</jms:reference-file>
+        <jms:reference-file line="22">/Resources/views/settings/app.html.twig</jms:reference-file>
+        <jms:reference-file line="62">/Resources/views/settings/app.html.twig</jms:reference-file>
         <jms:reference-file line="132">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
         <jms:reference-file line="36">/Resources/views/settings/sport/form-zone.html.twig</jms:reference-file>
         <jms:reference-file line="16">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
@@ -2188,7 +2242,7 @@
       </trans-unit>
       <trans-unit id="486829367591dc8209f3fc6960814c0bdd8930d1" resname="No account yet?">
         <source>No account yet?</source>
-        <target state="new">No account yet?</target>
+        <target>No account yet?</target>
         <jms:reference-file line="5">/Resources/views/shared/promote_register.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="5cc9013545b24e0b3d099697fcb2bcd06192ac09" resname="No activities found.">
@@ -2268,7 +2322,7 @@
       <trans-unit id="70440046a3dc2e079f23ee1c57dfa76669b732aa" resname="Notes">
         <source>Notes</source>
         <target>Бележки</target>
-        <jms:reference-file line="186">/../src/CoreBundle/Form/ActivityType.php</jms:reference-file>
+        <jms:reference-file line="192">/../src/CoreBundle/Form/ActivityType.php</jms:reference-file>
         <jms:reference-file line="66">/../src/CoreBundle/Form/BodyValuesType.php</jms:reference-file>
         <jms:reference-file line="80">/../src/CoreBundle/Form/EquipmentType.php</jms:reference-file>
         <jms:reference-file line="141">/Resources/views/activity/form.html.twig</jms:reference-file>
@@ -2326,13 +2380,18 @@
       <trans-unit id="d0e687b079fb70f2208d1f8d2c75d64d74925496" resname="Operator">
         <source>Operator</source>
         <target>Operator</target>
-        <jms:reference-file line="27">/Resources/views/settings/app.html.twig</jms:reference-file>
-        <jms:reference-file line="67">/Resources/views/settings/app.html.twig</jms:reference-file>
+        <jms:reference-file line="24">/Resources/views/settings/app.html.twig</jms:reference-file>
+        <jms:reference-file line="64">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="6bf5da9c080bee3a8142586c412aa39971137eee" resname="Options">
         <source>Options</source>
-        <target state="new">Options</target>
+        <target>Options</target>
         <jms:reference-file line="42">/Resources/views/tools/histograms/base.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7c1396cb92e3366d1b765f910dec95dd643fb2c3" resname="Or buy a RUNALYZE shirt">
+        <source>Or buy a RUNALYZE shirt</source>
+        <target state="new">Or buy a RUNALYZE shirt</target>
+        <jms:reference-file line="27">/Resources/views/static/donate.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1d75774c0f96b6ee44eb6643c9fea71b50b90ea8" resname="Order">
         <source>Order</source>
@@ -2371,6 +2430,7 @@
         <source>Pace</source>
         <target>Pace</target>
         <jms:reference-file line="107">/../src/CoreBundle/Form/ActivityType.php</jms:reference-file>
+        <jms:reference-file line="84">/../src/CoreBundle/Services/Export/SocialShareImageFactory.php</jms:reference-file>
         <jms:reference-file line="45">/Resources/views/activity/tool/best_sub_segments.html.twig</jms:reference-file>
         <jms:reference-file line="80">/Resources/views/activity/tool/climb_score.html.twig</jms:reference-file>
         <jms:reference-file line="103">/Resources/views/activity/tool/time_series_statistics.html.twig</jms:reference-file>
@@ -2380,7 +2440,7 @@
       </trans-unit>
       <trans-unit id="4c8282a6c5d0fef3792d73db3bf893560383812e" resname="Pace zones">
         <source>Pace zones</source>
-        <target state="new">Pace zones</target>
+        <target>Pace zones</target>
         <jms:reference-file line="125">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="bc3023b36063a7681db24681472b54fa11f0d4ec" resname="Page not found">
@@ -2408,11 +2468,18 @@
         <target>Participants total</target>
         <jms:reference-file line="26">/Resources/views/my/raceresult/form.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="d62f8d129e74ce779676dab8acccef392e767ee0" resname="Partner link">
+        <source>Partner link</source>
+        <target state="new">Partner link</target>
+        <jms:reference-file line="27">/Resources/views/affiliate/amazon.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="8be3c943b1609fffbfc51aad666d0a04adf83c9d" resname="Password">
         <source>Password</source>
         <target>Парола</target>
-        <jms:reference-file line="33">/../src/CoreBundle/Form/RegistrationType.php</jms:reference-file>
+        <jms:reference-file line="37">/../src/CoreBundle/Form/RegistrationType.php</jms:reference-file>
+        <jms:reference-file line="39">/../src/CoreBundle/Form/RegistrationType.php</jms:reference-file>
         <jms:reference-file line="14">/Resources/views/login/form.html.twig</jms:reference-file>
+        <jms:reference-file line="15">/Resources/views/login/form.html.twig</jms:reference-file>
         <jms:reference-file line="59">/Resources/views/register/social_form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="591d7d05f9b355f6cb1637138c82c3609c012429" resname="Password reset">
@@ -2455,7 +2522,7 @@
       <trans-unit id="b80c48588926e2075355e3b909a4f8a7b509cc22" resname="Please activate your RUNALYZE account">
         <source>Please activate your RUNALYZE account</source>
         <target>Моля  активирайте Вашият RUNALYZE акаунт</target>
-        <jms:reference-file line="89">/../src/CoreBundle/Services/AccountMailer.php</jms:reference-file>
+        <jms:reference-file line="95">/../src/CoreBundle/Services/AccountMailer.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="8449737eec5e12184fbad629cb0f34886da28157" resname="Please activate your account by clicking the link below.">
         <source>Please activate your account by clicking the link below.</source>
@@ -2474,7 +2541,7 @@
       </trans-unit>
       <trans-unit id="9c23fbda5fffc6489d9836a4b2c4800141446aae" resname="Please use the %forum%forum%end% or %facebook%Facebook Group%end% for any support question.">
         <source>Please use the %forum%forum%end% or %facebook%Facebook Group%end% for any support question.</source>
-        <target state="new">Please use the %forum%forum%end% or %facebook%Facebook Group%end% for any support question.</target>
+        <target>Please use the %forum%forum%end% or %facebook%Facebook Group%end% for any support question.</target>
         <jms:reference-file line="14">/Resources/views/feedback.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="80c94c4a4b8b317f1130bd6b96e7b78502ac4b3a" resname="Please use the plugin">
@@ -2503,13 +2570,13 @@
       </trans-unit>
       <trans-unit id="aee7462cabe5d0a4338067708a49c7d4093ff79a" resname="Polar Flow - mail address">
         <source>Polar Flow - mail address</source>
-        <target state="new">Polar Flow - mail address</target>
-        <jms:reference-file line="20">/Resources/views/tools/polar_import.html.twig</jms:reference-file>
+        <target>Polar Flow - mail address</target>
+        <jms:reference-file line="22">/Resources/views/tools/polar_import.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="05df3f5b3f2c0f8899e6238492a8f6817aa778dd" resname="Polar Flow- Password">
         <source>Polar Flow- Password</source>
-        <target state="new">Polar Flow- Password</target>
-        <jms:reference-file line="21">/Resources/views/tools/polar_import.html.twig</jms:reference-file>
+        <target>Polar Flow- Password</target>
+        <jms:reference-file line="23">/Resources/views/tools/polar_import.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="61644a229068e93847aa3a6d47b72fb7f23c6058" resname="Portable backup (*.json.gz)">
         <source>Portable backup (*.json.gz)</source>
@@ -2537,6 +2604,7 @@
         <source>Power</source>
         <target>Power</target>
         <jms:reference-file line="143">/../src/CoreBundle/Form/ActivityType.php</jms:reference-file>
+        <jms:reference-file line="108">/../src/CoreBundle/Services/Export/SocialShareImageFactory.php</jms:reference-file>
         <jms:reference-file line="151">/Resources/views/activity/tool/time_series_statistics.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="fa3a426b921fd47bc5ade4b57bf320043d0f7eea" resname="Power is recorded or calculated.">
@@ -2546,7 +2614,7 @@
       </trans-unit>
       <trans-unit id="61d98a4adf99356f2e7b66a0efa3e5101c26a995" resname="Power zones">
         <source>Power zones</source>
-        <target state="new">Power zones</target>
+        <target>Power zones</target>
         <jms:reference-file line="126">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="4eb004caa682a0a83804b6fb256eac0d8a9930ac" resname="Predict results on different distances for a given VO2max.">
@@ -2681,7 +2749,7 @@
       <trans-unit id="6643dce8e4d3c9b96317eee572d9ea0ae4d49e57" resname="Race">
         <source>Race</source>
         <target>Race</target>
-        <jms:reference-file line="220">/../src/CoreBundle/Form/ActivityType.php</jms:reference-file>
+        <jms:reference-file line="226">/../src/CoreBundle/Form/ActivityType.php</jms:reference-file>
         <jms:reference-file line="108">/../src/CoreBundle/Form/Tools/PosterType.php</jms:reference-file>
         <jms:reference-file line="25">/Resources/views/tools/vo2max_analysis.html.twig</jms:reference-file>
       </trans-unit>
@@ -2763,19 +2831,20 @@
       </trans-unit>
       <trans-unit id="14929bd0fb9ba0ebbee5c8791156eb35dc2ad8c1" resname="Register with Facebook">
         <source>Register with Facebook</source>
-        <target state="new">Register with Facebook</target>
+        <target>Register with Facebook</target>
         <jms:reference-file line="58">/Resources/views/register/form.html.twig</jms:reference-file>
         <jms:reference-file line="9">/Resources/views/shared/promote_register.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="b1f86a6b0e60fc56a3bb2527f27bdd9b7d85097b" resname="Register with Google">
         <source>Register with Google</source>
-        <target state="new">Register with Google</target>
+        <target>Register with Google</target>
         <jms:reference-file line="59">/Resources/views/register/form.html.twig</jms:reference-file>
         <jms:reference-file line="10">/Resources/views/shared/promote_register.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="ce960989a735fd815f5ddceb851b449a93bd60e5" resname="Register with mail">
         <source>Register with mail</source>
-        <target state="new">Register with mail</target>
+        <target>Register with mail</target>
+        <jms:reference-file line="72">/Resources/views/shared/base.html.twig</jms:reference-file>
         <jms:reference-file line="7">/Resources/views/shared/promote_register.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="6761e2071d6eb623b788580077c6a7b0007b04ed" resname="Registrations are currently disabled.">
@@ -2792,7 +2861,7 @@
       <trans-unit id="e963907dac5cd5c017869b4c96c18021c9bd058b" resname="Remove">
         <source>Remove</source>
         <target>Remove</target>
-        <jms:reference-file line="44">/Resources/views/settings/app.html.twig</jms:reference-file>
+        <jms:reference-file line="41">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="51daaecafcd288a24d18949f5c3ac96972840e43" resname="Remove all weather data">
         <source>Remove all weather data</source>
@@ -2802,13 +2871,13 @@
       <trans-unit id="7312a31a2c880f2d456663b6f91ad6da980b3a5e" resname="Remove connection">
         <source>Remove connection</source>
         <target>Remove connection</target>
-        <jms:reference-file line="29">/Resources/views/settings/app.html.twig</jms:reference-file>
+        <jms:reference-file line="26">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="f3c519b57ea1e4f9a3d32f51bcf082e3edec886a" resname="Remove data series">
         <source>Remove data series</source>
         <target>Remove data series</target>
-        <jms:reference-file line="317">/../src/CoreBundle/Form/ActivityType.php</jms:reference-file>
-        <jms:reference-file line="199">/Resources/views/activity/form.html.twig</jms:reference-file>
+        <jms:reference-file line="323">/../src/CoreBundle/Form/ActivityType.php</jms:reference-file>
+        <jms:reference-file line="201">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="366c2415f45eda358aa31b5d67c61f41a43a2bd0" resname="Repeat password">
         <source>Repeat password</source>
@@ -2835,7 +2904,7 @@
       <trans-unit id="b315861efa254a5a1c159e993e915f17811f25c8" resname="Reset your RUNALYZE password">
         <source>Reset your RUNALYZE password</source>
         <target>Променете Вашата парола в RUNALYZE</target>
-        <jms:reference-file line="99">/../src/CoreBundle/Services/AccountMailer.php</jms:reference-file>
+        <jms:reference-file line="105">/../src/CoreBundle/Services/AccountMailer.php</jms:reference-file>
         <jms:reference-file line="3">/Resources/views/mail/account/deleteAccountRequest.html.twig</jms:reference-file>
         <jms:reference-file line="15">/Resources/views/mail/account/recoverPassword.html.twig</jms:reference-file>
         <jms:reference-file line="3">/Resources/views/mail/account/recoverPassword.html.twig</jms:reference-file>
@@ -2859,7 +2928,7 @@
       <trans-unit id="4999528efe0f94f8f66b1dc05aad8ebaaae7b2be" resname="Route">
         <source>Route</source>
         <target>Route</target>
-        <jms:reference-file line="192">/../src/CoreBundle/Form/ActivityType.php</jms:reference-file>
+        <jms:reference-file line="198">/../src/CoreBundle/Form/ActivityType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="f2098c831055029efd725ad3c074dad9e868758b" resname="RunScribe">
         <source>RunScribe</source>
@@ -2920,7 +2989,7 @@
       <trans-unit id="efc007a393f66cdb14d57d385822a3d9e36ef873" resname="Save">
         <source>Save</source>
         <target>Запази</target>
-        <jms:reference-file line="224">/Resources/views/activity/form.html.twig</jms:reference-file>
+        <jms:reference-file line="226">/Resources/views/activity/form.html.twig</jms:reference-file>
         <jms:reference-file line="53">/Resources/views/my/body-values/form.html.twig</jms:reference-file>
         <jms:reference-file line="38">/Resources/views/my/raceresult/form.html.twig</jms:reference-file>
         <jms:reference-file line="82">/Resources/views/settings/account.html.twig</jms:reference-file>
@@ -2931,7 +3000,7 @@
       <trans-unit id="3b033f4c0bb998c03df5cc509c9d51edc69a3fbb" resname="Save and continue">
         <source>Save and continue</source>
         <target>Save and continue</target>
-        <jms:reference-file line="255">/Resources/views/activity/form.html.twig</jms:reference-file>
+        <jms:reference-file line="257">/Resources/views/activity/form.html.twig</jms:reference-file>
         <jms:reference-file line="42">/Resources/views/activity/multi_editor_navigation.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="f6e83824ac208e82ca136af4fb425962524f5819" resname="Search activities">
@@ -2978,7 +3047,7 @@
       </trans-unit>
       <trans-unit id="07af1543391db1cf73185b3b61c280f38d02f936" resname="Several tags can be assigned to one activity, such that cumulative values can exceed actual sums.">
         <source>Several tags can be assigned to one activity, such that cumulative values can exceed actual sums.</source>
-        <target state="new">Several tags can be assigned to one activity, such that cumulative values can exceed actual sums.</target>
+        <target>Several tags can be assigned to one activity, such that cumulative values can exceed actual sums.</target>
         <jms:reference-file line="126">/Resources/views/tools/histograms/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="ea5c1a20b7cfcfec8a35fb4c6a419a1314233755" resname="Shape">
@@ -3066,17 +3135,17 @@
       <trans-unit id="4e71d8174bff65cdcf473b446af5e8b12aba73f2" resname="Sign up now">
         <source>Sign up now</source>
         <target>Sign up now</target>
-        <jms:reference-file line="56">/Resources/views/base_not_logged_in.html.twig</jms:reference-file>
+        <jms:reference-file line="55">/Resources/views/base_not_logged_in.html.twig</jms:reference-file>
         <jms:reference-file line="5">/Resources/views/register/mail_delivered.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="741e1366a4ee833eabf43cbb247140893096a0c8" resname="Sign up now for free">
         <source>Sign up now for free</source>
-        <target state="new">Sign up now for free</target>
+        <target>Sign up now for free</target>
         <jms:reference-file line="5">/Resources/views/shared/promote_register.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="fd6ea42b031542437db52b7fca891afe96f03afe" resname="Sign up via %s">
         <source>Sign up via %s</source>
-        <target state="new">Sign up via %s</target>
+        <target>Sign up via %s</target>
         <jms:reference-file line="14">/Resources/views/register/social_form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="68e3e01b2c0b7734a576d1d4b77634823fab87c1" resname="Single choice">
@@ -3097,7 +3166,7 @@
       </trans-unit>
       <trans-unit id="5f33fa8e23427e581ae9c42996441e9d76aa6e6f" resname="Social Login">
         <source>Social Login</source>
-        <target state="new">Social Login</target>
+        <target>Social Login</target>
         <jms:reference-file line="26">/Resources/views/settings/account.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="22959ede33b65d25ed4762705597fb8b954d3a6b" resname="Sorry!">
@@ -3157,8 +3226,8 @@
       </trans-unit>
       <trans-unit id="9eafca4643813baaae2f7a9fede6aaccb01f75bd" resname="Stacked">
         <source>Stacked</source>
-        <target state="new">Stacked</target>
-        <jms:reference-file line="145">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
+        <target>Stacked</target>
+        <jms:reference-file line="148">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="63d361c2dda8c15f5c99600e15d79605b777fc26" resname="Standard calculation: As race result">
         <source>Standard calculation: As race result</source>
@@ -3226,7 +3295,7 @@
       <trans-unit id="39d5bff319cc5c15e2fd69f0f4f08fd99d85e69f" resname="Supported apps">
         <source>Supported apps</source>
         <target>Supported apps</target>
-        <jms:reference-file line="53">/Resources/views/settings/app.html.twig</jms:reference-file>
+        <jms:reference-file line="50">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="c2e3464e3e2954f6c67c23a2e753e72ce42873be" resname="Supported file extensions">
         <source>Supported file extensions</source>
@@ -3247,6 +3316,7 @@
         <source>TRIMP</source>
         <target>TRIMP</target>
         <jms:reference-file line="122">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
+        <jms:reference-file line="91">/../src/CoreBundle/Services/Export/SocialShareImageFactory.php</jms:reference-file>
         <jms:reference-file line="49">/Resources/views/shared/widget/iframe/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="8d7f493ce3b233d18371138c9c876de7fd8d8419" resname="TRIMP/ATL/CTL/TSB">
@@ -3273,7 +3343,7 @@
       <trans-unit id="28a77a3fda3cf84999df4daf902b1fe9f72999e0" resname="Take a look at our privacy policy.">
         <source>Take a look at our privacy policy.</source>
         <target>Take a look at our privacy policy.</target>
-        <jms:reference-file line="39">/Resources/views/register/form.html.twig</jms:reference-file>
+        <jms:reference-file line="40">/Resources/views/register/form.html.twig</jms:reference-file>
         <jms:reference-file line="26">/Resources/views/register/social_form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="cbd7668f12692a2f8853cd747d8a8f490bc7ab04" resname="Tax identification number">
@@ -3389,6 +3459,11 @@
         <source>The distance correction for elevation is not used in this table.</source>
         <target>The distance correction for elevation is not used in this table.</target>
         <jms:reference-file line="93">/Resources/views/tools/vo2max_analysis.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="05e6d3dbd3b7a2471e096336769d740a2feed8da" resname="The evaluations only take the average values of activities into account.">
+        <source>The evaluations only take the average values of activities into account.</source>
+        <target state="new">The evaluations only take the average values of activities into account.</target>
+        <jms:reference-file line="127">/Resources/views/tools/histograms/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="a1473df39870f5d41afd2736ef2c4fb13cb799d5" resname="The information will be shown directly in the row.">
         <source>The information will be shown directly in the row.</source>
@@ -3530,11 +3605,6 @@
         <target>This correction method is currently unused.</target>
         <jms:reference-file line="93">/Resources/views/activity/vo2max_info.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="9df44da1f23d6cfd974ec5804862bf48d54a439c" resname="This feature is still in beta phase">
-        <source>This feature is still in beta phase</source>
-        <target>This feature is still in beta phase</target>
-        <jms:reference-file line="11">/Resources/views/settings/app.html.twig</jms:reference-file>
-      </trans-unit>
       <trans-unit id="f242d0bc8f5c2c8a9e12b737e533464fb9d7670f" resname="This field is only meant for official track races such that distances can be shown correctly, e.g. as 10.000m. Use tags for all other purposes.">
         <source>This field is only meant for official track races such that distances can be shown correctly, e.g. as 10.000m. Use tags for all other purposes.</source>
         <target>This field is only meant for official track races such that distances can be shown correctly, e.g. as 10.000m. Use tags for all other purposes.</target>
@@ -3594,9 +3664,9 @@
       </trans-unit>
       <trans-unit id="50cbb9de0dc046cb38e3a332f5fbd87420911ea4" resname="This tool does not use an official interface and we cannot guarantee any functionality.">
         <source>This tool does not use an official interface and we cannot guarantee any functionality.</source>
-        <target state="new">This tool does not use an official interface and we cannot guarantee any functionality.</target>
-        <jms:reference-file line="40">/Resources/views/tools/garmin_import.html.twig</jms:reference-file>
-        <jms:reference-file line="41">/Resources/views/tools/polar_import.html.twig</jms:reference-file>
+        <target>This tool does not use an official interface and we cannot guarantee any functionality.</target>
+        <jms:reference-file line="14">/Resources/views/tools/garmin_import.html.twig</jms:reference-file>
+        <jms:reference-file line="14">/Resources/views/tools/polar_import.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="d1c0ea3c33ebb4d469fdf942621c45e76b1cf558" resname="This tool is not available for this activity.">
         <source>This tool is not available for this activity.</source>
@@ -3612,6 +3682,11 @@
         <source>This way of presentation allows to compare not only average values (e.g. pace over months) but deviations and outliers between different groupings.</source>
         <target>This way of presentation allows to compare not only average values (e.g. pace over months) but deviations and outliers between different groupings.</target>
         <jms:reference-file line="65">/Resources/views/tools/anova/base.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="57ad3c2b9e39c48682308fd775c9726ad0b3b1c8" resname="This website uses cookies to ensure you get the best experience on our website.">
+        <source>This website uses cookies to ensure you get the best experience on our website.</source>
+        <target state="new">This website uses cookies to ensure you get the best experience on our website.</target>
+        <jms:reference-file line="1">/Resources/views/_include/cookie_consent.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="4923d0bf817190c83a6b69dd0b6eeaea0b3b6d12" resname="This will not touch any general settings like gender or main sport.">
         <source>This will not touch any general settings like gender or main sport.</source>
@@ -3789,7 +3864,7 @@
       <trans-unit id="3dee6fe67e78e1aad983d72fcf11c290eb0c2891" resname="Use elevation correction">
         <source>Use elevation correction</source>
         <target>Use elevation correction</target>
-        <jms:reference-file line="183">/Resources/views/activity/form.html.twig</jms:reference-file>
+        <jms:reference-file line="185">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="337756d5a70064118bb4bf9797f01f352ad6fb52" resname="Used for age grading.">
         <source>Used for age grading.</source>
@@ -3804,6 +3879,8 @@
       <trans-unit id="84c29015de33e5d22422382a372caba5c58f8c01" resname="Username">
         <source>Username</source>
         <target>Username</target>
+        <jms:reference-file line="26">/../src/CoreBundle/Form/RegistrationType.php</jms:reference-file>
+        <jms:reference-file line="10">/Resources/views/login/form.html.twig</jms:reference-file>
         <jms:reference-file line="9">/Resources/views/login/form.html.twig</jms:reference-file>
         <jms:reference-file line="54">/Resources/views/register/social_form.html.twig</jms:reference-file>
       </trans-unit>
@@ -3895,7 +3972,7 @@
       <trans-unit id="bbbff8cf8603a8b44bf126217cf6ca8f8dc98ea7" resname="We don't support any app yet">
         <source>We don't support any app yet</source>
         <target>We don't support any app yet</target>
-        <jms:reference-file line="60">/Resources/views/settings/app.html.twig</jms:reference-file>
+        <jms:reference-file line="57">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="97286a2b91d94c57dcdfee7525a87c54bdbd02b7" resname="We give our best to make Runalyze as good as possible for you. - Therefore we would be interested in your suggestions for improvement.">
         <source>We give our best to make Runalyze as good as possible for you. - Therefore we would be interested in your suggestions for improvement.</source>
@@ -3935,7 +4012,7 @@
       <trans-unit id="de335fb3773bd4e42d6ad16c2ddb458bb8ee6679" resname="We will support more apps soon">
         <source>We will support more apps soon</source>
         <target>We will support more apps soon</target>
-        <jms:reference-file line="57">/Resources/views/settings/app.html.twig</jms:reference-file>
+        <jms:reference-file line="54">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="284af3e8882bbc45760521be2f100a2d104ff5d8" resname="Weather">
         <source>Weather</source>
@@ -3948,14 +4025,19 @@
       <trans-unit id="2e8a57cc5c472f4ac3b071979a38e80db7e59e87" resname="Website">
         <source>Website</source>
         <target>Website</target>
-        <jms:reference-file line="26">/Resources/views/settings/app.html.twig</jms:reference-file>
-        <jms:reference-file line="66">/Resources/views/settings/app.html.twig</jms:reference-file>
+        <jms:reference-file line="23">/Resources/views/settings/app.html.twig</jms:reference-file>
+        <jms:reference-file line="63">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="f82be68a7fb4e7dec88f27463de94ad355242ee5" resname="Week">
         <source>Week</source>
         <target>Week</target>
-        <jms:reference-file line="139">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
+        <jms:reference-file line="140">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
         <jms:reference-file line="16">/Resources/views/my/panels/sports/base.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="beb258e968b165693a686b45518c3c9dc838f4e6" resname="Weekday">
+        <source>Weekday</source>
+        <target state="new">Weekday</target>
+        <jms:reference-file line="143">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="69c0b81540bd6771fbae52b1e5922cfd40155633" resname="Weight">
         <source>Weight</source>
@@ -3971,12 +4053,12 @@
       </trans-unit>
       <trans-unit id="9f5455d792ebfb3bf6b395b4258a0baf57f3c5db" resname="Welcome! You have successfully activated your account.">
         <source>Welcome! You have successfully activated your account.</source>
-        <target state="new">Welcome! You have successfully activated your account.</target>
+        <target>Welcome! You have successfully activated your account.</target>
         <jms:reference-file line="28">/../src/CoreBundle/Component/Notifications/Message/AccountActivatedMessage.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="265fa79d00b3ce10031adf19a25c53c227eb0abc" resname="When evaluating zones, only a single sport can be considered.">
         <source>When evaluating zones, only a single sport can be considered.</source>
-        <target state="new">When evaluating zones, only a single sport can be considered.</target>
+        <target>When evaluating zones, only a single sport can be considered.</target>
         <jms:reference-file line="127">/Resources/views/tools/histograms/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="37619fc13053f82b7cb7da3d24ceb1598ab6d05c" resname="White">
@@ -4007,7 +4089,7 @@
       <trans-unit id="879e32326c5217968ac8e3a14e4a8a5214957264" resname="Year">
         <source>Year</source>
         <target>Year</target>
-        <jms:reference-file line="141">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
+        <jms:reference-file line="142">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
         <jms:reference-file line="18">/Resources/views/my/panels/sports/base.html.twig</jms:reference-file>
         <jms:reference-file line="26">/Resources/views/my/raceresult/performance_chart.html.twig</jms:reference-file>
       </trans-unit>
@@ -4030,9 +4112,9 @@
       <trans-unit id="be543145a0a636eba462cebeb353771fb69c7e89" resname="Yes! I would like to receive updates about RUNALYZE via Mail">
         <source>Yes! I would like to receive updates about RUNALYZE via Mail</source>
         <target>Yes! I would like to receive updates about RUNALYZE via Mail</target>
-        <jms:reference-file line="43">/../src/CoreBundle/Form/RegistrationType.php</jms:reference-file>
+        <jms:reference-file line="51">/../src/CoreBundle/Form/RegistrationType.php</jms:reference-file>
         <jms:reference-file line="32">/../src/CoreBundle/Form/SocialRegistrationType.php</jms:reference-file>
-        <jms:reference-file line="32">/Resources/views/register/form.html.twig</jms:reference-file>
+        <jms:reference-file line="33">/Resources/views/register/form.html.twig</jms:reference-file>
         <jms:reference-file line="19">/Resources/views/register/social_form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="6936623413cdcdf09a4f6d04f0a266f83e3e67a1" resname="You are not logged in anymore.">
@@ -4161,7 +4243,7 @@
       <trans-unit id="58861c01e754722311116ab82bb61f3ca0d496d7" resname="You don't have any apps associated with your account.">
         <source>You don't have any apps associated with your account.</source>
         <target>You don't have any apps associated with your account.</target>
-        <jms:reference-file line="20">/Resources/views/settings/app.html.twig</jms:reference-file>
+        <jms:reference-file line="17">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="68cde17ce53f23a49f91c8da4f94274a53ba55c1" resname="You don't have any equipment so far.">
         <source>You don't have any equipment so far.</source>
@@ -4204,7 +4286,7 @@
       <trans-unit id="18863791bf142a030d9496505dc6df5fcf0d074a" resname="You may want to remove a data series if a sensor, e.g. your heart rate strap, produced unusable data.">
         <source>You may want to remove a data series if a sensor, e.g. your heart rate strap, produced unusable data.</source>
         <target>You may want to remove a data series if a sensor, e.g. your heart rate strap, produced unusable data.</target>
-        <jms:reference-file line="203">/Resources/views/activity/form.html.twig</jms:reference-file>
+        <jms:reference-file line="205">/Resources/views/activity/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="ab1c7ebfd81b3ac7df302fe951b5213c20367b15" resname="You requested posters could not be generated.">
         <source>You requested posters could not be generated.</source>
@@ -4213,7 +4295,7 @@
       </trans-unit>
       <trans-unit id="ac439d3f46b171a3307cf3b048ff7ebc508091e9" resname="You will be logged in automatically in a few seconds.">
         <source>You will be logged in automatically in a few seconds.</source>
-        <target state="new">You will be logged in automatically in a few seconds.</target>
+        <target>You will be logged in automatically in a few seconds.</target>
         <jms:reference-file line="13">/Resources/views/account/activate/success.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="f8a7bcbb755b913dfdb3a54b3e2d05201afd45a6" resname="You'll receive an email with a link to confirm the deletion.">
@@ -4223,7 +4305,7 @@
       </trans-unit>
       <trans-unit id="1a7728bd510c636b676ced10e41bb258fbe8d2f5" resname="You're almost there. All we need is a username.">
         <source>You're almost there. All we need is a username.</source>
-        <target state="new">You're almost there. All we need is a username.</target>
+        <target>You're almost there. All we need is a username.</target>
         <jms:reference-file line="12">/Resources/views/register/social_form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="65124d691f26c0873e5f27eee57ddcf5679b9f43" resname="Your &lt;strong&gt;Acute Training Load&lt;/strong&gt;, ATL, also fatigue, is based on the sum of your last TRIMP values in a short period, e.g. for seven days.">
@@ -4275,12 +4357,12 @@
       </trans-unit>
       <trans-unit id="656f3943b7292950dea40f711dc5b9f8730f4529" resname="Your account is now connected to Dropbox and activities will be synchronized soon.">
         <source>Your account is now connected to Dropbox and activities will be synchronized soon.</source>
-        <target state="new">Your account is now connected to Dropbox and activities will be synchronized soon.</target>
+        <target>Your account is now connected to Dropbox and activities will be synchronized soon.</target>
         <jms:reference-file line="28">/../src/CoreBundle/Component/Notifications/Message/OAuthDropboxConnectedMessage.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="ce2483556fd7770fc2f4455e29c7ceefcb04d13b" resname="Your account is now connected to Fitbit and activities will be synchronized soon.">
         <source>Your account is now connected to Fitbit and activities will be synchronized soon.</source>
-        <target state="new">Your account is now connected to Fitbit and activities will be synchronized soon.</target>
+        <target>Your account is now connected to Fitbit and activities will be synchronized soon.</target>
         <jms:reference-file line="28">/../src/CoreBundle/Component/Notifications/Message/OAuthFitbitConnectedMessage.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="39d8da41e3bfc167e8fd723027b45b58c3faed94" resname="Your account is now connected to Garmin Connect and activities will be synchronized.">
@@ -4291,7 +4373,7 @@
       </trans-unit>
       <trans-unit id="d66d01855c10014ca66c2eab80de0fdbbff982d9" resname="Your account is now connected to Polar Flow and activities will be synchronized soon.">
         <source>Your account is now connected to Polar Flow and activities will be synchronized soon.</source>
-        <target state="new">Your account is now connected to Polar Flow and activities will be synchronized soon.</target>
+        <target>Your account is now connected to Polar Flow and activities will be synchronized soon.</target>
         <jms:reference-file line="28">/../src/CoreBundle/Component/Notifications/Message/OAuthPolarFlowConnectedMessage.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="867e4f330e5ac0354309b71bfc1ff48598dca888" resname="Your backup has been generated and is now available for download.">
@@ -4482,7 +4564,7 @@
       </trans-unit>
       <trans-unit id="86d3bfb618a7b1cdf79d8b755c077e40a4b5de5d" resname="collapse">
         <source>collapse</source>
-        <target state="new">collapse</target>
+        <target>collapse</target>
         <jms:reference-file line="96">/Resources/views/activity/tool/climb_score.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="7cc73f637d7634fd0b4b3baab8388647997f7d22" resname="corrected">
@@ -4519,7 +4601,7 @@
       </trans-unit>
       <trans-unit id="0bf04e42d3807913b6f7c1b76508534bf5b1ebaa" resname="expand">
         <source>expand</source>
-        <target state="new">expand</target>
+        <target>expand</target>
         <jms:reference-file line="97">/Resources/views/activity/tool/climb_score.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1eb09049303a2efb51cae050f56b4974e77d23eb" resname="first active">
@@ -4581,7 +4663,7 @@
       </trans-unit>
       <trans-unit id="42ed73099b6dc28ee4f416c12bf2b5ba16a3ed19" resname="last 24 months">
         <source>last 24 months</source>
-        <target state="new">last 24 months</target>
+        <target>last 24 months</target>
         <jms:reference-file line="62">/Resources/views/_macro/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="d0b686573b6327149577694ffc41670eb86c876f" resname="last 6 months">
@@ -4691,6 +4773,11 @@
         <jms:reference-file line="55">/Resources/views/register/form.html.twig</jms:reference-file>
         <jms:reference-file line="8">/Resources/views/shared/promote_register.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="8db20c223216e5cee3d12ba5d63b4366c72f2548" resname="or sign in with">
+        <source>or sign in with</source>
+        <target state="new">or sign in with</target>
+        <jms:reference-file line="73">/Resources/views/shared/base.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="a9c95f6de85153ced2785347e6bddca700312b88" resname="per page">
         <source>per page</source>
         <target>per page</target>
@@ -4758,6 +4845,12 @@
         <target>standard deviation</target>
         <jms:reference-file line="93">/Resources/views/activity/tool/time_series_statistics.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="786f0ed95a949ed86fa180801d114d5051e41805" resname="starting at">
+        <source>starting at</source>
+        <target state="new">starting at</target>
+        <jms:reference-file line="14">/Resources/views/affiliate/amazon.html.twig</jms:reference-file>
+        <jms:reference-file line="16">/Resources/views/affiliate/amazon.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="3cfc48e737ec9216427075c3497e8e888c506049" resname="std. dev.">
         <source>std. dev.</source>
         <target>std. dev.</target>
@@ -4777,7 +4870,7 @@
       </trans-unit>
       <trans-unit id="0d4e654c613ea68bffeeab1587b7dbac44826c2b" resname="without">
         <source>without</source>
-        <target state="new">without</target>
+        <target>without</target>
         <jms:reference-file line="124">/Resources/views/tools/histograms/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="e738fc45a698ea2e157e03bdc8178871daffbeb0" resname="x-times">
