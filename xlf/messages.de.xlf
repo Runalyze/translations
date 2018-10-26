@@ -728,7 +728,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="7653de6e384e9cb663ae64974403b72ac85790ad" resname="Choose the correct type for the equipment">
         <source>Choose the correct type for the equipment</source>
-        <target>Wählen den richtigen Typ für die Ausrüstung</target>
+        <target>Wähle den richtigen Typ für die Ausrüstung</target>
         <jms:reference-file line="25">/Resources/views/my/equipment/form-category.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="6d3d5991f4ad692df57f1270ccf27c5891b6640e" resname="Choose year">
