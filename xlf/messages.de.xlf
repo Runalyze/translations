@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
   <file date="2018-10-26T13:14:09Z" source-language="en" target-language="de" datatype="plaintext" original="not.available">
     <header>
@@ -7,8 +7,8 @@
     </header>
     <body>
       <trans-unit id="da39a3ee5e6b4b0d3255bfef95601890afd80709" resname="">
-        <source></source>
-        <target></target>
+        <source/>
+        <target/>
         <jms:reference-file line="131">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="51cdaa070e7ba82f95b3c3af335b0f6417648c02" resname="                            The file has to be created with the same (minor) version of RUNALYZE.&lt;br&gt;&#10;                            You won't be able to import a file from older versions.&#10;                        ">
@@ -820,12 +820,12 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="f7297bfe82ef00d0449821f123fccee1cc4573df" resname="Connect your account with Garmin Connect and all future activities and those of the last month will be synchronized.">
         <source>Connect your account with Garmin Connect and all future activities and those of the last month will be synchronized.</source>
-        <target state="new">Connect your account with Garmin Connect and all future activities and those of the last month will be synchronized.</target>
+        <target state="new">Verbinde dein Account mit Garmin Connect und alle zukünftigen Aktivitäten und die des letzten Monats werden synchronisiert.</target>
         <jms:reference-file line="52">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="c2f9b7b4897f03f94abf92294c9ca46fea62360b" resname="Connected">
         <source>Connected</source>
-        <target state="new">Connected</target>
+        <target state="new">Verbunden</target>
         <jms:reference-file line="100">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
         <jms:reference-file line="36">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
         <jms:reference-file line="68">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
@@ -2273,7 +2273,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="b993b0c537190bfc94b21360ac5abe51e56be36f" resname="No results">
         <source>No results</source>
-        <target state="new">No results</target>
+        <target state="new">Keine Ergebnisse</target>
         <jms:reference-file line="90">/Resources/views/tools/anova/base.html.twig</jms:reference-file>
         <jms:reference-file line="72">/Resources/views/tools/trend-analysis/base.html.twig</jms:reference-file>
       </trans-unit>
@@ -2465,7 +2465,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="d62f8d129e74ce779676dab8acccef392e767ee0" resname="Partner link">
         <source>Partner link</source>
-        <target>Partner link</target>
+        <target>Partnerlink</target>
         <jms:reference-file line="28">/Resources/views/affiliate/amazon.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="8be3c943b1609fffbfc51aad666d0a04adf83c9d" resname="Password">
@@ -2686,7 +2686,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="c2ba4c20454e9afde27afca239e7b714c9abe44d" resname="Public activities of the RUNALYZE athlete %name%.">
         <source>Public activities of the RUNALYZE athlete %name%.</source>
-        <target state="new">Public activities of the RUNALYZE athlete %name%.</target>
+        <target state="new">Öffentliche Aktivitäten des RUNALYZE-Athleten %name%.</target>
         <jms:reference-file line="140">/../src/CoreBundle/Controller/SharedController.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="3b60b51f6d17ccbdddd06dd4533b90fe0f58a9af" resname="Public activities will be visible for everybody.">
@@ -3184,7 +3184,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="ec2947642fea6e10fc8bc425d8ae0f468e572f6c" resname="Special tool">
         <source>Special tool</source>
-        <target state="new">Special tool</target>
+        <target state="new">Spezialtool</target>
         <jms:reference-file line="54">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
         <jms:reference-file line="86">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
       </trans-unit>
@@ -3740,7 +3740,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="c645c21d3f8d0c73996aa300324de525ba542b8a" resname="To start the initial sync you need to track at least one new activity at Garmin. Afterwards Garmin will send us the last 30 days of activities within a day.">
         <source>To start the initial sync you need to track at least one new activity at Garmin. Afterwards Garmin will send us the last 30 days of activities within a day.</source>
-        <target state="new">To start the initial sync you need to track at least one new activity at Garmin. Afterwards Garmin will send us the last 30 days of activities within a day.</target>
+        <target state="new">Um die initiale Synchronisierung zu starten, musst du mindestens eine neue Aktivität bei Garmin aufzeichnen. Danach sendet uns Garmin die Aktivitäten der letzten 30 Tage innerhalb eines Tages.</target>
         <jms:reference-file line="53">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="bb43c1d8b7f1a7d79ff87743ad55f61859179bb4" resname="Tool not available">
@@ -3787,7 +3787,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="3b219493db976aa7fb3e85227471998e72e810d8" resname="Transfer all data from %s once">
         <source>Transfer all data from %s once</source>
-        <target state="new">Transfer all data from %s once</target>
+        <target state="new">Alle Daten von %s einmalig übertragen</target>
         <jms:reference-file line="54">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
         <jms:reference-file line="86">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
       </trans-unit>
