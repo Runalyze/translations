@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
   <file date="2018-11-01T16:16:25Z" source-language="en" target-language="de" datatype="plaintext" original="not.available">
     <header>
@@ -7,8 +7,8 @@
     </header>
     <body>
       <trans-unit id="da39a3ee5e6b4b0d3255bfef95601890afd80709" resname="">
-        <source></source>
-        <target></target>
+        <source/>
+        <target/>
         <jms:reference-file line="131">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="51cdaa070e7ba82f95b3c3af335b0f6417648c02" resname="                            The file has to be created with the same (minor) version of RUNALYZE.&lt;br&gt;&#10;                            You won't be able to import a file from older versions.&#10;                        ">
@@ -265,7 +265,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="a473af4ca47149e4919b0911b146e5a7cbd30f7d" resname="Add a pace set">
         <source>Add a pace set</source>
-        <target state="new">Add a pace set</target>
+        <target state="new">Geschwindigkeitsset hinzufügen</target>
         <jms:reference-file line="100">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="7f7393582f2cbc4ad58e444d6f4e54d1d3710b69" resname="Add a zone">
@@ -799,7 +799,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="bb7bccd310c4b4e966e19d4158438de1160b8fd7" resname="Configure your own training paces.">
         <source>Configure your own training paces.</source>
-        <target state="new">Configure your own training paces.</target>
+        <target state="new">Konfiguriere deine eigenen Trainingsgeschwindigkeiten.</target>
         <jms:reference-file line="62">/Resources/views/my/panels/pace_recommendation.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="0e4f1e7ca014c23bb42c16bf0d32af27c235c4ab" resname="Confirm email address">
@@ -860,7 +860,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="b9b2c442bf8ac600471d98618872cca79bb42980" resname="Corrected elevation">
         <source>Corrected elevation</source>
-        <target state="new">Corrected elevation</target>
+        <target state="new">Korrigierte Höhenmeter</target>
         <jms:reference-file line="5">/Resources/views/translation_helper.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1c0ca291b0680535d87385f085e37f5c6fc8f548" resname="Corrected elevation data has been removed.">
@@ -926,7 +926,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="e21e0cafabed9d4100d1f178aac322bf5a318f56" resname="Custom training paces">
         <source>Custom training paces</source>
-        <target state="new">Custom training paces</target>
+        <target state="new">Individuelle Trainingsgeschwindigkeiten</target>
         <jms:reference-file line="52">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="fc59b7680813e392a47dce4ce3ea565563315cb7" resname="Customer feedback">
@@ -1066,7 +1066,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="9186c5b025407c809ba2b30eae6cb8138558c0d6" resname="Default recommendation set">
         <source>Default recommendation set</source>
-        <target state="new">Default recommendation set</target>
+        <target state="new">Standard Empfehlungsset</target>
         <jms:reference-file line="20">/../src/CoreBundle/Form/Panels/PaceRecommendationType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="faf49b1e2de23a37f81b54ab6186d82c1089207a" resname="Default zones">
@@ -1504,7 +1504,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="76985b60a7c3726835bdd90458d1e33215bc1320" resname="For more details, see %source%.">
         <source>For more details, see %source%.</source>
-        <target state="new">For more details, see %source%.</target>
+        <target state="new">Weitere Informationen findest du unter %source%.</target>
         <jms:reference-file line="45">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="8d02a787d85813d3b4a3bc1cf248daa6bb26d472" resname="For pace zones, we also have extra default zones for running, swimming and cycling, which also take precedence over user-defined default zones.">
@@ -1559,7 +1559,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="4ddc2dbbc473a918edcbf1c3e167a8050905b54b" resname="GPS path">
         <source>GPS path</source>
-        <target state="new">GPS path</target>
+        <target state="new">GPS-Pfad</target>
         <jms:reference-file line="3">/Resources/views/translation_helper.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="9239ee2cda84eca4c3440e2a7b50148af67da3d4" resname="General">
@@ -1914,7 +1914,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="a5b82019c413e4714edf13e3aee3c277a01bbc12" resname="In this way training paces are always adapted to your current shape.">
         <source>In this way training paces are always adapted to your current shape.</source>
-        <target state="new">In this way training paces are always adapted to your current shape.</target>
+        <target state="new">Auf diese Weise werden die Trainingsgeschwindigkeiten immer an deine aktuelle Form angepasst.</target>
         <jms:reference-file line="15">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="68d71b3c12159ba11a1a8b433401182bfd1b8a15" resname="Index to categorize climbs by Dutch cycling magazine fiets.">
@@ -1965,7 +1965,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="0b68e245e448188567e4c77225ebf233d545fe74" resname="It seems we created a notification without content.">
         <source>It seems we created a notification without content.</source>
-        <target state="new">It seems we created a notification without content.</target>
+        <target state="new">Es scheint, dass wir eine Benachrichtigung ohne Inhalt erstellt haben.</target>
         <jms:reference-file line="10">/Resources/views/static/notifications/notification-missing.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="a14d158f8af09368d08247cd9450f73ec27095ef" resname="JSON-format">
@@ -2346,7 +2346,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="5e7f8cd98333606fc0ab6f7741746387d5ca3f0f" resname="Notification content is missing">
         <source>Notification content is missing</source>
-        <target state="new">Notification content is missing</target>
+        <target state="new">Der Inhalt der Benachrichtigung fehlt</target>
         <jms:reference-file line="5">/Resources/views/static/notifications/notification-missing.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="753a22b2eb617204efee4644795034b8ace1ee14" resname="Notifications">
@@ -2392,12 +2392,12 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="cec624119475ef1fae6c85ea1004ffcf2110984e" resname="Official time">
         <source>Official time</source>
-        <target state="new">Official time</target>
+        <target state="new">Offizielle Zeit</target>
         <jms:reference-file line="17">/Resources/views/my/raceresult/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="db2c7d5548369c8b6ff9279a4ef4af29170ad535" resname="Officially measured">
         <source>Officially measured</source>
-        <target state="new">Officially measured</target>
+        <target state="new">Offiziell gemessen</target>
         <jms:reference-file line="15">/Resources/views/my/raceresult/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="e3053fbaa7622ccae5f59565e7fb553f9c2d79c8" resname="Old password">
@@ -2428,7 +2428,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="4556996f93f04c781dcbbc21a4e053ec18129d38" resname="Original elevation">
         <source>Original elevation</source>
-        <target state="new">Original elevation</target>
+        <target state="new">Originale Höhenmeter</target>
         <jms:reference-file line="4">/Resources/views/translation_helper.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="8d7bf5bf136e81f9388c1f4eca050d6d94e965d7" resname="Others">
@@ -2525,7 +2525,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="b8ce8a9f504088d82d1ab0953a1bce94a06e9ddd" resname="Percentages refer to %vVO2max, the velocity at your current effective VO2max.">
         <source>Percentages refer to %vVO2max, the velocity at your current effective VO2max.</source>
-        <target state="new">Percentages refer to %vVO2max, the velocity at your current effective VO2max.</target>
+        <target state="new">Die Prozentsätze beziehen sich auf %vVO2max, die Geschwindigkeit von deinem aktuellen effektiven VO2max.</target>
         <jms:reference-file line="14">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="69aa69b4bbf38e5fae11b6fa1cff9e18bb7002b8" resname="Performance chart">
@@ -2801,7 +2801,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="ad086cf55b834c375e209972840f1342401d8c41" resname="Read more">
         <source>Read more</source>
-        <target state="new">Read more</target>
+        <target state="new">Mehr erfahren</target>
         <jms:reference-file line="68">/Resources/views/my/panels/pace_recommendation.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="18a351960abfe39eda2ecdcaaf9988397aaf6630" resname="Recalculate TRIMP values">
@@ -3668,7 +3668,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="585d24a5e716ec42c8a1a0e00277e7a5d019028f" resname="This should not happen.">
         <source>This should not happen.</source>
-        <target state="new">This should not happen.</target>
+        <target state="new">Das sollte nicht passieren.</target>
         <jms:reference-file line="9">/Resources/views/static/notifications/notification-missing.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="c256ab1dc8c312b04aac683f669af14530f13151" resname="This table does &lt;strong&gt;not&lt;/strong&gt; use a correction based on your current marathon shape.">
@@ -3823,17 +3823,17 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="aa8f5a64d6847f7e68e3ff5f7634eb558faf24cb" resname="Training pace">
         <source>Training pace</source>
-        <target state="new">Training pace</target>
+        <target state="new">Trainingsgeschwindigkeit</target>
         <jms:reference-file line="64">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="bb5a6f575395d4fa12fa8b4fd4d568737513ae45" resname="Training paces">
         <source>Training paces</source>
-        <target state="new">Training paces</target>
+        <target state="new">Trainingsgeschwindigkeiten</target>
         <jms:reference-file line="6">/Resources/views/my/panels/pace_recommendation.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="b1d358e53ab5ec044ff8f5e47b3a61d453379a48" resname="Training paces by %author%">
         <source>Training paces by %author%</source>
-        <target state="new">Training paces by %author%</target>
+        <target state="new">Trainingsgeschwindigkeiten von %Autor%</target>
         <jms:reference-file line="29">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="3b219493db976aa7fb3e85227471998e72e810d8" resname="Transfer all data from %s once">
@@ -4063,23 +4063,23 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="eb7be997c9dfa60dc1bff302abd092bf3347ca8c" resname="We were not able to authenticate with your credentials at Garmin Connect. Maybe you provided wrong credentials or maybe the bulk import tool is broken due a change on Garmins website.">
         <source>We were not able to authenticate with your credentials at Garmin Connect. Maybe you provided wrong credentials or maybe the bulk import tool is broken due a change on Garmins website.</source>
-        <target state="new">We were not able to authenticate with your credentials at Garmin Connect. Maybe you provided wrong credentials or maybe the bulk import tool is broken due a change on Garmins website.</target>
+        <target state="new">Wir konnten uns nicht mit deinen Anmeldeinformationen bei Garmin Connect authentifizieren. Möglicherweise hast du falsche Zugangsdaten angegeben oder das Massenimporttool ist aufgrund einer Änderung auf der Garmin Webseite defekt.</target>
         <jms:reference-file line="40">/Resources/views/tools/garmin_import.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="b1f87942ba507d20c9c2c56cdb331c3f8a3f846c" resname="We were not able to authenticate with your credentials at Polar Flow. Maybe you provided wrong credentials or maybe the bulk import tool is broken due a change on Polars website.">
         <source>We were not able to authenticate with your credentials at Polar Flow. Maybe you provided wrong credentials or maybe the bulk import tool is broken due a change on Polars website.</source>
-        <target state="new">We were not able to authenticate with your credentials at Polar Flow. Maybe you provided wrong credentials or maybe the bulk import tool is broken due a change on Polars website.</target>
+        <target state="new">Wir konnten uns nicht mit deinen Zugangsdaten bei Polar Flow authentifizieren. Möglicherweise hast du falsche Zugangsdaten angegeben oder das Massenimporttool ist aufgrund einer Änderung der Polar Flow Seite defekt.</target>
         <jms:reference-file line="40">/Resources/views/tools/polar_import.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="cd54dd819d677dcd2055f7c0b34661caff15869d" resname="We will check if your login data is valid after submitting this form.">
         <source>We will check if your login data is valid after submitting this form.</source>
-        <target state="new">We will check if your login data is valid after submitting this form.</target>
+        <target state="new">Nach dem Absenden dieses Formulars werden wir prüfen, ob deine Zugangsdaten gültig sind.</target>
         <jms:reference-file line="30">/Resources/views/tools/garmin_import.html.twig</jms:reference-file>
         <jms:reference-file line="30">/Resources/views/tools/polar_import.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="a0d5bed8a1075255b5f398a7cfdf3e8955519d9c" resname="We will fix this as soon as possible.">
         <source>We will fix this as soon as possible.</source>
-        <target state="new">We will fix this as soon as possible.</target>
+        <target state="new">Wir werden dies so schnell wie möglich beheben.</target>
         <jms:reference-file line="11">/Resources/views/static/notifications/notification-missing.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="cfde945b216bfeddfb176af73aa8bb1be930c63a" resname="We will notify you when the file is ready for downloading.">
@@ -4238,7 +4238,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="668ef1981c000b5c0e6c40fd49a05143b530fb50" resname="You can define custom training paces by %vVO2max in the form below.">
         <source>You can define custom training paces by %vVO2max in the form below.</source>
-        <target state="new">You can define custom training paces by %vVO2max in the form below.</target>
+        <target state="new">Du kannst benutzerdefinierte Trainingsgeschwindigkeiten durch %vVO2max im nachstehenden Formular definieren.</target>
         <jms:reference-file line="54">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="2a3bed8d61c1c67bf86e97ae720eb926fa36b6fd" resname="You can define the default privacy of new activities by sport type in the associated sport configuration.">
@@ -4269,7 +4269,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="a620229e247a581c6ab0babd84880aadac21e024" resname="You can only run the full import every six hours.">
         <source>You can only run the full import every six hours.</source>
-        <target state="new">You can only run the full import every six hours.</target>
+        <target state="new">Du kannst den Vollimport nur alle sechs Stunden durchführen.</target>
         <jms:reference-file line="11">/Resources/views/tools/garmin_import.html.twig</jms:reference-file>
         <jms:reference-file line="11">/Resources/views/tools/polar_import.html.twig</jms:reference-file>
       </trans-unit>
@@ -4467,12 +4467,12 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="d549427e83ea8702f093e72fda34edd139abc5e1" resname="Your activities will be downloaded within the hours. This may take some time. You can close this window.">
         <source>Your activities will be downloaded within the hours. This may take some time. You can close this window.</source>
-        <target state="new">Your activities will be downloaded within the hours. This may take some time. You can close this window.</target>
+        <target state="new">Deine Aktivitäten werden innerhalb weniger Stunden heruntergeladen. Dies kann einige Zeit in Anspruch nehmen. Du kannst dieses Fenster schließen</target>
         <jms:reference-file line="37">/Resources/views/tools/polar_import.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="6b692c9af466f1385253a782c075adcdf8e8fec5" resname="Your activities will be downloaded within the next hours. This may take some time. You can close this window.">
         <source>Your activities will be downloaded within the next hours. This may take some time. You can close this window.</source>
-        <target state="new">Your activities will be downloaded within the next hours. This may take some time. You can close this window.</target>
+        <target state="new">Deine Aktivitäten werden innerhalb weniger Stunden heruntergeladen. Dies kann einige Zeit in Anspruch nehmen. Du kannst dieses Fenster schließen</target>
         <jms:reference-file line="37">/Resources/views/tools/garmin_import.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="867e4f330e5ac0354309b71bfc1ff48598dca888" resname="Your backup has been generated and is now available for download.">
@@ -4716,7 +4716,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="0b1e95cfd9775191a7224d0a218ae79187e80c1d" resname="from">
         <source>from</source>
-        <target state="new">from</target>
+        <target state="new">von</target>
         <jms:reference-file line="65">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="d8680aea3e8adf668a249eba62192fa1ed9336f1" resname="german">
@@ -4732,7 +4732,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="0154c0dabe7145db37e0b81bf667e7224abec0ba" resname="here">
         <source>here</source>
-        <target state="new">here</target>
+        <target state="new">hier</target>
         <jms:reference-file line="45">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="bbf96d5eac7d8a6c284064549786e15237971e2a" resname="hrm- and gpx-files with the same name will be automatically combined.">
