@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
-  <file date="2018-11-01T16:18:25Z" source-language="en" target-language="zh_TW" datatype="plaintext" original="not.available">
+  <file date="2018-11-02T10:56:51Z" source-language="en" target-language="zh_TW" datatype="plaintext" original="not.available">
     <header>
       <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
@@ -270,11 +270,6 @@
         <target>Add a new entry</target>
         <jms:reference-file line="9">/Resources/views/my/body-values/table.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="a473af4ca47149e4919b0911b146e5a7cbd30f7d" resname="Add a pace set">
-        <source>Add a pace set</source>
-        <target>Add a pace set</target>
-        <jms:reference-file line="100">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
-      </trans-unit>
       <trans-unit id="7f7393582f2cbc4ad58e444d6f4e54d1d3710b69" resname="Add a zone">
         <source>Add a zone</source>
         <target>Add a zone</target>
@@ -325,6 +320,11 @@
         <target>Add new sport</target>
         <jms:reference-file line="14">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
         <jms:reference-file line="80">/Resources/views/settings/sport/overview.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="62cc053b8c58bb9ba78fa272271f549747f2f14d" resname="Add pace">
+        <source>Add pace</source>
+        <target>Add pace</target>
+        <jms:reference-file line="100">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="875e19d453a0708f1fabc24489eca58421f0d512" resname="Add weather data">
         <source>Add weather data</source>
@@ -926,9 +926,9 @@
         <target>Current RUNALYZE version: </target>
         <jms:reference-file line="53">/Resources/views/tools/backup/upload_form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="1305d1ab3a545ee5f5c29e03122e484dfbdde362" resname="Custom Recommendation Set">
-        <source>Custom Recommendation Set</source>
-        <target>Custom Recommendation Set</target>
+      <trans-unit id="c8ff7de27e2364194591c14bda974e9dadbcdf26" resname="Custom Pace Set">
+        <source>Custom Pace Set</source>
+        <target>Custom Pace Set</target>
         <jms:reference-file line="60">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="e21e0cafabed9d4100d1f178aac322bf5a318f56" resname="Custom training paces">
@@ -1274,6 +1274,11 @@
         <target>Each VO2max value is marked with an arrow to show if this value is (much) higher than your current shape, equal to it or (much) lower:</target>
         <jms:reference-file line="28">/Resources/views/static/help_calculations.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="00f03137e1553b0354282415020698a20e955299" resname="Easy">
+        <source>Easy</source>
+        <target>Easy</target>
+        <jms:reference-file line="7">/Resources/views/translation_helper.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="5301648dcf6b53cefc9ed52999aaa92d4603cae0" resname="Edit">
         <source>Edit</source>
         <target>Edit</target>
@@ -1448,6 +1453,11 @@
         <source>Factor model</source>
         <target>Factor model</target>
         <jms:reference-file line="36">/Resources/views/tools/anova/base.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b52bd594e91a183f8d4050edb9cf37ae1e223beb" resname="Fast Run">
+        <source>Fast Run</source>
+        <target>Fast Run</target>
+        <jms:reference-file line="15">/Resources/views/translation_helper.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="7b71bd0c3d7679a8e2749e3877c27f8e48900246" resname="Fat">
         <source>Fat</source>
@@ -1951,6 +1961,11 @@
         <target>Internal sport</target>
         <jms:reference-file line="151">/../src/CoreBundle/Form/Settings/SportType.php</jms:reference-file>
       </trans-unit>
+      <trans-unit id="011efcd591019b5969a332a24dff728a8107dbe2" resname="Interval">
+        <source>Interval</source>
+        <target>Interval</target>
+        <jms:reference-file line="10">/Resources/views/translation_helper.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="0ac2a3e65056a0290391a9d94433a1e1820d74bf" resname="Invalid date selection.">
         <source>Invalid date selection.</source>
         <target>Invalid date selection.</target>
@@ -2141,6 +2156,11 @@
         <target>Mar</target>
         <jms:reference-file line="44">/Resources/views/_macro/utilities.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="cfba05ccc760fa73d0a2ab762b99bec259d61404" resname="Marathon">
+        <source>Marathon</source>
+        <target>Marathon</target>
+        <jms:reference-file line="8">/Resources/views/translation_helper.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="1b83163bfd79eee81fae6f7c3439dc4816256967" resname="Mark all as read">
         <source>Mark all as read</source>
         <target>Mark all as read</target>
@@ -2182,6 +2202,11 @@
         <target>Mode for displaying activities in calendar</target>
         <jms:reference-file line="96">/Resources/views/settings/sport/form-sport.html.twig</jms:reference-file>
         <jms:reference-file line="24">/Resources/views/settings/sport/form-type.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ef8f5c9ae42edb242cc1a478157eab2c77ed06e7" resname="Moderate Run">
+        <source>Moderate Run</source>
+        <target>Moderate Run</target>
+        <jms:reference-file line="14">/Resources/views/translation_helper.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="082bc378cd60e17a38d99898b21955299c5b60c8" resname="Month">
         <source>Month</source>
@@ -2932,6 +2957,11 @@
         <jms:reference-file line="33">/../src/CoreBundle/Form/RecoverPasswordType.php</jms:reference-file>
         <jms:reference-file line="42">/../src/CoreBundle/Form/Settings/ChangePasswordType.php</jms:reference-file>
       </trans-unit>
+      <trans-unit id="711ba373a79d31376784182b72065d953222072d" resname="Repetition">
+        <source>Repetition</source>
+        <target>Repetition</target>
+        <jms:reference-file line="11">/Resources/views/translation_helper.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="9fcda32cc0cb4e4c9f7579af0e1ac967a0eb4cfc" resname="Request failed">
         <source>Request failed</source>
         <target>Request failed</target>
@@ -3212,6 +3242,11 @@
         <target>Sleep duration</target>
         <jms:reference-file line="24">/Resources/views/my/body-values/table.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="eb68965d71d4424a39719ad7ba3520a86af6dd60" resname="Slow Run">
+        <source>Slow Run</source>
+        <target>Slow Run</target>
+        <jms:reference-file line="13">/Resources/views/translation_helper.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="5f33fa8e23427e581ae9c42996441e9d76aa6e6f" resname="Social Login">
         <source>Social Login</source>
         <target>Social Login</target>
@@ -3336,6 +3371,11 @@
         <source>Subscribe failure</source>
         <target>Subscribe failure</target>
         <jms:reference-file line="6">/Resources/views/account/subscribe_failure.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9f5f63bd82a0f43945c5d07f6423aad2ac72f4e5" resname="Super Oxygen Run">
+        <source>Super Oxygen Run</source>
+        <target>Super Oxygen Run</target>
+        <jms:reference-file line="12">/Resources/views/translation_helper.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="f32d5a3b17e614297417cc279a7ec1cd02274d65" resname="Support">
         <source>Support</source>
@@ -3747,6 +3787,11 @@
         <source>This will not touch any general settings like gender or main sport.</source>
         <target>This will not touch any general settings like gender or main sport.</target>
         <jms:reference-file line="67">/Resources/views/settings/account.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c51f7b72279e26fd7cf66d9d61e7f7204bf3b26a" resname="Threshold">
+        <source>Threshold</source>
+        <target>Threshold</target>
+        <jms:reference-file line="9">/Resources/views/translation_helper.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="6c82e6dd86807ee3db07e3c82bec1ae1ce00b08b" resname="Time">
         <source>Time</source>
