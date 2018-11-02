@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
   <file date="2018-11-02T10:56:06Z" source-language="en" target-language="no" datatype="plaintext" original="not.available">
     <header>
@@ -7,8 +7,8 @@
     </header>
     <body>
       <trans-unit id="da39a3ee5e6b4b0d3255bfef95601890afd80709" resname="">
-        <source></source>
-        <target></target>
+        <source/>
+        <target/>
         <jms:reference-file line="131">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="51cdaa070e7ba82f95b3c3af335b0f6417648c02" resname="                            The file has to be created with the same (minor) version of RUNALYZE.&lt;br&gt;&#10;                            You won't be able to import a file from older versions.&#10;                        ">
@@ -316,7 +316,7 @@
       </trans-unit>
       <trans-unit id="62cc053b8c58bb9ba78fa272271f549747f2f14d" resname="Add pace">
         <source>Add pace</source>
-        <target state="new">Add pace</target>
+        <target state="new">Legg til tempo</target>
         <jms:reference-file line="100">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="875e19d453a0708f1fabc24489eca58421f0d512" resname="Add weather data">
@@ -604,7 +604,7 @@
       </trans-unit>
       <trans-unit id="5ff7431ccbb186b0ac535e363b919b439413af7b" resname="Buy on Amazon">
         <source>Buy on Amazon</source>
-        <target>Buy on Amazon</target>
+        <target>Kjøp på Amazon</target>
         <jms:reference-file line="27">/Resources/views/affiliate/amazon.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="87dc57e8714a62b1a86beffe3809c7bbcd86b0e1" resname="By athletes for athletes">
@@ -744,7 +744,7 @@
       </trans-unit>
       <trans-unit id="aed04239a3ffb847783a0fd0a33911b9bdb59673" resname="Click here to use the Garmin Automatic Sync and One-Time Full import feature">
         <source>Click here to use the Garmin Automatic Sync and One-Time Full import feature</source>
-        <target>Click here to use the Garmin Automatic Sync and One-Time Full import feature</target>
+        <target>Klikk her for å bruke "Garmin Automatic Sync" og "One-Time Full import"-tjenesten</target>
         <jms:reference-file line="17">/Resources/views/activity/import_garmin_communicator.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="c1385b71609e50f22a8abb9674a08724803909cd" resname="Click on an activity to see more details.">
@@ -799,7 +799,7 @@
       </trans-unit>
       <trans-unit id="bb7bccd310c4b4e966e19d4158438de1160b8fd7" resname="Configure your own training paces.">
         <source>Configure your own training paces.</source>
-        <target>Configure your own training paces.</target>
+        <target>Sett opp dine egne treningstempo.</target>
         <jms:reference-file line="62">/Resources/views/my/panels/pace_recommendation.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="0e4f1e7ca014c23bb42c16bf0d32af27c235c4ab" resname="Confirm email address">
@@ -828,7 +828,7 @@
       </trans-unit>
       <trans-unit id="f7297bfe82ef00d0449821f123fccee1cc4573df" resname="Connect your account with Garmin Connect and all future activities and those of the last month will be synchronized.">
         <source>Connect your account with Garmin Connect and all future activities and those of the last month will be synchronized.</source>
-        <target>Connect your account with Garmin Connect and all future activities and those of the last month will be synchronized.</target>
+        <target>Koble din konto til Garmin Connect og alle fremtidige aktiviteter og siste måneds aktiviteter vil bli synkronisert.</target>
         <jms:reference-file line="52">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="c2f9b7b4897f03f94abf92294c9ca46fea62360b" resname="Connected">
