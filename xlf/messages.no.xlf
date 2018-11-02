@@ -833,7 +833,7 @@
       </trans-unit>
       <trans-unit id="c2f9b7b4897f03f94abf92294c9ca46fea62360b" resname="Connected">
         <source>Connected</source>
-        <target>Connected</target>
+        <target>Tilkoblet</target>
         <jms:reference-file line="100">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
         <jms:reference-file line="36">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
         <jms:reference-file line="68">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
@@ -860,7 +860,7 @@
       </trans-unit>
       <trans-unit id="b9b2c442bf8ac600471d98618872cca79bb42980" resname="Corrected elevation">
         <source>Corrected elevation</source>
-        <target>Corrected elevation</target>
+        <target>Korrigert elevasjon</target>
         <jms:reference-file line="5">/Resources/views/translation_helper.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1c0ca291b0680535d87385f085e37f5c6fc8f548" resname="Corrected elevation data has been removed.">
@@ -921,12 +921,12 @@
       </trans-unit>
       <trans-unit id="c8ff7de27e2364194591c14bda974e9dadbcdf26" resname="Custom Pace Set">
         <source>Custom Pace Set</source>
-        <target state="new">Custom Pace Set</target>
+        <target state="new">Selvvalgt tempo-oppsett</target>
         <jms:reference-file line="60">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="e21e0cafabed9d4100d1f178aac322bf5a318f56" resname="Custom training paces">
         <source>Custom training paces</source>
-        <target>Custom training paces</target>
+        <target>Selvvalgt treningstempo</target>
         <jms:reference-file line="52">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="fc59b7680813e392a47dce4ce3ea565563315cb7" resname="Customer feedback">
@@ -1025,7 +1025,7 @@
       </trans-unit>
       <trans-unit id="0aa4ec69800fd4f73b6bfe6fcc0bf0252f3a7f72" resname="Daytime">
         <source>Daytime</source>
-        <target>Daytime</target>
+        <target>Dagtid</target>
         <jms:reference-file line="144">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="997f59bc99b2a57280179c3ce09ba8ab57cbdf44" resname="Dec">
@@ -1066,7 +1066,7 @@
       </trans-unit>
       <trans-unit id="9186c5b025407c809ba2b30eae6cb8138558c0d6" resname="Default recommendation set">
         <source>Default recommendation set</source>
-        <target>Default recommendation set</target>
+        <target>Standard anbefalt oppsett</target>
         <jms:reference-file line="20">/../src/CoreBundle/Form/Panels/PaceRecommendationType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="faf49b1e2de23a37f81b54ab6186d82c1089207a" resname="Default zones">
@@ -1269,7 +1269,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="00f03137e1553b0354282415020698a20e955299" resname="Easy">
         <source>Easy</source>
-        <target state="new">Easy</target>
+        <target state="new">Lett</target>
         <jms:reference-file line="7">/Resources/views/translation_helper.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="5301648dcf6b53cefc9ed52999aaa92d4603cae0" resname="Edit">
@@ -1449,7 +1449,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="b52bd594e91a183f8d4050edb9cf37ae1e223beb" resname="Fast Run">
         <source>Fast Run</source>
-        <target state="new">Fast Run</target>
+        <target state="new">Rask løping</target>
         <jms:reference-file line="15">/Resources/views/translation_helper.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="7b71bd0c3d7679a8e2749e3877c27f8e48900246" resname="Fat">
@@ -1515,7 +1515,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="76985b60a7c3726835bdd90458d1e33215bc1320" resname="For more details, see %source%.">
         <source>For more details, see %source%.</source>
-        <target>For more details, see %source%.</target>
+        <target>For flere detaljer, se %source%.</target>
         <jms:reference-file line="45">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="8d02a787d85813d3b4a3bc1cf248daa6bb26d472" resname="For pace zones, we also have extra default zones for running, swimming and cycling, which also take precedence over user-defined default zones.">
@@ -1570,7 +1570,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="4ddc2dbbc473a918edcbf1c3e167a8050905b54b" resname="GPS path">
         <source>GPS path</source>
-        <target>GPS path</target>
+        <target>GPS-spor</target>
         <jms:reference-file line="3">/Resources/views/translation_helper.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="9239ee2cda84eca4c3440e2a7b50148af67da3d4" resname="General">
@@ -1637,7 +1637,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="8297bb17c6aa1537d802e8ab86dcd018ffb7b6d0" resname="Got it!">
         <source>Got it!</source>
-        <target>Got it!</target>
+        <target>Oppfattet!</target>
         <jms:reference-file line="1">/Resources/views/_include/cookie_consent.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="36463cf8381e6e972d67a1b70c482d9fb836b2b0" resname="Gradient">
@@ -1800,7 +1800,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="9ae9e6692172cf89c8882636fb68e2f290f2d2f2" resname="If you are not a Paypal fan, then write us an email for alternatives">
         <source>If you are not a Paypal fan, then write us an email for alternatives</source>
-        <target>If you are not a Paypal fan, then write us an email for alternatives</target>
+        <target>Hvis du ikke er tilhenger av Paypal, skriv en epost til oss for å få alternativer</target>
         <jms:reference-file line="17">/Resources/views/static/donate.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1837c484afb310300c040d3f5ebb38268d87e918" resname="If you choose this activity type it will automatically be marked as a race.">
@@ -1841,7 +1841,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="c273466fba5158c5000aff1c2a1577072ae12a68" resname="If your activities will be not available within the next 24 hours please try the tool again on the next day.">
         <source>If your activities will be not available within the next 24 hours please try the tool again on the next day.</source>
-        <target>If your activities will be not available within the next 24 hours please try the tool again on the next day.</target>
+        <target>Hvis aktivitetene dine ikke blir tilgjengelig innen de neste 24 timene, så prøv verktøyet igjen neste dag.</target>
         <jms:reference-file line="38">/Resources/views/tools/garmin_import.html.twig</jms:reference-file>
         <jms:reference-file line="38">/Resources/views/tools/polar_import.html.twig</jms:reference-file>
       </trans-unit>
@@ -1925,7 +1925,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="a5b82019c413e4714edf13e3aee3c277a01bbc12" resname="In this way training paces are always adapted to your current shape.">
         <source>In this way training paces are always adapted to your current shape.</source>
-        <target>In this way training paces are always adapted to your current shape.</target>
+        <target>På denne måten er treningstempo alltid tilpasset din nåværende form.</target>
         <jms:reference-file line="15">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="68d71b3c12159ba11a1a8b433401182bfd1b8a15" resname="Index to categorize climbs by Dutch cycling magazine fiets.">
@@ -1955,7 +1955,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="011efcd591019b5969a332a24dff728a8107dbe2" resname="Interval">
         <source>Interval</source>
-        <target state="new">Interval</target>
+        <target state="new">Intervall</target>
         <jms:reference-file line="10">/Resources/views/translation_helper.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="0ac2a3e65056a0290391a9d94433a1e1820d74bf" resname="Invalid date selection.">
@@ -1981,7 +1981,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="0b68e245e448188567e4c77225ebf233d545fe74" resname="It seems we created a notification without content.">
         <source>It seems we created a notification without content.</source>
-        <target>It seems we created a notification without content.</target>
+        <target>Det ser ut som vi har laget en notifikasjon uten innhold.</target>
         <jms:reference-file line="10">/Resources/views/static/notifications/notification-missing.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="a14d158f8af09368d08247cd9450f73ec27095ef" resname="JSON-format">
@@ -2018,7 +2018,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="824d76b124e6289f372e2ff6bcba91e8939343bd" resname="Learn more">
         <source>Learn more</source>
-        <target>Learn more</target>
+        <target>Lær mer</target>
         <jms:reference-file line="1">/Resources/views/_include/cookie_consent.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="3bade34ecbc5d996b2f301ebd4ba689e81c7c9ea" resname="Length">
@@ -2150,7 +2150,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="cfba05ccc760fa73d0a2ab762b99bec259d61404" resname="Marathon">
         <source>Marathon</source>
-        <target state="new">Marathon</target>
+        <target state="new">Maraton</target>
         <jms:reference-file line="8">/Resources/views/translation_helper.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1b83163bfd79eee81fae6f7c3439dc4816256967" resname="Mark all as read">
@@ -2197,7 +2197,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="ef8f5c9ae42edb242cc1a478157eab2c77ed06e7" resname="Moderate Run">
         <source>Moderate Run</source>
-        <target state="new">Moderate Run</target>
+        <target state="new">Moderat løping</target>
         <jms:reference-file line="14">/Resources/views/translation_helper.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="082bc378cd60e17a38d99898b21955299c5b60c8" resname="Month">
@@ -2323,7 +2323,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="b993b0c537190bfc94b21360ac5abe51e56be36f" resname="No results">
         <source>No results</source>
-        <target>No results</target>
+        <target>Ingen resultater</target>
         <jms:reference-file line="90">/Resources/views/tools/anova/base.html.twig</jms:reference-file>
         <jms:reference-file line="72">/Resources/views/tools/trend-analysis/base.html.twig</jms:reference-file>
       </trans-unit>
@@ -2372,7 +2372,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="5e7f8cd98333606fc0ab6f7741746387d5ca3f0f" resname="Notification content is missing">
         <source>Notification content is missing</source>
-        <target>Notification content is missing</target>
+        <target>Notifikasjonsinnhold mangler</target>
         <jms:reference-file line="5">/Resources/views/static/notifications/notification-missing.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="753a22b2eb617204efee4644795034b8ace1ee14" resname="Notifications">
@@ -2418,12 +2418,12 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="cec624119475ef1fae6c85ea1004ffcf2110984e" resname="Official time">
         <source>Official time</source>
-        <target>Official time</target>
+        <target>Offisiell tid</target>
         <jms:reference-file line="17">/Resources/views/my/raceresult/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="db2c7d5548369c8b6ff9279a4ef4af29170ad535" resname="Officially measured">
         <source>Officially measured</source>
-        <target>Officially measured</target>
+        <target>Offisielt målt</target>
         <jms:reference-file line="15">/Resources/views/my/raceresult/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="e3053fbaa7622ccae5f59565e7fb553f9c2d79c8" resname="Old password">
@@ -2444,7 +2444,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="7c1396cb92e3366d1b765f910dec95dd643fb2c3" resname="Or buy a RUNALYZE shirt">
         <source>Or buy a RUNALYZE shirt</source>
-        <target>Or buy a RUNALYZE shirt</target>
+        <target>Eller kjøp en RUNALYZE skjorte</target>
         <jms:reference-file line="27">/Resources/views/static/donate.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1d75774c0f96b6ee44eb6643c9fea71b50b90ea8" resname="Order">
@@ -2454,7 +2454,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="4556996f93f04c781dcbbc21a4e053ec18129d38" resname="Original elevation">
         <source>Original elevation</source>
-        <target>Original elevation</target>
+        <target>Originalelevasjon</target>
         <jms:reference-file line="4">/Resources/views/translation_helper.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="8d7bf5bf136e81f9388c1f4eca050d6d94e965d7" resname="Others">
@@ -2529,7 +2529,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="d62f8d129e74ce779676dab8acccef392e767ee0" resname="Partner link">
         <source>Partner link</source>
-        <target>Partner link</target>
+        <target>Partner-lenke</target>
         <jms:reference-file line="28">/Resources/views/affiliate/amazon.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="8be3c943b1609fffbfc51aad666d0a04adf83c9d" resname="Password">
@@ -2551,7 +2551,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="b8ce8a9f504088d82d1ab0953a1bce94a06e9ddd" resname="Percentages refer to %vVO2max, the velocity at your current effective VO2max.">
         <source>Percentages refer to %vVO2max, the velocity at your current effective VO2max.</source>
-        <target>Percentages refer to %vVO2max, the velocity at your current effective VO2max.</target>
+        <target>Prosentverdier referer til %VO2max, hastigheten på ditt nåværende effektive VO2max.</target>
         <jms:reference-file line="14">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="69aa69b4bbf38e5fae11b6fa1cff9e18bb7002b8" resname="Performance chart">
@@ -2751,7 +2751,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="c2ba4c20454e9afde27afca239e7b714c9abe44d" resname="Public activities of the RUNALYZE athlete %name%.">
         <source>Public activities of the RUNALYZE athlete %name%.</source>
-        <target>Public activities of the RUNALYZE athlete %name%.</target>
+        <target>Publisert aktiviteter for RUNALYZE-utøver %name%.</target>
         <jms:reference-file line="140">/../src/CoreBundle/Controller/SharedController.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="3b60b51f6d17ccbdddd06dd4533b90fe0f58a9af" resname="Public activities will be visible for everybody.">
@@ -2831,7 +2831,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="ad086cf55b834c375e209972840f1342401d8c41" resname="Read more">
         <source>Read more</source>
-        <target>Read more</target>
+        <target>Les mer</target>
         <jms:reference-file line="68">/Resources/views/my/panels/pace_recommendation.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="18a351960abfe39eda2ecdcaaf9988397aaf6630" resname="Recalculate TRIMP values">
@@ -2951,7 +2951,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="711ba373a79d31376784182b72065d953222072d" resname="Repetition">
         <source>Repetition</source>
-        <target state="new">Repetition</target>
+        <target state="new">Repetisjon</target>
         <jms:reference-file line="11">/Resources/views/translation_helper.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="9fcda32cc0cb4e4c9f7579af0e1ac967a0eb4cfc" resname="Request failed">
@@ -3236,7 +3236,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="eb68965d71d4424a39719ad7ba3520a86af6dd60" resname="Slow Run">
         <source>Slow Run</source>
-        <target state="new">Slow Run</target>
+        <target state="new">Langsom løping</target>
         <jms:reference-file line="13">/Resources/views/translation_helper.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="5f33fa8e23427e581ae9c42996441e9d76aa6e6f" resname="Social Login">
@@ -3260,7 +3260,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="ec2947642fea6e10fc8bc425d8ae0f468e572f6c" resname="Special tool">
         <source>Special tool</source>
-        <target>Special tool</target>
+        <target>Spesialverktøy</target>
         <jms:reference-file line="54">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
         <jms:reference-file line="86">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
       </trans-unit>
@@ -3366,7 +3366,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="9f5f63bd82a0f43945c5d07f6423aad2ac72f4e5" resname="Super Oxygen Run">
         <source>Super Oxygen Run</source>
-        <target state="new">Super Oxygen Run</target>
+        <target state="new">Super oksygen-løping</target>
         <jms:reference-file line="12">/Resources/views/translation_helper.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="f32d5a3b17e614297417cc279a7ec1cd02274d65" resname="Support">
@@ -3544,7 +3544,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="05e6d3dbd3b7a2471e096336769d740a2feed8da" resname="The evaluations only take the average values of activities into account.">
         <source>The evaluations only take the average values of activities into account.</source>
-        <target>The evaluations only take the average values of activities into account.</target>
+        <target>Evalueringene tar kun gjennomsnitlige verdier av aktivitene i betraktning.</target>
         <jms:reference-file line="127">/Resources/views/tools/histograms/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="a1473df39870f5d41afd2736ef2c4fb13cb799d5" resname="The information will be shown directly in the row.">
@@ -3714,7 +3714,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="585d24a5e716ec42c8a1a0e00277e7a5d019028f" resname="This should not happen.">
         <source>This should not happen.</source>
-        <target>This should not happen.</target>
+        <target>Dette skulle ikke skje.</target>
         <jms:reference-file line="9">/Resources/views/static/notifications/notification-missing.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="c256ab1dc8c312b04aac683f669af14530f13151" resname="This table does &lt;strong&gt;not&lt;/strong&gt; use a correction based on your current marathon shape.">
@@ -3772,7 +3772,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="57ad3c2b9e39c48682308fd775c9726ad0b3b1c8" resname="This website uses cookies to ensure you get the best experience on our website.">
         <source>This website uses cookies to ensure you get the best experience on our website.</source>
-        <target>This website uses cookies to ensure you get the best experience on our website.</target>
+        <target>Denne web-siden bruker cookies for å gi deg den beste opplevelsen av vår web-side.</target>
         <jms:reference-file line="1">/Resources/views/_include/cookie_consent.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="4923d0bf817190c83a6b69dd0b6eeaea0b3b6d12" resname="This will not touch any general settings like gender or main sport.">
@@ -3782,7 +3782,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="c51f7b72279e26fd7cf66d9d61e7f7204bf3b26a" resname="Threshold">
         <source>Threshold</source>
-        <target state="new">Threshold</target>
+        <target state="new">Terskel</target>
         <jms:reference-file line="9">/Resources/views/translation_helper.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="6c82e6dd86807ee3db07e3c82bec1ae1ce00b08b" resname="Time">
@@ -3827,7 +3827,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="c645c21d3f8d0c73996aa300324de525ba542b8a" resname="To start the initial sync you need to track at least one new activity at Garmin. Afterwards Garmin will send us the last 30 days of activities within a day.">
         <source>To start the initial sync you need to track at least one new activity at Garmin. Afterwards Garmin will send us the last 30 days of activities within a day.</source>
-        <target>To start the initial sync you need to track at least one new activity at Garmin. Afterwards Garmin will send us the last 30 days of activities within a day.</target>
+        <target>For å starte initiell synkronisering må du lagre minst en ny aktivitet hos Garmin. Etterpå vil Garmin sende os de siste 30 dagenes aktiviteter innen en dag.</target>
         <jms:reference-file line="53">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="bb43c1d8b7f1a7d79ff87743ad55f61859179bb4" resname="Tool not available">
@@ -3874,22 +3874,22 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="aa8f5a64d6847f7e68e3ff5f7634eb558faf24cb" resname="Training pace">
         <source>Training pace</source>
-        <target>Training pace</target>
+        <target>Treningstempo</target>
         <jms:reference-file line="64">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="bb5a6f575395d4fa12fa8b4fd4d568737513ae45" resname="Training paces">
         <source>Training paces</source>
-        <target>Training paces</target>
+        <target>Treningstempoer</target>
         <jms:reference-file line="6">/Resources/views/my/panels/pace_recommendation.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="b1d358e53ab5ec044ff8f5e47b3a61d453379a48" resname="Training paces by %author%">
         <source>Training paces by %author%</source>
-        <target>Training paces by %author%</target>
+        <target>Treningstempoer av %author%</target>
         <jms:reference-file line="29">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="3b219493db976aa7fb3e85227471998e72e810d8" resname="Transfer all data from %s once">
         <source>Transfer all data from %s once</source>
-        <target>Transfer all data from %s once</target>
+        <target>Overfør all data fra %s en gang</target>
         <jms:reference-file line="54">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
         <jms:reference-file line="86">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
       </trans-unit>
@@ -4114,23 +4114,23 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="eb7be997c9dfa60dc1bff302abd092bf3347ca8c" resname="We were not able to authenticate with your credentials at Garmin Connect. Maybe you provided wrong credentials or maybe the bulk import tool is broken due a change on Garmins website.">
         <source>We were not able to authenticate with your credentials at Garmin Connect. Maybe you provided wrong credentials or maybe the bulk import tool is broken due a change on Garmins website.</source>
-        <target>We were not able to authenticate with your credentials at Garmin Connect. Maybe you provided wrong credentials or maybe the bulk import tool is broken due a change on Garmins website.</target>
+        <target>Vi var ikke i stand til å autentifisere deg med dine brukeropplysninger hos Garmin Connect. Mulig har du oppgitt feil brukeropplysninger, eller kanskje så er bulk-import-verktøyet ødelagt som følge av endring på Garmins webside.</target>
         <jms:reference-file line="40">/Resources/views/tools/garmin_import.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="b1f87942ba507d20c9c2c56cdb331c3f8a3f846c" resname="We were not able to authenticate with your credentials at Polar Flow. Maybe you provided wrong credentials or maybe the bulk import tool is broken due a change on Polars website.">
         <source>We were not able to authenticate with your credentials at Polar Flow. Maybe you provided wrong credentials or maybe the bulk import tool is broken due a change on Polars website.</source>
-        <target>We were not able to authenticate with your credentials at Polar Flow. Maybe you provided wrong credentials or maybe the bulk import tool is broken due a change on Polars website.</target>
+        <target>Vi var ikke i stand til å autentifisere deg med dine brukeropplysninger hos Polar Flow. Mulig har du oppgitt feil brukeropplysninger, eller kanskje så er bulk-import-verktøyet ødelagt som følge av endring på Polars webside.</target>
         <jms:reference-file line="40">/Resources/views/tools/polar_import.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="cd54dd819d677dcd2055f7c0b34661caff15869d" resname="We will check if your login data is valid after submitting this form.">
         <source>We will check if your login data is valid after submitting this form.</source>
-        <target>We will check if your login data is valid after submitting this form.</target>
+        <target>Vi vil sjekke om dine brukeropplysninger er gyldige etter innsending av dette skjemaet.</target>
         <jms:reference-file line="30">/Resources/views/tools/garmin_import.html.twig</jms:reference-file>
         <jms:reference-file line="30">/Resources/views/tools/polar_import.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="a0d5bed8a1075255b5f398a7cfdf3e8955519d9c" resname="We will fix this as soon as possible.">
         <source>We will fix this as soon as possible.</source>
-        <target>We will fix this as soon as possible.</target>
+        <target>Vi vil rette opp dette så snart som mulig.</target>
         <jms:reference-file line="11">/Resources/views/static/notifications/notification-missing.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="cfde945b216bfeddfb176af73aa8bb1be930c63a" resname="We will notify you when the file is ready for downloading.">
@@ -4170,7 +4170,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="beb258e968b165693a686b45518c3c9dc838f4e6" resname="Weekday">
         <source>Weekday</source>
-        <target>Weekday</target>
+        <target>Ukedag</target>
         <jms:reference-file line="143">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="69c0b81540bd6771fbae52b1e5922cfd40155633" resname="Weight">
@@ -4290,7 +4290,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="668ef1981c000b5c0e6c40fd49a05143b530fb50" resname="You can define custom training paces by %vVO2max in the form below.">
         <source>You can define custom training paces by %vVO2max in the form below.</source>
-        <target>You can define custom training paces by %vVO2max in the form below.</target>
+        <target>Du kan definere selvvalgte treningstempoer for %vVO2max i skjemaet nedenfor.</target>
         <jms:reference-file line="54">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="2a3bed8d61c1c67bf86e97ae720eb926fa36b6fd" resname="You can define the default privacy of new activities by sport type in the associated sport configuration.">
@@ -4322,7 +4322,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="a620229e247a581c6ab0babd84880aadac21e024" resname="You can only run the full import every six hours.">
         <source>You can only run the full import every six hours.</source>
-        <target>You can only run the full import every six hours.</target>
+        <target>Du kan kun kjøre full import hver skjette time.</target>
         <jms:reference-file line="11">/Resources/views/tools/garmin_import.html.twig</jms:reference-file>
         <jms:reference-file line="11">/Resources/views/tools/polar_import.html.twig</jms:reference-file>
       </trans-unit>
@@ -4520,12 +4520,12 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="d549427e83ea8702f093e72fda34edd139abc5e1" resname="Your activities will be downloaded within the hours. This may take some time. You can close this window.">
         <source>Your activities will be downloaded within the hours. This may take some time. You can close this window.</source>
-        <target>Your activities will be downloaded within the hours. This may take some time. You can close this window.</target>
+        <target>Dine aktiviteter vil bli lastet ned innen en time. Dette kan ta noe tid. Du kan lukke dette vinduet.</target>
         <jms:reference-file line="37">/Resources/views/tools/polar_import.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="6b692c9af466f1385253a782c075adcdf8e8fec5" resname="Your activities will be downloaded within the next hours. This may take some time. You can close this window.">
         <source>Your activities will be downloaded within the next hours. This may take some time. You can close this window.</source>
-        <target>Your activities will be downloaded within the next hours. This may take some time. You can close this window.</target>
+        <target>Dine aktiviteter vil bli lastet ned innen en time. Dette kan ta noe tid. Du kan lukke dette vinduet.a</target>
         <jms:reference-file line="37">/Resources/views/tools/garmin_import.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="867e4f330e5ac0354309b71bfc1ff48598dca888" resname="Your backup has been generated and is now available for download.">
@@ -4769,7 +4769,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="0b1e95cfd9775191a7224d0a218ae79187e80c1d" resname="from">
         <source>from</source>
-        <target>from</target>
+        <target>fra</target>
         <jms:reference-file line="65">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="d8680aea3e8adf668a249eba62192fa1ed9336f1" resname="german">
@@ -4785,7 +4785,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="0154c0dabe7145db37e0b81bf667e7224abec0ba" resname="here">
         <source>here</source>
-        <target>here</target>
+        <target>her</target>
         <jms:reference-file line="45">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="bbf96d5eac7d8a6c284064549786e15237971e2a" resname="hrm- and gpx-files with the same name will be automatically combined.">
@@ -5011,7 +5011,7 @@ I tillegg kan verdier for elevasjon, TRIMP og %VO2max% bli kalkulert på nytt.</
       </trans-unit>
       <trans-unit id="786f0ed95a949ed86fa180801d114d5051e41805" resname="starting at">
         <source>starting at</source>
-        <target>starting at</target>
+        <target>starter på</target>
         <jms:reference-file line="14">/Resources/views/affiliate/amazon.html.twig</jms:reference-file>
         <jms:reference-file line="16">/Resources/views/affiliate/amazon.html.twig</jms:reference-file>
       </trans-unit>
