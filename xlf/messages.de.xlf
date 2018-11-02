@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
   <file date="2018-11-02T10:55:26Z" source-language="en" target-language="de" datatype="plaintext" original="not.available">
     <header>
@@ -7,8 +7,8 @@
     </header>
     <body>
       <trans-unit id="da39a3ee5e6b4b0d3255bfef95601890afd80709" resname="">
-        <source></source>
-        <target></target>
+        <source/>
+        <target/>
         <jms:reference-file line="131">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="51cdaa070e7ba82f95b3c3af335b0f6417648c02" resname="                            The file has to be created with the same (minor) version of RUNALYZE.&lt;br&gt;&#10;                            You won't be able to import a file from older versions.&#10;                        ">
@@ -316,7 +316,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="62cc053b8c58bb9ba78fa272271f549747f2f14d" resname="Add pace">
         <source>Add pace</source>
-        <target state="new">Add pace</target>
+        <target state="new">Geschwindigkeit hinzufügen</target>
         <jms:reference-file line="100">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="875e19d453a0708f1fabc24489eca58421f0d512" resname="Add weather data">
@@ -921,7 +921,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="c8ff7de27e2364194591c14bda974e9dadbcdf26" resname="Custom Pace Set">
         <source>Custom Pace Set</source>
-        <target state="new">Custom Pace Set</target>
+        <target state="new">Benutzerdefinierte Geschwindigkeitsvorgaben</target>
         <jms:reference-file line="60">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="e21e0cafabed9d4100d1f178aac322bf5a318f56" resname="Custom training paces">
@@ -1268,7 +1268,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="00f03137e1553b0354282415020698a20e955299" resname="Easy">
         <source>Easy</source>
-        <target state="new">Easy</target>
+        <target state="new">Grundlage</target>
         <jms:reference-file line="7">/Resources/views/translation_helper.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="5301648dcf6b53cefc9ed52999aaa92d4603cae0" resname="Edit">
@@ -1448,7 +1448,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="b52bd594e91a183f8d4050edb9cf37ae1e223beb" resname="Fast Run">
         <source>Fast Run</source>
-        <target state="new">Fast Run</target>
+        <target state="new">Schneller Lauf</target>
         <jms:reference-file line="15">/Resources/views/translation_helper.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="7b71bd0c3d7679a8e2749e3877c27f8e48900246" resname="Fat">
@@ -1954,7 +1954,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="011efcd591019b5969a332a24dff728a8107dbe2" resname="Interval">
         <source>Interval</source>
-        <target state="new">Interval</target>
+        <target state="new">Intervall</target>
         <jms:reference-file line="10">/Resources/views/translation_helper.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="0ac2a3e65056a0290391a9d94433a1e1820d74bf" resname="Invalid date selection.">
@@ -2196,7 +2196,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="ef8f5c9ae42edb242cc1a478157eab2c77ed06e7" resname="Moderate Run">
         <source>Moderate Run</source>
-        <target state="new">Moderate Run</target>
+        <target state="new">Mittlerer Dauerlauf</target>
         <jms:reference-file line="14">/Resources/views/translation_helper.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="082bc378cd60e17a38d99898b21955299c5b60c8" resname="Month">
@@ -2946,7 +2946,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="711ba373a79d31376784182b72065d953222072d" resname="Repetition">
         <source>Repetition</source>
-        <target state="new">Repetition</target>
+        <target state="new">Wiederholung</target>
         <jms:reference-file line="11">/Resources/views/translation_helper.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="9fcda32cc0cb4e4c9f7579af0e1ac967a0eb4cfc" resname="Request failed">
@@ -3231,7 +3231,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="eb68965d71d4424a39719ad7ba3520a86af6dd60" resname="Slow Run">
         <source>Slow Run</source>
-        <target state="new">Slow Run</target>
+        <target state="new">Langsamer Lauf</target>
         <jms:reference-file line="13">/Resources/views/translation_helper.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="5f33fa8e23427e581ae9c42996441e9d76aa6e6f" resname="Social Login">
@@ -3361,7 +3361,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="9f5f63bd82a0f43945c5d07f6423aad2ac72f4e5" resname="Super Oxygen Run">
         <source>Super Oxygen Run</source>
-        <target state="new">Super Oxygen Run</target>
+        <target state="new">Supersauerstofflauf</target>
         <jms:reference-file line="12">/Resources/views/translation_helper.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="f32d5a3b17e614297417cc279a7ec1cd02274d65" resname="Support">
@@ -3776,7 +3776,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="c51f7b72279e26fd7cf66d9d61e7f7204bf3b26a" resname="Threshold">
         <source>Threshold</source>
-        <target state="new">Threshold</target>
+        <target state="new">Schwellenlauf</target>
         <jms:reference-file line="9">/Resources/views/translation_helper.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="6c82e6dd86807ee3db07e3c82bec1ae1ce00b08b" resname="Time">
