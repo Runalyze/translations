@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
   <file date="2018-11-02T10:56:09Z" source-language="en" target-language="pl" datatype="plaintext" original="not.available">
     <header>
@@ -7,8 +7,8 @@
     </header>
     <body>
       <trans-unit id="da39a3ee5e6b4b0d3255bfef95601890afd80709" resname="">
-        <source></source>
-        <target></target>
+        <source/>
+        <target/>
         <jms:reference-file line="131">/../src/CoreBundle/Form/Tools/Histograms/HistogramsType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="51cdaa070e7ba82f95b3c3af335b0f6417648c02" resname="                            The file has to be created with the same (minor) version of RUNALYZE.&lt;br&gt;&#10;                            You won't be able to import a file from older versions.&#10;                        ">
@@ -97,7 +97,7 @@
       </trans-unit>
       <trans-unit id="550f492da73d1ba82d45e078e42d1bd48fe924fc" resname="&lt;b&gt;%s&lt;/b&gt; would like permissions to access your RUNALYZE account">
         <source><![CDATA[<b>%s</b> would like permissions to access your RUNALYZE account]]></source>
-        <target><![CDATA[<b>%s</b> chciałby uzyskać uprawnienia dostępu do twojego konta RUNALYZE.]]></target>
+        <target>&lt;b&gt;%s&lt;/b&gt; chciałby uzyskać uprawnienia dostępu do twojego konta RUNALYZE</target>
         <jms:reference-file line="12">/Resources/FOSOAuthServerBundle/views/Authorize/authorize_content.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="04bbd88ceca64ef98a75c389a443bddfcbda86fc" resname="&lt;strong&gt;%VO2max%/Time (Shape):&lt;/strong&gt; by your shape at that time&lt;br&gt;&#10;                The time is the prognosis by Runalyze.">
@@ -200,7 +200,7 @@
       </trans-unit>
       <trans-unit id="e190939aca2d78cce1aefb21b985fb0779710890" resname="Activity data of %username%">
         <source>Activity data of %username%</source>
-        <target>Activity data of %username%</target>
+        <target>Dane dotyczące działalności %username%</target>
         <jms:reference-file line="28">/Resources/views/shared/athlete/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="93f2f817e4c7009b3bde2ec460986daee824dd14" resname="Activity import">
@@ -319,7 +319,7 @@
       </trans-unit>
       <trans-unit id="62cc053b8c58bb9ba78fa272271f549747f2f14d" resname="Add pace">
         <source>Add pace</source>
-        <target state="new">Add pace</target>
+        <target state="new">Dodaj tempo</target>
         <jms:reference-file line="100">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="875e19d453a0708f1fabc24489eca58421f0d512" resname="Add weather data">
@@ -344,12 +344,12 @@
       </trans-unit>
       <trans-unit id="937e755dc30f5ebc6b412fe3839ff16429f65f8c" resname="All activities have been downloaded from Garmin Connect and are now being imported.">
         <source>All activities have been downloaded from Garmin Connect and are now being imported.</source>
-        <target>All activities have been downloaded from Garmin Connect and are now being imported.</target>
+        <target>Wszystkie aktywności zostały pobrane z Garmin Connect i są teraz importowane.</target>
         <jms:reference-file line="28">/../src/CoreBundle/Component/Notifications/Message/GarminFullImportMessage.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="23c04944e80d5e7c5e3d2a0fbc116350d1a56bbb" resname="All activities have been downloaded from Polar Flow and are now being imported.">
         <source>All activities have been downloaded from Polar Flow and are now being imported.</source>
-        <target>All activities have been downloaded from Polar Flow and are now being imported.</target>
+        <target>Wszystkie działania zostały pobrane z Polar Flow i są obecnie importowane.</target>
         <jms:reference-file line="28">/../src/CoreBundle/Component/Notifications/Message/PolarFullImportMessage.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="1458b58c6250127b83ec15650365c683d73de5f5" resname="All paces are in %unit%.">
@@ -384,7 +384,7 @@
       </trans-unit>
       <trans-unit id="3945e0b78078fbb10415e809d9c0eade6512161d" resname="Alternative sport">
         <source>Alternative sport</source>
-        <target>Alternative sport</target>
+        <target>Sport alternatywny</target>
         <jms:reference-file line="123">/Resources/views/tools/histograms/base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="62c7fcf46e2780a0ee480a6514b7a8e0687f0c27" resname="Analysis">
@@ -482,7 +482,7 @@
       </trans-unit>
       <trans-unit id="df4aa4455652d3a0fde55527e9d722d1cec39a36" resname="Automatically synchronizes all future activities from Polar Flow to Runalyze">
         <source>Automatically synchronizes all future activities from Polar Flow to Runalyze</source>
-        <target>Automatically synchronizes all future activities from Polar Flow to Runalyze</target>
+        <target>Automatycznie synchronizuje wszystkie przyszłe działania z Polar Flow do Runalyze</target>
         <jms:reference-file line="84">/Resources/views/activity/import_sync.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="f8f5117038c185bf68b0bd33b349f9405e133955" resname="Available exports">
@@ -607,7 +607,7 @@
       </trans-unit>
       <trans-unit id="5ff7431ccbb186b0ac535e363b919b439413af7b" resname="Buy on Amazon">
         <source>Buy on Amazon</source>
-        <target>Buy on Amazon</target>
+        <target>Kup w Amazon</target>
         <jms:reference-file line="27">/Resources/views/affiliate/amazon.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="87dc57e8714a62b1a86beffe3809c7bbcd86b0e1" resname="By athletes for athletes">
@@ -5050,7 +5050,7 @@
       </trans-unit>
       <trans-unit id="500e4b89724b9b2c26282c027a582badc10afe7c" resname="{1} Until now &lt;strong&gt;%count%&lt;/strong&gt; athlete is registered and|]1,Inf[ Until now &lt;strong&gt;%count%&lt;/strong&gt; athletes are registered and">
         <source><![CDATA[{1} Until now <strong>%count%</strong> athlete is registered and|]1,Inf[ Until now <strong>%count%</strong> athletes are registered and]]></source>
-        <target><![CDATA[{1} Do tej pory zarejestrowano <strong>%count%</strong> sportowiec, a|]1,Inf[ Do tej pory zarejestrowano <strong>%count%</strong> sportowiec, oraz]]></target>
+        <target>{1} Do tej pory zarejestrowano &lt;strong&gt;%count%&lt;/strong&gt; sportowców, a|]1,Inf[ Do tej pory zarejestrowano &lt;strong&gt;%count%&lt;/strong&gt; sportowców, oraz</target>
         <jms:reference-file line="3">/Resources/views/login/statistics.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="a7ec5432036499dafce54cfca1a60cb7c4016ce7" resname="{1} has logged &lt;strong&gt;%distance%&lt;/strong&gt;.|]1,Inf[ have logged &lt;strong&gt;%distance%&lt;/strong&gt;.">
