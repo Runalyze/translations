@@ -5014,7 +5014,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="4374aaee247fb237ce6c97d5c8d64bbe474d16de" resname="to">
         <source>to</source>
-        <target>to</target>
+        <target>zu</target>
         <jms:reference-file line="49">/Resources/views/_macro/form.html.twig</jms:reference-file>
         <jms:reference-file line="65">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
         <jms:reference-file line="74">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
