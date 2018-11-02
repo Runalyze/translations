@@ -3878,7 +3878,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="b1d358e53ab5ec044ff8f5e47b3a61d453379a48" resname="Training paces by %author%">
         <source>Training paces by %author%</source>
-        <target>Trainingsgeschwindigkeiten von %Autor%</target>
+        <target>Trainingsgeschwindigkeiten nach %author%</target>
         <jms:reference-file line="29">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="3b219493db976aa7fb3e85227471998e72e810d8" resname="Transfer all data from %s once">
