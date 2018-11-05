@@ -3,9 +3,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Runalyze\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-10-21 20:11+0200\n"
-"PO-Revision-Date: 2018-08-15 10:55+0000\n"
+"PO-Revision-Date: 2018-11-09 10:22+0000\n"
 "Last-Translator: Adam <asdcq@interia.pl>\n"
 "Language-Team: Polish <http://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/pl/>\n"
@@ -23,17 +23,17 @@ msgstr ""
 #: inc/core/View/RaceResult/Dataview.php:91
 #, php-format
 msgid "of %u overall"
-msgstr ""
+msgstr "%u ogółem"
 
 #: inc/core/View/RaceResult/Dataview.php:104
 #, php-format
 msgid "of %u in your age group"
-msgstr ""
+msgstr "%u w danej grupie wiekowej"
 
 #: inc/core/View/RaceResult/Dataview.php:117
 #, php-format
 msgid "of %u men/women"
-msgstr ""
+msgstr "%u wśród mężczyzn/kobiet"
 
 #: inc/core/View/RaceResult/Dataview.php:174
 #, php-format
@@ -132,7 +132,7 @@ msgstr ""
 
 #: inc/core/View/Activity/Box/MaximalHeartRateInPercent.php:65
 msgid "Please adjust your maximal heart rate."
-msgstr ""
+msgstr "Proszę dostosować swoje maksymalne tętno."
 
 #: inc/core/View/Activity/Box/ElevationUpDown.php:35
 msgid "Elevation up/down"
@@ -209,9 +209,8 @@ msgid "Heart rate"
 msgstr "Tętno"
 
 #: inc/core/View/Activity/Box/Power.php:14
-#, fuzzy
 msgid "avg. Power"
-msgstr "Moc"
+msgstr "Moc średnia"
 
 #: inc/core/View/Activity/Box/Pace.php:28
 #: inc/core/View/Activity/Box/Speed.php:37
