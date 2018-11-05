@@ -1728,7 +1728,7 @@
       </trans-unit>
       <trans-unit id="7e217fa4d4b98f78392cd931a62b5db2691ec07a" resname="Hi %s, &lt;br&gt; we are sorry to hear that you wish to delete your RUNALYZE account">
         <source><![CDATA[Hi %s, <br> we are sorry to hear that you wish to delete your RUNALYZE account]]></source>
-        <target><![CDATA[Witaj %s, <br> z przykrością informujemy, że chcesz usunąć swoje konto RUNALYZE.]]></target>
+        <target>Witaj %s, &lt;br&gt; z przykrością informujemy, że chcesz usunąć swoje konto RUNALYZE</target>
         <jms:reference-file line="9">/Resources/views/mail/account/deleteAccountRequest.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="5c10f3be26d63b9bd2c804cee05cd9a78fd31262" resname="Hi %s, we heard that you forgot your password!">
@@ -2874,7 +2874,7 @@
       </trans-unit>
       <trans-unit id="76ac7bfce4dfa5a1b50f3b11fae4fae08b3e077c" resname="Recalculate your marathon shape">
         <source>Recalculate your marathon shape</source>
-        <target>Ponownie oblicz swój kształt maratonu.</target>
+        <target>Ponownie przelicz swoją kondycję maratońską</target>
         <jms:reference-file line="36">/Resources/views/tools/database_cleanup/form.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="db1c784524e1b54011a95823026161f7c8517fe0" resname="Reference">
@@ -3020,7 +3020,7 @@
       </trans-unit>
       <trans-unit id="9bff0849cf966413a31b9a7c16dc3cc88ff5983b" resname="Runalyze is created by athletes for athletes. Whenever you have comments, problems or wishes: Please contact our Runalyze team. It's near and dear to us.">
         <source>Runalyze is created by athletes for athletes. Whenever you have comments, problems or wishes: Please contact our Runalyze team. It's near and dear to us.</source>
-        <target>Runalyze tworzą sportowców dla sportowców. Jeśli masz uwagi lub sugestie - skontaktuj się z nami. To dla nas ważne</target>
+        <target>Runalyze tworzą sportowcy dla sportowców. Jeśli masz uwagi lub sugestie - skontaktuj się z nami. To dla nas ważne.</target>
         <jms:reference-file line="28">/Resources/views/home_feature_showcase.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="ee3b27686ec124209239ea39434572c1355622b8" resname="Runalyze offers default configurations for common types of sport. This mapping is required to recognize the correct type of sport when syncing activities. You can still adjust all settings.">
@@ -4087,7 +4087,7 @@
       </trans-unit>
       <trans-unit id="bbbff8cf8603a8b44bf126217cf6ca8f8dc98ea7" resname="We don't support any app yet">
         <source>We don't support any app yet</source>
-        <target>Nie obsługujemy jeszcze żadnej aplikacji.</target>
+        <target>Nie obsługujemy jeszcze żadnej aplikacji</target>
         <jms:reference-file line="57">/Resources/views/settings/app.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="97286a2b91d94c57dcdfee7525a87c54bdbd02b7" resname="We give our best to make Runalyze as good as possible for you. - Therefore we would be interested in your suggestions for improvement.">
@@ -5055,7 +5055,7 @@
       </trans-unit>
       <trans-unit id="a7ec5432036499dafce54cfca1a60cb7c4016ce7" resname="{1} has logged &lt;strong&gt;%distance%&lt;/strong&gt;.|]1,Inf[ have logged &lt;strong&gt;%distance%&lt;/strong&gt;.">
         <source><![CDATA[{1} has logged <strong>%distance%</strong>.|]1,Inf[ have logged <strong>%distance%</strong>.]]></source>
-        <target><![CDATA[{1} zarejestrował <strong>%distance%</strong>.|]1,Inf[ zarejestrował <strong>%distance%</strong>.]]></target>
+        <target>{1} zarejestrowno &lt;strong&gt;%distance%&lt;/strong&gt;.|]1,Inf[ zarejestrowno &lt;strong&gt;%distance%&lt;/strong&gt;.</target>
         <jms:reference-file line="5">/Resources/views/login/statistics.html.twig</jms:reference-file>
       </trans-unit>
     </body>
