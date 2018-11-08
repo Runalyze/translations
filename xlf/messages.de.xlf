@@ -2354,7 +2354,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="6be6cb710ab8d8643ab5b1c39b6ff420aaa5e7c8" resname="Not all of your posters could be generated.">
         <source>Not all of your posters could be generated.</source>
-        <target>Nicht alle deine Plakate konnten erzeugt werden.</target>
+        <target>Nicht alle deine Poster konnten erzeugt werden.</target>
         <jms:reference-file line="47">/../src/CoreBundle/Component/Notifications/Message/PosterGeneratedMessage.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="70440046a3dc2e079f23ee1c57dfa76669b732aa" resname="Notes">
@@ -4512,7 +4512,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="d549427e83ea8702f093e72fda34edd139abc5e1" resname="Your activities will be downloaded within the hours. This may take some time. You can close this window.">
         <source>Your activities will be downloaded within the hours. This may take some time. You can close this window.</source>
-        <target>Deine Aktivitäten werden innerhalb weniger Stunden heruntergeladen. Dies kann einige Zeit in Anspruch nehmen. Du kannst dieses Fenster schließen</target>
+        <target>Deine Aktivitäten werden innerhalb weniger Stunden heruntergeladen. Dies kann einige Zeit in Anspruch nehmen. Du kannst dieses Fenster schließen.</target>
         <jms:reference-file line="37">/Resources/views/tools/polar_import.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="6b692c9af466f1385253a782c075adcdf8e8fec5" resname="Your activities will be downloaded within the next hours. This may take some time. You can close this window.">
