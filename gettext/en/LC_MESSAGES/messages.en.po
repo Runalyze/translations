@@ -8,38 +8,38 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-10-21 20:11+0200\n"
-"PO-Revision-Date: 2018-06-18 13:52+0000\n"
-"Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
-"Language-Team: English <https://translate.runalyze.com/projects/runalyze/"
+"PO-Revision-Date: 2018-11-13 13:45+0000\n"
+"Last-Translator: Philipp Aigner <philipp-aigner@gmx.at>\n"
+"Language-Team: English <http://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/en/>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.20-dev\n"
+"X-Generator: Weblate 3.0.1\n"
 
 #: inc/core/View/RaceResult/Dataview.php:91
-#, php-format
+#, fuzzy, php-format
 msgid "of %u overall"
-msgstr ""
+msgstr "of %u overall"
 
 #: inc/core/View/RaceResult/Dataview.php:104
-#, php-format
+#, fuzzy, php-format
 msgid "of %u in your age group"
-msgstr ""
+msgstr "of %u in your age group"
 
 #: inc/core/View/RaceResult/Dataview.php:117
 #, php-format
 msgid "of %u men/women"
-msgstr ""
+msgstr "of %u men/women"
 
 #: inc/core/View/RaceResult/Dataview.php:174
 #, php-format
 msgid "(first %u%%)"
-msgstr ""
+msgstr "(first %u%%)"
 
 #: inc/core/View/Splits/Table.php:154
 #: inc/core/View/Activity/Plot/Series/DistanceSeries.php:39
@@ -121,9 +121,8 @@ msgstr "Total cadence"
 #: inc/core/View/Activity/Box/FlightTime.php:14
 #: inc/core/Dataset/Keys/FlightTime.php:21
 #: inc/training/search/class.FormularSelectSearchSort.php:58
-#, fuzzy
 msgid "Flight time"
-msgstr "Light air"
+msgstr "flight time"
 
 #: inc/core/View/Activity/Box/MaximalHeartRateInPercent.php:64
 msgid "This value exceeds your entered maximal heart rate."
@@ -208,9 +207,8 @@ msgid "Heart rate"
 msgstr "Heart rate"
 
 #: inc/core/View/Activity/Box/Power.php:14
-#, fuzzy
 msgid "avg. Power"
-msgstr "Power"
+msgstr "average power"
 
 #: inc/core/View/Activity/Box/Pace.php:28
 #: inc/core/View/Activity/Box/Speed.php:37
@@ -226,9 +224,8 @@ msgstr "TRIMP"
 #: inc/core/View/Activity/Box/FlightRatio.php:16
 #: inc/core/Dataset/Keys/FlightRatio.php:21
 #: inc/training/search/class.FormularSelectSearchSort.php:59
-#, fuzzy
 msgid "Flight ratio"
-msgstr "Light air"
+msgstr "Flight ratio"
 
 #: inc/core/View/Activity/Plot/Series/Temperature.php:40
 #: inc/core/Activity/Temperature.php:60
@@ -261,9 +258,8 @@ msgstr "Moving average"
 #: inc/training/search/class.FormularSelectSearchSort.php:62
 #: inc/training/search/class.FormularSelectSearchSort.php:63
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:69
-#, fuzzy
 msgid "Braking Gs"
-msgstr "Biking"
+msgstr "Braking Power in G"
 
 #: inc/core/View/Activity/Plot/Series/BrakingGs.php:28
 #: inc/core/View/Activity/Plot/Series/ImpactGs.php:28
@@ -278,7 +274,7 @@ msgstr "Biking"
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:16
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:19
 msgid "left"
-msgstr ""
+msgstr "left"
 
 #: inc/core/View/Activity/Plot/Series/BrakingGs.php:28
 #: inc/core/View/Activity/Plot/Series/ImpactGs.php:28
@@ -292,9 +288,8 @@ msgstr ""
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:14
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:17
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:20
-#, fuzzy
 msgid "right"
-msgstr "Light"
+msgstr "right"
 
 #: inc/core/View/Activity/Plot/Series/StrideLength.php:54
 #: inc/core/View/Window/Laps/Table.php:277
@@ -308,7 +303,7 @@ msgstr "Stride length"
 
 #: inc/core/View/Activity/Plot/Series/GradeAdjustedPace.php:35
 msgid "Grade adjusted pace"
-msgstr ""
+msgstr "Grade adjusted pace"
 
 #: inc/core/View/Activity/Plot/Series/ImpactGs.php:28
 #: inc/core/Dataset/Keys/AverageImpactGs.php:22
@@ -331,14 +326,14 @@ msgstr "Stroke"
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:20
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:79
 msgid "Pronation excursion"
-msgstr ""
+msgstr "pronation angle"
 
 #: inc/core/View/Activity/Plot/Series/FootstrikeType.php:28
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:16
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:17
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:74
 msgid "Footstrike"
-msgstr ""
+msgstr "Footstrike"
 
 #: inc/core/View/Activity/Plot/Series/Swolf.php:63
 #: inc/core/View/Activity/Plot/Series/Swolfcycles.php:62
