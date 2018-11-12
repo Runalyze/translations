@@ -5,8 +5,8 @@ msgstr ""
 "Project-Id-Version: Runalyze\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-10-21 20:11+0200\n"
-"PO-Revision-Date: 2018-10-21 18:30+0000\n"
-"Last-Translator: Michael Pohl <michael@mipapo.de>\n"
+"PO-Revision-Date: 2018-11-12 09:44+0000\n"
+"Last-Translator: Philipp Aigner <philipp-aigner@gmx.at>\n"
 "Language-Team: German <http://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/de/>\n"
 "Language: de\n"
@@ -205,9 +205,8 @@ msgid "Heart rate"
 msgstr "Herzfrequenz"
 
 #: inc/core/View/Activity/Box/Power.php:14
-#, fuzzy
 msgid "avg. Power"
-msgstr "Leistung"
+msgstr "Mittlere Leistung"
 
 #: inc/core/View/Activity/Box/Pace.php:28
 #: inc/core/View/Activity/Box/Speed.php:37
@@ -538,7 +537,7 @@ msgstr "Berechnete Runden anzeigen"
 
 #: inc/core/View/Window/Laps/Form.php:169
 msgid "Show manual laps"
-msgstr "Zeige manuelle Runden"
+msgstr "Manuelle Runden anzeigen"
 
 #: inc/core/View/Window/Laps/Table.php:125
 #: inc/training/view/section/class.SectionLaps.php:20
@@ -668,7 +667,7 @@ msgstr "Einfach"
 
 #: inc/core/Activity/TrainingEffectLevel.php:70
 msgid "Maintaining workout"
-msgstr "Aufrechterhaltendes Training"
+msgstr "Erhaltungstraining"
 
 #: inc/core/Activity/TrainingEffectLevel.php:72
 msgid "Improving Fitness"
@@ -676,19 +675,19 @@ msgstr "Verbesserung der Fitness"
 
 #: inc/core/Activity/TrainingEffectLevel.php:74
 msgid "Highly Improving"
-msgstr "Stark verbesserndes Training"
+msgstr "Stark verbessernd"
 
 #: inc/core/Activity/TrainingEffectLevel.php:76
 msgid "Overreaching"
-msgstr "Überlastendes Training"
+msgstr "Überlastend"
 
 #: inc/core/Activity/TrainingEffectLevel.php:92
 msgid ""
 "Helps recovery (short activities). Improves endurance with longer activities "
 "(more than 40 minutes)."
 msgstr ""
-"Unterstützt die Regeneration (kurze Einheiten). Unterstützt die "
-"Grundlagenausdauer bei langen Aktivitäten (länger als 40 Minuten)."
+"Unterstützt die Regeneration (kurze Einheiten). Unterstützt die Ausdauer bei "
+"langen Aktivitäten (länger als 40 Minuten)."
 
 #: inc/core/Activity/TrainingEffectLevel.php:94
 msgid "Maintains your aerobic fitness."
@@ -715,7 +714,7 @@ msgid ""
 "with extreme care. Requires additional recovery days."
 msgstr ""
 "Führt zu einer vorübergehenden Überbelastung mit hoher Verbesserung. "
-"Trainiere in diesem Bereich mit Vorsicht. Es sind zusätzliche "
+"Trainiere in diesem Bereich mit großer Vorsicht. Es sind zusätzliche "
 "Regenerationstage erforderlich."
 
 #: inc/core/Activity/Weight.php:72
@@ -742,7 +741,7 @@ msgstr "Poollänge"
 #: inc/core/Dataset/Keys/FitTrainingEffect.php:43
 #: inc/training/search/class.SearchFormular.php:220
 msgid "Training Effect"
-msgstr "Training Effekt"
+msgstr "Trainingseffekt"
 
 #: inc/core/Util/Time.php:89 inc/tpl/tpl.DataBrowser.php:28
 msgid "Sun"
@@ -929,7 +928,8 @@ msgid ""
 "if it was a race. "
 msgstr ""
 "Zwischenzeiten werden als Uhr-Icon mit allen Zeiten als Tooltip angezeigt. "
-"Das Icon wird nur angezeigt, falls aktive und \"Ruhe\"-Runden vorliegen. "
+"Das Icon wird nur angezeigt, wenn manuelle Runden vorhanden sind (z.B. "
+"aktive/inaktive Runden oder Wettkampf) "
 
 #: inc/core/Dataset/Keys/VO2maxIcon.php:36
 msgid "Effective VO<sub>2</sub>max icon"
@@ -941,7 +941,7 @@ msgid ""
 "if the value is (much) higher than your current shape, equal to it or (much) "
 "lower:"
 msgstr ""
-"Der VO<sub>2</sub>max-Wert eines Trainings wird mit einem Pfeil dargestellt, "
+"Jeder VO<sub>2</sub>max-Wert eines Trainings wird mit einem Pfeil markiert, "
 "um zu verdeutlichen, ob der Wert im Vergleich zum derzeitigen "
 "Durchschnittswert (deutlich) höher, in etwa gleich oder (deutlich) niedriger "
 "ist:"
@@ -1007,9 +1007,8 @@ msgid ""
 "The heat index is a measure of how hot it really feels when relative "
 "humidity is factored with the actual air temperature."
 msgstr ""
-"Der Hitzeindex ist eine in Einheiten der Temperatur angegebene Größe zur "
-"Beschreibung der gefühlten Temperatur auf Basis der gemessenen "
-"Lufttemperatur sowie vor allem der relativen Luftfeuchtigkeit."
+"Der Hitzeindex ist eine Maß der gefühlten Temperatur auf Basis der "
+"gemessenen Lufttemperatur sowie vor allem der relativen Luftfeuchtigkeit."
 
 #: inc/core/Dataset/Keys/VerticalRatio.php:53
 msgid "Vertical ratio is the ratio of vertical oscillation to stride length."
@@ -1047,8 +1046,8 @@ msgid ""
 "configuration. Equipment objects of this type will be shown with their names."
 msgstr ""
 "Du kannst in der Sportkonfiguration für jede Sportart einen Haupt-"
-"Ausrüstungstyp auswählen. Objekte dieses Typs werden mit ihrem Namen "
-"angezeigt."
+"Ausrüstungstyp auswählen. Ausrüstungsobjekte dieses Typs werden mit ihrem "
+"Namen angezeigt."
 
 #: inc/core/Dataset/Keys/AveragePronationExcursion.php:27
 msgid "Pronation"
@@ -1062,7 +1061,7 @@ msgstr "Luftfeuchtigkeit"
 
 #: inc/core/Dataset/Keys/Daytime.php:44
 msgid "Daytime"
-msgstr "Uhrzeit"
+msgstr "Tageszeit"
 
 #: inc/core/Dataset/Keys/Daytime.php:70
 msgid "Exact daytime of the activity. (the date itself is always shown)"
@@ -1072,7 +1071,7 @@ msgstr ""
 #: inc/core/Dataset/Keys/RunningEffectiveness.php:23
 #: inc/training/view/section/class.SectionPowerRow.php:74
 msgid "Running Effectiveness"
-msgstr "Running Effectiveness"
+msgstr "Laufeffizienz"
 
 #: inc/core/Dataset/Keys/RunningEffectiveness.php:33
 msgid ""
@@ -1080,10 +1079,10 @@ msgid ""
 "calculated as the ratio of speed to power. The greater its value, the more "
 "'effective' the runner is at converting external power into speed."
 msgstr ""
-"Die Running Effectiveness (RE) ist eine von Dr. Andrew Coggan eingeführte "
-"Metrik, die als das Verhältnis von Geschwindigkeit zu Leistung berechnet "
-"wird. Je größer der Wert, desto \"effektiver\" ist der Läufer bei der "
-"Umwandlung von Energie in Geschwindigkeit."
+"Die Laufeffizienz (Running Effectiveness RE) ist eine von Dr. Andrew Coggan "
+"eingeführte Metrik, die als das Verhältnis von Geschwindigkeit zu Leistung "
+"berechnet wird. Je größer der Wert, desto \"effektiver\" ist der Läufer bei "
+"der Umwandlung von Energie in Geschwindigkeit."
 
 #: inc/core/Dataset/Keys/SocialShare.php:52
 msgid "Social Sharing"
@@ -1215,7 +1214,7 @@ msgid ""
 "Calculated value for total elevation, i.e. maximum of total ascent or "
 "descent."
 msgstr ""
-"Berechnete Höhenmeter, d.h. entweder die Summe der positiven oder der "
+"Berechnete Gesamthöhenmeter, d.h. entweder die Summe der positiven oder der "
 "negativen Höhenmeter."
 
 #: inc/core/Dataset/Keys/AirPressure.php:43
@@ -1249,7 +1248,7 @@ msgid ""
 "Rating of Perceived Exertion or Borg scale, a scale devised to show "
 "perceived exertion during exercise"
 msgstr ""
-"Rating of Perceived Exertion oder Borg-Skala, eine Skala für das "
+"Belastungsempfinden oder Borg-Skala, eine Skala für das körperliche "
 "Belastungsempfinden während einer sportlichen Aktivität"
 
 #: inc/core/Dataset/Keys/Setting.php:52
@@ -2228,7 +2227,6 @@ msgid "Wind chill factor"
 msgstr "Gefühlte Temperatur"
 
 #: inc/core/Data/Weather/Ozone.php:39
-#, fuzzy
 msgid "Ozone"
 msgstr "Ozone"
 
