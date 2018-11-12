@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Runalyze\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-10-21 20:11+0200\n"
-"PO-Revision-Date: 2018-11-12 09:44+0000\n"
+"PO-Revision-Date: 2018-11-13 08:26+0000\n"
 "Last-Translator: Philipp Aigner <philipp-aigner@gmx.at>\n"
 "Language-Team: German <http://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/de/>\n"
@@ -1399,7 +1399,7 @@ msgstr ""
 #: inc/core/Dataset/Keys/EfficiencyIndex.php:23
 #: inc/training/view/section/class.SectionPowerRow.php:80
 msgid "Efficiency Index"
-msgstr "Efficiency Index"
+msgstr "Effizienzindex"
 
 #: inc/core/Dataset/Keys/EfficiencyIndex.php:33
 msgid ""
@@ -1786,7 +1786,7 @@ msgstr "Beta-Feature"
 
 #: inc/core/Configuration/Category/Import.php:77
 msgid "If activated you can send your activities to"
-msgstr "Wenn aktiviert, kannst du Aktivitäten an folgende Adresse senden:"
+msgstr "Wenn aktiviert, kannst du deine Aktivitäten schicken an"
 
 #: inc/core/Configuration/Category/Import.php:81
 msgid "Password for activity mail import"
@@ -2228,7 +2228,7 @@ msgstr "Gefühlte Temperatur"
 
 #: inc/core/Data/Weather/Ozone.php:39
 msgid "Ozone"
-msgstr "Ozone"
+msgstr "Ozon"
 
 #: inc/core/Data/Weather/BeaufortScale.php:119
 msgid "Calm"
@@ -5038,7 +5038,7 @@ msgstr "Müdigkeit"
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:184
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:343
 msgid "Acute Training Load"
-msgstr "Acute Training Load"
+msgstr "Akute Trainingsbelastung"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:194
 msgid "Fitness&nbsp;level"
