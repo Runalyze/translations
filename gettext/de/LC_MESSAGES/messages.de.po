@@ -2040,6 +2040,11 @@ msgstr "Minimale Distanz für lange Läufe"
 msgid "Every run above this distance will be rated."
 msgstr "Jeder Lauf über dieser Distanz wird gewertet."
 
+
+#: inc/core/Data/Weather/Ozone.php:39
+msgid "Ozone"
+msgstr "Ozon"
+
 #: inc/core/Configuration/Category/BasicEndurance.php:108
 msgid "Days for longjogs"
 msgstr "Anzahl Tage für lange Läufe"
