@@ -2550,7 +2550,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="b8ce8a9f504088d82d1ab0953a1bce94a06e9ddd" resname="Percentages refer to %vVO2max, the velocity at your current effective VO2max.">
         <source>Percentages refer to %vVO2max, the velocity at your current effective VO2max.</source>
-        <target>Die Prozentsätze beziehen sich auf %vVO2max, die Geschwindigkeit von deinem aktuellen effektiven VO2max.</target>
+        <target>Die Prozentsätze beziehen sich auf %vVO2max, die Geschwindigkeit bei deinem aktuellen effektiven VO2max.</target>
         <jms:reference-file line="14">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="69aa69b4bbf38e5fae11b6fa1cff9e18bb7002b8" resname="Performance chart">
@@ -4283,7 +4283,7 @@ Datenpunkte außerhalb der Whisker werden als Ausreißer bezeichnet.
       </trans-unit>
       <trans-unit id="668ef1981c000b5c0e6c40fd49a05143b530fb50" resname="You can define custom training paces by %vVO2max in the form below.">
         <source>You can define custom training paces by %vVO2max in the form below.</source>
-        <target>Du kannst benutzerdefinierte Trainingsgeschwindigkeiten durch %vVO2max im nachstehenden Formular definieren.</target>
+        <target>Du kannst im unten stehenden Formular eigene Trainingsgeschwindigkeiten in %vVO2max definieren.</target>
         <jms:reference-file line="54">/Resources/views/my/panels/pace_recommendation_config.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="2a3bed8d61c1c67bf86e97ae720eb926fa36b6fd" resname="You can define the default privacy of new activities by sport type in the associated sport configuration.">
