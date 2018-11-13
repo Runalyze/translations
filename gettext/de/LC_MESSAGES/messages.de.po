@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Runalyze\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-10-21 20:11+0200\n"
-"PO-Revision-Date: 2018-11-13 08:26+0000\n"
+"PO-Revision-Date: 2018-11-13 13:45+0000\n"
 "Last-Translator: Philipp Aigner <philipp-aigner@gmx.at>\n"
 "Language-Team: German <http://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/de/>\n"
@@ -2228,7 +2228,7 @@ msgstr "Gefühlte Temperatur"
 
 #: inc/core/Data/Weather/Ozone.php:39
 msgid "Ozone"
-msgstr "Ozon"
+msgstr "Ozone"
 
 #: inc/core/Data/Weather/BeaufortScale.php:119
 msgid "Calm"
