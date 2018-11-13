@@ -3,18 +3,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Runalyze\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-10-21 20:11+0200\n"
-"PO-Revision-Date: 2018-04-20 11:55+0000\n"
-"Last-Translator: Krisztian Farkas <rogermap@gmail.com>\n"
-"Language-Team: Hungarian <https://translate.runalyze.com/projects/runalyze/"
+"PO-Revision-Date: 2018-11-13 13:45+0000\n"
+"Last-Translator: ecneb85 <bence.csajko@gmail.com>\n"
+"Language-Team: Hungarian <http://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.20-dev\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Poedit-KeywordsList: __;_ne;_n;_e\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -22,22 +22,22 @@ msgstr ""
 #: inc/core/View/RaceResult/Dataview.php:91
 #, php-format
 msgid "of %u overall"
-msgstr ""
+msgstr "%u-ból összesen"
 
 #: inc/core/View/RaceResult/Dataview.php:104
 #, php-format
 msgid "of %u in your age group"
-msgstr ""
+msgstr "%u-ból korosztályban"
 
 #: inc/core/View/RaceResult/Dataview.php:117
 #, php-format
 msgid "of %u men/women"
-msgstr ""
+msgstr "%u-ból Férfi/Nő"
 
 #: inc/core/View/RaceResult/Dataview.php:174
 #, php-format
 msgid "(first %u%%)"
-msgstr ""
+msgstr "(első %u%%)"
 
 #: inc/core/View/Splits/Table.php:154
 #: inc/core/View/Activity/Plot/Series/DistanceSeries.php:39
@@ -84,7 +84,7 @@ msgstr "Tempó"
 
 #: inc/core/View/Splits/Table.php:157
 msgid "diff"
-msgstr ""
+msgstr "diff."
 
 #: inc/core/View/Splits/Table.php:230
 #: plugin/RunalyzePluginPanel_Ziele/class.RunalyzePluginPanel_Ziele.php:175
@@ -101,38 +101,38 @@ msgstr "Átlag (teljes)"
 
 #: inc/core/View/Splits/Table.php:266
 msgid "1st/2nd Half"
-msgstr ""
+msgstr "1./2. Félidő"
 
 #: inc/core/View/Activity/Dataview.php:335
 #: inc/core/Dataset/Keys/FitHrvAnalysis.php:44
 msgid "HRV score"
-msgstr ""
+msgstr "HRV érték"
 
 #: inc/core/View/Activity/Box/TotalCadence.php:28
 msgid "Number of steps"
-msgstr ""
+msgstr "Lépésszám"
 
 #: inc/core/View/Activity/Box/TotalCadence.php:30
 msgid "Total cadence"
-msgstr ""
+msgstr "Abszolút ritmus"
 
 #: inc/core/View/Activity/Box/FlightTime.php:14
 #: inc/core/Dataset/Keys/FlightTime.php:21
 #: inc/training/search/class.FormularSelectSearchSort.php:58
 msgid "Flight time"
-msgstr ""
+msgstr "Idő a levegőben"
 
 #: inc/core/View/Activity/Box/MaximalHeartRateInPercent.php:64
 msgid "This value exceeds your entered maximal heart rate."
-msgstr ""
+msgstr "Az érték magasabb mint a megadott maximális szívritmus."
 
 #: inc/core/View/Activity/Box/MaximalHeartRateInPercent.php:65
 msgid "Please adjust your maximal heart rate."
-msgstr ""
+msgstr "Kérem frissítse az ön maximális pulzusszámát."
 
 #: inc/core/View/Activity/Box/ElevationUpDown.php:35
 msgid "Elevation up/down"
-msgstr ""
+msgstr "Szintkülönbség fel/le"
 
 #: inc/core/View/Activity/Box/Gradient.php:26
 #: inc/core/View/Activity/Box/Pace.php:28
@@ -165,7 +165,7 @@ msgstr ""
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:454
 #: plugin/RunalyzePluginPanel_Rechenspiele/Plot.Form.php:195
 msgid "avg."
-msgstr ""
+msgstr "átlag"
 
 #: inc/core/View/Activity/Box/Gradient.php:26
 #: inc/core/View/Activity/Plot/Series/Gradient.php:54
@@ -174,12 +174,12 @@ msgstr ""
 #: inc/training/search/class.FormularSelectSearchSort.php:42
 #: inc/training/view/class.ElevationInfo.php:131
 msgid "Gradient"
-msgstr ""
+msgstr "Emelkedő"
 
 #: inc/core/View/Activity/Box/RPE.php:30 inc/core/Dataset/Keys/RPE.php:52
 #: inc/training/search/class.SearchFormular.php:211
 msgid "RPE"
-msgstr ""
+msgstr "RPE"
 
 #: inc/core/View/Activity/Box/MaximalHeartRate.php:48
 #: inc/core/View/Window/Laps/Table.php:149
@@ -187,7 +187,7 @@ msgstr ""
 #: inc/training/view/section/class.SectionOverviewRow.php:64
 #: inc/training/view/section/class.SectionPowerRow.php:61
 msgid "max."
-msgstr ""
+msgstr "max."
 
 #: inc/core/View/Activity/Box/MaximalHeartRate.php:48
 #: inc/core/Dataset/Keys/HeartrateAverage.php:44
@@ -202,29 +202,29 @@ msgstr ""
 #: inc/training/view/section/class.SectionCompositeRow.php:163
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:403
 msgid "Heart rate"
-msgstr ""
+msgstr "Pulzus"
 
 #: inc/core/View/Activity/Box/Power.php:14
 msgid "avg. Power"
-msgstr ""
+msgstr "Közepes teljesítmény"
 
 #: inc/core/View/Activity/Box/Pace.php:28
 #: inc/core/View/Activity/Box/Speed.php:37
 msgid "Speed"
-msgstr ""
+msgstr "Sebesség"
 
 #: inc/core/View/Activity/Box/Trimp.php:14 inc/core/Dataset/Keys/Trimp.php:44
 #: inc/core/Configuration/Category/Trimp.php:96
 #: inc/training/search/class.SearchFormular.php:207
-#, fuzzy
 msgid "TRIMP"
 msgstr "TRIMP"
 
 #: inc/core/View/Activity/Box/FlightRatio.php:16
 #: inc/core/Dataset/Keys/FlightRatio.php:21
 #: inc/training/search/class.FormularSelectSearchSort.php:59
+#, fuzzy
 msgid "Flight ratio"
-msgstr ""
+msgstr "Repülő arány"
 
 #: inc/core/View/Activity/Plot/Series/Temperature.php:40
 #: inc/core/Activity/Temperature.php:60
@@ -251,7 +251,7 @@ msgstr "Függ. lengés / lépéshossz arány"
 
 #: inc/core/View/Activity/Plot/Series/PaceCumulativeAverage.php:50
 msgid "Moving average"
-msgstr ""
+msgstr "Mozgó átlag"
 
 #: inc/core/View/Activity/Plot/Series/BrakingGs.php:28
 #: inc/core/Dataset/Keys/AverageBrakingGs.php:22
@@ -259,7 +259,7 @@ msgstr ""
 #: inc/training/search/class.FormularSelectSearchSort.php:63
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:69
 msgid "Braking Gs"
-msgstr ""
+msgstr "Fékerő G érték"
 
 #: inc/core/View/Activity/Plot/Series/BrakingGs.php:28
 #: inc/core/View/Activity/Plot/Series/ImpactGs.php:28
@@ -274,7 +274,7 @@ msgstr ""
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:16
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:19
 msgid "left"
-msgstr ""
+msgstr "bal"
 
 #: inc/core/View/Activity/Plot/Series/BrakingGs.php:28
 #: inc/core/View/Activity/Plot/Series/ImpactGs.php:28
@@ -289,7 +289,7 @@ msgstr ""
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:17
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:20
 msgid "right"
-msgstr ""
+msgstr "jobb"
 
 #: inc/core/View/Activity/Plot/Series/StrideLength.php:54
 #: inc/core/View/Window/Laps/Table.php:277
@@ -303,7 +303,7 @@ msgstr "Lépéshossz"
 
 #: inc/core/View/Activity/Plot/Series/GradeAdjustedPace.php:35
 msgid "Grade adjusted pace"
-msgstr ""
+msgstr "Korrigált ütem (terhelés alapján)"
 
 #: inc/core/View/Activity/Plot/Series/ImpactGs.php:28
 #: inc/core/Dataset/Keys/AverageImpactGs.php:22
@@ -311,12 +311,12 @@ msgstr ""
 #: inc/training/search/class.FormularSelectSearchSort.php:61
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:64
 msgid "Impact Gs"
-msgstr ""
+msgstr "Kihatás G érték"
 
 #: inc/core/View/Activity/Plot/Series/Stroke.php:62
 #: inc/training/view/section/class.SectionSwimLaneRow.php:29
 msgid "Stroke"
-msgstr ""
+msgstr "Csapás"
 
 #: inc/core/View/Activity/Plot/Series/PronationExcursion.php:28
 #: inc/core/Dataset/Keys/AveragePronationExcursion.php:22
@@ -326,14 +326,14 @@ msgstr ""
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:20
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:79
 msgid "Pronation excursion"
-msgstr ""
+msgstr "Pronálás szöge"
 
 #: inc/core/View/Activity/Plot/Series/FootstrikeType.php:28
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:16
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:17
 #: inc/training/view/section/class.SectionRunScribeDataRow.php:74
 msgid "Footstrike"
-msgstr ""
+msgstr "Láb-sokk"
 
 #: inc/core/View/Activity/Plot/Series/Swolf.php:63
 #: inc/core/View/Activity/Plot/Series/Swolfcycles.php:62
@@ -341,28 +341,28 @@ msgstr ""
 #: inc/training/view/section/table/class.TableSwimLane.php:42
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:157
 msgid "Swolf"
-msgstr ""
+msgstr "Swolf"
 
 #: inc/core/View/Activity/Plot/Series/Elevation.php:81
 #: inc/core/Activity/Elevation.php:58 inc/core/Dataset/Keys/Elevation.php:44
 #: inc/training/search/class.SearchFormular.php:184
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:23
 msgid "Elevation"
-msgstr "Emelkedés"
+msgstr "Magassás"
 
 #: inc/core/View/Activity/Plot/Series/GroundContactBalance.php:58
 #: inc/core/View/Window/Laps/Table.php:271
 #: inc/core/Dataset/Keys/GroundcontactBalance.php:44
 #: inc/training/view/section/class.SectionRunningDynamicsRow.php:55
 msgid "Ground contact balance"
-msgstr ""
+msgstr "Talajérintési egyensúly"
 
 #: inc/core/View/Activity/Plot/Series/HRV.php:90
 #: inc/core/View/Activity/Plot/HRVPoincare.php:50
 #: inc/core/View/Activity/Plot/HRVPoincare.php:59
 #: inc/training/view/section/class.SectionHRVRow.php:45
 msgid "R-R interval"
-msgstr ""
+msgstr "R-R intervallum"
 
 #: inc/core/View/Activity/Plot/Series/GroundContact.php:40
 #: inc/training/search/class.SearchFormular.php:212
@@ -378,7 +378,7 @@ msgstr "Talajérintési idő"
 #: inc/training/view/section/class.SectionPowerRow.php:55
 #: inc/training/view/section/class.SectionPowerRow.php:61
 msgid "Power"
-msgstr ""
+msgstr "Erő"
 
 #: inc/core/View/Activity/Plot/Series/VerticalOscillation.php:41
 #: inc/core/View/Window/Laps/Table.php:273
@@ -391,26 +391,26 @@ msgstr "Függőleges oszcilláció"
 #: inc/core/View/Activity/Plot/Series/HRVdifferencesWithoutAnomalies.php:55
 #: plugin/RunalyzePluginPanel_Prognose/class.Prognose_PrognosisWindow.php:267
 msgid "Difference"
-msgstr ""
+msgstr "Különbség"
 
 #: inc/core/View/Activity/Plot/Series/Smo2.php:34
 #: inc/core/View/Activity/Plot/Series/Smo2.php:37
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:84
 msgid "SmO2"
-msgstr ""
+msgstr "SmO2"
 
 #: inc/core/View/Activity/Plot/ElevationAlgorithms.php:82
 msgid "Original data"
-msgstr ""
+msgstr "Eredeti adat"
 
 #: inc/core/View/Activity/Plot/ElevationAlgorithms.php:95
 #: inc/training/view/class.ElevationInfo.php:191
 msgid "Threshold"
-msgstr ""
+msgstr "Határérték"
 
 #: inc/core/View/Activity/Plot/ElevationAlgorithms.php:107
 msgid "Douglas-Peucker"
-msgstr ""
+msgstr "Douglas-Peucker"
 
 #: inc/core/View/Activity/Plot/LapsComputed.php:26
 #: inc/training/view/section/class.SectionLaps.php:27
@@ -419,32 +419,32 @@ msgstr "Számított körök"
 
 #: inc/core/View/Activity/Plot/LapsComputed.php:35
 msgid "No GPS-data available. Can\\'t compute laps."
-msgstr ""
+msgstr "Nincs felhasználható GPS adat. Nem lehet kiszámítani a köridőket."
 
 #: inc/core/View/Activity/Plot/Laps.php:121 inc/core/View/Plot/Series.php:160
 msgid "avg:"
-msgstr ""
+msgstr "átlag:"
 
 #: inc/core/View/Activity/Plot/ActivityPlot.php:82
 msgid "No plot available."
-msgstr ""
+msgstr "Nincs grafikon."
 
 #: inc/core/View/Activity/Plot/LapsManual.php:27
 #: inc/training/view/section/class.SectionLaps.php:23
 msgid "Manual Laps"
-msgstr "Kézi körök"
+msgstr "Manuális köridők"
 
 #: inc/core/View/Activity/Plot/LapsManual.php:38
 msgid "There are no manual laps."
-msgstr ""
+msgstr "Nincsenek manuális köridők."
 
 #: inc/core/View/Window/Laps/Form.php:41
 msgid "Calculate laps"
-msgstr ""
+msgstr "Köridők számítása"
 
 #: inc/core/View/Window/Laps/Form.php:56 inc/core/View/Window/Laps/Form.php:67
 msgid "Lap every ..."
-msgstr ""
+msgstr "Köridő minden ..."
 
 #: inc/core/View/Window/Laps/Form.php:56
 msgid "Distance, after which a new lap should start"
