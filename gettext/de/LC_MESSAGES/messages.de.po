@@ -3,10 +3,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Runalyze\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-11-13 16:04+0100\n"
-"PO-Revision-Date: 2018-11-13 13:45+0000\n"
-"Last-Translator: Philipp Aigner <philipp-aigner@gmx.at>\n"
+"PO-Revision-Date: 2018-11-13 17:35+0000\n"
+"Last-Translator: Michael Pohl <michael@mipapo.de>\n"
 "Language-Team: German <http://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/de/>\n"
 "Language: de\n"
@@ -2039,7 +2039,6 @@ msgstr "Minimale Distanz für lange Läufe"
 #: inc/core/Configuration/Category/BasicEndurance.php:104
 msgid "Every run above this distance will be rated."
 msgstr "Jeder Lauf über dieser Distanz wird gewertet."
-
 
 #: inc/core/Data/Weather/Ozone.php:39
 msgid "Ozone"
@@ -5213,16 +5212,12 @@ msgid "Longest activities"
 msgstr "Längsten Trainings"
 
 #: plugin/RunalyzePluginPanel_SpeedRecommendation/class.RunalyzePluginPanel_SpeedRecommendation.php:12
-#, fuzzy
 msgid "Training paces"
-msgstr "Trainingstypen"
+msgstr "Trainingsgeschwindigkeiten"
 
 #: plugin/RunalyzePluginPanel_SpeedRecommendation/class.RunalyzePluginPanel_SpeedRecommendation.php:17
-#, fuzzy
 msgid "Training pace suggestions based on your current shape."
-msgstr ""
-"Der Mittelwert über einen längeren Zeitraum wird als deine derzeitige Form "
-"aufgefasst."
+msgstr "Trainingstempo-Vorschläge basierend auf deiner aktuellen Form."
 
 #: plugin/RunalyzePluginStat_Statistiken/class.RunalyzePluginStat_Statistiken.php:46
 msgid "Monthly and weekly summaries for all sports"
