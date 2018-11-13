@@ -3237,10 +3237,6 @@ msgstr "Orkan"
 msgid "Beaufort scale"
 msgstr "Beaufortskala"
 
-#: inc/core/Data/Weather/Ozone.php:39
-msgid "Ozone"
-msgstr "Ozone"
-
 #: inc/draw/class.Plot.php:145
 msgid "There is an unknown problem with this plot."
 msgstr "Es ist ein unbekanntes Problem mit dem Diagramm aufgetreten."
