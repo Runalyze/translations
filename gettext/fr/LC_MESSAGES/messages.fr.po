@@ -3,10 +3,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Runalyze\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-11-13 16:04+0100\n"
-"PO-Revision-Date: 2018-10-17 07:14+0000\n"
-"Last-Translator: MH <mike@harlaut.net>\n"
+"PO-Revision-Date: 2018-12-21 13:00+0000\n"
+"Last-Translator: Fred <fred12100@gmail.com>\n"
 "Language-Team: French <http://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/fr/>\n"
 "Language: fr\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.3\n"
 "X-Poedit-KeywordsList: __;_ne;_n;_e\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -1196,13 +1196,12 @@ msgstr "Temp."
 #: inc/core/View/Activity/Plot/Series/Swolf.php:63
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:157
 #: inc/training/view/section/table/class.TableSwimLane.php:42
-#, fuzzy
 msgid "Swolf"
-msgstr "Swolf"
+msgstr "SWOLF"
 
 #: inc/core/Dataset/Keys/SocialShare.php:51
 msgid "Social Sharing"
-msgstr ""
+msgstr "Partager sur les réseaux sociaux"
 
 #: inc/core/Dataset/Keys/SocialShare.php:138
 #: inc/core/Export/Share/Twitter.php:55
@@ -1225,12 +1224,12 @@ msgstr "Widget"
 
 #: inc/core/Dataset/Keys/SocialShare.php:142 inc/core/Export/Share/Image.php:41
 msgid "Image"
-msgstr ""
+msgstr "Image"
 
 #: inc/core/Dataset/Keys/SocialShare.php:143
 #: inc/core/Export/Share/StoryImage.php:20
 msgid "Story Image"
-msgstr ""
+msgstr "Histoire par l'image"
 
 #: inc/core/Dataset/Keys/FitRecoveryTime.php:43
 #: inc/core/Dataset/Keys/FitRecoveryTime.php:52
@@ -2747,9 +2746,8 @@ msgid "Please adjust your maximal heart rate."
 msgstr "Ajustez votre fréquence cardiaque maximale, svp."
 
 #: inc/core/View/Activity/Box/Power.php:14
-#, fuzzy
 msgid "avg. Power"
-msgstr "Puissance"
+msgstr "Puissance moyenne"
 
 #: inc/core/View/Activity/Box/TotalCadence.php:28
 msgid "Number of steps"
@@ -2794,9 +2792,8 @@ msgid "Show inactive splits"
 msgstr "Afficher les intervalles désactivés"
 
 #: inc/core/View/Window/Laps/Window.php:392
-#, fuzzy
 msgid "Save laps for activity"
-msgstr "Rechercher une activité"
+msgstr "Sauvegarder les tours pour l'activité"
 
 #: inc/core/View/Window/Laps/Form.php:41
 msgid "Calculate laps"
@@ -3045,7 +3042,7 @@ msgstr "Effort maximum"
 
 #: inc/core/Data/Weather/UvIndex.php:39
 msgid "UV Index"
-msgstr ""
+msgstr "Index UV"
 
 #: inc/core/Data/Weather/CardinalDirection.php:72
 #: inc/core/Data/Weather/CardinalDirection.php:76
@@ -3243,9 +3240,8 @@ msgid "Beaufort scale"
 msgstr "Échelle de Beaufort"
 
 #: inc/core/Data/Weather/Ozone.php:39
-#, fuzzy
 msgid "Ozone"
-msgstr "Temps"
+msgstr "Ozone"
 
 #: inc/draw/class.Plot.php:145
 msgid "There is an unknown problem with this plot."
@@ -3384,7 +3380,6 @@ msgstr "Conditions météo"
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:366
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:432
-#, fuzzy
 msgid "Age standard"
 msgstr "Age standard"
 
@@ -5228,7 +5223,6 @@ msgid "Longest activities"
 msgstr "Activités les plus longues"
 
 #: plugin/RunalyzePluginPanel_SpeedRecommendation/class.RunalyzePluginPanel_SpeedRecommendation.php:12
-#, fuzzy
 msgid "Training paces"
 msgstr "Types d'entraînement"
 
