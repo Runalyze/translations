@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-11-13 16:04+0100\n"
 "PO-Revision-Date: 2018-12-21 13:00+0000\n"
-"Last-Translator: Fred <fred12100@gmail.com>\n"
+"Last-Translator: Michael Pohl <michael@mipapo.de>\n"
 "Language-Team: French <http://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/fr/>\n"
 "Language: fr\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: dashboard.php:61 dashboard.php:63
 msgid "Public athlete page"
-msgstr "Page d'athlète publique"
+msgstr "Page publique de l'athlète"
 
 #: dashboard.php:63
 msgid "Your public athlete page is deactivated."
@@ -4136,9 +4136,8 @@ msgid "Shape"
 msgstr "Forme"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/Plot.Form.php:188
-#, fuzzy
 msgid "Fitness (CTL)"
-msgstr "Fitness (CTL)"
+msgstr "Aptitude (CTL)"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/Plot.Form.php:194
 msgid "Fatigue (ATL)"
