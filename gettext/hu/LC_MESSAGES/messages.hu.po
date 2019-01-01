@@ -3,10 +3,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Runalyze\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-11-13 16:04+0100\n"
-"PO-Revision-Date: 2018-11-13 13:45+0000\n"
-"Last-Translator: ecneb85 <bence.csajko@gmail.com>\n"
+"PO-Revision-Date: 2019-01-04 05:18+0000\n"
+"Last-Translator: Michael Pohl <michael@mipapo.de>\n"
 "Language-Team: Hungarian <http://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/hu/>\n"
 "Language: hu\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.3\n"
 "X-Poedit-KeywordsList: __;_ne;_n;_e\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -37,15 +37,15 @@ msgstr ""
 
 #: dashboard.php:69
 msgid "Apps"
-msgstr ""
+msgstr "Appok"
 
 #: dashboard.php:70
 msgid "Logout"
-msgstr ""
+msgstr "Kijelentkezés"
 
 #: dashboard.php:79 dashboard.php:254
 msgid "Glossary"
-msgstr ""
+msgstr "Névmutató"
 
 #: dashboard.php:80
 #, fuzzy
@@ -54,43 +54,41 @@ msgstr "Időtartam"
 
 #: dashboard.php:83
 msgid "Feedback"
-msgstr ""
+msgstr "Visszajelzés"
 
 #: dashboard.php:85 dashboard.php:256
 msgid "Forum"
-msgstr ""
+msgstr "Fórum"
 
 #: dashboard.php:86 dashboard.php:259
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: dashboard.php:87
 msgid "Shop"
-msgstr ""
+msgstr "Bolt"
 
 #: dashboard.php:89
 msgid "About us"
-msgstr ""
+msgstr "Rólunk"
 
 #: dashboard.php:98
 msgid "Show all notifications"
-msgstr ""
+msgstr "Mutasd az összes értesítést"
 
 #: dashboard.php:100
 msgid "No new notifications"
-msgstr ""
+msgstr "Nincsenek új értesítések"
 
 #: dashboard.php:114
 msgid "Activity upload"
-msgstr ""
+msgstr "tevékenység feltöltése"
 
 #: dashboard.php:115
-#, fuzzy
 msgid "Manual activity"
-msgstr "Kézi körök"
+msgstr "Egyedi edzés"
 
 #: dashboard.php:116
-#, fuzzy
 msgid "New equipment"
 msgstr "Válassz felszerelést"
 
@@ -101,12 +99,12 @@ msgstr ""
 #: dashboard.php:123 inc/plugin/config/class.PluginConfigurationWindow.php:114
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:133
 msgid "Configuration"
-msgstr ""
+msgstr "Beállítások"
 
 #: dashboard.php:126 inc/system/config/class.ConfigTabGeneral.php:20
 #: inc/core/Configuration/Category/General.php:194
 msgid "General settings"
-msgstr ""
+msgstr "Általános beállítások"
 
 #: dashboard.php:127 inc/system/config/class.ConfigTabPlugins.php:17
 msgid "Plugins"
@@ -115,13 +113,13 @@ msgstr ""
 #: dashboard.php:128
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:134
 msgid "Dataset"
-msgstr ""
+msgstr "Adatbázis"
 
 #: dashboard.php:129
 #: plugin/RunalyzePluginPanel_Sports/class.RunalyzePluginPanel_Sports.php:12
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:137
 msgid "Sports"
-msgstr ""
+msgstr "Sportok"
 
 #: dashboard.php:130 inc/core/Dataset/Keys/MainEquipment.php:44
 #: inc/training/search/class.SearchFormular.php:176
@@ -132,41 +130,40 @@ msgstr "Felszerelés"
 
 #: dashboard.php:131
 msgid "Activity tags"
-msgstr ""
+msgstr "Tevékenység cimke"
 
 #: dashboard.php:137 inc/core/Dataset/Keys/Tools.php:52
 #: inc/training/view/class.TrainingView.php:137
 msgid "Tools"
-msgstr ""
+msgstr "Eszközök"
 
 #: dashboard.php:140
 msgid "Histograms"
-msgstr ""
+msgstr "Hisztogramok"
 
 #: dashboard.php:141
 msgid "Trend analysis"
-msgstr ""
+msgstr "Trend analízis"
 
 #: dashboard.php:142
 msgid "ANOVA"
-msgstr ""
+msgstr "ANOVA"
 
 #: dashboard.php:143
 msgid "Analyze your VO2max"
-msgstr ""
+msgstr "Elemezd a VO2max értékedet"
 
 #: dashboard.php:144
-#, fuzzy
 msgid "Running tables"
-msgstr "Futás dinamika"
+msgstr "Futó táblázatok"
 
 #: dashboard.php:145
 msgid "Poster generator"
-msgstr ""
+msgstr "Poster készítő"
 
 #: dashboard.php:147
 msgid "More"
-msgstr ""
+msgstr "Több"
 
 #: dashboard.php:151 inc/training/search/class.SearchFormular.php:74
 msgid "Search"
@@ -186,24 +183,23 @@ msgstr ""
 
 #: dashboard.php:255
 msgid "Help and support"
-msgstr ""
+msgstr "Segítség és támogatás"
 
 #: dashboard.php:257
 msgid "Donate &amp; Support the project"
-msgstr ""
+msgstr "Támogasd a projektet"
 
 #: dashboard.php:258
-#, fuzzy
 msgid "Translations"
-msgstr "Időtartam"
+msgstr "Fordítások"
 
 #: dashboard.php:260
 msgid "Statement of Privacy"
-msgstr ""
+msgstr "Adatvédelmi nyilatkozat"
 
 #: dashboard.php:261
 msgid "Terms of use"
-msgstr ""
+msgstr "Felhasználási feltételek"
 
 #: dashboard.php:262
 msgid "Imprint"
@@ -216,7 +212,7 @@ msgstr ""
 
 #: inc/system/class.SharedLinker.php:63
 msgid "Your public athlete page"
-msgstr ""
+msgstr "Publikus oldalad"
 
 #: inc/system/config/class.ConfigTabPlugins.php:32
 msgid "Panels"
@@ -230,7 +226,7 @@ msgstr ""
 #: inc/plugin/class.PluginType.php:50
 #: plugin/RunalyzePluginStat_Statistiken/class.RunalyzePluginStat_Statistiken.php:38
 msgid "Statistics"
-msgstr ""
+msgstr "Statisztikák"
 
 #: inc/system/config/class.ConfigTabPlugins.php:37
 msgid "Normal statistics are shown below the activitiy log."
@@ -246,7 +242,7 @@ msgstr ""
 
 #: inc/system/config/class.ConfigTabPlugins.php:61
 msgid "No plugins available."
-msgstr ""
+msgstr "Nincs elérhető plugin."
 
 #: inc/system/config/class.ConfigTabPlugins.php:69
 msgid "Mode"
@@ -254,23 +250,23 @@ msgstr ""
 
 #: inc/system/config/class.ConfigTabPlugins.php:70
 msgid "Order"
-msgstr ""
+msgstr "Megrendelés"
 
 #: inc/system/config/class.ConfigTabPlugins.php:82
 msgid "The plugin cannot be found."
-msgstr ""
+msgstr "A plugin nem található."
 
 #: inc/system/config/class.ConfigTabPlugins.php:91
 msgid "enabled"
-msgstr ""
+msgstr "engedélyezett"
 
 #: inc/system/config/class.ConfigTabPlugins.php:92
 msgid "hidden*"
-msgstr ""
+msgstr "rejtett*"
 
 #: inc/system/config/class.ConfigTabPlugins.php:93
 msgid "not enabled"
-msgstr ""
+msgstr "nem engedélyezett"
 
 #: inc/system/config/class.ConfigTabPlugins.php:131
 msgid "* Hidden plugins only show their headings."
@@ -298,7 +294,7 @@ msgstr "Típus"
 
 #: inc/system/config/class.ConfigTabs.php:74
 msgid "The settings have been saved."
-msgstr ""
+msgstr "A beállításokat mentettük."
 
 #: inc/system/config/class.ConfigTab.php:100
 #: inc/plugin/config/class.PluginConfigurationWindow.php:123
@@ -307,7 +303,7 @@ msgstr "Mentés"
 
 #: inc/plugin/class.Plugin.php:398
 msgid "Year on year"
-msgstr ""
+msgstr "Évről évre"
 
 #: inc/plugin/class.PluginInstaller.php:74
 msgid "Install plugin"
@@ -322,12 +318,12 @@ msgstr "Mind"
 #: inc/plugin/class.PluginStat.php:285 inc/plugin/class.PluginStat.php:304
 #: plugin/RunalyzePluginStat_Statistiken/class.SummaryTableMonths.php:57
 msgid "Last 6 months"
-msgstr ""
+msgstr "Utolsó 6 hónap"
 
 #: inc/plugin/class.PluginStat.php:286 inc/plugin/class.PluginStat.php:306
 #: plugin/RunalyzePluginStat_Statistiken/class.SummaryTableMonths.php:63
 msgid "Last 12 months"
-msgstr ""
+msgstr "Utolsó 12 hónap"
 
 #: inc/plugin/class.PluginStat.php:340
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:369
@@ -341,17 +337,17 @@ msgstr ""
 
 #: inc/plugin/config/class.PluginConfigurationWindow.php:69
 msgid "back to overview"
-msgstr ""
+msgstr "vissza az áttekintéshez"
 
 #: inc/plugin/config/class.PluginConfigurationWindow.php:75
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:136
 msgid "Plugin configuration"
-msgstr ""
+msgstr "Plugin beállítások"
 
 #: inc/plugin/config/class.PluginConfigurationWindow.php:99
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:337
 msgid "Description"
-msgstr ""
+msgstr "Leírás"
 
 #: inc/plugin/config/class.PluginConfigurationWindow.php:103
 msgid "The plugin is deactivated."
@@ -359,7 +355,7 @@ msgstr ""
 
 #: inc/plugin/config/class.PluginConfigurationWindow.php:117
 msgid "There are no settings."
-msgstr ""
+msgstr "Nincsenek beállítások"
 
 #: inc/plugin/config/class.PluginConfigurationWindow.php:135
 msgid "Activate plugin"
@@ -371,7 +367,7 @@ msgstr ""
 
 #: inc/plugin/config/class.PluginConfigurationWindow.php:138
 msgid "Activation"
-msgstr ""
+msgstr "Aktiválás"
 
 #: inc/class.FrontendSharedStatistics.php:20
 #: plugin/RunalyzePluginStat_Trainingszeiten/Plot.Daytime.php:79
@@ -384,19 +380,19 @@ msgstr ""
 #: plugin/RunalyzePluginPanel_Sportler/Plot.analyse.php:64
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:245
 msgid "No data available."
-msgstr ""
+msgstr "Nincs elérhető adat."
 
 #: inc/import/class.ImporterWindow.php:22
 msgid "Add workout"
-msgstr ""
+msgstr "Edzés hozzáadása"
 
 #: inc/class.DataBrowser.php:217
 msgid "week"
-msgstr ""
+msgstr "hét"
 
 #: inc/class.DataBrowser.php:255
 msgid "back"
-msgstr ""
+msgstr "vissza"
 
 #: inc/class.DataBrowser.php:265 inc/html/class.Ajax.php:439
 msgid "next"
@@ -404,28 +400,28 @@ msgstr "következő"
 
 #: inc/class.DataBrowser.php:273
 msgid "today"
-msgstr ""
+msgstr "ma"
 
 #: inc/class.DataBrowser.php:283
 msgid "Reload current datasheet"
-msgstr ""
+msgstr "Jelenlegi adatlap visszatöltése"
 
 #: inc/class.DataBrowser.php:291
 #: inc/core/Configuration/Category/DataBrowser.php:117
 msgid "Calendar"
-msgstr ""
+msgstr "Naptár"
 
 #: inc/class.DataBrowser.php:299
 msgid "Activity per month"
-msgstr ""
+msgstr "Havi aktivitás"
 
 #: inc/class.DataBrowser.php:307
 msgid "Activity per week"
-msgstr ""
+msgstr "Heti aktivitás"
 
 #: inc/class.DataBrowser.php:323
 msgid "Search for an activity"
-msgstr ""
+msgstr "Aktivitás keresése"
 
 #: inc/html/class.HTML.php:81 inc/html/class.HTML.php:107
 #: inc/core/Dataset/Keys/RaceResult.php:131
@@ -471,22 +467,22 @@ msgstr "Meg kell adnod egy időpontot."
 
 #: inc/core/Dataset/Keys/Setting.php:52
 msgid "Setting"
-msgstr ""
+msgstr "Beállítás"
 
 #: inc/core/Dataset/Keys/Setting.php:112 inc/core/Dataset/Keys/Setting.php:129
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:379
 msgid "Edit"
-msgstr ""
+msgstr "Szerkesztés"
 
 #: inc/core/Dataset/Keys/Setting.php:114
 #: inc/training/view/class.TrainingView.php:167
 msgid "Do you really want to delete this activity?"
-msgstr ""
+msgstr "Tényleg törölni akarod ezt a tevékenységet?"
 
 #: inc/core/Dataset/Keys/Setting.php:114 inc/core/Dataset/Keys/Setting.php:131
 #: inc/training/view/class.TrainingView.php:167
 msgid "Delete activity"
-msgstr ""
+msgstr "Tevékenység törlése"
 
 #: inc/core/Dataset/Keys/Setting.php:116 inc/core/Dataset/Keys/Setting.php:133
 #: inc/core/Dataset/Keys/SocialShare.php:114
@@ -524,11 +520,11 @@ msgstr "Távolság"
 #: inc/core/Dataset/Keys/Groundcontact.php:44
 #: inc/core/View/Window/Laps/Table.php:270
 msgid "Ground contact time"
-msgstr ""
+msgstr "Talajérintési idő"
 
 #: inc/core/Dataset/Keys/Groundcontact.php:53
 msgid "Groundcontact"
-msgstr ""
+msgstr "Talajérintés"
 
 #: inc/core/Dataset/Keys/VO2maxValue.php:36
 #: inc/training/view/section/class.SectionPaceRow.php:74
@@ -536,7 +532,7 @@ msgstr ""
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:164
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:419
 msgid "Effective VO<sub>2</sub>max"
-msgstr ""
+msgstr "Hatékony VO<sub>2</sub>max"
 
 #: inc/core/Dataset/Keys/VO2maxValue.php:55
 msgid ""
@@ -575,7 +571,7 @@ msgstr ""
 
 #: inc/core/Dataset/Keys/FitPerformanceConditionEnd.php:31
 msgid "at the end"
-msgstr ""
+msgstr "a végén"
 
 #: inc/core/Dataset/Keys/FitPerformanceConditionEnd.php:40
 msgid "PC End"
@@ -594,6 +590,7 @@ msgid ""
 "Vertical oscillation is your vertical motion of your torso measured in "
 "centimeters"
 msgstr ""
+"A függőleges oszcilláció a tested függőleges mozgása centiméterben mérve"
 
 #: inc/core/Dataset/Keys/FlightTime.php:21
 #: inc/core/View/Activity/Box/FlightTime.php:14
@@ -610,11 +607,11 @@ msgstr "Talajérintési egyensúly"
 
 #: inc/core/Dataset/Keys/GroundcontactBalance.php:53
 msgid "GCB"
-msgstr ""
+msgstr "GCB"
 
 #: inc/core/Dataset/Keys/GroundcontactBalance.php:62
 msgid "Ground contact time balance measures your running symmetry."
-msgstr ""
+msgstr "A talajérintési egyensúly méri a futásod szimmetriáját. "
 
 #: inc/core/Dataset/Keys/Title.php:46
 #: inc/training/search/class.SearchFormular.php:189
@@ -628,11 +625,11 @@ msgstr ""
 
 #: inc/core/Dataset/Keys/FitVO2maxEstimate.php:53
 msgid "(file)"
-msgstr ""
+msgstr "(fájl)"
 
 #: inc/core/Dataset/Keys/FitVO2maxEstimate.php:62
 msgid "Garmin's newer devices have an integrated VO2max estimation."
-msgstr ""
+msgstr "A Garmin újabb eszközeiben integrált VO2max becslés van."
 
 #: inc/core/Dataset/Keys/FitVO2maxEstimate.php:63
 msgid ""
@@ -650,13 +647,12 @@ msgid "Pronation excursion"
 msgstr "Pronálás szöge"
 
 #: inc/core/Dataset/Keys/AveragePronationExcursion.php:27
-#, fuzzy
 msgid "Pronation"
-msgstr "Időtartam"
+msgstr "Pronáció"
 
 #: inc/core/Dataset/Keys/RaceResult.php:40
 msgid "Race result"
-msgstr ""
+msgstr "Verseny eredmény"
 
 #: inc/core/Dataset/Keys/RaceResult.php:88
 msgid "Your placements at races"
@@ -666,33 +662,33 @@ msgstr ""
 #: inc/core/Dataset/Keys/RaceResult.php:178
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:383
 msgid "Official distance"
-msgstr ""
+msgstr "Hivatalos táv"
 
 #: inc/core/Dataset/Keys/RaceResult.php:128
 #: inc/core/Dataset/Keys/RaceResult.php:179
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:384
 msgid "Official time"
-msgstr ""
+msgstr "Hivatalos idő"
 
 #: inc/core/Dataset/Keys/RaceResult.php:135
 #: inc/core/Dataset/Keys/RaceResult.php:181
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:406
 msgid "Age group"
-msgstr ""
+msgstr "Korcsoport"
 
 #: inc/core/Dataset/Keys/RaceResult.php:139
 #: inc/core/Dataset/Keys/RaceResult.php:182
 msgid "Gender"
-msgstr ""
+msgstr "Nem"
 
 #: inc/core/Dataset/Keys/RaceResult.php:163
 msgid "Race name"
-msgstr ""
+msgstr "Verseny neve"
 
 #: inc/core/Dataset/Keys/EfficiencyIndex.php:23
 #: inc/training/view/section/class.SectionPowerRow.php:80
 msgid "Efficiency Index"
-msgstr ""
+msgstr "Hatékonysági index"
 
 #: inc/core/Dataset/Keys/EfficiencyIndex.php:33
 msgid ""
@@ -702,7 +698,7 @@ msgstr ""
 
 #: inc/core/Dataset/Keys/AirPressure.php:43
 msgid "Air pressure"
-msgstr ""
+msgstr "Légnyomás"
 
 #: inc/core/Dataset/Keys/AirPressure.php:52
 #: inc/core/Dataset/Keys/Weather.php:81 inc/core/Data/Weather/Pressure.php:58
@@ -734,7 +730,7 @@ msgstr ""
 #: inc/core/Dataset/Keys/Energy.php:45 inc/core/Activity/Energy.php:59
 #: inc/training/search/class.SearchFormular.php:215
 msgid "Energy"
-msgstr ""
+msgstr "Energia"
 
 #: inc/core/Dataset/Keys/Energy.php:54
 msgid ""
@@ -745,7 +741,7 @@ msgstr ""
 #: inc/training/view/section/class.SectionCompositeRow.php:99
 #: inc/training/view/section/class.SectionOverviewRow.php:60
 msgid "Elapsed time"
-msgstr ""
+msgstr "Eltelt idő"
 
 #: inc/core/Dataset/Keys/ElapsedTime.php:53
 msgid ""
@@ -806,7 +802,7 @@ msgstr "átlag"
 #: inc/training/view/section/class.SectionOverviewRow.php:64
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:403
 msgid "Heart rate"
-msgstr "Pulzus"
+msgstr "Pulzusszám"
 
 #: inc/core/Dataset/Keys/HeartrateAverage.php:53
 #: inc/core/Dataset/Keys/HeartrateMaximum.php:53
@@ -815,7 +811,7 @@ msgstr "Pulzus"
 #: inc/training/view/section/table/class.TableZonesPace.php:31
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:403
 msgid "HR"
-msgstr ""
+msgstr "HR"
 
 #: inc/core/Dataset/Keys/Pace.php:56 inc/core/Profile/Sport/Zones/Pace.php:22
 #: inc/core/View/Splits/Table.php:156
@@ -836,13 +832,12 @@ msgstr "Tempó"
 #: inc/core/Dataset/Keys/FitTrainingEffect.php:43
 #: inc/core/Activity/TrainingEffect.php:53
 #: inc/training/search/class.SearchFormular.php:220
-#, fuzzy
 msgid "Training Effect"
 msgstr "Edzés hatás"
 
 #: inc/core/Dataset/Keys/FitTrainingEffect.php:52
 msgid "TE"
-msgstr ""
+msgstr "TE"
 
 #: inc/core/Dataset/Keys/FitTrainingEffect.php:62
 msgid ""
@@ -878,7 +873,7 @@ msgstr ""
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:285
 #: plugin/RunalyzePluginStat_Trainingspartner/class.RunalyzePluginStat_Trainingspartner.php:36
 msgid "Training partner"
-msgstr ""
+msgstr "Edzéspartner"
 
 #: inc/core/Dataset/Keys/TrainingPartner.php:55
 #: inc/training/search/class.SearchFormular.php:193
@@ -913,7 +908,7 @@ msgstr "Szélsebesség"
 
 #: inc/core/Dataset/Keys/Weather.php:89 inc/core/Data/Weather/WindDegree.php:58
 msgid "Wind Degree"
-msgstr ""
+msgstr "Szélirány"
 
 #: inc/core/Dataset/Keys/Power.php:44 inc/core/Profile/Sport/Zones/Power.php:21
 #: inc/core/View/Activity/Plot/Series/Power.php:38
@@ -937,11 +932,11 @@ msgstr ""
 #: inc/core/Dataset/Keys/HeatIndex.php:44
 #: inc/core/Data/Weather/HeatIndex.php:114
 msgid "Heat index"
-msgstr ""
+msgstr "Hőérzet"
 
 #: inc/core/Dataset/Keys/HeatIndex.php:53
 msgid "HI"
-msgstr ""
+msgstr "HI"
 
 #: inc/core/Dataset/Keys/HeatIndex.php:63
 msgid ""
@@ -955,7 +950,7 @@ msgstr ""
 #: inc/training/search/class.FormularSelectSearchSort.php:60
 #: inc/training/search/class.FormularSelectSearchSort.php:61
 msgid "Impact Gs"
-msgstr "Kihatás G érték"
+msgstr "Ütődés G értéke"
 
 #: inc/core/Dataset/Keys/VO2maxIcon.php:36
 msgid "Effective VO<sub>2</sub>max icon"
