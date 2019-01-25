@@ -5,8 +5,8 @@ msgstr ""
 "Project-Id-Version: Runalyze\n"
 "Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-11-13 16:04+0100\n"
-"PO-Revision-Date: 2018-11-13 17:35+0000\n"
-"Last-Translator: Michael Pohl <michael@mipapo.de>\n"
+"PO-Revision-Date: 2019-02-02 15:40+0000\n"
+"Last-Translator: Hannes <mail@laufhannes.de>\n"
 "Language-Team: German <http://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/de/>\n"
 "Language: de\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.3\n"
 "X-Poedit-KeywordsList: __;_ne;_n;_e\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -4298,7 +4298,7 @@ msgstr "%s Tage"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:348
 msgid "Training impulse over a short period"
-msgstr "Trainingsimpulse über einen kurzen Zeitraum"
+msgstr "Trainingsimpuls über einen kurzen Zeitraum"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:352
 msgid "Chronical Training Load"
@@ -4310,7 +4310,8 @@ msgstr "Trainingsimpuls über einen langen Zeitraum"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:364
 msgid "Current impulse<br>positive: recovery<br>negative: hard training"
-msgstr "Derzeitiger Impuls:<br>Positiv: Erholung<br>Negativ: Hartes Training"
+msgstr ""
+"Derzeitiger Trainingsimpuls:<br>Positiv: Erholung<br>Negativ: Hartes Training"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:371
 msgid ""
