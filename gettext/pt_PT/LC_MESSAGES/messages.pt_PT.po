@@ -3,26 +3,25 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Runalyze\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-11-13 16:04+0100\n"
-"PO-Revision-Date: 2017-08-10 14:45+0000\n"
-"Last-Translator: Miguel Robin <dee.hood@gmail.com>\n"
-"Language-Team: Portuguese (Portugal) <https://translate.runalyze.com/"
-"projects/runalyze/runalyze-master-po/pt_PT/>\n"
+"PO-Revision-Date: 2019-02-02 15:41+0000\n"
+"Last-Translator: Michael Pohl <michael@mipapo.de>\n"
+"Language-Team: Portuguese (Portugal) <http://translate.runalyze.com/projects/"
+"runalyze/runalyze-master-po/pt_PT/>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.15\n"
+"X-Generator: Weblate 3.3\n"
 "X-Poedit-KeywordsList: __;_ne;_n;_e\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: dashboard.php:61 dashboard.php:63
-#, fuzzy
 msgid "Public athlete page"
-msgstr "Lista pública: ativo"
+msgstr "Pagina publica do atleta"
 
 #: dashboard.php:63
 #, fuzzy
@@ -30,18 +29,16 @@ msgid "Your public athlete page is deactivated."
 msgstr "Lista pública: ativo"
 
 #: dashboard.php:67
-#, fuzzy
 msgid "Account settings"
-msgstr "Verifique as configurações"
+msgstr "configurações"
 
 #: dashboard.php:68
-#, fuzzy
 msgid "Privacy settings"
-msgstr "Configurações gerais"
+msgstr "Configurações privacidade"
 
 #: dashboard.php:69
 msgid "Apps"
-msgstr ""
+msgstr "Aplicações"
 
 #: dashboard.php:70
 msgid "Logout"
@@ -49,60 +46,55 @@ msgstr "Fechar sessão"
 
 #: dashboard.php:79 dashboard.php:254
 msgid "Glossary"
-msgstr ""
+msgstr "Glossário"
 
 #: dashboard.php:80
-#, fuzzy
 msgid "Documentation"
-msgstr "Duração"
+msgstr "Documentação"
 
 #: dashboard.php:83
 msgid "Feedback"
-msgstr ""
+msgstr "comentários"
 
 #: dashboard.php:85 dashboard.php:256
 msgid "Forum"
-msgstr ""
+msgstr "fórum"
 
 #: dashboard.php:86 dashboard.php:259
 msgid "Blog"
-msgstr ""
+msgstr "blog"
 
 #: dashboard.php:87
 msgid "Shop"
-msgstr ""
+msgstr "Loja"
 
 #: dashboard.php:89
 msgid "About us"
-msgstr ""
+msgstr "sobre nós"
 
 #: dashboard.php:98
-#, fuzzy
 msgid "Show all notifications"
-msgstr "Visualizar seleção"
+msgstr "Mostrar todas as notificações"
 
 #: dashboard.php:100
 msgid "No new notifications"
-msgstr ""
+msgstr "sem novas notificaçoes"
 
 #: dashboard.php:114
-#, fuzzy
 msgid "Activity upload"
-msgstr "Tipo de actividade"
+msgstr "Upload de atividade"
 
 #: dashboard.php:115
-#, fuzzy
 msgid "Manual activity"
-msgstr "Apagar actividade"
+msgstr "actividade manual "
 
 #: dashboard.php:116
-#, fuzzy
 msgid "New equipment"
-msgstr "Escolha o equipamento"
+msgstr "novo equipamento "
 
 #: dashboard.php:117
 msgid "New body values"
-msgstr ""
+msgstr "Novos valores corporais"
 
 #: dashboard.php:123 inc/plugin/config/class.PluginConfigurationWindow.php:114
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:133
@@ -116,18 +108,18 @@ msgstr "Configurações gerais"
 
 #: dashboard.php:127 inc/system/config/class.ConfigTabPlugins.php:17
 msgid "Plugins"
-msgstr ""
+msgstr "Plugins"
 
 #: dashboard.php:128
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:134
 msgid "Dataset"
-msgstr ""
+msgstr "conjunto de dados"
 
 #: dashboard.php:129
 #: plugin/RunalyzePluginPanel_Sports/class.RunalyzePluginPanel_Sports.php:12
 #: src/CoreBundle/Component/Tool/Backup/JsonImporterResults.php:137
 msgid "Sports"
-msgstr ""
+msgstr "desportos"
 
 #: dashboard.php:130 inc/core/Dataset/Keys/MainEquipment.php:44
 #: inc/training/search/class.SearchFormular.php:176
@@ -137,9 +129,8 @@ msgid "Equipment"
 msgstr "Equipamento"
 
 #: dashboard.php:131
-#, fuzzy
 msgid "Activity tags"
-msgstr "Tipo de atividade"
+msgstr "tags actividades"
 
 #: dashboard.php:137 inc/core/Dataset/Keys/Tools.php:52
 #: inc/training/view/class.TrainingView.php:137
@@ -151,17 +142,18 @@ msgid "Histograms"
 msgstr ""
 
 #: dashboard.php:141
-#, fuzzy
 msgid "Trend analysis"
-msgstr "Análise"
+msgstr ""
+"\n"
+"análises de tendências "
 
 #: dashboard.php:142
 msgid "ANOVA"
-msgstr ""
+msgstr "ANOVA"
 
 #: dashboard.php:143
 msgid "Analyze your VO2max"
-msgstr ""
+msgstr "analisar o seu VO2max"
 
 #: dashboard.php:144
 #, fuzzy
@@ -174,7 +166,7 @@ msgstr ""
 
 #: dashboard.php:147
 msgid "More"
-msgstr ""
+msgstr "mais"
 
 #: dashboard.php:151 inc/training/search/class.SearchFormular.php:74
 msgid "Search"
@@ -194,36 +186,38 @@ msgstr ""
 "</em>"
 
 #: dashboard.php:255
-#, fuzzy
 msgid "Help and support"
-msgstr "Principal desporto"
+msgstr ""
+"\n"
+"Ajuda e suporte"
 
 #: dashboard.php:257
 msgid "Donate &amp; Support the project"
-msgstr ""
+msgstr "Doar - apoie o projeto"
 
 #: dashboard.php:258
-#, fuzzy
 msgid "Translations"
-msgstr "Oscilação"
+msgstr "traduções"
 
 #: dashboard.php:260
 msgid "Statement of Privacy"
 msgstr ""
+"\n"
+"Declaração de Privacidade"
 
 #: dashboard.php:261
-#, fuzzy
 msgid "Terms of use"
-msgstr "Iníciar Runalyze"
+msgstr "termos de uso"
 
 #: dashboard.php:262
 msgid "Imprint"
-msgstr ""
+msgstr "imprimir"
 
 #: inc/system/class.SharedLinker.php:61
 msgid ""
 "You can activate your public athlete page in your <em>Privacy->Settings</em>"
 msgstr ""
+"Pode activar a sua pagina publica de atleta nas definições de privacidade"
 
 #: inc/system/class.SharedLinker.php:63
 msgid "Your public athlete page"
@@ -231,7 +225,7 @@ msgstr ""
 
 #: inc/system/config/class.ConfigTabPlugins.php:32
 msgid "Panels"
-msgstr ""
+msgstr "Painéis"
 
 #: inc/system/config/class.ConfigTabPlugins.php:33
 msgid "Panels are small statistics always shown on the right side."
@@ -249,19 +243,19 @@ msgstr ""
 
 #: inc/system/config/class.ConfigTabPlugins.php:40
 msgid "Install a new plugin"
-msgstr ""
+msgstr "Instalar novo plugin"
 
 #: inc/system/config/class.ConfigTabPlugins.php:41
 msgid "New plugins can be installed here."
-msgstr ""
+msgstr "novos plugins podem ser instalados aqui"
 
 #: inc/system/config/class.ConfigTabPlugins.php:61
 msgid "No plugins available."
-msgstr ""
+msgstr "sem plugins disponíveis"
 
 #: inc/system/config/class.ConfigTabPlugins.php:69
 msgid "Mode"
-msgstr ""
+msgstr "modo"
 
 #: inc/system/config/class.ConfigTabPlugins.php:70
 msgid "Order"
@@ -269,19 +263,19 @@ msgstr ""
 
 #: inc/system/config/class.ConfigTabPlugins.php:82
 msgid "The plugin cannot be found."
-msgstr ""
+msgstr "o plugin não foi encontrado"
 
 #: inc/system/config/class.ConfigTabPlugins.php:91
 msgid "enabled"
-msgstr ""
+msgstr "activado"
 
 #: inc/system/config/class.ConfigTabPlugins.php:92
 msgid "hidden*"
-msgstr ""
+msgstr "escondido"
 
 #: inc/system/config/class.ConfigTabPlugins.php:93
 msgid "not enabled"
-msgstr ""
+msgstr "desactivado"
 
 #: inc/system/config/class.ConfigTabPlugins.php:131
 msgid "* Hidden plugins only show their headings."
