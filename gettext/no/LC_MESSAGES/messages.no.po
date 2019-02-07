@@ -3,9 +3,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: mail@runalyze.com\n"
 "POT-Creation-Date: 2018-11-13 16:04+0100\n"
-"PO-Revision-Date: 2018-09-28 08:46+0000\n"
+"PO-Revision-Date: 2019-02-23 15:15+0000\n"
 "Last-Translator: Mathias Salomonsen <mathias.salomonsen@gmail.com>\n"
 "Language-Team: Norwegian <http://translate.runalyze.com/projects/runalyze/"
 "runalyze-master-po/no/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.3\n"
 
 #: dashboard.php:61 dashboard.php:63
 msgid "Public athlete page"
@@ -134,9 +134,8 @@ msgid "Tools"
 msgstr "Verktøy"
 
 #: dashboard.php:140
-#, fuzzy
 msgid "Histograms"
-msgstr "kilogram"
+msgstr "Histogrammer"
 
 #: dashboard.php:141
 msgid "Trend analysis"
@@ -701,6 +700,8 @@ msgid ""
 "Efficiency Index (EI) that expresses the speed per watt of a runner. A "
 "higher value means a higher running efficiency."
 msgstr ""
+"Effektivitetsindeks (EI) som uttrykker hastigheten per watt på en løper. En "
+"høyere verdi betyr en høyere løpseffektivitet."
 
 #: inc/core/Dataset/Keys/AirPressure.php:43
 msgid "Air pressure"
@@ -1155,6 +1156,9 @@ msgid ""
 "calculated as the ratio of speed to power. The greater its value, the more "
 "'effective' the runner is at converting external power into speed."
 msgstr ""
+"Løpseffektivitet (RE) er et måltall introdusert av Dr. Andrew Coggan som er "
+"beregnet som forholdet mellom hastighet og kraft. Jo større verdi, jo mer \""
+"effektiv\" er løperen på å konvertere ekstern kraft til fart."
 
 #: inc/core/Dataset/Keys/WindChill.php:43
 msgid "Windchill"
@@ -1182,7 +1186,7 @@ msgstr "Swolf"
 
 #: inc/core/Dataset/Keys/SocialShare.php:51
 msgid "Social Sharing"
-msgstr ""
+msgstr "Sosial deling"
 
 #: inc/core/Dataset/Keys/SocialShare.php:138
 #: inc/core/Export/Share/Twitter.php:55
@@ -1205,12 +1209,12 @@ msgstr "Modul"
 
 #: inc/core/Dataset/Keys/SocialShare.php:142 inc/core/Export/Share/Image.php:41
 msgid "Image"
-msgstr ""
+msgstr "Bilde"
 
 #: inc/core/Dataset/Keys/SocialShare.php:143
 #: inc/core/Export/Share/StoryImage.php:20
 msgid "Story Image"
-msgstr ""
+msgstr "Bildefortelling"
 
 #: inc/core/Dataset/Keys/FitRecoveryTime.php:43
 #: inc/core/Dataset/Keys/FitRecoveryTime.php:52
@@ -2274,12 +2278,11 @@ msgstr "Passord for import fra e-post"
 
 #: inc/core/Configuration/Category/Import.php:81
 msgid "required"
-msgstr ""
+msgstr "nødvendig"
 
 #: inc/core/Configuration/Category/Import.php:82
-#, fuzzy
 msgid "Add this password to the subject of your mail"
-msgstr "Legg dette passordet til subjektet i e-posten din"
+msgstr "Legg dette passordet til tittelen i e-posten din"
 
 #: inc/core/Configuration/Category/Import.php:85
 msgid "The mail must be sent from the mail address defined in your account."
@@ -2712,9 +2715,8 @@ msgid "Please adjust your maximal heart rate."
 msgstr "Vennligst juster din maksimale hjertefrekvens."
 
 #: inc/core/View/Activity/Box/Power.php:14
-#, fuzzy
 msgid "avg. Power"
-msgstr "Kraft"
+msgstr "gjennomsnittlig kraft"
 
 #: inc/core/View/Activity/Box/TotalCadence.php:28
 msgid "Number of steps"
@@ -2759,9 +2761,8 @@ msgid "Show inactive splits"
 msgstr "Vis ikke-aktive deldistanser"
 
 #: inc/core/View/Window/Laps/Window.php:392
-#, fuzzy
 msgid "Save laps for activity"
-msgstr "Søk etter en aktivitet"
+msgstr "Lagre runder for aktiviteten"
 
 #: inc/core/View/Window/Laps/Form.php:41
 msgid "Calculate laps"
@@ -2822,7 +2823,6 @@ msgid "Pace goal"
 msgstr "Tempomål"
 
 #: inc/core/View/Window/Laps/Form.php:132
-#, fuzzy
 msgid ""
 "Calculate values for handmade splits although total duration does not match."
 msgstr ""
@@ -2830,16 +2830,16 @@ msgstr ""
 "stemmer."
 
 #: inc/core/View/Window/Laps/Form.php:133
-#, fuzzy
 msgid ""
 "The total duration of the manual laps differs from the duration of the "
 "activity."
 msgstr ""
-"Den totale distansen av selvvalgte runder er forskjellig fra gps-distansen."
+"Den totale varigheten av selvvalgte runder er forskjellig fra varigheten av "
+"aktiviteten."
 
 #: inc/core/View/Window/Laps/Form.php:136
 msgid "The activity was therefore split according to the lap distances."
-msgstr ""
+msgstr "Aktiviteten ble derfor delt i henhold til rundedistansene."
 
 #: inc/core/View/Window/Laps/Form.php:139
 msgid ""
@@ -3011,7 +3011,7 @@ msgstr "Maksimal anstrengelse"
 
 #: inc/core/Data/Weather/UvIndex.php:39
 msgid "UV Index"
-msgstr ""
+msgstr "UV indeks"
 
 #: inc/core/Data/Weather/CardinalDirection.php:72
 #: inc/core/Data/Weather/CardinalDirection.php:76
@@ -3210,7 +3210,7 @@ msgstr "Beuforts skala"
 
 #: inc/core/Data/Weather/Ozone.php:39
 msgid "Ozone"
-msgstr ""
+msgstr "Ozon"
 
 #: inc/draw/class.Plot.php:145
 msgid "There is an unknown problem with this plot."
@@ -3371,6 +3371,8 @@ msgid ""
 "This value is based on the pure race result and does not take the heart rate "
 "into account."
 msgstr ""
+"Denne verdien er basert utelukkende på løpresultatet og tar ikke hensyn til "
+"hjertefrekvensen."
 
 #: inc/training/view/section/class.SectionMiscellaneousRow.php:386
 #: plugin/RunalyzePluginStat_Wettkampf/class.RunalyzePluginStat_Wettkampf.php:401
@@ -3462,7 +3464,7 @@ msgstr "spm"
 
 #: inc/training/view/section/table/class.TableLapsComputed.php:67
 msgid "elev."
-msgstr "elev."
+msgstr "høyde"
 
 #: inc/training/view/section/class.SectionOverview.php:17
 msgid "Overview"
@@ -3477,7 +3479,6 @@ msgid "Running Dynamics"
 msgstr "Løpsdynamikk"
 
 #: inc/training/view/section/class.SectionHRVRow.php:30
-#, fuzzy
 msgid "R-R intervals"
 msgstr "R-R intervaller"
 
@@ -4348,7 +4349,6 @@ msgid "based on heart rate"
 msgstr "basert på puls"
 
 #: plugin/RunalyzePluginPanel_Rechenspiele/class.RunalyzePluginPanel_Rechenspiele.php:451
-#, fuzzy
 msgid "Target miles per week"
 msgstr "Mål kilometer per uke"
 
@@ -4646,9 +4646,8 @@ msgstr "Dine bratteste aktiviteter og en oversikt over din samlede høydemeter."
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:59
 #: plugin/RunalyzePluginStat_Tag/class.RunalyzePluginStat_Tag.php:123
 #: plugin/RunalyzePluginStat_Analyse/class.RunalyzePluginStat_Analyse.php:319
-#, fuzzy
 msgid "Show histograms"
-msgstr "Vis serie"
+msgstr "Vis histogrammer"
 
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:69
 #: plugin/RunalyzePluginStat_Hoehenmeter/class.RunalyzePluginStat_Hoehenmeter.php:143
@@ -5163,13 +5162,12 @@ msgid "Longest activities"
 msgstr "Lengste aktiviteter"
 
 #: plugin/RunalyzePluginPanel_SpeedRecommendation/class.RunalyzePluginPanel_SpeedRecommendation.php:12
-#, fuzzy
 msgid "Training paces"
-msgstr "Treningstyper"
+msgstr "Treningstempoer"
 
 #: plugin/RunalyzePluginPanel_SpeedRecommendation/class.RunalyzePluginPanel_SpeedRecommendation.php:17
 msgid "Training pace suggestions based on your current shape."
-msgstr ""
+msgstr "Forslag til treningstempoer basert på din nåværende form."
 
 #: plugin/RunalyzePluginStat_Statistiken/class.RunalyzePluginStat_Statistiken.php:46
 msgid "Monthly and weekly summaries for all sports"
@@ -5436,9 +5434,8 @@ msgstr "Relasjon: merkelapp til aktiviteter"
 
 #: src/CoreBundle/Component/Account/Registration.php:99
 #: src/CoreBundle/Component/Account/Registration.php:248
-#, fuzzy
 msgid "Running Shoes"
-msgstr "Løpstabeller"
+msgstr "Løpesko"
 
 #: src/CoreBundle/Component/Account/Registration.php:100
 #: src/CoreBundle/Component/Account/Registration.php:247
